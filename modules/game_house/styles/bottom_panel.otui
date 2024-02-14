@@ -1,0 +1,591 @@
+GameHouseMainBottomPanel < UIWidget
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  height: 210
+  image-source: /images/ui/windows/house/main_bottom_panel_background
+
+  GameHouseMainBottomPanelTopEdge
+  GameHouseMainBottomPanelLeftPanel
+    GameHouseMainBottomPanelLeftPanelButton
+      id: farm
+    GameHouseHorizontalSeparator
+    GameHouseMainBottomPanelLeftPanelButton
+      id: rooms
+    GameHouseHorizontalSeparator
+    GameHouseMainBottomPanelLeftPanelButton
+      id: decoration
+    GameHouseHorizontalSeparator
+    GameHouseMainBottomPanelLeftPanelCurrencyHolder
+  GameHouseVerticalSeparator
+    anchors.right: left_panel.right
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+
+  GameHouseMainBottomPanelMiddlePanel
+
+  GameHouseMainBottomPanelRightPanel
+  GameHouseVerticalSeparator
+    anchors.right: right_panel.left
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+
+GameHouseMainBottomPanelTopEdge < UIWidget
+  id: edge
+  image-source: /images/ui/windows/house/main_bottom_panel_top_edge
+  height: 5
+  image-offset: 0 -5
+  anchors.left: parent.left
+  anchors.top: parent.top
+  anchors.right: parent.right
+
+GameHouseMainBottomPanelLeftPanel < UIWidget
+  id: left_panel
+  anchors.left: parent.left
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  width: 194
+  layout:
+    type: verticalBox
+
+GameHouseVerticalSeparator < UIWidget
+  image-source: /images/ui/windows/house/vertical_separator
+  width: 3
+
+GameHouseHorizontalSeparator < UIWidget
+  image-source: /images/ui/windows/house/horizontal_separator
+  height: 2
+
+GameHouseMainBottomPanelLeftPanelButton < UIWidget
+  height: 53
+  background-color: alpha
+  $on:
+    background-color: #16191a
+  $hover:
+    background-color: #16191a
+  @onStateChange: |
+    for _, child in ipairs(self:getChildren()) do
+      child:setOn(self:isOn())
+    end
+    self.selected_gem:setOn(self:isOn())
+  @onClick: |
+    modules.game_house.GameHouse:selectMenuWidget(self)
+  UIWidget
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 20
+    size: 30 30
+    phantom: true
+    image-color: #7e828b
+    $on:
+      image-color: #e2e2e2
+    @onSetup: |
+      local parentId = self:getParent():getId()
+      if parentId ~= '' then
+        self:setImageSource(string.format('/images/ui/windows/house/%s_icon', parentId))
+        local width = self:getImageTextureWidth()
+        local height = self:getImageTextureHeight()
+        self:setImageSize({width = width, height =  height})
+        self:setImageOffset({x = (self:getWidth() - width) / 2, y = (self:getHeight() - height) / 2})
+      end
+  UIWidget
+    id: name
+    phantom: true
+    anchors.left: prev.right
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: left
+    font: poppins-semibold-13
+    margin-left: 10
+    text-color: #7e828b
+    $on:
+      text-color: #e2e2e2
+    @onSetup: |
+      self:setText(self:getParent():getId():titleCase())
+  UIWidget
+    id: selected_gem
+    phantom: true
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 15
+    size: 21 21
+    image-source: /images/ui/windows/house/selected_gem_empty_icon
+    $on:
+      image-source: /images/ui/windows/house/selected_gem_icon
+
+GameHouseMainBottomPanelLeftPanelCurrencyHolder < UIWidget
+  height: 45
+  id: currency_holder
+  layout:
+    type: horizontalBox
+    spacing: 0
+
+  GameHouseMainBottomPanelLeftPanelEffort
+  GameHouseMainBottomPanelLeftPanelSilver
+
+  @onVisibilityChange: |
+    if self:isVisible() then
+      addEvent(function()
+        local width = 0
+        for _, child in ipairs(self:getChildren()) do
+          if child:isVisible() then
+            width = width + child:getWidth()
+          end
+        end
+        self:setWidth(width)
+        self:setMarginLeft((self:getParent():getWidth() - width))
+      end)
+    end
+
+GameHouseMainBottomPanelLeftPanelSilver < UIWidget
+  id: silver_amount
+  size: 95 45
+  &refresh: |
+    function(self)
+      if self:isVisible() then
+        -- offset first children to center all children
+        local firstChild = self:getFirstChild()
+        local width = 0
+        for _, child in ipairs(self:getChildren()) do
+          if child:isVisible() then
+            width = width + child:getWidth() + child:getMarginLeft()
+          end
+        end
+        firstChild:setMarginLeft((self:getWidth() - width) / 2)
+      end
+    end
+  @onVisibilityChange: |
+    addEvent(function() self:refresh() end)
+  UIWidget
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/icons/silver_24
+    size: 24 24
+  UIWidget
+    id: value
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: left
+    font: poppins-semibold-13
+    text-color: #e2e2e2
+    text-auto-resize: true
+    margin-left: 6
+    @onSetup: |
+      self:setText('1337')
+      self:setOn(false)
+    @onTextChange: |
+      -- format number to have comma separators
+      local text = self:getText()
+      local formatted = ''
+      local count = 0
+      for i = text:len(), 1, -1 do
+        formatted = text:sub(i, i) .. formatted
+        count = count + 1
+        if count == 3 and i > 1 then
+          formatted = ',' .. formatted
+          count = 0
+        end
+      end
+      self:setText(formatted, true)
+      addEvent(function() self:getParent():refresh() end)
+
+GameHouseMainBottomPanelLeftPanelEffort < UIWidget
+  id: effort_amount
+  size: 95 45
+  visible: true
+  &refresh: |
+    function(self)
+      if self:isVisible() then
+        -- offset first children to center all children
+        local firstChild = self:getFirstChild()
+        local width = 0
+        for _, child in ipairs(self:getChildren()) do
+          if child:isVisible() then
+            width = width + child:getWidth() + child:getMarginLeft()
+          end
+        end
+        firstChild:setMarginLeft((self:getWidth() - width) / 2)
+      end
+    end
+  @onVisibilityChange: |
+    addEvent(function() self:refresh() end)
+  UIWidget
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/house/effort_icon
+    size: 18 18
+    phantom: true
+  UIWidget
+    id: value
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: left
+    font: poppins-semibold-13
+    text-color: #FFA851
+    text-auto-resize: true
+    margin-left: 6
+    phantom: true
+    @onTextChange: |
+      -- format number to have comma separators
+      local text = self:getText()
+      local formatted = ''
+      local count = 0
+      for i = text:len(), 1, -1 do
+        formatted = text:sub(i, i) .. formatted
+        count = count + 1
+        if count == 3 and i > 1 then
+          formatted = ',' .. formatted
+          count = 0
+        end
+      end
+      self:setText(formatted, true)
+      addEvent(function() self:getParent():refresh() end)
+
+GameHouseMainBottomPanelRightPanel < UIWidget
+  id: right_panel
+  width: 85
+  anchors.right: parent.right
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  layout:
+    type: verticalBox
+    spacing: 15
+
+  GameHouseMainBottomPanelRightPanelButton
+    id: floor_up_button
+    &iconPath: '/images/ui/windows/house/floor_up_icon'
+    @onClick: g_game.setHouseFloor(math.max(modules.game_interface.getMapPanel().maxFloors or 0, g_game.getHouseFloor()-1))
+    &tooltip: tr('Upper Floor')
+  GameHouseMainBottomPanelRightPanelButton
+    id: floor_down_button
+    &iconPath: '/images/ui/windows/house/floor_down_icon'
+    size: 50 50
+    @onClick: g_game.setHouseFloor(math.max(modules.game_interface.getMapPanel().maxFloors or 0, g_game.getHouseFloor()+1))
+    &tooltip: tr('Lower Floor')
+  GameHouseMainBottomPanelRightPanelButton
+    size: 50 50
+    id: destroy_button
+    &iconPath: '/images/ui/windows/house/destroy_icon'
+    @onClick: modules.game_interface.startItemRemoving()
+    &tooltip: tr('Remove')
+
+GameHouseMainBottomPanelRightPanelButton < PrimaryButton
+  $first:
+    margin-top: 15
+  margin-left: 17
+  margin-right: 17
+
+GameHouseMainBottomPanelMiddlePanel < UIWidget
+  id: middle_panel
+  anchors.left: left_panel.right
+  anchors.right: right_panel.left
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+
+  GameHouseMainBottomPanelMiddlePanelFilterPanel
+
+  GameHouseMainBottomPanelMiddlePanelContent
+  GameHouseMainBottomPanelMiddlePanelContentScrollBar
+
+GameHouseMainBottomPanelMiddlePanelFilterPanel < UIWidget
+  id: filter_panel
+  anchors.left: parent.left
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  background-color: #151818
+  width: 60
+  layout:
+    type: verticalBox
+
+  &mode: 'farm'
+  &modes: |
+    {
+      ['rooms'] = {
+        'bedroom',
+        'blacksmithing',
+        'weaving',
+        'cooking',
+        'carpentry',
+        'storage',
+      },
+      ['farm'] = {
+        'farming',
+        'woodcutting',
+        'husbandry',
+        'breeding'
+      }
+    }
+  &refresh: |
+    function(self)
+      if not self.modes[self.mode] then
+        self:hide()
+        self:setWidth(0)
+        return
+      end
+      self:show()
+      self:setWidth(60)
+      local max_height = self:getHeight()
+      for index, child in ipairs(self:getChildren()) do
+        child:show()
+        child:setId(self.modes[self.mode][index])
+        child:refresh()
+        child:setTooltip(child:getId():titleCase())
+        child:setHeight(max_height / #self.modes[self.mode])
+      end
+
+      for index = #self.modes[self.mode] + 1, #self:getChildren() do
+        self:getChildByIndex(index):hide()
+      end
+    end
+
+  @onSetup: |
+    self:refresh()
+    if g_game.isRavenQuest() then
+      self.modes.farm[4] = nil -- remove breeding in RQ
+    end
+
+  GameHouseMainBottomPanelMiddlePanelFilterPanelButton
+  GameHouseMainBottomPanelMiddlePanelFilterPanelButton
+  GameHouseMainBottomPanelMiddlePanelFilterPanelButton
+  GameHouseMainBottomPanelMiddlePanelFilterPanelButton
+  GameHouseMainBottomPanelMiddlePanelFilterPanelButton
+  GameHouseMainBottomPanelMiddlePanelFilterPanelButton
+
+GameHouseMainBottomPanelMiddlePanelFilterPanelButton < UIWidget
+  height: 52
+  background-color: alpha
+  $on:
+    background-color: #1f2124
+  @onClick: |
+    modules.game_house.GameHouse:selectSubMenuWidget(modules.game_house.GameHouse.current_menu.widget, self:getId())
+  @onHoverChange: |
+    function(self, hovered)
+      g_tooltip.display(self)
+      self.highlight:setChecked(hovered)
+      self.icon:setChecked(hovered)
+    end
+  $hover:
+    background-color: #1f2124
+  @onStateChange: |
+    for _, child in ipairs(self:getChildren()) do
+      child:setOn(self:isOn())
+    end
+  &refresh: |
+    function(self)
+      self.icon:refresh()
+    end
+  UIWidget
+    id: icon
+    anchors.centerIn: parent
+    phantom: true
+    size: 30 30
+    image-color: #7e828b
+    $on:
+      image-color: #e2e2e2
+    $checked:
+      image-color: #e2e2e2
+    &refresh: |
+      function(self)
+        local parentId = self:getParent():getId()
+        if parentId ~= '' then
+          self:setImageSource(string.format('/images/ui/windows/house/%s_icon', parentId))
+          local width = self:getImageTextureWidth()
+          local height = self:getImageTextureHeight()
+          self:setImageSize({width = width, height =  height})
+          self:setImageOffset({x = (self:getWidth() - width) / 2, y = (self:getHeight() - height) / 2})
+        end
+      end
+
+  UIWidget
+    id: highlight
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    height: 29
+    width: 2
+    background-color: #36f991
+    visible: false
+    margin-right: -1
+    $on:
+      visible: true
+    $checked:
+      visible: true
+  
+GameHouseMainBottomPanelMiddlePanelContent < ScrollablePanel
+  id: content
+  anchors.left: filter_panel.right
+  anchors.right: parent.right
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  margin-left: 3
+  margin-right: 3
+  horizontal-scrollbar: content_scrollbar
+  layout:
+    type: horizontalBox
+    spacing: 40
+
+GameHouseMainBottomPanelMiddlePanelContentScrollBar < HorizontalScrollBar
+  id: content_scrollbar
+  anchors.bottom: parent.bottom
+  anchors.right: content.right
+  anchors.left: content.left
+  step: 50
+  pixels-scroll: true
+  margin-left: 5
+  margin-right: 5
+
+GameHouseMainBottomPanelMiddlePanelContentItem < UIWidget
+  size: 140 130
+  margin-top: 15
+  $first:
+    margin-left: 15
+  $last:
+    margin-right: 15
+  @onStateChange: |
+    for _, child in ipairs(self:getChildren()) do
+      child:setOn(self:isOn())
+    end
+
+  UIWidget
+    id: background
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 15
+    size: 140 130
+    image-border: 10
+    phantom: true
+    image-source: /images/ui/windows/house/list_item_background
+    $on:
+      image-source: /images/ui/windows/house/list_item_background_active
+    margin-bottom: 10
+
+  UIWidget
+    id: effort
+    anchors.verticalCenter: background.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    height: 28
+    width: 100
+    font: poppins-semibold-14
+    image-source: /images/ui/windows/house/list_item_price_background
+    image-border: 10
+    phantom: true
+    $on:
+      image-source: /images/ui/windows/house/list_item_price_background_active
+
+    UIWidget
+      id: value
+      anchors.left: effort_icon.right
+      margin-left: 10
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      font: poppins-semibold-14
+      text-auto-resize: true
+      text-color: #FFA851
+      $checked:
+        anchors.centerIn: parent
+        margin-left: 0
+      @onTextChange: |
+        -- center value and icon in parent widget
+        local parent = self:getParent()
+        local effort_icon = parent.effort_icon
+        local width = self:getWidth() + self:getMarginLeft() + (effort_icon and effort_icon:getWidth() or 0)
+        if effort_icon then
+          effort_icon:setMarginLeft((self:getParent():getWidth() - width) / 2)
+        end
+        -- format text to have comma separators
+        local text = self:getText()
+        if tonumber(text) then
+          local formatted = ''
+          local count = 0
+          for i = #text, 1, -1 do
+            formatted = text:sub(i, i) .. formatted
+            count = count + 1
+            if count == 3 and i ~= 1 then
+              formatted = ',' .. formatted
+              count = 0
+            end
+          end
+          self:setText(formatted, true)
+        end
+
+    UIWidget
+      id: effort_icon
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      size: 18 18
+      image-source: /images/ui/windows/house/effort_icon
+
+  UIItem
+    id: preview
+    anchors.centerIn: background
+    size: 64 64
+    phantom: true
+    virtual: true
+    $checked:
+      size: 110 110
+
+  UIWidget
+    id: price
+    anchors.verticalCenter: background.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    height: 28
+    width: 100
+    font: poppins-semibold-14
+    image-source: /images/ui/windows/house/list_item_price_background
+    image-border: 10
+    phantom: true
+    $on:
+      image-source: /images/ui/windows/house/list_item_price_background_active
+
+    UIWidget
+      id: value
+      anchors.left: silver_icon.right
+      margin-left: 10
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      font: poppins-semibold-14
+      text-auto-resize: true
+      $checked:
+        anchors.centerIn: parent
+        margin-left: 0
+      @onTextChange: |
+        -- center value and icon in parent widget
+        local parent = self:getParent()
+        local silver_icon = parent.silver_icon
+        local width = self:getWidth() + self:getMarginLeft() + (silver_icon and silver_icon:getWidth() or 0)
+        if silver_icon then
+          silver_icon:setMarginLeft((self:getParent():getWidth() - width) / 2)
+        end
+        -- format text to have comma separators
+        local text = self:getText()
+        if tonumber(text) then
+          local formatted = ''
+          local count = 0
+          for i = #text, 1, -1 do
+            formatted = text:sub(i, i) .. formatted
+            count = count + 1
+            if count == 3 and i ~= 1 then
+              formatted = ',' .. formatted
+              count = 0
+            end
+          end
+          self:setText(formatted, true)
+        end
+
+    UIWidget
+      id: silver_icon
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      size: 20 20
+      image-source: /images/ui/icons/silver_24
+
+  UIWidget
+    id: name
+    anchors.top: price.bottom
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    text-auto-resize: true
+    text-align: center
+    text-color: #e2e2e2
+    font: poppins-semibold-14
+    text: Pepega
+    phantom: true

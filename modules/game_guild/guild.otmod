@@ -1,0 +1,6 @@
+Module
+  name: game_guild
+  sandboxed: true
+  scripts: [ guild ]
+  @onLoad: GameGuild:init()
+  @onUnload: GameGuild:terminate()

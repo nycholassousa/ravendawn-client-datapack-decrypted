@@ -1,0 +1,127 @@
+GameCardsCollectionHeaderPanel < UIWidget
+  id: header_panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: parent.top
+  height: 40
+  image-source: /images/ui/windows/ravencards/collection/list_layout_title_background
+  image-border: 10
+  margin-right: 20
+  layout:
+    type: horizontalBox
+    spacing: 30
+  GameCardsCollectionHeaderPanelItem
+    id: collection
+  GameCardsCollectionHeaderPanelItem
+    id: packs
+  GameCardsCollectionHeaderPanelShards
+    id: shards
+
+GameCardsCollectionHeaderPanelItem < UIWidget
+  id: header_panel_item
+  size: 110 40
+  $first:
+    margin-left: 50
+  @onHoverChange: |
+    for _, child in ipairs(self:getChildren()) do
+      child:setChecked(self:isHovered())
+    end
+  @onClick: |
+    GameCards:selectPanel(self:getId())
+
+  UIWidget
+    id: holder
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    height: 40
+    phantom: true
+    layout:
+      type: horizontalBox
+      spacing: 10
+      fit-children: true
+
+    UIWidget
+      id: text
+      font: poppins-15
+      text-color: #7E828B
+      text-auto-resize: true
+      text-offset: 0 5
+      phantom: true
+      $on:
+        text-color: white
+      $checked:
+        text-color: white
+      @onSetup: |
+        function(self)
+          self:setText(self:getParent():getParent():getId():gsub("_", " "):titleCase())
+          self:setOn(self:getParent():getParent():getId() == 'collection')
+        end
+
+    UIWidget
+      id: count_box
+      visible: false
+      text-auto-resize: true
+      font: poppins-semibold-12
+      image-border: 5
+      phantom: true
+      text-offset: 0 1
+      image-source: /images/ui/windows/ravencards/collection/header_count_box
+      padding: 3
+      margin-top: 10
+      margin-bottom: 10
+      padding-bottom: 1
+      text: 123
+      text-color: #FBFB79
+      @onSetup: |
+        function(self)
+          if self:getParent():getParent():getId() == 'packs' then
+            self:show()
+          end
+        end
+
+  UIWidget
+    id: highlight
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    phantom: true
+    anchors.right: parent.right
+    height: 2
+    background-color: alpha
+    $on:
+      background-color: #36F991
+    $checked:
+      background-color: #36F991
+    @onSetup: |
+      function(self)
+        self:setOn(self:getParent():getId() == 'collection')
+      end
+
+GameCardsCollectionHeaderPanelShards < UIWidget
+  size: 80 40
+  margin-left: 700
+  @onSetup: |
+    if g_game.isRavenQuest() then
+      self:setVisible(false)
+    end
+  &tooltip: tr('RavenShards are automatically obtained when you open a pack with a duplicate of a card already in your collection. RavenShards can be used for upgrading your current RavenCards to unleash new potentials.')
+  &tooltipAlign: AlignLeftCenter
+
+  UIWidget
+    id: shards_icon
+    phantom: true
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/upgrade/shards
+    image-auto-resize: true
+
+  UIWidget
+    id: shards_count
+    phantom: true
+    anchors.left: shards_icon.right
+    anchors.verticalCenter: shards_icon.verticalCenter
+    margin-left: 5
+    text-offset: 0 7
+    text: NaN
+    font: poppins-16
+    text-color: #FFFFFF
+    text-auto-resize: true

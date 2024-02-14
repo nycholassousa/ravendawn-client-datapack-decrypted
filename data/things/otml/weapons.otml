@@ -1,0 +1,100 @@
+creatures
+  2057
+    main-weapon: true
+    weapontype: melee
+  2058
+    main-weapon: true
+    weapontype: melee
+  2059
+    main-weapon: true
+    weapontype: melee
+  2060
+    main-weapon: true
+    weapontype: melee
+  2061
+    main-weapon: true
+    weapontype: melee
+  2062
+    main-weapon: true
+    weapontype: melee
+  2063
+    main-weapon: true
+    weapontype: melee
+  2064
+    main-weapon: true
+    weapontype: melee
+  2065
+    main-weapon: true
+    weapontype: melee
+  2066
+    main-weapon: true
+    weapontype: ranged
+  2067
+    main-weapon: true
+    weapontype: ranged
+  2068
+    main-weapon: true
+    weapontype: ranged
+  2069
+    main-weapon: true
+    weapontype: melee
+  2070
+    main-weapon: true
+    weapontype: melee
+  2071
+    main-weapon: true
+    weapontype: melee
+  2072
+    main-weapon: true
+    weapontype: ranged
+  2073
+    main-weapon: true
+    weapontype: ranged
+  2074
+    main-weapon: true
+    weapontype: ranged
+  2075
+    off-weapon: true
+    weapontype: melee
+  2076
+    off-weapon: true
+    weapontype: melee
+  2077
+    off-weapon: true
+    weapontype: melee
+  2078
+    main-weapon: true
+    weapontype: melee
+  2079
+    main-weapon: true
+    weapontype: melee
+  2080
+    main-weapon: true
+    weapontype: melee
+  2081
+    main-weapon: true
+    weapontype: melee
+  2082
+    main-weapon: true
+    weapontype: melee
+  2083
+    main-weapon: true
+    weapontype: melee
+  2084
+    main-weapon: true
+    weapontype: ranged
+  2085
+    main-weapon: true
+    weapontype: ranged
+  2086
+    main-weapon: true
+    weapontype: ranged
+  2087
+    main-weapon: true
+    weapontype: melee
+  2088
+    main-weapon: true
+    weapontype: melee
+  2089
+    main-weapon: true
+    weapontype: melee

@@ -1,0 +1,234 @@
+GameTransportAttachedWindow < AttachedWindow
+  side: right
+  margin-top: 47
+  visible: false
+  size: 350 608
+  GameTransportAttachedWindowList
+  GameTransportAttachedWindowListScrollBar
+
+GameTransportAttachedWindowList < ScrollablePanel
+  id: outfit_list
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  margin: 20
+  margin-top: 60
+  vertical-scrollbar: outfit_list_scrollbar
+  layout:
+    type: grid
+    num-columns: 2
+    cell-size: 145 175
+    cell-spacing: 20 20
+
+GameTransportAttachedWindowListScrollBar < VerticalScrollBar
+  id: outfit_list_scrollbar
+  anchors.left: outfit_list.right
+  anchors.top: outfit_list.top
+  anchors.bottom: outfit_list.bottom
+  margin-left: 9
+  step: 48
+  pixels-scroll: true
+
+GameTransportAttachedWindowListButtonHolder < UIWidget
+  id: outfit_list_button_holder
+  size: 145 175
+  image-source: /images/ui/windows/character/outfit_list_background
+  image-border: 10
+  UICreature
+    id: outfit
+    anchors.fill: parent
+    size: 96 96
+    auto-resize: false
+    scale: 3
+    phantom: false
+    &tooltipEnabled: true
+    outfit-offset: 42 32
+    @onClick:|
+      modules.game_transport.GameTransport:selectTransport(self:getParent())
+
+  UIWidget
+    id: overlay
+    anchors.fill: parent
+    margin: 3
+    background-color: #000000
+    opacity: 0.8
+    visible: false
+    phantom: true
+
+  @onStateChange: |
+    self.check:setVisible(self:isOn())
+    self.border:setVisible(self:isOn())
+    self.overlay_text:setOn(self:isOn())
+  @onClick:|
+    modules.game_transport.GameTransport:selectTransport(self)
+
+  UIWidget
+    id: overlay_text
+    height: 30
+    font: poppins-12
+    text-align: center
+    text-offset: 0 4
+    margin: 4
+    background-color: #0d0e10
+    border-width-top: 1
+    border-color: #3a3d43
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    phantom: true
+    text: Unknown
+    color: #7E828B
+    visible: false
+    $on:
+      color: #CED2D9
+
+  UIWidget
+    id: check
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin: 10
+    image-source: /images/ui/windows/transport/icon_check
+    visible: false
+    $on:
+      image-source: /images/ui/windows/transport/icon_check_off
+
+  UIWidget
+    id: border
+    phantom: true
+    anchors.fill: parent
+    image-source: /images/ui/windows/transport/mount_border_selected
+    image-border: 5
+    margin: 3
+    visible: false
+
+GameTransportBondAttachedWindowList < ScrollablePanel
+  id: perks_list
+  anchors.fill: parent
+  anchors.top: parent.top
+  margin: 10
+  margin-top: 100
+  margin-right: 20
+  vertical-scrollbar: perks_list_scrollbar
+  layout:
+    type: verticalBox
+    spacing: 2
+
+GameTransportBondAttachedWindowListScrollBar < VerticalScrollBar
+  id: perks_list_scrollbar
+  anchors.left: perks_list.right
+  anchors.top: perks_list.top
+  anchors.bottom: perks_list.bottom
+  margin-left: 9
+  step: 48
+  pixels-scroll: true
+
+GameTransportBondAttachedWindowHeaderText < UIWidget
+  anchors.verticalCenter: parent.verticalCenter
+  font: poppins-semibold-14
+  text-color: #CED2D9
+  text-auto-resize: true
+  text-align: left
+
+GameTransportBondAttachedWindowHeaderSeparator < UIWidget
+  width: 1
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  background-color: #25272C
+
+GameTransportBondAttachedWindowHeader < Panel
+  id: perks_header
+  height: 40
+  anchors.bottom: perks_list.top
+  anchors.left: perks_list.left
+  anchors.right: perks_list.right
+  image-source: /images/ui/windows/transport/bond_background
+  image-border: 5
+  margin-bottom: 5
+  GameTransportBondAttachedWindowHeaderText
+    anchors.left: parent.left
+    text: Level
+    margin-left: 45
+  GameTransportBondAttachedWindowHeaderText
+    anchors.left: parent.horizontalCenter
+    text: Feature
+    margin-left: 10
+  GameTransportBondAttachedWindowHeaderSeparator
+    anchors.left: parent.left
+    margin-left: 10
+  GameTransportBondAttachedWindowHeaderSeparator
+    anchors.right: parent.right
+    margin-right: 10
+  GameTransportBondAttachedWindowHeaderSeparator
+    anchors.left: parent.left
+    margin-left: 113
+
+GameTransportBondAttachedWindow < AttachedWindow
+  side: right
+  margin-top: 47
+  visible: false
+  size: 350 608
+  GameTransportBondAttachedWindowList
+  GameTransportBondAttachedWindowListScrollBar
+  GameTransportBondAttachedWindowHeader
+  @onSetup: |
+    self:setTitle('Moa Bond Features')
+
+GameTransportBondEntryPanel < UIWidget
+  height: 52
+  background-color: #00000040
+  font: poppins-14
+  text-align: left
+  text-offset: 120 2
+  text-wrap: true
+  text-auto-resize: true
+  padding: 10
+  on: false
+  $on:
+    text-color: #CED2D9
+  $!on:
+    text-color: #7E828B
+  @onStateChange: |
+    local isOn = self:isOn()
+    for _, child in ipairs(self:getChildren()) do
+      child:setOn(isOn)
+    end
+
+  UIWidget
+    id: level
+    width: 90
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    margin-left: 10
+    font: poppins-semibold-14
+    text-align: left
+    text-offset: 35 2
+    icon-size: 24 24
+    icon-offset: 2 -2
+    icon-align: left
+    on: false
+    $on:
+      icon-source: /images/ui/windows/transport/icon_check
+      text-color: #FFFFFF
+    $!on:
+      icon-source: /images/ui/windows/transport/icon_lock
+      text-color: #FF5151
+
+  UIWidget
+    id: text
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    anchors.left: prev.right
+    anchors.right: parent.right
+    margin-left: 10
+    font: poppins-14
+    text-align: left
+    text-offset: 25 2
+    text-wrap: true
+    margin-right: 5
+    on: false
+    visible: false
+    $on:
+      text-color: #CED2D9
+    $!on:
+      text-color: #7E828B

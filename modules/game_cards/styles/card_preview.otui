@@ -1,0 +1,311 @@
+GameCardsCollectionPreviewPanel < UIWidget
+  size: 1060 737
+  anchors.centerIn: parent
+  margin-bottom: 20
+
+  UIWidget
+    id: arrow_prev
+    size: 21 36
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/collection/preview_arrow_left
+    opacity: 1.0
+    $disabled:
+      image-color: gray
+    $hover:
+      opacity: 0.75
+    $pressed:
+      opacity: 0.5
+    @onClick: |
+      modules.game_cards.GameCards:changeCollectionPreviewCard(-1)
+
+  GameCardsCollectionPreviewPanelDescription
+
+  Ravencard
+    id: card
+    size: 478 737
+    anchors.centerIn: parent
+    margin-right: 180
+
+  UIWidget
+    id: arrow_next
+    size: 21 36
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/collection/preview_arrow_right
+    opacity: 1.0
+    $hover:
+      opacity: 0.75
+    $pressed:
+      opacity: 0.5
+    $disabled:
+      image-color: gray
+    @onClick: |
+      modules.game_cards.GameCards:changeCollectionPreviewCard(1)
+
+GameCardsCollectionPreviewPanelDescription < UIWidget
+  id: description_panel
+  size: 371 630
+  &defaultHeight: 630
+  anchors.left: card.right
+  anchors.verticalCenter: card.verticalCenter
+  padding: 20
+  padding-right: 0
+  margin-top: 25
+  image-source: /images/ui/windows/ravencards/collection/preview_panel_description_background
+
+  UIWidget
+    id: edge_top
+    image-source: /images/ui/windows/ravencards/collection/preview_panel_description_edge_top
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    image-offset: -20 -20
+    image-size: 371 3
+    height: 3
+
+  UIWidget
+    id: name
+    height: 50
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: parent.top
+    font: poppins-semibold-20
+    text-align: top
+    text: Orc Necromancer
+    margin-right: 20
+
+  UIWidget
+    id: description_title
+    height: 40
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: name.bottom
+    font: poppins-semibold-15
+    image-source: /images/ui/windows/ravencards/collection/icon_effect
+    background-color: #111214
+    background-offset: -20 0
+    background-size: 371 40
+    text-offset: 32 1
+    image-size: 22 22
+    text: Effect
+    image-offset: 130 9
+    margin-right: 20
+
+  ScrollablePanel
+    id: description
+    height: 110
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: description_title.bottom
+    vertical-scrollbar: description_scrollbar
+    margin-right: 20
+    margin-top: 14
+    layout:
+      type: verticalBox
+
+    UIWidget
+      id: text
+      text-wrap: true
+      text-auto-resize: true
+      font: poppins-15-special
+      text-color: #CED2D9
+      @onTextChange: |
+        -- resize parent to fit text, up to 110px
+        local textHeight = self:getTextSize().height + 14
+        local parent = self:getParent()
+        local height = math.min(textHeight, 110)
+        parent:setHeight(height)
+        parent = parent:getParent()
+        parent:setHeight(parent.defaultHeight + height - 110)
+
+  VerticalScrollBar
+    id: description_scrollbar
+    anchors.top: description.top
+    anchors.right: parent.right
+    anchors.bottom: description.bottom
+    step: 48
+    pixels-scroll: true
+    margin-top: 5
+    margin-bottom: 5
+    margin-right: 10
+
+  UIWidget
+    id: lore_title
+    height: 40
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: description.bottom
+    font: poppins-semibold-15
+    image-source: /images/ui/windows/ravencards/collection/icon_lore
+    background-color: #111214
+    background-offset: -20 0
+    background-size: 371 40
+    text-offset: 32 1
+    image-size: 22 22
+    margin-right: 20
+    text: Lore
+    image-offset: 130 9
+
+  ScrollablePanel
+    id: lore
+    height: 110
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: lore_title.bottom
+    vertical-scrollbar: lore_scrollbar
+    margin-right: 20
+    margin-top: 14
+    layout:
+      type: verticalBox
+
+    UIWidget
+      id: text
+      text-wrap: true
+      text-auto-resize: true
+      text-align: top
+      font: poppins-15
+      text-color: #CED2D9
+      text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+  VerticalScrollBar
+    id: lore_scrollbar
+    anchors.top: lore.top
+    anchors.right: parent.right
+    anchors.bottom: lore.bottom
+    step: 48
+    pixels-scroll: true
+    margin-top: 5
+    margin-bottom: 5
+    margin-right: 10
+
+  HorizontalSeparator
+    id: separator
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: lore.bottom
+    margin-top: 14
+    margin-right: 20
+    height: 2
+
+  UIWidget
+    id: archetype_info
+    height: 32
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: separator.bottom
+    margin-top: 20
+    margin-right: 20
+
+    UIWidget
+      id: archetype
+      size: 120 32
+      anchors.right: parent.horizontalCenter
+      anchors.verticalCenter: parent.verticalCenter
+      image-source: /images/ui/icons/archetypes/45x45/warfare
+      font: poppins-semibold-13
+      text: Warfare
+      image-size: 32 32
+      text-offset: 40 0
+      text-align: left
+
+    UIWidget
+      id: skill
+      size: 150 40
+      anchors.left: parent.horizontalCenter
+      anchors.verticalCenter: parent.verticalCenter
+      image-source: /images/ui/icons/abilitybar/shieldbreak
+      font: poppins-semibold-13
+      text: Banner of protection
+      text-wrap: true
+      text-offset: 40 0
+      image-size: 32 32
+      image-offset: 0 4
+      text-align: left
+
+  UIWidget
+    id: rarity_info
+    anchors.bottom: close_view_button.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    image-source: /images/ui/windows/ravencards/collection/preview_panel_rarity_background
+    image-border: 5
+    margin-bottom: 15
+    height: 70
+    margin-right: 20
+
+    UIWidget
+      id: list
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.verticalCenter: parent.verticalCenter
+      height: 70
+      layout:
+        type: horizontalBox
+        fit-children: true
+
+      @onSetup: |
+        for i = CARD_RARITY_START, CARD_RARITY_END do
+          local widget = g_ui.createWidget('GameCardsCollectionPreviewPanelRarityIcon', self)
+          widget:setId(i)
+          widget.icon:update()
+        end
+
+  NeutralButton
+    id: close_view_button
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    text: Close View
+    width: 150
+    margin-right: 10
+    @onClick: |
+      modules.game_cards.GameCards:displayCollectionPreview()
+
+  UIWidget
+    id: edge_bottom
+    image-source: /images/ui/windows/ravencards/collection/preview_panel_description_edge_bottom
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    image-offset: -20 19
+    image-size: 371 3
+    height: 3
+
+GameCardsCollectionPreviewPanelRarityIcon < UIWidget
+  size: 40 60
+  image-source: /images/ui/windows/ravencards/collection/preview_panel_rarity_highlight
+  image-auto-resize: true
+  opacity: 0.5
+  $on:
+    opacity: 1
+  $hover:
+    opacity: 0.75
+  $hover on:
+    opacity: 1
+  $!on:
+    image-source: 
+  UIWidget
+    id: icon
+    size: 26 34
+    phantom: true
+    anchors.centerIn: parent
+    $disabled:
+      image-source: /images/ui/ravencards/gem_disabled
+    &update: |
+      function(self)
+        if not self:isDisabled() then
+          self:setImageSource('/images/ui/ravencards/gem_' .. self:getParent():getId())
+        else
+          self:setImageSource('/images/ui/ravencards/gem_disabled')
+        end
+      end
+  @onClick: |
+    local parent = self:getParent()
+    -- only 1 rarity can be selected
+    for i = CARD_RARITY_START, CARD_RARITY_END do
+      local widget = parent:getChildById(i)
+      if widget ~= self then
+        widget:setOn(false)
+      end
+    end
+    self:setOn(true)
+    self.updateCard()

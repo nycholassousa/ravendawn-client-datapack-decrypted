@@ -1,0 +1,372 @@
+// Hookmasks
+creatures
+  // Hookmask Knave
+  2602
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3567
+  3567
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  //Hookmask Thug
+  2603
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3568
+  3568
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  //Hookmask Enforcer
+  2604
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3569
+  3569
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  //Hookmask Killer
+  2605
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3570
+  3570
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  //Captain Boone
+  2606
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3571
+  3571
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  //Captain Krugg
+  2607
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3566
+  3566
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  //Hookmask Rager
+  5054
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5053
+  5053
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 80
+      1: 120
+      2: 120
+      3: 100
+      4: 80
+      5: 80
+      6: 100
+      7: 100
+
+  //Hookmask Slinger
+  5091
+    creature-offset: 38 38
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 700
+    attack-animation-type: 0
+    attack-animation:
+      0: 5090
+  5090
+    animate-from-start: true
+    creature-offset: 38 38
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  //Hookmask Doctor
+  5103;5104
+    creature-offset: 38 38
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5102
+  5102
+    animate-from-start: true
+    creature-offset: 38 38
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  //Project 619
+  5107
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 5106
+  5106;5105
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  //Hookmask Unleashed
+  5116
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5115
+  5115
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 50
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+
+
+  //Reiner Blitz
+  5140
+    creature-offset: 38 38
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5139
+  5138;5139
+    animate-from-start: true
+    creature-offset: 38 38
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  //Grandmeister Krieger
+  5154;5156
+    creature-offset: 38 38
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5155
+  5155
+    animate-from-start: true
+    creature-offset: 38 38
+
+  //Captain Klaus
+  5207
+    creature-offset: 38 38
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5206
+  5206
+    animate-from-start: true
+    creature-offset: 38 38
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8

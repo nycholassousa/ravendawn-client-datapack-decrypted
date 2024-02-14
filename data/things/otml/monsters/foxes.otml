@@ -1,0 +1,256 @@
+// Foxes
+creatures
+  // Firerock Cub
+  1920
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    step-sound-type: 2
+    attack-animation:
+      0: 3965
+  3965
+    creature-offset: 16 16
+    animate-from-start: true
+
+  // Firerock Kit
+  1926
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 6
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 6
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 3966
+  3966
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Firerock Ninetails
+  1930
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 3964
+  3964
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Morningfox Cub
+  1922
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    step-sound-type: 2
+    attack-animation:
+      0: 3969
+  3969
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    animate-from-start: true
+
+  // Morningfox Kit
+  1928
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 6
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 6
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 3970
+  3970
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Morningfox Ninetails
+  1932
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 3971
+  3971
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Shadow/Colstone fox Cub Old
+  1921
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 8 8
+
+  // Shadow/Coldstone fox Kit Old
+  1927
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+
+  // Shadow/Coldstone fox Ninetails Old
+  1931
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 23 23
+
+  // Shadowfox Cub
+  4763
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    step-sound-type: 2
+    attack-animation:
+      0: 4762
+  4762
+    creature-offset: 16 16
+    animate-from-start: true
+
+  // Shadowfox Kit
+  4765
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 6
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 6
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 4764
+  4764
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Shadowfox Ninetails
+  4767
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 4766
+  4766
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Golden Cub
+  3193
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    step-sound-type: 2
+    attack-animation:
+      0: 5559
+  5559
+    creature-offset: 16 16
+    animate-from-start: true
+
+  // Golden Kit
+  3194
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 6
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 6
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 5560
+  5560
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Golden Ninetails
+  3195
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 5561
+  5561
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Coldstone Cub
+  4773
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    step-sound-type: 2
+    attack-animation:
+      0: 4772
+  4772
+    creature-offset: 16 16
+    animate-from-start: true
+
+  // Coldstone Kit
+  4775
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 6
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 6
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 4774
+  4774
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Coldstone Ninetails
+  4777
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    step-sound-type: 3
+    attack-animation:
+      0: 4776
+  4776
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Howling animations
+  5307;5309;5311;5313
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 6
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 6
+  5308;5310;5312;5314;5333
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    

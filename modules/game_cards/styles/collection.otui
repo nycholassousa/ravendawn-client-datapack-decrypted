@@ -1,0 +1,16 @@
+GameCardsCollectionWindow < MainWindow
+  id: gameCardsCollectionWindow
+  size: 1160 740
+  &title: 'RavenCards'
+  &shortcut: 'G'
+  &iconName: 'icon_ravencards'
+  &isGeneralUIWindow: true
+  anchors.centerIn: parent
+  MainWindowContent
+    padding-right: 0
+    padding-bottom: 10
+    padding-top: 10
+    GameCardsCollectionHeaderPanel
+    GameCardsCollectionFilterPanel
+    GameCardsViewPanel
+    GameCardsUpgradePanel

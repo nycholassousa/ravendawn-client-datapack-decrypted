@@ -1,0 +1,85 @@
+ArenaLoadoutArchetypeButton < UIWidget
+  size: 135 125
+  image-source: /images/ui/windows/arena/archetype_button_off
+  $on:
+    image-source: /images/ui/windows/arena/archetype_button_on
+    text-color: #e7b131
+  $!on:
+    image-source: /images/ui/windows/arena/archetype_button_off
+    text-color: white
+  UIWidget
+    id: icon
+    size: 60 60
+    image-source: /images/ui/icons/archetypes/90x90/archery
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    margin-top: 20
+  UIWidget
+    id: name
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 5
+    text: Archetype
+    font: myriad-pro-semibold-20
+    text-auto-resize: true
+
+ArenaLoadoutWindow < UIWindow
+  id: arenaLoadoutWindow
+  size: 1700 840
+  image-border: 10
+  anchors.centerIn: parent
+  focusable: false
+  visible: false
+  @onEscape: self:hide()
+
+  CloseButton
+    @onClick: self:getParent():hide()
+
+  UIWidget
+    id: content
+    anchors.fill: parent
+    margin: 8
+    padding: 20
+    phantom: true
+
+    UIWidget
+      id: toprow
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      border: 1 blue
+      height: 100
+      margin-left: 20
+      margin-right: 20
+      margin-top: 10
+
+    UIWidget
+      margin-left: 20
+      margin-top: 40
+      anchors.left: parent.left
+      anchors.top: toprow.bottom
+      anchors.bottom: parent.bottom
+      width: 135
+      id: columnleft
+      layout: verticalBox
+        spacing: 30
+
+    UIWidget
+      margin-left: 30
+      anchors.left: prev.right
+      anchors.top: prev.top
+      anchors.bottom: parent.bottom
+      border: 1 green
+      width: 1275
+      id: columnmiddle
+      ArcheryPanel
+
+    UIWidget
+      margin-right: 20
+      anchors.right: parent.right
+      anchors.top: prev.top
+      anchors.bottom: parent.bottom
+      width: 135
+      id: columnright
+      layout: verticalBox
+        spacing: 30

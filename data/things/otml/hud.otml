@@ -1,0 +1,35 @@
+hud
+  game-colors:
+    // names
+    npc-name: #34abeb
+    covered-name: #606060
+    player-name:
+      default: #ffd900
+      client: #ffd900
+      gamemaster: #B87AFF
+      party: #34d8eb
+      guild: #77D463
+    monster-name:
+      default: #ff7373
+      summon: #f3f3f3
+      weak: #b3b3b3
+      normal: #87c72c
+      high: #fc8c08
+      boss: #fc8c08
+
+    // bars
+    creature-bars:
+      health: #e9261f
+      mana: #1b88d9
+      background: #3e2415
+
+  game-numbers:
+    // monster levels
+    level-difference: 5
+
+  game-fonts:
+    player-name: poppins-heavy-bordered-14
+    player-title: poppins-heavy-bordered-12
+    animated-text: myriad-pro-semibold-16
+    static-text: eras-bold-12
+    status-icon: eras-bold-12

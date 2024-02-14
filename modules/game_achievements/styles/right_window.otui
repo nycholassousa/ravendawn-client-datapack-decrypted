@@ -1,0 +1,233 @@
+GameAchievementsRightAttachedWindow < AttachedWindow
+  side: right
+  margin-top: 47
+  visible: false
+  size: 350 608
+  GameAchievementsRightPanelTopPanel
+  GameAchievementsRightPanelRewardsPanel
+
+GameAchievementsRightPanelTopPanel < UIWidget
+  id: panel_top
+  height: 170
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-top: 40
+  GameAchievementsRightPanelTopPanelProgressPanel
+  GameAchievementsRightPanelTopPanelDescription
+
+GameAchievementsRightPanelTopPanelProgressPanel < UIWidget
+  id: panel_progress
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 55
+  padding-left: 28
+  padding-right: 28
+  GameAchievementsRightPanelTopPanelLevelProgress
+  GameAchievementsRightPanelTopPanelLevelRect
+  GameAchievementsRightPanelTopPanelTitle
+
+GameAchievementsRightPanelTopPanelLevelProgress < UIWidget
+  id: achievements
+  size: 447 9
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-top: 45
+  image-border: 3
+  image-source: /images/ui/windows/character/level_progress_background
+
+  UIProgressBar
+    id: progress
+    anchors.fill: parent
+    size: 447 3
+    margin-top: 3
+    margin-bottom: 4
+    margin-left: 3
+    margin-right: 3
+    background-color: #36f991
+
+GameAchievementsRightPanelTopPanelLevelRect < UIWidget
+  id: progress_percent
+  size: 50 30
+  anchors.right: achievements.right
+  anchors.top: achievements.top
+  text: 65%
+  font: poppins-13
+  text-offset: 0 0
+  margin-top: -30
+  margin-right: -10
+
+GameAchievementsRightPanelTopPanelTitle < UIWidget
+  id: name
+  anchors.left: achievements.left
+  anchors.verticalCenter: progress_percent.verticalCenter
+  text: Name
+  font: poppins-semibold-14
+  text-offset: 10 0
+  text-auto-resize: true
+  text-color: #a6aab2
+  phantom: true
+  margin-left: -10
+
+GameAchievementsRightPanelTopPanelDescription < UIWidget
+  id: description
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  height: 90
+  margin-top: 20
+  margin-left: 28
+  margin-right: 28
+  text: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  font: poppins-14
+  text-offset: 0 0
+  text-color: #a6aab2
+  text-wrap: true
+  text-align: top
+  phantom: true
+
+GameAchievementsRightPanelRewardsPanel < UIWidget
+  id: rewards_panel
+  anchors.top: panel_top.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  text: Rewards
+  font: poppins-semibold-15
+  text-color: #36f991
+  background-color: #191a1d
+  background-size: 350 30
+  text-offset: 0 5
+  text-align: top
+  padding: 50 0 0 28
+  GameAchievementsRightPanelRewardsItem
+  GameAchievementsRightPanelTaskList
+  GameAchievementsRightPanelTaskListScrollBar
+
+GameAchievementsRightPanelRewardsItem < UIWidget
+  id: total_reward
+  height: 50
+  image-source: /images/ui/windows/achievements/scroll_area_item_background
+  image-border: 5
+  margin-right: 28
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+
+  UIWidget
+    id: amount
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/achievements/amount_background
+    image-border: 3
+    height: 35
+    anchors.left: parent.left
+    margin-left: 20
+    text: 12.25/16.25
+    font: poppins-semibold-16
+    text-offset: 0 2
+    text-color: #a6aab2
+    text-auto-resize: true
+    padding: 5
+    padding-left: 20
+    padding-right: 20
+  
+  UIWidget
+    id: icon
+    anchors.verticalCenter: parent.verticalCenter
+    size: 35 35
+    anchors.left: amount.right
+    margin-left: 10
+    image-source: /images/ui/windows/achievements/sunbreak-token
+
+  UIWidget
+    id: name
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: icon.right
+    text: SBT
+    font: poppins-semibold-16
+    text-offset: 0 2
+    margin-left: 10
+    text-auto-resize: true
+    text-color: #a6aab2
+
+GameAchievementsRightPanelTaskList < UIScrollArea
+  id: task_list
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  scroll-bar: false
+  vertical-scrollbar: task_list_scrollbar
+  margin-bottom: 5
+  text: Task List
+  font: poppins-semibold-15
+  text-color: #a6aab2
+  text-align: top-left
+  text-offset: 0 15
+  background-color: #1f2124
+  background-offset: 0 50
+  background-size: 295 300
+  padding-top: 55
+  margin-bottom: 20
+  layout:
+    type: verticalBox
+    spacing: 10
+
+GameAchievementsRightPanelTaskListScrollBar < VerticalScrollBar
+  id: task_list_scrollbar
+  anchors.right: parent.right
+  anchors.top: task_list.top
+  anchors.bottom: task_list.bottom
+  margin-right: 10
+  margin-top: 50
+  step: 48
+  pixels-scroll: true
+
+GameAchievementsRightPanelTaskListItem < UIWidget
+  $first:
+    margin-top: 5
+  height: 35
+  margin-left: 30
+  phantom: true
+  CheckBoxSmall
+    id: checkbox
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    phantom: true
+
+  UIWidget
+    id: name
+    anchors.left: checkbox.right
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    margin-right: 100
+    text: Name
+    font: poppins-semibold-14
+    text-offset: 10 2
+    text-auto-resize: true
+    text-color: #a6aab2
+    phantom: true
+    text-align: left
+    text-wrap: true
+
+  UIWidget
+    id: reward
+    anchors.right: icon.left
+    anchors.verticalCenter: parent.verticalCenter
+    font: poppins-semibold-14
+    text-color: #77d463
+    margin-right: 5
+    text-offset: 0 2
+    text-align: right
+    text-auto-resize: true
+
+  UIWidget
+    id: icon
+    margin-right: 20
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 25 25
+    image-source: /images/ui/windows/achievements/sunbreak-token

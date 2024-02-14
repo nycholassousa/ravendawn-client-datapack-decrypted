@@ -1,0 +1,46 @@
+creatures
+  2018
+    main-hand: true
+    hand-empty: 2018
+    hand-melee: 2044
+    hand-ranged: 1979
+  2020
+    main-hand: true
+    hand-empty: 2020
+    hand-melee: 2046
+    hand-ranged: 1981
+  2021
+    main-hand: true
+    hand-empty: 2021
+    hand-melee: 2047
+    hand-ranged: 1982
+  2023
+    main-hand: true
+    hand-empty: 2023
+    hand-melee: 2049
+    hand-ranged: 1984
+  2024
+    main-hand: true
+    hand-empty: 2024
+    hand-melee: 2050
+    hand-ranged: 1985
+  2026
+    main-hand: true
+    hand-empty: 2026
+    hand-melee: 2052
+    hand-ranged: 1987
+  2027
+    main-hand: true
+    hand-empty: 2027
+    hand-melee: 2053
+    hand-ranged: 1988
+  2029
+    main-hand: true
+    hand-empty: 2029
+    hand-melee: 2055
+    hand-ranged: 1990
+  2030
+    main-hand: true
+    hand-empty: 2030
+    hand-melee: 2056
+    hand-ranged: 1991

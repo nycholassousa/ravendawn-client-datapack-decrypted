@@ -1,0 +1,32 @@
+GameRangersCompanyBountyWindow < MainWindow
+  size: 950 750
+  anchors.centerIn: parent
+  &title: 'Bounty Board'
+  &iconPath: '/images/ui/windows/rangers_company/icon_bounty_board'
+
+  MainWindowContent
+    padding-top: 0
+    padding-bottom: 0
+    padding-left: 18
+    padding-right: 18
+    GameRangersCompanyBountyWindowTopPanel
+    GameRangersCompanyBountyWindowBottomPanel
+
+GameRangersCompanyMainWindow < MainWindow
+  size: 1160 783
+  anchors.centerIn: parent
+  &title: 'Rangers Company'
+  &iconPath: '/images/ui/windows/rangers_company/icon_rangers_company'
+  &shortcut: 'B'
+  &isGeneralUIWindow: true
+
+  MainWindowContent
+    padding-top: 0
+    padding-left: 20
+    padding-right: 20
+    GameRangersCompanyMainWindowTopPanel
+    GameRangersCompanyMainWindowLeftPanel
+    GameRangersCompanyMainWindowMiddlePanel
+    GameRangersCompanyMainWindowMiddlePanelScrollBar
+    GameRangersCompanyMainWindowSplitter
+    GameRangersCompanyMainWindowRightPanel

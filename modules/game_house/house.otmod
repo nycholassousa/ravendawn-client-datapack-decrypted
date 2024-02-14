@@ -1,0 +1,6 @@
+Module
+  name: game_house
+  sandboxed: false
+  scripts: [ house ]
+  @onLoad: GameHouse:init()
+  @onUnload: GameHouse:terminate()

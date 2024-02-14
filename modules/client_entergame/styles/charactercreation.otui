@@ -1,0 +1,522 @@
+CharacterLabel < Label
+  color: #a6aab2
+  font: poppins-semibold-16
+  text-align: left
+  text-auto-resize: true
+
+CharacterCreationVerticalSeparator < UIWidget
+  id: vertical_sepator
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  width: 7
+  image-source: /images/ui/windows/entergame/characterCreation/edge_vertical
+
+CharacterCreationHorizontalSeparator < UIWidget
+  id: horizontal_sepator
+  anchors.left: parent.left
+  anchors.right: parent.right
+  width: 4
+  image-source: /images/ui/windows/entergame/characterCreation/edge_horizontal
+
+ArchetypeNameLabel < CharacterLabel
+  id: name
+  text-align: center
+  height: 40
+  color: #FFA851
+  font: poppins-24
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  text: name
+
+ArchetypeDescription < CharacterLabel
+  id: description
+  text-align: center
+  text-wrap: true
+  font: poppins-17
+  color: white
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: next.top
+  margin-left: 40
+  margin-right: 40
+  margin-top: 5
+  text: description
+
+CharacterCreationLeftPanel < Panel
+  id: left_panel
+  anchors.left: parent.left
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  width: 420
+
+  Panel
+    id: description_panel
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 10
+    
+    ArchetypeNameLabel
+      @onTextChange: |
+        function(self, text)
+          addEvent(function()
+            local parent = self:getParent()
+            local description = parent:getChildById('description')
+            parent:setHeight(description:getTextSize().height + 50)
+          end)
+        end
+    ArchetypeDescription
+
+  CharacterCreationHorizontalSeparator
+    anchors.bottom: next.top
+
+  UIWidget
+    id: archetype_image
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: description_panel.bottom
+    height: 647
+    image-fixed-ratio: true
+
+
+ArchetypeBox2 < UIWidget
+  size: 55 55
+  image-source: /images/ui/windows/entergame/characterCreation/box_archetype
+  
+  UIWidget
+    id: icon
+    size: 45 45
+    anchors.centerIn: parent
+    phantom: true
+    opacity: 0.5
+    $on:
+      opacity: 1.0
+
+  $on:
+    image-source: /images/ui/windows/entergame/characterCreation/box_archetype_active
+    
+  @onSetup: |
+    if self.iconName then
+      self.icon:setImageSource(string.format('/images/ui/icons/archetypes/45x45/%s', self.iconName))
+    end
+  
+  @onClick: CharacterCreation:selectArchetype(self)
+
+GenderButton < UIWidget
+  size: 50 50
+  image-source: /images/ui/windows/entergame/characterCreation/button_gender
+  $on:
+    image-source: /images/ui/windows/entergame/characterCreation/button_gender_active
+  
+  UIWidget
+    id: icon
+    anchors.centerIn: parent
+    phantom: true
+    $on:
+      image-color: black
+    $!on:
+      image-color: #a6aab2
+
+  @onSetup: |
+    if self.iconName then
+      self.icon:setImageSource(string.format('/images/ui/windows/entergame/characterCreation/%s', self.iconName))
+    end
+
+  @onStateChange: self.icon:setOn(self:isOn())
+  @onClick: CharacterCreation:updateGender(self)
+
+ArchetypesPanel < Panel
+  id: archetypes_panel
+  image-source: /images/ui/windows/entergame/characterCreation/input
+  anchors.top: prev.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  size: 558 80
+  padding: 13 13 13 13
+  image-border: 10
+  layout:
+    type: horizontalBox
+    spacing: 13
+  ArchetypeBox2
+    &iconName: 'archery'
+  ArchetypeBox2
+    &iconName: 'witchcraft'
+  ArchetypeBox2
+    &iconName: 'wizardry'
+  ArchetypeBox2
+    &iconName: 'spiritual'
+  ArchetypeBox2
+    &iconName: 'shadow'
+  ArchetypeBox2
+    &iconName: 'protection'
+  ArchetypeBox2
+    &iconName: 'holy'
+  ArchetypeBox2
+    &iconName: 'warfare'
+
+GenderPanel < Panel
+  id: gender_panel
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-top: 25
+  height: 100
+  CharacterLabel
+    color: white
+    font: poppins-semibold-16
+    text-align: center
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    text: Gender
+    height: 30
+
+  Panel
+    id: gender_buttons
+    anchors.top: prev.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 10
+    height: 50
+    layout:
+      type: horizontalBox
+      fit-children: true
+      spacing: 24
+    GenderButton
+      id: male
+      &iconName: 'icon_male'
+    GenderButton
+      id: female
+      &iconName: 'icon_female'
+
+CharacterBox < Panel
+  id: character_box
+  anchors.top: prev.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  size: 300 250
+  margin-top: 25
+  image-source: /images/ui/windows/entergame/characterCreation/bg_character_box
+  opacity: 1
+
+  UIWindow
+    id: bg 
+    anchors.fill: parent
+    margin: 3
+    image-source: /images/ui/windows/entergame/characterCreation/bg_character
+
+  UICreature
+    id: character_outfit
+    size: 128 128
+    anchors.centerIn: parent
+    outfit-walk: false
+    outfit-scale: 3
+    outfit-offset: 12 12
+
+InputName < UITextEdit
+  font: poppins-14
+  text-align: center
+  color: white
+  preview: Character Name
+  max-length: 20
+  //&callback: function(self, isOn) self:getParent():getChildById('characterNameErrorLabel'):setVisible(isOn) end
+
+CharacterNamePanel < UIWidget
+  id: character_name_panel
+  anchors.bottom: bottom_panel.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 120
+
+  CharacterLabel
+    id: character_name_error
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    font: poppins-13
+    color: #FF5151
+    margin-top: 10
+    &minHeight: 30
+  UIWidget
+    id: character_name_input
+    size: 370 60
+    image-source: /images/ui/windows/entergame/characterCreation/input
+    anchors.centerIn: parent
+    margin-top: 5
+    image-source: /images/ui/windows/entergame/characterCreation/input
+    $on:
+      image-source: /images/ui/windows/entergame/characterCreation/input_error
+
+    InputName
+      id: character_name
+      anchors.fill: parent
+      padding: 18 70 12 70
+    
+    UIWidget
+      id: character_name_warning_icon
+      image-source: /images/ui/windows/entergame/characterCreation/warning_icon
+      visible: false
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.right: parent.right
+      margin-right: 20
+
+  WarningButton
+    id: generate_name
+    anchors.top: prev.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 15
+    size: 175 40
+    text: Generate Name
+    visible: false
+
+CharacterCreationBottomPanel < Panel
+  id: bottom_panel
+  image-source: /images/ui/windows/entergame/login/server_location_background
+  anchors.bottom: parent.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 100
+
+  NeutralButton
+    id: back_button
+    text: Back
+    size: 100 45
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    margin-left: 50
+    @onClick: CharacterCreation:back()
+
+  PrimaryButton
+    id: create_character_button
+    width: 225
+    anchors.centerIn: parent
+    text: Create Character
+    @onClick: CharacterCreation:confirmCreation()
+
+CharacterCreationMiddlePanel < Panel
+  id: middle_panel
+  anchors.left: prev.right
+  anchors.right: next.left
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+
+  CharacterLabel
+    id: title
+    text: Create Character
+    size: 300 50
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    color: white
+    font: poppins-semibold-30
+    text-align: center
+    text-auto-resize: false
+    margin-top: 25
+  
+  CharacterLabel
+    text: Select Your Archetype
+    size: 300 50
+    anchors.top: prev.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    color: white
+    font: poppins-semibold-16
+    text-auto-resize: false
+    text-align: center
+    margin-top: 25
+  
+  ArchetypesPanel
+  CharacterBox
+  GenderPanel
+  CharacterNamePanel
+  CharacterCreationBottomPanel
+
+CharacterCreationTitle < Panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 40
+  text-align: center
+  font: poppins-semibold-14
+  image-source: /images/ui/windows/entergame/characterCreation/bg_titles
+
+CharacterCreationSubTitle < Panel
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 22
+  text-align: center
+  font: poppins-12
+  text-offset: 0 3
+  color: #a6aab2
+  image-source: /images/ui/windows/entergame/characterCreation/subtitle
+
+SkillGrid < Panel
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  padding-top: 10
+  margin-left: 20
+  margin-right: 10
+  layout:
+    type: grid
+    cell-size: 60 60
+    cell-spacing: 10 10
+    flow: true
+
+SkillToggle < UIWidget
+  image-smooth: true
+  @onClick: CharacterCreation:updateSkill(self)
+  $checked:
+    image-color: #ffffff
+  $!checked:
+    image-color: #707070
+
+SkillsPanel < Panel
+  id: skills_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 310
+
+  CharacterCreationTitle
+    text: Skills
+  
+  CharacterCreationSubTitle
+    text: Active Skills
+
+  SkillGrid
+    id: active_skills
+    height: 150
+
+  CharacterCreationSubTitle
+    text: Passive Skills
+
+  SkillGrid
+    id: passive_skills
+    height: 75
+
+SkillInformation < UIWidget
+  id: info
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: prev.bottom
+  height: 360
+  padding-left: 20
+  padding-top: 10
+  padding-right: 20
+
+  UIWidget
+    id: icon
+    size: 60 60
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 10
+  
+  CharacterLabel
+    id: name
+    anchors.top: parent.top
+    anchors.left: prev.right
+    margin-left: 22
+    text: Brutal Strike
+    color: white
+
+  CharacterLabel
+    id: target
+    font: poppins-13
+    anchors.top: prev.bottom
+    anchors.left: prev.left
+    margin-top: 5
+    text: target type
+
+  CharacterLabel
+    id: cast_type
+    font: poppins-13
+    color: #36F991
+    anchors.top: prev.bottom
+    anchors.left: prev.left
+    margin-top: 5
+    text: cast type
+
+  CharacterLabel
+    id: description
+    font: poppins-13
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    text-wrap: true
+    margin-top: 15
+    text: description
+
+SkillPreview < UIWidget
+  id: skill_preview
+  size: 345 193
+  anchors.top: prev.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 20
+  draggable: false
+  @onHoverChange: |
+    if self:isEnabled() then
+      self:getChildById('icon'):setVisible(not self:isHovered())
+      self:setImagePlaying(self:isHovered())
+    end        
+  $hover:
+    image-color: white
+  $!hover:
+    image-color: #707070
+  UIWidget
+    id: icon
+    anchors.centerIn: parent
+    size: 64 64
+    image-source: /images/ui/windows/entergame/characterCreation/icon_player
+    image-smooth: true
+    opacity: 0.8
+    
+SkillPreviewPanel < Panel
+  id: preview_panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  anchors.top: prev.bottom
+  CharacterCreationSubTitle
+    anchors.top: parent.top
+    text: Preview
+  SkillPreview
+  
+
+SkillInformationPanel < Panel
+  id: skill_information_panel
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+
+  CharacterCreationTitle
+    text: Skill Information
+
+  SkillInformation
+  SkillPreviewPanel
+  
+
+CharacterCreationRightPanel < Panel
+  id: right_panel
+  anchors.right: parent.right
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  width: 420
+
+  SkillsPanel
+  SkillInformationPanel
+
+CharacterCreation < UIWindow
+  id: character_creation_window
+  anchors.fill: parent
+  image-source: /images/ui/windows/entergame/characterCreation/bg
+  draggable: false
+
+  CharacterCreationLeftPanel
+  CharacterCreationVerticalSeparator
+    anchors.left: prev.right
+  CharacterCreationMiddlePanel
+  CharacterCreationVerticalSeparator
+    anchors.right: next.left
+  CharacterCreationRightPanel
+
+  //@onEnter: CharacterList.showCreation()
+  @onEscape: CharacterCreation:back()

@@ -1,0 +1,61 @@
+// Yetis
+creatures
+  // Yeti
+  4068
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 4771
+  4771
+    animate-from-start: true
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 20 20
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+
+  // Mutated Yeti
+  4069
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 4770
+  4770
+    animate-from-start: true
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 20 20
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100

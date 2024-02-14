@@ -1,0 +1,173 @@
+GameHouseRoomInfoWindow < MainWindow
+  id: farm_info_window
+  &title: 'Item Description'
+  &iconName: 'icon_house_rooms'
+  size: 350 535
+  &maxHeight: 535
+  &minHeight: 290
+  draggable: false
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  margin-bottom: 50
+  MainWindowScrollableContent
+    padding: 0 0 0 0
+    anchors.bottom: place_button.top
+    margin-bottom: 20
+    GameHouseRoomInfoWindowPreviewPanel
+    GameHouseRoomInfoDescriptionPanel
+    GameHouseRoomInfoWindowMaterialsPanel
+  MainWindowScrollableContentScrollBar
+    margin-right: 5
+  PrimaryButton
+    id: place_button
+    text: Place
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 20
+
+GameHouseRoomInfoWindowPreviewPanel < Panel
+  id: preview_panel
+  size: 350 150
+  padding: 20 20 20 20
+  GameHouseRoomInfoWindowPreview
+  GameHouseRoomInfoWindowInfo
+
+GameHouseRoomInfoWindowPreview < UIWidget
+  id: preview
+  size: 140 120
+  image-source: /images/ui/windows/house/list_item_background
+  image-border: 10
+  anchors.left: parent.left
+  anchors.top: parent.top
+  UIItem
+    id: image
+    anchors.centerIn: parent
+    size: 64 64
+    phantom: true
+    $checked:
+      size: 110 110
+
+GameHouseRoomInfoWindowInfo < UIWidget
+  id: info
+  anchors.top: parent.top
+  anchors.bottom: preview.bottom
+  anchors.left: preview.right
+  anchors.right: parent.right
+  margin-left: 18
+  UIWidget
+    id: name
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    text-color: #ced2d9
+  UIWidget
+    id: size
+    anchors.top: name.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    icon: /images/ui/windows/house/size_icon
+    icon-align: left
+    text-offset: 25 3
+    text-color: #ced2d9
+  UIWidget
+    id: price
+    anchors.top: size.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    icon: /images/ui/icons/silver_24
+    icon-size: 20 20
+    icon-align: left
+    text-offset: 25 3
+    text-color: #ced2d9
+    @onTextChange:
+      -- format text to have comma separators
+      local text = self:getText()
+      if tonumber(text) then
+        local formatted = ''
+        local count = 0
+        for i = #text, 1, -1 do
+          formatted = text:sub(i, i) .. formatted
+          count = count + 1
+          if count == 3 and i ~= 1 then
+            formatted = ',' .. formatted
+            count = 0
+          end
+        end
+        self:setText(formatted, true)
+      end
+
+GameHouseRoomInfoWindowMaterialsPanel < UIWidget
+  id: materials_panel
+  height: 500
+  layout:
+    type: verticalBox
+
+  GameHouseRoomInfoWindowMaterialsPanelCategoryTitle
+  GameHouseRoomInfoWindowMaterialsPanelItem
+  GameHouseRoomInfoWindowMaterialsPanelItem
+
+GameHouseRoomInfoWindowMaterialsPanelCategoryTitle < UIWidget
+  height: 30
+  font: poppins-semibold-14
+  text-align: center
+  text-color: #ced2d9
+  background-color: #10101190
+  text: Gathering
+  margin-top: 10
+
+GameHouseRoomInfoWindowMaterialsPanelItem < UIWidget
+  margin-top: 15
+  height: 50
+  image-source: /images/ui/windows/house/list_item_background
+  image-border: 10
+  margin-left: 20
+  margin-right: 20
+  UIWidget
+    id: amount
+    size: 70 30
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    font: poppins-semibold-14
+    margin-left: 11
+    image-source: /images/ui/windows/house/list_item_price_background
+    image-border: 10
+    $on:
+      image-source: /images/ui/windows/house/list_item_price_background_active
+
+  UIItem
+    id: item
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: amount.right
+    size: 32 32
+    phantom: true
+    margin-left: 15
+    virtual: true
+
+  UIWidget
+    id: name
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: item.right
+    anchors.right: parent.right
+    text-wrap: true
+    font: poppins-semibold-15
+    text-align: left
+    margin-left: 20
+    text-color: #ced2d9
+    text: Item Name
+    text-auto-resize: true
+
+GameHouseRoomInfoDescriptionPanel < UIWidget
+  id: description
+  font: poppins-semibold-14
+  text-align: center
+  text-auto-resize: true
+  text-wrap: true

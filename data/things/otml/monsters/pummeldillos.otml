@@ -1,0 +1,34 @@
+// Pummeldillos
+creatures
+  // Pummeldillo Bareknuckle
+  1900
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 11 11
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5580
+  5580
+    animate-from-start: true
+    creature-offset: 43 43
+
+  // Pummeldillo Boxer
+  1901
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 11 11
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5579
+  5579
+    animate-from-start: true
+    creature-offset: 43 43
+

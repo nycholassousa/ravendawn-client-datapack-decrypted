@@ -1,0 +1,103 @@
+// Kaimans
+creatures
+  // Kaiman
+  2253
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 19 22
+    attack-animation:
+      0: 3927
+
+  3927
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 33 36
+    animate-from-start: true
+
+  // Kaiman
+  2254
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 19 22
+  // Kaiman
+  2255
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 19 22
+  // Kaiman
+  2256
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    main-body: true
+    attack-animation-type: 0
+    impact-time: 400
+    attack-animation:
+      0: 6012
+  6012
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Kaiman
+  2257
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 19 22
+  // Kaiman
+  2258
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 16 18
+    name-displacement: 60 70
+    attack-animation:
+      0: 3923
+
+  3923
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 48 50
+    name-displacement: 55 70
+    animate-from-start: true
+
+  // Kaiman
+  2259
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 19 22
+
+  // Grovark
+  4811
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    attack-animation-type: 0
+    impact-time: 500
+    attack-animation:
+      0: 4812
+  4812
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    animate-from-start: true

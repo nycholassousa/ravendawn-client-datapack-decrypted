@@ -1,0 +1,329 @@
+GameInventoryPanelSelection < UIWidget
+  id: selection_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 46
+  image-source: /images/ui/windows/inventory/selection_background
+  layout:
+    type: horizontalBox
+  GameInventoryPanelSelectionButton
+    id: normal
+  GameInventoryPanelSelectionButton
+    id: quest
+  @onGeometryChange: |
+    self:setImageOffsetX(-self:getParent():getPaddingLeft())
+    self:setImageSize({width = self:getParent():getWidth(), height = self:getHeight()})
+
+GameInventoryPanelSelectionButton < UIWidget
+  size: 195 46
+  @onClick: GameInventory:selectInventoryType(self:getId())
+  
+  UIWidget
+    id: text
+    anchors.centerIn: parent
+    font: poppins-semibold-16
+    text-color: #a6aab2
+    text-offset: 30 0
+    text-auto-resize: true
+    image-size: 25 25
+    phantom: true
+    @onSetup: |
+      self:setText(self:getParent():getId():titleCase())
+      self:setImageSource(string.format('/images/ui/windows/inventory/icon_%s', self:getParent():getId()))
+
+  UIWidget
+    id: separator
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    height: 3
+    image-border: 1
+    image-source: /images/ui/windows/inventory/tab_selected
+    image-color: alpha
+    margin-left: 25
+    margin-right: 25
+    phantom: true
+    $on:
+      image-color: white
+  
+  @onStateChange: |
+    self.separator:setOn(self:isOn())
+
+GameInventoryPanelHolder < ScrollablePanel
+  id: inventory_panel_holder
+  anchors.top: filter_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: bottom_panel.top
+  margin-right: 28
+  margin-bottom: 10
+  @onSetup: |
+    local scrollbar = g_ui.createWidget('GameInventoryPanelScrollBar', self:getParent())
+    scrollbar:setId('inventory_panel_scrollbar')
+    self:setVerticalScrollBar(scrollbar)
+
+GameInventoryPanel < Panel
+  height: 100
+  id: inventory_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  padding: 10
+  layout:
+    type: grid
+    cell-size: 60 60
+    cell-spacing: 6 6
+    flow: true
+    fit-children: true
+
+GameInventoryPanelScrollBar < VerticalScrollBar
+  anchors.top: inventory_panel_holder.top
+  anchors.right: parent.right
+  anchors.bottom: inventory_panel_holder.bottom
+  step: 48
+  pixels-scroll: true
+  margin-top: 5
+  margin-bottom: 5
+  margin-right: 13
+
+GameInventoryUnlockPanel < Panel
+  size: 406 75
+  image-source: /images/ui/windows/inventory/unlock_background
+  image-border: 5
+  anchors.top: inventory_panel.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+
+  Panel
+    id: slots
+    height: 60
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-left: 7
+    margin-bottom: 1
+    layout:
+      type: grid
+      cell-size: 60 60
+      cell-spacing: 6 6
+      flow: true
+      fit-children: true
+
+  SuccessButton
+    id: unlock_button
+    anchors.centerIn: parent
+    text: 0
+    &resizeText: true
+    &minWidth: 80
+    &iconPath: '/images/ui/icons/silver_30'
+    &iconAlign: left
+    &iconOffset: '30 0'
+    &textMarginLeft: 40
+    &iconColor: white
+    @onClick: |
+      modules.game_inventory.GameInventory:unlockInventorySlotsRow()
+
+GameInventoryPanelSortButton < UIWidget
+  image-source: /images/ui/windows/inventory/sort
+  &tooltip: 'Auto Sorting'
+  @onClick: |
+    local action = GameInventory.currentPanel == GameInventory.normalPanel and 'inventory_reorder' or 'quest_bag_reorder'
+    GameInventory:sendOpcode({ action = action })
+  $hover:
+    image-source: /images/ui/windows/inventory/sort_on
+
+GameInventoryPanelFilterPanel < UIWidget
+  id: filter_panel
+  anchors.top: selection_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 55
+  font: poppins-16
+  text-color: #a6aab2
+  text-align: right
+  margin-top: 2
+  margin-right: 28
+  padding-top: 7
+  padding-bottom: 7
+  text-offset: 0 5
+  layout:
+    type: horizontalBox
+    spacing: 10
+  GameInventoryPanelSortButton
+    id: sort
+  GameInventoryPanelFilterButton
+    id: all
+  GameInventoryPanelFilterButton
+    id: infusion
+  GameInventoryPanelFilterButton
+    id: food
+  GameInventoryPanelFilterButton
+    id: potion
+  GameInventoryPanelFilterButton
+    id: weapon
+  GameInventoryPanelFilterButton
+    id: helmet
+  GameInventoryPanelFilterButton
+    id: armor
+  GameInventoryPanelFilterButton
+    id: legs
+  GameInventoryPanelFilterButton
+    id: boots
+
+GameInventoryPanelFilterButton < UIWidget
+  size: 25 46
+  @onSetup: |
+    self:setTooltip(self:getId():titleCase())
+  @onStateChange: |
+    self.icon:setOn(self:isOn())
+
+  UIWidget
+    id: icon
+    anchors.centerIn: parent
+    phantom: true
+    text-auto-resize: true
+    font: poppins-semibold-13
+    image-color: #8a8a8b
+    text-color: #8a8a8b
+    $on:
+      image-color: white
+      text-color: white
+    @onSetup: |
+      local parentId = self:getParent():getId()
+      if parentId == 'all' then
+        self:setText(parentId:upper())
+        return
+      end
+      self:setImageSource(string.format('/images/ui/windows/inventory/icon_%s', parentId))
+      local textureWidth = self:getImageTextureWidth()
+      local textureHeight = self:getImageTextureHeight()
+      self:setImageSize({width = textureWidth, height = textureHeight})
+      self:setSize({width = textureWidth, height = textureHeight})
+      self:getParent():setSize({width = textureWidth, height = textureHeight})
+
+  @onClick: GameInventory:applyInventoryFilter(self:getId())
+
+GameInventoryPanelBottomPanel < UIWidget
+  id: bottom_panel
+  anchors.bottom: parent.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 53
+  margin-right: 28
+  GameInventoryPanelBottomPanelCurrency
+  GameInventoryPanelBottomPanelButtonPanel
+
+GameInventoryPanelBottomPanelCurrency < UIWidget
+  id: currency
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.right: parent.right
+  size: 250 54
+
+  UIWidget
+    id: silver
+    font: poppins-18
+    text-color: #a6aab2
+    text-offset: 54 8
+    text-auto-resize: true
+    image-source: /images/ui/windows/inventory/currency_background
+    image-border: 15
+    text: 0
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: right
+    icon: /images/ui/icons/silver_44
+    icon-size: 44 44
+    icon-offset: 18 -2
+    padding: 5
+    padding-right: 10
+    image-offset: 10 0
+    margin-right: 10
+    @onGeometryChange: |
+      self:setSize({width = math.max(75, self:getWidth()), height = self:getHeight()})
+    @onTextChange: |
+      local amount = tonumber(self:getText())
+      if not amount then
+        return
+      end
+      amount = math.min(99999999, amount)
+      self:setText(amount, true)
+      -- format currency
+      local text = self:getText()
+      local formatted = ''
+      local count = 0
+      for i = text:len(), 1, -1 do
+        formatted = text:sub(i, i) .. formatted
+        count = count + 1
+        if count == 3 and i ~= 1 then
+          formatted = ',' .. formatted
+          count = 0
+        end
+      end
+      self:setText(formatted, true)
+
+  UIWidget
+    id: gold
+    font: poppins-18
+    text-color: #a6aab2
+    text-offset: 54 8
+    text-auto-resize: true
+    image-source: /images/ui/windows/inventory/currency_background
+    image-border: 15
+    text: 0
+    anchors.right: silver.left
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: right
+    icon: /images/ui/icons/experience
+    icon-size: 44 44
+    icon-offset: 18 -2
+    padding: 5
+    padding-right: 10
+    image-offset: 10 0
+    margin-right: 10
+    &tooltip: tr("Gold is accumulated when gaining silver. At the daily Server Save all gold is converted into SBT based on the amount of Gold earned proportional to all other players.")
+    @onGeometryChange: |
+      self:setSize({width = math.max(75, self:getWidth()), height = self:getHeight()})
+    @onTextChange: |
+      local amount = tonumber(self:getText())
+      amount = math.min(99999999, amount)
+      self:setText(amount, true)
+      -- format currency
+      local text = self:getText()
+      local formatted = ''
+      local count = 0
+      for i = text:len(), 1, -1 do
+        formatted = text:sub(i, i) .. formatted
+        count = count + 1
+        if count == 3 and i ~= 1 then
+          formatted = ',' .. formatted
+          count = 0
+        end
+      end
+      self:setText(formatted, true)
+
+GameInventoryPanelBottomPanelButtonPanel < UIWidget
+  id: button_panel
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  anchors.right: currency.left
+  height: 52
+  layout:
+    type: horizontalBox
+    spacing: 10
+    cell-size: 60 52
+  
+  PrimaryButton
+    size: 60 52
+    id: character
+    &tooltip: 'Character'
+    &iconPath: '/images/ui/windows/inventory/icon_character'
+    @onClick: |
+      modules.game_character.GameCharacter.toggle()
+
+  PrimaryButton
+    size: 60 52
+    id: infusion
+    &tooltip: 'Infusion'
+    &iconPath: '/images/ui/windows/inventory/icon_sword'
+    @onClick: |
+      modules.game_infusion.GameInfusion.toggle()

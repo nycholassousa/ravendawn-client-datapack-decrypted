@@ -1,0 +1,7 @@
+Module
+  name: game_bgs
+  description: BGS Demo
+  sandboxed: false
+  scripts: [ bgs ]
+  @onLoad: init()
+  @onUnload: terminate()

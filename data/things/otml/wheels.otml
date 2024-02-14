@@ -1,0 +1,499 @@
+creatures
+  1912
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  1913
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  1914
+    custom-offset: true
+    north-offset: 40 52
+    south-offset: 35 15
+    east-offset: 15 35
+    west-offset: 55 40
+
+  1915
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  1916
+    custom-offset: true
+    right-wheel: 1915
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2452
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2453
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2454
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2455
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2456
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2457
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2458
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2459
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2460
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2461
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2462
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2463
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2464
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2465
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2466
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2467
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2468
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2469
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2470
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2471
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2472
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2473
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2474
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2475
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2476
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2477
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2478
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2479
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2480
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2481
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2482
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2483
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2484
+    custom-offset: true
+    north-offset: 40 50
+    south-offset: 35 5
+    east-offset: 5 35
+    west-offset: 50 40
+
+  2995
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  2996
+    custom-offset: true
+    north-offset: 55 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 55
+    
+  2997
+    custom-offset: true
+    north-offset: 0 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 0
+
+  3006
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  3008
+    custom-offset: true
+    north-offset: 55 67
+    south-offset: 55 0
+    east-offset: 0 55
+    west-offset: 67 55
+    
+  3007
+    custom-offset: true
+    north-offset: 5 64
+    south-offset: 10 0
+    east-offset: 0 10
+    west-offset: 64 5
+
+  3009
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  3011
+    custom-offset: true
+    north-offset: 55 64
+    south-offset: 57 0
+    east-offset: 0 55
+    west-offset: 64 55
+    
+  3010
+    custom-offset: true
+    north-offset: 5 64
+    south-offset: 10 0
+    east-offset: 0 10
+    west-offset: 64 5
+
+  3012
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  3014
+    custom-offset: true
+    north-offset: 55 64
+    south-offset: 55 0
+    east-offset: 0 55
+    west-offset: 64 55
+    
+  3013
+    custom-offset: true
+    north-offset: 5 64
+    south-offset: 8 0
+    east-offset: 0 10
+    west-offset: 64 5
+
+  3015
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  3017
+    custom-offset: true
+    north-offset: 55 64
+    south-offset: 55 0
+    east-offset: 0 55
+    west-offset: 64 55
+    
+  3016
+    custom-offset: true
+    north-offset: 5 64
+    south-offset: 8 0
+    east-offset: 0 10
+    west-offset: 64 5
+
+  3018
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  3020
+    custom-offset: true
+    north-offset: 55 64
+    south-offset: 55 0
+    east-offset: 0 55
+    west-offset: 64 55
+    
+  3019
+    custom-offset: true
+    north-offset: 5 64
+    south-offset: 8 0
+    east-offset: 0 10
+    west-offset: 64 5
+
+  5304
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  5303
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  5302
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+
+  5301
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  5300
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+    
+  5299
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+
+  6090
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+
+  6088
+    custom-offset: true
+    north-offset: 55 64
+    south-offset: 57 0
+    east-offset: 0 55
+    west-offset: 64 55
+    
+  6089
+    custom-offset: true
+    north-offset: 5 64
+    south-offset: 10 0
+    east-offset: 0 10
+    west-offset: 64 5
+
+  6097
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+
+  6095
+    custom-offset: true
+    north-offset: 55 64
+    south-offset: 57 0
+    east-offset: 0 55
+    west-offset: 64 55
+    
+  6096
+    custom-offset: true
+    north-offset: 5 64
+    south-offset: 10 0
+    east-offset: 0 10
+    west-offset: 64 5
+
+  //Carnival wheels
+  6166
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+
+  6165
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32
+  
+  6164
+    custom-offset: true
+    north-offset: 32 64
+    south-offset: 32 0
+    east-offset: 0 32
+    west-offset: 64 32

@@ -1,0 +1,6 @@
+Module
+  name: game_cards
+  sandboxed: false
+  scripts: [ cards ]
+  @onLoad: GameCards:init()
+  @onUnload: GameCards:terminate()

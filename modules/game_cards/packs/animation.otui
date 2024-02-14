@@ -1,0 +1,720 @@
+ShardsReceivedLabel < UIWidget
+  height: 50
+  anchors.top: parent.top
+  anchors.left: parent.left
+  layout:
+    type: horizontalBox
+    fit-children: true
+    spacing: 5
+
+  UIWidget
+    id: icon
+    size: 36 42
+    image-source: /images/ui/windows/ravencards/packs/shard
+    margin-top: 4
+    margin-bottom: 4
+
+  UIWidget
+    id: amount
+    font: poppins-semibold-30
+    text-color: #CED2D9
+    text-auto-resize: true
+    text-align: left
+
+GameCardsAnimationPanel < UIWidget
+  id: cards_animation_panel
+  anchors.fill: parent
+  image-source: /images/ui/windows/ravencards/packs/background.mp4
+  GameCardsAnimationButtonPanel
+  MainWindowEdgeBottom
+    anchors.bottom: prev.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+  GameCardsAnimationPacksPanel
+  MainWindowEdgeBottom
+    anchors.bottom: prev.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+  GameCardsAnimationPanelNormal
+  GameCardsAnimationPanelMini
+  GameCardsAnimationPanelViewTogglePanel
+  GameCardsAnimationPanelPityPanel
+  GameCardsBoomAnimationPanel
+  GameCardsPackAnimationPanel
+  GameCardsAnimationCloseButton
+  GameCardsAnimationPacksPanelGetMorePacks
+  GameCardsAnimationPacksPanelGetMorePacksMini
+
+GameCardsAnimationBox < UIWidget
+  id: cards_animation_box
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.top: parent.top
+  size: 900 900
+  phantom: true
+  &originalSize: {width = 900, height = 900}
+  GameCardsVFXAnimationPanel
+    Ravencard
+      id: card
+      size: 250 354
+      anchors.centerIn: parent
+      visible: false
+    UIWidget
+      id: new_card
+      anchors.bottom: prev.top
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-bottom: 20
+      size: 70 35
+      text: NEW
+      font: poppins-semibold-20
+      image-source: /images/ui/windows/ravencards/packs/new_background
+      image-border: 10
+      text-color: #FBFB79
+      text-offset: 2 2
+      visible: false
+
+    UIWidget
+      id: disenchanted
+      anchors.centerIn: parent
+      visible: false
+      phantom: true
+      size: 250 394
+      image-source: /images/ui/windows/ravencards/collection/disenchanted_cover
+      image-offset: 0 20
+      image-size: 250 354
+
+      UIWidget
+        id: panel
+        size: 70 35
+        image-border: 10
+        padding-left: 10
+        padding-right: 10
+        clipping: false
+        anchors.bottom: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        image-source: /images/ui/windows/ravencards/packs/shards_border
+        layout:
+          type: horizontalBox
+          fit-children: true
+          spacing: 5
+        
+        UIWidget
+          width: 22
+          image-source: /images/ui/windows/ravencards/packs/shard
+          image-size: 22 22
+          image-offset: 0 6
+
+        UIWidget
+          id: amount
+          height: 30
+          text: NaN
+          font: poppins-semibold-20
+          text-align: center
+          text-auto-resize: true
+          text-offset: 0 5
+
+  GameCardsCardAnimationPanel
+  @onSetup: |
+    local parent = self:getParent()
+    local index = 0
+    for _, child in ipairs(parent:getChildren()) do
+      if child:getStyleName() == 'GameCardsAnimationBox' then
+        index = index + 1
+        if child == self then
+          break
+        end
+      end
+    end
+
+    self:setMarginTop(0)
+    self:setMarginLeft(0)
+    self.fromMargin = { x = 0, y = 0 }
+    self.destinationMargin = { x = 0, y = 0 }
+
+    if index % 2 == 1 then
+      self.destinationMargin.x = 160 * (index - 1)
+    else
+      self.destinationMargin.x = -160 * index
+    end
+
+    if index == 1 then
+      self.destinationMargin.x = 0
+    end
+
+GameCardsCardAnimationPanel < UIWidget
+  id: card
+  anchors.fill: parent
+  phantom: true
+
+GameCardsVFXAnimationPanel < UIWidget
+  id: vfx
+  anchors.fill: parent
+  phantom: true
+
+GameCardsPackAnimationPanel < UIWidget
+  id: pack
+  anchors.centerIn: parent
+  phantom: true
+
+GameCardsBoomAnimationPanel < UIWidget
+  id: boom
+  anchors.centerIn: parent
+  size: 1920 1080
+  phantom: true
+
+GameCardsAnimationCloseButton < UIWidget
+  id: close_button
+  anchors.right: parent.right
+  anchors.top: parent.top
+  size: 40 40
+  margin: 20
+  image-source: /images/ui/windows/ravencards/packs/close_button
+  $hover:
+    image-source: /images/ui/windows/ravencards/packs/close_button_on
+  opacity: 1
+  $pressed:
+    opacity: 0.8
+  @onClick: |
+    GameCards:hideAnimationPanel()
+
+GameCardsPityPanelWidget < UIWidget
+  width: 90
+  font: poppins-semibold-14
+  text: +0%
+  text-align: left
+  text-offset: 35 2
+  text-color: #CED2D9
+  $on:
+    font: poppins-semibold-16
+    text-offset: 33 3
+
+  UIWidget
+    id: icon_holder
+    size: 40 40
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: -10
+    UIWidget
+      id: icon
+      anchors.centerIn: parent
+
+  UIWidget
+    id: separator
+    width: 1
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    margin: 8
+    background-color: #3A3D43
+
+GameCardsAnimationButtonPanel < UIWidget
+  id: button_panel
+  height: 90
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  image-source: /images/ui/windows/ravencards/packs/bg_60
+  image-border: 5
+
+  UIWidget
+    id: no_packs_label
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    text: You don't have any RavenPacks.
+    font: poppins-semibold-24
+    text-auto-resize: true
+
+  PrimaryButton
+    id: open_pack
+    anchors.right: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    text: Open New Pack
+    &resizeText: true
+    margin-right: 10
+    @onClick: |
+      GameCards:openPack(1, 1)
+
+  OrangeButton
+    id: open_multiple_packs
+    anchors.left: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    text: Open 5x Packs
+    &resizeText: true
+    margin-left: 10
+    @onClick: |
+      GameCards:openPack(1, 5)
+
+  UIWidget
+    id: shards
+    size: 50 56
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 40
+    padding: 7
+    @onSetup: |
+      if g_game.isRavenQuest() then
+        self:setVisible(false)
+      end
+    &tooltip: tr('RavenShards are automatically obtained when you open a pack with a duplicate of a card already in your collection. RavenShards can be used for upgrading your current RavenCards to unleash new potentials.')
+    &tooltipAlign: AlignLeftCenter
+
+    UIWidget
+      id: icon
+      phantom: true
+      size: 36 42
+      image-source: /images/ui/windows/ravencards/packs/shard
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+
+    UIWidget
+      id: amount
+      phantom: true
+      anchors.left: prev.right
+      anchors.verticalCenter: parent.verticalCenter
+      text-auto-resize: true
+      text-align: left
+      margin-top: 5
+      margin-left: 10
+      text-align: left
+      text-offset: 0 -5
+      font: poppins-semibold-26
+      text: NaN
+      @onTextChange: |
+        local parent = self:getParent()
+        parent:setWidth(self:getWidth() + 40 + (2 * 7) + 10)
+
+GameCardsAnimationPacksPanel < UIWidget
+  id: packs_panel
+  height: 350
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: button_panel.top
+  image-source: /images/ui/windows/ravencards/packs/bg_70
+  image-border: 5
+  margin-bottom: 5
+  layout:
+    type: horizontalBox
+    spacing: 50
+
+GameCardsAnimationPacksPanelPack < UIWidget
+  id: pack
+  size: 137 350
+  phantom: false
+
+  UIWidget
+    id: pack_name
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    text-auto-resize: true
+    font: poppins-semibold-16
+    text-color: #CED2D9
+    text: Pack
+    image-source: /images/ui/windows/ravencards/packs/pack_name_background
+    image-border: 10
+    padding: 10
+    margin-top: 17
+
+  UIWidget
+    id: pack_image
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: pack_name.bottom
+    size: 137 200
+    image-source: /images/ui/windows/ravencards/packs/pack_1
+    margin-top: 12
+    @onSetup: |
+      local change = 3
+      local currentChange = 0
+      local direction = 1 -- 1 for moving up, -1 for moving down
+      local time = 75
+
+      self.animationFunc = function()
+        currentChange = currentChange + direction
+        self:setImageOffsetY(self:getImageOffsetY() + currentChange)
+        if currentChange >= change or currentChange <= -change then
+          direction = -direction
+        end
+      end
+
+      self.onDestroy = function()
+        if self.animationEvent then
+          removeEvent(self.animationEvent)
+          self.animationEvent = nil
+        end
+      end
+
+      self.onVisibilityChange = function(self, visible)
+        if not visible then
+          if self.animationEvent then
+            removeEvent(self.animationEvent)
+          end
+        else
+          self.animationEvent = cycleEvent(self.animationFunc, time)
+        end
+      end
+
+      if self:isVisible() then
+        self.animationEvent = cycleEvent(self.animationFunc, time)
+      end
+
+  UIWidget
+    id: pack_count
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    text-auto-resize: true
+    font: poppins-semibold-16
+    text-color: #CED2D9
+    text: x10
+    padding: 10
+    image-source: /images/ui/windows/ravencards/packs/pack_amount_background
+    image-border: 10
+    margin-bottom: 17
+
+GameCardsAnimationPanelPityPanel < UIWidget
+  id: pity_panel
+  size: 740 40
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.bottom: packs_panel.top
+  image-source: /images/ui/windows/ravencards/pity/background
+  image-border: 5
+  margin-bottom: 20
+
+  UIWidget
+    width: 135
+    font: poppins-semibold-14
+    text: Increased Luck
+    text-align: left
+    text-offset: 0 1
+    icon-source: /images/ui/windows/ravencards/pity/info
+    icon-align: right
+    icon-offset: 0 -1
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 15
+    &tooltip: 'Each pack you open without finding a specific rarity boosts your chance of obtaining that rarity by 1%!'
+
+  UIWidget
+    width: 1
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    anchors.left: prev.right
+    margin-left: 15
+    background-color: #3A3D43
+
+  UIWidget
+    id: panel
+    anchors.fill: parent
+    anchors.left: prev.right
+    margin-left: 15
+    layout:
+      type: horizontalBox
+      spacing: 5
+
+GameCardsAnimationPanelViewTogglePanel < UIWidget
+  id: view_toggle_panel
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.top: parent.top
+  size: 598 50
+  margin-top: 10
+  visible: false
+  UIWidget
+    id: text
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    text-auto-resize: true
+    font: poppins-16
+    text: You are seeing the 5 rarest cards out of the 25 you collected.
+    $on:
+      text: You are seeing all 25 cards you collected.
+    text-color: #CED2D9
+
+  UIWidget
+    id: most_rare_cards
+    text: Most rare cards
+    anchors.verticalCenter: cards_toggle_button.verticalCenter
+    anchors.right: cards_toggle_button.left
+    margin-right: 20
+    font: poppins-14
+    text-auto-resize: true
+    text-color: #7E828B
+    on: true
+    $on:
+      text-color: #36f991
+    @onClick: |
+      local parent = self:getParent()
+      local button = parent:getChildById("cards_toggle_button")
+      if button:isOn() then
+        button:onClick()
+      end
+
+  UIWidget
+    id: all_cards
+    text: Collected cards
+    anchors.verticalCenter: cards_toggle_button.verticalCenter
+    anchors.left: cards_toggle_button.right
+    margin-left: 20
+    font: poppins-14
+    text-auto-resize: true
+    text-color: #7E828B
+    $on:
+      text-color: #36f991
+    @onClick: |
+      local parent = self:getParent()
+      local button = parent:getChildById("cards_toggle_button")
+      if not button:isOn() then
+        button:onClick()
+      end
+
+  TrueFalseSelect
+    id: cards_toggle_button
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: text.bottom
+    margin-top: 10
+    checked: true
+    @onStateChange: |
+      local parent = self:getParent()
+      if self:isOn() then
+        parent.most_rare_cards:setOn(false)
+        parent.all_cards:setOn(true)
+      else
+        parent.most_rare_cards:setOn(true)
+        parent.all_cards:setOn(false)
+      end
+      GameCards:toggleCardAnimationView(self:isOn())
+
+GameCardsAnimationPanelNormal < UIWidget
+  id: animation_panel_normal
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: parent.top
+  anchors.bottom: packs_panel.top
+
+GameCardsAnimationPanelMini < UIWidget
+  id: animation_panel_mini
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: parent.top
+  anchors.bottom: packs_panel.top
+  visible: false
+
+GameCardsAnimationBoxMini < UIWidget
+  id: cards_animation_box
+  size: 384 384
+  phantom: true
+  $checked first:
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: -36
+  $checked !first:
+    anchors.left: prev.right
+    anchors.top: prev.top
+    margin-left: -249
+  $on:
+    margin-left: -249
+  GameCardsVFXAnimationPanel
+    Ravencard
+      id: card
+      size: 111 155
+      anchors.centerIn: parent
+      visible: true
+
+    UIWidget
+      id: new_card
+      anchors.bottom: prev.top
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-bottom: 7
+      size: 39 19
+      text: NEW
+      font: poppins-semibold-12
+      image-source: /images/ui/windows/ravencards/packs/new_background
+      image-border: 10
+      text-color: #FBFB79
+      text-offset: 2 2
+      visible: false
+
+    UIWidget
+      id: disenchanted
+      anchors.centerIn: parent
+      phantom: true
+      size: 111 205
+      image-offset: 0 25
+      image-size: 111 155
+      opacity: 0.0
+      $on:
+        image-source: /images/ui/windows/ravencards/collection/disenchanted_cover
+        opacity: 1.0
+
+      UIWidget
+        id: panel
+        size: 38 19
+        image-border: 10
+        padding-left: 5
+        padding-right: 5
+        clipping: false
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        image-source: /images/ui/windows/ravencards/packs/shards_border
+        layout:
+          type: horizontalBox
+          fit-children: true
+          spacing: 5
+        
+        UIWidget
+          size: 12 13
+          margin-top: 3
+          margin-bottom: 3
+          image-source: /images/ui/windows/ravencards/packs/shard_small
+
+        UIWidget
+          id: amount
+          height: 19
+          text: NaN
+          font: poppins-semibold-12
+          text-align: center
+          text-auto-resize: true
+          text-offset: 0 2
+
+  GameCardsCardAnimationPanel
+  @onSetup: |
+    local parent = self:getParent()
+    local index = parent:getChildIndex(self)
+    if index <= 13 then
+      self:setChecked(true)
+    else
+      self:breakAnchors()
+      if index == 14 then
+        self:addAnchor(AnchorLeft, "parent", AnchorLeft)
+        self:addAnchor(AnchorTop, "prev", AnchorBottom)
+        self:setMarginLeft(31)
+        self:setMarginTop(-170)
+      else
+        self:setOn(true)
+        self:addAnchor(AnchorLeft, "prev", AnchorRight)
+        self:addAnchor(AnchorTop, "prev", AnchorTop)
+      end
+    end
+
+GameCardsAnimationPacksPanelGetMorePacks < UIWidget
+  id: buy_packs
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.bottom: parent.bottom
+  margin-bottom: 140
+  size: 375 282
+  phantom: false
+  visible: false
+
+  UIWidget
+    anchors.fill: parent
+    image-source: /images/ui/windows/ravencards/animation/get_ravenpacks_icon
+
+  UIWidget
+    id: upgrade_button
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    @onClick: GameCards:upgradeCard()
+    text: Get RavenPacks!
+    font: poppins-semibold-21
+    margin-bottom: -25
+    text-color: #FEFEC6
+    image-source: /images/ui/windows/ravencards/upgrade/button_animation/00
+    size: 340 120
+    image-border: 45
+    UIWidget
+      id: shine
+      anchors.fill: parent
+      image-border: 45
+    @onSetup: |
+      local frames = 34
+      self.currentFrame = 0
+      self.animationFunction = function()
+        if not self:isVisible() then
+          return
+        end
+
+        self.currentFrame = self.currentFrame + 1
+        if self.currentFrame > frames then
+          self.currentFrame = 0
+        end
+        self:setImageSource(string.format('/images/ui/windows/ravencards/upgrade/button_animation/%02d', self.currentFrame))
+        self.shine:setImageSource(string.format('/images/ui/windows/ravencards/upgrade/button_shine_animation/%02d', self.currentFrame))
+      end
+
+      self.onVisibilityChange = function(self, visible)
+        if not visible then
+          if self.animationEvent then
+            removeEvent(self.animationEvent)
+            self.animationEvent = nil
+          end
+        else
+          self.animationEvent = cycleEvent(self.animationFunction, 1000/24)
+        end
+      end
+
+      self.onDestroy = function()
+        if self.animationEvent then
+          removeEvent(self.animationEvent)
+          self.animationEvent = nil
+        end
+      end
+
+GameCardsAnimationPacksPanelGetMorePacksMini < UIWidget
+  id: buy_packs_mini
+  anchors.left: parent.left
+  anchors.bottom: parent.bottom
+  margin-left: 20
+  margin-bottom: 20
+  size: 249 189
+  phantom: false
+  visible: false
+
+  UIWidget
+    anchors.fill: parent
+    image-source: /images/ui/windows/ravencards/animation/get_ravenpacks_icon
+
+  UIWidget
+    id: upgrade_button
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    @onClick: GameCards:upgradeCard()
+    text: Get RavenPacks!
+    font: poppins-semibold-14
+    margin-bottom: -25
+    text-color: #FEFEC6
+    image-source: /images/ui/windows/ravencards/upgrade/button_animation/00
+    size: 250 100
+    image-border: 45
+    UIWidget
+      id: shine
+      anchors.fill: parent
+      image-border: 45
+    @onSetup: |
+      local frames = 34
+      self.currentFrame = 0
+      self.animationFunction = function()
+        if not self:isVisible() then
+          return
+        end
+
+        self.currentFrame = self.currentFrame + 1
+        if self.currentFrame > frames then
+          self.currentFrame = 0
+        end
+        self:setImageSource(string.format('/images/ui/windows/ravencards/upgrade/button_animation/%02d', self.currentFrame))
+        self.shine:setImageSource(string.format('/images/ui/windows/ravencards/upgrade/button_shine_animation/%02d', self.currentFrame))
+      end
+
+      self.onVisibilityChange = function(self, visible)
+        if not visible then
+          if self.animationEvent then
+            removeEvent(self.animationEvent)
+            self.animationEvent = nil
+          end
+        else
+          self.animationEvent = cycleEvent(self.animationFunction, 1000/24)
+        end
+      end
+
+      self.onDestroy = function()
+        if self.animationEvent then
+          removeEvent(self.animationEvent)
+          self.animationEvent = nil
+        end
+      end

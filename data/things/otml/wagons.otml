@@ -1,0 +1,90 @@
+creatures
+// wagon T1
+  //old
+  2452
+    name-displacement: 30 100
+  //new
+  2995
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 8 8
+    friend-circle-size: 64 64
+    friend-circle-offset: 8 8
+
+  3006
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0
+  3009
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0
+  3012
+    name-displacement: 35 90
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0
+  3015
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0
+  3018
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0
+  5304
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0
+  5301
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0
+
+  // Trailblazer Wagon
+  6090
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0
+
+  // Adventurer Wagon
+  6097
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0
+
+  //Carnival Wagon
+  6166
+    name-displacement: 50 100
+    creature-offset: 0 32
+    enemy-circle-size: 64 64
+    friend-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-offset: 0 0

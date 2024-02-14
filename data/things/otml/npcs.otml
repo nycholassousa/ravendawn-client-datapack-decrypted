@@ -1,0 +1,201 @@
+creatures
+  1951
+    animation-ticks: 150
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  1952
+    animation-ticks: 150
+  1953
+    animation-ticks: 150
+
+  //brumnar
+  1946
+    name-displacement: 24 40
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  //fisherman
+  1949
+    name-displacement: 44 46
+  1953
+    frame-sound:
+      4: 4184701604
+      8: 4184701604
+      12: 4184701604
+  //blacksmith
+  2165
+    name-displacement: 32 62
+    frame-sound:
+      2: 3804550633
+      5: 3804550633
+      8: 3804550633
+    phase-durations:
+      0: 1000
+      1: 200
+      2: 100
+      3: 100
+      4: 200
+      5: 100
+      6: 100
+      7: 200
+      8: 100
+      9: 100
+      10: 1000
+      11: 500
+      12: 100
+      13: 200
+      14: 300
+      15: 500
+
+  //verica
+  2559
+    name-displacement: 35 57
+  //father earl
+  2560
+    name-displacement: 40 55
+  //maribel
+  2651
+    name-displacement: 34 54
+
+  //Munks
+  //warehouse
+  2930
+    name-displacement: 26 36
+  //fishposts
+  2932
+    name-displacement: 26 36
+  2933
+    name-displacement: 26 36
+  2934
+    name-displacement: 26 36
+  //tradeposts
+  2938
+    name-displacement: 34 38
+  2939
+    name-displacement: 34 38
+  2940
+    name-displacement: 34 38
+  5247
+    name-displacement: 34 38
+
+  1938
+    name-displacement: 24 46
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 12 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 12 4
+  2955
+    name-displacement: 34 48
+  3119
+    creature-offset: 6 0
+  // ranger's company
+  5055
+    creature-offset: 4 4
+    phase-durations:
+      0: 1000
+      1: 100
+      2: 100
+      3: 100
+      4: 1000
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 1000
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+
+  // Mom
+  3354
+    name-displacement: 40 50
+    creature-offset: 8 8
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  3355
+    name-displacement: 45 55
+    creature-offset: 8 8
+    phase-durations:
+      0: 120
+      1: 120
+      2: 120
+      3: 120
+      4: 120
+      5: 120
+      6: 120
+      7: 120
+      8: 120
+      9: 120
+      10: 120
+      11: 120
+      12: 120
+      13: 120
+      14: 120
+      15: 120
+  3356
+    creature-offset: 32 32
+    frame-sound:
+      4: 1185578501
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+  3357
+    creature-offset: 32 32
+    phase-durations:
+      0: 500
+      1: 500
+      2: 500
+      3: 500
+      4: 500
+      5: 100
+
+  // dad
+  3358
+    name-displacement: 45 60
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  //Tutorial-Oldman
+  3394
+    creature-offset: 32 32
+    name-displacement: 60 74
+    phase-durations:
+      0: 500
+      1: 500
+      2: 500
+      3: 500
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  2944
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 8
+
+  5055
+    name-displacement: 35 45

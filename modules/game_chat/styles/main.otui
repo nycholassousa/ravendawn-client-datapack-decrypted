@@ -1,0 +1,687 @@
+ChatPopupMenuButton < UIWidget
+  height: 30
+  text-align: left
+  font: poppins-semibold-14
+  text-horizontal-auto-resize: true
+
+ChatPopupMenuShortcutLabel < UIWidget
+  text-align: right
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  text-auto-resize: true
+  font: poppins-semibold-14
+  text-color: #fbfb79
+  phantom: true
+
+ChatPopupMenuSeparator < UIWidget
+  background-color: #5b5b5b
+  height: 1
+  phantom: true
+
+ChatPopupMenu < UIPopupMenu
+  image-source: /images/ui/windows/popup_menu/background
+  image-border-top: 3
+  image-border-bottom: 3
+  padding: 10 20 10 20
+  width: 200
+
+PartyUpperPanel < UIWidget
+  id: noPartyPanel
+  size: 400 300
+  anchors.top: edge_top.bottom
+  anchors.left: buttonList.right
+  anchors.right: parent.right
+  margin-left: 20
+  margin-right: 20
+  phantom: true
+  visible: false
+  @onStateChange: |
+    if self:isOn() then
+      self.label:hide()
+      self.openPartyPanelBtn:hide()
+    else
+      self.label:show()
+      self.openPartyPanelBtn:show()
+    end
+
+  UIWidget
+    id: label
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.horizontalCenter: parent.horizontalCenter
+    !text: tr("You don't have a party.\nOpen party menu in the social window to\njoin or create a new one.")
+    text-auto-resize: true
+    text-align: center
+    font: poppins-16
+  
+  UIWidget
+    id: openPartyPanelBtn
+    anchors.bottom: prev.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 15
+    image-source: /images/ui/windows/chat/party_btn
+
+    $hover:
+      image-source: /images/ui/windows/chat/party_btn_active
+    
+    @onClick: |
+      local module = modules.game_social.GameSocial
+      module:selectTab("party")
+      module.window:show()
+
+GameChatWindowEdge < UIWidget
+  height: 6
+  image-repeated: true
+
+GameChatWindowEdgeTop < GameChatWindowEdge
+  id: edge_top
+  image-source: /images/ui/windows/chat/edge_top
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+
+GameChatWindowEdgeBottom < GameChatWindowEdge
+  id: edge_bottom
+  image-source: /images/ui/windows/chat/edge_bottom
+  anchors.bottom: parent.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+
+GameChatListOptionSelection < UIWidget
+  id: button_selection_panel
+  visible: false
+  image-source: /images/ui/windows/chat/button_selection_panel_background
+  image-border: 10
+  layout:
+    type: horizontalBox
+    cell-size: 50 35
+    fit-children: true
+
+GameChatListOptionButton < UIButton
+  size: 55 50
+  &imagePath: '/images/ui/windows/chat/'
+  background-color: alpha
+  $on:
+    background-color: #000000BF
+  UIWidget
+    id: icon
+    size: 55 50
+    anchors.centerIn: parent
+    on: false
+    $on:
+      opacity: 1.0
+    $!on:
+      opacity: 0.6
+    $hover:
+      opacity: 1.0
+    &update: |
+      function(self)
+        local textureWidth = self:getImageTextureWidth()
+        local textureHeight = self:getImageTextureHeight()
+        self:setImageSize({width = textureWidth, height = textureHeight})
+        -- center
+        self:setImageOffset({x = (self:getWidth() - textureWidth) / 2, y = (self:getHeight() - textureHeight) / 2})
+      end
+    @onClick: |
+      if not GameChat:isEnabled() then
+        GameChat:enable()
+      end
+
+      local id = self:getParent():getId()
+
+      if id == 'friends' then
+        local module = modules.game_social.GameSocial
+        module:selectTab('friends')
+        module.window:show()
+      elseif id == 'mail' then
+        local module = modules.game_social.GameSocial
+        module:selectTab('mail')
+        module.window:show()
+      else
+        GameChat:changeCurrentTab(self:getParent():getId())
+      end
+  UIWidget
+    id: selection
+    size: 14 21
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    visible: false
+    $on:
+      image-source: /images/ui/windows/chat/global_selection_button_on
+    $!on:
+      image-source: /images/ui/windows/chat/global_selection_button_off
+    $hover !on:
+      image-source: /images/ui/windows/chat/global_selection_button_on
+    $!hover !on:
+      image-source: /images/ui/windows/chat/global_selection_button_off
+    $pressed:
+      image-source: /images/ui/windows/chat/global_selection_button_on
+
+    &addItems: |
+      function(self, items)
+        self.items = items
+        local widget = GameChat:getGlobalChatSelectionWidget()
+        widget.owner = self
+        for _, item in pairs(items) do
+          local selection = g_ui.createWidget('GameChatListOptionButton', widget)
+          selection:setId(item.buffer)
+          selection.info = item
+          selection.icon:setImageSource(string.format('/images/ui/windows/chat/icon_%s', item.buffer))
+          local textureWidth = selection:getImageTextureWidth()
+          local textureHeight = selection:getImageTextureHeight()
+          selection:setSize({width = 35, height = 35})
+          selection.icon:setImageSize({width = 25, height = 25})
+          selection.icon:setMarginLeft(15)
+          selection.icon:setMarginTop(12)
+
+          selection.icon.onClick = function()
+            GameChat:changeCurrentGlobalChat(selection.info)
+          end
+        end
+
+        self.onGeometryChange = function()
+          local widget = GameChat:getGlobalChatSelectionWidget()
+          local selfPosition = self:getPosition()
+          widget:setPosition({x = selfPosition.x + 20, y = selfPosition.y - 7})
+        end
+      end
+
+    @onClick: |
+      local widget = GameChat:getGlobalChatSelectionWidget()
+      local state = widget:isOn()
+      widget:setOn(not state)
+
+      if state then
+        widget:hide()
+      else
+        widget:show()
+        local selfPosition = self:getPosition()
+        widget:setPosition({x = selfPosition.x + 20, y = selfPosition.y - 7})
+      end
+
+  UIWidget
+    id: notification
+    size: 14 14
+    anchors.left: icon.horizontalCenter
+    anchors.top: icon.verticalCenter
+    image-source: /images/ui/windows/chat/notification
+    image-border: 3
+    text-auto-resize: true
+    padding-left: 3
+    padding-right: 3
+    padding-top: 1
+    text-offset: 0 2
+    phantom: true
+    visible: false
+    font: poppins-semibold-10
+
+  UIWidget
+    id: splitter
+    size: 30 2
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    background-color: #7E828B
+    visible: false
+    phantom: true
+
+GameChatWindowOptionsList < UIWidget
+  id: buttonList
+  anchors.left: parent.left
+  anchors.top: edge_top.bottom
+  anchors.bottom: edge_bottom.top
+  margin-top: 1
+  margin-bottom: 1
+  image-source: /images/ui/windows/chat/background_list
+  size: 55 624
+
+  VerticalBox
+    id: content
+    size: 55 624
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    cell-size: 55 50
+
+  MainWindowCloseButtonLeft
+    id: toggleButton
+    @onStyleApply: |
+      self:setId('toggleButton')
+      self:breakAnchors()
+      self:setMarginBottom(25)
+      self:setMarginRight(0)
+      self:addAnchor(AnchorBottom, 'parent', AnchorBottom)
+      self:addAnchor(AnchorHorizontalCenter, 'parent', AnchorHorizontalCenter)
+    &setState: |
+      function(self, state)
+        local s = self:isOn()
+        if s ~= state then
+          self:setOn(state)
+        end
+      end
+    @onClick: |
+      self:setOn(not self:isOn())
+    @onStateChange: |
+      local state = self:isOn()
+      if state then
+        self:setStyle('MainWindowCloseButtonRight')
+        GameChat:enable()
+      else
+        self:setStyle('MainWindowCloseButtonLeft')
+        GameChat:disable()
+      end
+
+GameChatMessage < UIWidget
+  width: 450
+  padding: 0
+  on: false
+  image-source: /images/ui/windows/chat/background_message
+  image-color: alpha
+  focusable: true
+  $!first:
+    margin-top: 5
+  $!first on:
+    margin-top: 0
+  $!on:
+    padding: 0
+  $on:
+    image-color: white
+    image-border: 15
+    padding: 10
+  layout:
+    type: verticalBox
+    fit-children: true
+  @onFocusChange: | 
+    function(self, focused)
+      if not focused then
+        self.text:setSelection(0, 0)
+        self.title:setSelection(0, 0)
+      end
+    end
+
+  UITextEdit
+    id: title
+    padding-right: 60
+    color: #b8b8b8
+    font: poppins-16
+    height: 22
+    margin-top: 5
+    text-align: left
+    text-wrap: true
+    text-auto-resize: true
+    editable: false
+    change-cursor-image: false
+    cursor-visible: false
+    selection-color: #272727
+    selection-background-color: #cccccc
+    selectable: true
+    focusable: true
+
+    UIWidget
+      id: premium_icon
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      image-source: /images/ui/windows/chat/icon_premium
+      margin-left: -20
+      @onVisibilityChange: |
+        function(self, visible)
+          local parent = self:getParent()
+          if visible then
+            parent:setPaddingLeft(20)
+          else
+            parent:setPaddingLeft(0)
+          end
+        end
+
+    UIWidget
+      id: time
+      text-auto-resize: true
+      anchors.right: parent.right
+      margin-right: -60
+      anchors.verticalCenter: parent.verticalCenter
+      text-color: #b8b8b8
+      font: poppins-16
+
+  UITextEdit
+    id: text
+    height: 22
+    margin-top: 5
+    text-align: left
+    text-wrap: true
+    text-auto-resize: true
+    editable: false
+    change-cursor-image: false
+    cursor-visible: false
+    font: poppins-16
+    selection-color: #272727
+    selection-background-color: #cccccc
+    selectable: true
+    focusable: true
+
+GameChatWindowMessagesPanel < ScrollablePanel
+  id: local
+  size: 400 340
+  anchors.top: edge_top.bottom
+  anchors.left: buttonList.right
+  anchors.right: parent.right
+  margin-left: 30
+  margin-right: 20
+  margin-top: 5
+  inverted-scroll: true
+  visible: false
+  focusable: false
+
+  layout:
+    type: verticalBox
+    align-bottom: true
+
+GameChatHiddenMessagesPanel < ScrollablePanel
+  size: 370 410
+  margin-top: 50
+  margin-bottom: 76
+  margin-left: 80
+  margin-right: 20
+  anchors.fill: parent
+  phantom: true
+  always-scroll-maximum: true
+
+  layout:
+    type: verticalBox
+    spacing: 4
+
+GameChatWindowMessagesScrollBar < VerticalScrollBar
+  anchors.top: prev.top
+  anchors.left: prev.right
+  anchors.bottom: prev.bottom
+  margin-left: 6
+  margin-bottom: 5
+  margin-top: 5
+  step: 48
+  pixels-scroll: true
+
+GameChatWindowMessageInputPanel < UIWidget
+  id: textEditPanel
+  size: 400 35
+  anchors.bottom: edge_bottom.top
+  margin-bottom: 10
+  anchors.left: buttonsList.right
+  anchors.right: parent.right
+  margin-left: 20
+  margin-right: 20
+  image-source: /images/ui/windows/chat/input_box
+  $on:
+    opacity: 1.0
+  $!on:
+    opacity: 0.6
+
+GameChatWindowMessageInput < TextEdit
+  id: textEdit
+  size: 400 35
+  anchors.left: prev.right
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  max-length: 255
+  phantom: false
+  on: true
+  focusable: true
+  font: poppins-16
+  padding-top: 5
+  cursor-padding-top: 0
+  $!on:
+    phantom: true
+    focusable: false
+  @onTextChange: GameChat:onTextInputChange(self, self:getText())
+  @onStateChange: self:getParent():setOn(self:isOn()) self:setText(nil)
+
+GameChatWindowMessageInputPrefix < UIWidget
+  id: textEditPrefix
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+  text-auto-resize: true
+  text-color: #5da4f8
+  font: poppins-16
+  text-offset: 0 3
+  on: false
+  $on:
+    text-offset: 10 3
+
+GameChatWindowMessageInputType < UIWidget
+  id: talkType
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+  image-source: /images/ui/windows/chat/input_type_selection
+  text-horizontal-auto-resize: true
+  height: 35
+  image-border-left: 10
+  text-offset: 10 5
+  text-align: left
+  font: poppins-16
+  text: Say
+  @onTextChange: |
+    self:setWidth(self:getTextSize().width + 40)
+  @onVisibilityChange: |
+    local visible = self:isVisible()
+    if visible then
+      GameChat.window.content.textEditPanel.textEdit:addAnchor(AnchorLeft, self:getId(), AnchorRight)
+    else
+      GameChat.window.content.textEditPanel.textEdit:addAnchor(AnchorLeft, 'textEditPrefix', AnchorRight)
+      GameChat.window.content.textEditPanel.textEdit:setTextPreview('')
+    end
+  UIWidget
+    id: arrow
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/chat/input_type_arrow
+    margin-left: 15
+    phantom: true
+  @onClick: GameChat:changeTalkType(self)
+
+GameChatPrivateMessagesPanelArrow < UIWidget
+  size: 17 30
+  visible: false
+
+GameChatPrivateMessagesPanelArrowNext < GameChatPrivateMessagesPanelArrow
+  id: tabNext
+  image-source: /images/ui/windows/chat/private_tab_next_off
+  $hover:
+    image-source: /images/ui/windows/chat/private_tab_next_on
+  $pressed:
+    image-source: /images/ui/windows/chat/private_tab_next_on
+  anchors.right: parent.right
+  margin-top: 2
+  anchors.verticalCenter: parent.verticalCenter
+  @onClick: GameChat:showNextPrivateTab()
+
+GameChatPrivateMessagesPanelArrowPrev < GameChatPrivateMessagesPanelArrow
+  id: tabPrev
+  image-source: /images/ui/windows/chat/private_tab_prev_off
+  $hover:
+    image-source: /images/ui/windows/chat/private_tab_prev_on
+  $pressed:
+    image-source: /images/ui/windows/chat/private_tab_prev_on
+  anchors.left: parent.left
+  margin-top: 2
+  margin-left: 55
+  anchors.verticalCenter: parent.verticalCenter
+  @onClick: GameChat:showPreviousPrivateTab()
+
+GameChatPrivateMessagesPanel < ScrollablePanel
+  id: privateMessagesPanel
+  size: 500 40
+  anchors.top: parent.top
+  anchors.left: parent.left
+  GameChatPrivateMessages
+  GameChatPrivateMessagesPanelArrowNext
+  GameChatPrivateMessagesPanelArrowPrev
+
+GameChatPrivateMessages < MoveableTabBar
+  id: privateMessages
+  size: 400 40
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-left: 70
+  margin-right: 20
+  tab-spacing: 5
+  padding-left: 5
+  padding-right: 5
+  padding-top: 7
+  movable: true
+  focusable: false
+
+GameChatPrivateMessagesButton < MoveableTabBarButton
+  size: 30 30
+  image-source: /images/ui/windows/chat/private_tab_inactive
+  image-border: 3
+  text-align: left
+  font: poppins-16
+  text-offset: 10 2
+  padding-right: 0
+  margin-right: 10
+  opacity: 1
+  $checked:
+    image-source: /images/ui/windows/chat/private_tab_active
+  $on:
+    image-source: /images/ui/windows/chat/private_tab_active
+
+GameChatPrivateMessageCloseButton < UIWidget
+  id: closeButton
+  image-source: /images/ui/windows/chat/private_tab_close
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  margin-right: 10
+  size: 20 20
+  opacity: 0.8
+  phantom: false
+  text: 
+  $hover:
+    opacity: 1.0
+  $pressed:
+    opacity: 0.8
+
+GameChatPrivateMessageNotificationButton < UIWidget
+  id: closeButton
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  text: 0
+  font: poppins-13
+  size: 20 20
+  text-offset: 0 3
+  phantom: true
+  image-source: /images/ui/windows/chat/private_tab_notification_button_off
+  text-color: #7E828B
+  $on:
+    image-source: /images/ui/windows/chat/private_tab_notification_button_on
+    text-color: #A556FF
+
+GameChatWindow < UIWindow
+  id: gameChatWindow
+  size: 500 460
+  &shrinkHeight: 460
+  &shrinkWidth: 55
+  &expandHeight: 460
+  &expandWidth: 500
+
+  GameChatHiddenMessagesPanel
+    id: hiddenMessagesPanel
+    visible: true
+    vertical-scrollbar: hidden_buffer_scrollbar
+
+  GameChatWindowMessagesScrollBar
+    id: hidden_buffer_scrollbar
+    opacity: 0
+
+  GameChatPrivateMessagesPanel
+    horizontal-scrollbar: private_messages_scrollbar
+
+  GameChatWindowMessagesScrollBar
+    id: private_messages_scrollbar
+    opacity: 0
+    orientation: horizontal
+
+// contents
+  UIWidget
+    id: content
+    image-source: /images/ui/windows/chat/background_main
+    image-border: 15
+    margin-top: 40
+    on: true
+    $on:
+      anchors.fill: parent
+    $!on:
+      anchors.top: parent.top
+      anchors.left: parent.left
+
+    GameChatWindowEdgeTop
+    GameChatWindowEdgeBottom
+
+    // left selection list
+    GameChatWindowOptionsList
+
+    // chat message panels
+    GameChatWindowMessagesPanel
+      id: general_buffer
+      vertical-scrollbar: general_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: general_scrollbar
+
+    GameChatWindowMessagesPanel
+      id: global_br_buffer
+      vertical-scrollbar: global_br_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: global_br_scrollbar
+
+    GameChatWindowMessagesPanel
+      id: global_en_buffer
+      vertical-scrollbar: global_en_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: global_en_scrollbar
+
+    GameChatWindowMessagesPanel
+      id: global_pl_buffer
+      vertical-scrollbar: global_pl_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: global_pl_scrollbar
+
+    GameChatWindowMessagesPanel
+      id: global_spa_buffer
+      vertical-scrollbar: global_spa_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: global_spa_scrollbar
+
+    GameChatWindowMessagesPanel
+      id: server_log_buffer
+      vertical-scrollbar: server_log_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: server_log_scrollbar
+
+    GameChatWindowMessagesPanel
+      id: action_log_buffer
+      vertical-scrollbar: action_log_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: action_log_scrollbar
+
+    GameChatWindowMessagesPanel
+      id: party_buffer
+      vertical-scrollbar: party_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: party_scrollbar
+
+    PartyUpperPanel
+      id: party_upper_panel
+
+    GameChatWindowMessagesPanel
+      id: guild_buffer
+      vertical-scrollbar: guild_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: guild_scrollbar
+
+    GameChatWindowMessagesPanel
+      id: looking_for_group_buffer
+      vertical-scrollbar: looking_for_group_scrollbar
+    GameChatWindowMessagesScrollBar
+      id: looking_for_group_scrollbar
+
+    // input box
+    GameChatWindowMessageInputPanel
+      GameChatWindowMessageInputPrefix
+      GameChatWindowMessageInput
+      GameChatWindowMessageInputType

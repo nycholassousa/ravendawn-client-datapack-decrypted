@@ -1,0 +1,138 @@
+// Minotaurs
+creatures
+  // Asterion - old
+  1144
+    creature-offset: 16 8
+
+  // Minotaur Brute
+  1139
+    enemy-circle-size: 52 52
+    enemy-circle-offset: 0 0
+    friend-circle-size: 52 52
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5267
+  5267
+    animate-from-start: true
+    creature-offset: 32 32
+  
+  // Minotaur Champion
+  1140
+    creature-offset: 32 32
+    enemy-circle-size: 52 52
+    enemy-circle-offset: 0 0
+    friend-circle-size: 52 52
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5266
+  5266
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Minotaur Executioner
+  1142
+    creature-offset: 9 9
+    enemy-circle-size: 52 52
+    enemy-circle-offset: 0 0
+    friend-circle-size: 52 52
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5263
+  5263
+    animate-from-start: true
+    creature-offset: 41 41
+  
+  // Minotaur Duelist
+  1143
+    enemy-circle-size: 52 52
+    enemy-circle-offset: 0 0
+    friend-circle-size: 52 52
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5264
+  5264
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Minotaur Warden
+  1145
+    creature-offset: 32 32
+    enemy-circle-size: 52 52
+    enemy-circle-offset: 0 0
+    friend-circle-size: 52 52
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5262
+  5262
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // Minotaur Arbalist
+  5557
+    creature-offset: 10 10
+    enemy-circle-size: 52 52
+    enemy-circle-offset: 0 0
+    friend-circle-size: 52 52
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 700
+    attack-animation-type: 0
+    attack-animation:
+      0: 5556
+  5556
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Angerhorn
+  5211
+    creature-offset: 5 5
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 5209
+  5209
+    animate-from-start: true
+    creature-offset: 44 44
+
+  // Asterion
+  5839
+    creature-offset: 8 8
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 450
+    attack-animation-type: 0
+    attack-animation:
+      0: 5840
+  5840
+    animate-from-start: true
+    creature-offset: 38 38
+
+  5875
+    creature-offset: 8 8
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0

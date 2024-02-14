@@ -1,0 +1,301 @@
+GameTradepacksWindowTopPanel < UIWidget
+  id: top_panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: parent.top
+  height: 50
+  GameTradepacksWindowTopPanelSearchPanel
+  GameTradepacksWindowTopPanelButton
+    id: name
+  GameTradepacksWindowTopPanelButton
+    id: demand
+    anchors.right: prev.left
+    margin-right: 5
+
+GameTradepacksWindowTopPanelSearchPanel < TextEdit
+  id: search_panel
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+  width: 200
+  preview: Search item...
+  font: poppins-15
+  text-offset: 25 4
+  image-source: /images/ui/windows/tradepacks/search_background
+  image-border: 5
+  padding-left: 35
+  @onTextChange: |
+    GameTradepacks:onSearchTextChanged(self:getText())
+  UIWidget
+    id: icon_search
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 20 20
+    image-source: /images/ui/windows/tradepacks/icon_search
+    margin-left: -25
+    margin-top: -3
+
+GameTradepacksWindowTopPanelButton < UIWidget
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  image-source: /images/ui/windows/tradepacks/panel_background
+  image-border: 10
+  opacity: 1.0
+  padding: 0 10 0 10
+  height: 45
+  $hover:
+    opacity: 0.9
+  UIWidget
+    id: text
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    text-auto-resize: true
+    font: poppins-semibold-14
+    text-offset: 0 2
+    text: Demand
+    phantom: true
+    text-color: #595c64
+    $checked:
+      text-color: #a6aab2
+    @onSetup: |
+      self:setText(self:getParent():getId():titleCase())
+    @onTextChange: |
+      addEvent(function()
+        self:getParent():setWidth(self:getWidth() + 40)
+      end)
+  UIWidget
+    id: icon
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 11 7
+    margin-top: 1
+    phantom: true
+    image-source: /images/ui/windows/tradepacks/arrow_down
+    image-color: #595c64
+    $checked:
+      image-color: #a6aab2
+    $on:
+      image-source: /images/ui/windows/tradepacks/arrow_up
+  @onStateChange: |
+    self.icon:setOn(self:isOn())
+    self.text:setOn(self:isOn())
+  @onCheckChange: |
+    self.text:setChecked(self:isChecked())
+    self.icon:setChecked(self:isChecked())
+  @onClick: |
+    GameTradepacks:sort(self:getId())
+
+GameTradepacksWindowListPanel < ScrollablePanel
+  id: list_panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: top_panel.bottom
+  anchors.bottom: parent.bottom
+  vertical-scrollbar: list_panel_scrollbar
+  margin-top: 5
+  margin-bottom: 55
+  layout:
+    type: verticalBox
+
+GameTradepacksWindowListPanelScrollbar < VerticalScrollBar
+  id: list_panel_scrollbar
+  anchors.right: parent.right
+  anchors.top: list_panel.top
+  anchors.bottom: list_panel.bottom
+  margin: 7
+  step: 48
+  pixels-scroll: true
+
+GameTradepacksWindowListItem < UIWidget
+  height: 100
+  image-source: /images/ui/windows/tradepacks/panel_background
+  $on:
+    image-source: /images/ui/windows/tradepacks/panel_background_active
+  margin: 5 20 5 20
+  image-border: 10
+  UIItem
+    id: item
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 70 70
+    margin-left: 20
+    phantom: true
+    item-id: 36000
+
+  UIWidget
+    id: name
+    anchors.left: item.right
+    anchors.top: item.top
+    anchors.right: parent.right
+    font: poppins-semibold-16
+    margin-left: 20
+    text-align: left
+    text: test
+    text-color: #a6aab2
+    phantom: true
+
+  UIWidget
+    id: demand
+    anchors.left: item.right
+    anchors.top: name.bottom
+    text-auto-resize: true
+    font: poppins-semibold-12
+    margin-left: 20
+    text-align: left
+    text-color: #7e828b
+    margin-top: 5
+    @onTextChange: |
+      addEvent(function()
+        local colors = {
+          [3] = '#6ec35c',
+          [2] = '#f7b500',
+          [1] = '#f75c5c'
+        }
+        -- get number from text string
+        local number = tonumber(self:getText():match('%d+'))
+        if not number then
+          local parent = self:getParent()
+          parent:getChildById('lock_icon'):setVisible(true)
+          parent:getChildById('lock_icon'):setTooltip(self.tooltip)
+          return
+        else
+          local parent = self:getParent()
+          parent:getChildById('lock_icon'):setVisible(false)
+        end
+        local color = colors[math.min(#colors, math.ceil(number / 33.3))]
+        self:setColoredText(GetHighlightedText(string.format('Global demand: {%s%%, %s}', number, color), '#7e828b'), true)
+      end)
+
+  UIWidget
+    id: lock_icon
+    anchors.left: demand.right
+    anchors.verticalCenter: demand.verticalCenter
+    image-source: /images/ui/icons/icon_lock
+    visible: false
+    margin-left: 7
+    size: 13 16
+    margin-bottom: 2
+
+  UIWidget
+    id: material_list
+    anchors.left: item.right
+    anchors.bottom: item.bottom
+    anchors.right: parent.right
+    margin-left: 20
+    margin-bottom: -5
+    height: 25
+    phantom: true
+    layout:
+      type: horizontalBox
+      spacing: 5
+  
+  UIWidget
+    id: expand_button
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 25 25
+    margin-right: 20
+    image-source: /images/ui/windows/tradepacks/button_right
+    $hover:
+      image-source: /images/ui/windows/tradepacks/button_right_active
+
+GameTradepacksWindowListMaterialItem < UIWidget
+  size: 45 25
+  image-source: /images/ui/windows/tradepacks/material_background
+  image-border: 5
+  $on:
+    image-source: /images/ui/windows/tradepacks/material_background_active
+  @onStateChange: |
+    self.icon:setOn(self:isOn())
+  UIItem
+    id: item
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 18 18
+    item-id: 6355
+    margin-left: 5
+    phantom: true
+  UIItem
+    id: icon
+    margin-right: 5
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 12 12
+    phantom: true
+    image-source: /images/ui/windows/tradepacks/icon_ok
+    $on:
+      image-source: /images/ui/windows/tradepacks/icon_ok_active
+
+GameTradepacksWindowBottomPanel < UIWidget
+  id: bottom_panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  height: 55
+  UIWidget
+    image-source: /images/ui/windows/tradepacks/edge
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: parent.top
+    height: 3
+  UIButton
+    id: bagButton
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 42 42
+    image-source: /images/ui/windows/npcs/tradepost/button_bag
+    margin-left: 20
+    margin-top: 1
+    opacity: 0.7
+
+    @onClick: |
+      GameTradepacks:toggleLeftPanel()
+
+    $on:
+      image-source: /images/ui/windows/npcs/tradepost/button_bag_active
+    $hover:
+      opacity: 1.0
+  UIWidget
+    text: Tradepack Bags
+    font: poppins-semibold-14
+    text-color: #a6aab2
+    anchors.left: bagButton.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 10
+    text-auto-resize: true
+
+TradepackItem < UIWidget
+  size: 640 70
+  padding-top: 10
+  padding-left: 10
+  padding-bottom: 10
+  image-border: 5
+  $on:
+    image-source: /images/ui/windows/tradepack/button_bg_on
+  $!on:
+    image-source: /images/ui/windows/tradepack/button_bg_off
+  UIItem
+    id: item
+    itemid: 1234
+    anchors.left: parent.left
+    anchors.top: parent.top
+    size: 50 50
+    image-source: /images/ui/windows/tradepack/item_bg_internal
+  UILabel
+    id: name
+    text: Pepega
+    text-auto-resize: true
+    font: myriad-pro-semibold-20
+    anchors.top: prev.top
+    anchors.left: prev.right
+    margin-left: 20
+    margin-top: 5
+    color: #7a8995
+  UILabel
+    id: demand
+    text: Global Demand: loading...
+    text-auto-resize: true
+    font: myriad-pro-semibold-14
+    anchors.bottom: parent.bottom
+    anchors.left: prev.left
+    color: #707070
+    text-offset: 0 4

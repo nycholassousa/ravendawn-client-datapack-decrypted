@@ -1,0 +1,59 @@
+GameHouseInformationWindow < MainWindow
+  id: information_window
+  &title: 'House Information'
+  &iconName: 'icon_house_upgrade'
+  size: 400 475
+  &minHeight: 475
+  draggable: false
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  margin-bottom: 50
+  MainWindowContent
+    padding: 0
+    margin-top: 20
+    GameHouseInformationPreview
+      id: current
+      anchors.fill: parent
+
+GameHouseInformationPreview < UIWidget
+  UIWidget
+    id: name
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    text-auto-resize: true
+    font: poppins-semibold-17
+    text-color: #ffffff
+    text: Small Shack House
+    padding: 10
+    image-source: /images/ui/windows/house/upgrade_name_background
+  UIWidget
+    id: image
+    anchors.left: parent.left
+    anchors.top: name.bottom
+    size: 170 146
+    image-clip: 50 50 250 200
+  
+  ScrollablePanel
+    id: bonuses
+    anchors.top: image.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 180
+    vertical-scrollbar: bonusesListScrollbar
+    padding-left: 20
+    padding-right: 20
+    padding-bottom: 10
+    layout:
+      type: verticalBox
+      spacing: 5
+
+  VerticalScrollBar
+    id: bonusesListScrollbar
+    anchors.top: bonuses.top
+    anchors.right: bonuses.right
+    anchors.bottom: bonuses.bottom
+    margin-top: 5
+    margin-bottom: 5
+    margin-right: 5
+    pixels-scroll: true
+    step: 40

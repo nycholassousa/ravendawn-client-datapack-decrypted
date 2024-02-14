@@ -1,0 +1,91 @@
+NpcItem < Item
+  font: poppins-14
+  size: 60 60
+  virtual: true
+  image-source: /images/ui/windows/wagon_storage/item_background
+  border-color: #e7b131
+  border-width: 0
+  phantom: false
+  
+WarehouseItem < NpcItem
+  size: 58 58
+  phantom: false
+  &canDragItem: true
+  @onSetup: |
+    connect(self, {
+      onHoverChange = function()
+        if self:getChildById('mask') then
+          --self:getChildById('mask'):setVisible(self:isHovered())
+        end
+      end,
+      onItemChange = function()
+        self.icon:setVisible(false)
+
+        local itemInfo = self:getItem() and self:getItem().tooltipInfo
+        if itemInfo then
+          self.weightLabel:setText(itemInfo.weight and (string.format("%.2f", itemInfo.weight) .. ' kg') or '')
+        end
+      end
+    })
+  $disabled:
+    image-source: /images/ui/windows/wagon_storage/item_background_disabled
+
+  Label
+    id: weightLabel
+    font: poppins-12
+    text-auto-resize: true
+    text-align: right
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    margin: 2
+    phantom: true
+
+  Panel
+    id: icon
+    size: 40 40
+    anchors.centerIn: parent
+    // disabled
+    opacity: 0.0001
+  
+  UIWidget
+    id: mask
+    anchors.fill: parent
+    visible: false
+    phantom: true
+    image-source: /images/ui/windows/wagon_storage/item_highlight
+
+NpcItems < Panel
+  width: 130
+  layout:
+    type: grid
+    cell-size: 60 60
+    cell-spacing: 10 10
+    flow: true
+
+NpcName < Label
+  size: 150 70
+  font: poppins-18
+  color: #ffffff
+  //text-wrap: true
+  text-auto-resize: true
+  text-align: bottom
+
+NpcOutfit < UICreature
+  size: 96 96
+
+WarehouseOutfit < Panel
+  height: 160
+
+  NpcName
+    id: name
+    height: 30
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    image-source: /images/ui/windows/wagon_storage/upper_panel
+
+  NpcOutfit
+    id: outfit
+    anchors.top: prev.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 15

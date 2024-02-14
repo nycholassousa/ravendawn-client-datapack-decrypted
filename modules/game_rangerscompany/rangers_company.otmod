@@ -1,0 +1,6 @@
+Module
+  name: game_rangerscompany
+  sandboxed: true
+  scripts: [ rangers_company ]
+  @onLoad: GameRangersCompany:init()
+  @onUnload: GameRangersCompany:terminate()

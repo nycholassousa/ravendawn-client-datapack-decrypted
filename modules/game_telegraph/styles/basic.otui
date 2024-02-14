@@ -1,0 +1,7 @@
+BasicWidget < UIWidget
+  UIWidget
+    id: main_image
+    anchors.centerIn: parent
+  UIWidget
+    id: secondary_image
+    anchors.fill: parent

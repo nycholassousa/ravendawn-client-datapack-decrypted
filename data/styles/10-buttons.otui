@@ -1,0 +1,92 @@
+Button < UIButton
+  height: 50
+  text-hidden: true
+  image-border: 5
+  image-offset: 6 6
+  &minWidth: 50
+  enabled: true
+  background-color: #181A1D
+  image-source: /images/ui/buttons/background_normal
+  $on:
+    image-source: /images/ui/buttons/background_hover
+
+  UIWidget
+    id: text
+    phantom: true
+    opacity: 1.0
+    anchors.fill: parent
+    image-source: /images/ui/buttons/background
+    image-border-left: 10
+    image-border-right: 10
+    text-align: center
+    text-auto-resize: true
+    text-offset: 0 3
+    font: poppins-semibold-16
+    $on:
+      text-color: #131416
+    $disabled:
+      opacity: 0.5
+
+  UIWidget
+    id: icon
+    phantom: true
+    anchors.centerIn: parent
+    opacity: 1.0
+    $on !checked:
+      image-color: #131416
+    $on checked:
+      image-color: #FFFFFF
+    $disabled:
+      opacity: 0.5
+
+PrimaryButton < Button
+  &color: '#36F991'
+
+SecondaryButton < Button
+  &color: '#A556FF'
+
+SuccessButton < Button
+  &color: '#77D463'
+
+InfoButton < Button
+  &color: '#5DA4FB'
+
+DangerButton < Button
+  &color: '#FF5151'
+
+WarningButton < Button
+  &color: '#fbfb79'
+
+NeutralButton < Button
+  &color: '#A6AAB2'
+
+OrangeButton < Button
+  &color: '#FFA851'
+
+YellowButton < Button
+  &color: '#FEFEC6'
+
+WhiteButton < Button
+  &color: '#FFFFFF'
+
+DisabledButton < Button
+  &color: '#7E828B'
+  enabled: false
+
+RadioButton < UIWidget
+  width: 14
+  height: 14
+  image-source: /images/ui/buttons/radio/radio_off
+  $on:
+    image-source: /images/ui/buttons/radio/radio_on
+  $checked:
+    image-source: /images/ui/buttons/radio/radio_on
+
+SmallButton < UIButton
+  size: 35 35
+  image-border: 9
+  image-source: /images/ui/buttons/smallbutton
+  $on:
+    image-source: /images/ui/buttons/smallbutton_hovered
+  $hover:
+    image-source: /images/ui/buttons/smallbutton_hovered

@@ -1,0 +1,116 @@
+TrueSelect < UIWidget
+  image-source: /images/ui/misc/select_background_true
+  @onClick: |
+    self.cursor:setOn(not self.cursor:isOn())
+    self:setOn(self.cursor:isOn())
+
+  UIWidget
+    id: cursor
+    image-source: /images/ui/misc/select_cursor_true
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: -4
+    margin-top: -4
+    phantom: true
+    $on:
+      margin-left: 12
+
+TrueFalseSelect < UIWidget
+  image-source: /images/ui/misc/select_background_false
+  $checked:
+    image-source: /images/ui/misc/select_background_true
+  @onClick: |
+    self.cursor:setOn(not self.cursor:isOn())
+    self:setOn(self.cursor:isOn())
+  $on:
+    image-source: /images/ui/misc/select_background_true
+  @onCheckChange: |
+    addEvent(function()
+      self.cursor:setChecked(self:isChecked())
+    end)
+  UIWidget
+    id: cursor
+    image-source: /images/ui/misc/select_cursor_false
+    $checked:
+      image-source: /images/ui/misc/select_cursor_true
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: -4
+    margin-top: -4
+    phantom: true
+    $on:
+      image-source: /images/ui/misc/select_cursor_true
+      margin-left: 12
+
+SideSelect < UIWidget
+  phantom: true
+  image-source: /images/ui/windows/market/offer_type_background
+  image-border: 20
+  &left_text: ''
+  &right_text: ''
+  @onSetup: |
+    if self.left_text then
+      self.left_option:setText(self.left_text)
+    end
+    if self.right_text then
+      self.right_option:setText(self.right_text)
+    end
+
+    local leftOption = self:getChildById('left_option')
+    leftOption:setWidth(self:getWidth()/2)
+
+  UIWidget
+    id: left_option
+    anchors.left: parent.left
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    font: poppins-14
+    text-align: center
+    image-source: 
+    image-border: 20
+    text-color: #7E828B
+    on: true
+    &disabled: false
+    $on:
+      image-source: /images/ui/windows/market/offer_type_selected
+      text-color: #36F991
+    @onClick: |
+      if self.disabled or self:isOn() then
+        return
+      end
+      local parent = self:getParent()
+      parent.left_option:setOn(true)
+      parent.right_option:setOn(false)
+
+      if parent.onClick() then
+        parent.onClick(self)
+      end
+  
+  UIWidget
+    id: right_option
+    anchors.left: prev.right
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    
+    font: poppins-14
+    text-align: center
+    image-source:
+    image-border: 20
+    text-color: #7E828B
+    margin-left: 5
+    &disabled: false
+    $on:
+      image-source: /images/ui/windows/market/offer_type_selected
+      text-color: #36F991
+    @onClick: |
+      if self.disabled or self:isOn() then
+        return
+      end
+      local parent = self:getParent()
+      parent.left_option:setOn(false)
+      parent.right_option:setOn(true)
+
+      if parent.onClick() then
+        parent.onClick(self)
+      end

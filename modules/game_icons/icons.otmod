@@ -1,0 +1,9 @@
+Module
+  name: game_icons
+  description: Item Icons
+  author: Archlight Team
+  website: www.archlightonline.com
+  sandboxed: false
+  scripts: [ icons ]
+  @onLoad: g_icons.init()
+  @onUnload: g_icons.terminate()

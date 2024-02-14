@@ -1,0 +1,171 @@
+// Turtles
+creatures
+  // Big Turtle-Ice
+  4449
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 0 0
+    friend-circle-size: 56 56
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    attack-animation-type: 0
+    attack-animation:
+      0: 4450
+  4450
+    enemy-circle-size: 56 66
+    enemy-circle-offset: 0 0
+    friend-circle-size: 56 56
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Medium Ice-Turtle
+  4451
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 16 16
+    attack-animation-type: 0
+    attack-animation:
+      0: 4452
+  4452
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 16 16
+    animate-from-start: true
+
+  // Little-Ice-Turtle
+  4453
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 16 16
+    attack-animation-type: 0
+    attack-animation:
+      0: 4454
+  4454
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 16 16
+    animate-from-start: true
+
+  // Big Turtle
+  4455
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 0 0
+    friend-circle-size: 56 56
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    attack-animation-type: 0
+    attack-animation:
+      0: 4456
+  4456
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 0 0
+    friend-circle-size: 56 56
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Medium Turtle
+  4457
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    attack-animation-type: 0
+    attack-animation:
+      0: 4458
+  4458
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    animate-from-start: true
+
+  // Little Turtle
+  4459
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 0
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    creature-offset: 16 16
+    attack-animation-type: 0
+    attack-animation:
+      0: 4460
+  4460
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 0
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    creature-offset: 16 16
+    animate-from-start: true
+
+  // Pearlshell Giant
+  1657
+    creature-offset: 32 32
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 0 0
+    friend-circle-size: 56 56
+    friend-circle-offset: 0 0
+    attack-animation-type: 0
+    attack-animation:
+      0: 1658
+  1658
+    animate-from-start: true
+    creature-offset: 32 32
+    alternate-animation: 1659
+  1659
+    animate-from-start: true
+    creature-offset: 32 32
+    alternate-animation: 1658
+  1660
+    animate-from-start: true
+    creature-offset: 32 32
+  
+  // Pearlshell Hatchling
+  1661
+    creature-offset: 16 16
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 5 5
+    friend-circle-size: 36 36
+    friend-circle-offset: 5 5
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 1662
+  1662
+    animate-from-start: true
+    creature-offset: 16 16
+    alternate-animation: 1663
+  1663
+    animate-from-start: true
+    creature-offset: 16 16
+    alternate-animation: 1662
+
+  // Pearlshell Snapper
+  1664
+    creature-offset: 16 16
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    attack-animation-type: 0
+    attack-animation:
+      0: 1665
+  1665
+    animate-from-start: true
+    creature-offset: 16 16
+    alternate-animation: 1666
+  1666
+    animate-from-start: true
+    creature-offset: 16 16
+    alternate-animation: 1665

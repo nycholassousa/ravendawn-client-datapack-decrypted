@@ -1,0 +1,67 @@
+GameHouseControlsInfoWindow < UIWidget
+  id: controls_info_window
+  image-source: /images/ui/windows/house/controls_background
+  size: 500 388
+  draggable: false
+  image-border: 10
+  phantom: true
+  padding: 10
+
+  UIWidget
+    phantom: true
+    anchors.fill: parent
+    layout:
+      type: verticalBox
+      spacing: 5
+
+    GameHouseControlsInfoWindowItem
+      id: direction
+    GameHouseControlsInfoWindowItem
+      id: floor
+    GameHouseControlsInfoWindowItem
+      id: exit
+    GameHouseControlsInfoWindowItem
+      id: delete
+
+GameHouseControlsInfoWindowItem < UIWidget
+  image-source: /images/ui/windows/house/list_item_background
+  image-border: 10
+  padding: 20
+  UIWidget
+    id: image_holder
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    width: 110
+    UIWidget
+      id: image
+      anchors.centerIn: parent
+      @onSetup: |
+        local topParent = self:getParent():getParent()
+        self:setImageSource(string.format('/images/ui/windows/house/controls/%s_icon', topParent:getId()))
+        local width = self:getImageTextureWidth()
+        local height = self:getImageTextureHeight()
+        topParent:setSize({width = width + topParent:getPaddingLeft() + topParent:getPaddingRight(), height = height + topParent:getPaddingTop() + topParent:getPaddingBottom()})
+        self:setSize({width = width, height =  height})
+        self:getParent():setHeight(height)
+
+  UIWidget
+    id: description
+    anchors.left: image_holder.right
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    text-wrap: true
+    font: poppins-semibold-14
+    text-color: #ced2d9
+    text-auto-resize: true
+    text-align: left
+    margin-left: 20
+    &descriptions: |
+      {
+        direction = 'Change placement direction with directional keys.',
+        floor = 'Change house floor with page up / page down.',
+        exit = 'Press ESC to leave house mode.',
+        delete = 'Press DEL to delete your entire property.'
+      }
+    @onSetup: |
+      local parent = self:getParent()
+      self:setText(self.descriptions[parent:getId()])

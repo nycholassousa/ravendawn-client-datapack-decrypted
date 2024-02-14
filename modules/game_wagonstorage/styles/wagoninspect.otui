@@ -1,0 +1,51 @@
+WagonInspectWindow < MainWindow
+  size: 300 300
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 50
+  focusable: false
+  draggable: false
+  &title: 'Wagon Inspect'
+  &iconName: 'icon_wagon'
+
+  MainWindowContent
+    id: contentPanel
+    padding: 20 0 0 0
+
+    Panel
+      id: inspectPanel
+      anchors.top: parent.top
+      anchors.bottom: inspectItems.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 7
+      margin-bottom: 20
+
+      NpcOutfit
+        id: outfit
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+
+      NpcName
+        id: name
+        height: 30
+        anchors.top: prev.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        margin-top: 15
+
+      UIWidget
+        phantom: true
+        height: 28
+        anchors.bottom: parent.bottom
+        anchors.left: parent.left
+        anchors.right: parent.right
+        image-source: /images/ui/windows/wagon_storage/upper_panel
+        text-align: center
+        !text: tr("Wagon Storage")
+
+    NpcItems
+      id: inspectItems
+      width: 200
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.bottom: parent.bottom
+      margin-bottom: 30

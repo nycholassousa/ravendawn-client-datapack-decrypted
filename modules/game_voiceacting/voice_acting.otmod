@@ -1,0 +1,7 @@
+Module
+  name: game_voiceacting
+  description: Voice Acting
+  sandboxed: false
+  scripts: [ voice_acting ]
+  @onLoad: GameVoiceActing:init()
+  @onUnload: GameVoiceActing:terminate()

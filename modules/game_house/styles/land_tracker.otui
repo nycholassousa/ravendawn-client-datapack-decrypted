@@ -1,0 +1,281 @@
+GameHouseLandTrackerTopPanel < UIWidget
+  id: land_info_panel
+  height: 94
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-top: 50
+  padding-top: 20
+
+  UIWidget
+    id: icon
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    image-source: /images/ui/windows/house/land_sizes/small
+    image-auto-resize: true
+
+  UIWidget
+    id: size
+    font: poppins-16
+    text-auto-resize: true
+    anchors.left: prev.right
+    anchors.bottom: prev.verticalCenter
+    margin-left: 20
+    text: Small
+
+  UIWidget
+    size: 2 15
+    background-color: #3A3D43
+    anchors.left: prev.right
+    anchors.top: prev.top
+    margin-left: 15
+
+  UIWidget
+    id: distance
+    color: #FFA851
+    font: poppins-16
+    text-auto-resize: true
+    anchors.left: prev.right
+    anchors.top: prev.top
+    margin-left: 15
+
+  UIWidget
+    id: region
+    color: #CED2D9
+    font: poppins-16
+    text-auto-resize: true
+    anchors.left: size.left
+    anchors.top: size.bottom
+    margin-top: 10
+    text: South Glademire
+
+  UIWidget
+    id: teleport_button
+    size: 35 35
+    anchors.top: size.top
+    anchors.right: parent.right
+    margin-right: 25
+    image-source: /images/ui/windows/house/land_tracker/teleport_button_1
+
+  UIWidget
+    id: map_button
+    size: 35 35
+    anchors.top: prev.bottom
+    anchors.right: prev.right
+    margin-top: 5
+    image-source: /images/ui/windows/house/land_tracker/map_button_1
+
+GameHouseLandTrackerListTitle < Panel
+  id: list_title
+  font: poppins-14
+  height: 40
+  background-color: #00000050
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: prev.bottom
+  margin-top: 10
+  text: Progress
+
+GameHouseLandTrackerList < ScrollablePanel
+  id: list
+  anchors.fill: parent
+  anchors.top: prev.bottom
+  anchors.bottom: bottom_panel.top
+  margin-bottom: 2
+  padding: 10
+  padding-left: 20
+  padding-right: 20
+  vertical-scrollbar: list_scrollbar
+  layout:
+    type: verticalBox
+    spacing: 5
+
+GameHouseLandTrackerScrollbar < VerticalScrollBar
+  id: list_scrollbar
+  anchors.right: list.right
+  anchors.top: list_title.bottom
+  anchors.bottom: list.bottom
+  margin-right: 10
+  margin-top: 5
+  margin-bottom: 5
+  step: 48
+  pixels-scroll: true
+
+GameHouseLandTrackerEntryPanel < Panel
+  height: 30
+  @onEnableChange: |
+    local enabled = self:isEnabled()
+    for _, child in ipairs(self:getChildren()) do
+      child:setEnabled(enabled)
+    end
+
+  UIWidget
+    id: name
+    width: 75
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    margin-left: 10
+    font: poppins-semibold-14
+    text-align: left
+    text-offset: 0 2
+    text: Gathering
+    $disabled:
+      text-color: #7E828B
+
+  UIProgressBar3
+    id: bar
+    size: 137 9
+    image-source: /images/ui/windows/updater/progressbar_background
+    image-border: 4
+    anchors.left: name.right
+    anchors.verticalCenter: name.verticalCenter
+    margin-left: 10
+    margin-top: 1
+
+    Panel
+      id: progress
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      background-color: #36F991
+      height: 4
+      margin-left: 2
+      margin-right: 3
+      margin-top: -1
+
+  UIWidget
+    id: time
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: prev.right
+    anchors.right: parent.right
+    margin-left: 10
+    font: poppins-14
+    text-align: left
+    text-offset: 25 2
+    text-color: #A6AAB2
+    on: false
+    $on:
+      icon-source: /images/ui/windows/house/land_tracker/icon_ready
+      icon-align: center
+    $!on:
+      icon-source: /images/ui/windows/house/land_tracker/icon_time
+      icon-align: left
+    $disabled:
+      text: Waiting
+      text-color: #7E828B
+      icon-source:
+      text-offset: 0 2
+
+GameHouseLandTrackerListEntry < UIWidget
+  height: 50
+  image-source: /images/ui/windows/house/land_tracker/list_background
+  image-border: 3
+  
+  UIItem
+    id: item
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    margin-left: 15
+    phantom: true
+    size: 30 30
+
+  UICreature
+    id: moa_male
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    margin-left: 15
+    phantom: true
+    size: 24 24
+    visible: false
+
+  UICreature
+    id: moa_female
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: prev.left
+    margin-left: 9
+    phantom: true
+    size: 24 24
+    visible: false
+
+  UIItem
+    id: stable_right
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    margin-left: 7
+    margin-bottom: 10
+    phantom: true
+    size: 48 48
+
+  Panel
+    id: list
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    margin-left: 45
+    padding: 5
+    layout:
+      type: verticalBox
+      fit-children: true
+      spacing: 5
+
+GameHouseLandTrackerHorizontalSeparator < UIWidget
+  height: 1
+  background-color: #3A3D43
+  margin-left: 20
+
+GameHouseLandTrackerEmptyListEntry < UIWidget
+  size: 382 72
+  font: poppins-14
+  image-source: /images/ui/windows/house/land_tracker/info_background
+  image-border: 4
+  text: No activities happening on your land right now
+  text-align: center
+  text-color: #A6AAB2
+
+GameHouseLandTrackerBottomPanel < UIWidget
+  id: bottom_panel
+  height: 54
+  anchors.bottom: parent.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  border-width-top: 1
+  border-color: #3a3d43
+
+  UIWidget
+    id: effort
+    image-source: /images/ui/windows/house/land_tracker/effort_background
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 2
+    icon-source: /images/ui/windows/house/land_tracker/icon_effort
+    icon-align: center
+    icon-offset: -25 0
+    font: poppins-semibold-14
+    text-align: center
+    text-offset: 25 2
+    text-color: #FFA851
+    @onHoverChange: |
+      function(self, hovered)
+        if hovered then
+          g_gameTooltip.displayEffortPremiumTooltip(self)
+        end
+      end
+
+GameHouseLandTrackerWindow < MainWindow
+  //anchors.top: minimapWindow.top
+  //anchors.right: minimapWindow.left
+  margin-top: 100
+  margin-right: 10
+  draggable: false
+  &title: 'Land Tracker'
+  &iconName: 'icon_house'
+  $on:
+    size: 420 426
+  $!on:
+    size: 420 326
+
+  GameHouseLandTrackerTopPanel
+  GameHouseLandTrackerListTitle
+  GameHouseLandTrackerList
+  GameHouseLandTrackerScrollbar
+  GameHouseLandTrackerBottomPanel

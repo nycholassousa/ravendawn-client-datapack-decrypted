@@ -1,0 +1,101 @@
+ThingInformationWindow < MainWindow
+  id: thingInformationWindow
+  size: 475 545
+  &baseWidth: 475
+  &baseHeight: 545
+  visible: false
+  anchors.centerIn: parent
+  &title: 'Thing Information'
+  &shortcut: 'Ctrl+Alt+1'
+
+  UIWidget
+    height: 45
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    anchors.right: parent.horizontalCenter
+    margin-left: 10
+    margin-right: 5
+
+    Label
+      text: Player Name
+      font: myriad-pro-14
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.left: parent.left
+      margin-right: 10
+
+    TextEdit
+      id: playerName
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.left: prev.right
+      anchors.right: parent.right
+      margin-left: 10
+
+  UIWidget
+    height: 45
+    anchors.top: prev.top
+    anchors.left: parent.horizontalCenter
+    anchors.right: parent.right
+    margin-right: 10
+    margin-left: 5
+
+    Label
+      text: Creature Id
+      font: myriad-pro-14
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.left: parent.left
+      margin-right: 10
+
+    TextEdit
+      id: creatureId
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.left: prev.right
+      anchors.right: parent.right
+      margin-left: 10
+
+  Panel
+    id: textPanel
+    height: 340
+    padding-left: 10
+    padding-right: 10
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+
+    MultilineTextEdit
+      id: text
+      anchors.fill: parent
+      margin-right: 12
+      font: myriad-pro-16
+      background-color: #00000049
+      text-offset: 3 3
+      text-align: topleft
+      text-wrap: true
+      image-source: 
+      border: 1 #44413a
+      text-wrap: true
+      vertical-scrollbar: textScroll
+
+    VerticalScrollBar
+      id: textScroll
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      anchors.right: parent.right
+      pixels-scroll: true
+      step: 10
+
+  UIWidget
+    id: buttonsPanel
+    height: 45
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    margin-bottom: 10
+    layout:
+      type: horizontalBox
+      fit-children: true
+      spacing: 20
+
+    Button
+      width: 200
+      id: trackButton
+      @onClick: requestStats()
+      text: Track

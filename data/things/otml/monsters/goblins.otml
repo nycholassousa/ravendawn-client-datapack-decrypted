@@ -1,0 +1,394 @@
+// Goblins
+creatures
+  // Hobgoblin
+  1179
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 0 0
+    name-displacement: 26 32
+    step-sound-type: 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3618
+  3618
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+
+  // Goblin Zealot
+  1180
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 16 16
+    attack-animation:
+      0: 3976
+
+  3976
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Goblin Punisher
+  1190
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 16 16
+    attack-animation:
+      0: 3977
+
+  3977
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    creature-offset: 16 16
+
+  // Goblin Pyro
+  1181
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 1 1
+    step-sound-type: 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3620
+  3620
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 33 33
+
+  // Goblin Glider
+  1182
+    creature-offset: 40 40
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 7 7
+    friend-circle-size: 36 36
+    friend-circle-offset: 7 7
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5117
+  5117
+    animate-from-start: true
+    creature-offset: 40 40
+
+  // Hoghound Archer
+  1183
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 6 6
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3621
+  3621
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 38 38
+    name-displacement: 0 0
+
+  // Hoghound Lancer
+  1184
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 6 6
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3622
+  3622
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 38 38
+    name-displacement: 0 0
+
+  // Hoghound Raider
+  1185
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 6 6
+    step-sound-type: 3
+
+  // Hoghound Shaman
+  1186
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 6 6
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3624
+  3624
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 38 38
+    name-displacement: 0 0
+
+  // Goblin Berserker
+  1187
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 10 10
+    step-sound-type: 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3617
+  3617
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 42 42
+    name-displacement: 0 0
+
+  // Goblin Wizard
+  1188
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 2 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3623
+  3623
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 34 34
+    name-displacement: 0 0
+
+  // Goblin Bomber
+  1189
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5291
+  5291
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Goblin Inventor
+  2990
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5121
+  5121
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Goblin Engineer
+  2989
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5118
+  5118
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Goblin Engineer2
+  2988
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5119
+  5119
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Mecha Spider
+  2991
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5141
+  5141
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Mecha Spider2
+  2992
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5142
+  5142
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Usual day at work boss
+  3113
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 -2
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 -2
+    creature-offset: 34 34
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 5258
+  5258
+    animate-from-start: true
+    creature-offset: 50 50
+
+  // Usual day at work boss explosion
+  3115
+    animate-from-start: true
+    always-animated: true
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 34 34
+
+  //Spider Spells
+  3098
+    offset-x: 32
+    offset-y: 32
+  //Spider Spells
+  3099
+    offset-x: 32
+    offset-y: 32
+  //Spider Spells
+  3100
+    offset-x: 32
+    offset-y: 32
+  //Spider Spells
+  3101
+    offset-x: 32
+    offset-y: 32
+  //Spider Spells
+  3102
+    offset-x: 32
+    offset-y: 32
+  //Spider Spells
+  3103
+    offset-x: 32
+    offset-y: 32
+  //Spider Spells
+  3104
+    offset-x: 32
+    offset-y: 32
+  //Spider Spells
+  3105
+    offset-x: 32
+    offset-y: 32
+    direction-draw-order: 1 1 1 1
+  //Spider Spells
+  3106
+    offset-x: 32
+    offset-y: 32
+
+  // Goblin Tyrant
+  4085
+    creature-offset: 16 16
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 900
+    attack-animation-type: 0
+    attack-animation:
+      0: 4084
+  4084
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0

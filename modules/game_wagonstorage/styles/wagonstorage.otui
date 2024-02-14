@@ -1,0 +1,118 @@
+WagonStorageWindow < MainWindow
+  size: 600 300
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 50
+  focusable: false
+  draggable: false
+  &title: 'Wagon Storage'
+  &iconName: 'icon_wagon'
+
+  MainWindowContent
+    id: contentPanel
+    padding: 20 0 0 0
+
+    Panel
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      anchors.left: parent.left
+      anchors.right: parent.horizontalCenter
+
+      Panel
+        id: playerPanel
+        anchors.top: parent.top
+        anchors.bottom: playerItems.top
+        anchors.left: parent.left
+        anchors.right: parent.right
+        margin-top: 7
+        margin-bottom: 20
+
+        NpcOutfit
+          id: outfit
+          anchors.top: parent.top
+          anchors.horizontalCenter: parent.horizontalCenter
+
+        NpcName
+          id: name
+          height: 30
+          anchors.top: prev.bottom
+          anchors.horizontalCenter: parent.horizontalCenter
+          margin-top: 15
+
+        UIWidget
+          phantom: true
+          height: 28
+          anchors.bottom: parent.bottom
+          anchors.left: parent.left
+          anchors.right: parent.right
+          image-source: /images/ui/windows/wagon_storage/upper_panel
+          text-align: center
+          !text: tr("User Storage")
+
+      NpcItems
+        id: playerItems
+        width: 200
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        margin-bottom: 30
+
+    Panel
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      anchors.left: parent.horizontalCenter
+      anchors.right: parent.right
+
+      Panel
+        id: storagePanel
+        anchors.top: parent.top
+        anchors.bottom: storageItems.top
+        anchors.left: parent.left
+        anchors.right: parent.right
+        margin-top: 7
+        margin-bottom: 20
+
+        NpcOutfit
+          id: outfit
+          anchors.top: parent.top
+          anchors.horizontalCenter: parent.horizontalCenter
+
+        NpcName
+          id: name
+          height: 30
+          anchors.top: prev.bottom
+          anchors.horizontalCenter: parent.horizontalCenter
+          margin-top: 15
+
+        UIWidget
+          phantom: true
+          height: 28
+          anchors.bottom: parent.bottom
+          anchors.left: parent.left
+          anchors.right: parent.right
+          image-source: /images/ui/windows/wagon_storage/upper_panel
+          text-align: center
+          font: poppins-12
+          !text: tr("Wagon Storage")
+
+      NpcItems
+        id: storageItems
+        width: 200
+        anchors.horizontalCenter: parent.horizontalCenter
+        anchors.bottom: parent.bottom
+        margin-bottom: 30
+
+    UIWidget
+      phantom: true
+      image-source: /images/ui/windows/wagon_storage/icon
+      anchors.top: parent.top
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-top: 35
+    
+    UIWidget
+      phantom: true
+      image-border: 2
+      height: 200
+      image-source: /images/ui/windows/wagon_storage/line
+      anchors.top: prev.bottom
+      anchors.bottom: parent.bottom
+      anchors.horizontalCenter: parent.horizontalCenter

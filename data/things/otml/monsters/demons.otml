@@ -1,0 +1,263 @@
+// Demons
+creatures
+  // Astor Demon
+  2100
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 19 19
+
+  // Chaos Demon
+  2101
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 19 19
+
+  // Slasher Demon
+  2102
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 19 19
+
+  // Moz'Gauth
+  2103
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+
+  // Scorchling
+  5287
+    creature-offset: 32 32
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 4 4
+    friend-circle-size: 40 40
+    friend-circle-offset: 4 4
+    main-body: true
+    impact-time: 700
+    attack-animation-type: 0
+    attack-animation:
+      0: 5286
+  5286
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Dusk Crawler
+  5298
+    creature-offset: 32 32
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 4 4
+    friend-circle-size: 40 40
+    friend-circle-offset: 4 4
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5297
+  5297
+    animate-from-start: true
+    creature-offset: 32 32
+  
+  // Lurking Shadow
+  5316
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5315
+  5315
+    animate-from-start: true
+    creature-offset: 8 8
+  
+  // Lord Skorn
+  5320
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5319
+    channeling-animation:
+      init: 5318
+      loop: 5317
+      release: 5319
+      instant-release: 5319
+  5317;5318;5319
+    animate-from-start: true
+
+  // Hellhound
+  5325
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5324
+  5324
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Astor Lord (test)
+  5321
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 -2
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 -2
+  
+  // Duskling
+  5356
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5355
+  5355
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Astor Herald
+  5362
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5361
+  5361
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // Astor Lord
+  5500
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 -2
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 -2
+    name-displacement: 120 136
+    phase-durations:
+      0: 120
+      1: 120
+      2: 120
+      3: 120
+      4: 120
+      5: 120
+      6: 120
+      7: 120
+      8: 120
+      9: 120
+      10: 120
+      11: 120
+    channeling-animation:
+      init: 5496
+      loop: 5496
+      loop-start: 3
+      loop-end: 9
+      release: 5496
+      release-start: 9
+      release-end: 11
+  5496
+    animate-from-start: true
+    creature-offset: 0 0
+    force-direction: 2
+    phase-durations:
+      0: 120
+      1: 120
+      2: 120
+      3: 200
+      4: 200
+      5: 200
+      6: 200
+      7: 200
+      8: 200
+      9: 120
+      10: 120
+      11: 120
+    
+  5495
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 -2
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 -2
+    name-displacement: 120 136
+  5497
+    animate-from-start: true
+    force-direction: 2
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 -2
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 -2
+    name-displacement: 152 168
+  5498
+    animate-from-start: true
+    creature-offset: 32 32
+    force-direction: 2
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 -2
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 -2
+    name-displacement: 120 136
+    phase-durations:
+      0: 120
+      1: 120
+      2: 120
+      3: 120
+      4: 120
+      5: 120
+      6: 120
+      7: 120
+      8: 120
+      9: 120
+      10: 120
+      11: 120
+  5499
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 -2
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 -2
+    name-displacement: 152 168
+    phase-durations:
+      0: 120
+      1: 120
+      2: 120
+      3: 120
+      4: 120
+      5: 120
+      6: 120
+      7: 120
+      8: 120
+      9: 120
+      10: 120
+      11: 120

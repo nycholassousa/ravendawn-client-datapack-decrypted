@@ -1,0 +1,9 @@
+Module
+  name: game_channel_selector
+  description: Channel Selector
+  author: Living Phoenix Entertainment
+  website: www.ravendawn-online.com
+  sandboxed: true
+  scripts: [ channel_selector ]
+  @onLoad: init()
+  @onUnload: terminate()

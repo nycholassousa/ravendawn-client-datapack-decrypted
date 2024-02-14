@@ -1,0 +1,150 @@
+GameTradepacksWindowRightWindow < AttachedWindow
+  id: right_panel
+  size: 350 348
+  title: Tradepack Description
+  side: right
+  margin-top: 46
+  &minHeight: 348
+  &maxHeight: 608
+  @onStateChange: |
+    self:setHeight(self:isOn() and self.maxHeight or self.minHeight)
+
+  GameTradepacksWindowRightWindowItem
+  GameTradepacksWindowRightWindowCategory
+    id: materials
+    vertical-scrollbar: materials_scrollbar
+  GameProfessionsPanelRightPanelScrollBar
+    id: materials_scrollbar
+    anchors.top: materials.top
+    anchors.bottom: materials.bottom
+    padding-bottom: 10
+  GameTradepacksWindowRightWindowCategory
+    id: Tradepost Location and Demand
+    vertical-scrollbar: location_scrollbar
+    @onSetup: |
+      for index, tradepost in ipairs(Tradeposts) do
+        local item = g_ui.createWidget('GameTradepacksWindowRightWindowDemand', self)
+        item.name:setText(tradepost.name:gsub(' Tradepost', ''))
+        item.tradepost = tradepost
+        item:setId(tradepost.name)
+        item.locate_button.onClick = function() GameTradepacks:locateTradepost(index) end
+      end
+  GameProfessionsPanelRightPanelScrollBar
+    id: location_scrollbar
+    anchors.top: Tradepost Location and Demand.top
+    anchors.bottom: Tradepost Location and Demand.bottom
+
+GameTradepacksWindowRightWindowItem < GameTradepacksWindowListItem
+  id: panel_top
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 87
+  margin-top: 48
+  anchors.left: parent.left
+  anchors.right: parent.right
+  image-color: alpha
+  @onSetup: |
+    self.item:setMarginLeft(0)
+    self.expand_button:destroy()
+    self.name:setMarginTop(15)
+    self.name:setFont('poppins-semibold-18')
+    self.demand:setFont('poppins-semibold-12')
+
+GameTradepacksWindowRightWindowCategory < ScrollablePanel
+  background-color: #101012
+  background-size: 350 30
+  font: poppins-semibold-14
+  text-color: #b8b8b8
+  text-align: center
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: prev.bottom
+  text-align: top
+  text-offset: 0 5
+  padding-top: 37
+  height: 220
+  @onSetup: |
+    self:setText(self:getId():titleCase())
+  layout:
+    type: verticalBox
+    spacing: 0
+
+GameProfessionsPanelRightPanelScrollBar < VerticalScrollBar
+  anchors.right: parent.right
+  margin-right: 7
+  margin-top: 35
+  margin-bottom: 5
+  step: 48
+  pixels-scroll: true
+
+GameTradepacksWindowRightWindowListItem < GameProfessionsPanelMiddlePanelMaterialsListItem
+  @onSetup: |
+    local height = self.quality_panel:getHeight()
+    self.quality_panel:destroy()
+    self:setHeight(80)
+    self:setMarginBottom(-20)
+
+GameTradepacksWindowRightWindowDemand < UIWidget
+  height: 40
+  margin-left: 40
+  UIWidget
+    id: name
+    anchors.left: parent.left
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    width: 125
+    text-color: #b8b8b8
+    font: poppins-semibold-14
+    text-align: left
+  UIWidget
+    id: distance
+    anchors.left: name.right
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    width: 90
+    text-color: #b8b8b8
+    font: poppins-semibold-14
+    text-align: center
+  UIWidget
+    id: demand
+    anchors.left: distance.right
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    width: 70
+    text-color: #b8b8b8
+    font: poppins-semibold-14
+    text-align: center
+    @onTextChange: |
+      addEvent(function()
+        local colors = {
+          [3] = '#6ec35c',
+          [2] = '#f7b500',
+          [1] = '#f75c5c'
+        }
+        -- get number from text string
+        local number = tonumber(self:getText():match('%d+'))
+        if not number then
+          return
+        end
+
+        local color = colors[math.min(#colors, math.ceil(number / 33.3))]
+        self:setColoredText(GetHighlightedText(string.format('{%s%%, %s}', number, color), '#7e828b'), true)
+      end)
+  UIWidget
+    id: locate_button
+    anchors.left: demand.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/tradepacks/icon_locate
+    width: 32
+    opacity: 1
+    $hover:
+      opacity: 0.9
+    $pressed:
+      opacity: 1
+    @onSetup: |
+      local textureHeight = self:getImageTextureHeight()
+      local textureWidth = self:getImageTextureWidth()
+      self:setMarginLeft((self:getWidth() - textureWidth) / 2)
+      self:setSize({width = textureWidth, height = textureHeight})
+

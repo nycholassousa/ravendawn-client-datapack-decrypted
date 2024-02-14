@@ -1,0 +1,24 @@
+creatures
+  4146;4145
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    name-displacement: 52 64
+  
+  // sea serpent
+  5493
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5492
+  5492
+    animate-from-start: true
+    creature-offset: 32 32

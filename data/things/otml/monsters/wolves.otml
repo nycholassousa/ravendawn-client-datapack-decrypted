@@ -1,0 +1,114 @@
+// Wolves
+creatures
+  // Grey Wolf
+  2136
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3691
+  3691
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 36 36
+    name-displacement: 0 0
+
+  // Dire Wolf
+  2137
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 6 6
+    name-displacement: 40 40
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3692
+  3692
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 38 38
+    name-displacement: 40 40
+
+  // Black Wolf
+  2138
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+
+  // Black Giant Wolf
+  2139
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 6 6
+
+  // Arctic Wolf
+  2140
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 4 4
+    friend-circle-size: 40 40
+    friend-circle-offset: 4 4
+    creature-offset: 4 4
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5243
+  5243
+    animate-from-start: true
+    creature-offset: 36 36
+
+  // Glacial Wolf
+  2141
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    creature-offset: 6 6
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5244
+  5244
+    animate-from-start: true
+    creature-offset: 38 38
+
+  // Mutated Wolf
+  5085
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5084
+  5084
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    animate-from-start: true

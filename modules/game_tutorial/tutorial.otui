@@ -1,0 +1,5 @@
+GameFadePanel < Panel
+  anchors.fill: parent
+  background-color: black
+  opacity: 1.0
+  phantom: true

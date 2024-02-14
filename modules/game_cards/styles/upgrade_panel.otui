@@ -1,0 +1,398 @@
+GameCardsUpgradePanel < UIWidget
+  id: upgrade_panel
+  visible: false
+  anchors.top: header_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+
+  GameCardsUpgradeCardPanel
+  GameCardsUpgradeInfoPanel
+  GameCardsUpgradeBottomPanel
+
+GameCardsUpgradeCardPanel < UIWidget
+  id: upgrade_card
+  width: 397
+  anchors.right: parent.right
+  anchors.top: parent.top
+  anchors.bottom: upgrade_bottom.top
+
+  Ravencard
+    id: card
+    size: 322 454
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 42
+
+    UIWidget
+      id: canvas
+      visible: false
+      size: 704 1088
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.horizontalCenter: parent.horizontalCenter
+      phantom: true
+
+GameCardsInfoPanel < UIWidget
+  image-source: /images/ui/windows/ravencards/upgrade/upgrade_info_background
+  image-border: 20
+  padding: 22
+  size: 607 137
+
+  @onSetup: |
+    if self:getId() ~= 'upgraded_card_info' then
+      self:setSize({width = 587, height = 117})
+      return
+    end
+
+    local frames = 34
+    self.currentFrame = 0
+    self.animationFunction = function()
+      if not self:isVisible() then
+        return
+      end
+
+      self.currentFrame = self.currentFrame + 1
+      if self.currentFrame > frames then
+        self.currentFrame = 0
+      end
+      self:setImageSource(string.format('/images/ui/windows/ravencards/upgrade/upgrade_background_animation/%02d', self.currentFrame))
+    end
+
+    self.onVisibilityChange = function(self, visible)
+      if not visible then
+        if self.animationEvent then
+          removeEvent(self.animationEvent)
+          self.animationEvent = nil
+        end
+      else
+        self.animationEvent = cycleEvent(self.animationFunction, 1000/24)
+      end
+    end
+
+    self.onDestroy = function()
+      if self.animationEvent then
+        removeEvent(self.animationEvent)
+        self.animationEvent = nil
+      end
+    end
+
+  UIWidget
+    id: description
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    anchors.right: parent.right
+    text-wrap: true
+    text-vertical-auto-resize: true
+    text: -
+    text-color: #FFA851
+    font: poppins-15-special
+
+  UIWidget
+    id: card_rarity
+    margin-top: -36
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    image-source: /images/ui/ravencards/gem_1
+    $disabled:
+      image-source: /images/ui/ravencards/gem_disabled
+
+CardUpgradeSliderBackground < UIWidget
+  id: sliderBackground
+  height: 6
+  focusable: false
+  phantom: true
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  margin-top: 9
+  image-border-left: 3
+  image-border-right: 3
+  image-border-top: 1
+  image-border-bottom: 1
+  image-source: /images/ui/windows/ravencards/upgrade/overlay_empty
+
+CardUpgradeSliderHorizontal < UIButton
+  id: sliderComplete
+  width: 0
+  height: 6
+  focusable: false
+  phantom: true
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+  margin-top: 9
+  image-border-left: 3
+  image-border-right: 3
+  image-border-top: 1
+  image-border-bottom: 1
+  image-source: /images/ui/windows/ravencards/upgrade/overley_active
+  opacity: 1
+
+CardUpgradeSliderHorizontalGoal < UIButton
+  id: sliderButton
+  height: 6
+  focusable: false
+  phantom: true
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+  margin-top: 9
+  image-border-left: 3
+  image-border-right: 3
+  image-border-top: 1
+  image-border-bottom: 1
+  image-source: /images/ui/windows/ravencards/upgrade/overlay_goal
+  opacity: 1
+  padding-right: 20
+
+CardUpgradeSliderGems < UIWidget
+  id: gems
+  phantom: true
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 106
+  margin-left: -25
+  layout:
+    type: horizontalBox
+    spacing: 40
+
+  @onSetup: |
+    for i = CARD_RARITY_START, CARD_RARITY_END do
+      local widget = g_ui.createWidget('GameCardsUpgradeRarityIcon', self)
+      widget:setId(i)
+      widget:getChildById("gem_icon"):setImageSource('/images/ui/ravencards/gem_' .. i)
+
+      if i == CARD_RARITY_START then
+        widget:getChildById("marker"):setVisible(false)
+        widget:getChildById("cost"):setVisible(false)
+        widget:getChildById("completed"):setVisible(true)
+      end
+    end
+
+CardUpgradeSliderCursor < UIButton
+  id: sliderCursor
+  size: 30 30
+  focusable: false
+  phantom: true
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  margin-top: 9
+  image-source: /images/ui/windows/ravencards/upgrade/cursor
+  image-size: 30 30
+
+CardUpgradeSlider < UISettingSlider
+  id: slider
+  orientation: horizontal
+  height: 106
+  pixels-scroll: true
+  CardUpgradeSliderBackground
+  CardUpgradeSliderHorizontalGoal
+  CardUpgradeSliderHorizontal
+  CardUpgradeSliderGems
+  CardUpgradeSliderCursor
+
+GameCardsUpgradeRarityIcon < UIWidget
+  width: 50
+  phantom: true
+
+  UIWidget
+    size: 28 39
+    id: gem_icon
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    image-size: 28 39
+    image-source: /images/ui/ravencards/gem_1
+    opacity: 1
+    $on:
+      opacity: 0.5
+    $hover:
+      opacity: 0.75
+    $hover on:
+      opacity: 0.5
+
+  UIWidget
+    id: marker
+    phantom: true
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: gem_icon.bottom
+    margin-top: 17
+    image-source: /images/ui/windows/ravencards/upgrade/marker_empty
+    image-auto-resize: true
+    $on:
+      image-source: /images/ui/windows/ravencards/upgrade/marker_active
+    $checked:
+      image-source: /images/ui/windows/ravencards/upgrade/marker_goal
+
+  UIWidget
+    id: completed
+    visible: false
+    phantom: true
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: marker.bottom
+    margin-top: 18
+    image-source: /images/ui/windows/ravencards/upgrade/completed
+
+  UIWidget
+    id: cost
+    phantom: true
+    height: 18
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: marker.bottom
+    margin-top: 18
+    layout:
+      type: horizontalBox
+      spacing: 5
+      fit-children: true
+
+    UIWidget
+      id: cost_icon
+      phantom: true
+      image-source: /images/ui/windows/ravencards/upgrade/shard_cost
+
+    UIWidget
+      id: value
+      phantom: true
+      font: poppins-semibold-14
+      text-color: #A6AAB2
+      text: -
+      text-auto-resize: true
+
+GameCardsUpgradeInfoPanel < UIWidget
+  id: upgrade_info
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: upgrade_card.left
+  anchors.bottom: upgrade_bottom.top
+
+  UIWidget
+    id: card_name
+    margin-top: 30
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    font: poppins-semibold-24
+    text-color: #CED2D9
+    text-align: center
+    text-auto-resize: true
+    text: -
+
+  GameCardsInfoPanel
+    id: current_card_info
+    margin-top: 24
+    anchors.top: card_name.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+
+  UIWidget
+    id: arrow_left
+    image-source: /images/ui/windows/ravencards/upgrade/arrow
+    anchors.top: current_card_info.bottom
+    anchors.left: current_card_info.left
+    margin-left: 57
+    margin-top: -5
+
+  UIWidget
+    id: arrow_right
+    image-source: /images/ui/windows/ravencards/upgrade/arrow
+    anchors.top: current_card_info.bottom
+    anchors.right: current_card_info.right
+    margin-right: 57
+    margin-top: -5
+
+  GameCardsInfoPanel
+    id: upgraded_card_info
+    margin-top: 2
+    anchors.top: arrow_right.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+
+  CardUpgradeSlider
+    id: upgrade_cost
+    anchors.top: upgraded_card_info.bottom
+    anchors.left: upgraded_card_info.left
+    anchors.right: upgraded_card_info.right
+    margin-top: 43
+    margin-left: 20
+    margin-right: 25
+    minimum: 0
+    maximum: 6
+    step: 1
+    can-cursor-reach-end: true
+    @onValueChange: GameCards:onUpgradeRarityChange(self)
+
+GameCardsUpgradeBottomPanel < UIWidget
+  id: upgrade_bottom
+  height: 87
+  anchors.bottom: parent.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-right: 28
+
+  HorizontalSeparator
+    id: separator
+    anchors.top: parent.top
+    anchors.right: parent.right
+    anchors.left: parent.left
+    height: 2
+
+  UIWidget
+    id: upgrade_button
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    margin-top: 2
+    @onClick: GameCards:upgradeCard()
+    text: Upgrade Card
+    font: poppins-semibold-14
+    text-color: #FEFEC6
+    image-source: /images/ui/windows/ravencards/upgrade/button_animation/00
+    @onSetup: |
+      local frames = 34
+      self.currentFrame = 0
+      self.animationFunction = function()
+        if not self:isVisible() then
+          return
+        end
+
+        self.currentFrame = self.currentFrame + 1
+        if self.currentFrame > frames then
+          self.currentFrame = 0
+        end
+        self:setImageSource(string.format('/images/ui/windows/ravencards/upgrade/button_animation/%02d', self.currentFrame))
+        self:setIcon(string.format('/images/ui/windows/ravencards/upgrade/button_shine_animation/%02d', self.currentFrame))
+      end
+
+      self.onVisibilityChange = function(self, visible)
+        if not visible then
+          if self.animationEvent then
+            removeEvent(self.animationEvent)
+            self.animationEvent = nil
+          end
+        else
+          self.animationEvent = cycleEvent(self.animationFunction, 1000/24)
+        end
+      end
+
+      self.onDestroy = function()
+        if self.animationEvent then
+          removeEvent(self.animationEvent)
+          self.animationEvent = nil
+        end
+      end
+
+  UIWidget
+    id: back_button
+    anchors.left: parent.left
+    anchors.verticalCenter: upgrade_button.verticalCenter
+    margin-top: 2
+    font: poppins-14
+    @onClick: GameCards:closeUpgradeCard()
+    text: Back to list of cards
+    opacity: 1.0
+    $hover:
+      opacity: 0.7
+    $pressed:
+      opacity: 0.5
+
+    UIWidget
+      id: underline
+      height: 1
+      anchors.bottom: parent.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      background-color: #CED2D9

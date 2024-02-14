@@ -1,0 +1,513 @@
+GameTransportMountPanel < UIWidget
+  id: mount_panel
+  height: 466
+
+  GameTransportMountPanelTitle
+  GameTransportMountNamePanel
+  GameTransportMountTopPanel
+  GameTransportMountPanelContent
+
+GameTransportMountPanelTitle < UIWidget
+  id: mount_title
+  anchors.left: parent.left
+  anchors.top: parent.top
+  anchors.right: parent.right
+  height: 42
+  text: Mount
+  font: poppins-semibold-18
+  text-color: #b8b8b8
+  image-source: /images/ui/windows/transport/title_background
+  image-border: 10
+  @onGeometryChange: |
+    self:setImageSize({width = self:getWidth() + 56, height = self:getHeight()})
+
+GameTransportMountNamePanel < UIWidget
+  id: mount_name_panel
+  anchors.top: mount_title.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  image-source: /images/ui/windows/transport/name_change_background
+  margin-top: 12
+  size: 445 60
+
+  UILabel
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 21
+    !text: 'Mount Name'
+    margin-top: 0
+    font: poppins-14
+    text-color: #CED2D9
+    text-align: left
+    phantom: true
+    text-auto-resize: true
+  
+  UITextEdit
+    height: 40
+    id: textEdit
+    font: poppins-14
+    padding-top: 5
+    padding-left: 10
+    padding-right: 10
+    margin-left: 15
+    text-align: left
+    selection-color: #272727
+    selection-background-color: #cccccc
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: prev.right
+    image-source: /images/ui/windows/transport/name_change_textedit
+    width: 256
+    @onSetup: |
+      connect(self, { onTextChange = function()
+        local textSize = #self:getText()
+        self.placeholder:setVisible(textSize == 0)
+        local currentName = self.currentName
+        if currentName then
+          self.button:setEnabled((textSize > 3 and textSize < 21) and currentName ~= self:getText())
+        end
+      end })
+
+    UIWidget
+      id: placeholder
+      font: poppins-14
+      !text: 'Name your mount...'
+      text-align: left
+      text-color: #FAFAFA
+      opacity: 0.6
+      anchors.fill: parent
+      phantom: true
+    
+    UIWidget
+      id: button
+      anchors.top: parent.top
+      anchors.right: parent.right
+      margin-top: 3
+      margin-right: 6
+      image-source: /images/ui/windows/transport/change_name__button_off
+      enabled: false
+
+      $!disabled:
+        image-source: /images/ui/windows/transport/change_name__button_on
+
+      @onClick: |
+        modules.game_transport.GameTransport:changeMountName(self:getParent():getText())
+
+  UIWidget
+    id: genderIcon
+    image-source: /images/ui/windows/transport/icon_female
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 9
+
+    $on:
+      image-source: /images/ui/windows/transport/icon_male
+
+GameTransportMountTopPanel < UIWidget
+  id: mount_top_panel
+  anchors.top: mount_name_panel.bottom
+  width: 364
+  height: 30
+  anchors.left: parent.left
+  margin-left: 39
+  margin-top: 14
+
+  UIWidget
+    id: bondLevel
+    anchors.left: parent.left
+    anchors.top: parent.top
+    image-source: /images/ui/windows/transport/square_1
+    text-offset: 0 2
+    text-align: center
+    size: 30 30
+    !text: '1'
+    font: poppins-semibold-16
+    color: #CED2D9
+    @onTextChange: |
+      GameTransport:updateAttachedBondWindow(tonumber(self:getText()))
+
+  UIWidget
+    id: iconBond
+    image-source: /images/ui/windows/transport/icon_bond_1
+    anchors.left: bondLevel.right
+    anchors.top: parent.top
+    margin-left: 10
+  
+  UILabel
+    anchors.left: iconBond.right
+    anchors.top: parent.top
+    margin-left: 5
+    !text: 'Bond Level'
+    margin-top: 0
+    font: poppins-semibold-14
+    text-color: #CED2D9
+    text-align: left
+    phantom: true
+    text-auto-resize: true
+
+  UILabel
+    id: bondExperience
+    anchors.left: parent.left
+    anchors.right: information.left
+    anchors.top: parent.top
+    margin-right: 8
+    margin-top: 2
+    !text: '[ 0 / 0 ]'
+    font: poppins-semibold-12
+    text-color: #CED2D9
+    text-align: right
+    phantom: true
+    text-auto-resize: true
+    &formatText: '[ %d / %d ]'
+
+  UIWidget
+    id: progressWidget
+    height: 5
+    image-source: /images/ui/windows/transport/progressbar
+    anchors.left: bondLevel.right
+    anchors.right: information.left
+    anchors.bottom: parent.bottom
+    margin-left: 10
+    margin-bottom: 4
+    margin-right: 8
+    UIProgressBar
+      id: progress
+      anchors.fill: parent
+      background-color: #36F991
+      @onSetup: self:setPercent(50)
+
+  UIWidget
+    id: information
+    size: 25 25
+    image-source: /images/ui/windows/transport/button_warning
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 0
+    margin-bottom: 2
+    $hover:
+      image-source: /images/ui/windows/transport/button_warning_on
+    $on:
+      image-source: /images/ui/windows/transport/button_warning_on
+    @onClick: |
+      GameTransport:toggleAttachedBondWindow(self)
+
+GameTransportMountPanelContent < UIWidget
+  id: mount_content
+  anchors.top: mount_top_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  padding: 15 45 15 37
+  GameTransportMountPanelContentButtonPanelConnections
+  GameTransportMountPanelContentPreviewPanel
+  GameTransportMountPanelContentButtonPanel
+
+GameTransportMountPanelContentPreviewPanel < UIWidget
+  id: mount_preview_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 200
+  image-source: /images/ui/windows/transport/bordered_background
+  image-border: 10
+  text: Preview
+  font: poppins-semibold-12
+  text-color: #b8b8b8
+  text-align: top-left
+  text-offset: 10 10
+  GameTransportMountPanelContentPreviewPanelAttributes
+  GameTransportMountPanelContentPreviewPanelOutfit
+
+GameTransportMountPanelContentPreviewPanelOutfit < UIWidget
+  id: mount_preview
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  size: 62 64
+
+  UIWidget
+    id: placeholder
+    anchors.fill: parent
+    image-source: /images/ui/windows/transport/mount_preview
+
+  UICreature
+    id: outfit
+    anchors.fill: parent
+    outfit-scale: 1.5
+    outfit-offset: 20 20
+
+  @onGeometryChange: |
+    -- center the outfit from parent left to mount_attributes right
+    local parent = self:getParent()
+    self:setMarginLeft((parent:getWidth() - self:getWidth()) / 2 - parent.mount_attributes:getWidth() / 2)
+
+GameTransportMountPanelContentPreviewPanelAttributes < UIWidget
+  id: mount_attributes
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  size: 125 200
+  image-source: /images/ui/windows/transport/vertical_separator
+  image-size: 3 200
+  layout:
+    type: verticalBox
+    spacing: 5
+
+  GameTransportMountPanelContentPreviewPanelAttributesAttribute
+    id: speed
+  GameTransportMountPanelContentPreviewPanelAttributesAttribute
+    id: strength
+  GameTransportMountPanelContentPreviewPanelAttributesAttribute
+    id: height
+  GameTransportMountPanelContentPreviewPanelAttributesAttribute
+    id: weight
+  GameTransportMountPanelContentPreviewPanelAttributesAttribute
+    id: tier
+  GameTransportMountPanelContentPreviewPanelAttributesAttribute
+    id: breedLimit
+    &tooltip: 'Breeding limit'
+  @onGeometryChange: |
+    -- center the children in self
+    local height = 0
+    for _, child in ipairs(self:getChildren()) do
+      height = height + child:getHeight() + self:getLayout():getSpacing()
+    end
+    local margin = (self:getHeight() - height) / 2 + self:getLayout():getSpacing() / 2
+    self:getFirstChild():setMarginTop(margin)
+
+GameTransportMountPanelContentPreviewPanelAttributesAttribute < UIWidget
+  id: mount_attribute
+  size: 125 22
+  layout:
+    type: horizontalBox
+    spacing: 10
+  UIWidget
+    id: icon
+    size: 22 22
+    image-source: /images/ui/windows/transport/icon_weight
+    margin-left: 23
+    phantom: true
+    @onSetup: |
+      self:setImageSource(string.format('/images/ui/windows/transport/icon_%s', self:getParent():getId()))
+      local textureSize = {width = self:getImageTextureWidth(), height = self:getImageTextureHeight()}
+      self:setImageSize(textureSize)
+      self:setImageOffset({x = (self:getWidth() - textureSize.width) / 2, y = (self:getHeight() - textureSize.height) / 2})
+  UIWidget
+    id: value
+    size: 105 20
+    text: 0
+    text-offset: 0 2
+    font: poppins-semibold-14
+    text-color: #b8b8b8
+    text-align: left
+    margin-left: 10
+    phantom: true
+
+GameTransportMountPanelContentButtonPanel < UIWidget
+  id: button_panel
+  anchors.top: mount_preview_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 60
+  margin-top: 21
+  layout:
+    type: horizontalBox
+
+  GameTransportMountPanelContentButtonPanelButton
+    id: mount
+  GameTransportMountPanelContentButtonPanelButton
+    id: equipment
+  GameTransportMountPanelContentButtonPanelButton
+    id: mount_cosmetic
+  @onGeometryChange: |
+    -- set the spacing between the buttons
+    local childCount = self:getChildCount()
+    local spacing = (self:getWidth() - self:getFirstChild():getWidth() * childCount) / (childCount - 1)
+    self:getLayout():setSpacing(spacing)
+
+GameTransportMountPanelContentButtonPanelConnections < UIWidget
+  border: 2 #3a3d43
+  size: 308 55
+  anchors.top: next.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-left: 30
+  margin-right: 30
+  margin-top: -2
+
+GameTransportMountPanelContentButtonPanelButton < UIWidget
+  id: mount_button
+  size: 60 60
+  image-source: /images/ui/windows/transport/bordered_background
+  image-border: 10
+  @onSetup: |
+    self.placeholder:setImageSource(string.format('/images/ui/windows/transport/icon_%s', self:getId()))
+    local textureSize = {width = self.placeholder:getImageTextureWidth(), height = self.placeholder:getImageTextureHeight()}
+    self.placeholder:setSize(textureSize)
+  @onClick: |
+    for _, child in ipairs(self:getParent():getChildren()) do
+      child:setOn(false)
+    end
+    GameTransport:toggleAttachedWindow('mount', self:getId(), self)
+  @onVisibilityChange: |
+    if not self:isVisible() then
+      for _, child in ipairs(self:getParent():getChildren()) do
+        child:setOn(false)
+      end
+    end
+  $on:
+    image-source: /images/ui/windows/transport/bordered_background_on
+  UIWidget
+    id: placeholder
+    anchors.centerIn: parent
+    image-color: #3a3d43
+    phantom: true
+  UICreature
+    id: outfit
+    size: 40 40
+    anchors.centerIn: parent
+    phantom: false
+    &tooltipEnabled: true
+    @onClick: |
+      for _, child in ipairs(self:getParent():getParent():getChildren()) do
+        child:setOn(false)
+      end
+      GameTransport:toggleAttachedWindow('mount', self:getParent():getId(), self:getParent())
+
+
+GameTransportAttachedWindowListMountButtonHolder < UIWidget
+  id: outfit_list_button_holder
+  size: 145 175
+  UIWidget
+    id: content
+    size: 145 145
+
+    image-border: 10
+    anchors.top: parent.top
+    anchors.left: parent.left
+    @onStateChange: |
+      self:getParent().border.highlight:setVisible(self:isOn())
+
+    UIWidget
+      id: tierWidget
+      size: 56 25
+      image-source: /images/ui/windows/transport/mount_info
+      anchors.top: parent.top
+      anchors.left: parent.left
+      margin: 6
+      margin-top: 7
+
+      UIWidget
+        image-source: /images/ui/windows/transport/icon_tier
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.left: parent.left
+        margin-left: 10
+
+      UILabel
+        id: tierLabel
+        anchors.left: prev.right
+        anchors.verticalCenter: parent.verticalCenter
+        text-auto-resize: true
+        text-align: left
+        font: poppins-semibold-14
+        text-offset: 0 0
+        text: 1
+        color: #CED2D9
+        margin-left: 7
+
+    UIWidget
+      id: bondWidget
+      size: 56 25
+      image-source: /images/ui/windows/transport/mount_info
+      anchors.bottom: parent.bottom
+      anchors.left: parent.left
+      margin: 6
+      margin-top: 7
+
+      UIWidget
+        image-source: /images/ui/windows/transport/icon_bond
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.left: parent.left
+        margin-left: 10
+
+      UILabel
+        id: bondLabel
+        anchors.left: prev.right
+        anchors.verticalCenter: parent.verticalCenter
+        text-auto-resize: true
+        text-align: left
+        font: poppins-semibold-14
+        text-offset: 0 0
+        text: 1
+        color: #CED2D9
+        margin-left: 7
+
+    UICreature
+      id: outfit
+      anchors.fill: parent
+      size: 96 96
+      auto-resize: false
+      scale: 2.5
+      phantom: false
+      &tooltipEnabled: true
+      outfit-offset: 42 26
+      @onClick:|
+        modules.game_transport.GameTransport:selectTransport(self:getParent())
+
+    UIWidget
+      id: overlay
+      anchors.fill: parent
+      margin: 3
+      background-color: #000000
+      opacity: 0.8
+      visible: false
+      phantom: true
+
+    UIWidget
+      id: release
+      anchors.top: parent.top
+      anchors.right: parent.right
+      margin: 5
+      opacity: 0.8
+      image-source: /images/ui/windows/transport/release_moa
+
+      $hover:
+        image-source: /images/ui/windows/transport/release_moa_hover
+
+      $pressed:
+        image-source: /images/ui/windows/transport/release_moa_hover
+
+      @onClick:|
+        modules.game_transport.GameTransport:releaseMoa(self:getParent():getChildById('outfit'))
+
+    @onClick:|
+      modules.game_transport.GameTransport:selectTransport(self)
+
+  UIWidget
+    id: namePanel
+    height: 30
+    image-source: /images/ui/windows/transport/name_background
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    
+    UILabel
+      id: nameLabel
+      anchors.fill: parent
+      text-align: center
+      font: poppins-semibold-12
+      text-offset: 0 2
+      text: Unnamed
+      color: #CED2D9
+
+      $!on:
+        color: #7E828B
+
+  UIWidget
+    id: border
+    phantom: true
+    anchors.fill: parent
+    image-source: /images/ui/windows/transport/mount_border
+    UIWidget
+      id: highlight
+      anchors.fill: parent
+      image-source: /images/ui/windows/transport/mount_border_selected
+      visible: false
+      margin: 1

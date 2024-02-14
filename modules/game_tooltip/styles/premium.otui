@@ -1,0 +1,84 @@
+TooltipPremiumTitleHeader < UIWidget
+  id: premiumTooltipHeader
+  height: 50
+  width: 325
+  padding: 20 20 20 20
+  visible: false
+  @onStateChange: |
+    for _, child in pairs(self:getChildren()) do
+      child:setOn(self:isOn())
+    end
+
+  UIWidget
+    id: icon
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 25 24
+    image-source: /images/ui/windows/premium_store/icon_premium_button
+
+  UIWidget
+    id: text
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    font: poppins-16
+    text-offset: 5 5
+    text-auto-resize: true
+    text-color: #A6AAB2
+    text-wrap: true
+    $checked:
+      font: poppins-14
+    $on:
+      text-color: #36F991
+  
+  UIWidget
+    id: lock
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 11 13
+    image-source: /images/ui/windows/premium_store/icon_lock
+    visible: true
+    $on:
+      visible: false
+
+  UIWidget
+    id: complement
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: text.bottom
+    text-auto-resize: true
+    text-color: #FFA851
+    text-wrap: true
+    visible: false
+
+TooltipExperienceTitleHeader < UIWidget
+  id: experienceTooltipHeader
+  height: 63
+  width: 250
+  padding: 15 20 20 20
+  visible: false
+
+  UIWidget
+    id: level
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: parent.top
+    font: poppins-14
+    text-auto-resize: true
+    text-color: #CED2D9
+
+  UIWidget
+    id: death_penalty_icon
+    size: 13 16
+    image-source: /images/ui/windows/health_bars/death_debt_icon
+    anchors.right: death_penalty.left
+    anchors.verticalCenter: death_penalty.verticalCenter
+    margin-right: 5
+
+  UIWidget
+    id: death_penalty
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: level.bottom
+    font: poppins-14
+    text-color: #CED2D9
+    text-auto-resize: true

@@ -1,0 +1,6 @@
+Module
+  name: game_achievements
+  sandboxed: true
+  scripts: [ achievements ]
+  @onLoad: GameAchievements:init()
+  @onUnload: GameAchievements:terminate()

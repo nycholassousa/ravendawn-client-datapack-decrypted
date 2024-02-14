@@ -1,0 +1,9 @@
+Module
+  name: game_fishfight
+  description: FishFight
+  author: Archlight Team
+  website: www.archlightonline.com
+  sandboxed: false
+  scripts: [ fishfight ]
+  @onLoad: FishFight.init()
+  @onUnload: FishFight.terminate()

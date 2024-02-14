@@ -1,0 +1,157 @@
+// Djins
+creatures
+  // Blazefist Djinn
+  2380
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 3948
+  3948
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Flamelord Djinn
+  2381
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 350
+    attack-animation-type: 0
+    attack-animation:
+      0: 3959
+  3959
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Razorwind Djinn Old
+  2386
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 250
+    attack-animation-type: 0
+    attack-animation:
+      0: 5279
+  5279
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Blademaster Djinn
+  2387
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5280
+  5280
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Spellsurge Djinn
+  2383
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 350
+    attack-animation-type: 0
+    attack-animation:
+      0: 3960
+  3960
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Spellstorm Djinn
+  2384
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 3961
+  3961
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Far'oro Djinn
+  5577
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5576
+  5576
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // Razorwind Djinn
+  5885
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 250
+    attack-animation-type: 0
+    attack-animation:
+      0: 5884
+  5884
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0

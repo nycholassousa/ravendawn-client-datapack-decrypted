@@ -1,0 +1,177 @@
+GamePlayerReportWindow < MainWindow
+  id: player_report_window
+  size: 400 670
+  anchors.centerIn: parent
+  &title: 'Report Player'
+
+  MainWindowContent
+    padding: 0
+    layout:
+      type: verticalBox
+
+    GamePlayerReportWindowPlayerPanel
+    GamePlayerReportWindowLabelPanel
+    GamePlayerReportWindowCategoryPanel
+    GamePlayerReportWindowBottomPanel
+
+GamePlayerReportWindowPlayerPanel < UIWidget
+  id: player_panel
+  height: 90
+
+  UIWidget
+    id: inner_panel
+    image-source: /images/ui/windows/player_report/inner_panel_background
+    image-border: 10
+    size: 320 40
+    anchors.centerIn: parent
+
+    UICreature
+      id: player_outfit
+      size: 32 32
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 10
+
+    UIWidget
+      id: player_name
+      anchors.left: player_outfit.right
+      anchors.verticalCenter: parent.verticalCenter
+      font: poppins-14
+      text-auto-resize: true
+      text: "Player Name"
+      margin-left: 6
+
+GamePlayerReportWindowLabelPanel < UIWidget
+  id: label_panel
+  height: 70
+  background-color: #00000050
+  font: poppins-14
+  text-color: #CED2D9
+  text-horizontal-auto-resize: true
+  text-align: center
+  text: Please tell us what happened with this player.
+
+GamePlayerReportWindowCategoryPanel < UIWidget
+  height: 192
+  id: category_panel
+  margin-top: 15
+
+  GamePlayerReportWindowCategoryPanelCategories
+  GamePlayerReportWindowCategoryPanelCategoriesScrollBar
+
+GamePlayerReportWindowCategoryPanelCategoriesScrollBar < VerticalScrollBar
+  id: category_panel_scrollbar
+  anchors.top: categories.top
+  anchors.bottom: categories.bottom
+  anchors.right: parent.right
+  margin-right: 10
+  step: 24
+  pixels-scroll: true
+
+GamePlayerReportWindowCategoryPanelCategories < ScrollablePanel
+  id: categories
+  anchors.fill: parent
+  vertical-scrollbar: category_panel_scrollbar
+  margin-left: 20
+  margin-right: 25
+
+  layout:
+    type: verticalBox
+    spacing: 5
+  
+GamePlayerReportWindowCategoryPanelItem < UIWidget
+  id: category_item
+  height: 40
+  image-source: /images/ui/windows/player_report/inner_panel_background
+  image-border: 10
+  @onClick: |
+    modules.game_player_report.GamePlayerReport:selectCategory(self.category)
+
+  UIWidget
+    id: radio_button
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 20 20
+    margin-left: 15
+    image-source: /images/ui/windows/player_report/radio_off
+    phantom: true
+    $on:
+      image-source: /images/ui/windows/player_report/radio_on
+
+  UIWidget
+    id: label
+    anchors.left: radio_button.right
+    anchors.verticalCenter: parent.verticalCenter
+    font: poppins-14
+    text: "Category"
+    text-color: #CED2D9
+    margin-left: 14
+    text-align: left
+    text-auto-resize: true
+    phantom: true
+
+  UIWidget
+    id: info_button
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 24 24
+    margin-right: 15
+    image-source: /images/ui/windows/player_report/info_icon
+
+GamePlayerReportWindowBottomPanel < UIWidget
+  id: bottom_panel
+  height: 235
+  margin-top: 20
+  background-color: #00000050
+
+  UIWidget
+    id: spacer
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    background-color: #3A3D43
+    height: 1
+
+  GamePlayerReportWindowTextInputPanel
+  GamePlayerReportWindowReportButtonPanel
+
+GamePlayerReportWindowTextInputPanel < UIWidget
+  id: text_input_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 130
+  margin-top: 20
+  margin-left: 20
+  margin-right: 20
+  GamePlayerReportWindowTextInputPanelInput
+
+GamePlayerReportWindowTextInputPanelInput < UITextEdit
+  id: text_input
+  anchors.fill: parent
+  font: poppins-14
+  preview: More details about your report (optional)
+  image-source: /images/ui/windows/player_report/text_input_background
+  image-border: 15
+  padding: 10
+  text-color: white
+  max-length: 512
+  @onTextChange: |
+    modules.game_player_report.GamePlayerReport.currentReportData.comment = self:getText()
+
+GamePlayerReportWindowReportButtonPanel < UIWidget
+  id: report_button_panel
+  anchors.bottom: parent.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 50
+  margin-bottom: 20
+  GamePlayerReportWindowReportButton
+
+GamePlayerReportWindowReportButton < PrimaryButton
+  id: report_button
+  text: Report Player
+  anchors.centerIn: parent
+  &resizeText: true
+  @onClick: |
+    modules.game_player_report.GamePlayerReport:sendReport()

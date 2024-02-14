@@ -1,0 +1,549 @@
+// Skeletons
+creatures
+  // Skeleton
+  2427
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3709
+  3709
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 36 36
+    name-displacement: 0 0
+
+  //Skeleton Haunt
+  2428
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3710
+  3710
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 36 36
+    name-displacement: 0 0
+
+  //Skeleton Duelist
+  3043
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3711
+  3711
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 36 36
+    name-displacement: 0 0
+
+  //Skeleton Soldier
+  2596
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3712
+  3712
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 36 36
+    name-displacement: 0 0
+
+  //Skeleton Rotspear
+  2597
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3713
+  3713
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 41 41
+    name-displacement: 0 0
+
+  //Skeleton Rotclub
+  2598
+    creature-offset: 3 3
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3714
+  3714
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 36 36
+    name-displacement: 0 0
+
+  //Skeleton Archer
+  2599
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3715
+  3715
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+
+  //Skeleton Raider
+  2600
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3716
+  3716
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+
+  //Skeleton Pikeman
+  2601
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3717
+  3717
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+
+  //Ice Skeleton 1
+  2798
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4609
+  4609
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  //Ice Skeleton 2
+  2799
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 6 6
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4610
+  4610
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  //Ice Skeleton 3
+  2800
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 5 5
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4611
+  4611
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  //Ice Skeleton 4
+  2801
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 5 5
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4612
+  4612
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  //Ice Skeleton 5
+  2802
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 6 6
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4732
+  4732
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  //Ice Skeleton 6
+  2803
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 6 6
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4719
+  4719
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  //Ice Skeleton 7
+  2804
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4745
+  4745
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  //Ice Skeleton 8
+  2805
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 5 5
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4720
+  4720
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  //Ice Skeleton 9
+  2806
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4721
+  4721
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Animated Bones
+  // Bones 1
+  3205
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 14 14
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4468
+  4468
+    creature-offset: 14 14
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+
+  // Bones 2
+  3206
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 14 14
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4469
+  4469
+    creature-offset: 14 14
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+
+  // Bones 3
+  3207
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 14 14
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4470
+  4470
+    creature-offset: 14 14
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+
+  // Summon Bones 1
+  3210
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+
+  // Summon Bones 2
+  3211
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 4008
+  4008
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 60
+      5: 60
+      6: 100
+      7: 80
+      8: 80
+
+  // Summon Bones 3
+  3212
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+
+  // Summon Bones 3
+  3213
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+
+  // Summon Bones 5
+  3214
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 12 12
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4034
+  4034
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 80
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+
+  // Shrouded Puppeteer
+  3215
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5821
+  5821
+    animate-from-start: true
+    creature-offset: 32 32

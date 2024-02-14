@@ -1,0 +1,314 @@
+GameTransportShipPanel < UIWidget
+  id: ship_panel
+  height: 282
+
+  GameTransportShipPanelTitle
+  GameTransportShipPanelContent
+
+GameTransportShipPanelTitle < UIWidget
+  id: ship_title
+  anchors.left: parent.left
+  anchors.top: parent.top
+  anchors.right: parent.right
+  height: 42
+  text: Ship
+  font: poppins-semibold-18
+  text-color: #b8b8b8
+  image-source: /images/ui/windows/transport/title_background
+  image-border: 10
+  @onGeometryChange: |
+    self:setImageSize({width = self:getWidth() + 56, height = self:getHeight()})
+
+GameTransportShipPanelContent < UIWidget
+  id: ship_content
+  anchors.top: ship_title.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  padding: 15 45 15 37
+  GameTransportShipPanelContentButtonPanelConnections
+  GameTransportShipPanelContentPreviewPanel
+  GameTransportShipPanelContentButtonPanel
+
+GameTransportShipPanelContentPreviewPanel < UIWidget
+  id: ship_preview_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 130
+  image-source: /images/ui/windows/transport/bordered_background
+  image-border: 10
+  text: Preview
+  font: poppins-semibold-12
+  text-color: #b8b8b8
+  text-align: top-left
+  text-offset: 10 10
+  GameTransportShipPanelContentPreviewPanelAttributes
+  GameTransportShipPanelContentPreviewPanelOutfit
+
+GameTransportShipPanelContentPreviewPanelOutfit < UIWidget
+  id: ship_preview
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  size: 105 105
+
+  UIWidget
+    id: placeholder
+    anchors.fill: parent
+    image-source: /images/ui/windows/transport/ship_preview
+
+  UICreature
+    id: outfit
+    anchors.fill: parent
+
+  @onGeometryChange: |
+    -- center the outfit from parent left to ship_attributes right
+    local parent = self:getParent()
+    self:setMarginLeft((parent:getWidth() - self:getWidth()) / 2 - parent.ship_attributes:getWidth() / 2)
+
+GameTransportShipPanelContentPreviewPanelAttributes < UIWidget
+  id: ship_attributes
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  size: 125 130
+  image-source: /images/ui/windows/transport/vertical_separator
+  image-size: 3 130
+  layout:
+    type: verticalBox
+    spacing: 5
+
+  GameTransportShipPanelContentPreviewPanelAttributesAttribute
+    id: speed
+  GameTransportShipPanelContentPreviewPanelAttributesAttribute
+    id: health
+  GameTransportShipPanelContentPreviewPanelAttributesAttribute
+    id: weight
+  GameTransportShipPanelContentPreviewPanelAttributesAttribute
+    id: tradepacks
+  @onGeometryChange: |
+    -- center the children in self
+    local height = 0
+    for _, child in ipairs(self:getChildren()) do
+      height = height + child:getHeight() + self:getLayout():getSpacing()
+    end
+    local margin = (self:getHeight() - height) / 2 + self:getLayout():getSpacing() / 2
+    self:getFirstChild():setMarginTop(margin)
+
+GameTransportShipPanelContentPreviewPanelAttributesAttribute < UIWidget
+  id: ship_attribute
+  size: 125 22
+  layout:
+    type: horizontalBox
+    spacing: 10
+  UIWidget
+    id: icon
+    size: 22 22
+    image-source: /images/ui/windows/transport/icon_weight
+    margin-left: 23
+    phantom: true
+    @onSetup: |
+      self:setImageSource(string.format('/images/ui/windows/transport/icon_%s', self:getParent():getId()))
+      local textureSize = {width = self:getImageTextureWidth(), height = self:getImageTextureHeight()}
+      self:setImageSize(textureSize)
+      self:setImageOffset({x = (self:getWidth() - textureSize.width) / 2, y = (self:getHeight() - textureSize.height) / 2})
+  UIWidget
+    id: value
+    size: 105 20
+    text: 0
+    text-offset: 0 2
+    font: poppins-semibold-14
+    text-color: #b8b8b8
+    text-align: left
+    margin-left: 10
+    phantom: true
+
+GameTransportShipPanelContentButtonPanel < UIWidget
+  id: button_panel
+  anchors.top: ship_preview_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 60
+  margin-top: 21
+  layout:
+    type: horizontalBox
+
+  GameTransportShipPanelContentButtonPanelButton
+    id: hull
+  GameTransportShipPanelContentButtonPanelButton
+    id: cabin
+  GameTransportShipPanelContentButtonPanelButtonPopup
+    id: cargo
+  GameTransportShipPanelContentButtonPanelButton
+    id: sail
+  GameTransportShipPanelContentButtonPanelButton
+    id: ship_cosmetic
+  @onGeometryChange: |
+    -- set the spacing between the buttons
+    local childCount = self:getChildCount()
+    local spacing = (self:getWidth() - self:getFirstChild():getWidth() * childCount) / (childCount - 1)
+    self:getLayout():setSpacing(spacing)
+
+GameTransportShipPanelContentButtonPanelConnections < UIWidget
+  border: 2 #3a3d43
+  size: 308 55
+  anchors.top: next.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-left: 30
+  margin-right: 30
+  margin-top: -2
+
+GameTransportShipPanelContentButtonPanelButton < UIWidget
+  id: ship_button
+  size: 60 60
+  image-source: /images/ui/windows/transport/bordered_background
+  image-border: 10
+  @onSetup: |
+    self.placeholder:setImageSource(string.format('/images/ui/windows/transport/icon_%s', self:getId()))
+    local textureSize = {width = self.placeholder:getImageTextureWidth(), height = self.placeholder:getImageTextureHeight()}
+    self.placeholder:setSize(textureSize)
+  @onClick: |
+    for _, child in ipairs(self:getParent():getChildren()) do
+      child:setOn(false)
+    end
+    GameTransport:toggleAttachedWindow('ship', self:getId(), self)
+  @onVisibilityChange: |
+    if not self:isVisible() then
+      for _, child in ipairs(self:getParent():getChildren()) do
+        child:setOn(false)
+      end
+    end
+  $on:
+    image-source: /images/ui/windows/transport/bordered_background_on
+  UIWidget
+    id: placeholder
+    anchors.centerIn: parent
+    image-color: #3a3d43
+    phantom: true
+  UICreature
+    id: outfit
+    size: 40 40
+    anchors.centerIn: parent
+    &tooltipEnabled: true
+    phantom: false
+    @onClick: |
+      for _, child in ipairs(self:getParent():getParent():getChildren()) do
+        child:setOn(false)
+      end
+      GameTransport:toggleAttachedWindow('ship', self:getParent():getId(), self:getParent())
+
+GameTransportShipPanelContentButtonPanelButtonSlot < UIWidget
+  id: cargo
+  size: 51 51
+  image-source: /images/ui/windows/transport/slot
+  image-border: 10
+  @onSetup: |
+    self.placeholder:setImageSource(string.format('/images/ui/windows/transport/icon_plus'))
+    local textureSize = {width = self.placeholder:getImageTextureWidth(), height = self.placeholder:getImageTextureHeight()}
+    self.placeholder:setSize(textureSize)
+  @onClick: |
+    for _, child in ipairs(self:getParent():getChildren()) do
+      child:setOn(false)
+    end
+    if not GameTransport:attachedWindowIsVisible(self:getId()) then
+      GameTransport:toggleAttachedWindow('ship', self:getId(), self)
+    end
+    self:setOn(true)
+    GameTransport:updateOutfitListText()
+    GameTransport:updateOutfitListSelect()
+  @onVisibilityChange: |
+    if not self:isVisible() then
+      for _, child in ipairs(self:getParent():getChildren()) do
+        child:setOn(false)
+      end
+    end
+  $on:
+    image-source: /images/ui/windows/transport/slot_active
+  UIWidget
+    id: placeholder
+    anchors.centerIn: parent
+    phantom: true
+  UICreature
+    id: outfit
+    size: 40 40
+    anchors.centerIn: parent
+    &tooltipEnabled: true
+    phantom: false
+    @onClick: |
+      for _, child in ipairs(self:getParent():getParent():getChildren()) do
+        child:setOn(false)
+      end
+      if not GameTransport:attachedWindowIsVisible(self:getParent():getId()) then
+        GameTransport:toggleAttachedWindow('ship', self:getParent():getId(), self:getParent())
+      end
+      self:getParent():setOn(true)
+      GameTransport:updateOutfitListText()
+      GameTransport:updateOutfitListSelect()
+
+GameTransportShipPanelContentButtonPanelButtonPopup < UIWidget
+  id: ship_button
+  size: 60 60
+  image-source: /images/ui/windows/transport/bordered_background
+  image-border: 10
+  @onSetup: |
+    self.placeholder:setImageSource(string.format('/images/ui/windows/transport/icon_%s', self:getId()))
+    local textureSize = {width = self.placeholder:getImageTextureWidth(), height = self.placeholder:getImageTextureHeight()}
+    self.placeholder:setSize(textureSize)
+  @onStateChange: |
+    self.arrow:setOn(self:isOn())
+    GameTransport.cargo_popup_window:setVisible(self:isOn())
+
+  UIWidget
+    id: placeholder
+    anchors.centerIn: parent
+    image-color: #3a3d43
+    phantom: true
+  UIWidget
+    id: count
+    font: poppins-12
+    text-align: center
+    text-offset: 0 4
+    image-source: /images/ui/windows/transport/count_background
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: -10
+    text: 1/3
+  UIWidget
+    id: arrow
+    image-source: /images/ui/windows/transport/arrow
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    @onClick: |
+      self:getParent():setOn(not self:getParent():isOn())
+    $on:
+      image-source: /images/ui/windows/transport/arrow_active
+    $hover:
+      image-source: /images/ui/windows/transport/arrow_active
+  UICreature
+    id: outfit
+    size: 40 40
+    anchors.centerIn: parent
+    &tooltipEnabled: false
+    phantom: false
+    @onClick: |
+      self:getParent():setOn(not self:getParent():isOn())
+
+
+GameTransportShipPanelContentButtonPanelPopup < UIWidget
+  id: cargo_popup
+  width: 10
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: -10
+  padding: 10
+  image-source: /images/ui/windows/transport/popup_background
+  visible: false
+  layout:
+    type: horizontalBox
+    fit-children: true
+    spacing: 10
+  @onVisibilityChange: |
+    if not self:isVisible() and GameTransport:attachedWindowIsVisible('cargo') then
+      GameTransport:toggleAttachedWindow('ship', 'cargo')
+    end
+

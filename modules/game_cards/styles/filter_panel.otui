@@ -1,0 +1,303 @@
+GameCardsCollectionFilterPanel < UIWidget
+  id: filter_panel
+  size: 290 600
+  anchors.top: header_panel.bottom
+  margin-top: 20
+  anchors.left: parent.left
+  image-source: /images/ui/windows/ravencards/collection/filter_panel_background
+  GameCardsCollectionFilterPanelSearchPanel
+  GameCardsCollectionFilterPanelRarityPanel
+  GameCardsCollectionFilterPanelArchetypePanel
+  GameCardsCollectionFilterPanelSkillPanel
+  GameCardsCollectionFilterPanelClearButton
+
+GameCardsCollectionFilterPanelSearchPanel < UIWidget
+  id: search_panel
+  size: 250 40
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  image-source: /images/ui/windows/ravencards/collection/search_input
+  margin-top: 20
+  UIWidget
+    id: search_icon
+    size: 20 20
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/collection/search_icon
+    margin-left: 15
+  
+  UITextEdit
+    id: search_input
+    size: 200 40
+    anchors.left: search_icon.right
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    font: poppins-semibold-14
+    margin-left: 10
+    margin-top: 11
+    preview: Search Card
+    @onTextChange: |
+      modules.game_cards.GameCards:updateCollectionFilterValues('name')
+
+GameCardsCollectionFilterPanelRarityPanel < UIWidget
+  id: rarity_panel
+  size: 250 76
+  anchors.top: search_panel.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  text: Rarity
+  text-align: top-left
+  font: poppins-semibold-14
+  padding-top: 26
+  margin-top: 20
+  text-color: #ced2d9
+  UIWidget
+    id: list
+    height: 50
+    anchors.top: parent.top
+    padding-left: 3
+    padding-right: 3
+    anchors.horizontalCenter: parent.horizontalCenter
+    image-source: /images/ui/windows/ravencards/collection/filter_rarity_background
+    layout:
+      type: horizontalBox
+      spacing: 5
+      fit-children: true
+  
+    @onSetup: |
+      for i = CARD_RARITY_START, CARD_RARITY_END do
+        local widget = g_ui.createWidget('GameCardsCollectionFilterPanelRarityIcon', self)
+        widget:setId(i)
+        widget.icon:update()
+      end
+
+GameCardsCollectionFilterPanelRarityIcon < UIWidget
+  size: 30 50
+  image-source: /images/ui/windows/ravencards/collection/filter_rarity_highlight
+  image-size: 30 10
+  image-offset: 0 40
+  opacity: 0.5
+  $on:
+    opacity: 1
+  $hover:
+    opacity: 0.75
+  $hover on:
+    opacity: 1
+  $!on:
+    image-source: 
+  UIWidget
+    id: icon
+    size: 22 30
+    phantom: true
+    anchors.centerIn: parent
+    &update: |
+      function(self)
+        self:setImageSource('/images/ui/ravencards/gem_' .. self:getParent():getId())
+      end
+  @onClick: |
+    local parent = self:getParent()
+    -- only 1 rarity can be selected
+    for i = CARD_RARITY_START, CARD_RARITY_END do
+      local widget = parent:getChildById(i)
+      if widget ~= self then
+        widget:setOn(false)
+      end
+    end
+    self:setOn(not self:isOn())
+    modules.game_cards.GameCards:updateCollectionFilterValues('rarity')
+
+GameCardsCollectionFilterPanelArchetypeIcon < UIWidget
+  size: 55 55
+  image-source: /images/ui/windows/ravencards/collection/filter_panel_archetype_background
+  opacity: 0.5
+  $on:
+    opacity: 1
+    image-source: /images/ui/windows/ravencards/collection/filter_panel_archetype_background_active
+  $hover:
+    opacity: 0.75
+  $hover on:
+    opacity: 1
+  UIWidget
+    id: icon
+    size: 45 45
+    anchors.centerIn: parent
+    phantom: true
+    &update: |
+      function(self)
+        self:setImageSource('/images/ui/icons/archetypes/45x45/' .. self:getParent():getId())
+      end
+  @onClick: |
+    local parent = self:getParent()
+    -- only 1 archetype can be selected
+    for _, widget in pairs(parent:getChildren()) do
+      if widget ~= self then
+        widget:setOn(false)
+      end
+    end
+    self:setOn(not self:isOn())
+    modules.game_cards.GameCards:updateCollectionFilterValues('archetype')
+
+    -- toggle skill panel
+    parent = parent:getParent():getParent()
+    local skillPanel = parent:recursiveGetChildById('skill_panel')
+    skillPanel.list:setVisible(self:isOn())
+    skillPanel.label:setVisible(not self:isOn())
+    skillPanel.list:update()
+    -- unset all skills
+    for _, widget in pairs(skillPanel.list:getChildren()) do
+      widget:setOn(false)
+    end
+
+GameCardsCollectionFilterPanelArchetypePanel < UIWidget
+  id: archetype_panel
+  size: 250 146
+  anchors.top: rarity_panel.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  text: Archetype
+  text-align: top-left
+  font: poppins-semibold-14
+  padding-top: 26
+  margin-top: 20
+  text-color: #ced2d9
+  UIWidget
+    id: list
+    size: 250 120
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    layout:
+      type: grid
+      num-cols: 4
+      num-rows: 2
+      cell-size: 55 55
+      cell-spacing: 10 10
+      flow: true
+  
+    @onSetup: |
+      for i = 1, 8 do
+        local widget = g_ui.createWidget('GameCardsCollectionFilterPanelArchetypeIcon', self)
+        widget:setId(ArchetypeNames[i]:lower())
+        widget.icon:update()
+      end
+
+GameCardsCollectionFilterPanelSkillIcon < UIWidget
+  size: 55 55
+  image-source: /images/ui/windows/ravencards/collection/filter_panel_archetype_background
+  opacity: 0.5
+  $on:
+    opacity: 1
+    image-source: /images/ui/windows/ravencards/collection/filter_panel_archetype_background_active
+  $hover:
+    opacity: 0.75
+  $hover on:
+    opacity: 1
+  UIWidget
+    id: icon
+    size: 40 40
+    anchors.centerIn: parent
+    phantom: true
+    &update: |
+      function(self)
+        self:setImageSource('/images/ui/icons/abilitybar/' .. self:getParent():getId():lower())
+      end
+  @onClick: |
+    local parent = self:getParent()
+    -- only 1 skill can be selected
+    for _, widget in pairs(parent:getChildren()) do
+      if widget ~= self then
+        widget:setOn(false)
+      end
+    end
+    self:setOn(not self:isOn())
+    modules.game_cards.GameCards:updateCollectionFilterValues('skill')
+
+GameCardsCollectionFilterPanelSkillPanel < UIWidget
+  id: skill_panel
+  size: 250 211
+  anchors.top: archetype_panel.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  text: Skill
+  text-align: top-left
+  font: poppins-semibold-14
+  padding-top: 26
+  margin-top: 20
+  text-color: #ced2d9
+  UIWidget
+    id: label
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: parent.top
+    margin-top: 20
+    text: Select an archetype
+    opacity: 0.5
+    text-color: #ced2d9
+    font: poppins-semibold-14
+    visible: true
+  UIWidget
+    id: list
+    size: 250 185
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    visible: false
+    $on:
+      visible: true
+    layout:
+      type: grid
+      num-cols: 4
+      num-rows: 3
+      cell-size: 55 55
+      cell-spacing: 10 10
+      flow: true
+  
+    @onSetup: |
+      self:update()
+    @update: |
+      local archetypeName = modules.game_cards.GameCards.filter.archetype
+      if not archetypeName then
+        -- unset all skills
+        for _, widget in pairs(self:getChildren()) do
+          widget:setOn(false)
+        end
+        return
+      end
+      local spells = g_spells:getSpellsByArchetype(ArchetypeIds[archetypeName])
+      for i = 1, 12 do
+        local widget = self:getChildByIndex(i) or g_ui.createWidget('GameCardsCollectionFilterPanelSkillIcon', self)
+        widget:setId(spells[i].name:lower())
+        widget.icon:update()
+      end
+
+GameCardsCollectionFilterPanelClearButton < UIWidget
+  id: clear_button
+  text: Clear filters
+  font: poppins-semibold-14
+  text-color: #595c64
+  enabled: false
+  opacity: 1
+  $!disabled:
+    text-color: #36f991
+  $hover:
+    opacity: 0.75
+  $pressed:
+    opacity: 0.5
+  text-auto-resize: true
+  anchors.bottom: parent.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-bottom: 10
+  @onClick: |
+    modules.game_cards.GameCards:clearCollectionFilters()
+  @onEnableChange: |
+    if not self.underscore then
+      return
+    end
+    self.underscore:setOn(self:isEnabled())
+
+  UIWidget
+    id: underscore
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    height: 1
+    background-color: #595c64
+    $on:
+      background-color: #36f991
+
+    @onSetup: |
+      self:setWidth(self:getParent():getTextSize().width + 2)

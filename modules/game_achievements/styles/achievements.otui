@@ -1,0 +1,209 @@
+GameAchievementsTopPanel < UIWidget
+  id: panel_top
+  height: 112
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  GameAchievementsTopPanelProgressPanel
+  GameAchievementsTopPanelSearchPanel
+
+GameAchievementsTopPanelProgressPanel < UIWidget
+  id: panel_progress
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 45
+  padding-left: 28
+  padding-right: 28
+  background-color: #111113
+  GameAchievementsTopPanelLevelProgress
+  GameAchievementsTopPanelLevelRect
+
+GameAchievementsTopPanelLevelProgress < UIWidget
+  id: achievements
+  size: 447 9
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-top: 18
+  image-border: 3
+  image-source: /images/ui/windows/character/level_progress_background
+
+  UIProgressBar
+    id: progress
+    anchors.fill: parent
+    size: 447 3
+    margin-top: 3
+    margin-bottom: 4
+    margin-left: 3
+    margin-right: 3
+    background-color: #36f991
+
+GameAchievementsTopPanelLevelRect < UIWidget
+  id: progress_percent
+  size: 50 30
+  anchors.verticalCenter: achievements.verticalCenter
+  anchors.horizontalCenter: achievements.horizontalCenter
+  image-border: 5
+  image-source: /images/ui/windows/character/level_rect_background
+  text: 65%
+  font: poppins-15
+  text-offset: 0 5
+
+GameAchievementsTopPanelSearchPanel < UIWidget
+  id: panel_search
+  anchors.top: panel_progress.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 67
+  padding-left: 28
+  padding-right: 28
+  GameAchievementsTopPanelSearchInput
+  GameAchievementsWindowTopPanelButton
+    id: progress
+  GameAchievementsWindowTopPanelButton
+    id: name
+    anchors.right: prev.left
+    margin-right: 7
+
+GameAchievementsTopPanelSearchInput < TextEdit
+  id: search_panel
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+  width: 200
+  preview: Search...
+  font: poppins-15
+  text-offset: 25 0
+  image-source: /images/ui/windows/tradepacks/search_background
+  image-border: 5
+  height: 35
+  padding-left: 35
+  @onTextChange: |
+    GameAchievements:onSearchTextChanged(self:getText())
+  UIWidget
+    id: icon_search
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 20 20
+    image-source: /images/ui/windows/tradepacks/icon_search
+    margin-left: -25
+    margin-top: -3
+
+GameAchievementsWindowTopPanelButton < UIWidget
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  image-source: /images/ui/windows/tradepacks/panel_background
+  image-border: 10
+  opacity: 1.0
+  padding: 0 10 0 10
+  height: 35
+  &sortDirection: 'asc'
+  $hover:
+    opacity: 0.9
+  UIWidget
+    id: text
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    text-auto-resize: true
+    font: poppins-semibold-14
+    text-offset: 0 2
+    text: Demand
+    phantom: true
+    text-color: #595c64
+    $checked:
+      text-color: #a6aab2
+    @onSetup: |
+      self:setText(self:getParent():getId():titleCase())
+    @onTextChange: |
+      addEvent(function()
+        self:getParent():setWidth(self:getWidth() + 40)
+      end)
+  UIWidget
+    id: icon
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 11 7
+    margin-top: 1
+    phantom: true
+    image-source: /images/ui/windows/tradepacks/arrow_down
+    image-color: #595c64
+    $checked:
+      image-color: #a6aab2
+    $on:
+      image-source: /images/ui/windows/tradepacks/arrow_up
+  @onStateChange: |
+    self.icon:setOn(self:isOn())
+    self.text:setOn(self:isOn())
+  @onCheckChange: |
+    self.text:setChecked(self:isChecked())
+    self.icon:setChecked(self:isChecked())
+  @onClick: |
+    GameAchievements:sort(self, self:getId(), self.sortDirection)
+
+GameAchievementsScrollArea < UIScrollArea
+  id: achievements_list
+  anchors.top: panel_top.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  scroll-bar: false
+  vertical-scrollbar: achievements_list_scrollbar
+  padding: 0 28 0 28
+  margin-bottom: 5
+  layout:
+    type: verticalBox
+    spacing: 5
+
+GameAchievementsScrollAreaScrollBar < VerticalScrollBar
+  id: achievements_list_scrollbar
+  anchors.right: parent.right
+  anchors.top: achievements_list.top
+  anchors.bottom: achievements_list.bottom
+  margin-right: 10
+  step: 48
+  pixels-scroll: true
+
+GameAchievementsScrollAreaContentItem < UIWidget
+  height: 40
+  image-source: /images/ui/windows/achievements/scroll_area_item_background
+  image-border: 5
+  $on:
+    image-source: /images/ui/windows/achievements/scroll_area_item_background_on
+
+  CheckBoxSmall
+    id: checkbox
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 13
+    margin-left: 10
+    phantom: true
+
+  UIWidget
+    id: name
+    anchors.left: checkbox.right
+    anchors.verticalCenter: checkbox.verticalCenter
+    text: Name
+    font: poppins-semibold-14
+    text-offset: 10 0
+    text-auto-resize: true
+    text-color: #a6aab2
+    phantom: true
+
+  UIWidget
+    id: expand_button
+    anchors.right: parent.right
+    anchors.verticalCenter: checkbox.verticalCenter
+    size: 25 25
+    margin-right: 15
+    image-source: /images/ui/windows/tradepacks/button_right
+    $hover !on:
+      image-source: /images/ui/windows/tradepacks/button_right_active
+    $hover on:
+      image-source: /images/ui/windows/tradepacks/button_right_active
+    $on:
+      image-source: /images/ui/windows/tradepacks/button_right_active
+    @onClick: |
+      modules.game_achievements.GameAchievements:displayAchievementInfo(self:getParent().achievement, self:getParent())
+
+  @onClick: |
+    modules.game_achievements.GameAchievements:displayAchievementInfo(self.achievement, self)

@@ -1,0 +1,873 @@
+// Bosses
+creatures
+  // Rargum The Dread
+  3084
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 48 48
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5136
+  5136
+    animate-from-start: true
+    creature-offset: 46 46
+
+  // Tar Colossus
+  3124
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 12 12
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5137
+  5137
+    animate-from-start: true
+    creature-offset: 44 44
+
+  // Spawn of Sorrow
+  3107
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5257
+  5257
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Spawn of Hatred
+  3294
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5256
+  5256
+    animate-from-start: true
+    creature-offset: 31 31
+
+// Serafine
+  3247;3248;3249;3266;3267;3268
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+
+  3247;3248
+    animate-from-start: true
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+
+  3249
+    attack-animation-type: 0
+    attack-animation:
+      0: 3250
+    name-displacement: 50 70
+  3267
+    attack-animation-type: 0
+    attack-animation:
+      0: 3265
+    name-displacement: 50 70
+  3250;3265
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+    creature-offset: 64 64
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    name-displacement: 50 70
+
+  3251
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+
+  3253
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+    offset-x: 64
+    offset-y: 64
+    name-displacement: 82 105
+
+  3252
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+    creature-offset: 64 64
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    name-displacement: 82 102
+
+  3254;3268;3270;3271
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    name-displacement: 50 70
+  3269
+    offset-x: 32
+    offset-y: 32
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+  3307;3308;3309;3310
+    offset-x: 113
+    offset-y: 106
+    animate-from-start: true
+    animate-always: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 80
+      4: 60
+      5: 60
+      6: 60
+      7: 80
+      8: 60
+      9: 60
+      10: 60
+      11: 60
+      12: 60
+      13: 80
+      14: 80
+      15: 80
+      16: 80
+      17: 80
+  3311;3312;3313;3314
+    offset-x: 113
+    offset-y: 106
+    animate-from-start: true
+    animate-always: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+  3315;3316;3317;3318
+    offset-x: 113
+    offset-y: 106
+    animate-from-start: true
+    animate-always: true
+    phase-durations:
+      0: 80
+      1: 80
+      2: 80
+      3: 80
+      4: 80
+      5: 80
+      6: 60
+      7: 60
+      8: 60
+      9: 60
+      10: 60
+      11: 60
+      12: 60
+      13: 80
+      14: 80
+      15: 80
+  3319;3320;3321;3322
+    offset-x: 113
+    offset-y: 106
+    animate-from-start: true
+    animate-always: true
+    phase-durations:
+      0: 100
+      1: 80
+      2: 80
+      3: 10
+      4: 80
+      5: 60
+      6: 60
+      7: 60
+      8: 80
+      9: 80
+      10: 80
+      11: 80
+      12: 80
+      13: 80
+      14: 80
+  3307;3311;3315;3319
+    name-displacement: -28 -25
+  3308;3312;3316;3320
+    name-displacement: -68 -25
+  3309;3313;3317;3321
+    name-displacement: -60 -25
+  3310;3314;3318;3322
+    name-displacement: -45 -45
+  3359
+    creature-offset: 32 32
+    animate-from-start: true
+    animate-always: true
+    phase-durations:
+      0: 80
+      1: 80
+      2: 80
+      3: 80
+      4: 80
+      5: 80
+      6: 60
+      7: 60
+      8: 60
+      9: 60
+      10: 60
+      11: 60
+      12: 60
+      13: 80
+      14: 80
+      15: 80
+      16: 100
+  3360
+    creature-offset: 32 32
+    animate-from-start: true
+    animate-always: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 80
+      3: 60
+      4: 60
+      5: 60
+      6: 80
+      7: 80
+      8: 100
+      9: 120
+      10: 80
+      11: 60
+      12: 80
+      13: 80
+      14: 80
+  3361
+    creature-offset: 32 32
+    animate-from-start: true
+    animate-always: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+// Astor demon
+  2100;4079;4081;4082
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+
+  4082
+    animate-from-start: true
+    animate-always: true
+    lock-direction-animating: true
+    name-displacement: 108 141
+    force-direction: 2
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 80
+      6: 80
+      7: 80
+      8: 100
+      9: 100
+      10: 100
+
+  4079;4080;4081
+    animate-from-start: true
+
+  4080;4081;4082;4083
+    force-direction: 2
+
+  4081
+    name-displacement: 108 141
+
+  2100
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    frame-sound:
+      7: 2572604675
+    attack-animation:
+      0: 4079
+    channeling-animation:
+      init: 4080
+      loop: 4080
+      loop-start: 2
+      loop-end: 7
+      ignore-release: true
+      aura-offsets:
+        0: -36 -36
+        1: -36 -36
+        2: -36 -36
+        3: -36 -36
+
+  4083
+    force-direction: 2
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 0
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    name-displacement: 64 86
+
+  //Thergadian Hero - Phase 1
+  5066;5067;5068;5069;5070;5071;5072;5073;5074;5075
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+  5074
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5066
+  5066
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 70
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  5068
+    animate-from-start: true
+  5070
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+  5071
+    phase-durations:
+      0: 120
+      1: 120
+      2: 120
+      3: 120
+      4: 100
+  5072
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+  5073
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+
+  //Thergadian Hero - Phase 2
+  5075;5076;5077;5078;5079;5080;5081;5082;5083
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  5083
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5078
+  5078;5075
+    animate-from-start: true
+    creature-offset: 96 96
+  5077
+    direction-draw-order: 1 1 1 1
+  5079
+    animate-from-start: true
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+  5080
+    animate-from-start: true
+  5081
+    animate-from-start: true
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+  5082
+    animate-from-start: true
+    phase-durations:
+      0: 140
+      1: 140
+      2: 140
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 120
+      11: 120
+
+  // Spawn of Jealousy
+  3096
+    creature-offset: 3 3
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5135
+  5135
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Igneas
+  5065
+    name-displacement: 76 92
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5059
+    channeling-animation:
+      init: 5063
+      loop: 5060
+      ignore-release: true
+  5059
+    animate-from-start: true
+    creature-offset: 64 64
+
+  5061;5062
+    name-displacement: 76 92
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+
+  5060;5063
+    name-displacement: 76 92
+    animate-from-start: true
+  
+  5058
+    name-displacement: 108 124
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+  
+  5328
+    name-displacement: 76 92
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+
+  // Spawn of Yl'zogog
+  5441;5442;5444;5445
+    animate-from-start: true
+    creature-offset: 96 56
+    enemy-circle-size: 0 0
+    friend-circle-size: 0 0
+    name-displacement: 140 180
+    force-direction: 2
+
+  5444
+    animate-from-start: true
+    creature-offset: 96 56
+    enemy-circle-size: 0 0
+    friend-circle-size: 0 0
+    name-displacement: 140 180
+    force-direction: 2
+    channeling-animation:
+      init: 5447
+      loop: 5440
+      release: 5446
+  
+  5440;5446;5447
+    animate-from-start: true
+    force-direction: 2
+
+  5440
+    phase-durations:
+      0: 80
+      1: 80
+      2: 80
+      3: 80
+      4: 80
+      5: 80
+      6: 80
+      7: 80
+      8: 80
+      9: 80
+      10: 80
+      11: 80
+      12: 80
+      13: 80
+      14: 80
+      15: 80
+  5446;5447
+    phase-durations:
+      0: 80
+      1: 80
+      2: 80
+      3: 80
+      4: 80
+      5: 80
+      6: 80
+      7: 80
+  5441;5444
+    phase-durations:
+      0: 80
+      1: 80
+      2: 80
+      3: 80
+      4: 80
+      5: 80
+      6: 80
+      7: 80
+      8: 80
+      9: 80
+      10: 80
+      11: 80
+      12: 80
+      13: 80
+      14: 80
+      15: 80
+      16: 80
+      17: 80
+      18: 80
+      19: 80
+      20: 80
+      21: 80
+      22: 80
+      23: 80
+      24: 80
+      25: 80
+      26: 80
+      27: 80
+      28: 80
+      29: 80
+      30: 80
+      31: 80
+
+  // Yireas
+  5122
+    animate-from-start: true
+    creature-offset: 32 0
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 -16
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 -16
+    name-displacement: 72 72
+    channeling-animation:
+      init: 5110
+      loop: 5109
+      ignore-release: true
+  5109;5110
+    animate-from-start: true
+  5108
+    animate-from-start: true
+    creature-offset: 32 0
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 -16
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 -16
+    name-displacement: 72 72
+  5111
+    animate-from-start: true
+    creature-offset: 96 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 -16
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 -16
+    name-displacement: 136 136
+  5114
+    animate-from-start: true
+    creature-offset: 32 0
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 32 -16
+    friend-circle-size: 64 64
+    friend-circle-offset: 32 -16
+    name-displacement: 8 72
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+      26: 5000
+
+  5112;5113
+    animate-from-start: true
+    creature-offset: 96 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 -16
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 -16
+    name-displacement: 136 136
+
+  // Zephyr
+  5372
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+    main-body: true
+  5370;5371;5373;5374;5375;5367;5368;5369
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+
+  5366
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+    main-body: true
+  5364;5365
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+
+  5363
+    offset-x: 64
+    offset-y: 64
+
+  // The Watcher
+  5850
+    force-direction: 2
+    creature-offset: 64 48
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+    main-body: true
+
+  // Grokolak
+  5990;5991;5992
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  6028;6029;6030;6031
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Vermurat Test
+  6014
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+  6013
+    animate-from-start: true
+    creature-offset: 64 96
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+
+  // Vermurat
+  6017
+    draw-over-everything: true
+    animate-from-start: true
+    animate-from-previous: true
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+  6016;6018
+    draw-over-everything: true
+    animate-from-start: true
+    animate-from-previous: true
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+  6020
+    draw-over-everything: true
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+  6025
+    draw-over-everything: true
+    animate-from-start: true
+    animate-from-previous: true
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    phase-durations:
+      0: 50
+      1: 50
+      2: 50
+      3: 50
+      4: 50
+      5: 50
+      6: 50
+      7: 50
+      8: 50
+      9: 50
+
+  // Twin Fang Statue
+  6022;6023;6024;6034;6035;6036
+    animate-from-start: true
+    enemy-circle-size: 56 56
+    enemy-circle-offset: -2 -1
+    friend-circle-size: 56 56
+    friend-circle-offset: -2 -1

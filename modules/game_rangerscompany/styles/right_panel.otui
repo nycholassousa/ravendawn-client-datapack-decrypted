@@ -1,0 +1,215 @@
+GameRangersCompanyMainWindowRightPanel < UIWidget
+  id: right_panel
+  anchors.top: top_panel.bottom
+  anchors.right: parent.right
+  anchors.left: splitter.right
+  anchors.bottom: parent.bottom
+  margin-left: 5
+  GameRangersCompanyMainWindowPagination
+  GameRangersCompanyMainWindowLastFetchedLabel
+
+  UIWidget
+    id: list
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: pagination_panel.top
+    layout:
+      type: verticalBox
+      spacing: 2
+    GameRangersCompanyMainWindowRightPanelTitle
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+    GameRangersCompanyMainWindowRightPanelEntry
+
+GameRangersCompanyMainWindowRightPanelTitle < UIWidget
+  height: 40
+  image-source: /images/ui/windows/rangers_company/title_background
+  @onSetup: |
+    for i, text in ipairs({'#', 'Name', 'Prestige'}) do
+      local entry = g_ui.createWidget('UIWidget', self)
+      entry:setText(text)
+      entry:setSize({width = 50, height = 40})
+      entry:setTextAlign(AlignCenter)
+      entry:setFont('poppins-semibold-13')
+      entry:addAnchor(AnchorVerticalCenter, 'parent', AnchorVerticalCenter)
+      entry:setTextColor('#e4e4e4')
+
+      if i == 1 then
+        entry:addAnchor(AnchorLeft, 'parent', AnchorLeft)
+      elseif i == 2 then
+        entry:setMarginLeft(42)
+        entry:addAnchor(AnchorLeft, 'prev', AnchorRight)
+      elseif i == 3 then
+        entry:addAnchor(AnchorRight, 'parent', AnchorRight)
+        entry:setTextAutoResize(true)
+        entry:setMarginRight(20)
+      end
+    end
+
+GameRangersCompanyMainWindowRightPanelEntry < UIWidget
+  height: 50
+  image-source: /images/ui/windows/rangers_company/entry_background
+  visible: false
+  $alternate:
+    image-source: /images/ui/windows/rangers_company/entry_background_alternate
+  UIWidget
+    id: rank
+    size: 50 50
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: center
+    font: poppins-semibold-14
+    text: #123
+    text-color: #e4e4e4
+
+  UIWidget
+    id: icon
+    size: 50 50
+    anchors.left: rank.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/rangers_company/icon_crown
+    @onSetup: |
+      local imageWidth = self:getImageTextureWidth()
+      local imageHeight = self:getImageTextureHeight()
+      local width = self:getWidth()
+      local height = self:getHeight()
+      self:setImageSize({width = imageWidth, height = imageHeight})
+      self:setImageOffset({x = (width - imageWidth) / 2, y = (height - imageHeight) / 2})
+  
+  UIWidget
+    id: name
+    anchors.left: icon.right
+    anchors.right: prestige.left
+    anchors.verticalCenter: parent.verticalCenter
+    text: Beasts
+    text-align: left
+    font: poppins-semibold-14
+    text-wrap: true
+    height: 50
+    text-color: #e4e4e4
+
+  UIWidget
+    id: prestige
+    size: 70 50
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: center
+    font: poppins-semibold-14
+    text-color: #b2b6bb
+    text: 1234
+
+GameRangersCompanyMainWindowSplitter < UIWidget
+  id: splitter
+  anchors.top: top_panel.bottom
+  anchors.left: middle_panel.right
+  anchors.bottom: parent.bottom
+  width: 20
+  image-source: /images/ui/windows/rangers_company/splitter_background
+  margin-left: 5
+
+  UIWidget
+    id: arrow_button
+    anchors.centerIn: parent
+    size: 20 40
+    image-source: /images/ui/windows/rangers_company/arrow_left
+    $on:
+      image-source: /images/ui/windows/rangers_company/arrow_right
+    @onClick: |
+      modules.game_rangerscompany.GameRangersCompany:toggleRangersCompanyView()
+
+GameRangersCompanyMainWindowPagination < UIWidget
+  id: pagination_panel
+  size: 160 30
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+
+  UITextEdit
+    id: page_edit
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 40 30
+    font: poppins-semibold-14
+    text-color: #a6aab2
+    text-align: center
+    text-offset: 0 0
+    image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_backgorund
+    @onTextChange: |
+      function(self, text)
+        -- only allow numbers in the edit
+        local newText = ""
+        for i = 1, #text do
+          local char = text:sub(i, i)
+          if char:match("%d") then
+            newText = newText .. char
+          end
+        end
+
+        if newText ~= text then
+          self:setText(newText)
+        end
+
+        -- update the page count
+        modules.game_rangerscompany.GameRangersCompany:changeLeaderboardPage(self:getText())
+      end
+
+  UIWidget
+    id: page_count
+    anchors.left: page_edit.right
+    anchors.verticalCenter: parent.verticalCenter
+    text: of 1
+    font: poppins-semibold-14
+    text-color: #a6aab2
+    text-align: center
+    size: 50 30
+  
+  UIWidget
+    id: prev_button
+    anchors.left: page_count.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_prev
+    size: 30 30
+    opacity: 1
+    $hover:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_prev_active
+      opacity: 0.8
+    $on:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_prev_active
+    $pressed:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_prev_active
+      opacity: 0.8
+    @onClick: modules.game_rangerscompany.GameRangersCompany:changeLeaderboardPage('previous')
+
+  UIWidget
+    id: next_button
+    anchors.left: prev_button.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_next
+    size: 30 30
+    margin-left: 10
+    opacity: 1
+    $hover:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_next_active
+      opacity: 0.8
+    $on:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_next_active
+    $pressed:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_next_active
+      opacity: 0.8
+    @onClick: modules.game_rangerscompany.GameRangersCompany:changeLeaderboardPage('next')
+
+GameRangersCompanyMainWindowLastFetchedLabel < UIWidget
+  id: last_fetched_label
+  anchors.left: parent.left
+  anchors.verticalCenter: pagination_panel.verticalCenter
+  !text: string.format('Last fetched:\n1 minute ago')
+  font: poppins-semibold-12
+  text-auto-resize: true

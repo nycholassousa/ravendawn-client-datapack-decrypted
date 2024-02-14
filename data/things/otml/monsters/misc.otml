@@ -1,0 +1,851 @@
+// Misc
+creatures
+  // Giant Bee
+  893
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 0 0
+    step-sound-type: 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3468
+  3468
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  // Giant Wasp
+  3690
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3687
+  3687
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+
+  // Chewacabra
+  898
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5242
+  5242
+    animate-from-start: true
+    creature-offset: 41 41
+    
+
+  // Blizzard Beast
+  1153
+    creature-offset: 40 40
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4078
+  4078
+    animate-from-start: true
+    creature-offset: 40 40
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Bat
+  2261
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 19 19
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3768
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+  3768
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 21 21
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  // Ent 1
+  3188
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 5604
+  5604
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Ent 2
+  3190
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 5605
+  5605
+    animate-from-start: true
+    creature-offset: 32 32
+
+
+  // Ent 3
+  3191
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 2 4
+
+  // Ent 4
+  3192
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 2 4
+
+  3401
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 16 16
+
+  3095
+    creature-offset: 32 32
+
+  // Hermit Crab
+  3075
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 0
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    attack-animation:
+      0: 3920
+
+  3920
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 0
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    creature-offset: 3 3
+    animate-from-start: true
+
+  3917
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 0
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    name-displacement: 28 37
+  
+  // shieldback croc
+  3610
+    creature-offset: 40 40
+
+  4530
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 600
+    creature-offset: 10 10
+    attack-animation-type: 0
+    attack-animation:
+      0: 4531
+  4531
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 24 24
+
+
+  // Blizzard Abomination
+  5007
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5005
+
+  // Ice Fang
+  5005
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Predator's Urge mode
+  5006
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Abomination blizzard Boulder
+  5004
+    animate-from-start: true
+    creature-offset: 32 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    name-displacement: 81 138
+
+  // Abomination blizzard Roar
+  5001
+    animate-from-start: true
+    creature-offset: 96 96
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    name-displacement: 145 170
+
+  // Abomination blizzard Roar Effect
+  5002
+    offset-x: 96
+    offset-y: 96
+
+  // Officer Willa
+  5014
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5015
+  5015
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // The Bog Killer
+  5016
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5017
+  5017
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  5123
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  4472
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  4474
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 130
+      1: 130
+      2: 130
+      3: 130
+      4: 130
+      5: 130
+      6: 130
+      7: 130
+    attack-animation-type: 0
+    attack-animation:
+      0: 4472
+
+  5149
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 0 0
+    friend-circle-size: 40 40
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 700
+    attack-animation-type: 0
+    attack-animation:
+      0: 5148
+  5148
+    animate-from-start: true
+    creature-offset: 128 128
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 0 0
+    friend-circle-size: 40 40
+    friend-circle-offset: 0 0
+  5153
+    animate-from-start: true
+    creature-offset: 128 128
+    offset-x: 128
+    offset-y: 128
+
+  5179
+    creature-offset: 0 0
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  5180
+    creature-offset: 0 0
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Wild Bee
+  5175
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5176
+  5176
+    animate-from-start: true
+    creature-offset: 16 16
+
+  // Tiger Bug
+  5226
+    creature-offset: 20 20
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 0 0
+    friend-circle-size: 56 56
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5225
+  5225
+    animate-from-start: true
+    creature-offset: 20 20
+
+
+  // Poison Tank
+  5229
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Swamp Wisp
+  5237
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  5239
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 130
+      1: 130
+      2: 130
+      3: 130
+      4: 130
+      5: 130
+      6: 130
+      7: 130
+    attack-animation-type: 0
+    attack-animation:
+      0: 5237
+
+  // Phoenix
+  5296
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5295
+  5295
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // The Watcher (test)
+  5330;5331
+    creature-offset: 32 32
+    enemy-circle-size: 96 96
+    enemy-circle-offset: 0 0
+    friend-circle-size: 96 96
+    friend-circle-offset: 0 0
+
+  // Corrupted Egg
+  5334
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    force-direction: 2
+    name-displacement: 56 72
+
+  // Yl'zogog Tendril
+  // idle
+  5451
+    creature-offset: 113 106
+    animate-from-start: true
+    enemy-circle-size: 80 80
+    enemy-circle-offset: 0 0
+    friend-circle-size: 80 80
+    friend-circle-offset: 0 0
+    name-displacement: 169 194
+    channeling-animation:
+      init: 5449
+      loop: 5449
+      ignore-release: true
+  5449
+    animate-from-start: true
+
+  5450
+    animate-from-start: true
+    creature-offset: 113 106
+    animate-from-start: true
+    enemy-circle-size: 80 80
+    enemy-circle-offset: 0 0
+    friend-circle-size: 80 80
+    friend-circle-offset: 0 0
+    name-displacement: 169 194
+  
+  // attack
+  5448
+    creature-offset: 113 106
+    animate-from-start: true
+    enemy-circle-size: 80 80
+    enemy-circle-offset: 0 0
+    friend-circle-size: 80 80
+    friend-circle-offset: 0 0
+    name-displacement: 169 194
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 80
+      4: 60
+      5: 60
+      6: 60
+      7: 80
+      8: 60
+      9: 60
+      10: 60
+      11: 60
+      12: 60
+      13: 80
+      14: 80
+      15: 80
+      16: 80
+      17: 180
+
+  // rise
+  5452
+    creature-offset: 113 106
+    animate-from-start: true
+    enemy-circle-size: 80 80
+    enemy-circle-offset: 0 0
+    friend-circle-size: 80 80
+    friend-circle-offset: 0 0
+    name-displacement: 169 194
+    phase-durations:
+      0: 80
+      1: 80
+      2: 80
+      3: 80
+      4: 80
+      5: 80
+      6: 60
+      7: 60
+      8: 60
+      9: 60
+      10: 60
+      11: 60
+      12: 60
+      13: 80
+      14: 80
+      15: 80
+
+  // dive
+  5453
+    creature-offset: 113 106
+    animate-from-start: true
+    enemy-circle-size: 80 80
+    enemy-circle-offset: 0 0
+    friend-circle-size: 80 80
+    friend-circle-offset: 0 0
+    name-displacement: 169 194
+    phase-durations:
+      0: 100
+      1: 80
+      2: 80
+      3: 10
+      4: 80
+      5: 60
+      6: 60
+      7: 60
+      8: 80
+      9: 80
+      10: 80
+      11: 80
+      12: 80
+      13: 80
+      14: 80
+
+  // Demonic Crystal
+  5332
+    force-direction: 2
+    name-displacement: 72 80
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Elara's Dying Body
+  5517
+    creature-offset: 8 8
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Djinn Golem
+  5546;5550;5554
+    creature-offset: 72 72
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 4
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 4
+    attack-animation-type: 0
+  5546
+    attack-animation:
+      0: 5544
+  5550
+    attack-animation:
+      0: 5548
+  5554
+    attack-animation:
+      0: 5552
+  5544;5548;5552
+    animate-from-start: true
+    creature-offset: 72 72
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  5542
+    creature-offset: 72 72
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  5543;5545;5547;5549;5551;5553
+    animate-from-start: true
+    creature-offset: 72 72
+    hide-information: true
+    enemy-circle-size: 0 0
+    friend-circle-size: 0 0
+
+  5542
+    hide-information: true
+    enemy-circle-size: 0 0
+    friend-circle-size: 0 0
+
+  // Stone Giant Elite
+  5825
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 4
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 4
+
+  // Mecha 1
+  5844
+    creature-offset: 32 32
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 2 1
+    friend-circle-size: 56 56
+    friend-circle-offset: 2 1
+    impact-time: 400
+    attack-animation:
+      0: 5843
+  5843
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Mecha 2
+  5846
+    creature-offset: 32 32
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 2 1
+    friend-circle-size: 56 56
+    friend-circle-offset: 2 1
+    impact-time: 500
+    attack-animation:
+      0: 5845
+  5845
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Mecha Boss
+  5848
+    creature-offset: 32 32
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 2 1
+    friend-circle-size: 56 56
+    friend-circle-offset: 2 1
+    impact-time: 400
+    attack-animation:
+      0: 5847
+  5847
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Blood Spawn
+  5836
+    creature-offset: 32 32
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 2 1
+    friend-circle-size: 56 56
+    friend-circle-offset: 2 1
+    impact-time: 400
+    attack-animation:
+      0: 5835
+  5835
+    animate-from-start: true
+    creature-offset: 32 32
+  
+  // Mini Blood Spawn
+  5838
+    creature-offset: 32 32
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 4 4
+    friend-circle-size: 40 40
+    friend-circle-offset: 4 4
+    impact-time: 400
+    attack-animation:
+      0: 5837
+  5837
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Mossolith
+  5358
+    creature-offset: 12 12
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    impact-time: 500
+    attack-animation:
+      0: 5357
+  5357
+    animate-from-start: true
+    creature-offset: 22 22
+
+  // Stone Warden
+  5360
+    creature-offset: 11 11
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    impact-time: 400
+    attack-animation:
+      0: 5359
+  5359
+    animate-from-start: true
+    creature-offset: 23 23
+
+  // Bat Recolor
+  5881
+    creature-offset: 19 19
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5882
+  5882
+    animate-from-start: true
+    creature-offset: 21 21
+
+  //Mammoth
+  6054
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    main-body: true
+    attack-animation:
+      0: 6053
+  6053
+    animated-from-start: true
+    creature-offset: 38 38
+
+  //Fire Cragglehide
+  6057
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    creature-offset: 28 28
+    attack-animation:
+      0: 6058
+  6058
+    animate-from-start: true
+    creature-offset: 28 28
+
+  //Cragglehide
+  6059
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    creature-offset: 28 28
+    attack-animation:
+      0: 6060
+  6060
+    animate-from-start: true
+    creature-offset: 28 28
+
+  // Greater Dark Meteor
+  6065
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 2 2
+    friend-circle-size: 56 56
+    friend-circle-offset: 2 2
+    creature-offset: 15 15
+
+  // Dark Meteor
+  6066
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 2 2
+    friend-circle-size: 40 40
+    friend-circle-offset: 2 2
+    creature-offset: 15 15

@@ -1,0 +1,94 @@
+GameHouseInviteInfoWindow < MainWindow
+  id: invite_info_window
+  &title: 'Manage Guests'
+  &iconName: 'icon_house_invite'
+  size: 500 470
+  draggable: false
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  margin-bottom: 50
+  MainWindowScrollableContent
+    anchors.bottom: horizontal_separator.top
+    layout:
+      type: verticalBox
+      spacing: 10
+  
+    GameHouseInviteInfoWindowItem
+    GameHouseInviteInfoWindowItem
+
+  MainWindowScrollableContentScrollBar
+
+  HorizontalSeparator
+    id: horizontal_separator
+    height: 2
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: invite_button.top
+    margin-left: 20
+    margin-right: 20
+    margin-bottom: 10
+
+  UIWidget
+    id: invite_button
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    margin-bottom: 10
+    margin-right: 10
+    image-source: /images/ui/windows/house/top_panel_invite_button_icon
+    image-size: 27 26
+    text: Invite Player
+    text-offset: 30 0
+    font: poppins-semibold-14
+    text-color: #8d9198
+    image-color: #8d9198
+    image-offset: 0 7
+    size: 130 40
+    $hover:
+      text-color: #ffffff
+      image-color: #ffffff
+    $pressed:
+      text-color: #ffffff
+      image-color: #ffffff
+    @onClick: GameHouse:onInviteButtonClicked()
+
+GameHouseInviteInfoWindowItem < UIWidget
+  image-source: /images/ui/windows/house/list_item_background
+  image-border: 10
+  padding: 20
+  height: 60
+  UICreature
+    id: outfit
+    size: 50 50
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+
+  UIWidget
+    id: name
+    anchors.left: outfit.right
+    anchors.bottom: outfit.verticalCenter
+    font: poppins-semibold-14
+    text-color: #f1f1f1
+    margin-left: 20
+
+  UIWidget
+    id: level
+    anchors.left: outfit.right
+    anchors.top: outfit.verticalCenter
+    font: poppins-semibold-14
+    text-color: #8d9198
+    margin-left: 20
+
+  UIWidget
+    id: delete_button
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/house/trash_icon
+    image-color: #8d9198
+    @onSetup: |
+      local textureWidth = self:getImageTextureWidth()
+      local textureHeight = self:getImageTextureHeight()
+      self:setSize({width = textureWidth, height = textureHeight})
+    $hover:
+      image-color: #ffffff
+    $pressed:
+      image-color: #ffffff

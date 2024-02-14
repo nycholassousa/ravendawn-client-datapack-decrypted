@@ -1,0 +1,155 @@
+creatures
+  896;3879;3880;3881;3882;3883;3896;3980;3897;4538;4536;4534;4607;4605;4788
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+
+  3879;3880;3881;3882;3896
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 150
+      3: 80
+      4: 120
+      5: 80
+
+  3980;4538;4536;4534;4607;4605;3897;4788
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+
+  3885
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    attack-animation:
+      0: 3879
+
+  3864
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    attack-animation:
+      0: 3881
+
+  3865
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    attack-animation:
+      0: 3880
+
+  3895
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    attack-animation:
+      0: 3896
+
+  3979
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    attack-animation:
+      0: 3980
+
+  3898
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    attack-animation:
+      0: 3897
+
+  3884
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    attack-animation:
+      0: 3882
+
+  4535
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    main-body: true
+    step-sound-type: 3
+
+  4537
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    main-body: true
+    attack-animation-type: 0
+    step-sound-type: 3
+    attack-animation:
+      0: 4536
+
+  4606
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    main-body: true
+    step-sound-type: 3
+
+  4608
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    main-body: true
+    attack-animation-type: 0
+    step-sound-type: 3
+    attack-animation:
+      0: 4607
+
+  4789
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    main-body: true
+    attack-animation-type: 0
+    step-sound-type: 3
+    attack-animation:
+      0: 4788

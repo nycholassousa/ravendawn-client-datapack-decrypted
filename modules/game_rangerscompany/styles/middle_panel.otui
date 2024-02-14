@@ -1,0 +1,154 @@
+GameRangersCompanyMainWindowMiddlePanel < ScrollablePanel
+  id: middle_panel
+  width: 570
+  &shrinkedWidth: 230
+  &expandedWidth: 570
+  anchors.top: top_panel.bottom
+  anchors.left: left_panel.right
+  anchors.bottom: parent.bottom
+  margin-left: 10
+  vertical-scrollbar: middle_panel_scrollbar
+  layout:
+    type: verticalBox
+    spacing: 2
+  GameRangersCompanyMainWindowMiddlePanelTitle
+  @onSetup: |
+    for category = cfg.RC_CATEGORY_FIRST, cfg.RC_CATEGORY_LAST do
+      local entry = g_ui.createWidget('GameRangersCompanyMainWindowMiddlePanelCategory', self)
+      entry:setId(category)
+      entry:update()
+    end
+
+GameRangersCompanyMainWindowMiddlePanelScrollBar < VerticalScrollBar
+  id: middle_panel_scrollbar
+  anchors.top: middle_panel.top
+  anchors.right: middle_panel.right
+  anchors.bottom: middle_panel.bottom
+  step: 48
+  pixels-scroll: true
+  margin-top: 5
+  margin-bottom: 5
+
+GameRangersCompanyMainWindowMiddlePanelTitle < UIWidget
+  height: 40
+  text: Category
+  text-align: left
+  text-offset: 20 0
+  font: poppins-semibold-14
+  text-color: #b2b6bb
+  margin-right: 20
+  image-source: /images/ui/windows/rangers_company/title_background
+  layout:
+    type: horizontalBox
+    spacing: 10
+  @onSetup: |
+    for i, list in ipairs({{'spell_power', 'Spell Power'}, {'attack_power', 'Weapon Power'}, {'spell_defense', 'Spell Defense'}, {'weapon_defense', 'Weapon Defense'}, {'critical_chance', 'Precision'}, {'loot_chance', 'Loot Chance'}}) do
+      local stat = list[1]
+      local tooltip = list[2]
+      local entry = g_ui.createWidget('GameRangersCompanyMainWindowMiddlePanelTitleIcon', self)
+      entry:setId(stat)
+      entry:setTooltip(tooltip)
+      entry:update()
+      if i == 1 then
+        entry:setMarginLeft(250)
+      end
+    end
+  
+GameRangersCompanyMainWindowMiddlePanelTitleIcon < UIWidget
+  size: 40 40
+  image-source: /images/ui/windows/character/icon_attack_power
+  &update: |
+    function(self)
+      self:setImageSource('/images/ui/windows/rangers_company/icon_' .. self:getId())
+      local textureWidth = self:getImageTextureWidth()
+      local textureHeight = self:getImageTextureHeight()
+      local width = self:getWidth()
+      local height = self:getHeight()
+      self:setImageSize({width = textureWidth, height = textureHeight})
+      self:setImageOffset({x = (width - textureWidth) / 2, y = (height - textureHeight) / 2})
+    end
+
+GameRangersCompanyMainWindowMiddlePanelCategory < UIWidget
+  height: 50
+  margin-right: 20
+  image-source: /images/ui/windows/rangers_company/entry_background
+  $alternate:
+    image-source: /images/ui/windows/rangers_company/entry_background_alternate
+  UIWidget
+    id: icon
+    size: 34 34
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/rangers_company/icon_beasts
+    margin-left: 20
+  
+  UIWidget
+    id: name
+    anchors.left: icon.right
+    anchors.verticalCenter: parent.verticalCenter
+    text: Beasts
+    text-align: left
+    text-auto-resize: true
+    text-offset: 20 0
+    font: poppins-semibold-14
+
+  &update: |
+    function(self)
+      local category = cfg.monsterCategoryToName[tonumber(self:getId())]
+      self.icon:setImageSource('/images/ui/windows/rangers_company/icon_' .. category)
+      self.name:setText(category:titleCase())
+    end
+
+  UIWidget
+    id: stats
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    height: 50
+    layout:
+      type: horizontalBox
+      spacing: 0
+
+    @onSetup: |
+      for i, stat in ipairs({'spell_power', 'attack_power', 'spell_defense', 'weapon_defense', 'critical_chance', 'loot_chance'}) do
+        local entry = g_ui.createWidget('GameRangersCompanyMainWindowMiddlePanelCategoryStat', self)
+        entry:setId(stat)
+        if i == 1 then
+          entry:setMarginLeft(245)
+        end
+      end
+
+  SuccessButton
+    id: reroll_button
+    anchors.left: name.right
+    anchors.verticalCenter: parent.verticalCenter
+    &iconPath: '/images/ui/windows/rangers_company/icon_reroll'
+    size: 40 40
+    margin-left: 20
+    visible: false
+    @onClick: |
+      modules.game_rangerscompany.GameRangersCompany:rerollPerk(tonumber(self:getParent():getId()))
+
+  UIWidget
+    id: reroll_arrow
+    anchors.right: icon.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/rangers_company/icon_reroll_arrow
+    margin-right: 5
+    visible: false
+
+GameRangersCompanyMainWindowMiddlePanelCategoryStat < UIWidget
+  size: 50 50
+  text-align: center
+  text-offset: 0 0
+  font: poppins-semibold-14
+  text-color: #b2b6bb
+  text: 0
+  $on:
+    text-color: #77d463
+
+  @onTextChange: |
+    local text = self:getText()
+    self:setOn(text ~= '0')
+    self:setText(string.format(text ~= '0' and '+%s' or '%s', text), true)
+  

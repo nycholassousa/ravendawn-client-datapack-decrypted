@@ -1,0 +1,190 @@
+// Trunks
+creatures
+  // Sharpweed Trunk
+  2148
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 2
+    impact-time: 550
+    attack-animation-type: 0
+    attack-animation:
+      0: 4165
+  4165
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+
+  // Ghastly Trunk
+  2149
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 2
+    impact-time: 450
+    attack-animation-type: 0
+    attack-animation:
+      0: 4754
+  4754
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+    name-displacement: 40 50
+
+  // Emberglow Trunk
+  2150
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 2
+    impact-time: 450
+    attack-animation:
+      0: 4164
+  4164
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    name-displacement: 40 50
+
+  // Dimwick Trunk
+  2151
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 2
+    impact-time: 450
+    attack-animation-type: 0
+    attack-animation:
+      0: 4167
+  4167
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+
+  // Cyclops Trunk
+  2152
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 2
+    impact-time: 550
+    attack-animation-type: 0
+    attack-animation:
+      0: 4168
+  4168
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+
+  // Frenzy Trunk
+  2153
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 6 6
+    main-body: true
+    step-sound-type: 2
+    impact-time: 450
+    attack-animation-type: 0
+    attack-animation:
+      0: 4166
+  4166
+    animate-from-start: true
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 11 11
+
+  // Many-Eyes Trunk
+  2155
+    creature-offset: 8 8
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    name-displacement: 38 56
+    main-body: true
+    step-sound-type: 2
+    impact-time: 610
+    attack-animation-type: 0
+    attack-animation:
+      0: 4163
+  4163
+    animate-from-start: true
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 14 14
+    name-displacement: 44 62
+
+  // Skull Trunk
+  2156
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 2
+    impact-time: 450
+    attack-animation-type: 0
+    attack-animation:
+      0: 4169
+  4169
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+
+  // The Old Growth
+  5278
+    creature-offset: 8 8
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    main-body: true
+    step-sound-type: 2
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5277
+  5277
+    animate-from-start: true
+    creature-offset: 8 8
+  

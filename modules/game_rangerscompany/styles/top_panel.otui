@@ -1,0 +1,81 @@
+GameRangersCompanyMainWindowTopPanel < UIWidget
+  id: top_panel
+  anchors.left: left_panel.right
+  anchors.right: parent.right
+  anchors.top: parent.top
+  height: 55
+  margin-left: 20
+  GameRangersCompanyBountyWindowTopPanelProgressPanel
+  GameRangersCompanyBountyWindowTopPanelLeaderboardPanel
+
+GameRangersCompanyBountyWindowTopPanelProgressPanel < UIWidget
+  id: progress_panel
+  anchors.left: parent.left
+  anchors.right: middle_panel.right
+  anchors.verticalCenter: parent.verticalCenter
+  size: 550 55
+  @onStateChange: |
+    function(self, state)
+      self.progress_bg:setVisible(not state)
+      self.progress:setVisible(not state)
+    end
+
+  UIWidget
+    id: label
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    text: Creature expertise
+    font: poppins-semibold-14
+    text-color: #b2b6bb
+    text-auto-resize: true
+
+  UIWidget
+    id: progress_text
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    text-color: #b2b6bb
+    font: poppins-semibold-14
+    text-auto-resize: true
+
+  UIWidget
+    id: progress_bg
+    anchors.bottom: parent.bottom
+    anchors.left: label.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 20
+    size: 333 10
+    image-source: /images/ui/windows/character/level_progress_background
+    image-border: 3
+    
+  UIProgressBar
+    id: progress
+    anchors.fill: prev
+    size: 333 3
+    margin-top: 3
+    margin-bottom: 4
+    margin-left: 2
+    margin-right: 2
+    background-color: #ffa851
+
+GameRangersCompanyBountyWindowTopPanelLeaderboardPanel < UIWidget
+  id: leaderboard_panel
+  anchors.left: progress_panel.right
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  size: 550 55
+  margin-left: 40
+  UIWidget
+    id: leaderboard_label
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    text: Leaderboard   | 
+    font: poppins-semibold-14
+    text-auto-resize: true
+  UIWidget
+    id: time_left
+    anchors.left: leaderboard_label.right
+    anchors.verticalCenter: parent.verticalCenter
+    text: 2 days to reset
+    font: poppins-semibold-13
+    text-auto-resize: true
+    margin-left: 10

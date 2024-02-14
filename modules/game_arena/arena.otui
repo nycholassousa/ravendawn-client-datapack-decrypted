@@ -1,0 +1,359 @@
+CloseButton < UIButton
+  id: closeWindowButton
+  anchors.top: parent.top
+  anchors.right: parent.right
+  margin-top: 15
+  margin-right: 15
+  size: 19 19
+  on: true
+  image-source: /images/ui/windows/arena/exit_button
+
+  $hover:
+    opacity: 0.9
+  $pressed:
+    opacity: 1.0
+
+GameModeButton < UICheckBox
+  size: 90 36
+  image-source: /images/ui/windows/arena/game_mode_background
+  text-align: center
+  text-offset: 0 6
+  font: poppins-14
+  image-color: #dfdfdfff
+  text-color: #ced2d9
+
+  $hover !disabled:
+    image-color: #dfdfdf99
+
+  $pressed:
+    image-color: #dfdfdf44
+
+  $disabled:
+    image-color: #dfdfdf55
+
+  $checked:
+    image-source: /images/ui/windows/arena/game_mode_background_selected
+    text-color: #1f2124
+
+GameTypeButton < UICheckBox
+  size: 133 150
+  image-border: 10
+  image-source: /images/ui/windows/arena/game_type_background
+  image-color: white
+  padding: 9
+  opacity: 1.0
+  @onCheckChange: |
+    self.selectedIcon:setVisible(self:isChecked())
+    self.icon:setVisible(self:isChecked())
+  
+  $checked:
+    image-source: /images/ui/windows/arena/game_type_background_selected
+
+  $hover:
+    image-color: #dfdfdfff
+  
+  $disabled:
+    opacity: 0.4
+
+  UIWidget
+    id: selectedIcon
+    phantom: true
+    anchors.top: parent.top
+    anchors.right: parent.right
+    image-source: /images/ui/windows/arena/icon_game_type_selected
+    visible: false
+
+ArenaWindow < MainWindow
+  id: arenaWindow
+  size: 380 460
+  anchors.centerIn: parent
+  &title: 'Arena'
+  &iconName: 'icon_arena'
+  visible: false
+
+  MainWindowContent
+    id: content
+
+    UIWidget
+      height: 104
+      margin: -19 -28 -20 -28
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      background-color: #131416aa
+      border-bottom: 1 #1f2124aa
+
+      UIWidget
+        id: gameModesSubtitle
+        text: Select the arena type.
+        anchors.top: parent.top
+        text-color: #7e828b
+        anchors.horizontalCenter: parent.horizontalCenter
+        text-auto-resize: true
+        margin-top: 18
+        font: poppins-14
+        text-offset: 0 3
+
+      UIWidget
+        size: 200 30
+        id: gameModes
+        anchors.top: prev.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        margin-top: 22
+
+        layout:
+          type: horizontalBox
+          spacing: 20
+
+        GameModeButton
+          id: modeDuo
+          text: 2v2
+          &arenaMode: 1
+
+        GameModeButton
+          id: modeTrio
+          text: 3v3
+          &arenaMode: 2
+
+    UIWidget
+      id: gameModesSubtitle
+      anchors.top: prev.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
+      text: Select the arena mode.
+      text-auto-resize: true
+      text-color: #7e828b
+      margin-top: 18
+      font: poppins-14
+      text-offset: 0 3
+
+    Panel
+      id: gameTypes
+      size: 286 150
+      phantom: false
+      anchors.top: prev.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-top: 18
+
+      layout:
+        type: horizontalBox
+        spacing: 20
+
+      GameTypeButton
+        id: typeNormal
+        &arenaType: 1
+
+        Panel
+          id: icon
+          phantom: true
+          anchors.top: parent.top
+          anchors.horizontalCenter: parent.horizontalCenter
+          margin-top: 20
+          image-source: /images/ui/windows/arena/icon_quick_match
+          color: white
+
+          $checked:
+            color: blue
+        
+        UIWidget
+          text: Quick Match
+          phantom: true
+          anchors.top: prev.bottom
+          anchors.horizontalCenter: parent.horizontalCenter
+          margin-top: 12
+          font: poppins-semibold-14
+          text-auto-resize: true
+
+        UIWidget
+          id: stats
+          phantom: true
+          text: 0 - 0
+          anchors.horizontalCenter: parent.horizontalCenter
+          anchors.top: prev.bottom
+          margin-top: 7
+          font: poppins-13
+          text-auto-resize: true
+
+      GameTypeButton
+        id: typeRanked
+        &arenaType: 2
+        enabled: false
+
+        Panel
+          id: icon
+          anchors.top: parent.top
+          anchors.horizontalCenter: parent.horizontalCenter
+          margin-top: 20
+          image-source: /images/ui/windows/arena/icon_ranking
+          color: white
+
+          $checked:
+            color: blue
+        
+        UIWidget
+          text: Ranked
+          anchors.top: prev.bottom
+          anchors.horizontalCenter: parent.horizontalCenter
+          margin-top: 12
+          font: poppins-semibold-14
+          text-auto-resize: true
+
+        UIWidget
+          id: stats
+          text: 0 pts
+          anchors.top: prev.bottom
+          anchors.horizontalCenter: parent.horizontalCenter
+          margin-top: 7
+          font: poppins-13
+          text-auto-resize: true
+
+    UIWidget
+      id: separator
+      height: 2
+      border: 2 #3a3d43
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 18
+      margin-left: -27
+      margin-right: -27
+
+    Panel
+      id: searchQueuePanel
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 17
+      height: 50
+
+      PrimaryButton
+        id: startQueueButton
+        size: 162 50
+        text: Search
+        font: poppins-semibold-16
+        text-offset: 0 5
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        @onClick: startQueue()
+
+      UIWidget
+        id: searchInfo
+        visible: false
+        size: 200 50
+        anchors.horizontalCenter: parent.horizontalCenter
+        UIWidget
+          id: searchGameModeName
+          anchors.left: parent.left
+          anchors.top: parent.top
+          text: Quick Match
+          font: poppins-14
+          text-auto-resize: true
+          text-offset: 0 2
+
+        UIWidget
+          id: searchQueueTimer
+          anchors.right: parent.right
+          anchors.top: parent.top
+          text-color: #e7b131
+          text: 00:00:00
+          font: poppins-semibold-16
+          text-auto-resize: true
+
+        UIWidget
+          anchors.top: prev.bottom
+          anchors.left: parent.left
+          text: Searching...
+          font: poppins-22
+          text-auto-resize: true
+          text-offset: 0 4
+
+        UIButton
+          id: cancelQueueButton
+          anchors.top: prev.top
+          anchors.right: parent.right
+          image-source: /images/ui/windows/arena/leave_queue_button
+          @onClick: cancelQueue()
+
+ArenaConfirmWindow < MainWindow
+  id: arenaConfirmWindow
+  visible: false
+  size: 315 240
+  anchors.centerIn: parent
+  focusable: false
+  &title: 'Confirmation'
+  &iconName: 'icon_arena'
+  @onEscape: function(self) cancelQueue() end
+
+  MainWindowContent
+    id: content
+
+    UIWidget
+      text: Your arena match is ready
+      font: myriad-pro-semibold-14
+      anchors.top: parent.top
+      anchors.horizontalCenter: parent.horizontalCenter
+      text-offset: 0 3
+      text-auto-resize: true
+
+    UIWidget
+      anchors.top: prev.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
+      id: matchTypeLabel
+      text: Quick Match (2v2)
+      font: myriad-pro-semibold-18
+      text-offset: 0 4
+      text-auto-resize: true
+      text-color: #e7b131
+      margin-top: 5
+
+    UIButton
+      id: confirmButton
+      size: 200 40
+      anchors.top: prev.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
+      image-source: /images/ui/windows/arena/base_button
+      font: myriad-pro-semibold-18
+      text-offset: 0 5
+      text: Accept
+      margin-top: 5
+
+    Panel
+      id: timer
+      anchors.top: prev.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-top: 15
+      size: 260 3
+
+      UIWidget
+        id: background
+        size: 260 3
+        background-color: #c74242
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+
+      UIProgressBar
+        id: progress
+        anchors.fill: background
+        background-color: #50e639
+
+WaitingForPlayersWindow < MainWindow
+  id: waitingForPlayersWindow
+  visible: false
+  size: 415 150
+  anchors.centerIn: parent
+  focusable: false
+  &title: 'Waiting for players'
+  &iconName: 'icon_arena'
+
+  MainWindowContent
+    id: content
+
+    UIWidget
+      id: waitingForPlayers
+      !text: tr("Please wait for the other players to accept the match.")
+      text-auto-resize: true
+      text-wrap: true
+      text-align: center
+      font: poppins-semibold-18
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right

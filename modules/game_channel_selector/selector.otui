@@ -1,0 +1,220 @@
+ChannelSwapLockProgressRect < UISpellProgressRect
+  background: #000000AA
+  percent: 100
+  focusable: false
+  cooldown: 1000
+
+  Label
+    id: text
+    text: 30
+    text-auto-resize: true
+    text-offset: -3 0
+    anchors.centerIn: parent
+    font: poppins-semibold-12
+    visible: false
+
+ChannelWidget < UIWidget
+  height: 60
+  on: true
+  image-size: 312 50
+  image-offset: 0 10
+  image-source: /images/ui/windows/channel_selector/channel_background
+  padding: 6
+  padding-top: 16
+  opacity: 0.8
+
+  $!on:
+    image-source: /images/ui/windows/channel_selector/channel_background_disabled
+    opacity: 0.6
+  $checked:
+    image-source: /images/ui/windows/channel_selector/channel_background_active
+  $hover on:
+    opacity: 1.0
+  
+  @onClick: |
+    if not self:isOn() then
+      return
+    end
+
+    -- uncheck all the other channels
+    for _, widget in pairs(self:getParent():getChildren()) do
+      if widget ~= self then
+        widget:setChecked(false)
+      end
+    end
+
+    self:setChecked(not self:isChecked())
+
+    local isChecked = false
+    for _, widget in pairs(self:getParent():getChildren()) do
+      if widget:isChecked() then
+        isChecked = true
+      end
+    end
+
+    local swapChannelBtn = self:getParent():getParent():recursiveGetChildById("swapChannelBtn")
+    if not isChecked then
+      swapChannelBtn:setStyle("DisabledButton")
+    else
+      swapChannelBtn:setStyle("PrimaryButton")
+    end
+
+  UIWidget
+    id: channelLbl
+    on: true
+    phantom: true
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    text-auto-resize: true
+    font: poppins-semibold-14
+    text-color: #A6AAB2
+    text-offset: 0 6
+    margin-left: 12
+
+    $!on:
+      text-color: #3A3D43
+  
+  UIWidget
+    id: populationLbl
+    phantom: true
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    anchors.left: prev.right
+    text-auto-resize: true
+    text-align: center
+    font: poppins-semibold-16
+    text-offset: 0 1
+    visible: false
+
+ChannelSelectorWindow < MainWindow
+  id: channelSelectorWindow
+  size: 350 200
+  anchors.centerIn: parent
+  focusable: true
+  draggable: false
+  @onEscape: addEvent(function() modules.game_channel_selector.hide() end)
+  &title: 'Switch Channel'
+  &iconName: 'icon_channel_selector'
+
+  MainWindowContent
+    padding-top: 10
+    padding-right: 20
+    padding-left: 20
+    padding-bottom: 0
+
+    // Disabled for now
+    UIButton
+      id: swapChannelLock
+      visible: false
+      size: 32 32
+      anchors.bottom: channelsTable.top
+      anchors.right: parent.right
+      margin-bottom: 10
+      margin-right: 20
+      image-source: /images/ui/icons/abilitybar/barrier.png
+      ChannelSwapLockProgressRect
+        id: radialProgressRect
+        anchors.fill: parent
+        show-text: true
+        visible: true
+        phantom: true
+
+    Panel
+      id: headerPanel
+      height: 55
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      !text: tr("Your channel:")
+      font: poppins-semibold-10
+      text-align: left
+      text-offset: 4 -32
+      text-color: #F8F8FF
+
+      UIWidget
+        id: channelLbl
+        font: poppins-semibold-14
+        text-color: #F8F8FF
+        text-auto-resize: true
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.left: parent.left
+        margin-top: 6
+        margin-left: 18
+
+      UIWidget
+        id: populationLbl
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.right: parent.right
+        anchors.left: prev.right
+        text-auto-resize: true
+        text-align: center
+        font: poppins-semibold-16
+        margin-top: 3
+
+//      UIWidget
+//        id: inviteBtn
+//        anchors.top: parent.top
+//        anchors.right: parent.right
+//        image-source: /images/ui/windows/channel_selector/invite_friend_btn
+//
+//        $hover:
+//          image-source: /images/ui/windows/channel_selector/invite_friend_btn_active
+
+    UIWidget
+      height: 1
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      border: 1 #282A2D
+      margin-top: 10
+      margin-right: -20
+      margin-left: -20
+
+    ScrollablePanel
+      id: channelsPanel
+      &maxHeight: 340
+      vertical-scrollbar: channelsScrollBar
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 1
+      margin-left: -2
+      margin-bottom: 60
+      layout:
+        type: verticalBox
+        spacing: 0
+
+    VerticalScrollBar
+      id: channelsScrollBar
+      anchors.top: channelsPanel.top
+      anchors.bottom: channelsPanel.bottom
+      anchors.left: channelsPanel.right
+      margin-left: 15
+      step: 28
+      pixels-scroll: true
+
+    UIWidget
+      id: bottomPanel
+      phantom: true
+      height: 68
+      anchors.top: channelsPanel.bottom
+      margin-top: 10
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-left: -20
+      margin-right: -20
+      background-color: #131416
+      border: 0 #282A2D
+      border-width-top: 1
+
+      DisabledButton
+        id: swapChannelBtn
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.horizontalCenter: parent.horizontalCenter
+        &resizeText: true
+        !text: tr("Join Channel")
+        @onClick: swapToChannel(self)
+
+    Panel
+      id: loading
+      anchors.fill: parent

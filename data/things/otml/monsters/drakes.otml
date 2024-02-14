@@ -1,0 +1,113 @@
+// Drakes
+creatures
+  //Venomfang Drake
+  4723
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    creature-offset: 64 64
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4722
+  4722
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    animate-from-start: true
+    creature-offset: 64 64
+  //Fire Drake
+  4724
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    creature-offset: 64 64
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4725
+  4725
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    animate-from-start: true
+    creature-offset: 64 64
+  //Spellslayer Drake
+  4730
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    creature-offset: 64 64
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4731
+  4731
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    animate-from-start: true
+    creature-offset: 64 64
+  //Ice Drake
+  4726
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    creature-offset: 64 64
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4727
+  4727
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    animate-from-start: true
+    creature-offset: 64 64
+  //Physical Drake
+  4728
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    creature-offset: 64 64
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4729
+  4729
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 2 2
+    friend-circle-size: 64 64
+    friend-circle-offset: 2 2
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // Slitherfang
+  5285
+    enemy-circle-size: 76 76
+    enemy-circle-offset: -4 -4
+    friend-circle-size: 76 76
+    friend-circle-offset: -4 -4
+    creature-offset: 64 64
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5284
+  5284
+    animate-from-start: true
+    creature-offset: 64 64

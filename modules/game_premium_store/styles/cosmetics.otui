@@ -1,0 +1,101 @@
+GamePremiumStoreCosmeticsItemWidget < UIWidget
+  width: 370
+  height: 330
+
+  UIWidget
+    id: box
+    anchors.centerIn: parent
+    image-source: /images/ui/windows/premium_store/ravencoins_item_box_off
+    size: 360 330
+
+    UIWidget
+      id: title
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-left: 80
+      margin-right: 80
+      anchors.verticalCenter: parent.verticalCenter
+      margin-top: 10
+      text-auto-resize: true
+      text-wrap: true
+      font: poppins-24
+      phantom: true
+
+    YellowButton
+      id: purchase_button
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.bottom: parent.bottom
+      margin-bottom: 70
+      font: poppins-semibold-18
+
+  UIWidget
+    id: bonus_panel
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: box.bottom
+    margin-top: -30
+    size: 0 50
+    layout:
+      type: horizontalBox
+      spacing: 14
+      fit-children: true
+    
+    GamePremiumStoreBonusWidget
+    GamePremiumStoreBonusWidget
+
+  UIWidget
+    id: icon
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: box.top
+    size: 96 96
+    phantom: true
+    margin-top: 35
+
+GamePremiumStoreCosmeticsItemBundleWidget < UIWidget
+  width: 370
+  height: 330
+
+  UIWidget
+    id: box
+    anchors.centerIn: parent
+    image-source: /images/ui/windows/premium_store/ravencoins_item_box_off
+    size: 370 330
+
+    UIWidget
+      id: title
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-left: 80
+      margin-right: 80
+      anchors.verticalCenter: parent.verticalCenter
+      text-auto-resize: true
+      text-wrap: true
+      font: poppins-24
+      phantom: true
+
+    YellowButton
+      id: purchase_button
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.bottom: parent.bottom
+      margin-bottom: 70
+      font: poppins-semibold-18
+
+  UIWidget
+    id: bonus_panel
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: box.bottom
+    margin-top: -30
+    size: 0 50
+    layout:
+      type: horizontalBox
+      spacing: 14
+      fit-children: true
+    
+    GamePremiumStoreBonusWidget
+    GamePremiumStoreBonusWidget
+
+  UIWidget
+    id: icon
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: box.top
+    margin-bottom: -120
+    phantom: true

@@ -1,0 +1,142 @@
+ReputationPassiveIcon < UIWidget
+  size: 48 48
+  @onClick: modules.game_reputation.GameReputation:onPassiveNodeClicked(self)
+  opacity: 0.3
+  phantom: false
+  $hover checked:
+    opacity: 0.7
+  $pressed checked:
+    opacity: 0.7
+  $on:
+    opacity: 1
+
+ReputationPassiveRow < UIWidget
+  height: 78
+  image-source: /images/ui/windows/reputation/row_odd
+  phantom: false
+
+  UIWidget
+    id: passives
+    padding: 15
+    padding-left: 15
+    anchors.fill: parent
+    phantom: false
+    layout:
+      type: horizontalBox
+      spacing: 55
+      align: center
+
+  UIWidget
+    id: rowPoints
+    width: 100
+    anchors.right: parent.right 
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    image-source: /images/ui/windows/reputation/row_points_right
+
+
+    UIWidget
+      id: points
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.horizontalCenter: parent.horizontalCenter
+      padding: 2
+      padding-left: 12
+      padding-right: 12
+      image-source: /images/ui/windows/reputation/points_frame
+      text-auto-resize: true
+      font: poppins-semibold-15
+      text: 700
+      text-offset: 0 2
+      icon-source: /images/ui/windows/reputation/lock
+      icon-align: left
+      icon-offset: -7 0
+      $on:
+        image-source: /images/ui/windows/reputation/avaliable_points_active
+      $checked:
+        icon-source:
+
+  UIWidget
+    id: rowHightlight
+    anchor.fill: parent
+    visible: false
+    phantom: true
+    image-source: /images/ui/windows/reputation/row_highlight
+    image-border: 10
+
+ReputationWindow < MainWindow
+  id: reputationWindow
+  size: 1063 740
+  anchors.centerIn: parent
+  visible: false
+  &title: 'Reputation'
+  &shortcut: 'H'
+  &iconName: 'icon_reputation'
+  &isGeneralUIWindow: true
+
+  MainWindowContent
+    id: contentPanel
+
+    UIWidget
+      id: allPoints
+      padding: 2
+      padding-left: 30
+      padding-right: 30
+      anchors.verticalCenter: totalPointsIcon.verticalCenter
+      anchors.left: totalPointsIcon.horizontalCenter
+      margin-bottom: 1
+      image-source: /images/ui/windows/reputation/points_frame
+      font: poppins-semibold-14
+      text-auto-resize: true
+      text-offset: 0 2
+
+    UIWidget
+      id: totalPointsIcon
+      anchors.top: parent.top
+      anchors.left: parent.left
+      image-source: /images/ui/windows/reputation/icon_frame
+      image-auto-resize: true
+      icon-source: /images/ui/windows/reputation/icon_points
+      icon-offset: 1 0
+    
+    UIWidget
+      id: info
+      anchors.verticalCenter: allPoints.verticalCenter
+      anchors.left: allPoints.right
+      image-source: /images/ui/windows/reputation/info
+      margin-left: -12
+
+    UIWidget
+      id: avaliablePoints
+      padding: 2
+      padding-left: 12
+      padding-right: 12
+      text-offset: 0 2
+      anchors.top: parent.top
+      anchors.right: parent.right
+      image-source: /images/ui/windows/reputation/avaliable_points_active
+      text-auto-resize: true
+      font: poppins-semibold-14
+      text: 0
+
+    UIWidget
+      id: avaliablePointsLabel
+      text: Available Points
+      anchors.verticalCenter: avaliablePoints.verticalCenter
+      anchors.right: avaliablePoints.left
+      anchors.bottom: avaliablePoints.bottom
+      margin-right: 10
+      text-auto-resize: true
+      font: poppins-14
+
+    UIWidget
+      id: passivesRows
+      anchors.top: totalPointsIcon.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      anchors.bottom: parent.bottom
+      margin-top: 15
+      phantom: false
+      layout:
+        type: verticalBox
+        spacing: 10
+

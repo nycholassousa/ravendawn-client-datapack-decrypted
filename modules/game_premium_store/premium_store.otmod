@@ -1,0 +1,6 @@
+Module
+  name: game_premium_store
+  sandboxed: true
+  scripts: [ premium_store ]
+  @onLoad: GamePremiumStore:init()
+  @onUnload: GamePremiumStore:terminate()

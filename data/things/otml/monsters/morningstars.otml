@@ -1,0 +1,123 @@
+// Morningstars
+creatures
+  // Worker
+  5218
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5217
+  5217
+    animate-from-start: true
+    creature-offset: 25 25
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Paladin
+  5219
+    creature-offset: 8 8
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5220
+  5220
+    animate-from-start: true
+    creature-offset: 25 25
+
+  // Judge
+  5221
+    creature-offset: 8 8
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5222
+  5222
+    animate-from-start: true
+    creature-offset: 25 25
+
+  // Flagellant
+  5223
+    creature-offset: 8 8
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5224
+  5224
+    animate-from-start: true
+    creature-offset: 23 23
+
+  // Hermit
+  5230
+    creature-offset: 8 8
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 1000
+    attack-animation-type: 0
+    attack-animation:
+      0: 5232
+  5232
+    animate-from-start: true
+    creature-offset: 8 8
+
+  // Basic
+  5231
+    creature-offset: 8 8
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Hierophant Sigrid
+  5327
+    creature-offset: 11 11
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 1000
+    attack-animation-type: 0
+    attack-animation:
+      0: 5326
+  5326
+    animate-from-start: true
+    creature-offset: 26 26
+
+  // Bishop
+  5823
+    creature-offset: 14 14
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5822
+  5822
+    animate-from-start: true
+    creature-offset: 14 14

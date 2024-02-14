@@ -1,0 +1,6 @@
+Module
+  name: game_transport
+  author: LPE
+  scripts: [ transport ]
+  @onLoad: GameTransport:init()
+  @onUnload: GameTransport:terminate()

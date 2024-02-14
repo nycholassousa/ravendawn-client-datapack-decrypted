@@ -1,0 +1,75 @@
+GameGuildJoinCreatePanel < UIWidget
+  id: join_create_panel
+  anchors.centerIn: parent
+  size: 0 603
+  layout:
+    type: horizontalBox
+    spacing: 35
+    fit-children: true
+
+  GameGuildJoinCreatePanelButton
+    id: join_guild
+  GameGuildJoinCreatePanelButton
+    id: create_guild
+
+GameGuildJoinCreatePanelButton < UIWidget
+  id: join_create_panel_button
+  size: 553 603
+  @onSetup: |
+    if self:getId() == 'join_guild' then
+      self:setImageSource('/images/ui/windows/guild/background_join_guild')
+    else
+      self:setImageSource('/images/ui/windows/guild/background_create_guild')
+    end
+  @onClick: |
+    if self:getId() == 'join_guild' then
+      modules.game_guild.GameGuild:selectPanel('join_panel')
+    else
+      modules.game_guild.GameGuild:displayCreatePanel()
+    end
+
+  UIWidget
+    id: icon
+    anchors.bottom: parent.verticalCenter
+    anchors.horizontalCenter: parent.horizontalCenter
+    phantom: true
+    @onSetup: |
+      local parent = self:getParent()
+      self:setImageSource(string.format('/images/ui/windows/guild/icon_%s_big', parent:getId()))
+
+  UIWidget
+    id: title
+    anchors.top: parent.verticalCenter
+    anchors.horizontalCenter: parent.horizontalCenter
+    font: poppins-semibold-30
+    text-align: center
+    text-auto-resize: true
+    phantom: true
+    @onSetup: |
+      local parent = self:getParent()
+      if parent:getId() == 'join_guild' then
+        self:setText(tr('Join a Guild'))
+      else
+        self:setText(tr('Create New Guild'))
+      end
+  
+  UIWidget
+    id: description
+    anchors.top: title.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    text-vertical-auto-resize: true
+    phantom: true
+    margin-top: 20
+    margin-left: 50
+    margin-right: 50
+    font: poppins-24
+    text-align: center
+    text-wrap: true
+    @onSetup: |
+      local parent = self:getParent()
+      if parent:getId() == 'join_guild' then
+        self:setText(tr('Join a guild, make new friends and explore Ravendawn with them.'))
+      else
+        self:setText(tr('Create a Guild, invite your friends and battle in the Zone Wars.'))
+      end

@@ -1,0 +1,222 @@
+// Elves
+creatures
+  4733;4734;4735;4736;4737;4738;4739;4740
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+
+  // Elf Commoner
+  2104;4733
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 36 36
+  2104
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4733
+
+
+  // Elf Bowman
+  2105;4734
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 36 36
+  2105
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4734
+
+  // High Elf Brawler
+  2106;4739
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 36 36
+  2106
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4739
+
+  // Elf Druid
+  2107;4735
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 36 36
+    name-displacement: 68 82
+  2107
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4735
+
+  // Elf Swordsman
+  2108;4736
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 36 36
+  2108
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4736
+
+  // Elf Champion
+  2109
+    creature-offset: 36 36
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+      step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5056
+  5056
+    animate-from-start: true
+    creature-offset: 36 36
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    alternate-animation: 5057
+  5057
+    animate-from-start: true
+    creature-offset: 36 36
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    alternate-animation: 5056
+
+  // High Elf Priest
+  2110;4738
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 36 36
+  2110
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4738
+
+  // High Elf Guardian
+  2111;4737
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 36 36
+  2111
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4737
+
+  // Draconics
+  // Draconic Fighter
+  4755
+    creature-offset: 36 36
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 4759
+  4759
+    animate-from-start: true
+    creature-offset: 36 36
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+
+  // Draconic Lancer
+  4756
+    creature-offset: 36 36
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4760
+  4760
+    animate-from-start: true
+    creature-offset: 36 36
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+
+  // Draconic Pyromancer
+  4757
+    creature-offset: 36 36
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    step-sound-type: 3
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 4758
+  4758
+    animate-from-start: true
+    creature-offset: 36 36
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8

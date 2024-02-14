@@ -1,0 +1,137 @@
+GameTooltipAttributeReputationCriminal < UIWidget
+  width: 90
+
+  UIWidget
+    id: value
+    padding: 2
+    width: 70
+    anchors.verticalCenter: next.verticalCenter
+    anchors.left: next.horizontalCenter
+    margin-bottom: 1
+    image-source: /images/ui/windows/reputation/points_frame
+    font: poppins-semibold-14
+    text-vertical-auto-resize: true
+    text-offset: 10 2
+    text: 120
+
+  UIWidget
+    id: criminal
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-source: /images/ui/windows/reputation/criminal
+    image-auto-resize: true
+
+GameTooltipAttributeReputationMercenary < UIWidget
+  width: 90
+
+  UIWidget
+    id: value
+    padding: 2
+    width: 70
+    anchors.verticalCenter: next.verticalCenter
+    anchors.left: next.horizontalCenter
+    margin-bottom: 1
+    image-source: /images/ui/windows/reputation/points_frame
+    font: poppins-semibold-14
+    text-vertical-auto-resize: true
+    text-offset: 10 2
+    text: 120
+
+  UIWidget
+    id: criminal
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-source: /images/ui/windows/reputation/mercenary
+    image-auto-resize: true
+
+GameTooltipAttributeReputationOrder < UIWidget
+  width: 90
+
+  UIWidget
+    id: value
+    padding: 2
+    width: 70
+    anchors.verticalCenter: next.verticalCenter
+    anchors.left: next.horizontalCenter
+    margin-bottom: 1
+    image-source: /images/ui/windows/reputation/points_frame
+    font: poppins-semibold-14
+    text-vertical-auto-resize: true
+    text-offset: 10 2
+    text: 120
+
+  UIWidget
+    id: order
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-source: /images/ui/windows/reputation/order
+    image-auto-resize: true
+
+ReputationTooltipAttributeCost < UIWidget
+  height: 24
+
+  UIWidget
+    id: icon
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-source: /images/ui/windows/reputation/cost
+    size: 24 24
+
+  UIWidget
+    id: value
+    anchors.verticalCenter: icon.verticalCenter
+    anchors.left: icon.right
+    margin-left: 5
+    font: poppins-14
+    text-offset: 0 5
+    text-align: left
+    text-auto-resize: true
+    text-wrap: true
+
+TooltipReputationPointsHeader < TooltipHeader
+  id: reputationPointsHeader
+  visible: false
+
+  UIWidget
+    id: text
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-14
+    text-offset: 0 5
+    text-align: left
+    text-auto-resize: true
+    text-wrap: true
+
+TooltipReputationHeader < TooltipHeader
+  id: reputationHeader
+  visible: false
+
+  UIWidget
+    id: image
+    size: 64 64
+    anchors.top: parent.top
+    anchors.left: parent.left
+
+  UIWidget
+    id: info
+    anchors.verticalCenter: image.verticalCenter
+    anchors.left: image.right
+    anchors.right: parent.right
+    margin-left: 10
+    layout:
+      type: verticalBox
+      fit-children: true
+
+    UIWidget
+      id: title
+      font: poppins-16
+      text-align: left
+      text-vertical-auto-resize: true
+      text-wrap: true
+
+    UIWidget
+      id: subtitle
+      font: poppins-14
+      text-align: left
+      text-vertical-auto-resize: true

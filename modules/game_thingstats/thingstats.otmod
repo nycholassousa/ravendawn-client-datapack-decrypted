@@ -1,0 +1,6 @@
+Module
+  name: game_thingstats
+  sandboxed: true
+  scripts: [ thingstats ]
+  @onLoad: init()
+  @onUnload: terminate()

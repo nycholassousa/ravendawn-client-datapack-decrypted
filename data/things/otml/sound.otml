@@ -1,0 +1,819 @@
+items
+  870;15000;15001;15002;15003;17464;17465;17466;17467;17468
+    sound-category: "stone"
+  408
+    sound-category: "wood"
+  409
+    sound-category: "stone"
+  429
+    sound-category: "stone"
+  431
+    sound-category: "stone"
+  436
+    sound-category: "stone"
+  499
+    sound-category: "stone"
+  500
+    sound-category: "stone"
+  501
+    sound-category: "stone"
+  502
+    sound-category: "stone"
+  503
+    sound-category: "stone"
+  504
+    sound-category: "stone"
+  7880
+    sound-category: "stone"
+  4394
+    sound-category: "stone"
+  4395
+    sound-category: "stone"
+  4396
+    sound-category: "stone"
+  4397
+    sound-category: "stone"
+  4398
+    sound-category: "stone"
+  4399
+    sound-category: "stone"
+  4400
+    sound-category: "stone"
+  4401
+    sound-category: "stone"
+  4402
+    sound-category: "stone"
+  4403
+    sound-category: "stone"
+  4404
+    sound-category: "stone"
+  4405
+    sound-category: "stone"
+  4406
+    sound-category: "stone"
+  4407
+    sound-category: "stone"
+  4408
+    sound-category: "stone"
+  4409
+    sound-category: "stone"
+  4410
+    sound-category: "stone"
+  103
+    sound-category: "dirt"
+  106
+    sound-category: "grass"
+  107
+    sound-category: "grass"
+  108
+    sound-category: "grass"
+  109
+    sound-category: "grass"
+  231
+    sound-category: "sand"
+  10160;10161;10162;10163;10164;10165;10166;10167;10168;10169;10170;10171
+    sound-category: "sand"
+  4515
+    sound-category: "grass"
+  4516
+    sound-category: "grass"
+  4517
+    sound-category: "grass"
+  4518
+    sound-category: "grass"
+  4519
+    sound-category: "grass"
+  4520
+    sound-category: "grass"
+  4521
+    sound-category: "grass"
+  4522
+    sound-category: "grass"
+  4523
+    sound-category: "grass"
+  4524
+    sound-category: "grass"
+  4525
+    sound-category: "grass"
+  4526
+    sound-category: "grass"
+  4527
+    sound-category: "grass"
+  4528
+    sound-category: "grass"
+  4529
+    sound-category: "grass"
+  4530
+    sound-category: "grass"
+  4540
+    sound-category: "grass"
+  486
+    sound-category: "wood"
+  8308
+    sound-category: "wood"
+  8309
+    sound-category: "wood"
+  8310
+    sound-category: "wood"
+  8311
+    sound-category: "wood"
+  8312
+    sound-category: "wood"
+  8313
+    sound-category: "wood"
+  8314
+    sound-category: "wood"
+  8315
+    sound-category: "wood"
+  8316
+    sound-category: "wood"
+  16484
+    sound-category: "wood"
+  16485
+    sound-category: "wood"
+  16486
+    sound-category: "wood"
+  16487
+    sound-category: "wood"
+  16488
+    sound-category: "wood"
+  16489
+    sound-category: "wood"
+  16490
+    sound-category: "wood"
+  16584
+    sound-category: "wood"
+  10605
+    sound-category: "dirt"
+  4621;29553
+    sound-category: "water"
+  4622
+    sound-category: "water"
+  4623
+    sound-category: "water"
+  4624
+    sound-category: "water"
+  4625
+    sound-category: "water"
+  4626
+    sound-category: "water"
+  4627
+    sound-category: "water"
+  4628
+    sound-category: "water"
+  4629
+    sound-category: "water"
+  4630
+    sound-category: "water"
+  4631
+    sound-category: "water"
+  4632
+    sound-category: "water"
+  799
+    sound-category: "snow"
+  6580
+    sound-category: "snow"
+  6581
+    sound-category: "snow"
+  6582
+    sound-category: "snow"
+  6583
+    sound-category: "snow"
+  6584
+    sound-category: "snow"
+  6585
+    sound-category: "snow"
+  6586
+    sound-category: "snow"
+  6587
+    sound-category: "snow"
+  6588
+    sound-category: "snow"
+  6589
+    sound-category: "snow"
+  6590
+    sound-category: "snow"
+  6591
+    sound-category: "snow"
+  6592
+    sound-category: "snow"
+  6593
+    sound-category: "snow"
+  6594
+    sound-category: "snow"
+  6595
+    sound-category: "snow"
+  6596
+    sound-category: "snow"
+  6597
+    sound-category: "snow"
+  6598
+    sound-category: "snow"
+  6599
+    sound-category: "snow"
+  6600
+    sound-category: "snow"
+  6601
+    sound-category: "snow"
+  6602
+    sound-category: "snow"
+  6603
+    sound-category: "snow"
+  6604
+    sound-category: "snow"
+  6605
+    sound-category: "snow"
+  6606
+    sound-category: "snow"
+  6607
+    sound-category: "snow"
+  6608
+    sound-category: "snow"
+  20533
+    sound-category: "stone"
+  20534
+    sound-category: "stone"
+  20535
+    sound-category: "stone"
+  20536
+    sound-category: "stone"
+  20537
+    sound-category: "stone"
+  20538
+    sound-category: "stone"
+  20539
+    sound-category: "stone"
+  20544
+    sound-category: "stone"
+  20545
+    sound-category: "stone"
+  15040
+    sound-category: "grass"
+  15041
+    sound-category: "grass"
+  15042
+    sound-category: "grass"
+  15043
+    sound-category: "grass"
+  15044
+    sound-category: "grass"
+  15045
+    sound-category: "grass"
+  15046
+    sound-category: "grass"
+  15047
+    sound-category: "grass"
+  29760
+    sound-category: "sand"
+  30134
+    sound-category: "dirt"
+  970
+    sound-category: "grass"
+  971
+    sound-category: "grass"
+  972
+    sound-category: "grass"
+  973
+    sound-category: "grass"
+  974
+    sound-category: "grass"
+  975
+    sound-category: "grass"
+  976
+    sound-category: "grass"
+  977
+    sound-category: "grass"
+  978
+    sound-category: "grass"
+  194
+    sound-category: "dirt"
+  351
+    sound-category: "stone"
+  352
+    sound-category: "stone"
+  353
+    sound-category: "stone"
+  354
+    sound-category: "stone"
+  355
+    sound-category: "stone"
+  17516
+    sound-category: "wood"
+  17517
+    sound-category: "wood"
+  17518
+    sound-category: "wood"
+  9524
+    sound-category: "dirt"
+  9525
+    sound-category: "dirt"
+  9526
+    sound-category: "dirt"
+  9527
+    sound-category: "dirt"
+  9528
+    sound-category: "dirt"
+  9529
+    sound-category: "dirt"
+  9530
+    sound-category: "dirt"
+  9531
+    sound-category: "dirt"
+  19825
+    sound-category: "stone"
+  19826
+    sound-category: "stone"
+  19827
+    sound-category: "stone"
+  19828
+    sound-category: "stone"
+  19829
+    sound-category: "stone"
+  19830
+    sound-category: "stone"
+  19831
+    sound-category: "stone"
+  19832
+    sound-category: "stone"
+  33662
+    sound-category: "wood"
+//pavement
+  9575
+    sound-category: "stone"
+  9576
+    sound-category: "stone"
+  9577
+    sound-category: "stone"
+  9578
+    sound-category: "stone"
+  9579
+    sound-category: "stone"
+  9580
+    sound-category: "stone"
+  9581
+    sound-category: "stone"
+//dirt mud
+  9700;9701;9702;9703;9704;9705;9706;9707;9708;9709;9710;9711;9712;9713;9714;9715;9716;9717;9718;9719
+    sound-category: "dirt"
+  19271
+    sound-category: "dirt"
+  19272
+    sound-category: "dirt"
+  19273
+    sound-category: "dirt"
+  19274
+    sound-category: "dirt"
+  19275
+    sound-category: "dirt"
+  19276
+    sound-category: "dirt"
+  19277
+    sound-category: "dirt"
+  19278
+    sound-category: "dirt"
+// stone floor
+  416
+    sound-category: "stone"
+// wooden bridge
+  10900
+    sound-category: "wood"
+  10901
+    sound-category: "wood"
+  10902
+    sound-category: "wood"
+  10903
+    sound-category: "wood"
+  10904
+    sound-category: "wood"
+  10905
+    sound-category: "wood"
+  10906
+    sound-category: "wood"
+  10907
+    sound-category: "wood"
+//grass
+  1019
+    sound-category: "grass"
+//lush grass
+  11711
+    sound-category: "grass"
+  11712
+    sound-category: "grass"
+  11713
+    sound-category: "grass"
+  11715
+    sound-category: "grass"
+  11717
+    sound-category: "grass"
+  11718
+    sound-category: "grass"
+//gravel
+  4555
+    sound-category: "stone"
+  4559
+    sound-category: "stone"
+  4560
+    sound-category: "stone"
+  4561
+    sound-category: "stone"
+  4562
+    sound-category: "stone"
+  4563
+    sound-category: "stone"
+  4564
+    sound-category: "stone"
+  4565
+    sound-category: "stone"
+  4566
+    sound-category: "stone"
+  4567
+    sound-category: "stone"
+  4568
+    sound-category: "stone"
+
+//house tiles
+  34267
+    sound-category: "stone"
+  34268
+    sound-category: "stone"
+  34269
+    sound-category: "stone"
+  34270
+    sound-category: "stone"
+  34271
+    sound-category: "stone"
+  34272
+    sound-category: "stone"
+  34273
+    sound-category: "stone"
+  34274
+    sound-category: "stone"
+  34275
+    sound-category: "stone"
+  34276
+    sound-category: "stone"
+  34277
+    sound-category: "stone"
+  34278
+    sound-category: "stone"
+  34279
+    sound-category: "stone"
+  34280
+    sound-category: "stone"
+  34281
+    sound-category: "stone"
+  34282
+    sound-category: "stone"
+  34283
+    sound-category: "stone"
+  34284
+    sound-category: "stone"
+  34285
+    sound-category: "stone"
+  34286
+    sound-category: "stone"
+  34287
+    sound-category: "stone"
+  34288
+    sound-category: "stone"
+  34289
+    sound-category: "stone"
+  34290
+    sound-category: "stone"
+  34291
+    sound-category: "stone"
+  34292
+    sound-category: "stone"
+  34293
+    sound-category: "stone"
+  34294
+    sound-category: "stone"
+  34295
+    sound-category: "stone"
+  34296
+    sound-category: "stone"
+  34297
+    sound-category: "wood"
+  34298
+    sound-category: "wood"
+  34299
+    sound-category: "wood"
+  34300
+    sound-category: "wood"
+  34301
+    sound-category: "wood"
+  34302
+    sound-category: "wood"
+  34303
+    sound-category: "wood"
+  34304
+    sound-category: "wood"
+  34305
+    sound-category: "wood"
+  34306
+    sound-category: "wood"
+  34307
+    sound-category: "wood"
+  34308
+    sound-category: "wood"
+  34309
+    sound-category: "wood"
+  34310
+    sound-category: "wood"
+  34311
+    sound-category: "wood"
+  //loose stone floor
+  937
+    sound-category: "stone"
+  //desert tiles
+  415
+    sound-category: "stone"
+  416
+    sound-category: "stone"
+  417
+    sound-category: "stone"
+  418
+    sound-category: "stone"
+  419
+    sound-category: "stone"
+  420
+    sound-category: "stone"
+  421
+    sound-category: "stone"
+  422
+    sound-category: "stone"
+  423
+    sound-category: "stone"
+  982
+    sound-category: "dirt"
+  11842
+    sound-category: "stone"
+  11843
+    sound-category: "stone"
+  11844
+    sound-category: "stone"
+  11845
+    sound-category: "stone"
+  11846
+    sound-category: "stone"
+  11847
+    sound-category: "stone"
+  11848
+    sound-category: "stone"
+  11849
+    sound-category: "stone"
+  11850
+    sound-category: "stone"
+  11851
+    sound-category: "stone"
+  11852
+    sound-category: "stone"
+  11853
+    sound-category: "stone"
+  11854
+    sound-category: "stone"
+  11855
+    sound-category: "stone"
+  11856
+    sound-category: "stone"
+  11857
+    sound-category: "stone"
+  11858
+    sound-category: "stone"
+  33675
+    sound-category: "wood"
+  15641
+    sound-category: "stone"
+  15642
+    sound-category: "stone"
+  15643
+    sound-category: "stone"
+  15644
+    sound-category: "stone"
+  15645
+    sound-category: "stone"
+  15646
+    sound-category: "stone"
+  15647
+    sound-category: "stone"
+  15648
+    sound-category: "stone"
+  15649
+    sound-category: "stone"
+  15650
+    sound-category: "stone"
+  11947
+    sound-category: "stone"
+  11948
+    sound-category: "stone"
+  11949
+    sound-category: "stone"
+  11950
+    sound-category: "stone"
+  7738
+    sound-category: "sand"
+  963
+    sound-category: "sand"
+  964
+    sound-category: "sand"
+  965
+    sound-category: "sand"
+  966
+    sound-category: "sand"
+  29816
+    sound-category: "dirt"
+  18459
+    sound-category: "grass"
+  18460
+    sound-category: "grass"
+  18461
+    sound-category: "grass"
+  18462
+    sound-category: "grass"
+  18463
+    sound-category: "grass"
+  18464
+    sound-category: "grass"
+  8230
+    sound-category: "stone"
+  29819
+    sound-category: "sand"
+  29861
+    sound-category: "stone"
+  29862
+    sound-category: "stone"
+  29863
+    sound-category: "stone"
+  29864
+    sound-category: "stone"
+  29865
+    sound-category: "stone"
+  29866
+    sound-category: "stone"
+  29867
+    sound-category: "stone"
+  29868
+    sound-category: "stone"
+  29869
+    sound-category: "stone"
+  29870
+    sound-category: "stone"
+  29871
+    sound-category: "stone"
+  29872
+    sound-category: "stone"
+  29873
+    sound-category: "stone"
+  29874
+    sound-category: "stone"
+  29875
+    sound-category: "stone"
+  29876
+    sound-category: "stone"
+  32331
+    sound-category: "stone"
+  35807
+    sound-category: "wood"
+  35808
+    sound-category: "wood"
+  35809
+    sound-category: "wood"
+  35810
+    sound-category: "wood"
+  35811
+    sound-category: "wood"
+  35812
+    sound-category: "wood"
+  35813
+    sound-category: "wood"
+  35814
+    sound-category: "wood"
+  35815
+    sound-category: "wood"
+  35816
+    sound-category: "wood"
+  35817
+    sound-category: "wood"
+  35818
+    sound-category: "wood"
+  35819
+    sound-category: "wood"
+  35820
+    sound-category: "wood"
+  35821
+    sound-category: "wood"
+  35822
+    sound-category: "wood"
+  35823
+    sound-category: "wood"
+  35824
+    sound-category: "wood"
+  410;30644;30657;30670;30683;30859;30872;30885;30898
+    sound-category: "stone"
+  31352;31365;31378;31391
+    sound-category: "dirt"
+  31527;31528;31529;31530;31531;31571;31572;31573;31574;31575;31615;31616;31617;31618;31619;31650;31663;31676;31689;31702;31751;31752;31753;31754;31755;31795;31796;31797;31798;31799
+    sound-category: "grass"
+  992;993;15394;15395;15398
+    sound-category: "grass"
+  16624;16628
+    sound-category: "wood"
+  30147
+    sound-category: "stone"
+
+  10228;10229;10230;10231;10232;10233;10234;10235;10236
+    sound-category: "dirt"
+  
+  10237;10238;10239;10240;10241;10242;10243
+    sound-category: "dirt"
+  
+  35266;38669;34930;34928;34928;34939;34937;35221;35223;34931;34941;35265;35222;35267;35264
+    sound-category: "stone"
+
+  32417;32418;32419;32420;32421;32422;32423;32424;32425;32426;32427;32428;32391
+    sound-category: "stone"
+
+  40086;40087;40089
+    sound-category: "dirt"
+
+  30683
+    sound-category: "stone"
+
+  31586;39961;41281;41325;41279;41155;41324;41323;41322;41280;41278
+    sound-category: "stone"
+  
+  40005;40004;40003;40002;40001
+    sound-category: "grass"
+
+  33170
+    sound-category: "stone"
+  38170
+    sound-category: "stone"
+  41153
+    sound-category: "stone"
+  41154
+    sound-category: "stone"
+  41209
+    sound-category: "stone"
+  41210
+    sound-category: "stone"
+  41211
+    sound-category: "stone"
+  41212
+    sound-category: "stone"
+  41241
+    sound-category: "stone"
+  41242
+    sound-category: "stone"
+  41243
+    sound-category: "stone"
+  41275
+    sound-category: "stone"
+
+  34935;34936;35304
+    sound-category: "stone"
+
+  // House chicken
+  34586;34375;34592;34381
+    sound-ambience: true
+    sound-id: 1430802377
+
+  // House Pig
+  34612;34401;34618;34407
+    sound-ambience: true
+    sound-id: 174215578
+
+  // House Sheep
+  34625;34414;34631;34420
+    sound-ambience: true
+    sound-id: 3164626317
+
+  // House Cow
+  34599;34388;34605;34394
+    sound-ambience: true
+    sound-id: 3357586817
+
+  // House Hare
+  34638;34463;34644;34469
+    sound-ambience: true
+    sound-id: 307315758
+
+  // House Goat
+  35066;35040;35059;35033
+    sound-ambience: true
+    sound-id: 1400104047
+
+  // House Turkey
+  35079;35053;35072;35046
+    sound-ambience: true
+    sound-id: 3402437194
+
+  // House Bee Hive
+  44230;44231;44232
+    sound-ambience: true
+    sound-id: 399008949
+
+  // House Cheese Barrel
+  37441
+    sound-ambience: true
+    sound-id: 1412957185

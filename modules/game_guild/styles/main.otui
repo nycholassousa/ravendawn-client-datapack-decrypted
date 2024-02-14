@@ -1,0 +1,37 @@
+GameGuildWindow < MainWindow
+  id: gameGuildWindow
+  size: 1240 714
+  anchors.centerIn: parent
+  &title: 'Guild Panel'
+  &shortcut: 'V'
+  &iconName: 'icon_guild'
+  &isGeneralUIWindow: true
+
+  MainWindowContent
+    padding-top: 0
+    padding-left: 0
+    padding-right: 0
+    GameGuildTopPanel
+      visible: false
+    GameGuildJoinCreatePanel
+      padding-left: 20
+      padding-right: 20
+      padding-top: 20
+      visible: false
+    GameGuildJoinGuildPanel
+      visible: false
+      padding-left: 20
+      padding-right: 20
+    GameGuildOverviewPanel
+      visible: false
+      padding-left: 20
+      padding-right: 20
+    GameGuildMembersPanel
+      visible: false
+      padding-left: 20
+      padding-right: 10
+  
+  UIWidget
+    id: loading_icon
+    anchors.fill: parent
+    visible: false

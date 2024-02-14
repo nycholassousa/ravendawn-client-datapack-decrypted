@@ -1,0 +1,435 @@
+LoginLabel < Label
+  color: #a6aab2
+  text-align: center
+  text-auto-resize: true
+  text-offset: 0 0
+
+LoginLabel12 < LoginLabel
+  font: poppins-12
+
+LoginLabel14 < LoginLabel
+  font: poppins-14
+
+LoginLabelBold16 < LoginLabel
+  font: poppins-semibold-14
+
+RegionButtonPanel < Panel
+  width: 92
+  height: 40
+  text-hidden: true
+  image-source: /images/ui/windows/entergame/login/bgServer
+  $on:
+    image-source: /images/ui/windows/entergame/login/bgServerActive
+  UIWidget
+    id: icon
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 20
+    phantom: true
+    image-source: /images/ui/windows/entergame/login/online
+    $on:
+      image-source: /images/ui/windows/entergame/login/online
+    $disabled:
+      image-source: /images/ui/windows/entergame/login/offline
+  UIWidget
+    id: button
+    anchors.fill: parent
+    phantom: false
+    font: poppins-16
+    text-align: left
+    text-offset: 42 6
+    color: #a6aab2
+    $on:
+      color: #222222
+    $disabled:
+      color: #76aab2
+    @onSetup: |
+       self:setText(self:getParent():getText())
+       self:setEnabled(true)
+    @onTextChange: |
+      local width = self:getTextSize().width + self:getParent().icon:getWidth() + 45
+
+      local icon = self:getParent().iconNew
+      if icon and icon:isVisible() then
+        width = width + icon:getWidth() + 1
+      end
+
+      self:setMarginRight(icon:isVisible() and 20 or 0)
+      self:getParent():setWidth(width)
+    @onClick: |
+      EnterGame.setLoginRegion(self:getParent(), self:getParent():getId())
+  UIWidget
+    id: iconNew
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 10
+    phantom: true
+    image-source: /images/ui/windows/entergame/login/icon_new
+    visible: false
+  @onStateChange: |
+    self.icon:setOn(self:isOn())
+    self.button:setOn(self:isOn())
+
+LoginCheckBox < UICheckBox
+  size: 18 18
+  image-source: /images/ui/windows/entergame/login/checkOff
+  opacity: 1.0
+  $checked:
+    image-source: /images/ui/windows/entergame/login/checkIn
+
+LoginCheckBoxPanel < Panel
+  height: 18
+  anchors.top: prev.bottom
+  anchors.left: prev.left
+  anchors.right: prev.right
+  margin-top: 15
+  margin-left: 1
+  margin-right: 1
+
+  LoginCheckBox
+    anchors.left: parent.left
+    anchors.top: parent.top
+    id: rememberPasswordBox
+    @onCheckChange: self:updateIcons()
+  LoginLabel12
+    !text: tr('Save account & password')
+    text-offset: 6 5
+    phantom: false
+    anchors.top: parent.top
+    anchors.left: prev.right
+    @onClick: |
+      local checkbox = self:getParent():getChildById('rememberPasswordBox')
+      if checkbox then
+        checkbox:setChecked(not checkbox:isChecked())
+      end
+  LoginLabel12
+    !text: tr('Forgot password?')
+    text-offset: 0 5
+    phantom: false
+    anchors.top: parent.top
+    anchors.right: parent.right
+    @onClick: |
+      if g_game.isRavenQuest() then
+        g_platform.openUrl("https://ravenquest.io/en/recover/password")
+      else
+        g_platform.openUrl("https://ravendawn.online/en/recover/password")
+      end
+    $hover:
+      color: white
+    $!hover:
+      color: #36F991
+
+InputPanel < UIWidget
+  image-source: /images/ui/windows/entergame/login/input
+  height: 60
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.top: prev.bottom
+  margin-top: 15
+
+  Panel
+    id: icon
+    image-auto-resize: true
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-offset: 28 0
+    @onSetup: |
+      addEvent(function()
+        local parent = self:getParent()
+        if not parent then
+          return
+        end
+        local path = parent.iconName
+        if path then
+          self:setImageSource(string.format('/images/ui/windows/entergame/login/%s', path))
+          local width = self:getImageTextureWidth()
+          local height = self:getImageTextureHeight()
+          self:setSize({width = width, height =  height})
+        end
+      end)
+  
+  InputFieldLogin
+    id: input_field
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 80
+    margin-right: 46
+    margin-top: 4
+    height: 24
+    @onSetup: |
+      addEvent(function()
+        local parent = self:getParent()
+        if parent and parent.previewText then
+          self:setTextPreview(parent.previewText)
+        end
+
+        self:setTextHidden(parent.toggleHidden or false)
+      end)
+
+  Panel
+    id: iconTextHidden
+    phantom: false
+    image-source: /images/ui/windows/entergame/login/iconHidden
+    image-auto-resize: true
+    margin-right: 18
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    @onSetup: self:setOn(self:getParent().toggleHidden)
+    @onStateChange: |
+      local isOn = self:isOn()
+      self:getParent().input_field:setTextHidden(isOn)
+      self:getParent().toggleHidden = isOn
+    @onClick: self:setOn(not self:isOn())
+    $!on:
+      image-source: /images/ui/windows/entergame/login/iconView
+
+InputFieldLogin < UITextEdit
+  font: poppins-16
+  text-align: left
+  height: 40
+  
+  $disabled:
+    color: #27272788
+    opacity: 0.5
+  
+  color: white
+  selection-color: #272727
+  selection-background-color: #cccccc
+  opacity: 1
+
+LoginButton < Button
+  id: loggin_button
+  text: Login
+  width: 170
+  height: 60
+  margin-top: 25
+  &color: '#36F991'
+  background-color: #151515
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  @onClick: EnterGame.doLogin()
+
+RegisterAccountPanel < Panel
+  id: register_account_panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.top: prev.bottom
+  height: 30
+  margin-top: 15
+
+  Panel
+    height: 30
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    layout:
+      type: horizontalBox
+      fit-children: true
+      spacing: 7
+
+    // Hyperlink labels
+    LoginLabel14
+      !text: tr("Don't have an account?")
+    LoginLabel14
+      text: Register
+      phantom: false
+      @onClick: |
+        if g_game.isRavenQuest() then
+          g_platform.openUrl("https://ravenquest.io/en/register")
+        else
+          g_platform.openUrl("https://ravendawn.online/en/register")
+        end
+      $hover:
+        color: white
+      $!hover:
+        color: #36f991
+
+RegionOptionsPanel < Panel
+  id: region_options_panel
+  height: 40
+  margin-top: 15
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.top: prev.bottom
+  layout:
+    type: horizontalBox
+    fit-children: true
+    spacing: 15
+
+TopPanel < Panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: parent.top
+  height: 80
+  &maxHeight: 80
+
+  UIWidget
+    id: settings_button
+    anchors.top: parent.top
+    anchors.right: parent.right
+    size: 40 40
+    margin-right: 20
+    margin-top: 20
+    image-source: /images/ui/windows/entergame/login/button_settings
+    $hover:
+      image-source: /images/ui/windows/entergame/login/button_settings_on
+    @onClick: EnterGame.openSettings()
+
+LogoPanel < Panel
+  id: logo
+  image-source: /images/ui/windows/entergame/login/logo
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.top: parent.top
+  margin-top: 75
+  size: 350 98
+  @onSetup: |
+    if g_game.isRavenQuest() then
+      self:setImageSource('/images/ui/windows/entergame/login/rq_logo')
+      self:setSize({width = 398, height = 177})
+      self:setMarginTop(self:getMarginTop() - (177 - 98))
+    end
+
+LoginInfoPanel < UIWidget
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.top: prev.bottom
+  height: 330
+
+  // Input boxes
+  InputPanel
+    id: panel_email
+    anchors.top: parent.top
+    margin-top: 30
+    &iconName: 'iconEmail'
+    &previewText: 'Username'
+    @onSetup: |
+      if g_game.isRavenQuest() then
+        self.previewText = 'E-mail'
+      end
+  InputPanel
+    id: panel_password
+    &toggleHidden: true
+    &iconName: 'iconPassword'
+    &previewText: 'Password'
+    max-length: 100
+    
+  // Labels
+  LoginCheckBoxPanel
+
+  // Two Factor panel
+  InputPanel
+    id: panel_2fa
+    margin-top: 25
+    &toggleHidden: true
+    &iconName: 'icon2fa'
+    &previewText: 'Two-factor Code (optional)'
+
+  LoginLabel12
+    id: two_factor_text
+    anchors.top: prev.bottom
+    anchors.left: prev.left
+    anchors.right: prev.right
+    !text: tr('If you have enabled Two-Factor Authentication on your account,\nplease provide your two-factor code.')
+    height: 60
+    margin-top: 20
+
+RegionPanel < Panel
+  id: region_panel
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-top: 15
+  height: 110
+  image-source: /images/ui/windows/entergame/login/server_location_background
+
+  LoginLabelBold16
+    margin-top: 20
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    text: Choose Your World:
+  RegionOptionsPanel
+  Label
+    id: region_loading_panel
+    height: 40
+    margin-top: 15
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: prev.top
+    text: Loading...
+
+LoginButtonPanel < Panel
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 120
+  LoginButton
+  RegisterAccountPanel
+
+BottomPanel < Panel
+  anchors.bottom: parent.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 60
+  LoginLabel12
+    text: @2024 TavernLight Games. All rights reserved.
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    height: 30
+    margin-bottom: 10
+
+LanguageSelectPanel < UIWidget
+  id: language_select_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  image-source: /images/ui/windows/entergame/login/language_selector/background_off
+  $on:
+    image-source: /images/ui/windows/entergame/login/language_selector/background_on
+  image-border: 10
+  height: 36
+  margin: 27
+  @onSetup: |
+    addEvent(function()
+      EnterGame.updateSelectedLanguage()
+    end)
+  @onVisibilityChange: |
+    EnterGame.updateSelectedLanguage()
+  @onClick: |
+    EnterGame.toggleLanguageSelect()
+
+  UIWidget
+    id: content
+    anchors.fill: parent
+    layout:
+      type: horizontalBox
+      fit-children: true
+    @onLayoutUpdate: |
+      local parent = self:getParent()
+      parent:setWidth(self:getWidth())
+    
+LanguageSelectButton < UIWidget
+  id: language_select_button
+  size: 48 36
+  image-size: 28 16
+  image-offset: 10 10
+  image-source: /images/ui/windows/entergame/login/language_selector/flag_en-GB
+
+// Main window
+LoginInterface < UIWindow
+  id: loginMainWindow
+  width: 500
+  height: 800
+  anchors.centerIn: parent
+  draggable: false
+  image-source: /images/ui/windows/entergame/login/bg
+  @onEnter: if self:isVisible() then EnterGame.doLogin() end
+
+  MainWindowEdgeTop
+  MainWindowEdgeBottom
+  
+  TopPanel
+  LogoPanel
+  LoginInfoPanel
+  RegionPanel
+  LoginButtonPanel
+  BottomPanel
+
+  LanguageSelectPanel

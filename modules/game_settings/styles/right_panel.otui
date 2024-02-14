@@ -1,0 +1,96 @@
+GameSettingsTrueFalseOption < UIWidget
+  height: 40
+  Label
+    id: description
+    text: description
+    font: poppins-14
+    text-color: #A6AAB2
+    width: 200
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    text-align: left
+    text-offset: 5 3
+  TrueFalseSelect
+    id: trueFalseSelect
+    anchors.verticalCenter: prev.verticalCenter
+    anchors.left: prev.right
+    @onClick: |
+      self.cursor:setOn(not self.cursor:isOn())
+      self:setOn(self.cursor:isOn())
+      local value = self:isOn()
+      local stateLabel = self:getParent().stateLabel
+      if value then
+        stateLabel:setTextColor('#36F991')
+        stateLabel:setText('On')
+      else
+        stateLabel:setTextColor('#7E828B')
+        stateLabel:setText('Off')
+      end
+  Label
+    id: stateLabel
+    text: Off
+    font: poppins-14
+    text-color: #A6AAB2
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    anchors.left: prev.right
+    anchors.right: parent.right
+    margin-left: 10
+    text-align: left
+    text-offset: 0 5
+
+GameSettingsComboBoxOption < UIWidget
+  height: 40
+  Label
+    id: description
+    text: description
+    font: poppins-14
+    text-color: #A6AAB2
+    width: 200
+    anchors.left: parent.left
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    text-align: left
+    text-offset: 5 3
+  ComboBox
+    id: comboBox
+    anchors.left: prev.right
+    font: poppins-14
+    width: 200
+
+GameSettingsButtonOption < UIWidget
+  height: 40
+  margin-top: 11
+  Button
+    id: button
+    height: 39
+    width: 160
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    &color: '#FFA851'
+    @onSetup: |
+      addEvent(function()
+        local textWidget = self:getChildById('text')
+        if textWidget then
+          textWidget:setFont("poppins-semibold-14")
+        end
+      end)
+
+GameSettingsRightPanel < ScrollablePanel
+  id: rightPanel
+  margin-left: 20
+  layout:
+    type: verticalBox
+    spacing: 10
+    
+GameSettingsRightPanelScrollBar < VerticalScrollBar
+  id: rightPanelScrollBar
+  anchors.right: parent.right
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  margin-top: 50
+  margin-bottom: 10
+  margin-right: 7
+  step: 48
+  pixels-scroll: true

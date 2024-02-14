@@ -1,0 +1,113 @@
+// Orcs
+creatures
+  // Orc Chieftain
+  1079
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 5 5
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 6050
+  6050
+    animate-from-start: true
+    creature-offset: 37 37
+
+  // Orc Cultist
+  1080
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 2 2
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5475
+  5475
+    animate-from-start: true
+    creature-offset: 66 66
+
+  // Common Orc
+  1081
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 2 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5472
+  5472
+    animate-from-start: true
+    creature-offset: 66 66
+
+  // Orc Witchdoctor - old
+  1082
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 4 4
+
+  // Orc Nightstar
+  1083
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5476
+  5476
+    animate-from-start: true
+    creature-offset: 40 40
+
+  // Orc Spellcaster - old
+  1084
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+  
+  // Orc Spellcaster
+  5249
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5248
+  5248
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Orc Witchdoctor
+  5251
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5250
+  5250
+    animate-from-start: true
+    creature-offset: 48 48

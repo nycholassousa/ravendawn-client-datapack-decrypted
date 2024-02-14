@@ -1,0 +1,7 @@
+Module
+  name: game_reputation
+  description: Reputation management interface for the game
+  sandboxed: true
+  scripts: [ reputation ]
+  @onLoad: GameReputation:init()
+  @onUnload: GameReputation:terminate()

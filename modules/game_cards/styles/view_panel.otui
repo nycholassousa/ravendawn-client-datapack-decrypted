@@ -1,0 +1,255 @@
+GameCardsViewPanel < UIWidget
+  id: view_panel
+  anchors.left: prev.right
+  anchors.right: parent.right
+  anchors.top: header_panel.bottom
+  margin-top: 10
+  anchors.bottom: parent.bottom
+  padding-left: 20
+  padding-right: 20
+  GameCardsViewPanelFiltersPanel
+  GameCardsViewPanelTypePanel
+  GameCardsViewPanelListLayout
+    anchors.top: type_panel.bottom
+    anchors.left: parent.left
+  GameCardsViewPanelGridLayout
+    anchors.top: type_panel.bottom
+    anchors.left: parent.left
+    visible: false
+  GameCardsViewPanelStatusLabel
+  GameCardsViewPanelPagination
+
+GameCardsViewPanelFiltersPanel < UIWidget
+  id: filters_panel
+  anchors.left: parent.left
+  anchors.top: parent.top
+  size: 589 45
+  text: No filters selected
+  on: true
+  $on:
+    text: Filters:
+  text-align: left
+  font: poppins-semibold-14
+  text-color: #a6aab2
+  layout:
+    type: horizontalBox
+    spacing: 10
+
+GameCardsViewPanelFiltersPanelEntry < UIWidget
+  id: filter_entry
+  height: 45
+  $first:
+    margin-left: 60
+  UIWidget
+    id: icon
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    size: 25 25
+    &update: |
+      function(self)
+        local textureWidth = self:getImageTextureWidth()
+        local textureHeight = self:getImageTextureHeight()
+        local width = self:getWidth()
+        local height = self:getHeight()
+
+        local scaleW = math.min(width, textureWidth) / math.max(width, textureWidth)
+        local scaleH = math.min(height, textureHeight) / math.max(height, textureHeight)
+        self:setImageSize({width = textureWidth * scaleW, height = textureHeight * scaleH})
+
+        -- center image
+        self:setImageOffset({x = (width - textureWidth * scaleW) / 2, y = (height - textureHeight * scaleH) / 2})
+      end
+  UIWidget
+    id: text
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: icon.right
+    font: poppins-semibold-14
+    text-color: #a6aab2
+    margin-left: 10
+    text-auto-resize: true
+  UIWidget
+    id: close_button
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: prev.right
+    margin-left: 10
+    image-source: /images/ui/windows/ravencards/collection/filter_close_button
+    size: 20 20
+    @onClick: |
+      local parent = self:getParent()
+      parent = parent:getParent()
+      local child = parent:getChildById(self:getParent():getId())
+      child:destroy()
+
+      -- if no more filters, disable the panel
+      if #parent:getChildren() == 0 then
+        parent:setOn(false)
+      end
+  @onSetup: self:update()
+  &update: |
+    function(self)
+      local width = 0
+      for _, child in ipairs(self:getChildren()) do
+        width = width + child:getWidth() + child:getMarginLeft()
+      end
+      self:setWidth(width)
+    end
+
+GameCardsViewPanelTypePanel < UIWidget
+  id: type_panel
+  anchors.right: parent.right
+  anchors.left: filters_panel.right
+  anchors.top: parent.top
+  height: 45
+  margin-right: -10
+  
+  UIWidget
+    id: list
+    anchors.right: next.left
+    anchors.left: parent.left
+    margin-left: 8
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/collection/list_icon
+    image-size: 27 20
+    text: List
+    text-offset: 20 0
+    font: poppins-semibold-15
+    text-color: #a6aab2
+    image-color: #a6aab2
+    on: true
+    $on:
+      text-color: #36f991
+      image-color: #36f991
+    @onClick: |
+      local parent = self:getParent()
+      local button = parent:getChildById("type_button")
+      if button:isOn() then
+        button:onClick()
+      end
+
+  TrueFalseSelect
+    id: type_button
+    anchors.centerIn: parent
+    checked: true
+    @onStateChange: |
+      local parent = self:getParent()
+      local list = parent:getChildById("list")
+      local grid = parent:getChildById("grid")
+
+      local state = self:isOn()
+      list:setOn(not state)
+      grid:setOn(state)
+      modules.game_cards.GameCards:changeCollectionDisplayType(state and "grid" or "list")
+
+  UIWidget
+    id: grid
+    anchors.left: prev.right
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/collection/grid_icon
+    text: Grid
+    text-offset: 20 0
+    margin-left: 15
+    image-size: 22 20
+    font: poppins-semibold-15
+    text-color: #a6aab2
+    image-color: #a6aab2
+    $on:
+      text-color: #36f991
+      image-color: #36f991
+    @onClick: |
+      local parent = self:getParent()
+      local button = parent:getChildById("type_button")
+      if not button:isOn() then
+        button:onClick()
+      end
+
+GameCardsViewPanelStatusLabel < UIWidget
+  id: status_label
+  text: Showing 1-9 of 9 cards
+  font: poppins-semibold-14
+  text-color: #a6aab2
+  anchors.left: parent.left
+  anchors.bottom: parent.bottom
+  text-auto-resize: true
+  margin-bottom: 10
+
+GameCardsViewPanelPagination < UIWidget
+  id: pagination_panel
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  size: 160 30
+  margin-bottom: 10
+
+  UITextEdit
+    id: page_edit
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 40 30
+    font: poppins-semibold-14
+    text-color: #a6aab2
+    text-align: center
+    text-offset: 0 0
+    image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_backgorund
+    @onTextChange: |
+      function(self, text)
+        -- only allow numbers in the edit
+        local newText = ""
+        for i = 1, #text do
+          local char = text:sub(i, i)
+          if char:match("%d") then
+            newText = newText .. char
+          end
+        end
+
+        if newText ~= text then
+          self:setText(newText)
+        end
+
+        -- update the page count
+        modules.game_cards.GameCards:changeCollectionPage(self:getText())
+      end
+
+  UIWidget
+    id: page_count
+    anchors.left: page_edit.right
+    anchors.verticalCenter: parent.verticalCenter
+    text: of 1
+    font: poppins-semibold-14
+    text-color: #a6aab2
+    text-align: center
+    size: 50 30
+  
+  UIWidget
+    id: prev_button
+    anchors.left: page_count.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_prev
+    size: 30 30
+    opacity: 1
+    $hover:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_prev_active
+      opacity: 0.8
+    $on:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_prev_active
+    $pressed:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_prev_active
+      opacity: 0.8
+    @onClick: modules.game_cards.GameCards:changeCollectionPage('previous')
+
+  UIWidget
+    id: next_button
+    anchors.left: prev_button.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_next
+    size: 30 30
+    margin-left: 10
+    opacity: 1
+    $hover:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_next_active
+      opacity: 0.8
+    $on:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_next_active
+    $pressed:
+      image-source: /images/ui/windows/ravencards/collection/view_panel_pagination_next_active
+      opacity: 0.8
+    @onClick: modules.game_cards.GameCards:changeCollectionPage('next')

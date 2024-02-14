@@ -1,0 +1,82 @@
+DemoScreen < UIWidget
+  visible: false
+  id: demoScreen
+  anchors.fill: parent
+//  image-source: /images/background.jpg
+  image-smooth: true
+  image-fixed-ratio: true
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  focusable: false
+//  image-source: /images/ui/windows/demo/background.mp4
+//  @onSetup: |
+//    self:setImagePlaying(true)
+//    self:setImageAnimationRepeated(true)
+
+  UIWidget
+    id: logo
+    size: 675 192
+    anchors.bottom: demo_version.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    image-source: /images/ui/windows/demo/logo
+    margin-bottom: 25
+  
+  UIWidget
+    id: demo_version
+    size: 225 51
+    anchors.bottom: playButton.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 75
+    image-source: /images/ui/windows/demo/demo_version
+  
+  UIWidget
+    id: playButton
+    size: 412 91
+    anchors.centerIn: parent
+    image-source: /images/ui/windows/demo/play_now_off
+    $hover:
+      image-source: /images/ui/windows/demo/play_now_on
+    @onClick: DemoScreen:doLogin()
+
+  UIWidget
+    id: brandPanel
+    size: 450 146
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    margin-bottom: 40
+  
+    UIWidget
+      id: lpe_logo
+      size: 161 146
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      image-source: /images/ui/windows/demo/lpe_logo
+
+    UIWidget
+      id: ravenquest_logo
+      size: 250 115
+      anchors.right: parent.right
+      anchors.verticalCenter: parent.verticalCenter
+      image-source: /images/ui/windows/demo/ravenquest_logo
+
+  UIWidget
+    id: settings
+    size: 85 85
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    margin-right: 50
+    margin-bottom: 50
+    image-source: /images/ui/windows/demo/options
+    $pressed:
+      opacity: 0.8
+    @onHoverChange: DemoScreen:onSettingsHoverChange(self, self:isHovered())
+    @onClick: DemoScreen:openSettings()
+
+  UIWidget
+    id: settingsPanel
+    anchors.fill: parent
+    phantom: true
+    visible: false
+    margin-top: 90

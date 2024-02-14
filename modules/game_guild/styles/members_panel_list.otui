@@ -1,0 +1,318 @@
+GameGuildMembersListPanel < ScrollablePanel
+  id: members_list
+  anchors.top: prev.bottom
+  anchors.left: parent.left
+  width: 725
+  anchors.bottom: parent.bottom
+  padding-left: 0
+  padding-right: 0
+  padding-bottom: 0
+  margin-bottom: 17
+  vertical-scrollbar: members_vertical_scroll_bar
+  layout:
+    type: verticalBox
+    spacing: 2
+  GameGuildMembersPanelListHeader
+
+GameGuildMembersListPanelVerticalScrollBar < VerticalScrollBar
+  id: members_vertical_scroll_bar
+  anchors.top: members_list.top
+  anchors.bottom: members_list.bottom
+  anchors.left: members_list.right
+  step: 24
+  pixels-scroll: true
+  margin-top: 42
+  margin-left: 3
+
+GameGuildMembersPanelListHeader < UIWidget
+  id: list_header
+  height: 40
+  image-source: /images/ui/windows/market/offer_list_header_background
+  image-border-left: 3
+  image-border-right: 3
+
+  layout:
+    type: horizontalBox
+
+  GameGuildMembersPanelListHeaderColumn
+  GameGuildMembersPanelListHeaderColumn
+  GameGuildMembersPanelListHeaderColumn
+  GameGuildMembersPanelListHeaderColumn
+  GameGuildMembersPanelListHeaderColumn
+
+GameGuildMembersPanelListHeaderColumn < UIWidget
+  id: column
+  height: 40
+  &columnSizes: |
+    {
+      [1] = 190,
+      [2] = 180,
+      [3] = 70,
+      [4] = 140,
+      [5] = 140,
+    }
+  &titles: |
+    {
+      [1] = "Name",
+      [2] = "Rank",
+      [3] = "Level",
+      [4] = "Archetypes",
+      [5] = "Last Login",
+    }
+  &sortButton: |
+    {
+      [1] = true,
+      [2] = true,
+      [5] = true,
+    }
+
+  @onClick: |
+    local sort_button = self.sort_button
+    local order = sort_button.asc:isOn() and 'desc' or 'asc'
+    modules.game_guild.GameGuild:setMembersPanelMembersSortOrder(order, self:getParent():getChildIndex(self))
+
+  UIWidget
+    id: title
+    text-auto-resize: true
+    text: Title
+    text-align: left
+    font: poppins-14
+    font-color: #CED2D9
+    anchors.centerIn: parent
+    phantom: true
+    $checked:
+      anchors.centerIn: none
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      margin-left: 20
+
+  UIWidget
+    id: sort_button
+    size: 9 40
+    anchors.left: title.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 10
+    visible: false
+    UIWidget
+      id: asc
+      image-source: /images/ui/windows/market/offer_list_header_sort_descending
+      anchors.bottom: base.top
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-bottom: 2
+      $on:
+        image-source: /images/ui/windows/market/offer_list_header_sort_descending_on
+      @onClick: |
+        local parent = self:getParent():getParent()
+        modules.game_guild.GameGuild:setMembersPanelMembersSortOrder('asc', parent:getParent():getChildIndex(parent))
+    UIWidget
+      id: base
+      image-source: /images/ui/windows/market/offer_list_header_sort_base
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.horizontalCenter: parent.horizontalCenter
+    UIWidget
+      id: desc
+      image-source: /images/ui/windows/market/offer_list_header_sort_ascending
+      anchors.top: base.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-top: 2
+      $on:
+        image-source: /images/ui/windows/market/offer_list_header_sort_ascending_on
+      @onClick: |
+        local parent = self:getParent():getParent()
+        modules.game_guild.GameGuild:setMembersPanelMembersSortOrder('desc', parent:getParent():getChildIndex(parent))
+
+  UIWidget
+    id: spacer_left
+    size: 1 40
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    background-color: #25272C
+  
+  UIWidget
+    id: spacer_right
+    size: 1 40
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    background-color: #25272C
+
+  @onSetup: |
+    local parent = self:getParent()
+    local index = parent:getChildIndex(self)
+    self:setWidth(self.columnSizes[index])
+    self.title:setText(self.titles[index])
+    if index == 1 then
+        self.spacer_left:hide()
+        self.title:setChecked(true)
+    elseif index == 5 then
+        self.spacer_right:hide()
+        self.title:setTextOffset({x = -15, y = 0})
+    elseif index == 2 then
+        self.title:setTextOffset({x = -15, y = 0})
+    end
+    self.sort_button:setVisible(self.sortButton[index])
+
+GameGuildMembersPanelListItemPanel < UIWidget
+  id: offer
+  height: 50
+  image-source: /images/ui/windows/market/offer_list_item_background
+  $alternate:
+    image-source: /images/ui/windows/market/offer_list_item_background_alternate
+  layout:
+    type: horizontalBox
+  
+  GameGuildMembersPanelListItemPanelColumn
+  GameGuildMembersPanelListItemPanelColumn
+  GameGuildMembersPanelListItemPanelColumn
+  GameGuildMembersPanelListItemPanelColumn
+  GameGuildMembersPanelListItemPanelColumn
+
+GameGuildMembersPanelListItemPanelColumn < UIWidget
+  id: column
+  &columnSizes: |
+    {
+      [1] = 190,
+      [2] = 180,
+      [3] = 70,
+      [4] = 140,
+      [5] = 140,
+    }
+  @onEnableChange: |
+    function (self, enabled)
+      for _, child in ipairs(self:getChildren()) do
+        child:setEnabled(enabled)
+      end
+    end
+
+  UIWidget
+    id: text
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: left
+    font: poppins-16
+    anchors.left: parent.left
+    anchors.right: parent.right
+    text-align: center
+    text-offset: 0 5
+    margin-left: 0
+    text-vertical-auto-resize: true
+    phantom: true
+    $on:
+      text-offset: 70 5
+      text-align: left
+    $checked:
+      text-align: left
+      margin-left: 20
+      text-offset: 0 5
+    $disabled:
+      text-color: gray
+  
+  UIWidget
+    id: icon
+    size: 40 40
+    anchors.centerIn: parent
+    visible: false
+    font: poppins-20
+    text-offset: 0 5
+    phantom: true
+    image-color: white
+    $disabled:
+      image-color: gray
+    $on:
+      size: 30 30
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+    @onStateChange: |
+      if self:isOn() then
+        self:update()
+      end
+    &update: |
+      function(self)
+        addEvent(function()
+          -- center icon and text by margin
+          local parent = self:getParent()
+          local width = self:getWidth() + (parent.text:getTextSize().width) + 20
+          local margin = (parent:getWidth() - width) / 2
+          self:setMarginLeft(margin)
+        end)
+      end
+
+  GameGuildMembersPanelListItemRank
+    visible: false
+
+  GameGuildMembersPanelListItemArchetypes
+    visible: true
+
+  @onSetup: |
+    local parent = self:getParent()
+    local index = parent:getChildIndex(self)
+    self:setWidth(self.columnSizes[index])
+
+    if index == 1 then
+      self.text:setChecked(true)
+    elseif index == 2 then
+      self.rank:setVisible(true)
+    end
+  @onClick: |
+    local parent = self:getParent()
+    parent:onClick()
+
+GameGuildMembersPanelListItemRank < UIComboBox
+  id: rank
+  anchors.centerIn: parent
+  image-source: /images/ui/windows/guild/rank_background
+  image-border: 10
+  size: 150 30
+  text-align: left
+  text-offset: 35 4
+  icon-align: left
+  icon-size: 20 20
+  icon-offset: 10 5
+
+  UIWidget
+    id: toggle_icon
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 20 20
+    image-source: /images/ui/windows/guild/button_toggle
+    margin-right: 10
+    phantom: true
+
+GameGuildMembersPanelListItemRankPopupMenuButton < UIWidget
+  height: 45
+  text-align: left
+  text-offset: 50 0
+  background-color: alpha
+  margin: 1
+  font: poppins-semibold-13
+  text-color: #ced2d9
+  icon-align: left
+  icon-offset: 9 0
+
+  $disabled:
+    text-color: #ced2d988
+
+  $hover:
+    text-color: #36f991
+
+  UIWidget
+    id: separator
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 1
+    background-color: #25272C
+    anchors.bottom: parent.bottom
+
+GameGuildMembersPanelListItemRankPopupMenu < UIPopupMenu
+  image-source: /images/ui/dropdown/bg_dropdown
+  image-border: 3
+
+GameGuildMembersPanelListItemArchetypes < UIWidget
+  id: archetypes
+  size: 0 28
+  anchors.centerIn: parent
+  layout:
+    type: horizontalBox
+    spacing: 3
+    fit-children: true
+
+GameGuildMembersPanelListItemArchetypesItem < UIWidget
+  size: 28 28

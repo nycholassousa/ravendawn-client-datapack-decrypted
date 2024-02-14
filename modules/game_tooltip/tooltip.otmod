@@ -1,0 +1,11 @@
+Module
+  name: game_tooltip
+  description: Game Tooltip
+  author: Archlight Team
+  website: www.archlightonline.com
+  sandboxed: false
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ tooltip ]
+  @onLoad: g_gameTooltip.init()
+  @onUnload: g_gameTooltip.terminate()

@@ -1,0 +1,177 @@
+// Warhogs
+creatures
+  // Hoglet
+  2192
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 2 2
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3529
+  3529
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 18 17
+    name-displacement: 0 0
+    phase-durations:
+      0: 500
+      1: 120
+      2: 130
+      3: 130
+      4: 60
+      5: 80
+      6: 80
+      7: 80
+    
+  // Warhog
+  2193
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 8
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 8
+    creature-offset: 4 4
+    step-sound-type: 3
+
+  // Battlehog
+  2194
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 8
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 8
+    creature-offset: 11 11
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3491
+  3491
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 8
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 8
+    animate-from-start: true
+    creature-offset: 36 36
+    name-displacement: 0 0
+    phase-durations:
+      0: 130
+      1: 130
+      2: 130
+      3: 60
+      4: 50
+      5: 50
+      6: 80
+      7: 80
+
+  // Hog Saboteur
+  2195
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5541
+  5541
+    animate-from-start: true
+    creature-offset: 36 36
+
+  // Spearhog
+  2196
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 14 14
+    step-sound-type: 3
+
+  // Hog Hero
+  2197
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 8
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 8
+    creature-offset: 14 14
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3530
+  3530
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 8
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 8
+    animate-from-start: true
+    creature-offset: 36 36
+    name-displacement: 0 0
+    phase-durations:
+      0: 500
+      1: 120
+      2: 130
+      3: 130
+      4: 60
+      5: 80
+      6: 80
+      7: 80
+
+  // Hog Warlord
+  2198
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 15 15
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3531
+  3531
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 36 36
+    name-displacement: 0 0
+    phase-durations:
+      0: 500
+      1: 120
+      2: 130
+      3: 130
+      4: 60
+      5: 80
+      6: 80
+      7: 80
+
+  // Hog Cultist
+  2199
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 15 15
+    step-sound-type: 3
+    main-body: true
+    impact-time: 900
+    attack-animation-type: 0
+    attack-animation:
+      0: 5555
+  5555
+    animate-from-start: true
+    creature-offset: 15 15

@@ -1,0 +1,340 @@
+// Ghosts
+creatures
+  // Chainwraith Creep
+  2791
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  // Chainwraith Creep
+  2792
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  // Chainwraith Creep
+  2793
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  // Chainwraith Creep
+  2795
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  // Chainwraith Creep
+  2797
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Haunt
+  2422
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Haunt
+  2423
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Haunt
+  2424
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Haunt
+  2425
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Haunt
+  2426
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Prowler
+  2789
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Prowler
+  2790
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Prowler
+  2794
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Prowler
+  2796
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Reaper
+  2417
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Reaper
+  2418
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Reaper
+  2419
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Reaper
+  2420
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //Chainwraith Reaper
+  2421
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+
+  //New Chainwraith Creep
+  3089
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+    name-displacement: 0 0
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3636
+  3636
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 8 8
+    name-displacement: 0 0
+
+  //Chainwraith Haunt
+  3090
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3637
+  3637
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 8 8
+    name-displacement: 0 0
+
+  //New Chainwraith Prowler
+  3091
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 20 20
+    name-displacement: 57 68
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3638
+  3638
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 20 20
+    name-displacement: 0 0
+
+  //New Chainwraith Reaper
+  3092
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 8 8
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3639
+  3639
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 20 20
+    name-displacement: 0 0
+
+  //Chainwraith Prowler Second Outfit
+  3093
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 20 20
+    name-displacement: 57 68
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3635
+  3635
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 20 20
+    name-displacement: 0 0
+
+  //Banshee - old
+  3085
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 10 10
+
+  //Ronan's Wraith
+  4140
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+      8: 150
+    enemy-circle-size: 48 48
+    friend-circle-size: 48 48
+    main-body: true
+    impact-time: 450
+    attack-animation-type: 0
+    attack-animation:
+      0: 4137
+  4137
+    enemy-circle-size: 48 48
+    friend-circle-size: 48 48
+    animate-from-start: true
+    creature-offset: 10 10
+  4139
+    enemy-circle-size: 48 48
+    friend-circle-size: 48 48
+    main-body: true
+    impact-time: 450
+    attack-animation-type: 0
+    attack-animation:
+      0: 4136
+  4136
+    enemy-circle-size: 48 48
+    friend-circle-size: 48 48
+    animate-from-start: true
+    creature-offset: 10 10
+
+  //Banshee
+  5842
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 2 2
+    friend-circle-size: 40 40
+    friend-circle-offset: 2 2
+    creature-offset: 8 8
+    attack-animation:
+      0: 5841
+  5841
+    animate-from-start: true
+    creature-offset: 8 8
+
+  // Black Chainwraith Reaper
+  5414
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5413
+    phase-durations:
+      0: 300
+      1: 300
+      2: 300
+      3: 300
+  5413
+    animate-from-start: true
+    creature-offset: 11 11

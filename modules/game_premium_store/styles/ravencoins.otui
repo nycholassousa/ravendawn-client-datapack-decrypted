@@ -1,0 +1,139 @@
+GamePremiumStoreRavencoinsItemWidget < UIWidget
+  width: 380
+  height: 483
+  $!first:
+    margin-left: -20
+
+  UIWidget
+    id: box
+    anchors.centerIn: parent
+    image-source: /images/ui/windows/premium_store/ravencoins_item_box_off
+    size: 380 330
+
+    UIWidget
+      id: bow
+      anchors.top: parent.top
+      anchors.left: parent.left
+      margin-left: 23
+      margin-top: 30
+      image-source: /images/ui/windows/premium_store/bow
+      visible: false
+      UIWidget
+        id: text
+        anchors.left: parent.left
+        anchors.top: parent.top
+        text-align: left
+        size: 200 30
+        rotation: -36
+        font: poppins-semibold-15
+        margin-top: 24
+        margin-left: 0
+
+    UIWidget
+      id: amount
+      anchors.centerIn: parent
+      size: 0 39
+      margin-bottom: 40
+      layout:
+        type: horizontalBox
+        spacing: 14
+        fit-children: true
+      
+      UIWidget
+        id: icon
+        image-source: /images/ui/windows/premium_store/icon_ravencoin_box
+        size: 39 39
+
+      UIWidget
+        id: text
+        text-auto-resize: true
+        font: poppins-semibold-30
+        text: 1,000
+        text-offset: 0 3
+
+    UIWidget
+      id: subtitle
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.top: amount.bottom
+      text-auto-resize: true
+      margin-top: 15
+      text: RavenCoins
+      font: poppins-20
+      text-color: #CED2D9
+
+    YellowButton
+      id: purchase_button
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.bottom: parent.bottom
+      margin-bottom: 70
+      font: poppins-semibold-18
+
+  UIWidget
+    id: bonus_panel
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: box.bottom
+    margin-top: -33
+    size: 0 50
+    layout:
+      type: horizontalBox
+      spacing: 14
+      fit-children: true
+    
+    GamePremiumStoreBonusWidget
+    GamePremiumStoreBonusWidget
+
+  UIWidget
+    id: icon
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    margin-top: 23
+
+GamePremiumStoreBonusWidget < UIWidget
+  visible: false
+  image-source: /images/ui/windows/premium_store/bonus_background_orange
+  $alternate:
+    image-source: /images/ui/windows/premium_store/bonus_background_green
+  
+  image-border-left: 30
+  image-border-right: 30
+  image-border-top: 10
+  image-border-bottom: 10
+  text-auto-resize: true
+  padding-left: 25
+  padding-right: 25
+  font: poppins-18
+  text-offset: 0 3
+
+  UIWidget
+    id: icon
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 19 19
+    phantom: true
+    margin-top: -2
+    @onVisibilityChange: |
+      function(self, visible)
+        local parent = self:getParent()
+        parent:setTextOffset({x = visible and (self:getWidth() + 5) or 0, y = parent:getTextOffset().y})
+      end
+
+GamePremiumStoreRavencoinsMarketButton < SuccessButton
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.bottom: parent.bottom
+  margin-bottom: 192
+  &resizeText: true
+  &minWidth: 80
+  visible: false
+  text: Get RavenCoins with Silver
+  &setup: |
+    function(self)
+      self:onStyleApply('GamePremiumStoreRavencoinsMarketButton', {
+          ['&iconPath'] = '/images/ui/icons/silver_30',
+          ['&iconAlign'] = 'left',
+          ['&iconOffset'] = '20 0',
+          ['&textMarginLeft'] = '40',
+          ['&iconColor'] = 'white',
+      })
+    end
+  @onClick: |
+    modules.game_market.GameMarket:show(true)

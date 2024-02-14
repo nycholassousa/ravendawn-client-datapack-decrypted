@@ -1,0 +1,111 @@
+// Trolls
+creatures
+  // Troll
+  1170
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    creature-offset: 32 32
+    step-sound-type: 4
+    attack-animation-type: 0
+    attack-animation:
+      0: 3874
+
+  // Troll Knight
+  1171
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    creature-offset: 32 32
+    name-displacement: 76 94
+    step-sound-type: 4
+    attack-animation-type: 0
+    attack-animation:
+      0: 3877
+
+  // Troll Warlock
+  1172
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    creature-offset: 32 32
+    step-sound-type: 4
+    attack-animation-type: 0
+    attack-animation:
+      0: 3878
+
+  // Troll Brawler
+  1173
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    creature-offset: 32 32
+    step-sound-type: 4
+    attack-animation-type: 0
+    attack-animation:
+      0: 3876
+
+  // Troll Titan
+  1174
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    step-sound-type: 4
+    attack-animation-type: 0
+    attack-animation:
+      0: 3873
+
+  // Troll Champion
+  1175
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    creature-offset: 32 32
+    step-sound-type: 4
+    attack-animation-type: 0
+    attack-animation:
+      0: 3875
+
+  // The Mountain King
+  3114
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    step-sound-type: 4
+    attack-animation-type: 0
+    attack-animation:
+      0: 5288
+
+
+// attack animations
+  3873;3874;3875;3876;3877;3878;5288
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+
+  3877
+    creature-offset: 64 64
+  

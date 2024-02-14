@@ -1,0 +1,9 @@
+Module
+  name: game_mapview
+  description: The map view system is responsible for changing some settings on the interface, such as applying shaders to de map view or minimap;
+  author: archlight
+  website: https://archlightonline.com
+  sandboxed: true
+  scripts: [ mapview ]
+  @onLoad: init()
+  @onUnload: terminate()

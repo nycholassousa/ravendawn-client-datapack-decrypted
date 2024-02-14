@@ -1,0 +1,160 @@
+GameCardsViewPanelGridLayout < UIWidget
+  id: grid_layout
+  size: 810 508
+  anchors.top: parent.top
+  anchors.left: parent.left
+  layout:
+    type: grid
+    cell-spacing: 14 14
+    num-cols: 4
+    num-rows: 4
+    cell-size: 190 250
+    flow: true
+
+GameCardsViewPanelGridLayoutEntry < UIWidget
+  size: 190 250
+  image-source: /images/ui/windows/ravencards/collection/grid_layout_card_background
+  image-border: 5
+
+  UIWidget
+    id: card_content
+    phantom: true
+    size: 118 166
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 16
+    margin-top: 22
+    margin-bottom: 22
+
+    Ravencard
+      id: card
+      size: 118 166
+      anchors.centerIn: parent
+      phantom: true
+
+  UIWidget
+    id: info_holder
+    width: 30
+    margin-left: 11
+    anchors.left: card_content.right
+    anchors.verticalCenter: card_content.verticalCenter
+    layout:
+      type: verticalBox
+      spacing: 10
+      fit-children: true
+
+    UIWidget
+      id: upgrade_button
+      image-source: /images/ui/windows/ravencards/upgrade/upgrade_button
+      image-auto-resize: true
+      opacity: 1
+      $hover:
+        image-source: /images/ui/windows/ravencards/upgrade/upgrade_button
+        opacity: 0.8
+      $pressed:
+        image-source: /images/ui/windows/ravencards/upgrade/upgrade_button
+        opacity: 0.8
+      @onClick: |
+        GameCards:showUpgradeWindow(self:getParent():getParent().cardData)
+      @onSetup: |
+        if g_game.isRavenQuest() then
+          self:setVisible(false)
+        end
+
+    UIWidget
+      id: archetype_info
+      phantom: true
+      size: 30 60
+      image-source: /images/ui/windows/ravencards/collection/grid_layout_archetype_info_background
+      image-border: 5
+      image-size: 30 60
+      
+      UIWidget
+        id: archetype
+        size: 20 20
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        image-source: /images/ui/icons/archetypes/20x20/warfare
+        margin-top: 4
+        phantom: true
+      
+      UIWidget
+        id: skill
+        size: 20 20
+        anchors.bottom: parent.bottom
+        anchors.horizontalCenter: parent.horizontalCenter
+        image-source: /images/ui/icons/abilitybar/shieldbreak
+        margin-bottom: 5
+        phantom: true
+
+    UIWidget
+      id: count_info
+      phantom: true
+      size: 30 25
+      image-source: /images/ui/windows/ravencards/collection/grid_layout_archetype_info_background
+      image-border: 5
+      text: x0
+      text-offset: 0 2
+      font: poppins-semibold-13
+      text-color: #a6aab2
+  
+  UIWidget
+    id: rarity_info
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    image-source: /images/ui/windows/ravencards/collection/grid_layout_rarity_info_background
+    height: 40
+
+    UIWidget
+      id: list
+      anchors.fill: parent
+      layout:
+        type: horizontalBox
+        spacing: 5
+    
+      @onSetup: |
+        for i = CARD_RARITY_START, CARD_RARITY_END do
+          local widget = g_ui.createWidget('GameCardsCollectionGridLayoutRarityIcon', self)
+          widget:setId(i)
+          widget.icon:update()
+        end
+
+GameCardsCollectionGridLayoutRarityIcon < UIWidget
+  size: 20 40
+  image-source: /images/ui/windows/ravencards/collection/filter_rarity_highlight
+  image-size: 20 10
+  image-offset: 0 30
+  opacity: 0.5
+  $on:
+    opacity: 1
+  $hover:
+    opacity: 0.75
+  $hover on:
+    opacity: 1
+  $!on:
+    image-source: 
+  $first:
+    margin-left: 10
+  UIWidget
+    id: icon
+    size: 18 26
+    phantom: true
+    anchors.centerIn: parent
+    $disabled:
+      image-source: /images/ui/ravencards/gem_disabled
+    &update: |
+      function(self)
+        self:setImageSource('/images/ui/ravencards/gem_' .. self:getParent():getId())
+      end
+  @onClick: |
+    local parent = self:getParent()
+    -- only 1 rarity can be selected
+    for i = CARD_RARITY_START, CARD_RARITY_END do
+      local widget = parent:getChildById(i)
+      if widget ~= self then
+        widget:setOn(false)
+      end
+    end
+    self:setOn(true)
+    self.updateCard()

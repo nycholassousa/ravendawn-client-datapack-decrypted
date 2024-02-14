@@ -1,0 +1,67 @@
+GameGuildOverviewPanelPostAnnouncementWindow < MainWindow
+  id: post_announcement_window
+  size: 400 365
+  &title: 'Post Announcement'
+  visible: false
+  anchors.centerIn: parent
+  draggable: false
+
+  MainWindowContent
+    padding: 0
+    padding-top: 15
+    layout:
+      type: verticalBox
+
+    GameGuildOverviewPanelPostAnnouncementWindowTitle
+      text: Announcement Title
+    GameGuildOverviewPanelPostAnnouncementWindowTextInput
+      preview: Enter announcement title
+      id: title_input
+      max-length: 25
+      padding-top: 10
+    GameGuildOverviewPanelPostAnnouncementWindowTitle
+      text: Announcement Message
+      margin-top: 5
+    GameGuildOverviewPanelPostAnnouncementWindowTextInput
+      preview: Enter announcement message
+      id: message_input
+      size: 400 120
+      max-length: 255
+      text-wrap: true
+      multiline: true
+    UIWidget
+      id: spacer
+      background-color: #3A3D43
+      height: 1
+      margin-top: 10
+
+    UIWidget
+      id: button_panel
+      height: 80
+      background-color: #3A3D4325
+      PrimaryButton
+        id: post_button
+        text: Post Announcement
+        &resizeText: true
+        anchors.centerIn: parent
+        @onClick: |
+          local parent = self:getParent():getParent()
+          modules.game_guild.GameGuild:postAnnouncement(parent.title_input:getText(), parent.message_input:getText())
+
+GameGuildOverviewPanelPostAnnouncementWindowTitle < UIWidget
+  text-auto-resize: true
+  text-color: #CED2D9
+  font: poppins-14
+  text-align: left
+  margin-left: 20
+  margin-right: 20
+
+GameGuildOverviewPanelPostAnnouncementWindowTextInput < UITextEdit
+  image-source: /images/ui/windows/guild/text_input_background
+  image-border: 10
+  font: poppins-14
+  text-color: #CED2D9
+  margin-left: 20
+  margin-right: 20
+  padding: 5
+  selection-color: #3A3D43

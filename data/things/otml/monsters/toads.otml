@@ -1,0 +1,152 @@
+// Toads
+creatures
+  // Toad
+  1122
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    attack-animation:
+      0: 3926
+
+  3926
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 0
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    creature-offset: 12 12
+    animate-from-start: true
+
+  // Toad 2
+  1121
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+
+  // Toad Assassin
+  1123
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3718
+  3718
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 37 37
+    name-displacement: 0 0
+
+  // Toad Sentinel
+  1124
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 1 1
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3625
+  3625
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 33 33
+    name-displacement: 0 0
+
+  // Toad Executioner
+  1125
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 13 13
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3648
+  3648
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+
+  // Toad Enforcer
+  1126
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 18 18
+    main-body: true
+    step-sound-type: 4
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3719
+  3719
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 18 18
+    name-displacement: 0 0
+
+  // Toad Praetorian
+  1127
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 5 5
+
+  // Toad Farseer
+  1128;3962
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+  1128
+    creature-offset: 6 6
+    step-sound-type: 4
+    attack-animation:
+      0: 3962
+  3962
+    animate-from-start: true
+    creature-offset: 20 20
+    name-displacement: 74 92
+
+  // Boro'gorom
+  3439
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 6 6
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5868
+  5868
+    animate-from-start: true
+    creature-offset: 20 20

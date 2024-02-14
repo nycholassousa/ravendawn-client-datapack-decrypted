@@ -1,0 +1,4962 @@
+creatures
+  135
+    name-displacement: 28 40
+  136
+    name-displacement: 28 72
+
+  619
+    footdelay: 50
+
+  2191
+    main-color: #fef3c0
+
+// archery male 
+  2278
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    name-displacement: 40 51
+    main-body: true
+    impact-time: 100
+    attack-animation-type: 1
+    attack-animation-spell-ids: 10;9;2;8;3
+    attack-animation:
+      0: 3240
+      1: 3239
+    channeling-animation:
+      init: 4036
+      loop: 4036
+      release: 4038
+      attack-release: 4038
+      instant-release: 4195
+      attack-instant-release: 4195
+// quiver has to be added to all head addons so it's drawn above it correctly
+      additional-draw-things:
+        4042: 4039
+        4873: 4039
+        4874: 4039
+        4875: 4039
+        4876: 4039
+        4043: 4037
+        4855: 4192
+        4856: 4192
+        4857: 4192
+        4858: 4192
+        4193: 4192
+        4864: 4037
+        4865: 4037
+        4866: 4037
+        4867: 4037
+
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -4 -11
+        1: -7 -11
+        2: -4 -11
+        3: -7 -11
+
+// protection male
+  2290
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3283
+    channeling-animation:
+      init: 4027
+      loop: 4027
+      release: 4023
+      attack-release: 4023
+      instant-release: 4023
+      attack-instant-release: 4023
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -9 -9
+        1: -10 -11
+        2: -9 -11
+        3: -6 -13
+
+      additional-draw-things:
+        4025: 4026
+        4022: 4024
+        4909: 4905
+        4901: 4897
+        4910: 4906
+        4902: 4898
+        4911: 4907
+        4903: 4899
+        4912: 4908
+        4904: 4900
+        5032: 5031
+        5030: 5029
+        5034: 5033
+        5949: 5954
+        5950: 5955
+
+// protection female
+  2608
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3380
+    channeling-animation:
+      init: 4148
+      loop: 4148
+      release: 4147
+      attack-release: 4147
+      instant-release: 4149
+      attack-instant-release: 4149
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -9 -9
+        1: -10 -11
+        2: -9 -11
+        3: -6 -13
+      additional-draw-things:
+        4892: 4887
+        4882: 4877
+        4893: 4888
+        4883: 4878
+        4894: 4889
+        4884: 4879
+        4895: 4890
+        4885: 4880
+        4896: 4891
+        4886: 4881
+        5044: 5043
+        5042: 5041
+        5046: 5045
+        5939: 5944
+        5941: 5946
+
+// warfare male
+  2267
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 3 3
+    name-displacement: 37 45
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3223
+    channeling-animation:
+      init: 4054
+      loop: 4048
+      release: 4045
+      attack-release: 4045
+      instant-release: 4051
+      attack-instant-release: 4051
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -3 -3
+        1: 0 -9
+        2: -3 -3
+        3: 0 -9
+
+// warfare female
+  2760
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 1 1
+    name-displacement: 34 42
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3730
+    channeling-animation:
+      init: 4183
+      loop: 4177
+      release: 4172
+      attack-release: 4172
+      instant-release: 4180
+      attack-instant-release: 4180
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -3 -3
+        1: 0 -9
+        2: -3 -3
+        3: 0 -9
+
+// witchcraft female
+  2312
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    main-body: true
+    impact-time: 450
+    attack-animation-type: 1
+    attack-animation:
+      0: 3809
+      1: 3811
+    channeling-animation:
+      init: 4220
+      loop: 4221
+      release: 4219
+      instant-release: 4219
+      attack-release: 4217
+      attack-instant-release: 4217
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -8 -8
+        1: -3 -10
+        2: -6 -10
+        3: -4 -12
+
+// witchcraft male
+  2714
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    main-body: true
+    impact-time: 450
+    attack-animation-type: 1
+    attack-animation:
+      0: 3769
+      1: 3771
+    channeling-animation:
+      init: 4004
+      loop: 3998
+      release: 3995
+      instant-release: 3995
+      attack-release: 3992
+      attack-instant-release: 3992
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -8 -8
+        1: -3 -10
+        2: -6 -10
+        3: -4 -12
+
+// shadow male
+  2325
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3395
+    addon-draw-order:
+      2334: 5
+    channeling-animation:
+      init: 3990
+      loop: 3987
+      release: 3984
+      instant-release: 3984
+      attack-release: 3984
+      attack-instant-release: 3984
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -9 -9
+        1: -9 -11
+        2: -9 -11
+        3: -8 -12
+      additional-draw-things:
+        4265: 4268
+        4266: 4269
+        4267: 4270
+        4274: 4271
+        4275: 4272
+        4276: 4273
+
+// shadow female
+  2666
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    name-displacement: 40 49
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3544
+    addon-draw-order:
+      2672: 5
+    channeling-animation:
+      init: 4210
+      loop: 4209
+      release: 4208
+      instant-release: 4208
+      attack-release: 4208
+      attack-instant-release: 4208
+      additional-draw-things:
+        4304: 4301
+        4305: 4302
+        4306: 4303
+        4307: 4310
+        4308: 4311
+        4309: 4312
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -9 -9
+        1: -9 -11
+        2: -9 -11
+        3: -8 -12
+
+// wizardry male
+  2338
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 1
+    attack-animation:
+      0: 3256
+      1: 3255
+    channeling-animation:
+      init: 3901
+      loop: 3901
+      release: 3900
+      instant-release: 3904
+      attack-release: 3902
+      attack-instant-release: 3903
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -7 -8
+        1: -7 -10
+        2: -7 -8
+        3: -7 -10
+
+// wizardry female
+  2688
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    main-body: true
+    impact-time: 450
+    attack-animation-type: 1
+    attack-animation:
+      0: 3490
+      1: 3493
+    channeling-animation:
+      init: 4119
+      loop: 4119
+      release: 4117
+      instant-release: 4118
+      attack-release: 4115
+      attack-instant-release: 4116
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -4 -7
+        1: -2 -7
+        2: -4 -7
+        3: -2 -7
+
+// spiritual female
+  2301
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 10 10
+    name-displacement: 42 52
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3391
+    channeling-animation:
+      init: 4030
+      loop: 4030
+      release: 4032
+      instant-release: 4032
+      attack-release: 4032
+      attack-instant-release: 4032
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -6 -10
+        1: -6 -13
+        2: -10 -10
+        3: -6 -13
+
+// holy female
+  2351
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 1
+    attack-animation:
+      0: 3418
+    channeling-animation:
+      init: 4157
+      loop: 4157
+      release: 4156
+      attack-release: 4256
+      instant-release: 4263
+      attack-instant-release: 4257
+      additional-draw-things:
+        4158: 4160;4161
+        4250: 4252;4253
+        4261: 4260;4262
+        4251: 4254;4255
+        4159: 4162
+        5636: 5641
+        5631: 4552;4553
+        5626: 4542;4543
+        5616: 5671;5672
+        5621: 5681;5682
+        5637: 5642
+        5632: 4554;4555
+        5627: 4544;4545
+        5617: 5673;5674
+        5622: 5683;5684
+        5638: 5643
+        5633: 4556;4557
+        5628: 4546;4547
+        5618: 5675;5676
+        5623: 5686;5686
+        5639: 5644
+        5634: 4558;4559
+        5629: 4548;4549
+        5619: 5677;5678
+        5624: 5687;5688
+        5640: 5645
+        5635: 4560;4561
+        5630: 4550;4551
+        5620: 5679;5680
+        5625: 5689;5690
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -32 -32
+        1: -28 -36
+        2: -32 -32
+        3: -28 -36
+
+// holy male
+  2734
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 8 8
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 1
+    attack-animation:
+      0: 3667
+    channeling-animation:
+      init: 4206
+      loop: 4206
+      release: 4258
+      attack-release: 4258
+      instant-release: 4258
+      attack-instant-release: 4258
+      additional-draw-things:
+        4159: 4162
+        4158: 4160;4161
+        4251: 4254;4255
+        5636: 5641
+        5631: 4552;4553
+        5626: 4542;4543
+        5616: 5671;5672
+        5621: 5681;5682
+        5632: 4554;4555
+        5637: 5642
+        5627: 4544;4545
+        5617: 5673;5674
+        5622: 5683;5684
+        5638: 5643
+        5633: 4556;4557
+        5628: 4546;4547
+        5618: 5675;5676
+        5623: 5686;5686
+        5639: 5644
+        5634: 4558;4559
+        5629: 4548;4549
+        5619: 5677;5678
+        5624: 5687;5688
+        5640: 5645
+        5635: 4560;4561
+        5630: 4550;4551
+        5620: 5679;5680
+        5625: 5689;5690
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -8 -8
+        1: -4 -8
+        2: -8 -8
+        3: -4 -8
+
+// spiritual male
+  2817
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 10 10
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3705
+    channeling-animation:
+      init: 4201
+      loop: 4201
+      release: 4198
+      instant-release: 4198
+      attack-release: 4198
+      attack-instant-release: 4198
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -6 -10
+        1: -6 -13
+        2: -10 -10
+        3: -6 -13
+
+// two handed male
+  5602
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation-type: 0
+    attack-animation:
+      0: 5589
+    channeling-animation:
+      init: 5596
+      loop: 5596
+      release: 5593
+      instant-release: 5593
+      attack-release: 5593
+      attack-instant-release: 5593
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -32 -32
+        1: -30 -35
+        2: -32 -33
+        3: -28 -35
+  // mount
+  5599
+    direction-draw-order: 1 1 1 1
+
+// archery female
+  2572
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+    name-displacement: 40 51
+    main-body: true
+    impact-time: 100
+    attack-animation-type: 1
+    attack-animation-spell-ids: 10;9;2;8;3
+    attack-animation:
+      0: 3503
+      1: 3504
+    channeling-animation:
+      init: 4188
+      loop: 4188
+      release: 4187
+      attack-release: 4187
+      instant-release: 4189
+      attack-instant-release: 4189
+// quiver has to be added to all head addons so it's drawn above it correctly
+      additional-draw-things:
+        4184: 4190
+        4828: 4190
+        4829: 4190
+        4830: 4190
+        4831: 4190
+        4185: 4191
+        4837: 4191
+        4838: 4191
+        4839: 4191
+        4840: 4191
+        4186: 4192
+        4846: 4192
+        4847: 4192
+        4848: 4192
+        4849: 4192
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -4 -11
+        1: -7 -11
+        2: -4 -11
+        3: -7 -11
+
+// pirate buccanner male
+  2872
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 12 12
+
+// pirate buccanner female
+  2966
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 9 9
+
+  // Warfare male
+  // heads
+  2268
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3376
+    channeling-animation:
+      init: 4055
+      loop: 4047
+      release: 4046
+      attack-release: 4046
+      instant-release: 4052
+      attack-instant-release: 4052
+  2269
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3224
+    channeling-animation:
+      init: 4973
+      loop: 4965
+      release: 4957
+      attack-release: 4957
+      instant-release: 4981
+      attack-instant-release: 4981
+  2270
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3377
+    channeling-animation:
+      init: 4974
+      loop: 4966
+      release: 4958
+      attack-release: 4958
+      instant-release: 4982
+      attack-instant-release: 4982
+  2271
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3378
+    channeling-animation:
+      init: 4975
+      loop: 4967
+      release: 4959
+      attack-release: 4959
+      instant-release: 4983
+      attack-instant-release: 4983
+  2272
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3379
+    channeling-animation:
+      init: 4976
+      loop: 4968
+      release: 4960
+      attack-release: 4960
+      instant-release: 4984
+      attack-instant-release: 4984
+  5927
+    creature-offset: 29 29
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5921
+    channeling-animation:
+      init: 5926
+      loop: 5923
+      release: 5922
+      attack-release: 5922
+      instant-release: 5924
+      attack-instant-release: 5924
+  // weapons
+  2273
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3366
+      1: 3367
+    channeling-animation:
+      init: 4053
+      loop: 4049
+      release: 4044
+      attack-release: 4044
+      instant-release: 4050
+      attack-instant-release: 4050
+  2274
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3368
+      1: 3369
+    channeling-animation:
+      init: 4969
+      loop: 4961
+      release: 4953
+      attack-release: 4953
+      instant-release: 4977
+      attack-instant-release: 4977
+  2275
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3370
+      1: 3371
+    channeling-animation:
+      init: 4970
+      loop: 4962
+      release: 4954
+      attack-release: 4954
+      instant-release: 4978
+      attack-instant-release: 4978
+  2276
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3372
+      1: 3373
+    channeling-animation:
+      init: 4971
+      loop: 4963
+      release: 4955
+      attack-release: 4955
+      instant-release: 4979
+      attack-instant-release: 4979
+  2277
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3374
+      1: 3375
+    channeling-animation:
+      init: 4972
+      loop: 4964
+      release: 4956
+      attack-release: 4956
+      instant-release: 4980
+      attack-instant-release: 4980
+  5920
+    creature-offset: 29 29
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 5914
+    channeling-animation:
+      init: 5919
+      loop: 5916
+      release: 5915
+      attack-release: 5915
+      instant-release: 5917
+      attack-instant-release: 5917
+
+  2549
+    direction-draw-order: 1 1 1 1
+  2550
+    direction-draw-order: 1 1 1 1
+  2551
+    direction-draw-order: 1 1 1 1
+  2552
+    direction-draw-order: 1 1 1 1
+  2553
+    direction-draw-order: 1 1 1 1
+  2554
+    direction-draw-order: 1 1 1 1
+  2555
+    direction-draw-order: 1 1 1 1
+  2556
+    direction-draw-order: 1 1 1 1
+  2557
+    direction-draw-order: 1 1 1 1
+  2558
+    direction-draw-order: 1 1 1 1
+  3176
+    direction-draw-order: 1 1 1 1
+  3364
+    direction-draw-order: 1 1 1 1
+    offset-x: -29
+    offset-y: -29
+    attack-animation:
+      0: 3365
+  5918
+    direction-draw-order: 1 1 1 1
+    creature-offset: 32 32
+  5925
+    direction-draw-order: 1 1 1 1
+    creature-offset: 32 32
+
+  // Warfare female
+  // heads
+  2761
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3732
+    channeling-animation:
+      init: 4938
+      loop: 4928
+      release: 4918
+      attack-release: 4918
+      instant-release: 4948
+      attack-instant-release: 4948
+  2780
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3731
+    channeling-animation:
+      init: 4939
+      loop: 4929
+      release: 4919
+      attack-release: 4919
+      instant-release: 4949
+      attack-instant-release: 4949
+  2762
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3733
+    channeling-animation:
+      init: 4940
+      loop: 4930
+      release: 4920
+      attack-release: 4920
+      instant-release: 4950
+      attack-instant-release: 4950
+  2763
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3734
+    channeling-animation:
+      init: 4941
+      loop: 4931
+      release: 4921
+      attack-release: 4921
+      instant-release: 4951
+      attack-instant-release: 4951
+  5913
+    creature-offset: 31 31
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5907
+    channeling-animation:
+      init: 5912
+      loop: 5909
+      release: 5908
+      attack-release: 5908
+      instant-release: 5910
+      attack-instant-release: 5910
+  2764
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3735
+    channeling-animation:
+      init: 4942
+      loop: 4932
+      release: 4922
+      attack-release: 4922
+      instant-release: 4952
+      attack-instant-release: 4952
+  // weapons
+  2765
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3736
+      1: 3737
+    channeling-animation:
+      init: 4933
+      loop: 4923
+      release: 4913
+      attack-release: 4913
+      instant-release: 4943
+      attack-instant-release: 4943
+  2766
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3738
+      1: 3739
+    channeling-animation:
+      init: 4934
+      loop: 4924
+      release: 4914
+      attack-release: 4914
+      instant-release: 4944
+      attack-instant-release: 4944
+  2767
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3740
+      1: 3741
+    channeling-animation:
+      init: 4935
+      loop: 4925
+      release: 4915
+      attack-release: 4915
+      instant-release: 4945
+      attack-instant-release: 4945
+  2768
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3742
+      1: 3743
+    channeling-animation:
+      init: 4936
+      loop: 4926
+      release: 4916
+      attack-release: 4916
+      instant-release: 4946
+      attack-instant-release: 4946
+  2769
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3744
+      1: 3745
+    channeling-animation:
+      init: 4937
+      loop: 4927
+      release: 4917
+      attack-release: 4917
+      instant-release: 4947
+      attack-instant-release: 4947
+  5906
+    creature-offset: 31 31
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 5900
+    channeling-animation:
+      init: 5905
+      loop: 5902
+      release: 5901
+      attack-release: 5901
+      instant-release: 5903
+      attack-instant-release: 5903
+
+  2769
+    direction-draw-order: 1 1 1 1
+  2771
+    direction-draw-order: 1 1 1 1
+  2772
+    direction-draw-order: 1 1 1 1
+  2773
+    direction-draw-order: 1 1 1 1
+  2774
+    direction-draw-order: 1 1 1 1
+  2781
+    direction-draw-order: 1 1 1 1
+  2775
+    direction-draw-order: 1 1 1 1
+  2776
+    direction-draw-order: 1 1 1 1
+  2777
+    direction-draw-order: 1 1 1 1
+  2778
+    direction-draw-order: 1 1 1 1
+  2779
+    direction-draw-order: 1 0 0 1
+  5911
+    direction-draw-order: 1 1 1 1
+    creature-offset: 32 32
+  5904
+    direction-draw-order: 1 0 0 1
+    creature-offset: 32 32
+
+  // Archery male
+  // heads
+  2279
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3242
+      1: 3238
+      2: 3234
+    channeling-animation:
+      init: 4043
+      loop: 4043
+      release: 4042
+      attack-release: 4042
+      instant-release: 4193
+      attack-instant-release: 4193
+  2280
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3494
+      1: 3238
+      2: 3234
+    channeling-animation:
+      init: 4864
+      loop: 4864
+      release: 4855
+      attack-release: 4855
+      instant-release: 4873
+      attack-instant-release: 4873
+  2281
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3495
+      1: 3238
+      2: 3234
+    channeling-animation:
+      init: 4865
+      loop: 4865
+      release: 4856
+      attack-release: 4856
+      instant-release: 4874
+      attack-instant-release: 4874
+  2282
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3496
+      1: 3238
+      2: 3234
+    channeling-animation:
+      init: 4866
+      loop: 4866
+      release: 4857
+      attack-release: 4857
+      instant-release: 4875
+      attack-instant-release: 4875
+  2283
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3497
+      1: 3238
+      2: 3234
+    channeling-animation:
+      init: 4867
+      loop: 4867
+      release: 4858
+      attack-release: 4858
+      instant-release: 4876
+      attack-instant-release: 4876
+  5893
+    creature-offset: 23 23
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5888
+      1: 3238
+      2: 3234
+    channeling-animation:
+      init: 5890
+      loop: 5890
+      release: 5889
+      attack-release: 5889
+      instant-release: 5891
+      attack-instant-release: 5891
+  // weapons
+  2284
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3239
+      1: 3498
+      2: 3237
+      3: 3235
+      4: 3236
+    channeling-animation:
+      init: 4041
+      loop: 4041
+      release: 4040
+      attack-release: 4040
+      instant-release: 4194
+      attack-instant-release: 4194
+  2285
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3239
+      1: 3499
+      2: 3237
+      3: 3235
+      4: 3236
+    channeling-animation:
+      init: 4859
+      loop: 4859
+      release: 4850
+      attack-release: 4850
+      instant-release: 4868
+      attack-instant-release: 4868
+  2286
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3239
+      1: 3241
+      2: 3237
+      3: 3235
+      4: 3236
+    channeling-animation:
+      init: 4860
+      loop: 4860
+      release: 4851
+      attack-release: 4851
+      instant-release: 4869
+      attack-instant-release: 4869
+  2287
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3239
+      1: 3500
+      2: 3237
+      3: 3235
+      4: 3236
+    channeling-animation:
+      init: 4861
+      loop: 4861
+      release: 4852
+      attack-release: 4852
+      instant-release: 4870
+      attack-instant-release: 4870
+  2288
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3239
+      1: 3501
+      2: 3237
+      3: 3235
+      4: 3236
+    channeling-animation:
+      init: 4862
+      loop: 4862
+      release: 4853
+      attack-release: 4853
+      instant-release: 4871
+      attack-instant-release: 4871
+  2289
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3239
+      1: 3502
+      2: 3237
+      3: 3235
+      4: 3236
+    channeling-animation:
+      init: 4863
+      loop: 4863
+      release: 4854
+      attack-release: 4854
+      instant-release: 4872
+      attack-instant-release: 4872
+
+  2487
+    direction-draw-order: 1 1 1 1
+  2488
+    direction-draw-order: 1 1 1 1
+  2489
+    direction-draw-order: 1 1 1 1
+  2490
+    direction-draw-order: 1 1 1 1
+  2491
+    direction-draw-order: 1 1 1 1
+  5892
+    creature-offset: 32 32
+    direction-draw-order: 1 1 1 1
+  2492
+    direction-draw-order: 1 0 0 1
+  2493
+    direction-draw-order: 1 0 0 1
+  2494
+    direction-draw-order: 1 0 0 1
+  2495
+    direction-draw-order: 1 0 0 1
+  2496
+    direction-draw-order: 1 0 0 1
+  3362
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3363
+      1: 3238
+      2: 3241
+      3: 3234
+
+  // Archery female
+  // heads
+  2573
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3505
+      1: 3516
+    channeling-animation:
+      init: 4185
+      loop: 4185
+      release: 4184
+      attack-release: 4184
+      instant-release: 4186
+      attack-instant-release: 4186
+  2574
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3506
+      1: 3516
+    channeling-animation:
+      init: 4837
+      loop: 4837
+      release: 4828
+      attack-release: 4828
+      instant-release: 4846
+      attack-instant-release: 4846
+  2575
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3507
+      1: 3516
+    channeling-animation:
+      init: 4838
+      loop: 4838
+      release: 4829
+      attack-release: 4829
+      instant-release: 4847
+      attack-instant-release: 4847
+  2576
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3508
+      1: 3516
+    channeling-animation:
+      init: 4839
+      loop: 4839
+      release: 4830
+      attack-release: 4830
+      instant-release: 4848
+      attack-instant-release: 4848
+  2577
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3509
+      1: 3516
+    channeling-animation:
+      init: 4840
+      loop: 4840
+      release: 4831
+      attack-release: 4831
+      instant-release: 4849
+      attack-instant-release: 4849
+  5899
+    creature-offset: 23 23
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5894
+      1: 3516
+    channeling-animation:
+      init: 5896
+      loop: 5896
+      release: 5895
+      attack-release: 5895
+      instant-release: 5897
+      attack-instant-release: 5897
+  // weapons
+  2578
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3504
+      1: 3520
+      2: 3510
+      3: 3519
+      4: 3517
+      5: 3518
+    channeling-animation:
+      init: 4041
+      loop: 4041
+      release: 4040
+      attack-release: 4040
+      instant-release: 4194
+      attack-instant-release: 4194
+  2579
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3504
+      1: 3521
+      2: 3511
+      3: 3519
+      4: 3517
+      5: 3518
+    channeling-animation:
+      init: 4832
+      loop: 4832
+      release: 4823
+      attack-release: 4823
+      instant-release: 4841
+      attack-instant-release: 4841
+  2580
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3504
+      1: 3522
+      2: 3512
+      3: 3519
+      4: 3517
+      5: 3518
+    channeling-animation:
+      init: 4833
+      loop: 4833
+      release: 4824
+      attack-release: 4824
+      instant-release: 4842
+      attack-instant-release: 4842
+  2581
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3504
+      1: 3523
+      2: 3513
+      3: 3519
+      4: 3517
+      5: 3518
+    channeling-animation:
+      init: 4834
+      loop: 4834
+      release: 4825
+      attack-release: 4825
+      instant-release: 4843
+      attack-instant-release: 4843
+  2582
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3504
+      1: 3524
+      2: 3514
+      3: 3519
+      4: 3517
+      5: 3518
+    channeling-animation:
+      init: 4835
+      loop: 4835
+      release: 4826
+      attack-release: 4826
+      instant-release: 4844
+      attack-instant-release: 4844
+  2583
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 3504
+      1: 3525
+      2: 3515
+      3: 3519
+      4: 3517
+      5: 3518
+    channeling-animation:
+      init: 4836
+      loop: 4836
+      release: 4827
+      attack-release: 4827
+      instant-release: 4845
+      attack-instant-release: 4845
+
+  2585
+    direction-draw-order: 1 1 1 1
+  2586
+    direction-draw-order: 1 1 1 1
+  2587
+    direction-draw-order: 1 1 1 1
+  2588
+    direction-draw-order: 1 1 1 1
+  2589
+    direction-draw-order: 1 1 1 1
+  5898
+    creature-offset: 32 32
+    direction-draw-order: 1 1 1 1
+  2590
+    direction-draw-order: 1 0 0 1
+  2591
+    direction-draw-order: 1 0 0 1
+  2592
+    direction-draw-order: 1 0 0 1
+  2593
+    direction-draw-order: 1 0 0 1
+  2594
+    direction-draw-order: 1 0 0 1
+  2595
+    direction-draw-order: 1 0 0 1
+
+// Protection Male
+// sword base - for now is just duplicate of sword 1
+  2291
+    additional-draw-things:
+      0: 2296
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3289
+      1: 3288
+    channeling-animation:
+      init: 4025
+      loop: 4025
+      release: 4022
+      attack-release: 4022
+      instant-release: 4022
+      attack-instant-release: 4022
+
+  2296
+    direction-draw-order: 1 1 1 1
+
+// sword 1
+  2291
+    additional-draw-things:
+      0: 2296
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3289
+      1: 3288
+    channeling-animation:
+      init: 4025
+      loop: 4025
+      release: 4022
+      attack-release: 4022
+      instant-release: 4022
+      attack-instant-release: 4022
+// sword 2
+  2292
+    additional-draw-things:
+      0: 2297
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3290
+      1: 3284
+    channeling-animation:
+      init: 4909
+      loop: 4909
+      release: 4901
+      attack-release: 4901
+      instant-release: 4901
+      attack-instant-release: 4901
+
+  2297
+    direction-draw-order: 1 1 1 1
+
+// sword 3
+  2293
+    additional-draw-things:
+      0: 2298
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3291
+      1: 3285
+    channeling-animation:
+      init: 4910
+      loop: 4910
+      release: 4902
+      attack-release: 4902
+      instant-release: 4902
+      attack-instant-release: 4902
+
+  2298
+    direction-draw-order: 1 1 1 1
+
+// sword 4
+  2294
+    additional-draw-things:
+      0: 2299
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3292
+      1: 3286
+    channeling-animation:
+      init: 4911
+      loop: 4911
+      release: 4903
+      attack-release: 4903
+      instant-release: 4903
+      attack-instant-release: 4903
+
+  2299
+    direction-draw-order: 1 1 1 1
+
+// sword 5
+  2295
+    additional-draw-things:
+      0: 2300
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3293
+      1: 3287
+    channeling-animation:
+      init: 4912
+      loop: 4912
+      release: 4904
+      attack-release: 4904
+      instant-release: 4904
+      attack-instant-release: 4904
+
+  2300
+    direction-draw-order: 1 1 1 1
+
+// sword 6
+  5038
+    additional-draw-things:
+      0: 5037
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5028
+      1: 5027
+    channeling-animation:
+      init: 5032
+      loop: 5032
+      release: 5030
+      attack-release: 5030
+      instant-release: 5034
+      attack-instant-release: 5034
+
+  5037
+    direction-draw-order: 1 1 1 1
+
+// sword 7
+  5952
+    creature-offset: 23 23
+    additional-draw-things:
+      0: 5957
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5948
+      1: 5953
+    channeling-animation:
+      init: 5950
+      loop: 5950
+      release: 5949
+      attack-release: 5949
+      instant-release: 5949
+      attack-instant-release: 5949
+
+  5957
+    creature-offset: 23 23
+    direction-draw-order: 0 1 1 0
+
+// head base
+  5794
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5789
+    channeling-animation:
+      init: 5791
+      loop: 5791
+      release: 5790
+      attack-release: 5790
+      instant-release: 5792
+      attack-instant-release: 5792
+// head 1
+  5772
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5742
+    channeling-animation:
+      init: 5754
+      loop: 5754
+      release: 5748
+      attack-release: 5748
+      instant-release: 5760
+      attack-instant-release: 5760
+// head 2
+  5773
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5743
+    channeling-animation:
+      init: 5755
+      loop: 5755
+      release: 5749
+      attack-release: 5749
+      instant-release: 5761
+      attack-instant-release: 5761
+// head 3
+  5774
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5744
+    channeling-animation:
+      init: 5756
+      loop: 5756
+      release: 5750
+      attack-release: 5750
+      instant-release: 5762
+      attack-instant-release: 5762
+// head 4
+  5775
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5745
+    channeling-animation:
+      init: 5757
+      loop: 5757
+      release: 5751
+      attack-release: 5751
+      instant-release: 5763
+      attack-instant-release: 5763
+// head 5
+  5776
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5746
+    channeling-animation:
+      init: 5758
+      loop: 5758
+      release: 5752
+      attack-release: 5752
+      instant-release: 5764
+      attack-instant-release: 5764
+// head 6
+  5777
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5747
+    channeling-animation:
+      init: 5759
+      loop: 5759
+      release: 5753
+      attack-release: 5753
+      instant-release: 5765
+      attack-instant-release: 5765
+
+  2444
+    direction-draw-order: 1 0 0 1
+  2445
+    direction-draw-order: 1 0 0 1
+  2446
+    direction-draw-order: 1 0 0 1
+  2447
+    direction-draw-order: 1 0 0 1
+  2448
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2444
+  2449
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2445
+  2450
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2647
+  2451
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2447
+  2646
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2446
+  2647
+    direction-draw-order: 1 0 0 1
+  5036
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 5035
+  5035
+    direction-draw-order: 1 0 0 1
+
+  5951
+    creature-offset: 32 32
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 5956
+  5956
+    creature-offset: 32 32
+    direction-draw-order: 1 0 0 1
+
+  5793;5766;5767;5768;5769;5770;5771
+    direction-draw-order: 1 1 1 1
+
+// Protection Female
+  // swords
+  2609
+    additional-draw-things:
+      0: 2614
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3386
+      1: 3381
+    channeling-animation:
+      init: 4892
+      loop: 4892
+      release: 4882
+      attack-release: 4882
+      instant-release: 4882
+      attack-instant-release: 4882
+  2610
+    additional-draw-things:
+      0: 2615
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3387
+      1: 3382
+    channeling-animation:
+      init: 4893
+      loop: 4893
+      release: 4883
+      attack-release: 4883
+      instant-release: 4883
+      attack-instant-release: 4883
+  2611
+    additional-draw-things:
+      0: 2616
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3388
+      1: 3383
+    channeling-animation:
+      init: 4894
+      loop: 4894
+      release: 4884
+      attack-release: 4884
+      instant-release: 4884
+      attack-instant-release: 4884
+  2612
+    additional-draw-things:
+      0: 2617
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3389
+      1: 3384
+    channeling-animation:
+      init: 4895
+      loop: 4895
+      release: 4885
+      attack-release: 4885
+      instant-release: 4885
+      attack-instant-release: 4885
+  2613
+    additional-draw-things:
+      0: 2618
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3390
+      1: 3385
+    channeling-animation:
+      init: 4896
+      loop: 4896
+      release: 4886
+      attack-release: 4886
+      instant-release: 4886
+      attack-instant-release: 4886
+  5050
+    additional-draw-things:
+      0: 5049
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5040
+      1: 5039
+    channeling-animation:
+      init: 5044
+      loop: 5044
+      release: 5042
+      attack-release: 5042
+      instant-release: 5046
+      attack-instant-release: 5046
+
+// sword 7
+  5940
+    creature-offset: 23 23
+    additional-draw-things:
+      0: 5945
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5938
+      1: 5943
+    channeling-animation:
+      init: 5941
+      loop: 5941
+      release: 5939
+      attack-release: 5939
+      instant-release: 5939
+      attack-instant-release: 5939
+
+  5945
+    creature-offset: 23 23
+    direction-draw-order: 1 1 1 1
+
+// head
+  5788;5736;5737;5738;5739;5740;5741
+    direction-draw-order: 1 1 1 1
+  
+  5788
+    attack-animation:
+      0: 5783
+    channeling-animation:
+      init: 5785
+      loop: 5785
+      release: 5784
+      attack-release: 5784
+      instant-release: 5786
+      attack-instant-release: 5786
+
+  5736
+    attack-animation:
+      0: 5706
+    channeling-animation:
+      init: 5718
+      loop: 5718
+      release: 5712
+      attack-release: 5712
+      instant-release: 5724
+      attack-instant-release: 5724
+
+  5737
+    attack-animation:
+      0: 5707
+    channeling-animation:
+      init: 5719
+      loop: 5719
+      release: 5713
+      attack-release: 5713
+      instant-release: 5725
+      attack-instant-release: 5725
+
+  5738
+    attack-animation:
+      0: 5708
+    channeling-animation:
+      init: 5720
+      loop: 5720
+      release: 5714
+      attack-release: 5714
+      instant-release: 5726
+      attack-instant-release: 5726
+
+  5739
+    attack-animation:
+      0: 5709
+    channeling-animation:
+      init: 5721
+      loop: 5721
+      release: 5715
+      attack-release: 5715
+      instant-release: 5727
+      attack-instant-release: 5727
+    
+  5740
+    attack-animation:
+      0: 5710
+    channeling-animation:
+      init: 5722
+      loop: 5722
+      release: 5716
+      attack-release: 5716
+      instant-release: 5728
+      attack-instant-release: 5728
+  
+  5741
+    attack-animation:
+      0: 5711
+    channeling-animation:
+      init: 5723
+      loop: 5723
+      release: 5717
+      attack-release: 5717
+      instant-release: 5729
+      attack-instant-release: 5729
+
+// shields
+  2614;2615;2616;2617;2618;5049;5945
+    direction-draw-order: 0 1 1 0
+
+  // mounts
+  2620
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2625
+  2621
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2626
+  2622
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2627
+  2623
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2628
+  2624
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 2629
+  5048
+    direction-draw-order: 1 1 1 1
+    additional-draw-things:
+      0: 5047
+  2625
+    direction-draw-order: 1 0 0 1
+  2626
+    direction-draw-order: 1 0 0 1
+  2627
+    direction-draw-order: 1 0 0 1
+  2628
+    direction-draw-order: 1 0 0 1
+  2629
+    direction-draw-order: 1 0 0 1
+  5047
+    direction-draw-order: 1 0 0 1
+
+  5787;5730;5731;5732;5733;5734;5735
+    direction-draw-order: 1 1 1 1
+
+  5942
+    creature-offset: 32 32
+    direction-draw-order: 1 0 0 1
+    additional-draw-things:
+      0: 5947
+  5947
+    creature-offset: 32 32
+    direction-draw-order: 1 0 0 1
+
+// Spiritual female
+  // heads
+  2302
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3392
+    channeling-animation:
+      init: 4029
+      loop: 4029
+      release: 4031
+      instant-release: 4031
+      attack-release: 4031
+      attack-instant-release: 4031
+  2303
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3722
+  2304
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3723
+  2305
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3724
+  2306
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3725
+  5932
+    creature-offset: 22 22
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5928
+    channeling-animation:
+      init: 5930
+      loop: 5930
+      release: 5929
+      instant-release: 5929
+      attack-release: 5929
+      attack-instant-release: 5929
+  // weapon
+  2307
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3393
+    channeling-animation:
+      init: 4028
+      loop: 4028
+      release: 4033
+      instant-release: 4033
+      attack-release: 4033
+      attack-instant-release: 4033
+  2308
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 3726
+  2309
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 3727
+  2310
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 3728
+  2311
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 3729
+  5937
+    creature-offset: 22 22
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5933
+    channeling-animation:
+      init: 5935
+      loop: 5935
+      release: 5934
+      instant-release: 5934
+      attack-release: 5934
+      attack-instant-release: 5934
+
+  // mount
+  2499
+    direction-draw-order: 1 1 1 1
+  2500
+    direction-draw-order: 1 1 1 1
+  2501
+    direction-draw-order: 1 1 1 1
+  2502
+    direction-draw-order: 1 1 1 1
+  2503
+    direction-draw-order: 1 1 1 1
+  2504
+    direction-draw-order: 1 1 1 1
+  2505
+    direction-draw-order: 1 1 1 1
+  2506
+    direction-draw-order: 1 1 1 1
+  2507
+    direction-draw-order: 1 1 1 1
+  2508
+    direction-draw-order: 1 1 1 1
+  5931
+    creature-offset: 32 32
+    direction-draw-order: 1 1 1 1
+  5936
+    creature-offset: 32 32
+    direction-draw-order: 1 1 1 1
+
+// Spiritual male
+//head
+  2818
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3706
+    channeling-animation:
+      init: 4199
+      loop: 4199
+      release: 4196
+      instant-release: 4196
+      attack-release: 4196
+      attack-instant-release: 4196
+  2819
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3707
+    channeling-animation:
+      init: 4434
+      loop: 4434
+      release: 4433
+      instant-release: 4433
+      attack-release: 4433
+      attack-instant-release: 4433
+  2820
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3708
+    channeling-animation:
+      init: 4436
+      loop: 4436
+      release: 4435
+      instant-release: 4435
+      attack-release: 4435
+      attack-instant-release: 4435
+  2821
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3698
+    channeling-animation:
+      init: 4438
+      loop: 4438
+      release: 4437
+      instant-release: 4437
+      attack-release: 4437
+      attack-instant-release: 4437
+  2840
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3699
+    channeling-animation:
+      init: 4440
+      loop: 4440
+      release: 4439
+      instant-release: 4439
+      attack-release: 4439
+      attack-instant-release: 4439
+  5857
+    creature-offset: 22 22
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5861
+    channeling-animation:
+      init: 5865
+      loop: 5865
+      release: 5863
+      instant-release: 5863
+      attack-release: 5863
+      attack-instant-release: 5863
+//swords
+  2822
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3700
+    channeling-animation:
+      init: 4200
+      loop: 4200
+      release: 4197
+      instant-release: 4197
+      attack-release: 4197
+      attack-instant-release: 4197
+  2823
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3701
+    channeling-animation:
+      init: 4442
+      loop: 4442
+      release: 4441
+      instant-release: 4441
+      attack-release: 4441
+      attack-instant-release: 4441
+  2824
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3702
+    channeling-animation:
+      init: 4444
+      loop: 4444
+      release: 4443
+      instant-release: 4443
+      attack-release: 4443
+      attack-instant-release: 4443
+  2815
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3703
+    channeling-animation:
+      init: 4446
+      loop: 4446
+      release: 4445
+      instant-release: 4445
+      attack-release: 4445
+      attack-instant-release: 4445
+  2816
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3704
+    channeling-animation:
+      init: 4448
+      loop: 4448
+      release: 4447
+      instant-release: 4447
+      attack-release: 4447
+      attack-instant-release: 4447
+  5858
+    creature-offset: 22 22
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5862
+    channeling-animation:
+      init: 5866
+      loop: 5866
+      release: 5864
+      instant-release: 5864
+      attack-release: 5864
+      attack-instant-release: 5864
+  //
+  2829
+    direction-draw-order: 1 1 1 1
+  2830
+    direction-draw-order: 1 1 1 1
+  2831
+    direction-draw-order: 1 1 1 1
+  2832
+    direction-draw-order: 1 1 1 1
+  //2503
+  //  direction-draw-order: 1 1 1 1
+  2833
+    direction-draw-order: 1 1 1 1
+  2834
+    direction-draw-order: 1 1 1 1
+  2841
+    direction-draw-order: 1 1 1 1
+  5859
+    direction-draw-order: 1 1 1 1
+  5860
+    direction-draw-order: 1 1 1 1
+
+// Witchcraft female
+  // heads
+  2313
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3810
+      1: 3814
+      2: 3823
+      3: 3824
+    channeling-animation:
+      init: 4341
+      loop: 4342
+      release: 4340
+      instant-release: 4340
+      attack-release: 4338
+      attack-instant-release: 4338
+  2314
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3810
+      1: 3812
+      2: 3819
+      3: 3820
+    channeling-animation:
+      init: 4225
+      loop: 4226
+      release: 4224
+      instant-release: 4224
+      attack-release: 4222
+      attack-instant-release: 4222
+  2315
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3810
+      1: 3813
+      2: 3821
+      3: 3822
+    channeling-animation:
+      init: 4336
+      loop: 4337
+      release: 4335
+      instant-release: 4335
+      attack-release: 4333
+      attack-instant-release: 4333
+  2316
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3810
+      1: 3815
+      2: 3816
+      3: 3825
+      4: 3826
+    channeling-animation:
+      init: 4346
+      loop: 4347
+      release: 4345
+      instant-release: 4345
+      attack-release: 4343
+      attack-instant-release: 4343
+  2317
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3810
+      1: 3817
+      2: 3827
+      3: 3828
+    channeling-animation:
+      init: 4351
+      loop: 4352
+      release: 4350
+      instant-release: 4350
+      attack-release: 4348
+      attack-instant-release: 4348
+  2318
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3810
+      1: 3818
+      2: 3829
+      3: 3830
+    channeling-animation:
+      init: 4356
+      loop: 4357
+      release: 4355
+      instant-release: 4355
+      attack-release: 4353
+      attack-instant-release: 4353
+  // weapons
+  2319
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3846
+      1: 3847
+      2: 3848
+    channeling-animation:
+      init: 4366
+      loop: 4367
+      release: 4365
+      instant-release: 4365
+      attack-release: 4363
+      attack-instant-release: 4363
+  2320
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3843
+      1: 3844
+      2: 3845
+    channeling-animation:
+      init: 4376
+      loop: 4377
+      release: 4375
+      instant-release: 4375
+      attack-release: 4373
+      attack-instant-release: 4373
+  2321
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3840
+      1: 3841
+      2: 3842
+    channeling-animation:
+      init: 4371
+      loop: 4372
+      release: 4370
+      instant-release: 4370
+      attack-release: 4368
+      attack-instant-release: 4368
+  2322
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3837
+      1: 3838
+      2: 3839
+    channeling-animation:
+      init: 4381
+      loop: 4382
+      release: 4380
+      instant-release: 4380
+      attack-release: 4378
+      attack-instant-release: 4378
+  2323
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3834
+      1: 3835
+      2: 3836
+    channeling-animation:
+      init: 4361
+      loop: 4362
+      release: 4360
+      instant-release: 4360
+      attack-release: 4358
+      attack-instant-release: 4358
+  2324
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3831
+      1: 3832
+      2: 3833
+    channeling-animation:
+      init: 4230
+      loop: 4231
+      release: 4229
+      instant-release: 4229
+      attack-release: 4227
+      attack-instant-release: 4227
+  2536
+    direction-draw-order: 1 1 1 1
+  2537
+    direction-draw-order: 1 1 1 1
+  2538
+    direction-draw-order: 1 1 1 1
+  2539
+    direction-draw-order: 1 1 1 1
+  2540
+    direction-draw-order: 1 1 1 1
+  2541
+    direction-draw-order: 1 1 1 1
+  2542
+    direction-draw-order: 1 1 1 1
+  2543
+    direction-draw-order: 1 1 1 1
+  2544
+    direction-draw-order: 1 1 1 1
+  2545
+    direction-draw-order: 1 1 1 1
+  2546
+    direction-draw-order: 1 1 1 1
+  2547
+    direction-draw-order: 1 1 1 1
+
+// Witchcraft male
+  2715
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3770
+      1: 3772
+      2: 3779
+      3: 3780
+    channeling-animation:
+      init: 4241
+      loop: 4247
+      release: 4240
+      instant-release: 4240
+      attack-release: 4238
+      attack-instant-release: 4238
+  2716
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3770
+      1: 3773
+      2: 3781
+      3: 3782
+    channeling-animation:
+      init: 4005
+      loop: 3999
+      release: 3996
+      instant-release: 3996
+      attack-release: 3993
+      attack-instant-release: 3993
+  2717
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3770
+      1: 3774
+      2: 3783
+      3: 3784
+    channeling-animation:
+      init: 4013
+      loop: 4014
+      release: 4012
+      instant-release: 4012
+      attack-release: 4010
+      attack-instant-release: 4010
+  2718
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3770
+      1: 3775
+      2: 3785
+      3: 3786
+    channeling-animation:
+      init: 4098
+      loop: 4099
+      release: 4101
+      instant-release: 4101
+      attack-release: 4100
+      attack-instant-release: 4100
+  2719
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3770
+      1: 3777
+      2: 3787
+      3: 3788
+    channeling-animation:
+      init: 4316
+      loop: 4317
+      release: 4315
+      instant-release: 4315
+      attack-release: 4313
+      attack-instant-release: 4313
+  2720
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3770
+      1: 3778
+      2: 3789
+      3: 3790
+    channeling-animation:
+      init: 4090
+      loop: 4091
+      release: 4093
+      instant-release: 4093
+      attack-release: 4092
+      attack-instant-release: 4092
+  2721
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      1: 3791
+      2: 3792
+      3: 3793
+    channeling-animation:
+      init: 4245
+      loop: 4246
+      release: 4244
+      instant-release: 4244
+      attack-release: 4242
+      attack-instant-release: 4242
+  2722
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      1: 3794
+      2: 3795
+      3: 3796
+    channeling-animation:
+      init: 4006
+      loop: 4000
+      release: 3997
+      instant-release: 3997
+      attack-release: 3994
+      attack-instant-release: 3994
+  2723
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      1: 3797
+      2: 3798
+      3: 3799
+    channeling-animation:
+      init: 4331
+      loop: 4332
+      release: 4330
+      instant-release: 4330
+      attack-release: 4328
+      attack-instant-release: 4328
+  2724
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      1: 3800
+      2: 3801
+      3: 3802
+    channeling-animation:
+      init: 4108
+      loop: 4109
+      release: 4111
+      instant-release: 4111
+      attack-release: 4110
+      attack-instant-release: 4110
+  2725
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      1: 3803
+      2: 3804
+      3: 3805
+    channeling-animation:
+      init: 4326
+      loop: 4327
+      release: 4325
+      instant-release: 4325
+      attack-release: 4323
+      attack-instant-release: 4323
+  2726
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      1: 3806
+      2: 3807
+      3: 3808
+    channeling-animation:
+      init: 4103
+      loop: 4104
+      release: 4106
+      instant-release: 4106
+      attack-release: 4105
+      attack-instant-release: 4105
+  2728
+    direction-draw-order: 1 1 1 1
+  2729
+    direction-draw-order: 1 1 1 1
+  2730
+    direction-draw-order: 1 1 1 1
+  2731
+    direction-draw-order: 1 1 1 1
+  2732
+    direction-draw-order: 1 1 1 1
+  2733
+    direction-draw-order: 1 1 1 1
+  2809
+    direction-draw-order: 1 1 1 1
+  2810
+    direction-draw-order: 1 1 1 1
+  2811
+    direction-draw-order: 1 1 1 1
+  2812
+    direction-draw-order: 1 1 1 1
+  2813
+    direction-draw-order: 1 1 1 1
+  2814
+    direction-draw-order: 1 1 1 1
+
+// shadow male
+  // heads
+  2326
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3443
+    channeling-animation:
+      init: 4234
+      loop: 4233
+      release: 4232
+      instant-release: 4232
+      attack-release: 4232
+      attack-instant-release: 4232
+  2327
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3444
+    channeling-animation:
+      init: 3989
+      loop: 3986
+      release: 3983
+      instant-release: 3983
+      attack-release: 3983
+      attack-instant-release: 3983
+      aura-fade-duration: 500
+  2328
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3445
+    channeling-animation:
+      init: 4279
+      loop: 4278
+      release: 4277
+      instant-release: 4277
+      attack-release: 4277
+      attack-instant-release: 4277
+      aura-fade-duration: 500
+  2329
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3396
+    channeling-animation:
+      init: 4282
+      loop: 4281
+      release: 4280
+      instant-release: 4280
+      attack-release: 4280
+      attack-instant-release: 4280
+      aura-fade-duration: 500
+  2330
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3446
+    channeling-animation:
+      init: 4088
+      loop: 4087
+      release: 4086
+      instant-release: 4086
+      attack-release: 4086
+      attack-instant-release: 4086
+      aura-fade-duration: 500
+  5961
+    creature-offset: 32 32
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5980
+    channeling-animation:
+      init: 5986
+      loop: 5985
+      release: 5984
+      instant-release: 5984
+      attack-release: 5984
+      attack-instant-release: 5984
+      aura-fade-duration: 500
+
+  // daggers
+  2331
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3397
+    channeling-animation:
+      init: 4096
+      loop: 4095
+      release: 4094
+      instant-release: 4094
+      attack-release: 4094
+      attack-instant-release: 4094
+      aura-fade-duration: 500
+  2332
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3441
+    channeling-animation:
+      init: 4114
+      loop: 4113
+      release: 4112
+      instant-release: 4112
+      attack-release: 4112
+      attack-instant-release: 4112
+      aura-fade-duration: 500
+  2333
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3442
+    channeling-animation:
+      init: 3991
+      loop: 3988
+      release: 3985
+      instant-release: 3985
+      attack-release: 3985
+      attack-instant-release: 3985
+      aura-fade-duration: 500
+  2334
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3449
+    channeling-animation:
+      init: 4276
+      loop: 4275
+      release: 4274
+      instant-release: 4274
+      attack-release: 4274
+      attack-instant-release: 4274
+      aura-fade-duration: 500
+  2335
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3448
+      1: 3447
+    channeling-animation:
+      init: 4267
+      loop: 4266
+      release: 4265
+      instant-release: 4265
+      attack-release: 4265
+      attack-instant-release: 4265
+      aura-fade-duration: 500
+  5959
+    creature-offset: 32 32
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5981
+    channeling-animation:
+      init: 5989
+      loop: 5988
+      release: 5987
+      instant-release: 5987
+      attack-release: 5987
+      attack-instant-release: 5987
+      aura-fade-duration: 500
+
+  //
+  2336
+    direction-draw-order: 1 1 1 1
+  2337
+    direction-draw-order: 1 1 1 1
+  2509
+    direction-draw-order: 1 1 1 1
+  2510
+    direction-draw-order: 1 1 1 1
+  2511
+    direction-draw-order: 1 1 1 1
+  2512
+    direction-draw-order: 1 1 1 1
+  2513
+    direction-draw-order: 1 1 1 1
+  2514
+    direction-draw-order: 1 1 1 1
+  2515
+    direction-draw-order: 1 1 1 1
+  2516
+    direction-draw-order: 1 1 1 1
+  2517
+    direction-draw-order: 1 1 1 1
+  2518
+    direction-draw-order: 1 1 1 1
+  2519
+    direction-draw-order: 1 1 1 1
+  2520
+    direction-draw-order: 1 1 1 1
+  2521
+    direction-draw-order: 1 1 1 1
+  5960
+    direction-draw-order: 1 1 1 1
+    creature-offset: 32 32
+  5958
+    direction-draw-order: 1 1 1 1
+    creature-offset: 32 32
+
+// shadow female
+  // heads
+  2667
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3549
+    channeling-animation:
+      init: 4213
+      loop: 4212
+      release: 4211
+      instant-release: 4211
+      attack-release: 4211
+      attack-instant-release: 4211
+  2668
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3552
+    channeling-animation:
+      init: 4285
+      loop: 4284
+      release: 4283
+      instant-release: 4283
+      attack-release: 4283
+      attack-instant-release: 4283
+  2669
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3543
+      1: 3553
+    channeling-animation:
+      init: 4288
+      loop: 4287
+      release: 4286
+      instant-release: 4286
+      attack-release: 4286
+      attack-instant-release: 4286
+  2670
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3543
+      1: 3554
+    channeling-animation:
+      init: 4291
+      loop: 4290
+      release: 4289
+      instant-release: 4289
+      attack-release: 4289
+      attack-instant-release: 4289
+  2671
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3547
+    channeling-animation:
+      init: 4294
+      loop: 4293
+      release: 4292
+      instant-release: 4292
+      attack-release: 4292
+      attack-instant-release: 4292
+  5965
+    creature-offset: 23 23
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5978
+      1: 5968
+    channeling-animation:
+      init: 5974
+      loop: 5973
+      release: 5972
+      instant-release: 5972
+      attack-release: 5972
+      attack-instant-release: 5972
+
+  // daggers
+  2672
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3555
+    channeling-animation:
+      init: 4306
+      loop: 4305
+      release: 4304
+      instant-release: 4304
+      attack-release: 4304
+      attack-instant-release: 4304
+      aura-fade-duration: 500
+  2673
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3542
+    channeling-animation:
+      init: 4300
+      loop: 4299
+      release: 4298
+      instant-release: 4298
+      attack-release: 4298
+      attack-instant-release: 4298
+      aura-fade-duration: 500
+  2674
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3551
+      1: 3550
+    channeling-animation:
+      init: 4309
+      loop: 4308
+      release: 4307
+      instant-release: 4307
+      attack-release: 4307
+      attack-instant-release: 4307
+      aura-fade-duration: 500
+  2675
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3546
+    channeling-animation:
+      init: 4297
+      loop: 4296
+      release: 4295
+      instant-release: 4295
+      attack-release: 4295
+      attack-instant-release: 4295
+      aura-fade-duration: 500
+  2676
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3548
+    channeling-animation:
+      init: 4216
+      loop: 4215
+      release: 4214
+      instant-release: 4214
+      attack-release: 4214
+      attack-instant-release: 4214
+  5963
+    creature-offset: 23 23
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5969
+    channeling-animation:
+      init: 5977
+      loop: 5976
+      release: 5975
+      instant-release: 5975
+      attack-release: 5975
+      attack-instant-release: 5975
+
+  //mounted
+  2678
+    direction-draw-order: 1 1 1 1
+  2679
+    direction-draw-order: 1 1 1 1
+  2680
+    direction-draw-order: 1 1 1 1
+  2681
+    direction-draw-order: 1 1 1 1
+  2682
+    direction-draw-order: 1 1 1 1
+  2683
+    direction-draw-order: 1 1 1 1
+  2684
+    direction-draw-order: 1 1 1 1
+  2685
+    direction-draw-order: 1 1 1 1
+  2686
+    direction-draw-order: 1 1 1 1
+  2687
+    direction-draw-order: 1 1 1 1
+  5964
+    creature-offset: 32 32
+    direction-draw-order: 1 1 1 1
+  5962
+    creature-offset: 32 32
+    direction-draw-order: 1 1 1 1
+
+// wizardry male
+  // Heads
+  2339
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3260
+      1: 3257
+    channeling-animation:
+      init: 5385
+      loop: 5385
+      release: 5383
+      instant-release: 5384
+      attack-release: 5381
+      attack-instant-release: 5382
+      aura-fade-duration: 500
+  2340
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3260
+      1: 3754
+    channeling-animation:
+      init: 5390
+      loop: 5390
+      release: 5388
+      instant-release: 5389
+      attack-release: 5386
+      attack-instant-release: 5387
+      aura-fade-duration: 500
+  2341
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3260
+      1: 3755
+    channeling-animation:
+      init: 5395
+      loop: 5395
+      release: 5393
+      instant-release: 5394
+      attack-release: 5391
+      attack-instant-release: 5392
+      aura-fade-duration: 500
+  2342
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3260
+      1: 3753
+    channeling-animation:
+      init: 3905
+      loop: 3905
+      release: 3906
+      instant-release: 3908
+      attack-release: 3909
+      attack-instant-release: 3907
+      aura-fade-duration: 500
+  2343
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3260
+      1: 3756
+    channeling-animation:
+      init: 5405
+      loop: 5405
+      release: 5403
+      instant-release: 5404
+      attack-release: 5401
+      attack-instant-release: 5402
+      aura-fade-duration: 500
+  2344
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3260
+      1: 3757
+    channeling-animation:
+      init: 5410
+      loop: 5410
+      release: 5408
+      instant-release: 5409
+      attack-release: 5406
+      attack-instant-release: 5407
+      aura-fade-duration: 500
+  // Staffs
+  2345
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3758
+      1: 3759
+      2: 3747
+    channeling-animation:
+      init: 5419
+      loop: 5419
+      release: 5417
+      instant-release: 5418
+      attack-release: 5415
+      attack-instant-release: 5416
+      aura-fade-duration: 500
+  2346
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3760
+      1: 3761
+      2: 3748
+    channeling-animation:
+      init: 3910
+      loop: 3910
+      release: 3913
+      instant-release: 3914
+      attack-release: 3911
+      attack-instant-release: 3912
+      aura-fade-duration: 500
+  2347
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3261
+      1: 3258
+      2: 3749
+    channeling-animation:
+      init: 5424
+      loop: 5424
+      release: 5422
+      instant-release: 5423
+      attack-release: 5420
+      attack-instant-release: 5421
+      aura-fade-duration: 500
+  2348
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3762
+      1: 3763
+      2: 3750
+    channeling-animation:
+      init: 5429
+      loop: 5429
+      release: 5427
+      instant-release: 5428
+      attack-release: 5425
+      attack-instant-release: 5426
+      aura-fade-duration: 500
+  2349
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3764
+      1: 3765
+      2: 3751
+    channeling-animation:
+      init: 5434
+      loop: 5434
+      release: 5432
+      instant-release: 5433
+      attack-release: 5430
+      attack-instant-release: 5431
+      aura-fade-duration: 500
+  2350
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3766
+      1: 3767
+      2: 3752
+    channeling-animation:
+      init: 5439
+      loop: 5439
+      release: 5437
+      instant-release: 5438
+      attack-release: 5435
+      attack-instant-release: 5436
+      aura-fade-duration: 500
+
+  2634
+    direction-draw-order: 1 1 1 1
+  2635
+    direction-draw-order: 1 1 1 1
+  2636
+    direction-draw-order: 1 1 1 1
+  2637
+    direction-draw-order: 1 1 1 1
+  2638
+    direction-draw-order: 1 1 1 1
+  2639
+    direction-draw-order: 1 1 1 1
+  2640
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+  2641
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+  2642
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+  2643
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+  2644
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+  2645
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+
+// two-handed sword male
+  //head
+  5601
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5588
+    channeling-animation:
+      init: 5595
+      loop: 5595
+      release: 5592
+      instant-release: 5592
+      attack-release: 5592
+      attack-instant-release: 5592
+  //swords
+  5603
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 5590
+      1: 5591
+    channeling-animation:
+      init: 5597
+      loop: 5597
+      release: 5594
+      instant-release: 5594
+      attack-release: 5594
+      attack-instant-release: 5594
+  //mount
+  5598
+    direction-draw-order: 1 1 1 1
+
+// Wizardry female
+  // heads
+  2689
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3469
+      1: 3470
+    channeling-animation:
+      init: 4124
+      loop: 4124
+      release: 4122
+      instant-release: 4123
+      attack-release: 4120
+      attack-instant-release: 4121
+  2690
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3469
+      1: 3471
+    channeling-animation:
+      init: 4387
+      loop: 4387
+      release: 4385
+      instant-release: 4386
+      attack-release: 4383
+      attack-instant-release: 4384
+  2691
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3469
+      1: 3472
+    channeling-animation:
+      init: 4392
+      loop: 4392
+      release: 4390
+      instant-release: 4391
+      attack-release: 4388
+      attack-instant-release: 4389
+  2692
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3469
+      1: 3473
+    channeling-animation:
+      init: 4397
+      loop: 4397
+      release: 4395
+      instant-release: 4396
+      attack-release: 4393
+      attack-instant-release: 4394
+  2693
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3469
+      1: 3474
+    channeling-animation:
+      init: 4402
+      loop: 4402
+      release: 4400
+      instant-release: 4401
+      attack-release: 4398
+      attack-instant-release: 4399
+  2694
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3469
+      1: 3746
+    channeling-animation:
+      init: 4407
+      loop: 4407
+      release: 4405
+      instant-release: 4406
+      attack-release: 4403
+      attack-instant-release: 4404
+  // staff
+  2695
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3480
+      1: 3485
+      2: 3475
+    channeling-animation:
+      init: 4129
+      loop: 4129
+      release: 4127
+      instant-release: 4128
+      attack-release: 4125
+      attack-instant-release: 4126
+  2696
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3481
+      1: 3486
+      2: 3476
+    channeling-animation:
+      init: 4412
+      loop: 4412
+      release: 4410
+      instant-release: 4411
+      attack-release: 4408
+      attack-instant-release: 4409
+  2697
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3482
+      1: 3487
+      2: 3477
+    channeling-animation:
+      init: 4417
+      loop: 4417
+      release: 4415
+      instant-release: 4416
+      attack-release: 4413
+      attack-instant-release: 4414
+  2698
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3483
+      1: 3488
+      2: 3478
+    channeling-animation:
+      init: 4422
+      loop: 4422
+      release: 4420
+      instant-release: 4421
+      attack-release: 4418
+      attack-instant-release: 4419
+  2699
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3484
+      1: 3489
+      2: 3479
+    channeling-animation:
+      init: 4427
+      loop: 4427
+      release: 4425
+      instant-release: 4426
+      attack-release: 4423
+      attack-instant-release: 4424
+  2700
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3528
+      1: 3527
+      2: 3526
+    channeling-animation:
+      init: 4432
+      loop: 4432
+      release: 4430
+      instant-release: 4431
+      attack-release: 4428
+      attack-instant-release: 4429
+  2702
+    direction-draw-order: 1 1 1 1
+  2703
+    direction-draw-order: 1 1 1 1
+  2704
+    direction-draw-order: 1 1 1 1
+  2705
+    direction-draw-order: 1 1 1 1
+  2706
+    direction-draw-order: 1 1 1 1
+  2707
+    direction-draw-order: 1 1 1 1
+  2708
+    direction-draw-order: 1 1 1 1
+  2709
+    direction-draw-order: 1 1 1 1
+  2710
+    direction-draw-order: 1 1 1 1
+  2711
+    direction-draw-order: 1 1 1 1
+  2712
+    direction-draw-order: 1 1 1 1
+  2713
+    direction-draw-order: 1 1 1 1
+
+  // Holy female
+  2352
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3425
+      1: 3408
+    channeling-animation:
+      init: 4155
+      loop: 4155
+      release: 4154
+      attack-release: 4249
+      instant-release: 4264
+      attack-instant-release: 4249
+      aura-fade-duration: 500
+  2353
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3426
+      1: 3408
+    channeling-animation:
+      init: 5666
+      loop: 5666
+      release: 5656
+      attack-release: 5646
+      instant-release: 5661
+      attack-instant-release: 5651
+      aura-fade-duration: 500
+  2354
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3427
+      1: 3408
+    channeling-animation:
+      init: 5667
+      loop: 5667
+      release: 5657
+      attack-release: 5647
+      instant-release: 5662
+      attack-instant-release: 5652
+      aura-fade-duration: 500
+  2355
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3428
+      1: 3408
+      2: 3415
+    channeling-animation:
+      init: 5668
+      loop: 5668
+      release: 5658
+      attack-release: 5648
+      instant-release: 5663
+      attack-instant-release: 5653
+      aura-fade-duration: 500
+  2356
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3429
+      1: 3408
+      2: 3416
+    channeling-animation:
+      init: 5669
+      loop: 5669
+      release: 5659
+      attack-release: 5649
+      instant-release: 5664
+      attack-instant-release: 5654
+      aura-fade-duration: 500
+  2357
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3430
+      1: 3408
+      2: 3417
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+    channeling-animation:
+      init: 5670
+      loop: 5670
+      release: 5660
+      attack-release: 5650
+      instant-release: 5665
+      attack-instant-release: 5655
+      aura-fade-duration: 500
+  2358
+    direction-draw-order: 1 1 1 1
+    conditional-draw-order:
+      2355: 0 1 1 0
+      2357: 0 1 1 0
+    additional-draw-things:
+      0: 3402
+    attack-animation:
+      0: 3409
+      1: 3419
+    channeling-animation:
+      init: 4159
+      loop: 4159
+      release: 4158
+      attack-release: 4250
+      instant-release: 4261
+      attack-instant-release: 4251
+      aura-fade-duration: 500
+  2359
+    direction-draw-order: 1 1 1 1
+    conditional-draw-order:
+      2355: 0 1 1 0
+      2357: 0 1 1 0
+    additional-draw-things:
+      0: 3403
+    attack-animation:
+      0: 3410
+      1: 3420
+    channeling-animation:
+      init: 5636
+      loop: 5636
+      release: 5626
+      attack-release: 5616
+      instant-release: 5631
+      attack-instant-release: 5621
+      aura-fade-duration: 500
+  2360
+    direction-draw-order: 1 1 1 1
+    conditional-draw-order:
+      2355: 0 1 1 0
+      2357: 0 1 1 0
+    additional-draw-things:
+      0: 3404
+    attack-animation:
+      0: 3411
+      1: 3421
+    channeling-animation:
+      init: 5637
+      loop: 5637
+      release: 5627
+      attack-release: 5617
+      instant-release: 5632
+      attack-instant-release: 5622
+      aura-fade-duration: 500
+  2361
+    direction-draw-order: 1 1 1 1
+    conditional-draw-order:
+      2355: 0 1 1 0
+      2357: 0 1 1 0
+    additional-draw-things:
+      0: 3405
+    attack-animation:
+      0: 3412
+      1: 3422
+    channeling-animation:
+      init: 5638
+      loop: 5638
+      release: 5628
+      attack-release: 5618
+      instant-release: 5633
+      attack-instant-release: 5623
+      aura-fade-duration: 500
+  2362
+    direction-draw-order: 1 1 1 1
+    conditional-draw-order:
+      2355: 0 1 1 0
+      2357: 0 1 1 0
+    additional-draw-things:
+      0: 3406
+    attack-animation:
+      0: 3413
+      1: 3423
+    channeling-animation:
+      init: 5639
+      loop: 5639
+      release: 5629
+      attack-release: 5619
+      instant-release: 5634
+      attack-instant-release: 5624
+      aura-fade-duration: 500
+  2631
+    direction-draw-order: 0 1 1 0
+    conditional-draw-order:
+      2355: 0 1 1 0
+      2357: 0 1 1 0
+    additional-draw-things:
+      0: 3407
+    attack-animation:
+      0: 3414
+      1: 3438
+      2: 3424
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+    channeling-animation:
+      init: 5640
+      loop: 5640
+      release: 5630
+      attack-release: 5620
+      instant-release: 5635
+      attack-instant-release: 5625
+      aura-fade-duration: 500
+  3402;3403;3404;3405;3406;3407
+    direction-draw-order: 0 1 1 0
+  2360
+    direction-draw-order: 1 1 1 1
+  2361
+    direction-draw-order: 1 1 1 1
+  2362
+    direction-draw-order: 1 1 1 1
+  2363
+    direction-draw-order: 1 1 1 1
+  2523
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 1 1 1
+  2524
+    direction-draw-order: 1 1 1 1
+  2525
+    direction-draw-order: 1 1 1 1
+  2526
+    direction-draw-order: 1 1 1 1
+  2527
+    direction-draw-order: 1 1 1 1
+  2528
+    direction-draw-order: 1 1 1 1
+  2529
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+    additional-draw-things:
+      0: 3431
+  3431
+    mount-draw-order: 0 2 2 0
+  2530
+    direction-draw-order: 1 0 0 1
+    mount-draw-order: 1 0 0 1
+    mount-draw-order: 1 0 0 1
+    additional-draw-things:
+      0: 3432
+  3432
+    mount-draw-order: 0 2 2 0
+  2531
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+  2532
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+  2533
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+  2534
+    direction-draw-order: 1 0 0 1
+
+// Holy male
+  2735
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3668
+      1: 3650
+    channeling-animation:
+      init: 4203
+      loop: 4203
+      release: 4259
+      attack-release: 4259
+      instant-release: 4259
+      attack-instant-release: 4259
+  2736
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3668
+      1: 3651
+    channeling-animation:
+      init: 4595
+      loop: 4595
+      release: 4590
+      attack-release: 4585
+      instant-release: 4600
+      attack-instant-release: 4585
+  2737
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3668
+      1: 3652
+    channeling-animation:
+      init: 4596
+      loop: 4596
+      release: 4591
+      attack-release: 4586
+      instant-release: 4601
+      attack-instant-release: 4586
+  2738
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3668
+      1: 3653
+    channeling-animation:
+      init: 4597
+      loop: 4597
+      release: 4592
+      attack-release: 4587
+      instant-release: 4602
+      attack-instant-release: 4587
+  2739
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3668
+      1: 3649
+    channeling-animation:
+      init: 4598
+      loop: 4598
+      release: 4593
+      attack-release: 4588
+      instant-release: 4603
+      attack-instant-release: 4588
+  2758
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3668
+      1: 3654
+    channeling-animation:
+      init: 4599
+      loop: 4599
+      release: 4594
+      attack-release: 4589
+      instant-release: 4604
+      attack-instant-release: 4589
+  2740
+    direction-draw-order: 1 0 0 1
+    additional-draw-things:
+      1: 3849
+    attack-animation:
+      0: 3655
+      1: 3661
+    channeling-animation:
+      init: 4159
+      loop: 4159
+      release: 4251
+      attack-release: 4251
+      instant-release: 4251
+      attack-instant-release: 4251
+  2741
+    direction-draw-order: 1 0 0 1
+    additional-draw-things:
+      1: 3850
+    attack-animation:
+      0: 3656
+      1: 3662
+    channeling-animation:
+      init: 5636
+      loop: 5636
+      release: 5626
+      attack-release: 5616
+      instant-release: 5631
+      attack-instant-release: 5621
+      aura-fade-duration: 500
+  2742
+    direction-draw-order: 1 0 0 1
+    additional-draw-things:
+      1: 3851
+    attack-animation:
+      0: 3657
+      1: 3663
+    channeling-animation:
+      init: 5637
+      loop: 5637
+      release: 5627
+      attack-release: 5617
+      instant-release: 5632
+      attack-instant-release: 5622
+      aura-fade-duration: 500
+  2743
+    direction-draw-order: 1 0 0 1
+    additional-draw-things:
+      1: 3852
+    attack-animation:
+      0: 3658
+      1: 3664
+    channeling-animation:
+      init: 5638
+      loop: 5638
+      release: 5628
+      attack-release: 5618
+      instant-release: 5633
+      attack-instant-release: 5623
+      aura-fade-duration: 500
+  2744
+    direction-draw-order: 1 0 0 1
+    additional-draw-things:
+      1: 3853
+    attack-animation:
+      0: 3659
+      1: 3665
+    channeling-animation:
+      init: 5639
+      loop: 5639
+      release: 5629
+      attack-release: 5619
+      instant-release: 5634
+      attack-instant-release: 5624
+      aura-fade-duration: 500
+  2745
+    direction-draw-order: 1 0 0 1
+    additional-draw-things:
+      1: 3854
+    attack-animation:
+      0: 3660
+      1: 3666
+    channeling-animation:
+      init: 5640
+      loop: 5640
+      release: 5630
+      attack-release: 5620
+      instant-release: 5635
+      attack-instant-release: 5625
+  2747
+    direction-draw-order: 1 1 1 1
+  2748
+    direction-draw-order: 1 1 1 1
+  2749
+    direction-draw-order: 1 1 1 1
+  2750
+    direction-draw-order: 1 1 1 1
+  2751
+    direction-draw-order: 1 1 1 1
+  2759
+    direction-draw-order: 1 1 1 1
+  2752
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+    additional-draw-things:
+      0: 3855
+  3855
+    mount-draw-order: 0 2 2 0
+  2753
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+    additional-draw-things:
+      0: 3856
+  3856
+    mount-draw-order: 0 2 2 0
+  2754
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+    additional-draw-things:
+      0: 3857
+  3857
+    mount-draw-order: 0 2 2 0
+  2755
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+    additional-draw-things:
+      0: 3858
+  3858
+    mount-draw-order: 0 2 2 0
+  2756
+    direction-draw-order: 1 1 1 1
+    mount-draw-order: 1 0 0 1
+    additional-draw-things:
+      0: 3859
+  3859
+    mount-draw-order: 0 2 2 0
+  2757
+    direction-draw-order: 1 0 0 1
+    mount-draw-order: 1 0 0 1
+    additional-draw-things:
+      0: 3860
+  3860
+    mount-draw-order: 0 2 2 0
+  3849;3850;3851;3852;3853;3854
+    direction-draw-order: 0 1 1 0
+
+// Pirate male
+  2873
+    direction-draw-order: 1 1 1 1
+  2874
+    direction-draw-order: 1 1 1 1
+  2875
+    direction-draw-order: 1 1 1 1
+  2876
+    direction-draw-order: 1 1 1 1
+  2877
+    direction-draw-order: 1 1 1 1
+  2878
+    direction-draw-order: 1 1 1 1
+  2879
+    direction-draw-order: 0 0 0 0
+  2880
+    direction-draw-order: 0 0 0 0
+  2881
+    direction-draw-order: 0 0 0 0
+  2882
+    direction-draw-order: 1 1 1 1
+  2884
+    direction-draw-order: 0 0 0 0
+  2885
+    direction-draw-order: 0 0 0 0
+  2886
+    direction-draw-order: 1 1 1 1
+  2887
+    direction-draw-order: 1 1 1 1
+  2888
+    direction-draw-order: 1 1 1 1
+  2889
+    direction-draw-order: 1 1 1 1
+  2890
+    direction-draw-order: 1 1 1 1
+  2891
+    direction-draw-order: 1 1 1 1
+  2892
+    direction-draw-order: 1 1 1 1
+  2893
+    direction-draw-order: 1 1 1 1
+
+// Pirate female
+  2967
+    direction-draw-order: 1 1 1 1
+  2968
+    direction-draw-order: 1 1 1 1
+  2969
+    direction-draw-order: 1 1 1 1
+  2970
+    direction-draw-order: 1 1 1 1
+  2971
+    direction-draw-order: 1 1 1 1
+  2972
+    direction-draw-order: 1 1 1 1
+  2973
+    direction-draw-order: 0 0 0 0
+  2974
+    direction-draw-order: 0 0 0 0
+  2975
+    direction-draw-order: 0 0 0 0
+  2976
+    direction-draw-order: 1 1 1 1
+  2978
+    direction-draw-order: 0 0 0 0
+  2979
+    direction-draw-order: 0 0 0 0
+  2980
+    direction-draw-order: 1 1 1 1
+  2981
+    direction-draw-order: 1 1 1 1
+  2982
+    direction-draw-order: 1 1 1 1
+  2983
+    direction-draw-order: 1 1 1 1
+  2984
+    direction-draw-order: 1 1 1 1
+  2985
+    direction-draw-order: 1 1 1 1
+  2986
+    direction-draw-order: 1 1 1 1
+  2987
+    direction-draw-order: 1 1 1 1
+
+  3076;5009
+    direction-draw-order: 0 1 1 0
+  3077;5010
+    direction-draw-order: 1 1 1 1
+  3078;5011
+    direction-draw-order: 1 1 1 1
+  3079;5012
+    direction-draw-order: 0 1 1 0
+  3080;5013
+    direction-draw-order: 0 1 1 0
+
+  3081
+    direction-draw-order: 0 1 1 0
+    offset-x: 9
+    offset-y: 9
+    main-color: #390c39
+  3082
+    direction-draw-order: 0 1 1 0
+    offset-x: 9
+    offset-y: 9
+    main-color: #390c39
+  3083
+    direction-draw-order: 0 1 1 0
+    offset-x: 9
+    offset-y: 9
+    main-color: #390c39
+
+// Pirate male
+  3052
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 12 12
+  3053
+    direction-draw-order: 1 1 1 1
+  3054
+    direction-draw-order: 1 1 1 1
+  3055
+    direction-draw-order: 1 1 1 1
+  3056
+    direction-draw-order: 1 1 1 1
+  3057
+    direction-draw-order: 1 1 1 1
+  3058
+    direction-draw-order: 1 1 1 1
+  3059
+    direction-draw-order: 0 0 0 0
+  3060
+    direction-draw-order: 0 0 0 0
+  3061
+    direction-draw-order: 0 0 0 0
+  3062
+    direction-draw-order: 1 1 1 1
+  3063
+    direction-draw-order: 1 1 1 1
+  //Ghaz Archer Addon 1
+  3031
+    direction-draw-order: 1 1 1 1
+  //Ghaz Rider Addon 1
+  3033
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5697
+  5697
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+  //Ghaz Rider Addon 1
+  3036
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 5700
+  5700
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    alternate-animation: 5701
+  5701
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    alternate-animation: 5700
+
+  // Ghaz Sandbender Head
+  5512
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 3260
+      1: 5514
+    channeling-animation:
+      init: 5513
+      loop: 5513
+      release: 5510
+      instant-release: 5511
+      attack-release: 5508
+      attack-instant-release: 5509
+      aura-fade-duration: 500
+  5515
+    direction-draw-order: 1 1 1 1
+
+// some plant
+  3123
+    animate-from-start: true
+// some plant
+  3122
+    animate-from-start: true
+//child
+  3186
+    phase-durations:
+      0: 500
+      1: 500
+      2: 500
+      3: 100
+      4: 100
+      5: 200
+      6: 200
+      7: 200
+      8: 200
+      9: 200
+      10: 200
+      11: 200
+      12: 100
+      13: 500
+      14: 500
+      15: 100
+      16: 500
+      17: 500
+      18: 500
+      19: 500
+  //endaira
+  3187
+    phase-durations:
+      0: 500
+      1: 500
+      2: 100
+      3: 500
+      4: 150
+      5: 150
+      6: 500
+      7: 150
+      8: 500
+      9: 150
+      10: 500
+      11: 150
+      12: 150
+      13: 150
+      14: 150
+      15: 150
+      16: 250
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+      26: 150
+      27: 150
+      28: 150
+      29: 100
+// some plant
+  3196
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+// some plant
+  3197
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+//Ghaz Dweller
+  3176
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5583
+  3179
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 5584
+  5583
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+  5584
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+//Ghaz Forager
+  3182
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 5585
+  5585
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true  
+
+//Ghaz Ambusher
+  3178
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 5581
+  3180
+    direction-draw-order: 0 1 1 0
+    attack-animation:
+      0: 5586
+  5581
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+  5586
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+//Ghaz Ambusher
+  3170
+    direction-draw-order: 1 1 1 1
+  3174
+    direction-draw-order: 1 0 0 1
+//Ghaz Dino Rider
+  3126
+    custom-offset: true
+    mount-south-offset: 32 32
+    mount-north-offset: 32 32
+    mount-east-offset: 32 32
+    mount-west-offset: 32 32
+
+  3127
+    offset-x: 32
+    offset-y: 32
+
+  3243
+    offset-x: 16
+    offset-y: 16
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+  3246
+    creature-offset: 32 32
+  3251
+    bottom-effect: true
+    offset-x: 64
+    offset-y: 64
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+  // beetle
+  3300
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 38 35
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3301
+  3301
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 38 35
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  // kid archer male
+  3277
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 100
+    attack-animation-type: 1
+    attack-animation:
+      0: 3276
+      1: 3278
+
+  // weapon 
+  100
+    attack-animation:
+      0: 3275
+      1: 3274
+
+  // kid wizard male
+  3282
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 1
+    attack-animation:
+      0: 3281
+
+  // weapon 
+  101
+    attack-animation:
+      0: 3280
+      1: 3279
+
+  // kid holy male
+  3295
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 100
+    attack-animation-type: 1
+    attack-animation:
+      0: 3297
+
+  // weapon 
+  102
+    attack-animation:
+      0: 3296
+
+
+  // bandit
+  3302
+    creature-offset: 32 32
+  3862
+    animate-from-start: true
+    creature-offset: 32 32
+
+// scarecrow
+  3303
+    name-displacement: 20 32
+    enemy-circle-size: 0 0
+    creature-offset: 0 0
+  3306
+    name-displacement: 40 40
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 3
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 3
+    creature-offset: 0 0
+  3304;3305
+    name-displacement: 40 40
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 3
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 3
+    creature-offset: 0 0
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+
+  // male sword kid outfit
+  3343
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3342
+  3342
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+  // female sword kid outfit
+  3341
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3340
+  3340
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+  // male rapier kid outfit
+  3299
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3339
+  3339
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+  // female rapier kid outfit
+  3338
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3337
+  3337
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+  // male axe kid outfit
+  3332
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3331
+  3331
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+  // female axe kid outfit
+  3330
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3329
+  3329
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // kid female
+  3333
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+
+  // kid holy female
+  3335
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 100
+    attack-animation-type: 1
+    attack-animation:
+      0: 3336
+
+  // weapon 
+  103
+    attack-animation:
+      0: 3334
+
+  // kid archer female
+  3353
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 100
+    attack-animation-type: 1
+    attack-animation:
+      0: 3328
+      1: 3327
+
+  // weapon 
+  104
+    attack-animation:
+      0: 3325
+      1: 3326
+
+  // kid wizard female
+  3351
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 1
+    attack-animation:
+      0: 3352
+
+  // weapon 
+  105
+    attack-animation:
+      0: 3349
+      1: 3350
+
+// kid dualwield male
+  3298
+    name-displacement: 60 70
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3347
+
+// kid dualwield female
+  3346
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 3344
+
+//Coyamel
+  3461
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+      26: 100
+      27: 100
+
+  2662
+    offset-x: 2
+    offset-y: 2
+
+  //Father Earl
+  2560
+    phase-durations:
+      0: 2000
+      1: 100
+      2: 200
+      3: 100
+      4: 100
+      5: 1000
+      6: 100
+      7: 100
+      8: 100
+      9: 1000
+      10: 100
+      11: 200
+      12: 100
+      13: 200
+      14: 100
+      15: 200
+      16: 100
+      17: 1000
+      18: 100
+      19: 200
+      20: 500
+      21: 200
+      22: 1000
+      23: 60
+      24: 200
+      25: 60
+      26: 1000
+      27: 100
+      28: 100
+      29: 1000
+      30: 60
+      31: 100
+      32: 100
+      33: 60
+      34: 2000
+      35: 60
+      36: 200
+      37: 60
+      38: 2000
+      39: 100
+      40: 200
+      41: 1000
+      42: 100
+      43: 100
+      44: 100
+
+//Kaiah
+  3463
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+//Quentin
+  3464
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+
+//Reuben
+  3465
+    creature-offset: 8 12
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+//Reuben
+  3467
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+
+//Zar'bin
+  3220
+    creature-offset: 20 24
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+
+  3492
+    offset-x: 32
+    offset-y: 164
+//Wooden Jim
+  3604
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+//Goblin
+  3262
+    phase-durations:
+      0: 500
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 60
+      7: 50
+      8: 50
+      9: 50
+      10: 50
+      11: 50
+      12: 60
+      13: 80
+      14: 60
+      15: 50
+      16: 50
+      17: 80
+//Corrupted Cultist
+  4075
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 48 48
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation:
+      0: 4076
+  4076;4077
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 48 48
+    name-displacement: 0 0
+
+//Banners
+  4142;4143;4144
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    force-direction: 2
+    name-displacement: 22 32
+
+  4526
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+    channeling-animation:
+      init: 4525
+      loop: 4525
+      loop-start: 3
+      loop-end: 15
+      release: 4525
+      release-start: 15
+
+  4782
+    offset-x: 16
+    offset-y: 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 24 24
+    friend-circle-size: 32 32
+    friend-circle-offset: 24 24
+    name-displacement: 16 24
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+
+  4783
+    offset-x: 16
+    offset-y: 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 24 24
+    friend-circle-size: 32 32
+    friend-circle-offset: 24 24
+    name-displacement: 16 24
+    phase-durations:
+      0: 500
+      1: 200
+      2: 200
+      3: 500
+      4: 500
+      5: 500
+      6: 500
+      7: 500
+      8: 200
+      9: 200
+      10: 200
+
+  4784
+    creature-offset: 0 0
+    offset-x: 32
+    offset-y: 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 32 32
+    friend-circle-size: 64 64
+    friend-circle-offset: 8 8
+    name-displacement: 0 20
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+
+  4785
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    name-displacement: 64 84
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+
+  4786
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+    name-displacement: 64 70
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+      4: 200
+      5: 200
+      6: 200
+      7: 200
+      8: 200
+      9: 200
+      10: 200
+      11: 200
+      12: 200
+      13: 200
+      14: 200
+      15: 200
+      16: 200
+      17: 200
+      18: 200
+
+// Sam Gul primary addon
+  3155
+    direction-draw-order: 1 1 1 1
+// Sam Gul secondary addon
+  3157
+    direction-draw-order: 1 1 1 1
+
+// Aberration Venomous Claws
+  5871
+    animated-from-start: true
+    direction-draw-order: 0 1 1 0
+    offset-x: 9
+    offset-y: 9
+    phase-durations:
+      0: 100
+      1: 60
+      2: 60
+      3: 100
+      4: 300
+  5872
+    animated-from-start: true
+    direction-draw-order: 0 1 1 0
+    offset-x: 9
+    offset-y: 9
+    phase-durations:
+      0: 300
+      1: 100
+      2: 60
+      3: 60
+      4: 100
+  5873
+    animated-from-start: true
+    direction-draw-order: 0 1 1 0
+    offset-x: 9
+    offset-y: 9
+    all-phases-duration: 100
+
+  // Dawn's Apotheosis Angel
+  6026
+    animated-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    name-displacement: 166 190
+
+  //Duel Wield Outfit Assets for Trailer
+  6038;6039;6040;6041;6042;6043;6044;6045;6046
+    creature-offset: 32 32
+
+  // GM Outfit
+  5305
+    creature-offset: 32 32
+    name-displacement: 65 74

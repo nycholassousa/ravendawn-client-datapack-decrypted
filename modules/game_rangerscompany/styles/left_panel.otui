@@ -1,0 +1,456 @@
+GameRangersCompanyMainWindowLeftPanel < UIWidget
+  id: left_panel
+  width: 230
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.bottom: parent.bottom
+  GameRangersCompanyMainWindowLeftPanelRankPanel
+  GameRangersCompanyMainWindowLeftPanelQuestPanel
+
+GameRangersCompanyMainWindowLeftPanelRankPanel < UIWidget
+  id: rank_panel
+  height: 190
+  anchors.top: parent.top
+  anchors.right: parent.right
+  anchors.left: parent.left
+  
+  UIWidget
+    id: icon
+    size: 64 64
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: 15
+    &update: |
+      function (self, path)
+        self:setImageSource(path)
+        local imageWidth = self:getImageTextureWidth()
+        local imageHeight = self:getImageTextureHeight()
+
+        local width = self:getWidth()
+        local height = self:getHeight()
+
+        self:setImageSize({width = imageWidth, height = imageHeight})
+        self:setImageOffset({x = (width - imageWidth) / 2, y = (height - imageHeight) / 2})
+      end
+
+  UIWidget
+    id: name
+    anchors.top: icon.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    font: poppins-semibold-16
+    text-auto-resize: true
+
+  UIWidget
+    id: prestige_points_label
+    anchors.top: name.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    image-source: /images/ui/windows/rangers_company/icon_prestige
+    text: Prestige Points
+    text-align: left
+    text-auto-resize: true
+    text-color: #72767b
+    margin-top: 15
+    text-font: poppins-semibold-13
+    @onSetup: |
+      local imageWidth = self:getImageTextureWidth()
+      local imageHeight = self:getImageTextureHeight()
+
+      local width = self:getWidth()
+      local height = self:getHeight()
+
+      self:setImageSize({width = imageWidth, height = imageHeight})
+      self:setImageOffset({x = 5, y = (height - imageHeight) / 2})
+      self:setTextOffset({x = imageWidth + 10, y = 3})
+
+  UIWidget
+    id: prestige_points_panel
+    anchors.top: prestige_points_label.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    height: 30
+    margin-top: 10
+    UIWidget
+      id: value
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.left: parent.left
+      text-auto-resize: true
+      font: poppins-semibold-20
+      text: 0
+    VerticalSeparator
+      id: separator
+      anchors.top: parent.top
+      anchors.bottom: parent.bottom
+      anchors.left: value.right
+      width: 2
+      margin-left: 3
+    UIWidget
+      id: rank
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.left: separator.right
+      font: poppins-semibold-14
+      text-auto-resize: true
+      text-color: #ffa851
+      margin-left: 3
+    &update: |
+      function(self)
+        local valueWidth = self.value:getWidth()
+        local separatorWidth = self.separator:getWidth()
+        local rankWidth = self.rank:getWidth()
+
+        self:setWidth(valueWidth + separatorWidth + rankWidth)
+      end
+
+  HorizontalSeparator
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 2
+
+GameRangersCompanyMainWindowLeftPanelQuestPanel < UIWidget
+  id: quest_panel
+  anchors.top: rank_panel.bottom
+  anchors.right: parent.right
+  anchors.left: parent.left
+  anchors.bottom: parent.bottom
+  margin-top: 10
+  UIWidget
+    id: title
+    anchors.top: parent.top
+    anchors.left: parent.left
+    font: poppins-semibold-14
+    text: Current task
+    text-auto-resize: true
+    text-align: left
+
+  UIWidget
+    id: cancel_task_button
+    anchors.right: parent.right
+    anchors.verticalCenter: title.verticalCenter
+    font: poppins-semibold-14
+    text: Cancel task
+    text-auto-resize: true
+    text-align: right
+    text-color: #c54544
+    opacity: 1
+    $hover:
+      opacity: 0.8
+    $pressed:
+      opacity: 0.6
+    @onClick: |
+      modules.game_rangerscompany.GameRangersCompany:cancelTask()
+    UIWidget
+      id: separator
+      anchors.bottom: parent.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      height: 1
+      background-color: #c54544
+
+  GameRangersCompanyMainWindowLeftPanelAvailableQuestPanel
+    anchors.top: title.bottom
+    margin-top: 14
+  GameRangersCompanyMainWindowLeftPanelCooldownQuestPanel
+    margin-top: 14
+    anchors.top: title.bottom
+
+  UIWidget
+    id: quest_info_panel
+    anchors.top: title.bottom
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-top: 14
+    background-color: #00000050
+    background-size: 230 60
+    background-offset: 0 3
+    visible: false
+    image-source: /images/ui/windows/rangers_company/left_panel_current_quest_background
+    image-border: 10
+    image-size: 230 480
+
+    UIWidget
+      id: category_icon_background
+      size: 58 58
+      anchors.top: parent.top
+      anchors.left: parent.left
+      margin-left: 3
+      margin-top: 3
+      image-source: /images/ui/windows/rangers_company/left_panel_current_quest_category_background
+
+    UIWidget
+      id: category_icon
+      anchors.centerIn: category_icon_background
+      size: 40 40
+      @onSetup: self:update('/images/ui/windows/rangers_company/icon_undeads')
+      &update: |
+        function (self, path)
+          self:setImageSource(path)
+          local imageWidth = self:getImageTextureWidth()
+          local imageHeight = self:getImageTextureHeight()
+
+          local width = self:getWidth()
+          local height = self:getHeight()
+
+          self:setImageSize({width = imageWidth, height = imageHeight})
+          self:setImageOffset({x = (width - imageWidth) / 2, y = (height - imageHeight) / 2})
+        end
+
+    UIWidget
+      id: quest_name
+      anchors.bottom: category_icon_background.verticalCenter
+      anchors.left: category_icon_background.right
+      anchors.right: parent.right
+      font: poppins-semibold-14
+      text-auto-resize: true
+      text-align: left
+      margin-left: 10
+      margin-bottom: 3
+      text: Undeads
+    
+    UIWidget
+      id: quest_location
+      anchors.top: category_icon_background.verticalCenter
+      anchors.left: category_icon_background.right
+      anchors.right: parent.right
+      font: vollkorn-14
+      text-auto-resize: true
+      text-align: left
+      margin-left: 10
+      margin-top: 3
+      text-color: #e0e0a5
+      text: HADARAK DESERT
+
+    UIWidget
+      id: quest_description_panel
+      anchors.top: category_icon_background.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      height: 110
+
+      UIWidget
+        id: quest_level
+        anchors.top: parent.top
+        anchors.left: parent.left
+        font: poppins-semibold-13
+        text-auto-resize: true
+        text-align: left
+        margin-left: 20
+        margin-top: 10
+        text: Level [1-10]
+        text-color: #a6aab2
+
+      UIWidget
+        id: quest_description
+        anchors.top: quest_level.bottom
+        anchors.left: parent.left
+        anchors.right: parent.right
+        font: poppins-semibold-14
+        text-auto-resize: true
+        text-align: left
+        text-wrap: true
+        margin-left: 20
+        margin-top: 10
+        text: Gain 60,000 experience by killing undeads in Hadarak Desert.
+        text-color: #a6aab2
+
+    UIWidget
+      id: rewards_panel
+      anchors.top: quest_description_panel.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      height: 130
+      text: Rewards
+      text-color: #36f991
+      text-align: top
+      text-offset: 0 6
+      font: poppins-semibold-14
+      background-color: #00000050
+      background-size: 230 30
+      layout:
+        type: verticalBox
+        spacing: 10
+      GameRangersCompanyMainWindowLeftPanelQuestPanelReward
+      GameRangersCompanyMainWindowLeftPanelQuestPanelReward
+
+    UIWidget
+      id: progress_panel
+      anchors.top: rewards_panel.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 30
+      height: 100
+      text: Progress
+      text-color: #36f991
+      text-align: top
+      text-offset: 0 6
+      font: poppins-semibold-14
+      background-color: #00000050
+      background-size: 230 30
+
+      UIWidget
+        id: progress_text
+        anchors.bottom: progress_bg.top
+        anchors.horizontalCenter: parent.horizontalCenter
+        font: poppins-semibold-14
+        text-auto-resize: true
+        text-align: center
+        text: 0/60,000
+        margin-bottom: 10
+
+      UIWidget
+        id: progress_bg
+        anchors.top: parent.top
+        margin-top: 70
+        anchors.horizontalCenter: parent.horizontalCenter
+        size: 180 10
+        image-source: /images/ui/windows/character/level_progress_background
+        image-border: 3
+        
+      UIProgressBar
+        id: progress
+        anchors.fill: prev
+        size: 120 3
+        margin-top: 3
+        margin-bottom: 4
+        margin-left: 2
+        margin-right: 2
+        background-color: #36f28e
+
+GameRangersCompanyMainWindowLeftPanelQuestPanelReward < UIWidget
+  $first:
+    margin-top: 50
+  id: reward
+  size: 200 40
+  image-source: /images/ui/windows/rangers_company/reward_background
+  image-border: 10
+  margin-left: 20
+  margin-right: 20
+
+  UIWidget
+    id: icon
+    size: 40 40
+    anchors.left: parent.left
+    @onSetup: |
+      local parent = self:getParent()
+      if parent:isFirst() then
+        self:update('/images/ui/windows/rangers_company/icon_prestige')
+      else
+        self:update('/images/ui/windows/rangers_company/icon_bounty_mark')
+      end
+
+    &update: |
+      function (self, path)
+        self:setImageSource(path)
+        local imageWidth = self:getImageTextureWidth()
+        local imageHeight = self:getImageTextureHeight()
+
+        local width = self:getWidth()
+        local height = self:getHeight()
+
+        self:setImageSize({width = imageWidth, height = imageHeight})
+        self:setImageOffset({x = (width - imageWidth) / 2, y = (height - imageHeight) / 2})
+      end
+
+  UIWidget
+    id: amount
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: icon.right
+    font: poppins-semibold-14
+    text-auto-resize: true
+    text-align: center
+    text: 123
+
+  UIWidget
+    id: name
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    font: poppins-semibold-13
+    width: 100
+    text-align: left
+    text: Prestige Points
+    margin-right: 10
+    @onSetup: |
+      local parent = self:getParent()
+      if not parent:isFirst() then
+        self:setText('Bounty Marks')
+      end
+
+GameRangersCompanyMainWindowLeftPanelAvailableQuestPanel < UIWidget
+  id: available_quest_panel
+  height: 145
+  image-source: /images/ui/windows/rangers_company/left_panel_current_quest_background
+  image-border: 10
+  margin-top: 10
+  anchors.top: rank_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: true
+
+  UIWidget
+    id: label
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    font: poppins-semibold-16
+    text-auto-resize: true
+    text-align: left
+    text: Tasks available
+    margin-top: 20
+    image-source: /images/ui/windows/social/accept_icon
+    image-size: 20 20
+    text-offset: 30 0
+    image-offset: 0 1
+  
+  UIWidget
+    id: description
+    anchors.top: label.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    font: poppins-semibold-14
+    text-wrap: true
+    text-auto-resize: true
+    text-align: left
+    text: You can currently pick tasks from Rangers Company's bounty boards.
+    margin-left: 20
+    margin-right: 20
+    text-color: #b4b7bc
+
+GameRangersCompanyMainWindowLeftPanelCooldownQuestPanel < UIWidget
+  id: cooldown_quest_panel
+  height: 110
+  image-source: /images/ui/windows/rangers_company/left_panel_current_quest_background
+  image-border: 10
+  margin-top: 10
+  anchors.top: rank_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  visible: false
+
+  UIWidget
+    id: timer
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    font: poppins-semibold-16
+    text-auto-resize: true
+    text-align: left
+    text: 00:05:23
+    margin-top: 20
+    image-source: /images/ui/windows/house/clock_icon
+    image-size: 10 10
+    text-offset: 20 0
+    image-offset: 5 5
+    image-color: green
+  
+  UIWidget
+    id: description
+    anchors.top: timer.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    font: poppins-semibold-14
+    text-wrap: true
+    text-auto-resize: true
+    text-align: left
+    text: Time left for selecting new Rangers Company task.
+    margin-left: 20
+    margin-right: 20
+    text-color: #b4b7bc

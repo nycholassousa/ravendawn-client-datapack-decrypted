@@ -1,0 +1,72 @@
+creatures
+  // dark ritualist ship
+  2653;2654;2655;2656
+    custom-offset: true
+    north-offset: 34 38
+    south-offset: 34 38
+    east-offset: 36 34
+    west-offset: 36 34
+
+  // founders ship
+  2415;2416
+    custom-offset: true
+    north-offset: 16 24
+    south-offset: 16 24
+    east-offset: 24 16
+    west-offset: 24 16
+
+  // trailblazer ship
+  6091
+    custom-offset: true
+    north-offset: 16 24
+    south-offset: 16 24
+    east-offset: 24 16
+    west-offset: 24 16
+
+  // hull
+  1795;1796;1797;1798;1799;1800;1801;1802;1803;2657;5125
+    custom-offset: true
+    north-offset: 16 24
+    south-offset: 16 24
+    east-offset: 24 16
+    west-offset: 24 16
+
+  // sail
+  1813;1814;1815;5482;5487;5484;5124
+    custom-offset: true
+    north-offset: 16 24
+    south-offset: 16 24
+    east-offset: 24 16
+    west-offset: 24 16
+
+  // cannon
+  1816;1817;1819;1820;1821;1822;1823;1824;2848;2852;2853;2854;2855;5477;5478;5479;5480;5481;5483;5485;5486;5780;5781;5782;5795;5796;5797;5798;5799;5800;5801;5802;5803;5804;5805;5806;5815;5816;5817;5818;5819;5820
+    custom-offset: true
+    north-offset: 16 24
+    south-offset: 16 24
+    east-offset: 24 16
+    west-offset: 24 16
+
+  // cabin
+  1804;1805;1810;1811;2849;2850;2851;5779
+    custom-offset: true
+    north-offset: 16 24
+    south-offset: 16 24
+    east-offset: 24 16
+    west-offset: 24 16
+
+  // pirate ships
+  2902;3095;5271
+    custom-offset: true
+    north-offset: 16 24
+    south-offset: 16 24
+    east-offset: 24 16
+    west-offset: 24 16
+
+  //Carnival ship
+  6163
+    custom-offset: true
+    north-offset: 16 24
+    south-offset: 16 24
+    east-offset: 24 16
+    west-offset: 24 16

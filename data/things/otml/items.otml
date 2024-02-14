@@ -1,0 +1,7496 @@
+items
+  201
+    collision-size: 1 0
+    collision: true
+  202
+    collision-size: 0 1
+    collision: true
+  3620
+    opacity: 0.5
+
+  2487;2488
+    offset-y: -12
+  2429
+    offset-y: -12
+  2430
+    offset-y: -12
+  2442
+    offset-x: -8
+    offset-y: -8
+    elevation: 32
+  29215
+    offset-x: -5
+    offset-y: -5
+  33693
+    tradepack: true
+  33694
+    tradepack: true
+  33688
+    tradepack: true
+  33689
+    tradepack: true
+  30060;39125;39126;39127;39128;39129;39130;39131;39132;39133;39134
+    middle: true
+  30278
+    hidden: true
+  34099
+    hidden: true
+
+  102
+    offset-x: -8
+    offset-y: -8
+
+  306
+    offset-x: -8
+    offset-y: -8
+
+  316
+    offset-x: -8
+    offset-y: -8
+
+  321
+    offset-x: -8
+    offset-y: -8
+
+  324
+    offset-x: -8
+    offset-y: -8
+
+  325
+    offset-x: -8
+    offset-y: -8
+
+  326
+    offset-x: -8
+    offset-y: -8
+
+  327
+    offset-x: -8
+    offset-y: -8
+
+  328
+    offset-x: -8
+    offset-y: -8
+
+  329
+    offset-x: -8
+    offset-y: -8
+
+  330
+    offset-x: -8
+    offset-y: -8
+
+  331
+    offset-x: -8
+    offset-y: -8
+
+  332
+    offset-x: -8
+    offset-y: -8
+
+  333
+    offset-x: -8
+    offset-y: -8
+
+  334
+    offset-x: -8
+    offset-y: -8
+
+  335
+    offset-x: -8
+    offset-y: -8
+
+  336
+    offset-x: -8
+    offset-y: -8
+
+  337
+    offset-x: -8
+    offset-y: -8
+
+  338
+    offset-x: -8
+    offset-y: -8
+
+  339
+    offset-x: -8
+    offset-y: -8
+
+  340
+    offset-x: -8
+    offset-y: -8
+
+  341
+    offset-x: -8
+    offset-y: -8
+
+  342
+    offset-x: -8
+    offset-y: -8
+
+  343
+    offset-x: -8
+    offset-y: -8
+
+  344
+    offset-x: -8
+    offset-y: -8
+
+  345
+    offset-x: -8
+    offset-y: -8
+
+  346
+    offset-x: -8
+    offset-y: -8
+
+  775
+    offset-x: -8
+    offset-y: -8
+
+  869
+    offset-x: -8
+    offset-y: -8
+
+  871
+    offset-x: -8
+    offset-y: -8
+
+  872
+    offset-x: -8
+    offset-y: -8
+
+  873
+    offset-x: -8
+    offset-y: -8
+
+  938
+    offset-x: -8
+    offset-y: -8
+
+  1959
+    offset-x: -8
+    offset-y: -8
+
+  2025
+    offset-x: -8
+    offset-y: -8
+
+  2026
+    offset-x: -8
+    offset-y: -8
+
+  2029
+    offset-x: -8
+    offset-y: -8
+
+  2030
+    offset-x: -8
+    offset-y: -8
+
+  2031
+    offset-x: -8
+    offset-y: -8
+
+  2043
+    offset-x: -8
+    offset-y: -8
+
+  2044
+    offset-x: -8
+    offset-y: -8
+
+  2045
+    offset-x: -8
+    offset-y: -8
+
+  2046
+    offset-x: -8
+    offset-y: -8
+
+  2047
+    offset-x: -8
+    offset-y: -8
+
+  2048
+    offset-x: -8
+    offset-y: -8
+
+  2050
+    offset-x: -8
+    offset-y: -8
+
+  2051
+    offset-x: -8
+    offset-y: -8
+
+  2053
+    offset-x: -8
+    offset-y: -8
+
+  2054
+    offset-x: -8
+    offset-y: -8
+
+  2059
+    offset-x: -8
+    offset-y: -8
+
+  2060
+    offset-x: -8
+    offset-y: -8
+
+  2061
+    offset-x: -8
+    offset-y: -8
+
+  2062
+    offset-x: -8
+    offset-y: -8
+
+  2063
+    offset-x: -8
+    offset-y: -8
+
+  2064
+    offset-x: -8
+    offset-y: -8
+
+  2065
+    offset-x: -8
+    offset-y: -8
+
+  2080
+    offset-x: -8
+    offset-y: -8
+
+  2081
+    offset-x: -8
+    offset-y: -8
+
+  2082
+    offset-x: -8
+    offset-y: -8
+
+  2083
+    offset-x: -8
+    offset-y: -8
+
+  2084
+    offset-x: -8
+    offset-y: -8
+
+  2085
+    offset-x: -8
+    offset-y: -8
+
+  2086
+    offset-x: -8
+    offset-y: -8
+
+  2087
+    offset-x: -8
+    offset-y: -8
+
+  2088
+    offset-x: -8
+    offset-y: -8
+
+  2089
+    offset-x: -8
+    offset-y: -8
+
+  2090
+    offset-x: -8
+    offset-y: -8
+
+  2091
+    offset-x: -8
+    offset-y: -8
+
+  2094
+    offset-x: -8
+    offset-y: -8
+
+  2095
+    offset-x: -8
+    offset-y: -8
+
+  2096
+    offset-x: -8
+    offset-y: -8
+
+  2097
+    offset-x: -8
+    offset-y: -8
+
+  2098
+    offset-x: -8
+    offset-y: -8
+
+  2099
+    offset-x: -8
+    offset-y: -8
+
+  2100
+    offset-x: -8
+    offset-y: -8
+
+  2101
+    offset-x: -8
+    offset-y: -8
+
+  2110
+    offset-x: -4
+    offset-y: -4
+
+  2111
+    offset-x: -4
+    offset-y: -4
+
+  2112
+    offset-x: -4
+    offset-y: -4
+
+  2113
+    offset-x: -4
+    offset-y: -4
+
+  2114
+    offset-x: -4
+    offset-y: -4
+
+  2299
+    offset-x: -8
+    offset-y: -8
+
+  2300
+    offset-x: -8
+    offset-y: -8
+
+  2322
+    offset-x: -8
+    offset-y: -8
+
+  2323
+    offset-x: -8
+    offset-y: -8
+
+  2334
+    offset-x: -8
+    offset-y: -8
+
+  2335
+    offset-x: -8
+    offset-y: -8
+
+  2336
+    offset-x: -8
+    offset-y: -8
+
+  2337
+    offset-x: -8
+    offset-y: -8
+
+  2338
+    offset-x: -8
+    offset-y: -8
+
+  2339
+    offset-x: -8
+    offset-y: -8
+
+  2340
+    offset-x: -8
+    offset-y: -8
+
+  2341
+    offset-x: -8
+    offset-y: -8
+
+  2453
+    offset-x: -8
+    offset-y: -8
+
+  2454
+    offset-x: -8
+    offset-y: -8
+
+  2526
+    offset-x: -8
+    offset-y: -8
+
+  2911
+    offset-x: -8
+    offset-y: -8
+
+  2912
+    offset-x: -8
+    offset-y: -8
+
+  2913
+    offset-x: -8
+    offset-y: -8
+
+  2914
+    offset-x: -8
+    offset-y: -8
+
+  2915
+    offset-x: -8
+    offset-y: -8
+
+  2916
+    offset-x: -8
+    offset-y: -8
+
+  2917
+    offset-x: -8
+    offset-y: -8
+
+  2918
+    offset-x: -8
+    offset-y: -8
+
+  2919
+    offset-x: -8
+    offset-y: -8
+
+  2927
+    offset-x: -8
+    offset-y: -8
+
+  2934
+    offset-x: -8
+    offset-y: -8
+
+  2935
+    offset-x: -8
+    offset-y: -8
+
+  2966
+    offset-x: -8
+    offset-y: -8
+
+  2974
+    offset-x: -8
+    offset-y: -8
+
+  2980
+    offset-x: -8
+    offset-y: -8
+
+  2987
+    offset-x: -8
+    offset-y: -8
+
+  3221
+    offset-x: -8
+    offset-y: -8
+
+  3484
+    offset-x: -8
+    offset-y: -8
+
+  3485
+    offset-x: -8
+    offset-y: -8
+
+  3486
+    offset-x: -8
+    offset-y: -8
+
+  3487
+    offset-x: -8
+    offset-y: -8
+
+  3488
+    offset-x: -8
+    offset-y: -8
+
+  3489
+    offset-x: -8
+    offset-y: -8
+
+  3490
+    offset-x: -8
+    offset-y: -8
+
+  3491
+    offset-x: -8
+    offset-y: -8
+
+  3501
+    offset-x: -8
+    offset-y: -8
+
+  3508
+    offset-x: -8
+    offset-y: -8
+
+  3510
+    offset-x: -4
+    offset-y: -4
+
+  3511
+    offset-x: -4
+    offset-y: -4
+
+  3512;36937;36938;36939
+    offset-x: -4
+    offset-y: -4
+
+  3513
+    offset-x: -4
+    offset-y: -4
+
+  3514
+    offset-x: -4
+    offset-y: -4
+
+  3617
+    offset-x: 4
+    offset-y: 4
+
+  3618
+    offset-x: 4
+    offset-y: 4
+
+  3620
+    offset-x: 4
+    offset-y: 4
+
+  3621
+    offset-x: 8
+    offset-y: 8
+
+  3639
+    offset-x: -8
+    offset-y: -8
+
+  3663
+    offset-x: -8
+    offset-y: -8
+
+  3664
+    offset-x: -8
+    offset-y: -8
+
+  3665
+    offset-x: -8
+    offset-y: -8
+
+  3676
+    offset-x: -8
+    offset-y: -8
+
+  3677
+    offset-x: -8
+    offset-y: -8
+
+  3678
+    offset-x: -8
+    offset-y: -8
+
+  3679
+    offset-x: -8
+    offset-y: -8
+
+  3680
+    offset-x: -8
+    offset-y: -8
+
+  3763
+    offset-x: -8
+    offset-y: -8
+
+  3764
+    offset-x: -8
+    offset-y: -8
+
+  3765
+    offset-x: -8
+    offset-y: -8
+
+  3766
+    offset-x: -8
+    offset-y: -8
+
+  3886
+    offset-x: -8
+    offset-y: -8
+
+  3887
+    offset-x: -8
+    offset-y: -8
+
+  3888
+    offset-x: -8
+    offset-y: -8
+
+  3889
+    offset-x: -8
+    offset-y: -8
+
+  3890
+    offset-x: -8
+    offset-y: -8
+
+  3891
+    offset-x: -8
+    offset-y: -8
+
+  3892
+    offset-x: -8
+    offset-y: -8
+
+  3906
+    offset-x: -8
+    offset-y: -8
+
+  3907
+    offset-x: -8
+    offset-y: -8
+
+  3914
+    offset-x: -8
+    offset-y: -8
+
+  3915
+    offset-x: -8
+    offset-y: -8
+
+  3916
+    offset-x: -8
+    offset-y: -8
+
+  3917
+    offset-x: -8
+    offset-y: -8
+
+  3918
+    offset-x: -8
+    offset-y: -8
+
+  3919
+    offset-x: -8
+    offset-y: -8
+
+  4051
+    offset-x: -8
+    offset-y: -8
+
+  4065
+    offset-x: -8
+    offset-y: -8
+
+  4115
+    offset-x: -4
+    offset-y: -8
+
+  4124
+    offset-x: -4
+    offset-y: -8
+
+  4829
+    offset-x: -8
+    offset-y: -8
+
+  4830
+    offset-x: -8
+    offset-y: -8
+
+  5024
+    offset-x: -8
+    offset-y: -8
+
+  5046
+    offset-x: -8
+    offset-y: -8
+
+  5055
+    offset-x: -8
+    offset-y: -8
+
+  5056
+    offset-x: -8
+    offset-y: -8
+
+  5787
+    offset-x: -8
+    offset-y: -8
+
+  5788
+    offset-x: -8
+    offset-y: -8
+
+  5802
+    offset-x: -8
+    offset-y: -8
+
+  7024
+    offset-x: 5
+    offset-y: 5
+
+  7091
+    offset-x: 3
+    offset-y: 3
+
+  7092
+    offset-x: 5
+    offset-y: 5
+
+  7093
+    offset-x: 4
+    offset-y: 4
+
+  7094
+    offset-x: 1
+    offset-y: 1
+
+  7108
+    offset-x: -8
+    offset-y: -8
+
+  7109
+    offset-x: -8
+    offset-y: -8
+
+  7167
+    offset-x: 0
+    offset-y: -16
+
+  7168
+    offset-x: -16
+    offset-y: 0
+
+  8008
+    offset-x: -4
+    offset-y: -4
+
+  8146
+    offset-x: -10
+    offset-y: -10
+
+  8147
+    offset-x: -10
+    offset-y: -10
+
+  8388
+    offset-x: -8
+    offset-y: -8
+
+  8389
+    offset-x: -8
+    offset-y: -8
+
+  8523
+    offset-x: -8
+    offset-y: -8
+
+  8524
+    offset-x: -8
+    offset-y: -8
+
+  8525
+    offset-x: -8
+    offset-y: -8
+
+  8526
+    offset-x: -8
+    offset-y: -8
+
+  8527
+    offset-x: 0
+    offset-y: -16
+
+  8528
+    offset-x: -16
+    offset-y: 0
+
+  8531
+    offset-x: -8
+    offset-y: -8
+
+  8532
+    offset-x: -8
+    offset-y: -8
+
+  8836
+    offset-x: -8
+    offset-y: -8
+
+  8837
+    offset-x: -8
+    offset-y: -8
+
+  9027
+    offset-x: -8
+    offset-y: -8
+
+  9028
+    offset-x: -8
+    offset-y: -8
+
+  9034
+    offset-x: -8
+    offset-y: -8
+
+  9035
+    offset-x: -8
+    offset-y: -8
+
+  9039
+    offset-x: -8
+    offset-y: -8
+
+  9040
+    offset-x: -8
+    offset-y: -8
+
+  9043
+    offset-x: -8
+    offset-y: -8
+
+  9069
+    offset-x: -8
+    offset-y: -8
+
+  9070
+    offset-x: -8
+    offset-y: -8
+
+  9071
+    offset-x: -8
+    offset-y: -8
+
+  9072
+    offset-x: -8
+    offset-y: -8
+
+  9073
+    offset-x: -8
+    offset-y: -8
+
+  9074
+    offset-x: -8
+    offset-y: -8
+
+  9075
+    offset-x: -8
+    offset-y: -8
+
+  9076
+    offset-x: -8
+    offset-y: -8
+
+  9077
+    offset-x: -8
+    offset-y: -8
+
+  9078
+    offset-x: -8
+    offset-y: -8
+
+  9079
+    offset-x: -2
+    offset-y: -2
+
+  9100
+    offset-x: -8
+    offset-y: -8
+
+  9101
+    offset-x: -8
+    offset-y: -8
+
+  9132
+    offset-x: -8
+    offset-y: -8
+
+  9206
+    offset-x: -8
+    offset-y: -8
+
+  9207
+    offset-x: -8
+    offset-y: -8
+
+  9208
+    offset-x: -8
+    offset-y: -8
+
+  9209
+    offset-x: -8
+    offset-y: -8
+
+  9210
+    offset-x: -8
+    offset-y: -8
+
+  9211
+    offset-x: -8
+    offset-y: -8
+
+  9224
+    offset-x: -8
+    offset-y: -8
+
+  9232
+    offset-x: -4
+    offset-y: -4
+
+  9252
+    offset-x: -8
+    offset-y: -8
+
+  9292
+    offset-x: -8
+    offset-y: -8
+
+  9432
+    offset-x: -8
+    offset-y: -8
+
+  9433
+    offset-x: -8
+    offset-y: -8
+
+  9436
+    offset-x: -8
+    offset-y: -8
+
+  9437
+    offset-x: -8
+    offset-y: -8
+
+  9626
+    offset-x: -8
+    offset-y: -8
+
+  9627
+    offset-x: -8
+    offset-y: -8
+
+  9628
+    offset-x: -8
+    offset-y: -8
+
+  9629
+    offset-x: -8
+    offset-y: -8
+
+  9995
+    offset-x: 7
+    offset-y: 7
+
+  10035
+    offset-x: -8
+    offset-y: -8
+
+  10036
+    offset-x: -8
+    offset-y: -8
+
+  10037
+    offset-x: -8
+    offset-y: -8
+
+  10038
+    offset-x: -8
+    offset-y: -8
+
+  10039
+    offset-x: -8
+    offset-y: -8
+
+  10040
+    offset-x: -8
+    offset-y: -8
+
+  10041
+    offset-x: -8
+    offset-y: -8
+
+  10042
+    offset-x: -8
+    offset-y: -8
+
+  10043
+    offset-x: -8
+    offset-y: -8
+
+  10372
+    offset-x: -8
+    offset-y: -8
+
+  10373
+    offset-x: -8
+    offset-y: -8
+
+  10374
+    offset-x: -8
+    offset-y: -8
+
+  10375
+    offset-x: -8
+    offset-y: -8
+
+  10376
+    offset-x: -8
+    offset-y: -8
+
+  10377
+    offset-x: -8
+    offset-y: -8
+
+  10423
+    offset-x: -8
+    offset-y: -8
+
+  10424
+    offset-x: -8
+    offset-y: -8
+
+  10425
+    offset-x: -8
+    offset-y: -8
+
+  10426
+    offset-x: -8
+    offset-y: -8
+
+  10427
+    offset-x: -8
+    offset-y: -8
+
+  10428
+    offset-x: -8
+    offset-y: -8
+
+  10429
+    offset-x: -8
+    offset-y: -8
+
+  10608
+    offset-x: -8
+    offset-y: -8
+
+  10609
+    offset-x: -8
+    offset-y: -8
+
+  10610
+    offset-x: -8
+    offset-y: -8
+
+  10611
+    offset-x: -8
+    offset-y: -8
+
+  10741
+    offset-x: -8
+    offset-y: -8
+
+  10742
+    offset-x: -8
+    offset-y: -8
+
+  10743
+    offset-x: -8
+    offset-y: -8
+
+  10798
+    offset-x: -8
+    offset-y: -8
+
+  10799
+    offset-x: -8
+    offset-y: -8
+
+  10977
+    offset-x: -8
+    offset-y: -8
+
+  10978
+    offset-x: -8
+    offset-y: -8
+
+  10979
+    offset-x: -8
+    offset-y: -8
+
+  10980
+    offset-x: -8
+    offset-y: -8
+
+  11345
+    offset-x: -4
+    offset-y: -4
+
+  11694
+    offset-x: -6
+    offset-y: -4
+
+  11695
+    offset-x: -6
+    offset-y: -6
+
+  12041
+    offset-x: -4
+    offset-y: -8
+
+  12042
+    offset-x: -4
+    offset-y: -8
+
+  12045
+    offset-x: -4
+    offset-y: -4
+
+  12046
+    offset-x: -4
+    offset-y: -4
+
+  12470
+    offset-x: -8
+    offset-y: -8
+
+  12471
+    offset-x: -8
+    offset-y: -8
+
+  12477
+    offset-x: -8
+    offset-y: -8
+
+  12478
+    offset-x: -8
+    offset-y: -8
+
+  12479
+    offset-x: -8
+    offset-y: -8
+
+  12511
+    offset-x: -8
+    offset-y: -8
+
+  14029
+    offset-x: -8
+    offset-y: -8
+
+  14030
+    offset-x: -8
+    offset-y: -8
+
+  14031
+    offset-x: -8
+    offset-y: -8
+
+  14032
+    offset-x: -8
+    offset-y: -8
+
+  14033
+    offset-x: -8
+    offset-y: -8
+
+  14034
+    offset-x: -8
+    offset-y: -8
+
+  14035
+    offset-x: -8
+    offset-y: -8
+
+  14036
+    offset-x: -8
+    offset-y: -8
+
+  14037
+    offset-x: -8
+    offset-y: -8
+
+  14038
+    offset-x: -8
+    offset-y: -8
+
+  14241
+    offset-x: -8
+    offset-y: -8
+
+  14242
+    offset-x: -8
+    offset-y: -8
+
+  15121
+    offset-x: -8
+    offset-y: -8
+
+  15122
+    offset-x: -8
+    offset-y: -8
+
+  15123
+    offset-x: -8
+    offset-y: -8
+
+  15276
+    offset-x: -8
+    offset-y: -8
+
+  15700
+    offset-x: -8
+    offset-y: -8
+
+  16229
+    offset-x: -8
+    offset-y: -8
+
+  16230
+    offset-x: -8
+    offset-y: -8
+
+  16231
+    offset-x: -8
+    offset-y: -8
+
+  16232
+    offset-x: -8
+    offset-y: -8
+
+  16233
+    offset-x: -8
+    offset-y: -8
+
+  16234
+    offset-x: -8
+    offset-y: -8
+
+  16235
+    offset-x: -8
+    offset-y: -8
+
+  16236
+    offset-x: -8
+    offset-y: -8
+
+  16237
+    offset-x: -8
+    offset-y: -8
+
+  16238
+    offset-x: -8
+    offset-y: -8
+
+  16239
+    offset-x: -8
+    offset-y: -8
+
+  16240
+    offset-x: -8
+    offset-y: -8
+
+  17372
+    offset-x: -8
+    offset-y: -8
+
+  17373
+    offset-x: -8
+    offset-y: -8
+
+  17722
+    offset-x: -4
+    offset-y: -16
+
+  18443
+    offset-x: 6
+    offset-y: 6
+
+  18444
+    offset-x: 13
+    offset-y: 13
+
+  18445
+    offset-x: 8
+    offset-y: 8
+
+  18912
+    offset-x: -8
+    offset-y: -8
+
+  18913
+    offset-x: -8
+    offset-y: -8
+
+  18914
+    offset-x: -8
+    offset-y: -8
+
+  18915
+    offset-x: -8
+    offset-y: -8
+
+  19156
+    offset-x: -4
+    offset-y: -8
+
+  20132
+    offset-x: -8
+    offset-y: -8
+
+  20175
+    offset-x: -8
+    offset-y: 0
+
+  20300
+    offset-x: -8
+    offset-y: -8
+
+  20301
+    offset-x: -8
+    offset-y: -8
+
+  20302
+    offset-x: -8
+    offset-y: -8
+
+  20303
+    offset-x: -8
+    offset-y: -8
+
+  20304
+    offset-x: -8
+    offset-y: -8
+
+  20305
+    offset-x: -8
+    offset-y: -8
+
+  20306
+    offset-x: -8
+    offset-y: -8
+
+  20307
+    offset-x: -8
+    offset-y: -8
+
+  20363
+    offset-x: -8
+    offset-y: -8
+
+  21323
+    offset-x: -8
+    offset-y: -8
+
+  21388
+    offset-x: -8
+    offset-y: -8
+
+  21843
+    offset-x: -8
+    offset-y: -8
+
+  21936
+    offset-x: -8
+    offset-y: -8
+
+  21950
+    offset-x: -8
+    offset-y: -8
+
+  22026
+    offset-x: -4
+    offset-y: -8
+
+  22161
+    offset-x: -8
+    offset-y: -8
+
+  22163
+    offset-x: -8
+    offset-y: -8
+
+  22166
+    offset-x: -8
+    offset-y: -8
+
+  22167
+    offset-x: -8
+    offset-y: -8
+
+  22168
+    offset-x: -8
+    offset-y: -8
+
+  22169
+    offset-x: -8
+    offset-y: -8
+
+  22318
+    offset-x: 0
+    offset-y: -10
+
+  22319
+    offset-x: -14
+    offset-y: 0
+
+  22320
+    offset-x: 0
+    offset-y: -16
+
+  22321
+    offset-x: -16
+    offset-y: 0
+
+  22322
+    offset-x: 0
+    offset-y: -16
+
+  22323
+    offset-x: -16
+    offset-y: 0
+
+  22324
+    offset-x: 0
+    offset-y: -16
+
+  22325
+    offset-x: 0
+    offset-y: -16
+
+  22326
+    offset-x: -16
+    offset-y: 0
+
+  22327
+    offset-x: -16
+    offset-y: 0
+
+  22725
+    offset-x: -8
+    offset-y: -8
+
+  22734
+    offset-x: -8
+    offset-y: -8
+
+  22735
+    offset-x: -8
+    offset-y: -8
+
+  22796
+    offset-x: -8
+    offset-y: -8
+
+  22875
+    offset-x: -4
+    offset-y: -4
+
+  24009
+    offset-x: 0
+    offset-y: 0
+
+  25599
+    offset-x: -8
+    offset-y: -8
+
+  26591
+    offset-x: -8
+    offset-y: -8
+
+  29249
+    offset-x: 8
+    offset-y: 8
+
+  29254
+    offset-x: 3
+    offset-y: 3
+
+  29255
+    offset-x: 8
+    offset-y: 8
+
+  29258
+    offset-x: 4
+    offset-y: 4
+
+  29259
+    offset-x: 4
+    offset-y: 4
+
+  29261
+    offset-x: 4
+    offset-y: 4
+
+  29263
+    offset-x: 5
+    offset-y: 5
+
+  29264
+    offset-x: 8
+    offset-y: 8
+
+  29265
+    offset-x: 13
+    offset-y: 13
+
+  29268
+    offset-x: 8
+    offset-y: 8
+
+  29273
+    offset-x: 3
+    offset-y: 3
+
+  29274
+    offset-x: 7
+    offset-y: 7
+
+  29277
+    offset-x: 4
+    offset-y: 4
+
+  29278
+    offset-x: 4
+    offset-y: 4
+
+  29279
+    offset-x: 4
+    offset-y: 4
+
+  29280
+    offset-x: 13
+    offset-y: 13
+
+  29281
+    offset-x: 5
+    offset-y: 5
+
+  29282
+    offset-x: 8
+    offset-y: 8
+
+  29288
+    offset-x: 8
+    offset-y: 8
+
+  29294
+    offset-x: 8
+    offset-y: 8
+
+  29297
+    offset-x: 4
+    offset-y: 4
+
+  29298
+    offset-x: 4
+    offset-y: 4
+
+  29299
+    offset-x: 4
+    offset-y: 4
+
+  29300
+    offset-x: 5
+    offset-y: 5
+
+  29301
+    offset-x: 3
+    offset-y: 3
+
+  29303
+    offset-x: 7
+    offset-y: 7
+
+  29304
+    offset-x: 13
+    offset-y: 13
+
+  29306
+    offset-x: 5
+    offset-y: 5
+
+  29313
+    offset-x: 8
+    offset-y: 8
+
+  29316
+    offset-x: 4
+    offset-y: 4
+
+  29317
+    offset-x: 4
+    offset-y: 4
+
+  29318
+    offset-x: 4
+    offset-y: 4
+
+  29320
+    offset-x: 8
+    offset-y: 8
+
+  29321
+    offset-x: 5
+    offset-y: 5
+
+  29322
+    offset-x: 3
+    offset-y: 3
+
+  29323
+    offset-x: 7
+    offset-y: 7
+
+  29324
+    offset-x: 8
+    offset-y: 8
+
+  29326
+    offset-x: 5
+    offset-y: 5
+
+  29333
+    offset-x: 8
+    offset-y: 8
+
+  29336
+    offset-x: 4
+    offset-y: 4
+
+  29337
+    offset-x: 4
+    offset-y: 4
+
+  29338
+    offset-x: 4
+    offset-y: 4
+
+  29340
+    offset-x: -8
+    offset-y: 8
+
+  29341
+    offset-x: 5
+    offset-y: 5
+
+  29342
+    offset-x: 3
+    offset-y: 3
+
+  29343
+    offset-x: 7
+    offset-y: 7
+
+  29344
+    offset-x: 13
+    offset-y: 13
+
+  29346
+    offset-x: 5
+    offset-y: 5
+
+  29353
+    offset-x: 8
+    offset-y: 8
+
+  29356
+    offset-x: 4
+    offset-y: 4
+
+  29357
+    offset-x: 4
+    offset-y: 4
+
+  29358
+    offset-x: 4
+    offset-y: 4
+
+  29360
+    offset-x: 8
+    offset-y: 8
+
+  29361
+    offset-x: 5
+    offset-y: 5
+
+  29362
+    offset-x: 3
+    offset-y: 3
+
+  29363
+    offset-x: 7
+    offset-y: 7
+
+  29364
+    offset-x: 13
+    offset-y: 13
+
+  29366
+    offset-x: 5
+    offset-y: 5
+
+  29373
+    offset-x: 8
+    offset-y: 8
+
+  29376
+    offset-x: 4
+    offset-y: 4
+
+  29377
+    offset-x: 4
+    offset-y: 4
+
+  29378
+    offset-x: 4
+    offset-y: 4
+
+  29380
+    offset-x: 8
+    offset-y: 8
+
+  29381
+    offset-x: 5
+    offset-y: 5
+
+  29382
+    offset-x: 3
+    offset-y: 3
+
+  29383
+    offset-x: 7
+    offset-y: 7
+
+  29384
+    offset-x: 13
+    offset-y: 13
+
+  29386
+    offset-x: 5
+    offset-y: 5
+
+  29393
+    offset-x: 8
+    offset-y: 8
+
+  29396
+    offset-x: 4
+    offset-y: 4
+
+  29397
+    offset-x: 4
+    offset-y: 4
+
+  29398
+    offset-x: 4
+    offset-y: 4
+
+  29400
+    offset-x: 8
+    offset-y: 8
+
+  29401
+    offset-x: 5
+    offset-y: 5
+
+  29402
+    offset-x: 3
+    offset-y: 3
+
+  29403
+    offset-x: 7
+    offset-y: 7
+
+  29404
+    offset-x: 13
+    offset-y: 13
+
+  29406
+    offset-x: 5
+    offset-y: 5
+
+  29412
+    offset-x: 8
+    offset-y: 8
+
+  29415
+    offset-x: 4
+    offset-y: 4
+
+  29416
+    offset-x: 4
+    offset-y: 4
+
+  29417
+    offset-x: 4
+    offset-y: 4
+
+  29419
+    offset-x: 8
+    offset-y: 8
+
+  29420
+    offset-x: 5
+    offset-y: 5
+
+  29421
+    offset-x: 3
+    offset-y: 3
+
+  29422
+    offset-x: 7
+    offset-y: 7
+
+  29423
+    offset-x: 13
+    offset-y: 13
+
+  29425
+    offset-x: 5
+    offset-y: 5
+
+  29988
+    main-color: #210e0f
+
+  29989
+    main-color: #0e1421
+
+  29990
+    main-color: #071100
+
+  29991
+    offset-x: -4
+    offset-y: -4
+
+  29992
+    offset-x: -4
+    offset-y: -4
+
+  29993
+    offset-x: -4
+    offset-y: -4
+
+  29994
+    offset-x: -4
+    offset-y: -4
+
+  29995
+    offset-x: -4
+    offset-y: -4
+
+  30046
+    offset-x: 6
+    offset-y: 6
+
+  30047
+    offset-x: 6
+    offset-y: 6
+
+  30048
+    offset-x: 6
+    offset-y: 6
+
+  30049
+    offset-x: 6
+    offset-y: 6
+
+  30050
+    offset-x: 8
+    offset-y: 8
+
+  30051
+    offset-x: 8
+    offset-y: 8
+
+  30052
+    offset-x: 8
+    offset-y: 8
+
+  30053
+    offset-x: 8
+    offset-y: 8
+
+  30054
+    offset-x: 8
+    offset-y: 8
+
+  30055
+    offset-x: 8
+    offset-y: 8
+
+  30056
+    offset-x: 8
+    offset-y: 8
+
+  30057
+    offset-x: 8
+    offset-y: 8
+
+  30060;39125;39126;39127;39128;39129;39130;39131;39132;39133;39134
+    main-color: #eccc41
+
+  30064
+    offset-x: 8
+    offset-y: 8
+
+  30065
+    offset-x: 8
+    offset-y: 8
+
+  30066
+    offset-x: 8
+    offset-y: 8
+
+  30067
+    offset-x: 8
+    offset-y: 8
+
+  30170
+    main-color: #b4202a
+    animate-from-start: true
+
+  30171
+    main-color: #b4202a
+    animate-from-start: true
+
+  30172
+    main-color: #b4202a
+    animate-from-start: true
+
+  30174
+    offset-x: 9
+    offset-y: 0
+
+  30175
+    offset-x: 7
+    offset-y: 9
+
+  30176
+    offset-x: 7
+    offset-y: 5
+
+  30183
+    offset-x: 7
+    offset-y: 0
+
+  30184
+    offset-x: 7
+    offset-y: 0
+
+  30185
+    offset-x: 7
+    offset-y: 0
+
+  30186
+    offset-x: 0
+    offset-y: 9
+
+  30187
+    offset-x: 0
+    offset-y: 9
+
+  30188
+    offset-x: 0
+    offset-y: 9
+
+  30189
+    offset-x: 0
+    offset-y: 9
+
+  30190
+    offset-x: 0
+    offset-y: 9
+
+  30191
+    offset-x: 0
+    offset-y: 7
+
+  30192
+    offset-x: 0
+    offset-y: 7
+
+  30193
+    offset-x: 7
+    offset-y: 7
+
+  30194
+    offset-x: 7
+    offset-y: 7
+
+  30195
+    offset-x: 7
+    offset-y: 7
+
+  30196
+    offset-x: 7
+    offset-y: 7
+
+  30197
+    offset-x: 7
+    offset-y: 7
+
+  30198
+    offset-x: 7
+    offset-y: 7
+
+  30199
+    offset-x: 7
+    offset-y: 7
+
+  30200
+    offset-x: 7
+    offset-y: 7
+
+  30201
+    offset-x: 7
+    offset-y: 7
+
+  30202
+    offset-x: 7
+    offset-y: 7
+
+  30203
+    offset-x: 7
+    offset-y: 7
+
+  30204
+    offset-x: 7
+    offset-y: 7
+
+  30235
+    offset-x: -13
+    offset-y: -13
+
+  30236
+    offset-x: -13
+    offset-y: -13
+
+  30237
+    offset-x: -13
+    offset-y: -13
+
+  30238
+    offset-x: -13
+    offset-y: -13
+
+  30239
+    offset-x: -13
+    offset-y: -13
+
+  30240
+    offset-x: -13
+    offset-y: -13
+
+  30241
+    offset-x: -13
+    offset-y: -13
+
+  30242
+    offset-x: -13
+    offset-y: -13
+
+  30243
+    offset-x: -13
+    offset-y: -13
+
+  30247
+    offset-x: -13
+    offset-y: -13
+
+  30248
+    offset-x: -13
+    offset-y: -13
+
+  30249
+    offset-x: -13
+    offset-y: -13
+
+  30250
+    offset-x: -13
+    offset-y: -13
+
+  30251
+    offset-x: -13
+    offset-y: -13
+
+  30252
+    offset-x: -13
+    offset-y: -13
+
+  30256
+    offset-x: -13
+    offset-y: -13
+
+  30257
+    offset-x: -13
+    offset-y: -13
+
+  30258
+    offset-x: -13
+    offset-y: -13
+
+  30561
+    offset-x: 6
+    offset-y: 6
+
+  30562
+    offset-x: 3
+    offset-y: 3
+
+  30563
+    offset-x: 5
+    offset-y: 5
+
+  30564
+    offset-x: 4
+    offset-y: 4
+
+  30565
+    offset-x: 1
+    offset-y: 1
+
+  30566
+    offset-x: 6
+    offset-y: 6
+
+  30567
+    offset-x: 3
+    offset-y: 3
+
+  30568
+    offset-x: 5
+    offset-y: 5
+
+  30569
+    offset-x: 4
+    offset-y: 4
+
+  30570
+    offset-x: 1
+    offset-y: 1
+
+  30571
+    offset-x: 6
+    offset-y: 6
+
+  30572
+    offset-x: 3
+    offset-y: 3
+
+  30573
+    offset-x: 5
+    offset-y: 5
+
+  30574
+    offset-x: 4
+    offset-y: 4
+
+  30575
+    offset-x: 1
+    offset-y: 1
+
+  30576
+    offset-x: 6
+    offset-y: 6
+
+  30577
+    offset-x: 3
+    offset-y: 3
+
+  30578
+    offset-x: 5
+    offset-y: 5
+
+  30579
+    offset-x: 4
+    offset-y: 4
+
+  30580
+    offset-x: 1
+    offset-y: 1
+
+  30581
+    offset-x: 6
+    offset-y: 6
+
+  30582
+    offset-x: 3
+    offset-y: 3
+
+  30583
+    offset-x: 5
+    offset-y: 5
+
+  30584
+    offset-x: 4
+    offset-y: 4
+
+  30585
+    offset-x: 1
+    offset-y: 1
+
+  30586
+    offset-x: 6
+    offset-y: 6
+
+  30587
+    offset-x: 3
+    offset-y: 3
+
+  30588
+    offset-x: 5
+    offset-y: 5
+
+  30589
+    offset-x: 4
+    offset-y: 4
+
+  30590
+    offset-x: 1
+    offset-y: 1
+
+  30591
+    offset-x: 6
+    offset-y: 6
+
+  30592
+    offset-x: 3
+    offset-y: 3
+
+  30593
+    offset-x: 5
+    offset-y: 5
+
+  30594
+    offset-x: 4
+    offset-y: 4
+
+  30595
+    offset-x: 1
+    offset-y: 1
+
+  30596
+    offset-x: 6
+    offset-y: 6
+
+  30597
+    offset-x: 3
+    offset-y: 3
+
+  30598
+    offset-x: 5
+    offset-y: 5
+
+  30599
+    offset-x: 4
+    offset-y: 4
+
+  30600
+    offset-x: 1
+    offset-y: 1
+
+  30601
+    offset-x: 6
+    offset-y: 6
+
+  30602
+    offset-x: 3
+    offset-y: 3
+
+  30603
+    offset-x: 5
+    offset-y: 5
+
+  30604
+    offset-x: 4
+    offset-y: 4
+
+  30605
+    offset-x: 1
+    offset-y: 1
+
+  31226
+    offset-x: 8
+    offset-y: 8
+
+  31724;31725;31726
+    middle: true
+    offset-x: 18
+    offset-y: 18
+  17370;17371
+    offset-y: -6
+  17368;17369;26620;26621
+    offset-x: -6
+  2494;2493
+    offset-x: -10
+  34439
+    offset-x: 4
+    offset-y: -8
+  34436;34435
+    offset-x: 6
+    offset-y: -4
+  34440
+    offset-y: -12
+  34433;34434
+    offset-x: -8
+    offset-y: 4
+  34066;39354
+    offset-x: -12
+  29647;29648;29651
+    offset-x: 6
+    offset-y: -10
+  31841
+    offset-x: 9
+    offset-y: 9
+
+  31846
+    offset-x: 6
+    offset-y: 6
+
+  31943;31945;31947;31949;31951
+    offset-x: 7
+    offset-y: 0
+
+  31944
+    offset-x: 0
+    offset-y: 7
+
+  31946
+    offset-x: 0
+    offset-y: 7
+
+  31948
+    offset-x: 0
+    offset-y: 7
+
+  31950
+    offset-x: 0
+    offset-y: 7
+
+  31952
+    offset-x: 0
+    offset-y: 7
+
+  32260
+    offset-x: 7
+    offset-y: 0
+
+  32261
+    offset-x: 0
+    offset-y: 7
+
+  32300
+    offset-x: -4
+    offset-y: -4
+
+  32301
+    offset-x: -4
+    offset-y: -4
+
+  32302
+    offset-x: -4
+    offset-y: -4
+
+  32303
+    offset-x: -4
+    offset-y: -4
+
+  32304
+    offset-x: -4
+    offset-y: -4
+
+  32305
+    offset-x: -4
+    offset-y: -4
+
+  32306
+    offset-x: -4
+    offset-y: -4
+
+  32307
+    offset-x: -4
+    offset-y: -4
+
+  32308
+    offset-x: -4
+    offset-y: -4
+
+  32309
+    offset-x: -4
+    offset-y: -4
+
+  32310
+    offset-x: -4
+    offset-y: -4
+
+  32311
+    offset-x: -4
+    offset-y: -4
+
+  32312
+    offset-x: -4
+    offset-y: -4
+
+  32313
+    offset-x: -4
+    offset-y: -4
+
+  32314
+    offset-x: -4
+    offset-y: -4
+
+  32315
+    offset-x: -4
+    offset-y: -4
+
+  32316
+    offset-x: -4
+    offset-y: -4
+
+  32317
+    offset-x: -4
+    offset-y: -4
+
+  32318
+    offset-x: -4
+    offset-y: -4
+
+  32319
+    offset-x: -4
+    offset-y: -4
+
+  32320
+    offset-x: -4
+    offset-y: -4
+
+  32321
+    offset-x: -4
+    offset-y: -4
+
+  32322
+    offset-x: -4
+    offset-y: -4
+
+  32323
+    offset-x: -4
+    offset-y: -4
+
+  32324
+    offset-x: -4
+    offset-y: -4
+
+  32325
+    offset-x: -4
+    offset-y: -4
+
+  32326
+    offset-x: -4
+    offset-y: -4
+
+  32327
+    offset-x: -4
+    offset-y: -4
+
+  32328
+    offset-x: -4
+    offset-y: -4
+
+  32993
+    offset-x: 6
+    offset-y: 6
+
+  32994
+    offset-x: 3
+    offset-y: 3
+
+  32995
+    offset-x: 5
+    offset-y: 5
+
+  32996
+    offset-x: 4
+    offset-y: 4
+
+  32997
+    offset-x: 1
+    offset-y: 1
+
+  33002
+    offset-x: 6
+    offset-y: 6
+
+  33003
+    offset-x: 3
+    offset-y: 3
+
+  33004
+    offset-x: 5
+    offset-y: 5
+
+  33005
+    offset-x: 4
+    offset-y: 4
+
+  33006
+    offset-x: 1
+    offset-y: 1
+
+  33011
+    offset-x: 6
+    offset-y: 6
+
+  33012
+    offset-x: 3
+    offset-y: 3
+
+  33013
+    offset-x: 5
+    offset-y: 5
+
+  33014
+    offset-x: 4
+    offset-y: 4
+
+  33015
+    offset-x: 1
+    offset-y: 1
+
+  33020
+    offset-x: 6
+    offset-y: 6
+
+  33021
+    offset-x: 3
+    offset-y: 3
+
+  33022
+    offset-x: 5
+    offset-y: 5
+
+  33023
+    offset-x: 4
+    offset-y: 4
+
+  33024
+    offset-x: 1
+    offset-y: 1
+
+  33029
+    offset-x: 6
+    offset-y: 6
+
+  33030
+    offset-x: 3
+    offset-y: 3
+
+  33031
+    offset-x: 5
+    offset-y: 5
+
+  33032
+    offset-x: 4
+    offset-y: 4
+
+  33033
+    offset-x: 1
+    offset-y: 1
+
+  33038
+    offset-x: 6
+    offset-y: 6
+
+  33039
+    offset-x: 3
+    offset-y: 3
+
+  33040
+    offset-x: 5
+    offset-y: 5
+
+  33041
+    offset-x: 4
+    offset-y: 4
+
+  33042
+    offset-x: 1
+    offset-y: 1
+
+  33074
+    offset-x: -4
+    offset-y: -4
+
+  33075
+    offset-x: -4
+    offset-y: -4
+
+  33076
+    offset-x: -4
+    offset-y: -4
+
+  33077
+    offset-x: -4
+    offset-y: -4
+
+  33078
+    offset-x: -4
+    offset-y: -4
+
+  33196
+    offset-x: 6
+    offset-y: 6
+
+  33197
+    offset-x: 3
+    offset-y: 3
+
+  33198
+    offset-x: 5
+    offset-y: 5
+
+  33199
+    offset-x: 4
+    offset-y: 4
+
+  33200
+    offset-x: 1
+    offset-y: 1
+
+  33205
+    offset-x: 6
+    offset-y: 6
+
+  33206
+    offset-x: 3
+    offset-y: 3
+
+  33207
+    offset-x: 5
+    offset-y: 5
+
+  33208
+    offset-x: 4
+    offset-y: 4
+
+  33209
+    offset-x: 1
+    offset-y: 1
+
+  33214
+    offset-x: 6
+    offset-y: 6
+
+  33215
+    offset-x: 3
+    offset-y: 3
+
+  33216
+    offset-x: 5
+    offset-y: 5
+
+  33217
+    offset-x: 4
+    offset-y: 4
+
+  33218
+    offset-x: 1
+    offset-y: 1
+
+  33223
+    offset-x: 6
+    offset-y: 6
+
+  33224
+    offset-x: 3
+    offset-y: 3
+
+  33225
+    offset-x: 5
+    offset-y: 5
+
+  33226
+    offset-x: 4
+    offset-y: 4
+
+  33227
+    offset-x: 1
+    offset-y: 1
+
+  33232
+    offset-x: 6
+    offset-y: 6
+
+  33233
+    offset-x: 3
+    offset-y: 3
+
+  33234
+    offset-x: 5
+    offset-y: 5
+
+  33235
+    offset-x: 4
+    offset-y: 4
+
+  33236
+    offset-x: 1
+    offset-y: 1
+
+  33241
+    offset-x: 6
+    offset-y: 6
+
+  33242
+    offset-x: 3
+    offset-y: 3
+
+  33243
+    offset-x: 5
+    offset-y: 5
+
+  33244
+    offset-x: 4
+    offset-y: 4
+
+  33245
+    offset-x: 1
+    offset-y: 1
+
+  33250
+    offset-x: 6
+    offset-y: 6
+
+  33251
+    offset-x: 3
+    offset-y: 3
+
+  33252
+    offset-x: 5
+    offset-y: 5
+
+  33253
+    offset-x: 4
+    offset-y: 4
+
+  33254
+    offset-x: 1
+    offset-y: 1
+
+  33259
+    offset-x: 6
+    offset-y: 6
+
+  33260
+    offset-x: 3
+    offset-y: 3
+
+  33261
+    offset-x: 5
+    offset-y: 5
+
+  33262
+    offset-x: 4
+    offset-y: 4
+
+  33263
+    offset-x: 1
+    offset-y: 1
+
+  33268
+    offset-x: 6
+    offset-y: 6
+
+  33269
+    offset-x: 3
+    offset-y: 3
+
+  33270
+    offset-x: 5
+    offset-y: 5
+
+  33271
+    offset-x: 4
+    offset-y: 4
+
+  33272
+    offset-x: 1
+    offset-y: 1
+
+  33277
+    offset-x: 6
+    offset-y: 6
+
+  33278
+    offset-x: 3
+    offset-y: 3
+
+  33279
+    offset-x: 5
+    offset-y: 5
+
+  33280
+    offset-x: 4
+    offset-y: 4
+
+  33281
+    offset-x: 1
+    offset-y: 1
+
+  33286
+    offset-x: 6
+    offset-y: 6
+
+  33287
+    offset-x: 3
+    offset-y: 3
+
+  33288
+    offset-x: 5
+    offset-y: 5
+
+  33289
+    offset-x: 4
+    offset-y: 4
+
+  33290
+    offset-x: 1
+    offset-y: 1
+
+  33406
+    offset-x: 6
+    offset-y: 6
+
+  33407
+    offset-x: 3
+    offset-y: 3
+
+  33408
+    offset-x: 5
+    offset-y: 5
+
+  33409
+    offset-x: 4
+    offset-y: 4
+
+  33410
+    offset-x: 1
+    offset-y: 1
+
+  33412
+    offset-x: 8
+    offset-y: 5
+
+  33413
+    offset-x: 8
+    offset-y: 5
+
+  33414
+    offset-x: 8
+    offset-y: 5
+
+  33689
+    offset-x: 8
+    offset-y: 8
+
+  33719
+    offset-x: 1
+    offset-y: 1
+
+  33721
+    offset-x: 1
+    offset-y: 1
+    collision: true
+    collision-size: 1 0
+
+  33722
+    offset-x: 1
+    offset-y: 1
+
+  33723
+    offset-x: 1
+    offset-y: 1
+    collision: true
+    collision-size: 1 0
+
+  33724
+    offset-x: 1
+    offset-y: 1
+
+  33725
+    offset-x: 1
+    offset-y: 1
+
+  33726
+    offset-x: 1
+    offset-y: 1
+
+  33727
+    offset-x: 1
+    offset-y: 1
+
+  33728
+    offset-x: 1
+    offset-y: 1
+
+  33729
+    offset-x: 1
+    offset-y: 1
+
+  33730
+    offset-x: 1
+    offset-y: 1
+
+  33731
+    offset-x: 1
+    offset-y: 1
+
+  33732
+    offset-x: 1
+    offset-y: 1
+
+  33733
+    offset-x: 1
+    offset-y: 1
+
+  33734
+    offset-x: 1
+    offset-y: 1
+
+  33735
+    offset-x: 1
+    offset-y: 1
+
+  33736
+    offset-x: 1
+    offset-y: 1
+
+  33737
+    offset-x: 1
+    offset-y: 1
+
+  33738
+    offset-x: 1
+    offset-y: 1
+
+  33739
+    offset-x: 1
+    offset-y: 1
+
+  33740
+    offset-x: 1
+    offset-y: 1
+
+  33741
+    offset-x: 1
+    offset-y: 1
+
+  33742
+    offset-x: 1
+    offset-y: 1
+
+  33744
+    offset-x: 1
+    offset-y: 1
+
+  33746
+    offset-x: 1
+    offset-y: 1
+
+  33747
+    offset-x: 1
+    offset-y: 1
+
+  33748
+    offset-x: 1
+    offset-y: 1
+
+  33749
+    offset-x: 1
+    offset-y: 1
+
+  33750
+    offset-x: 1
+    offset-y: 1
+
+  33751
+    offset-x: 1
+    offset-y: 1
+
+  33752
+    offset-x: 1
+    offset-y: 1
+
+  33753
+    offset-x: 1
+    offset-y: 1
+
+  33754
+    offset-x: 1
+    offset-y: 1
+
+  33755
+    offset-x: 1
+    offset-y: 1
+
+  33756
+    offset-x: 1
+    offset-y: 1
+
+  33757
+    offset-x: 1
+    offset-y: 1
+
+  33758
+    offset-x: 1
+    offset-y: 1
+
+  33759
+    offset-x: 1
+    offset-y: 1
+
+  33760
+    offset-x: 1
+    offset-y: 1
+
+  33761;33762;33763;33764
+    offset-x: 1
+    offset-y: 1
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+
+  //Bonfire
+  33765
+    collision-size: 1 0
+    offset-x: 32
+    offset-y: 32
+  33766
+    collision-size: 1 0
+    offset-x: 32
+    offset-y: 32
+  33767
+    collision-size: 0 1
+    offset-x: 32
+    offset-y: 32
+  33768
+    collision-size: 0 1
+    offset-x: 32
+    offset-y: 32
+
+  33769
+    offset-x: 1
+    offset-y: 1
+
+  33770
+    offset-x: 1
+    offset-y: 1
+
+  33771
+    offset-x: 1
+    offset-y: 1
+
+  33772
+    offset-x: 1
+    offset-y: 1
+
+  33773
+    offset-x: 1
+    offset-y: 1
+
+  33774
+    offset-x: 1
+    offset-y: 1
+
+  33775
+    offset-x: 1
+    offset-y: 1
+
+  33776
+    offset-x: 1
+    offset-y: 1
+
+  33777
+    offset-x: 1
+    offset-y: 1
+
+  33778
+    offset-x: 1
+    offset-y: 1
+
+  33779
+    offset-x: 1
+    offset-y: 1
+
+  33780
+    offset-x: 1
+    offset-y: 1
+
+  33781
+    offset-x: 1
+    offset-y: 1
+
+  33782
+    offset-x: 1
+    offset-y: 1
+
+  33848
+    offset-x: 3
+    offset-y: 3
+
+  33857
+    offset-x: 8
+    offset-y: 8
+
+  33876
+    offset-x: 6
+    offset-y: 6
+
+  33877
+    offset-x: 0
+    offset-y: 6
+
+  33878
+    offset-x: 0
+    offset-y: 6
+
+  33879
+    offset-x: 6
+    offset-y: 6
+
+  33880
+    offset-x: 6
+    offset-y: 0
+
+  33881
+    offset-x: 6
+    offset-y: 0
+
+  33882
+    offset-x: 6
+    offset-y: 6
+
+  33883
+    offset-x: 6
+    offset-y: 6
+
+  33884
+    offset-x: 6
+    offset-y: 6
+
+  33885
+    offset-x: 6
+    offset-y: 6
+
+  33886
+    offset-x: 6
+    offset-y: 6
+
+  33922
+    offset-x: 8
+    offset-y: -8
+
+  33923
+    offset-x: 8
+    offset-y: -8
+
+  34102
+    offset-x: 9
+    offset-y: 0
+
+  34103
+    offset-x: 0
+    offset-y: 9
+
+  34104
+    offset-x: 9
+    offset-y: 0
+
+  34105
+    offset-x: 0
+    offset-y: 9
+
+  34106
+    offset-x: 9
+    offset-y: 0
+
+  34107
+    offset-x: 0
+    offset-y: 9
+
+  34219
+    offset-x: -6
+    offset-y: -6
+
+  34223
+    offset-x: -13
+    offset-y: -13
+
+  34224
+    offset-x: -13
+    offset-y: -13
+
+  34225
+    offset-x: -13
+    offset-y: -13
+
+  34226
+    offset-x: -13
+    offset-y: -13
+
+  34227
+    offset-x: -13
+    offset-y: -13
+
+  34228
+    offset-x: -13
+    offset-y: -13
+
+  34229
+    offset-x: -13
+    offset-y: -13
+
+  34230
+    offset-x: -13
+    offset-y: -13
+
+  34231
+    offset-x: -13
+    offset-y: -13
+
+  34232
+    offset-x: -13
+    offset-y: -13
+
+  34233
+    offset-x: -13
+    offset-y: -13
+
+  34234
+    offset-x: -13
+    offset-y: -13
+
+  34235
+    offset-x: -13
+    offset-y: -13
+
+  34236
+    offset-x: -13
+    offset-y: -13
+
+  34237
+    offset-x: -13
+    offset-y: -13
+
+  34242
+    offset-x: -13
+    offset-y: -13
+
+  34243
+    offset-x: -13
+    offset-y: -13
+
+  34244
+    offset-x: -13
+    offset-y: -13
+
+  34245
+    offset-x: -13
+    offset-y: -13
+
+  34246
+    offset-x: -13
+    offset-y: -13
+
+  34247
+    offset-x: -13
+    offset-y: -13
+
+  34248
+    offset-x: -13
+    offset-y: -13
+
+  34249
+    offset-x: -13
+    offset-y: -13
+
+  34250
+    offset-x: -13
+    offset-y: -13
+
+  34312
+    offset-x: -6
+    offset-y: -6
+
+  34313
+    offset-x: -6
+    offset-y: -6
+
+  34314
+    offset-x: -6
+    offset-y: -6
+
+  34315
+    offset-x: 6
+    offset-y: 6
+
+  34316
+    offset-x: 6
+    offset-y: 6
+
+  34317
+    offset-x: 6
+    offset-y: 6
+
+  34318
+    offset-x: 6
+    offset-y: 6
+
+  34323
+    offset-x: 10
+    offset-y: 10
+
+  29647
+    middle: true
+  1294
+    bottom: true
+  26621
+    middle: true
+  34542
+    offset-x: 9
+    offset-y: 16
+    middle: true
+  34543
+    offset-x: 16
+    offset-y: 9
+    middle: true
+  34546
+    offset-x: 4
+    offset-y: 32
+  34547
+    offset-x: 32
+    offset-y: 4
+  34548
+    offset-x: 6
+    offset-y: 16
+  34549
+    offset-x: 16
+    offset-y: 6
+  34550
+    offset-x: 6
+    offset-y: 16
+  34551
+    offset-x: 16
+    offset-y: 11
+  34552
+    offset-x: 16
+    offset-y: 6
+  34553
+    offset-x: 11
+    offset-y: 16
+  34554
+    offset-x: 13
+    offset-y: 15
+  34555
+    offset-x: 16
+    offset-y: 15
+  34556
+    offset-x: 15
+    offset-y: 16
+  34557
+    offset-x: 24
+    offset-y: 14
+  34558
+    offset-x: 14
+    offset-y: 24
+  34559
+    offset-x: 26
+    offset-y: 15
+  34560
+    offset-x: 15
+    offset-y: 26
+  34570
+    offset-x: 5
+    offset-y: 5
+  34571
+    offset-x: 5
+    offset-y: 5
+  34573
+    offset-x: 21
+    offset-y: 5
+  34574
+    offset-x: 21
+    offset-y: 5
+  34671
+    offset-y: 12
+  34809
+    offset-x: 16
+    offset-y: 16
+  34923
+    collision-size: 2 2
+  34924
+    collision-size: 3 1
+  34925
+    collision-size: 1 2
+  34926
+    collision-size: 2 2
+  29186
+    collision-size: 1 0
+  34807;34808
+    collision-size: 3 1
+  34811
+    collision-size: 1 0
+  34812
+    collision-size: 0 1
+  34827
+    offset-x: 32
+    offset-y: 32
+  34828
+    offset-x: 32
+    offset-y: 32
+  34829
+    offset-x: 32
+    offset-y: 32
+  34830
+    offset-x: 32
+    offset-y: 32
+  34831
+    offset-x: 32
+    offset-y: 32
+  34832
+    offset-x: 32
+    offset-y: 32
+  34833
+    offset-x: 32
+    offset-y: 32
+  34834
+    offset-x: 32
+    offset-y: 32
+  34835
+    offset-x: 32
+    offset-y: 32
+  34836
+    offset-x: 32
+    offset-y: 32
+  34837
+    offset-x: 32
+    offset-y: 32
+  34838
+    offset-x: 32
+    offset-y: 32
+  34839
+    offset-x: 32
+    offset-y: 32
+  34840
+    offset-x: 32
+    offset-y: 32
+  34841
+    offset-x: 32
+    offset-y: 32
+  34842
+    offset-x: 32
+    offset-y: 32
+  34843
+    offset-x: 32
+    offset-y: 32
+  34844
+    offset-x: 32
+    offset-y: 32
+  34845
+    offset-x: 32
+    offset-y: 32
+  34846
+    offset-x: 32
+    offset-y: 32
+  34888
+    offset-x: 32
+  34889
+    offset-y: 32
+  34890
+    offset-y: 32
+  34891
+    offset-x: 32
+  34970
+    offset-y: 8
+  34971
+    offset-x: 8
+  34981
+    offset-y: 8
+  34982
+    offset-x: 8
+  34985
+    offset-y: 8
+  34986
+    offset-x: 8
+  34987
+    offset-y: 8
+  34988
+    offset-x: 8
+  34990
+    offset-x: 8
+  34991
+    offset-y: 8
+  34992
+    offset-x: 8
+  34993
+    offset-y: 8
+  34994
+    offset-x: 8
+  35001
+    offset-y: 32
+  35002
+    offset-x: 32
+  35003
+    offset-y: 32
+  35004
+    offset-x: 32
+  35005
+    offset-y: 32
+  35006
+    offset-x: 32
+  35007
+    offset-y: 32
+  35008
+    offset-x: 32
+  35009
+    offset-y: 32
+  35010
+    offset-x: 32
+  35015
+    offset-y: 32
+  35016
+    offset-x: 32
+  35017
+    offset-y: 32
+  35018
+    offset-x: 32
+  35023
+    offset-x: -8
+    offset-y: -8
+  35024
+    offset-x: 32
+  35025
+    offset-y: 32
+  35026
+    offset-x: 32
+  35027
+    offset-y: 32
+  35028
+    offset-x: 32
+  35349
+    animate-from-start: true
+  34672
+    offset-x: 19
+  34673
+    offset-x: 4
+    offset-y: 4
+  34674
+    offset-x: 22
+    offset-y: 22
+  34675
+    offset-x: 6
+    offset-y: 6
+  34677
+    offset-y: 19
+  34678
+    offset-x: 4
+    offset-y: 4
+  34679
+    offset-x: 22
+    offset-y: 22
+  34680
+    offset-x: 6
+    offset-y: 6
+  35360;35361;35362;35363;35364;35365;35366;35367;35368;35369;35370;35371;35372;35373;35374;35375;35376;35377;35378;35379;35380;35381;35382;35383;35384;35385;35386;35387;35388;35389;35390;35391;35392;35404;35405
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+  35394;35396
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 500
+  35417;35418
+    offset-x: 16
+    offset-y: 16
+    middle: true
+    middle-on-top: true
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+  35419
+    offset-x: 32
+    offset-y: 32
+    middle: true
+    middle-on-top: true
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+  31851
+    animate-from-start: true
+  31852
+    animate-from-start: true
+  31847
+    animate-from-start: true
+  31848
+    animate-from-start: true
+  31850
+    animate-from-start: true
+  35420
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+  35424
+    middle-on-top: true
+    collision-size: 1 3
+  35425
+    collision-size: 0 1
+  35426
+    middle-on-top: true
+    collision-size: 0 1
+  35427
+    middle-on-top: true
+    collision-size: 1 3
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+  35428
+    collision-size: 0 1
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+  35429
+    middle-on-top: true
+    collision-size: 0 1
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+  35431
+    animate-from-start: true
+    phase-durations:
+      0: 500
+      1: 500
+      2: 60
+      3: 500
+      4: 100
+      5: 500
+      6: 500
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 500
+      18: 500
+      19: 500
+      20: 100
+      21: 200
+      22: 100
+      23: 500
+      24: 500
+      25: 100
+      26: 60
+      27: 60
+  34810
+    collision-size: 1 0
+  31844
+    animate-from-start: true
+    phase-durations:
+      0: 500
+      1: 500
+      2: 500
+      3: 500
+      4: 100
+      5: 100
+      6: 200
+      7: 100
+      8: 500
+      9: 500
+      10: 100
+      11: 100
+      12: 100
+  31845
+    animate-from-start: true
+    phase-durations:
+      0: 500
+      1: 500
+      2: 500
+      3: 500
+      4: 100
+      5: 100
+      6: 200
+      7: 100
+      8: 500
+      9: 500
+      10: 100
+      11: 100
+      12: 100
+  31201
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+  31202
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+
+  34480;34482;34484;34486;34488;34490
+    collision-size: 0 1
+    collision: true
+    offset-x: 8
+  34481;34483;34485;34487;34489;34491
+    collision-size: 1 0
+    collision: true
+    offset-y: 8
+
+  34542
+    collision-size: 1 1
+  34543
+    collision-size: 1 1
+  34444
+    collision-size: 1 0
+  34445
+    collision-size: 1 0
+  34447
+    collision-size: 0 1
+  34538
+    collision-size: 0 1
+  34539
+    collision-size: 0 1
+  29196
+    collision-size: 0 1
+  34533
+    collision-size: 1 0
+  34534
+    collision-size: 1 0
+  29183
+    collision-size: 1 0
+  29195
+    collision-size: 1 0
+
+  35684
+    replace-id: 6892
+
+  35685
+    replace-id: 6900
+  34919;34920
+    collision-size: 2 1
+  34918;34921
+    collision-size: 1 2
+  34542
+    middle: true
+  35624
+    offset-x: 8
+  35625
+    offset-y: -10
+  35662;35663;35664;35665;35666;35667;35668;35669;35670;35671;35672;35673
+    animate-from-start: true
+    phase-durations:
+      0: 1000
+      1: 60
+      2: 100
+      3: 100
+      4: 1000
+      5: 100
+      6: 100
+      7: 60
+  35678;35679;35680;35681
+    groundborder: true
+  35682
+    offset-x: -1
+    offset-y: -1
+  35683
+    offset-x: -1
+    offset-y: -1
+    phase-durations:
+      0: 120
+      1: 120
+      2: 120
+      3: 120
+      4: 120
+      5: 120
+      6: 120
+      7: 120
+      8: 120
+      9: 120
+      10: 120
+      11: 120
+      12: 120
+      13: 120
+      14: 120
+      15: 120
+      16: 120
+      17: 120
+      18: 120
+      19: 120
+      20: 120
+      21: 120
+      22: 120
+      23: 120
+  35737
+    offset-x: 26
+  35738
+    offset-y: 26
+  35739
+    offset-x: 58
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+  35740
+    offset-y: 58
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+  35741
+    groundborder: true
+  35742
+    groundborder: true
+    animate-from-start: true
+    phase-durations:
+      0: 500
+      1: 100
+      2: 100
+      3: 30
+      4: 30
+      5: 30
+      6: 30
+      7: 30
+      8: 30
+      9: 30
+      10: 30
+      11: 30
+      12: 30
+      13: 30
+      14: 30
+      15: 30
+      16: 30
+      17: 30
+      18: 30
+      19: 30
+      20: 30
+      21: 30
+      22: 50
+      23: 40
+      24: 50
+      25: 80
+      26: 500
+      27: 100
+      28: 30
+      29: 30
+      30: 30
+      31: 30
+      32: 30
+      33: 30
+      34: 30
+      35: 30
+      36: 30
+      37: 30
+      38: 30
+      39: 30
+      40: 30
+      41: 30
+      42: 30
+      43: 30
+      44: 30
+      45: 30
+      46: 30
+      47: 30
+      48: 30
+      49: 30
+      50: 30
+      51: 30
+  35743
+    groundborder: true
+  35744
+    groundborder: true
+    animate-from-start: true
+    phase-durations:
+      0: 500
+      1: 100
+      2: 100
+      3: 30
+      4: 30
+      5: 30
+      6: 30
+      7: 30
+      8: 30
+      9: 30
+      10: 30
+      11: 30
+      12: 30
+      13: 30
+      14: 30
+      15: 30
+      16: 30
+      17: 30
+      18: 30
+      19: 30
+      20: 30
+      21: 30
+      22: 50
+      23: 40
+      24: 50
+      25: 80
+      26: 500
+      27: 100
+      28: 30
+      29: 30
+      30: 30
+      31: 30
+      32: 30
+      33: 30
+      34: 30
+      35: 30
+      36: 30
+      37: 30
+      38: 30
+      39: 30
+      40: 30
+      41: 30
+      42: 30
+      43: 30
+      44: 30
+      45: 30
+      46: 30
+      47: 30
+      48: 30
+      49: 30
+      50: 30
+      51: 30
+  35745
+    offset-x: 52
+    offset-y: -12
+  35747
+    offset-y: 52
+    offset-x: -10
+  35746
+    offset-x: 52
+    offset-y: -12
+    animate-from-start: true
+    phase-durations:
+      0: 50
+      1: 50
+      2: 50
+      3: 50
+      4: 60
+      5: 30
+      6: 500
+      7: 100
+      8: 80
+      9: 80
+      10: 5000
+  35748
+    offset-y: 52
+    offset-x: -10
+    animate-from-start: true
+    phase-durations:
+      0: 50
+      1: 50
+      2: 50
+      3: 50
+      4: 60
+      5: 30
+      6: 500
+      7: 100
+      8: 80
+      9: 80
+      10: 5000
+  37320
+    offset-y: 4
+    offset-x: 64
+  37321
+    offset-y: 64
+    offset-x: 4
+  35749
+    offset-x: 58
+    animate-from-start: true
+    phase-durations:
+      0: 10
+      1: 10
+      2: 10
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 120
+      9: 100
+      10: 100
+      11: 45
+      12: 60
+      13: 90
+      14: 80
+      15: 80
+      16: 5000
+  35750
+    offset-y: 58
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 120
+      9: 100
+      10: 100
+      11: 45
+      12: 60
+      13: 90
+      14: 80
+      15: 80
+      16: 60
+  35779;35780;35781;35790;35791;35792;35793;35794
+    offset-x: 1
+    offset-y: 1
+  34905;34906
+    offset-x: -8
+    offset-y: 8
+  35890;35891;35892;35893;35894;35895;35896;35897;35898;35899;35900;35901;35902;35903;35904;35905;35906;35907;35908;35909;35910;35911;35912;35913;35914;35915
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  30167;30168;30169:
+    animate-from-start: true
+    walkable: true
+    notprewalkable: true
+    block-projectile: true
+
+  35621
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+  35622
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+  36219;36220;36221;36222;36223;36224;36225;36226;36227;36228;36229
+    middle: true
+    middle-on-top: true
+    offset-x: 32
+    offset-y: 32
+  16300;16301;16302;16303;16304;16305;16306;16307;16308;16309;16310;16313;16314;16315;16316;16317;16318;16319;16320;16321;16322;16323;16324
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+  36230;36231
+    phase-durations:
+      0: 60
+      1: 100
+      2: 100
+      3: 200
+      4: 100
+      5: 100
+      6: 70
+      7: 100
+      8: 100
+      9: 200
+      10: 100
+      11: 100
+  36258;36259
+    offset-x: 16
+    offset-y: 16
+  34067;39355
+    offset-y: -10
+  36032;36034
+    offset-x: 14
+    offset-y: 6
+  36033;36035
+    offset-x: 6
+    offset-y: 14
+  36339;36340
+    offset-x: -8
+    offset-y: 10
+    animate-from-start: true
+    phase-durations:
+      0: 500
+      1: 120
+      2: 150
+      3: 80
+      4: 100
+      5: 500
+  36012;36013;36014;36015;36016
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+  36331;36332
+    animate-from-start:true
+    phase-durations:
+      0: 1000
+      1: 100
+      2: 100
+      3: 60
+      4: 60
+      5: 1000
+  36333;36334
+    phase-durations:
+      0: 1000
+      1: 60
+      2: 60
+      3: 100
+      4: 100
+      5: 1000
+  36335;36336
+    phase-durations:
+      0: 1000
+      1: 100
+      2: 100
+      3: 100
+      4: 60
+      5: 60
+      5: 1000
+  36337;36338
+    phase-durations:
+      0: 1000
+      1: 60
+      2: 60
+      3: 100
+      4: 100
+      5: 100
+      5: 1000
+  35582;35583;35584;35585;33743;33745
+    walkable: false
+    block-projectile: true
+    offset-x: 1
+    offset-y: 1
+  36926
+    animate-from-start: true
+    offset-x: 2
+    offset-y: 2
+  36923;36924;36925
+    animate-from-start: true
+    offset-x: 10
+    offset-y: 10
+  36923
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 200
+  35572;35573;35574;35575;35576
+    phase-durations:
+      0: 120
+      1: 120
+      2: 120
+      3: 120
+      4: 120
+      5: 120
+      6: 120
+      7: 120
+      8: 120
+      9: 120
+      10: 120
+      11: 120
+      12: 120
+      13: 120
+      14: 120
+      15: 120
+  33769;33771;33773
+    collision-size: 2 1
+  33770;33772;33774
+    collision-size: 1 2
+  33775;33776;33777;33778;33779;33780;33781;33782
+    collision-size: 2 2
+  33757;35508;35510;35512;35514;35545;35547;35549;35551
+    collision-size: 0 1
+  33758;35507;35509;35511;35513;35544;35546;35548;35550;29197
+    collision-size: 1 0
+  35464
+    offset-x: -8
+    offset-y: 10
+
+  36690;36691;36692;36693;36694;36695;36696;36697;36698;36699;36700;36701
+    collision-size: 1 1
+  36702;36703
+    collision-size: 1 1
+    offset-x: 20
+    offset-y: 20
+  36704;36705;36706;36707
+    collision-size: 1 1
+  36708;36709;36710;36711;36712;36713;36714;36715
+    collision-size: 1 1
+
+  37166;37167;37168;37169
+    offset-x: 8
+    offset-y: 8
+  37168
+    animate-from-start: true
+    phase-durations:
+      0: 0
+      1: 120
+      2: 140
+      3: 60
+      4: 100
+      5: 16270
+      6: 150
+      7: 60
+      8: 100
+  37310;37311;37312;37313;37314;37315;37316;37317;37318;37319;37322;37323;37324;37325;37326
+    animate-from-start: true
+    offset-x: 40
+    offset-y: 40
+  37170
+    offset-y: 64
+    offset-x: 4
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 60
+      2: 70
+      3: 60
+      4: 60
+      5: 500
+      6: 80
+      7: 80
+      8: 80
+      9: 60
+      10: 5000
+  37171
+    offset-y: 4
+    offset-x: 64
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 60
+      2: 70
+      3: 60
+      4: 60
+      5: 500
+      6: 80
+      7: 80
+      8: 80
+      9: 60
+      10: 5000
+  37304;37305;37306;37307;37308;37309
+    offset-y: 16
+    offset-x: 16
+  34092
+    offset-y: 2
+    offset-x: -10
+  34777
+    collision-size: 0 1
+  34778
+    collision-size: 1 0
+
+  38158
+    middle: true
+    offset-x: 40
+    offset-y: 4
+
+  38159
+    offset-x: 8
+    offset-y: 4
+
+  38160
+    offset-x: 8
+    offset-y: 4
+
+  38158
+    stable-mounts: female
+
+  38159
+    stable-mounts: male
+
+  38361;38358;38361;38360;38358;38361
+    offset-x: 32
+    offset-y: 32
+
+  30532
+    offset-y: -32
+
+  30533
+    offset-x: -32
+
+  33374
+    collision-size: 1 1
+    collision: true
+
+  38406
+    offset-x: 32
+    offset-y: 32
+
+  29198
+    collision: true
+    collision-size: 0 1
+
+  33378;33381;33382;33383
+    collision: true
+    collision-size: 1 0
+  33373;33377
+    collision: true
+    collision-size: 1 1
+  38362
+    collision: true
+    collision-size: 2 0
+
+  38382;38383;38384;38385
+    offset-x: 8
+    offset-y: 8
+
+  37658
+    offset-y: 8
+
+  38363
+    collision: true
+    collision-size: 4 1
+
+  3493
+    offset-x: 10
+    offset-y: 8
+  3494
+    offset-x: 12
+    offset-y: 8
+  3495
+    offset-x: 42
+    offset-y: 9
+  3496
+    offset-x: 10
+    offset-y: 24
+
+  38623;38624
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 500
+      1: 500
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 500
+      11: 100
+      12: 100
+      13: 70
+      14: 100
+      15: 100
+      16: 200
+      17: 150
+      18: 120
+      19: 100
+      20: 500
+      21: 500
+
+  38625;38626
+    offset-x: 32
+    offset-y: 32
+
+  38678;38679;38680;38681;38682;38683
+    offset-x: 32
+    offset-y: 32
+
+  38676;38677
+    offset-x: 6
+    offset-y: 6
+
+  38702;38703;38704;38705;38706;38707;38708;38709
+    offset-x: 32
+    offset-y: 32
+
+  38601;38602;38603;38604;38605;38606;38607;38608;38609;38610;38611;38612;38613;38614;38615;38616
+    phase-durations:
+      0: 250
+      1: 250
+      2: 250
+      3: 250
+
+  38571;38572;38573;38574;38575;38685;38686;38687;38688;38689
+    offset-x: 32
+    offset-y: 32
+
+  38711
+    offset-y: -32
+  38712
+    offset-x: -32
+
+  38692;38693;38694;38695;38696;38697;38698;38699;38700;38701
+    offset-x: 16
+    offset-y: 16
+    groundborder: false
+    bottom: true
+
+  38642
+    offset-x: 5
+    offset-y: 5
+
+  38643
+    offset-x: 3
+    offset-y: 3
+
+  38644
+    offset-x: 13
+    offset-y: 13
+
+  38645;38638
+    offset-x: 8
+    offset-y: 8
+
+  // Lost Equipment
+  38370;38374
+    offset-x: 5
+    offset-y: 5
+  38371
+    offset-x: 6
+    offset-y: 6
+  38372;38373
+    offset-x: 3
+    offset-y: 3
+
+  // Demonic Candles
+  38354;38355;38356;38357;38358;38359;38360;38361
+    offset-x: 32
+    offset-y: 32
+
+  // Broken ice
+  38562;38563;38564;38565
+    offset-x: 32
+    offset-y: 32
+
+  // Dwarven book walls
+  38395;38396
+    offset-x: 7
+    offset-y: 8
+
+  38285;38286;38287;38288;38289;38290;38291;38292;38293;38294;38295;38296;38297;38298;38299;38300;38301;38302;38303;38304;38305;38306;38307;38308;38309
+    offset-x: 2
+    offset-y: 2
+
+  38627;38628;38629;38630
+    offset-x: 32
+    offset-y: 32
+
+  31471
+    collision-size: 1 1
+    collision: true
+
+  38723;38724
+    offset-x: 6
+    offset-y: 6
+
+  // Treasure Room
+  // Boxes and Chests
+  37704;37705;37708;37709;37710;37711;37715;37716;37717;37718;37721;37722;37727;37728;37729;37730
+    offset-x: 6
+    offset-y: 6
+
+  37706;37707
+    offset-x: 7
+    offset-y: 7
+
+  // Gold Coins
+  37907;37908
+    offset-x: 6
+    offset-y: 6
+
+  37911;37912;37917;37918
+    offset-x: 1
+    offset-y: 1
+
+  37919;37920;37923;37924
+    offset-x: 7
+    offset-y: 7
+
+  37921;37922;37925;37926
+    offset-x: 9
+    offset-y: 9
+
+  37935
+    collision-size: 1 0
+    collision: true
+  //
+
+  35623
+    offset-x: 16
+    offset-y: 16
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+
+  38519
+    offset-x: 32
+    offset-y: 32
+    collision: true
+    collision-size: 1 1
+
+  38520
+    offset-x: 16
+    offset-y: 16
+    collision: true
+    collision-size: 2 2
+    phase-durations:
+      0: 180
+      1: 180
+      2: 180
+      3: 180
+      4: 180
+
+  31196
+    offset-x: 4
+    offset-y: 4
+
+  38773
+    offset-x: 12
+    offset-y: 10
+
+  32886
+    offset-x: -24
+    offset-y: -16
+
+  32889
+    offset-x: -16
+    offset-y: -24
+
+  38852
+    offset-x: 32
+    offset-y: 32
+
+  38760;38761;38762;38763
+    collision-size: 1 1
+    collision: true
+
+  38764;38765;38768;38769;38770;38771
+    collision-size: 1 1
+    collision: true
+
+  38927
+    collision-size: 1 1
+    collision: true
+
+  38942:
+    offset-x: 2
+    offset-y: 2
+
+  38920
+    offset-x: 32
+    offset-y: 32
+
+  38921;38922;38923
+    offset-x: 32
+    offset-y: 32
+
+  38917
+    offset-x: 32
+    offset-y: 32
+
+  38934
+    offset-x: -12
+    collision-size: 2 1
+    collision: true
+
+  38936
+    offset-x: 24
+    offset-y: 10
+    collision-size: 2 2
+    collision: true
+
+  38935
+    offset-x: 4
+    offset-y: 13
+
+  38937
+    offset-x: 13
+    offset-y: 17
+
+  38928;38931
+    offset-x: 24
+    offset-y: 24
+  
+  38944;38945;38946;38950;38951;38952
+    offset-x: 16
+    offset-y: 16
+
+  38947;38948;38949;38953;38954;38955
+    offset-x: 16
+    offset-y: 16
+    collision-size: 1 0
+    collision: true
+
+  38949;38955
+    offset-x: 16
+    offset-y: 16
+    collision-size: 1 1
+    collision: true
+
+  35553
+    collision-size: 0 1
+  35554
+    collision-size: 1 0
+  35555
+    collision-size: 1 0
+  35556
+    collision-size: 0 1
+
+  35565;35566;35567;38925;38926
+    collision-size: 2 0
+    collision: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+
+  //ranger's company
+  38863
+    collision-size: 0 1
+    collision: true
+  38864
+    collision-size: 1 0
+    collision: true
+  38871
+    collision-size: 0 1
+    collision: true
+  38872
+    collision-size: 1 0
+    collision: true
+  38873
+    offset-y: 32
+    collision-size: 2 1
+    collision: true
+  38874
+    offset-x: 32
+    collision-size: 1 2
+    collision: true
+  38875
+    collision-size: 0 2
+    collision: true
+  38876
+    collision-size: 2 0
+    collision: true
+  38877
+    collision-size: 1 1
+    collision: true
+  38878
+    collision-size: 1 1
+    collision: true
+  38879
+    collision-size: 2 1
+    collision: true
+  38880
+    collision-size: 1 2
+    collision: true
+
+  38977
+    offset-x: 5
+    offset-y: 5
+  38979
+    offset-x: 3
+    offset-y: 3
+
+  38999;39000;39001;39005
+    collision-size: 1 0
+    collision: true
+  39002;39003;39004;39006
+    collision-size: 0 1
+    collision: true
+
+  39021
+    offset-x: 6
+    offset-y: 6
+    collision-size: 1 1
+    collision: true
+  39022
+    offset-x: 12
+  39023
+    offset-y: 12
+  39024;39025;39026;39027;39028;39029;39030;39031;39032;39033;39034
+    offset-x: 4
+    offset-y: 4
+  39035;39036;39037
+    offset-x: 30
+    offset-y: 30
+  39043;39044;39045
+    offset-x: 4
+    offset-y: 4
+
+  //burning tents
+  38921
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 64
+  38922
+    animate-from-start: true
+    offset-x: 64
+    offset-y: 32
+  38923
+    animate-from-start: true
+    offset-x: 64
+    offset-y: 64
+
+  39108;39109
+    offset-y: 8
+
+  39110;39223;39225
+    animate-from-start: true
+    offset-y: 8
+    collision-size: 1 1
+    collision: true
+
+  39107;39224;39226
+    animate-from-start: true
+    offset-y: 8
+    collision-size: 2 1
+    collision: true
+
+  39223;39224
+    frame-sound:
+      1: 938377177
+  39225;39226
+    frame-sound:
+      1: 653531507
+  38931
+    frame-sound:
+      1: 1928372623
+
+  //dead bodies
+  39104;39105
+    offset-x: 32
+    offset-y: 32
+
+  //supply cart
+  39066;39106
+    offset-x: 32
+    offset-y: 32
+    collision-size: 1 0
+    collision: true
+  39067
+    offset-x: 32
+    offset-y: 32
+
+  //cauldrons
+  31901;39111;39112;39113;39114;39115;39116;39117;39118;39119
+    offset-x: 8
+    offset-y: 8
+
+  //colored alchemy tables
+  39168;39170;39172
+    collision-size: 0 1
+    collision: true
+  39169;39171;39173
+    collision-size: 1 0
+    collision: true
+
+  39209
+    offset-x: 32
+    offset-y: 32
+  39210
+    offset-x: 32
+    offset-y: 32
+  39211;39212
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 400
+  39213
+    offset-x: 32
+  39214
+    offset-y: 32
+  39270
+    offset-x: 32
+  39271
+    offset-y: 32
+  39215;39216
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 500
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 500
+      15: 150
+      16: 150
+      17: 150
+      18: 150
+      19: 150
+      20: 150
+      21: 150
+      22: 150
+      23: 150
+      24: 150
+      25: 400
+
+  39157;39158;39159
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  39189
+    collision-size: 0 1
+    collision: true
+  39190
+    collision-size: 1 0
+    collision: true
+  39191
+    collision-size: 0 1
+    collision: true
+  39192
+    collision-size: 1 0
+    collision: true
+  39193
+    collision-size: 0 2
+    collision: true
+  39194
+    collision-size: 2 0
+    collision: true
+  39195
+    collision-size: 1 1
+    collision: true
+  39196
+    collision-size: 1 1
+    collision: true
+  39197
+    collision-size: 2 1
+    collision: true
+  39198
+    collision-size: 1 2
+    collision: true
+
+  39205;39206
+    collision-size: 7 2
+    collision: true
+  39207;39208
+    collision-size: 2 7
+    collision: true
+
+  39268
+    collision-size: 1 0
+    collision: true
+  39269
+    collision-size: 0 1
+    collision: true
+
+  39275;39277;39290
+    offset-x: 32
+    collision-size: 2 0
+    collision: true
+  39276;39278;39289
+    offset-y: 32
+    collision-size: 0 2
+    collision: true
+  39279;39280
+    offset-x: 32
+    offset-y: 32
+  39289;39290
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 600
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+  39291
+    offset-x: 32
+  39292
+    offset-y: 32
+
+  39231
+    collision-size: 1 0
+    collision: true
+  39232
+    collision-size: 0 1
+    collision: true
+
+  39233
+    offset-x: -5
+  39234
+    offset-y: -5
+
+  39245
+    offset-x: -5
+  39246
+    offset-y: -5
+  39247
+    offset-x: -5
+  39248
+    offset-y: -5
+  39249
+    offset-x: 8
+    offset-y: 7
+  39250
+    offset-x: 7
+    offset-y: 8
+  39251
+    offset-x: 9
+    offset-y: 8
+  39252
+    offset-x: 8
+    offset-y: 9
+  39253
+    collision-size: 0 1
+    collision: true
+  39254
+    collision-size: 1 0
+    collision: true
+
+  39255;39256
+    offset-x: 9
+    offset-y: 9
+  39259
+    offset-x: 7
+    offset-y: 7
+
+  39333;39342
+    collision-size: 0 1
+    collision: true
+  39334;39343
+    collision-size: 1 0
+    collision: true
+
+  39344
+    offset-x: 2
+  39345
+    offset-x: -7
+    offset-y: 2
+
+  39352
+    collision-size: 0 1
+    collision: true
+  39353
+    collision-size: 1 0
+    collision: true
+
+  34068;39356
+    offset-x: -10
+  34069;39357
+    offset-y: -10
+
+  39390;39391;39394;39395
+    collision-size: 1 0
+    collision: true
+  39392;39393;39396;39397
+    collision-size: 0 1
+    collision: true
+
+  39416;39417;39418
+    collision-size: 1 0
+    collision: true
+  39423;39424;39425
+    collision-size: 1 0
+    collision: true
+
+  39434
+    offset-x: 29
+    offset-y: 29
+    phase-durations:
+      0: 50
+      1: 100
+      2: 80
+      3: 50
+      4: 50
+      5: 50
+      6: 80
+      7: 80
+      8: 80
+      9: 80
+      10: 50
+      11: 50
+
+  39205;39206;39207;39208
+    offset-x: 96
+    offset-y: 96
+
+  39456;39457
+    offset-x: 5
+    offset-y: 5
+
+  39458
+    offset-x: 58
+    offset-y: 58
+
+  39481
+    offset-x: 32
+
+  39486;39487
+    offset-x: 32
+    offset-y: 32
+
+  34536
+    offset-x: 8
+  
+  38096
+    bottom: false
+    groundborder: true
+
+  7916;7917
+    offset-x: -6
+    offset-y: -4
+
+  7918;7919
+    offset-x: -4
+    offset-y: -6
+
+  29151
+    offset-y: -13
+  29152
+    offset-x: -13
+
+  38733;38734
+    offset-x: 8
+    offset-y: 8
+
+  39243
+    collision-size: 0 1
+    collision: true
+  39244
+    collision-size: 1 0
+    collision: true
+
+  39266
+    collision-size: 0 1
+    collision: true
+  39267
+    collision-size: 1 0
+    collision: true
+
+  39496;39497
+    offset-x: 32
+    offset-y: 32
+
+  39498;39499;39500
+    offset-x: 32
+    offset-y: 32
+
+  39499
+    phase-durations:
+      0: 500
+      1: 300
+      2: 200
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 1000
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+      26: 100
+      27: 100
+      28: 100
+      29: 100
+
+  // Twitch Bunny Chef
+  39505;39506;39507
+    0: 250
+    1: 250
+    2: 250
+    3: 125
+    4: 125
+    5: 125
+    6: 125
+    7: 62
+    8: 62
+    9: 125
+
+  33942
+    block-projectile: true
+    notprewalkable: true
+
+  // Wagon Glaceforde with Snow
+  39293;39294;39295;39296;39297;39298;39299;39300;39301;39302;39303;39304;39305;39306;39307;39308;39309;39310;39311;39312;39323;39324;39325;39326;39327;39328;39329;39330;39331;39332
+    offset-x: 4
+    offset-y: 4
+
+  34044
+    offset-x: -5
+    offset-y: -5
+
+  39564;39565
+    offset-x: 16
+    offset-y: 16
+
+  // Hieroglyphs
+  39523;39524;39525;39526;39527;39528;39529;39530;39531;39532;39533;39534;39535;39536;39537;39538;39539;39540;39541;39542;39543;39544;39545;39546
+    phase-durations:
+      0: 300
+      1: 100
+      2: 150
+      3: 150
+      4: 150
+      5: 300
+      6: 150
+      7: 150
+      8: 150
+      9: 100
+
+  39590
+    offset-x: 32
+    offset-y: 32
+
+  39596
+    offset-x: 32
+    offset-y: 32
+
+  39614
+    collision-size: 1 1
+    collision: true
+  
+  39615;39616;39617;39618;39619;39620;39621;39622;39624
+    offset-x: 32
+    offset-y: 32
+  39620
+    animate-from-start:true    
+
+  39625;39626
+    offset-x: 32
+    offset-y: 32
+    collision-size: 1 0
+    collision: true
+  39626
+    animate-from-start:true
+  
+  39643;39644;39645;39646;39647;39648
+    offset-x: 32
+    offset-y: 32
+
+  39679
+    offset-y: -8
+  39680
+    offset-x: 8
+  39681
+    offset-y: -8
+  39682
+    offset-x: 8
+  39683
+    offset-y: -8
+  39684
+    offset-x: 8
+  39685
+    offset-y: -15
+  39686
+    offset-x: 15
+  39687
+    offset-y: -8
+  39688
+    offset-x: 8
+  39689
+    offset-y: -15
+  39690
+    offset-x: 15
+
+  39703
+    offset-y: -8
+  39704
+    offset-x: 8
+  
+  39711
+    offset-x: 8
+  39712
+    offset-y: -7
+
+  39714;39716
+    offset-x: 3
+    offset-y: 3
+  39715
+    offset-x: 1
+    offset-y: 1
+
+  39723;39724;39725
+    offset-x: 32
+    offset-y: 32
+
+  38579
+    offset-x: -4
+    offset-y: -4
+
+  39921;39922;39923;39924;39925;39926;39927;39928;39929;39930;39931;39932;39933;39934;39935;39936;39937;39938;39939;39940;39941;39942;39943;39944;39945;39946;39947
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+
+  40189;40190;40191;40192;40193;40194;40195;40196;40197;40198;40199;40200;40201;40202;40203;40204;40205;40206;40207;40208;40209;40210;40211;40212;40213;40214;40215
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+
+  39867;39868;39869
+    offset-x: -4
+    offset-y: -4
+
+  39870;39871;39872
+    animate-from-start: true
+    offset-x: -4
+    offset-y: -4
+
+  39148;39149;39150;39151;39152
+    animate-from-start: true
+    collision-size: 2 2
+    collision: true
+  
+  39148
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 500
+  
+  39153
+    animate-from-start: true
+    offset-x: 64
+    offset-y: 64
+    collision-size: 2 2
+    collision: true
+  
+  39154;39155;39156
+    animate-from-start: true
+    collision-size: 2 2
+    collision: true
+    phase-durations:
+      0: 350
+      1: 350
+  
+  39160
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 500
+
+  39161
+    animate-from-start: true
+    offset-x: 112
+    offset-y: 112
+
+  40466;40467;40468;40469;40470;40471;40472;40473;40474;40475
+    offset-x: 32
+    offset-y: 32
+    collision-size: 1 1
+    collision: true
+  
+  40381;40382;40383;40384;40385;40386;40387;40388;40389;40390;40391;40392;40393;40394
+    offset-x: 32
+    offset-y: 32
+    collision-size: 1 3
+    collision: true
+
+  40395;40396;40397;40398;40399;40400;40401;40402;40403;40404;40405;40406;40407;40408;40409;40410;40411;40412;40413;40414;40415;40416;40417;40418;40419;40420;40421;40422
+    offset-x: 32
+    offset-y: 32
+    collision-size: 3 1
+    collision: true
+
+  40423;40424;40425;40426;40427;40428;40429;40430;40431;40432;40433;40434;40435;40436
+    offset-x: 32
+    offset-y: 32
+    collision-size: 1 3
+    collision: true
+
+  34825;38256
+    collision-size: 1 0
+    collision: true
+
+  29227
+    elevation: 8
+
+  41129;41130
+    offset-x: 24
+    offset-y: 24
+
+  41133;41134;41135;41136;41137;41138;41139;41140;41141;41142;41143;41144;41145;41146;41147;41148;41149;41150;41151;41152
+    offset-x: 32
+    offset-y: 32
+  
+  40451;40446;40459;40463
+    offset-x: 8
+    offset-y: 8
+
+  40437;40438;40442;40444;40445;40447;40448;40449;40450;40452;40457;40460;40461;40462;40464
+    collision-size: 1 0
+    collision: true
+  
+  40439;40443;40454;40458
+    collision-size: 1 1
+    collision: true
+  
+  40440;40441;40453;40455;40456;40465
+    collision-size: 2 0
+    collision: true
+
+  40577;40578;40579;40580;40581;40582;40583;40584;40585;40586
+    offset-x: 32
+    offset-y: 32
+
+  40072;40073;40074;40075;40076;40077;40081;40082;40083;40084;40176;40177;40178;40179;40180;40181;40182;40183
+    collision-size: 1 1
+    collision: true
+  
+  40078
+    collision-size: 1 1
+    collision: true
+    offset-x: 20
+    offset-y: 20
+
+  40079;40080
+    collision-size: 1 1
+    collision: true
+
+  41395
+    offset-x: 32
+    offset-y: 32
+  41409
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 400
+
+  41678;41679;41680;41681;41682;41683;41684;41685;41686;41687;41688;41689;41690;41691;41692;41693;41694;41695;41696;41697;41698;41699;41700;41701;41702;41703;41704;41705
+    offset-x: 32
+    offset-y: 32
+
+  41706;41707;41708;41709;41710;41711;41712;41713;41714;41715;41716;41717;41718;41719;41720;41721;41722;41723;41724;41725;41726;41727
+    offset-x: 32
+    offset-y: 32
+    collision-size: 1 1
+    collision: true
+
+  41728
+    hidden: true
+  
+  41764;41765;41766;41767;41768;41769;41770;41771;41772;41773;41774;41775;41776;41777;41778;41779;41780;41781;41782;41783;41784;41785;41786;41787;41788;41789;41790;41791
+    offset-x: 12
+    offset-y: 12
+  41794;41801;41804;41809;41816;41823
+    offset-x: 12
+    offset-y: 12
+
+  29626
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 50
+      6: 50
+      7: 100
+      8: 100
+
+  41672;41673;41674;41675
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  41979;41980
+    offset-x: 8
+    offset-y: 8
+
+  40569;40570;40571;40572;40573;40574;40575;40576
+    offset-x: 2
+    offset-y: 2
+
+  42006
+    offset-x: 32
+    offset-y: 24
+    collision-size: 4 5
+    collision: true
+
+  39412
+    collision-size: 1 0
+    collision: true
+  39420
+    collision-size: 0 1
+    collision: true
+
+  41977
+    offset-x: 32
+    offset-y: 64
+
+  41978
+    offset-x: 32
+    offset-y: 64
+    top: true
+
+  33918
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  43213;43214;43215;43216;43217;43218;43219;43220;43221;43222;43223;43224;43225;43228;43229
+    offset-x: 32
+    offset-y: 32
+
+  43883;43884;43885;43886;43887;43888;43889;43890;43891;43892;43893;43894
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+  43884
+    phase-durations:
+      0: 500
+      1: 500
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+
+  43993;43994;43995;43996;43997;43998;43999;44000;44001;44002;44003;44004;44005;44006;44007;44008;44009;44010;44011;44012
+    offset-x: 32
+    offset-y: 32
+
+  44013;44014;44015;44016;44017;44018;44019;44020;44021;44022;44023;44024;44025;44026;44027;44028;44029;44030;44031;44032;44033;44034;44035;44036;44037
+    offset-x: 6
+    offset-y: 6
+
+  44038;44039;44040;44041;44042;44043
+    offset-x: 12
+    offset-y: 12
+
+  44044;44045;44046;44047;44048;44049;44050;44051;44052;44053;44054;44055;44056;44057;44058
+    offset-x: 4
+    offset-y: 4
+
+  44059;44060;44061;44062;44063;44064
+    offset-x: 8
+    offset-y: 8
+
+  44071;44072;44073
+    offset-x: 14
+    offset-y: 14
+
+  44098
+    offset-x: 8
+    offset-y: 8
+  44099
+    offset-x: 8
+    offset-y: 8
+  44100
+    offset-x: 4
+    offset-y: 4
+  44101
+    offset-x: 4
+    offset-y: 4
+  44102
+    offset-x: 18
+    offset-y: 18
+  44103
+    offset-x: 18
+    offset-y: 18
+  44104
+    offset-x: 18
+    offset-y: 18
+  44105
+    offset-x: 20
+    offset-y: 20
+  44106
+    offset-x: 20
+    offset-y: 20
+
+  44107
+    offset-x: 8
+    offset-y: 8
+  44108
+    offset-x: 8
+    offset-y: 8
+  44109
+    offset-x: 4
+    offset-y: 4
+  44110
+    offset-x: 4
+    offset-y: 4
+  44111
+    offset-x: 18
+    offset-y: 18
+  44112
+    offset-x: 18
+    offset-y: 18
+  44113
+    offset-x: 18
+    offset-y: 18
+  44114
+    offset-x: 20
+    offset-y: 20
+  44115
+    offset-x: 20
+    offset-y: 20
+
+  44074;44075;44076;44077;44078;44079;44080;44081;44082;44083;44084;44085;44086;44087;44088;44089;44090;44091;44092;44093;44094;44095;44096;44097
+    offset-x: 3
+    offset-y: 3
+
+  44137;44138
+    offset-x: 32
+    offset-y: 32
+
+  39640;39641;42775;42776
+    offset-x: 10
+    offset-y: 10
+
+  44230;44231;44232
+    offset-y: 6
+
+  39639;39640;39641;39642
+    offset-x: 10
+    offset-y: -10
+
+  44298;44299;44300;44301;44302;44303;44304
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  44383
+    animate-from-start: true
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+      4: 200
+      5: 200
+      6: 200
+      7: 200
+      8: 200
+      9: 200
+      10: 200
+      11: 200
+      12: 1000
+      13: 200
+      14: 200
+      15: 200
+      16: 500
+      17: 150
+      18: 150
+      19: 150
+      20: 150
+      21: 150
+      22: 150
+      23: 150
+      24: 150
+      25: 150
+      26: 150
+      27: 150
+      28: 150
+      29: 150
+      30: 150
+      31: 150
+      32: 150
+      33: 150
+      34: 150
+      35: 150
+  
+  44305;44373
+    animate-from-start: true
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+      4: 200
+      5: 200
+      6: 200
+      7: 200
+      8: 200
+      9: 200
+      10: 200
+      11: 200
+      12: 200
+      13: 200
+      14: 200
+      15: 200
+      16: 200
+      17: 200
+      18: 200
+      19: 1000
+      20: 200
+      21: 200
+      22: 200
+      23: 200
+      24: 200
+      25: 200
+      26: 200
+      27: 200
+      28: 200
+      29: 1000
+      30: 200
+      31: 200
+      32: 200
+      33: 200
+      34: 200
+      35: 200
+      36: 200
+      37: 200
+      38: 200
+      39: 200
+      40: 200
+      41: 200
+      42: 200
+      43: 200
+      44: 200
+      45: 200
+      46: 200
+      47: 200
+      48: 200
+      49: 200
+      50: 200
+
+  44306
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 200
+      5: 1000
+      6: 100
+      7: 100
+      8: 1000
+      9: 100
+      10: 100
+      11: 100
+      12: 500
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+      26: 100
+      27: 100
+      28: 100
+      29: 100
+      30: 100
+      31: 100
+      32: 100
+      33: 100
+      34: 100
+      35: 100
+      36: 100
+      37: 100
+      38: 100
+      39: 300
+      40: 100
+      41: 100
+      42: 100
+      43: 100
+
+  44307;44308;44309;44310;44311;44312;44313;44314;44315;44316;44317;44318;44319;44320;44321;44322;44330;44323;44324;44325;44326;44327;44328;44329
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+  
+  44307;44310;44313;44316;44319;44322;44324;44327
+    all-phases-duration: 200
+
+  44341;44342;44343;44344;44345;44346;44347;44348;44349;44350;44351;44352
+    animate-from-start: true
+    all-phases-duration: 150
+
+  44331;44332;44333;44334;44335;44336;44337;44338;44339;44340
+    animate-from-start: true
+
+  44353
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 1000
+      6: 50
+      7: 100
+      8: 50
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 50
+      14: 50
+      15: 50
+      16: 50
+      17: 50
+      18: 1000
+      19: 50
+      20: 50
+      21: 50
+      22: 1000
+      23: 500
+      24: 100
+      25: 100
+      26: 100
+  
+  44375
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 1000
+      6: 100
+      7: 100
+      8: 1000
+      9: 50
+      10: 100
+      11: 50
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 50
+      17: 50
+      18: 50
+      19: 50
+      20: 50
+      21: 1000
+      22: 150
+      23: 150
+      24: 150
+      25: 1000
+      26: 500
+      27: 100
+      28: 100
+      29: 100
+      30: 100
+      31: 100
+
+  44354
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 1000
+      4: 100
+      5: 500
+      6: 100
+      7: 100
+      8: 100
+      9: 1000
+      10: 100
+      11: 1000
+      12: 100
+      13: 100
+      14: 200
+      15: 100
+      16: 100
+      17: 1000
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 500
+      24: 100
+      25: 100
+      26: 100
+      27: 100
+      28: 100
+      29: 100
+      30: 100
+      31: 100
+      32: 100
+      33: 500
+      34: 50
+      35: 50
+      36: 50
+      37: 50
+      38: 50
+      39: 50
+      40: 50
+      41: 50
+      42: 50
+      43: 50
+      44: 50
+      45: 1000
+      46: 100
+      47: 100
+      48: 100
+      49: 100
+      50: 100
+      51: 100
+      52: 1000
+      53: 50
+      54: 50
+      55: 50
+      56: 50
+      57: 50
+      58: 50
+      59: 50
+      60: 1000
+      61: 100
+      62: 100
+      63: 100
+      64: 100
+      65: 100
+      66: 100
+      67: 100
+      68: 100
+
+  44296
+    animate-from-start: true
+
+  44287;44288;44289;44290;44291;44292;44293;44294;44295
+    animate-from-start: true
+
+  44355;44356
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 50
+      6: 50
+      7: 50
+      8: 50
+      9: 50
+      10: 50
+      11: 50
+      12: 50
+      13: 50
+      14: 50
+      15: 50
+      16: 50
+      17: 50
+      18: 50
+      19: 50
+      20: 50
+      21: 50
+      22: 50
+      23: 50
+      24: 50
+      25: 500
+      26: 150
+      27: 150
+      28: 150
+      29: 150
+      30: 150
+      31: 500
+      32: 50
+      33: 50
+      34: 50
+      35: 50
+      36: 50
+      37: 50
+      38: 50
+      39: 50
+      40: 50
+      41: 50
+      42: 50
+      43: 50
+      44: 50
+      45: 50
+      46: 50
+      47: 50
+      48: 50
+      49: 50
+      50: 50
+      51: 50
+      52: 100
+      53: 100
+      54: 100
+      55: 100
+
+  44357;44358;44359;44360;44361;44362;44363;44364;44365;44366;44367;44368
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 1000
+      8: 100
+      9: 100
+      10: 100
+      11: 500
+      12: 1000
+      13: 100
+      14: 100
+      15: 1000
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+
+  44365;44366;44367;44368
+    offset-x: 32
+    offset-y: 32
+
+  44376
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 60
+      6: 60
+      7: 60
+      8: 60
+      9: 60
+      10: 60
+      11: 60
+      12: 60
+      13: 60
+      14: 60
+      15: 60
+      16: 60
+      17: 60
+      18: 60
+      19: 60
+      20: 60
+      21: 60
+      22: 200
+      23: 200
+      24: 200
+      25: 200
+      26: 200
+      27: 200
+      28: 200
+      29: 200
+      30: 200
+      31: 200
+      32: 200
+      33: 200
+      34: 100
+      35: 100
+      36: 100
+      37: 100
+      38: 100
+
+  44377
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 60
+      6: 60
+      7: 60
+      8: 60
+      9: 60
+      10: 60
+      11: 60
+      12: 60
+      13: 60
+      14: 60
+      15: 60
+      16: 60
+      17: 60
+      18: 60
+      19: 60
+      20: 60
+      21: 60
+      22: 200
+      23: 200
+      24: 200
+      25: 200
+      26: 200
+      27: 200
+      28: 200
+      29: 200
+      30: 200
+      31: 200
+      32: 200
+      33: 200
+      34: 100
+      35: 100
+      36: 100
+      37: 100
+      38: 100
+      39: 100
+      40: 200
+      41: 200
+      42: 200
+      43: 200
+      44: 200
+      45: 200
+      46: 200
+      47: 200
+      48: 200
+      49: 200
+      50: 200
+      51: 200
+      52: 100
+      53: 100
+      54: 100
+      55: 60
+      56: 60
+      57: 60
+      58: 60
+      59: 60
+      60: 60
+      61: 60
+      62: 60
+      63: 100
+      64: 100
+      65: 100
+      66: 100
+      67: 100
+      68: 200
+      69: 200
+      70: 200
+      71: 200
+      72: 200
+      73: 200
+      74: 200
+      75: 200
+      76: 200
+      77: 100
+      78: 100
+      79: 60
+      80: 60
+      81: 60
+      82: 60
+      83: 60
+      84: 60
+      85: 60
+      86: 100
+      87: 100
+      88: 100
+      89: 100
+      90: 100
+
+  44369;44370;44371;44372
+    animate-from-start: true
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 150
+      7: 150
+      8: 150
+      9: 150
+      10: 150
+      11: 150
+      12: 150
+      13: 150
+      14: 150
+      15: 150
+      16: 150
+      17: 150
+      18: 200
+      19: 200
+      20: 200
+      21: 200
+      22: 1000
+      23: 150
+      24: 150
+      25: 150
+      26: 150
+      27: 150
+      28: 150
+      29: 150
+      30: 150
+      31: 150
+      32: 150
+      33: 150
+      34: 150
+      35: 150
+      36: 150
+      37: 150
+      38: 150
+      39: 150
+      40: 150
+      41: 150
+      42: 150
+      43: 150
+      44: 150
+      45: 150
+      46: 150
+
+  34577;34578
+    animate-from-start: true
+
+  40374;40375
+    animate-from-start: true
+
+  44454
+    animate-from-start: true
+    offset-x: 16
+    offset-y: 16
+    phase-durations:
+      0: 180
+      1: 180
+      2: 180
+      3: 180
+      4: 180
+      5: 180
+      6: 180
+      7: 180
+
+  38407;38408;38409;38410
+    collision-size: 0 1
+    collision: true
+  
+  38414;38415;38416;38417
+    collision-size: 1 0
+    collision: true
+
+  41464;41537;41538;41539;41558;41456;41566;41611;41606;41607;41601;41457;41567;41590
+    collision-size: 1 0
+    collision: true
+
+  41429;41543;41533;41540;41542;41543;41544;41545;41422
+    collision-size: 0 1
+    collision: true
+
+  41579;41522
+    collision-size: 1 1
+    collision: true
+
+  42633
+    collision-size: 1 1
+    collision: true
+
+  44445
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 60
+      6: 60
+      7: 60
+      8: 60
+      9: 60
+      10: 60
+      11: 60
+      12: 60
+      13: 60
+      14: 60
+      15: 60
+      16: 60
+      17: 60
+      18: 60
+      19: 60
+      20: 60
+      21: 60
+      22: 200
+      23: 200
+      24: 200
+      25: 200
+      26: 200
+      27: 200
+      28: 200
+      29: 200
+      30: 200
+      31: 200
+      32: 200
+      33: 200
+      34: 100
+      35: 100
+      36: 100
+      37: 100
+      38: 100
+
+  44440;44441;44443;44444
+    animate-from-start: true
+
+  44439;44442
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 1000
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 1000
+      13: 100
+      14: 100
+      15: 100
+      16: 500
+      17: 200
+      18: 150
+      19: 200
+      20: 100
+
+  44387;44388;44389;44390;44391;44392;44393;44394;44395;44396;44397;44398
+    offset-x: 32
+    offset-y: 32
+
+  44399;44400;44401;44402;44403;44404;44405;44406;44407;44408;44409;44410;44411;44412;44413;44414;44415;44416;44417;44418
+    collision-size: 1 1
+    collision: true
+  
+  44654;44655;44656;44657
+    offset-x: 32
+    offset-y: 32
+    collision-size: 1 1
+    collision: true
+
+  44658;44659;44660;44661;44662;44663;44664;44665;44666;44667;44668;44669;44670;44671;44672;44673;44674;44675
+    offset-x: 32
+    offset-y: 32
+
+  43884
+    frame-sound:
+      3: 1677629277
+    
+  43883
+    frame-sound:
+      1: 1217453553
+
+  43886
+    frame-sound:
+      1: 1379673918
+  
+  44698;44699;44700;44701;44702;44703;44704;44705;44706;44707;44708;44709;44710;44711;44712;44713;44714;44715;44716;44845;44846
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  // Ants
+  44717;44718;44719;44720;44721;44722;44723;44724;44725;44726;44727;44728
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  // Bats for objects
+  44847;44848;44849;44850;44851;44852;44729;44730;44731;44732;44733;44734
+    animate-from-start: true
+
+  // Birds on Nest
+  44737;44738;44739;44740;44741;44742;44743;44753;44744;44745;44746;44747;44748;44749;44750;44751;44752;44754;44755;44756;44757;44758;44759;44760;44761;44762;44763;44764;44765;44766;44767;44768;44769;44770;44771;44772;44773;44774;44853;44854;44855;44856;44857;44858;44859;44860;44861;44862;44863;44864;44865;44866;44867;44868;44869;44870;44871;44872;44873;44874;44875;44876;44877;44878;44879;44880;44881;44882;44883;44884;44885;44886;44887;44888;44889;44890;44891;44892;44893;44894;44895;44896;44897;44898;44899;44900;44901;44902;44903;44904;44905;44906;44907;44908;44909
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  // Crow for fences
+  44775;44776
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 1000
+      4: 100
+      5: 100
+      6: 100
+      7: 500
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+      26: 100
+      27: 100
+      28: 100
+      29: 100
+      30: 100
+      31: 100
+      32: 100
+
+  44777;44778;44779;44780
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+  
+  // Crow for Lightpoles
+  44787;44788
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 1000
+      4: 100
+      5: 100
+      6: 100
+      7: 500
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+      26: 100
+      27: 100
+      28: 100
+      29: 100
+      30: 100
+      31: 100
+      32: 100
+
+  44789;44790;44791;44792
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  // Crow Generic
+  44781;44782
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 1000
+      4: 100
+      5: 100
+      6: 100
+      7: 500
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+      26: 100
+      27: 100
+      28: 100
+      29: 100
+      30: 100
+      31: 100
+      32: 100
+
+  44783;44784;44785;44786
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  // Fireflies
+  44793;44794;44795;44796;44797;44798;44799;44800;44801;44802;44803;44804;44805;44806;44807;44808;44809;44810;44811;44812;44813;44814;44815;44816;44817;44818;44819;44820;44821;44822;44823;44824;44825;44826;44827;44828
+    animate-from-start: true
+    all-phases-duration: 150
+
+  // Fly
+  44829
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 60
+      6: 60
+      7: 60
+      8: 60
+      9: 60
+      10: 60
+      11: 60
+      12: 60
+      13: 60
+      14: 60
+      15: 60
+      16: 60
+      17: 60
+      18: 60
+      19: 60
+      20: 60
+      21: 60
+      22: 200
+      23: 200
+      24: 200
+      25: 200
+      26: 200
+      27: 200
+      28: 200
+      29: 200
+      30: 200
+      31: 200
+      32: 200
+      33: 200
+      34: 100
+      35: 100
+      36: 100
+      37: 100
+      38: 100
+
+  // Group of Birds
+  44910;44913;44916;44919;44922;44925;44928;44931;44934;44937;44940;44943
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 90
+      1: 90
+      2: 90
+      3: 90
+      4: 90
+      5: 200
+      6: 90
+      7: 90
+      8: 90
+      9: 90
+      10: 90
+      11: 90
+      12: 90
+      13: 90
+      14: 500
+      15: 90
+      16: 90
+      17: 90
+      18: 90
+      19: 90
+      20: 90
+
+  44911;44912;44914;44915;44917;44918;44920;44921;44923;44924;44926;44927;44929;44930;44932;44933;44935;44936;44938;44939;44941;44942;44944;44945
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  // Rooster
+  44830;44833
+    animate-from-start: true
+    offset-x: 96
+    offset-y: 96
+  
+  44831;44834
+    animate-from-start: true
+    offset-x: 96
+    offset-y: 96
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 500
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+
+  44832;44835
+    animate-from-start: true
+    offset-x: 96
+    offset-y: 96
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 200
+      6: 100
+      7: 200
+      8: 100
+      9: 200
+      10: 100
+      11: 1000
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+  
+  // Singer Kiskadee
+  44836
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 500
+      7: 150
+      8: 150
+      9: 150
+
+  44837
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 150
+
+  44838
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    all-phases-duration: 150
+
+  // Birds flying and eating
+  44946;44952;44955;44958;44961;44964;44967;44970;44973;44976;44979;44982;44985;44988;44991;44994;44998;45001;45004;45007;45010;45013;45016;45022;45025;45028;45031;45037;45040;45046;45049;45052;45055;45058;45061;45064;45067;45070;45073;45076;45079;45082;45085;45088
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 500
+      1: 90
+      2: 90
+      3: 90
+      4: 90
+      5: 90
+      6: 200
+      7: 90
+      8: 90
+      9: 90
+      10: 90
+      11: 100
+      12: 100
+      13: 90
+      14: 200
+      15: 500
+      16: 200
+      17: 90
+      18: 90
+      19: 90
+      20: 90
+      21: 90
+      22: 500
+      23: 90
+      24: 200
+      25: 200
+      26: 90
+      27: 90
+      28: 500
+      29: 10
+      30: 20
+      31: 200
+      32: 90
+      33: 90
+      34: 90
+      35: 90
+      36: 90
+      37: 90
+      38: 90
+      39: 200
+      40: 120
+      41: 120
+      42: 120
+      43: 120
+      44: 90
+      45: 90
+      46: 90
+
+  44947;44948;44949;44950;44951;44953;44954;44956;44957;44959;44960;44962;44963;44965;44966;44968;44969;44971;44972;44974;44975;44977;44978;44980;44981;44983;44984;44986;44987;44989;44990;44992;44993;44995;44997;44999;45000;45002;45003;45005;45006;45008;45009;45011;45012;45014;45015;45017;45018;45019;45020;45021;45023;45024;45026;45027;45029;45030;45032;45033;45034;45035;45036;45038;45039;45041;45042;45043;45044;45045;45047;45048;45050;45051;45053;45054;45056;45057;45059;45060;45062;45063;45065;45066;45068;45069;45071;45072;45074;45075;45077;45078;45080;45081;45083;45084;45086;45087;45089;45090
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  45396;45397
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    fadein-duration: 300
+    fadeout-duration: 300
+
+  45398;45400;45402;45404
+    animate-from-start: true
+
+  45399;45401;45403;45405
+    animate-from-start: true
+    phase-durations:
+      0: 50
+      1: 50
+      2: 50
+      3: 50
+      4: 50
+      5: 50
+      6: 50
+      7: 50
+      8: 1000
+      9: 100
+
+  45406
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 50
+      1: 50
+      2: 50
+      3: 50
+      4: 50
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 1000
+      10: 100
+      11: 50
+      12: 50
+      13: 50
+      14: 50
+      15: 50
+      16: 50
+      17: 50
+      18: 50
+      19: 50
+
+  41762;41763;41764;41765;41766;41767
+    offset-x: 14
+    offset-y: 14
+
+  45522;45523;45524;45525
+    animate-from-start: true
+    offset-x: 32
+    offset-y: 32
+
+  // Explorer/Knight Bandit
+  45878;45879;45880;45881
+    offset-x: 32
+    offset-y: 32
+
+  // Baby Minotaur/Christmas Baby Minotaur
+  45882;45883;45884;45885
+    offset-x: 32
+    offset-y: 32
+
+  // Baby Deer
+  45886;45887
+    offset-x: 32
+    offset-y: 32
+
+  44446
+    offset-x: 8
+    offset-y: 8
+  44447
+    offset-x: 8
+    offset-y: 8
+  44448
+    offset-x: 4
+    offset-y: 4
+  44449
+    offset-x: 4
+    offset-y: 4
+  44450
+    offset-x: 18
+    offset-y: 18
+  44451
+    offset-x: 18
+    offset-y: 18
+  44452
+    offset-x: 18
+    offset-y: 18
+  44453
+    offset-x: 20
+    offset-y: 20
+
+  42468
+    offset-x: 32
+    offset-y: 32
+
+  // Elven Plants v2
+  45421;45422;45423;45426;45428;45429;45430;45431;45432;45433;45434;45437;45439;45440;45441;45445;45446;45447
+    offset-x: 32
+    offset-y: 32
+  45424;45425;45427;45435;45436;45438;45448;45449;45450;45451;45452;45453;45455;45457;45459;45461;45469;45470;45473;45474;45477;45478;45482;45484;45486
+    offset-x: 6
+    offset-y: 6
+  45442;45443;45444;45454;45480;45493
+    offset-x: 12
+    offset-y: 12
+  45456;45458;45460;45463;45465;45467;45471;45475;45479;45487;45488;45489;45490;45491;45492
+    offset-x: 4
+    offset-y: 4
+  45462;45464;45466;45468;45472;45476
+    offset-x: 8
+    offset-y: 8
+  45481;45483;45485
+    offset-x: 14
+    offset-y: 14
+
+  // catsDogs
+  45989;45990;45991;45992;45993;45994;45995;45996;45997;45998;45999;46000;46001;46002;46003;46004;46005;46006;46007;46008;46009;46010;46011;46012;46013;46014;46015;46016;46017;46018;46019;46020;46021;46022;46023;46024;46025;46026;46027;46028;46029;46030
+    offset-x: 32
+    offset-y: 32
+
+  43071
+    hidden: true
+
+  // Creature Trophy
+  // Kaiman
+  46247;46248
+    phase-durations:
+      0: 100
+      1: 250
+      2: 250
+      3: 250
+      4: 400
+      5: 250
+      6: 250
+      7: 250
+      8: 500
+      9: 250
+      10: 250
+      11: 250
+      12: 400
+      13: 250
+      14: 250
+      15: 250
+      16: 500
+      17: 250
+      18: 250
+      19: 100
+      20: 100
+      21: 150
+      22: 150
+      23: 150
+      24: 1000
+      25: 150
+      26: 150
+      27: 150
+      28: 150
+      29: 150
+      30: 150
+      31: 150
+      32: 150
+      33: 150
+      34: 500
+      35: 100
+      36: 100
+      37: 500
+      38: 150
+      39: 150
+      40: 150
+      41: 150
+      42: 150
+      43: 1000
+      44: 100
+      45: 200
+      46: 5000
+      47: 250
+  // Toad
+  46249;46250
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 100
+      1: 150
+      2: 150
+      3: 150
+      4: 150
+      5: 150
+      6: 500
+      7: 150
+      8: 150
+      9: 150
+      10: 150
+      11: 150
+      12: 150
+      13: 500
+      14: 150
+      15: 150
+      16: 150
+      17: 150
+      18: 150
+      19: 150
+      20: 150
+      21: 150
+      22: 150
+      23: 150
+      24: 150
+      25: 150
+      26: 150
+      27: 150
+      28: 150
+      29: 150
+      30: 150
+      31: 150
+      32: 150
+      33: 150
+      34: 150
+      35: 150
+      36: 150
+      37: 150
+      38: 150
+      39: 150
+      40: 150
+      41: 150
+      42: 150
+      43: 150
+      44: 50
+      45: 50
+      46: 100
+      47: 100
+      48: 100
+      49: 100
+      50: 100
+      51: 500
+      52: 100
+      53: 100
+      54: 100
+      55: 100
+      56: 100
+      57: 100
+  // Drakes
+  46277;46278;46279;46280
+    offset-x: 7
+    offset-y: 7
+  46281;46282;46283;46284;46251;46252;46253;46254;46255;46256;46257;46258;46259;46260;46261;46262
+    offset-x: 32
+    offset-y: 32
+  // Yeti
+  46269;46270
+    offset-x: 32
+    offset-y: 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 500
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 500
+      10: 100
+      11: 500
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+      25: 100
+  // Chainwraith
+  46277;46278;46279;46280
+    offset-x: 7
+    offset-y: 7
+  46281;46282;46283;46284
+    offset-x: 32
+    offset-y: 32
+  // Arachnids
+  46277;46278;46279;46280
+    offset-x: 7
+    offset-y: 7
+
+  // Red Teleport
+  45091
+    animate-from-start: true
+    offset-x: 10
+    offset-y: 14
+
+  37739
+    collision-size: 1 0
+    collision: true
+
+  29188
+    collision-size: 1 0
+    collision: true
+
+  38490
+    collision-size: 0 1
+    collision: true
+
+  29189
+    collision-size: 0 1
+    collision: true
+
+  37838
+    collision-size: 1 0
+    collision: true
+
+  37786
+    collision-size: 0 1
+    collision: true
+
+  31317
+    collision-size: 1 0
+    collision: true
+
+  31328
+    collision-size: 1 0
+    collision: true
+
+  31334
+    collision-size: 0 1
+    collision: true
+
+  31332
+    collision-size: 0 1
+    collision: true
+
+  31323
+    collision-size: 0 1
+    collision: true
+
+  33720
+    offset-x: 1
+    offset-y: 1
+    collision-size: 1 0
+    collision: true
+
+  // Elven Assets - fountains
+  46395;46396;46397;46398
+    offset-x: 16
+    offset-y: 16
+    collision-size: 1 1
+    collision: true
+
+  37679;37677
+    offset-y: -16
+    offset-x: 4
+
+  //Djinn Temple Pillars
+  42727;42728;42729;42730;42731
+    offset-x: 32
+    offset-y: 32
+
+  //Yornish Tent
+  46795
+    offset-x: 6
+    offset-y: 6
+    collision-size: 1 1
+    collision: true
+  46796
+    offset-x: 4
+    offset-y: 4
+  46797
+    offset-x: 30
+    offset-y: 30
+  46798
+    offset-x: 12
+    offset-y: 12
+
+  //Snow Mountain Stairs
+  46864;46865;46866;46867;46868;46869;46870;46871;46872;46873;46874;46875;46876;46877;46878;46879;46880;46881
+    offset-x: 32
+    offset-y: 32
+
+  //Morningstars Decoration
+  46421;46422;46423;46424;46425;46427
+    offset-x: 32
+    offset-y: 32
+  46439
+    collision-size: 1 0
+    collision: true
+  46444;46445
+    collision-size: 0 1
+    collision: true
+
+  // Scorched Roots
+  45934;45935;45936;45937;45938
+    collision-size: 1 1
+    collision: true
+
+  // Baby Djinn 
+  46851;46852
+    offset-x: 32
+    offset-y: 32
+
+  // Baby Goblin 
+  46853;46854
+    offset-x: 32
+    offset-y: 32
+
+  // Baby Snow Beast
+  46855;46856
+    offset-x: 32
+    offset-y: 32
+
+  // Gnome
+  46857;46858
+    offset-x: 32
+    offset-y: 32
+
+  // Bonsai
+  46861
+    offset-x: 32
+    offset-y: 32
+
+  // Baby Astor Demon
+  46862;46863
+    offset-x: 32
+    offset-y: 32
+
+  // Djinn Palace basings
+  42732;42733;42734;42735;42736
+    offset-x: 32
+    offset-y: 32
+
+  // Flame walls
+  46845;46846;46847;46848;46849;46850
+    offset-x: 32
+    offset-y: 32
+
+  38352
+    collision-size: 1 1
+    collision: true
+
+  // Elven Trees on Normal color
+  46882;46883;46890;46891;46898;46899
+    offset-x: 8
+    offset-y: 8
+  46884;46885;46892;46893;46900;46901
+    offset-x: 4
+    offset-y: 4
+  46886;46887;46894;46895;46902;46903
+    offset-x: 18
+    offset-y: 18
+  46888;46889;46896;46897;46904;46905
+    offset-x: 20
+    offset-y: 20
+
+  //Housing Cosmetic
+  46918;46919;46923;46925
+    offset-x: 0
+    offset-y: 32
+  46922;46924;46932;46933
+    offset-x: 32
+    offset-y: 0
+  46281;46282
+    phase-durations:
+      0: 3000
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+
+  //New Trapdoors
+  46973;46974;46975;46976;46977;46978;46979;46980;46981;46982
+    offset-x: 32
+    offset-y: 32
+
+  // Altar of the Eternal Forge
+  46496;46500
+    collision-size: 2 0
+    collision: true
+  46497;46501
+    collision-size: 0 2
+    collision: true
+  46498;46502
+    collision-size: 1 0
+    collision: true
+  46503;46499
+    collision-size: 0 1
+    collision: true
+
+  46984;46985
+    offset-x: 32
+    offset-y: 32 
+
+  //Yornish Bone Corner
+  46997;46998;46999;46700;46701;46702;46703
+    offset-x: 4
+    offset-y: 4
+
+  //Frozen Skeletons
+  47078;47079;47080;47081;47082;47083;47084;47085;47086;47087;47088;47089;47090;47091
+    offset-x: 32
+    offset-y: 32
+
+  //Froll Gear Decoration
+  47076;47077
+    offset-x: 32
+    offset-y: 32
+
+  //Fort Forge
+  47004;47005;47006;47007
+    offset-x: 32
+    offset-y: 32
+  47008
+    offset-x: 16
+    offset-y: 16
+    phase-durations:
+      0: 200
+      1: 200
+
+  41986;41987;31328
+    collision-size: 1 1
+    collision: true
+
+  37702
+    collision-size: 1 0
+    collision: true
+
+  //coffin
+  1989
+    offset-x: 0
+    offset-y: 32
+
+  //Invisible Tile
+  47289
+    hidden: true
+
+  //Elven Fountain
+  43974
+    offset-x: 16
+    offset-y: 16
+    collision-size: 1 1
+    collision: true
+  43976
+    offset-x: 22
+    offset-y: 22
+    collision-size: 1 1
+    collision: true
+
+  //Arcane Room Assets
+  47361
+    all-phases-duration: 120
+  47363
+    offset-x: 32
+    offset-y: 32
+
+  //Arcane Room Assets
+  47363
+    offset-x: 32
+    offset-y: 32
+  47429;47430;47431;47432;47433;47434;47435;47436;47445;47446;47447;47448;47458;47459;47460;47461;47463;47464;47465;47466;47467;47468;47469;47470
+    all-phases-duration: 150
+
+  //Ritual Player Room
+  47299;47300;47301;47302;47348;47349
+    offset-x: 32
+    offset-y: 32
+  47345;47346;47347;47348
+    all-phases-duration: 200
+  47350;47351;47352;47342;47343;47344
+    all-phases-duration: 150
+  47351;47352
+    collision-size: 1 0
+    collision: true
+
+  //Ritual Player Room East
+  47329;47330;47331;47330;47356;47356
+    offset-x: 32
+    offset-y: 32
+  47353;47354;47355;47356
+    all-phases-duration: 200
+  47358;47359;47360;47364
+    all-phases-duration: 150
+  47359;47360
+    collision-size: 0 1
+    collision: true
+
+  //Thieves House
+  47271;47272
+    offset-x: 32
+    offset-y: 32
+
+  //Flame walls
+  46845;46846;46847;46848;46849;46850;47477;47478;47479;47480;47481;47482;47483;47484;47485;47486
+    offset-x: 32
+    offset-y: 32
+
+  // Trailblazer Banner
+  47575;47576
+    offset-x: 2
+    offset-y: 2
+
+  //Carnival Bandit
+  47620;47621
+    offset-x: 32
+    offset-y: 32

@@ -1,0 +1,6 @@
+Module
+  name: game_wagonstorage
+  sandboxed: true
+  scripts: [ wagonstorage ]
+  @onLoad: GameWagonStorage:init()
+  @onUnload: GameWagonStorage:terminate()

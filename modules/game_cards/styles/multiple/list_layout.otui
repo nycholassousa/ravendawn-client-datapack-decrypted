@@ -1,0 +1,208 @@
+GameCardsViewPanelListLayout < UIWidget
+  id: list_layout
+  size: 810 508
+  padding-right: 10
+  anchors.top: parent.top
+  anchors.left: parent.left
+  layout:
+    type: verticalBox
+    spacing: 2
+  GameCardsViewPanelListLayoutTitle
+
+GameCardsViewPanelListLayoutTitle < UIWidget
+  id: title_panel
+  size: 810 40
+  text: Cards
+  text-offset: 20 0
+  font: poppins-semibold-15
+  text-color: #b2b5bb
+  text-align: left
+  image-source: /images/ui/windows/ravencards/collection/list_layout_title_background
+  image-border: 5
+  layout:
+    type: horizontalBox
+    spacing: 30
+
+  GameCardsViewPanelListLayoutTitleIcon
+    id: 1
+  GameCardsViewPanelListLayoutTitleIcon
+    id: 2
+  GameCardsViewPanelListLayoutTitleIcon
+    id: 3
+  GameCardsViewPanelListLayoutTitleIcon
+    id: 4
+  GameCardsViewPanelListLayoutTitleIcon
+    id: 5
+  GameCardsViewPanelListLayoutTitleIcon
+    id: 6
+  GameCardsViewPanelListLayoutTitleIcon
+    id: 7
+
+  UIWidget
+    size: 100 40
+    margin-left: 15
+    @onSetup: |
+      if g_game.isRavenQuest() then
+        self:setVisible(false)
+      end
+
+    UIWidget
+      anchors.left: parent.left
+      anchors.verticalCenter: parent.verticalCenter
+      text: Upgrade
+      font: poppins-semibold-14
+      text-color: #CED2D9
+      text-auto-resize: true
+
+    UIWidget
+      size: 18 17
+      id: icon
+      anchors.verticalCenter: prev.verticalCenter
+      anchors.left: prev.right
+      margin-left: 8
+      icon: /images/ui/windows/ravencards/upgrade/info
+      image-auto-resize: true
+      &tooltip: tr('When you choose to upgrade your cards, you will automatically choose your rarest card to upgrade.')
+      
+
+GameCardsViewPanelListLayoutTitleIcon < UIWidget
+  width: 14
+//  $first:
+//    margin-left: 374
+  UIWidget
+    id: icon
+    anchors.centerIn: parent
+    size: 14 20
+
+  @onSetup: |
+    self:getChildById("icon"):setImageSource(string.format('/images/ui/ravencards/gem_%i', self:getId()))
+    if g_game.isRavenQuest() and self:isFirst() then
+      self:setMarginLeft(494)
+    elseif self:isFirst() then
+      self:setMarginLeft(374)
+    end
+
+GameCardsViewPanelListLayoutEntryCount < UIWidget
+  text: 0
+  font: poppins-14
+  text-color: #b2b5bb
+  size: 44 50
+  phantom: true
+  $on:
+    text-color: #77d463
+  &update: |
+    function(self)
+      if self:getId() ~= '1' then
+        return
+      end
+
+      -- center horizontally based on title gem position
+      local parent = self:getParent():getParent()
+      local title = parent.title_panel
+
+      local gem = title:getChildById(self:getId())
+
+      local gemMarginLeft = gem:getMarginLeft()
+      local margin = gemMarginLeft + (self:getParent():getX() - self:getX())
+
+      self:setMarginLeft(margin - gem:getWidth() / 2)
+    end
+  @onTextChange: |
+    self:setOn(self:getText() ~= '0')
+
+GameCardsViewPanelListLayoutEntry < UIWidget
+  size: 810 50
+  padding-right: 10
+  padding-left: 20
+  image-border: 5
+  image-source: /images/ui/windows/ravencards/collection/list_layout_entry_background
+  $checked:
+    image-source: /images/ui/windows/ravencards/collection/list_layout_entry_background_alternate
+  layout:
+    type: horizontalBox
+
+  UIWidget
+    id: card_content
+    phantom: true
+    size: 25 50
+
+    Ravencard
+      id: card
+      size: 25 39
+      anchors.centerIn: parent
+      phantom: true
+  
+  UIWidget
+    id: card_name
+    phantom: true
+    margin-left: 20
+    font: poppins-14
+    text-auto-resize: true
+    
+  UIWidget
+    id: archetype_info
+    phantom: true
+    margin-left: 20
+    size: 70 30
+    image-source: /images/ui/windows/ravencards/collection/list_layout_archetype_info_background
+    image-border: 5
+    image-size: 70 30
+    image-offset: 0 10
+    
+    UIWidget
+      id: archetype
+      size: 20 20
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.left: parent.left
+      image-source: /images/ui/icons/archetypes/20x20/warfare
+      margin-left: 9
+      phantom: true
+    
+    UIWidget
+      id: skill
+      size: 20 20
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.right: parent.right
+      image-source: /images/ui/icons/abilitybar/shieldbreak
+      margin-right: 10
+      phantom: true
+
+  GameCardsViewPanelListLayoutEntryCount
+    id: 1
+  GameCardsViewPanelListLayoutEntryCount
+    id: 2
+  GameCardsViewPanelListLayoutEntryCount
+    id: 3
+  GameCardsViewPanelListLayoutEntryCount
+    id: 4
+  GameCardsViewPanelListLayoutEntryCount
+    id: 5
+  GameCardsViewPanelListLayoutEntryCount
+    id: 6
+  GameCardsViewPanelListLayoutEntryCount
+    id: 7
+
+  UIWidget
+    size: 30 30
+    margin-left: 54
+    @onSetup: |
+      if g_game.isRavenQuest() then
+        self:setVisible(false)
+      end
+
+    UIWidget
+      id: upgrade_button
+      size: 30 30
+      anchors.verticalCenter: parent.verticalCenter
+      anchors.horizontalCenter: parent.horizontalCenter
+      image-source: /images/ui/windows/ravencards/upgrade/upgrade_button
+      opacity: 1
+      $hover:
+        image-source: /images/ui/windows/ravencards/upgrade/upgrade_button
+        opacity: 0.8
+      $pressed:
+        image-source: /images/ui/windows/ravencards/upgrade/upgrade_button
+        opacity: 0.8
+      @onClick: |
+        GameCards:showUpgradeWindow(self:getParent():getParent().cardData)
+

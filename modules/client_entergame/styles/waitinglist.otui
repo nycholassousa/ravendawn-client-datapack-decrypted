@@ -1,0 +1,56 @@
+WaitingListWindow < PopupWindow
+  id: waitingWindow
+  !text: tr('Login Queue')
+  size: 290 360
+  anchors.centerIn: parent
+  padding-bottom: 15
+  draggable: false
+  @onEscape: CharacterList.cancelWait()
+
+  Label
+    id: infoLabel
+    font: myriad-pro-semibold-14
+    color: white
+    anchors.top: parent.top
+    anchors.bottom: next.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    text-align: center
+    text-wrap: true
+
+  UICreature
+    id: creature
+    size: 96 96
+    anchors.bottom: next.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    phantom: true
+    outfit-walk: false
+    margin-bottom: 20
+
+  UIProgressBar
+    id: progressBar
+    height: 15
+    background-color: #e7b131
+    anchors.bottom: timeLabel.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-bottom: 5
+
+  Label
+    id: timeLabel
+    font: myriad-pro-semibold-12
+    text-align: center
+    anchors.bottom: next.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-bottom: 5
+
+  PopupWindowButton
+    id: buttonCancel
+    !text: tr('Cancel')
+    size: 96 40
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    margin-bottom: 10
+    text-auto-resize: false
+    @onClick: CharacterList.cancelWait()

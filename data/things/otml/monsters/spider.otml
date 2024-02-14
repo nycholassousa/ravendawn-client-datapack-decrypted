@@ -1,0 +1,630 @@
+// Mushrooms
+creatures
+  // Forest Spiderling
+  2116
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3593
+  3593
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+
+  // Bog Spiderling
+  2117
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3586
+  3586
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+
+  // Cave Spiderling
+  2118
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3589
+  3589
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+
+  // Blaze Spiderling
+  2119
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    step-sound-type: 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3583
+  3583
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+  // Shock Spiderling
+  2120
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    step-sound-type: 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3595
+  3595
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+
+  // Snow Spiderling
+  2121
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3598
+  3598
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+
+  // Forest Spider
+  2122
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3592
+  3592
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Bog Spider
+  2123
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3588
+  3588
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Cave Spider
+  2124
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3591
+  3591
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Blaze Spider
+  2125
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3582
+  3582
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Shock Spider
+  2126
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3597
+  3597
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Snow Spider
+  2127
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3600
+  3600
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Queen Forest Spider
+  2128
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3594
+  3594
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Queen Bog Spider
+  2129
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3587
+  3587
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Queen Cave Spider
+  2130
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3590
+  3590
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Queen Blaze Spider
+  2131
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3580
+  3580
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Queen Shock Spider
+  2132
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3596
+  3596
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Queen Snow Spider
+  2133
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 0 0
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3599
+  3599
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  // Widow Empress
+  2134
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 2 2
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5869
+  5869
+    animate-from-start: true
+    creature-offset: 34 34
+
+  // Widow Queen
+  2135
+    enemy-circle-size: 96 96
+    enemy-circle-offset: 0 0
+    friend-circle-size: 96 96
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+
+  // Tiger Bug
+  3120
+    enemy-circle-size: 96 96
+    enemy-circle-offset: 0 0
+    friend-circle-size: 96 96
+    friend-circle-offset: 0 0
+    creature-offset: 16 16
+
+  // Lady of the Snow
+  5099
+    creature-offset: 22 22
+    enemy-circle-size: 96 96
+    enemy-circle-offset: -2 -10
+    friend-circle-size: 96 96
+    friend-circle-offset: -2 -10
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5097
+  5097;5098
+    animate-from-start: true
+    creature-offset: 42 42
+
+  // Widow Empress
+  5101
+    creature-offset: 22 22
+    enemy-circle-size: 96 96
+    enemy-circle-offset: -2 -10
+    friend-circle-size: 96 96
+    friend-circle-offset: -2 -10
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5100
+  5100
+    animate-from-start: true
+    creature-offset: 42 42
+
+  // Widowalker
+  5260
+    creature-offset: 24 16
+    enemy-circle-size: 96 96
+    enemy-circle-offset: -2 -10
+    friend-circle-size: 96 96
+    friend-circle-offset: -2 -10
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5259
+  5259
+    animate-from-start: true
+    creature-offset: 32 24
+
+  // Widowalker 'Elite'
+  5276
+    creature-offset: 24 16
+    enemy-circle-size: 96 96
+    enemy-circle-offset: -2 -10
+    friend-circle-size: 96 96
+    friend-circle-offset: -2 -10
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5275
+  5275
+    animate-from-start: true
+    creature-offset: 32 24

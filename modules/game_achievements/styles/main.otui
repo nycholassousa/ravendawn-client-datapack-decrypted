@@ -1,0 +1,13 @@
+GameAchievementsWindow < MainWindow
+  id: gameAchievementsWindow
+  size: 447 704
+  anchors.centerIn: parent
+  &title: 'Achievements'
+  &shortcut: 'Ctrl+J'
+  &iconName: 'icon_achievements'
+  &isGeneralUIWindow: true
+  MainWindowContent
+    padding: 0 0 0 0
+    GameAchievementsTopPanel
+    GameAchievementsScrollArea
+    GameAchievementsScrollAreaScrollBar

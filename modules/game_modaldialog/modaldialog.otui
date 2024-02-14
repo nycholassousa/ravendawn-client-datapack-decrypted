@@ -1,0 +1,191 @@
+ChoiceListOutfit < UIWidget
+  id: outfitWidget
+  background-color: #222222
+  size: 104 122
+  border: 1 #a59977
+  margin-left: 4
+  margin-top: 4
+
+  $focus:
+    border: 1 #ffba00
+    background-color: #333333
+
+  Label
+    id: name
+    text-align: center
+    text-offset: 0 0
+    anchors.top: parent.top
+    anchors.right: parent.right
+    anchors.left: parent.left
+    margin: 3
+    border: 1 #5b4e3f
+    height: 16
+    font: myriad-pro-16
+    background-color: #333333
+    phantom: false
+
+  Panel
+    id: creaturePanel
+    anchors.top: name.bottom
+    anchors.right: parent.right
+    anchors.left: parent.left
+    margin: 3
+    border: 1 #5b4e3f
+    background-color: #222222
+    size: 92 94
+
+    UICreature
+      id: creature
+      phantom: true
+      anchors.top: parent.top
+      anchors.horizontalCenter: parent.horizontalCenter
+      size: 80 80
+      padding: 4 4 4 4
+      fixed-creature-size: false
+
+ChoiceListItem < UIWidget
+  id: itemWidget
+  background-color: #222222
+  size: 100 106
+  border: 1 #a59977
+  margin-top: 4
+  margin-left: 4
+
+  $focus:
+    border: 1 #ffba00
+    background-color: #333333
+
+  Label
+    id: name
+    text-align: center
+    text-offset: 0 0
+    anchors.top: parent.top
+    anchors.right: parent.right
+    anchors.left: parent.left
+    margin: 3
+    border: 1 #5b4e3f
+    height: 16
+    font: myriad-pro-16
+    background-color: #333333
+    phantom: false
+
+  Panel
+    id: itemPanel
+    anchors.top: name.bottom
+    anchors.right: parent.right
+    anchors.left: parent.left
+    margin: 3
+    border: 1 #5b4e3f
+    background-color: #222222
+    size: 88 78
+
+    UIItem
+      id: item
+      phantom: true
+      anchors.top: parent.top
+      anchors.horizontalCenter: parent.horizontalCenter
+      margin-top: 15
+      size: 34 34
+
+ChoiceListCustom < ScrollablePanel
+  id: choiceListCustom
+  height: 150
+  background-color: #181A1D
+  anchors.fill: parent
+  anchors.top: messageLabel.bottom
+  anchors.bottom: buttonsPanel.top
+  border: 1 #666666
+  focusable: false
+  visible: false
+  vertical-scrollbar: choiceCustomScrollBar
+  layout:
+    type: grid
+    flow: true
+    cell-size: 104 122
+    cell-spacing: 2 2
+
+ChoiceCustomScrollBar < VerticalScrollBar
+  id: choiceCustomScrollBar
+  margin-top: 1
+  margin-right: 1
+  anchors.top: choiceListCustom.top
+  anchors.bottom: choiceListCustom.bottom
+  anchors.right: choiceListCustom.right
+  step: 48
+  pixels-scroll: true
+  visible: false
+
+ChoiceListLabel < Label
+  font: poppins-semibold-16
+  background-color: #00000049
+  focusable: true
+  text-auto-resize: true
+
+  $focus:
+    background-color: #00000080
+    color: #e7b131
+
+ChoiceList < TextList
+  id: choiceList
+  background-color: #181A1D
+  vertical-scrollbar: choiceScrollBar
+  anchors.fill: parent
+  anchors.top: messageLabel.bottom
+  anchors.bottom: buttonsPanel.top
+  margin-bottom: 10
+  focusable: false
+  visible: false
+
+ChoiceScrollBar < VerticalScrollBar
+  id: choiceScrollBar
+  anchors.top: choiceList.top
+  anchors.bottom: choiceList.bottom
+  anchors.right: choiceList.right
+  step: 48
+  pixels-scroll: true
+  visible: false
+
+ModalButton < Button
+  text-auto-resize: true
+  @onSetup: |
+    addEvent(function()
+      local textWidget = self:getChildById('text')
+      textWidget:setFont("poppins-14")
+      local customStyle = ButtonToColor[textWidget:getText():lower()]
+      if customStyle then
+        self:setStyle(customStyle)
+      else
+        self:setStyle('NeutralButton')
+      end
+    end)
+
+ModalDialog < PopupWindow
+  id: modalDialog
+  size: 450 150
+  &minimumWidth: 300
+  &maximumWidth: 600
+  &minimumHeight: 150
+  &maximumHeight: 1200
+  &minimumChoices: 2
+  &maximumChoices: 10
+
+  PopupWindowLabel
+    id: messageLabel
+    anchors.top: parent.top
+    text-align: center
+
+  ChoiceList
+  ChoiceListCustom
+
+  Panel
+    id: buttonsPanel
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    height: 51
+    layout:
+      type: horizontalBox
+      fit-children: true
+      spacing: 20
+
+  ChoiceScrollBar
+  ChoiceCustomScrollBar

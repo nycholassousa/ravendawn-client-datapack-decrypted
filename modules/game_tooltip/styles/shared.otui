@@ -1,0 +1,5 @@
+TooltipHeader < UIWidget
+  height: 104
+  padding-top: 20
+  padding-left: 20
+  padding-right: 20

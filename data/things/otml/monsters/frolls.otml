@@ -1,0 +1,180 @@
+// Frolls
+creatures
+  // Froll Meele 1
+  2783
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 6 6
+    attack-animation-type: 0
+    attack-animation:
+      0: 5190
+  5190
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Froll Meele 2
+  2784
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 9 9
+    attack-animation-type: 0
+    attack-animation:
+      0: 5191
+  5191
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Froll Conqueror
+  2785
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 9 9
+    attack-animation-type: 0
+    attack-animation:
+      0: 5192
+  5192
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // Froll Spear 1
+  2786
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    name-displacement: 54 76
+    creature-offset: 8 8
+    attack-animation-type: 0
+    attack-animation:
+      0: 5184
+  5184
+    animate-from-start: true
+    creature-offset: 32 32
+    phase-durations:
+      0: 50
+      1: 80
+      2: 100
+      3: 120
+      4: 150
+      5: 80
+      6: 150
+      7: 80
+
+  // Froll Spear 2
+  2787
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    name-displacement: 54 76
+    creature-offset: 8 8
+    attack-animation-type: 0
+    attack-animation:
+      0: 5185
+  5185
+    animate-from-start: true
+    creature-offset: 32 32
+    phase-durations:
+      0: 50
+      1: 80
+      2: 100
+      3: 120
+      4: 150
+      5: 80
+      6: 150
+      7: 80
+
+  // Froll Spear 3
+  2788
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 10 10
+    attack-animation-type: 0
+    attack-animation:
+      0: 5186
+  5186
+    animate-from-start: true
+    creature-offset: 32 32
+    phase-durations:
+      0: 50
+      1: 80
+      2: 100
+      3: 120
+      4: 150
+      5: 80
+      6: 150
+      7: 80
+
+  // Froll Shaman 1
+  2837
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 9 9
+
+  // Froll Shaman 2
+  2838
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+
+  // Froll Shaman 3
+  2839
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+
+  // Froll Bonemancer
+  4070
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+    attack-animation-type: 0
+    attack-animation:
+      0: 5187
+  5187
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Froll Bloodmage
+  4071
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+    attack-animation-type: 0
+    attack-animation:
+      0: 5188
+  5188
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Froll Cryomancer
+  4072
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 9 9
+    attack-animation-type: 0
+    attack-animation:
+      0: 5189
+  5189
+    animate-from-start: true
+    creature-offset: 32 32

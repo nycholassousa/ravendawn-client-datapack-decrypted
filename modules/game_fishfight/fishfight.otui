@@ -1,0 +1,169 @@
+DurabilityProgressBar < UIProgressBar3
+  size: 290 28
+
+  Panel
+    id: progress
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    image-source: /images/game/bars/fishing/durability_progress
+    height: 4
+    image-border: 1
+
+FishHealthBar < UIFishHealthBar
+  size: 350 38
+  draggable: false
+  phantom: false
+
+  UIWidget
+    id: progressBackground
+    image-source: /images/game/bars/fishing/progress_background
+    anchors.fill: parent
+    image-rect: 0 -1 355 38
+    opacity: 0.4
+
+  UIWidget
+    id: progress
+    image-source: /images/game/bars/fishing/bar_progress
+    anchors.fill: parent
+    image-rect: 0 0 345 38
+
+  UIWidget
+    id: frame
+    image-source: /images/game/bars/fishing/bar_background
+    size: 350 38
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: -5
+    margin-right: -5
+
+  UIWidget
+    id: line
+    image-source: /images/game/bars/fishing/line
+    anchors.left: next.right
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-right: -3
+    margin-top: 10
+    image-rect: 0 4 330 1
+
+  UIWidget
+    id: fish
+    image-source: /images/game/bars/fishing/fish
+    size: 46 30
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+
+Panel
+  id: mainPanel
+  size: 400 300
+  anchors.left: parent.left
+  anchors.top: parent.top
+  margin: 150
+
+  UIButton
+    id: exitButton
+    image-source: /images/ui/icons/icon_exit
+    anchors.left: fishName.right
+    anchors.top: parent.top
+    margin-left: 5
+    margin-top: -2
+    size: 20 20
+    @onClick: FishFight.stopFight()
+
+  Label
+    id: fishName
+    text: Fish name
+    anchors.top: parent.top
+    anchors.left: parent.left
+    text-auto-resize: true
+    font: eras-bold-14
+    text-auto-resize: true
+
+  Label
+    id: timeout
+    anchors.top: parent.top
+    anchors.right: parent.right
+    text-align: right
+    text-auto-resize: true
+    size: 30 30
+    visible: false
+
+  DurabilityProgressBar
+    id: durabilityBar
+    anchors.top: fishName.bottom
+    anchors.left: parent.left
+    anchors.right: durabilityLoss.left
+    margin-left: 55
+    margin-top: -7
+
+  UIWidget
+    id: durabilityLoss
+    anchors.top: fishName.bottom
+    anchors.right: parent.right
+    image-source: /images/game/bars/fishing/durability_loss
+    size: 100 4
+    margin-right: 228
+    margin-top: 7
+
+  FishHealthBar
+    id: healthBar
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-top: 13
+
+  UIWidget
+    id: rod
+    anchors.top: fishName.bottom
+    anchors.left: parent.left
+    margin-top: 2
+    size: 183 25
+    image-source: /images/game/bars/fishing/durability_background
+    phantom: true
+
+  UIWidget
+    id: dummyBehaviourIcon
+    phantom: true
+    visible: true
+    size: 40 40
+    anchors.top: healthBar.bottom
+    anchors.left: parent.left
+    margin-top: 10
+
+  SpellIcon
+    id: behaviourIcon
+    anchors.top: healthBar.bottom
+    anchors.left: parent.left
+    size: 40 40
+    image-size: 40 40
+    margin-top: 10
+    SpellProgressRect
+      id: spellProgressRect
+      phantom: true
+      anchors.fill: parent
+      margin-top: 2
+      margin-left: 2
+    AbilityBarSlotOverlay
+      id: overlay
+      image-size: 41 41
+      anchors.fill: parent
+      phantom: true
+      margin-top: -6
+      @onSetup: |
+        self:setOn(true)
+        self:setChecked(true)
+    UIWidget
+      id: number
+      anchors.centerIn: parent
+      font: baby-26
+      color: green
+      text-auto-resize: true
+      text-offset: 0 4
+
+  Label
+    id: abilityTimerLabel
+    anchors.top: behaviourIcon.bottom
+    anchors.horizontalCenter: behaviourIcon.horizontalCenter
+    text-auto-resize: true
+    phantom: true
+    margin-top: 4

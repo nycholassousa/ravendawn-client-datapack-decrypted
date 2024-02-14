@@ -1,0 +1,100 @@
+GameTooltipCurrentArchetype < UIWidget
+  height: 30
+  $first:
+    margin-top: 10
+
+  UIWidget
+    id: icon
+    anchors.top: parent.top
+    anchors.left: parent.left
+    size: 24 24
+
+  UIWidget
+    id: value
+    anchors.left: prev.right
+    anchors.right: parent.right
+    anchors.verticalCenter: icon.verticalCenter
+    margin-left: 5
+    font: poppins-14
+    text-auto-resize: true
+    text-offset: 5 2
+    text-align: left
+    text-color: #CED2D9
+
+GameTooltipArchetype < GameTooltipCurrentArchetype
+  height: 30
+  $first:
+    margin-top: 10
+
+  UIWidget
+    id: icon
+    anchors.top: parent.top
+    anchors.left: parent.left
+    size: 24 24
+
+  UIWidget
+    id: value
+    anchors.left: prev.right
+    anchors.right: parent.right
+    anchors.verticalCenter: icon.verticalCenter
+    margin-left: 5
+    font: poppins-14
+    text-auto-resize: true
+    text-offset: 5 2
+    text-align: left
+    text-color: #CED2D9
+
+GameTooltipArchetypeSpacer < UIWidget
+  background-color: #3A3D43
+  height: 1 
+
+GameTooltipPremiumFeature < UIWidget
+  height: 30
+  width: 290
+
+  UIWidget
+    id: icon
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    size: 25 24
+    image-source: /images/ui/windows/premium_store/icon_premium_button
+
+  UIWidget
+    id: value
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    font: poppins-16
+    text-offset: 5 5
+    text-auto-resize: true
+    text-color: #A6AAB2
+    text-wrap: true
+    text-align: center
+    $checked:
+      font: poppins-14
+    $on:
+      text-color: #36F991
+
+  UIWidget
+    id: lock
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    size: 11 13
+    image-source: /images/ui/windows/premium_store/icon_lock
+    visible: true
+    $on:
+      visible: false
+
+TooltipAttributesHeader < UIWidget
+  id: attributesPointsHeader
+  height: 50
+  padding: 20 20 20 20
+  visible: false
+
+  UIWidget
+    id: text
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    font: poppins-16
+    text-offset: 0 5
+    text-auto-resize: true

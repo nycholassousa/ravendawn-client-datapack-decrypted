@@ -1,0 +1,6 @@
+Module
+  name: game_arena
+  sandboxed: true
+  scripts: [ arena ]
+  @onLoad: init()
+  @onUnload: terminate()

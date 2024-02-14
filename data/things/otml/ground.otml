@@ -1,0 +1,633 @@
+items
+  870
+    sound-category: "stone"
+  103
+    sound-category: "dirt"
+  4515
+    sound-category: "grass"
+  4522
+    sound-category: "grass"
+  4540
+    sound-category: "grass"
+  8308
+    sound-category: "wood"
+  8312
+    sound-category: "wood"
+  8315
+    sound-category: "wood"
+  32657;32659;32660;32662;32658;32665;32661;32663;32664
+    sound-category: "wood"
+  32696;32694;32695;32685
+    sound-category: "wood"
+  32679;32680;32686;32682;32666;32681
+    sound-category: "wood"
+  32702;32701;32700;32699;32698;32697
+    sound-category: "wood"
+  31956;31953;31954;31955
+    sound-category: "stone"
+  38183
+    sound-category: "stone"
+  1128
+    ground: false
+    bottom: true
+  32603
+    ground: false
+    bottom: true
+  32604
+    groundborder: false
+    bottom: true
+  32605
+    groundborder: false
+    bottom: true
+  32606
+    groundborder: false
+    bottom: true
+  32607
+    groundborder: false
+    bottom: true
+  32608
+    groundborder: false
+    bottom: true
+  32609
+    groundborder: false
+    bottom: true
+  32610
+    groundborder: false
+    bottom: true
+  32611
+    groundborder: false
+    bottom: true
+  32612
+    groundborder: false
+    bottom: true
+  32613
+    groundborder: false
+    bottom: true
+  32614
+    groundborder: false
+    bottom: true
+  32615
+    groundborder: false
+    bottom: true
+  33605
+    ground: false
+    bottom: true
+  33606
+    groundborder: false
+    bottom: true
+  33607
+    groundborder: false
+    bottom: true
+  33608
+    groundborder: false
+    bottom: true
+  33609
+    groundborder: false
+    bottom: true
+  33610
+    groundborder: false
+    bottom: true
+  33611
+    groundborder: false
+    bottom: true
+  33612
+    groundborder: false
+    bottom: true
+  33613
+    groundborder: false
+    bottom: true
+  33614
+    groundborder: false
+    bottom: true
+  33615
+    groundborder: false
+    bottom: true
+  33616
+    groundborder: false
+    bottom: true
+  33617
+    groundborder: false
+    bottom: true
+  32542
+    ground: false
+    bottom: true
+  32543
+    groundborder: false
+    bottom: true
+  32544
+    groundborder: false
+    bottom: true
+  32545
+    groundborder: false
+    bottom: true
+  32546
+    groundborder: false
+    bottom: true
+  32547
+    groundborder: false
+    bottom: true
+  32548
+    groundborder: false
+    bottom: true
+  32549
+    groundborder: false
+    bottom: true
+  32550
+    groundborder: false
+    bottom: true
+  32551
+    groundborder: false
+    bottom: true
+  32552
+    groundborder: false
+    bottom: true
+  32553
+    groundborder: false
+    bottom: true
+  32554
+    groundborder: false
+    bottom: true
+  16866
+    ground: false
+    bottom: true
+  4415
+    groundborder: false
+    bottom: true
+  4416
+    groundborder: false
+    bottom: true
+  4417
+    groundborder: false
+    bottom: true
+  4418
+    groundborder: false
+    bottom: true
+  4419
+    groundborder: false
+    bottom: true
+  4420
+    groundborder: false
+    bottom: true
+  4421
+    groundborder: false
+    bottom: true
+  4422
+    groundborder: false
+    bottom: true
+  4423
+    groundborder: false
+    bottom: true
+  4424
+    groundborder: false
+    bottom: true
+  4425
+    groundborder: false
+    bottom: true
+  4426
+    groundborder: false
+    bottom: true
+  9246
+    ground: false
+    bottom: true
+  16861
+    ground: false
+    bottom: true
+  16645
+    groundborder: false
+    bottom: true
+  17260
+    groundborder: false
+    bottom: true
+  17261
+    groundborder: false
+    bottom: true
+  17262
+    groundborder: false
+    bottom: true
+  17263
+    groundborder: false
+    bottom: true
+  17264
+    groundborder: false
+    bottom: true
+  17265
+    groundborder: false
+    bottom: true
+  17266
+    groundborder: false
+    bottom: true
+  17267
+    groundborder: false
+    bottom: true
+  17268
+    groundborder: false
+    bottom: true
+  17269
+    groundborder: false
+    bottom: true
+  17270
+    groundborder: false
+    bottom: true
+  17271
+    groundborder: false
+    bottom: true
+  17280
+    groundborder: false
+    bottom: true
+  17281
+    groundborder: false
+    bottom: true
+  17282
+    groundborder: false
+    bottom: true
+  17283
+    groundborder: false
+    bottom: true
+  17284
+    groundborder: false
+    bottom: true
+  17285
+    groundborder: false
+    bottom: true
+  17286
+    groundborder: false
+    bottom: true
+  17287
+    groundborder: false
+    bottom: true
+  17288
+    groundborder: false
+    bottom: true
+  17289
+    groundborder: false
+    bottom: true
+  17290
+    groundborder: false
+    bottom: true
+  17291
+    groundborder: false
+    bottom: true
+  18880
+    ground: false
+    bottom: true
+  18883
+    groundborder: false
+    bottom: true
+  18884
+    groundborder: false
+    bottom: true
+  18885
+    groundborder: false
+    bottom: true
+  18886
+    groundborder: false
+    bottom: true
+  18887
+    groundborder: false
+    bottom: true
+  18888
+    groundborder: false
+    bottom: true
+  18889
+    groundborder: false
+    bottom: true
+  18890
+    groundborder: false
+    bottom: true
+  18891
+    groundborder: false
+    bottom: true
+  18892
+    groundborder: false
+    bottom: true
+  18893
+    groundborder: false
+    bottom: true
+  18894
+    groundborder: false
+    bottom: true
+  29626
+    collision: true
+    collision-size: 1 1
+
+// trade wagons
+  30541
+    collision-size: 0 0
+  30542
+    collision-size: 0 1
+  30543
+    collision-size: 1 0
+  30544
+    collision-size: 1 1
+  30545
+    collision-size: 1 0
+  30546
+    collision-size: 2 1
+  30547
+    collision-size: 1 0
+  30548
+    collision-size: 1 1
+  30549
+    collision-size: 1 0
+  30550
+    collision-size: 1 1
+
+  30551
+    collision-size: 0 0
+  30552
+    collision-size: 1 0
+  30553
+    collision-size: 0 1
+  30554
+    collision-size: 1 1
+  30555
+    collision-size: 0 1
+  30556
+    collision-size: 1 1
+  30557
+    collision-size: 0 1
+  30558
+    collision-size: 1 1
+  30559
+    collision-size: 0 1
+  30560
+    collision-size: 1 1
+
+// fishing pools
+  30008
+    collision-size: 1 1
+  33500
+    collision-size: 3 3
+
+//nests
+  33690
+    collision-size: 1 1
+  33691
+    collision-size: 1 1
+  33692
+    collision-size: 1 1
+
+  //tree stands
+  33887
+    collision-size: 1 1
+  33888
+    collision-size: 1 1
+  1985
+    collision-size: 0 1
+  1986
+    collision-size: 0 1
+  1987
+    collision-size: 0 1
+
+  29070
+    offset-x: 14
+  29071
+    offset-y: 14
+  29072
+    offset-x: 14
+  29073
+    offset-y: 14
+  29074
+    offset-x: 14
+  29075
+    offset-y: 14
+  29076
+    offset-x: 14
+  29077
+    offset-y: 14
+  29078
+    offset-x: 14
+  29079
+    offset-y: 14
+  29080
+    offset-x: 14
+  29081
+    offset-y: 14
+  29082
+    offset-x: 14
+  29083
+    offset-y: 14
+  29084
+    offset-x: 14
+  29085
+    offset-y: 14
+  29086
+    offset-x: 14
+  29087
+    offset-y: 14
+  29088
+    collision-size: 0 1
+    offset-x: 14
+  29089
+    collision-size: 1 0
+    offset-y: 14
+  29090
+    collision-size: 0 1
+    offset-x: 14
+  29091
+    collision-size: 1 0
+    offset-y: 14
+  29092
+    collision-size: 0 1
+    offset-x: 14
+  29093
+    collision-size: 1 0
+    offset-y: 14
+  29094
+    collision-size: 0 1
+    offset-x: 14
+  29095
+    collision-size: 1 0
+    offset-y: 14
+  29096
+    collision-size: 0 1
+    offset-x: 14
+  29097
+    collision-size: 1 0
+    offset-y: 14
+  29098
+    collision-size: 0 1
+    offset-x: 14
+  29099
+    collision-size: 1 0
+    offset-y: 14
+  29100
+    collision-size: 0 1
+    offset-x: 14
+  29101
+    collision-size: 1 0
+    offset-y: 14
+  29102
+    collision-size: 0 1
+    offset-x: 14
+  29103
+    collision-size: 1 0
+    offset-y: 14
+  29139
+    collision-size: 1 0
+  29140
+    collision-size: 1 0
+  29141
+    collision-size: 0 1
+    offset-y: 4
+  29142
+    collision-size: 0 1
+  29143
+    collision-size: 1 0
+  29144
+    collision-size: 0 1
+    offset-y: 4
+  29147
+    collision-size: 1 0
+  33911
+    collision-size: 1 1
+  33912
+    collision-size: 1 1
+  33919
+    collision-size: 1 1
+  33920
+    collision-size: 1 1
+  33921
+    collision-size: 1 1
+  33922
+    collision-size: 0 1
+  33923
+    collision-size: 0 1
+  33925
+    collision-size: 1 0
+  33926
+    collision-size: 0 1
+  33929
+    collision-size: 2 1
+  33930
+    collision-size: 2 1
+  33931
+    collision-size: 2 1
+  33932
+    collision-size: 2 1
+  33998
+    collision-size: 0 1
+  33999
+    collision-size: 1 0
+  34000
+    collision-size: 0 1
+  34001
+    collision-size: 1 0
+  34046
+    collision-size: 1 0
+  34047
+    collision-size: 1 0
+  34051
+    collision-size: 1 0
+  34052
+    collision-size: 1 0
+  34053
+    collision-size: 1 0
+  34058
+    collision-size: 1 0
+  34059
+    collision-size: 1 0
+  34060
+    collision-size: 0 1
+  34061
+    collision-size: 0 1
+  34062
+    collision-size: 1 0
+  34063
+    collision-size: 0 1
+  34064
+    collision-size: 1 0
+  34065
+    collision-size: 0 1
+  34073;39361
+    collision-size: 1 0
+  34074;39362
+    collision-size: 1 0
+  34076;39364
+    collision-size: 1 0
+  34077;39365
+    collision-size: 1 0
+  34096
+    collision-size: 1 0
+  34098
+    collision-size: 1 0
+  34104
+    collision-size: 0 1
+  34105
+    collision-size: 1 0
+  34106
+    collision-size: 0 1
+  34107
+    collision-size: 1 0
+  34344
+    collision-size: 0 1
+  34345
+    collision-size: 1 0
+  34346
+    collision-size: 1 0
+  34347
+    collision-size: 1 0
+  34348
+    collision-size: 0 1
+  34349
+    collision-size: 0 1
+  34350
+    collision-size: 0 1
+  34351
+    collision-size: 0 1
+  34352
+    offset-y: 6
+  34353
+    offset-y: 6
+  34354
+    offset-y: 6
+  34426;39367
+    collision-size: 0 1
+  34427;39368
+    collision-size: 0 1
+  34429;39370
+    collision-size: 0 1
+  34430;39371
+    collision-size: 0 1
+  30622;30620
+    collision-size: 1 0
+  34562
+    collision-size: 0 2
+  1892;1893;1894;1895;1896;1897;1898;1899;1900;6217
+    middle: true
+  38956
+    collision-size: 1 0
+    offset-x: 14
+  38957
+    collision-size: 0 1
+    offset-y: 14
+
+  // main stones
+  1851;30721;30960;30794;44532
+    collision-size: 1 0
+    offset-x: 2
+    offset-y: 8
+  1852;30722;30961;30795;44533
+    collision: true
+    collision-size: 1 1
+  1853;30723;30962;30796;44534
+    collision-size: 1 0
+    offset-x: 4
+    offset-y: 8
+  1859;30724;30963;30797;33376;44535
+    offset-x: 14
+    offset-y: 14
+  1860;30725;30964;30798;44536
+    collision-size: 1 0
+    offset-x: 4
+    offset-y: 8
+  1910;30726;30965;30799;44537
+    collision-size: 1 0
+  1911;30727;30966;30800;44538
+    collision-size: 1 0
+    offset-x: 0
+    offset-y: 6
+  1914;30729;30968;30802;44540
+    collision-size: 1 0
+    offset-x: 0
+    offset-y: 6

@@ -1,0 +1,1405 @@
+creatures
+
+// -- warfare male start -- \\
+  // axe 3
+  3366
+    direction-draw-order: 1 1 1 1
+  // axe 3
+  3367
+    direction-draw-order: 1 1 1 1
+  // axe 1
+  3368
+    direction-draw-order: 1 1 1 1
+  // axe 1
+  3369
+    direction-draw-order: 1 1 1 1
+  // axe 3
+  3370
+    direction-draw-order: 1 1 1 1
+  // axe 3
+  3371
+    direction-draw-order: 1 1 1 1
+  // axe 4
+  3372
+    direction-draw-order: 1 1 1 1
+  // axe 4
+  3373
+    direction-draw-order: 1 1 1 1
+  // axe 5
+  3374
+    direction-draw-order: 1 1 1 1
+  // axe 5
+  3375
+    direction-draw-order: 1 1 1 1
+  // axe 6
+  5914
+    direction-draw-order: 1 1 1 1
+
+  // body
+  3223
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+
+  // head
+  3224
+    direction-draw-order: 1 1 1 1
+  // head
+  3365
+    direction-draw-order: 1 1 1 1
+  // head
+  3376
+    direction-draw-order: 1 1 1 1
+  // head
+  3377
+    direction-draw-order: 1 1 1 1
+  // head
+  3378
+    direction-draw-order: 1 1 1 1
+  // head
+  3379
+    direction-draw-order: 1 1 1 1
+  // head 6
+  5921
+    direction-draw-order: 1 1 1 1
+
+  3222;3223;3224;3365;3376;3224;3377;3378;3379;3366;3367;3368;3369;3370;3371;3372;3373;3374;3375;5921;5914
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+// -- warfare male end -- \\
+
+// -- warfare female start -- \\
+  // axe
+  3736;3737;3738;3739;3740;3741;3742;3743;3744;3745;5900
+    direction-draw-order: 0 1 1 0
+  
+  // body
+  3730
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+
+  // head
+  3732;3733;3734;3735;3731;5907
+    direction-draw-order: 1 1 1 1
+
+  3736;3737;3738;3739;3740;3741;3742;3743;3744;3745;3732;3733;3734;3735;3731;3730;5900;5907
+    animate-from-start: true
+
+// -- warfare female end -- \\
+
+// -- archery male start -- \\
+  // bow
+  3241;3498;3499;3500;3501;3502
+    direction-draw-order: 1 1 1 1
+
+  // string
+  3238
+    direction-draw-order: 0 1 1 0
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // arm
+  3234;3235
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // arrow
+  3236
+    animate-from-start: true
+    only-attack-animation: true
+    direction-draw-order: 1 1 1 1
+    draw-phase-offset: true
+  3237
+    animate-from-start: true
+    only-attack-animation: true
+    direction-draw-order: 0 1 1 0
+    draw-phase-offset: true
+
+  // quiver
+  3239
+    direction-draw-order: 1 1 1 1
+
+  // body
+  3240
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+    phase-offsets:
+      0: 0 0
+      1: 0 0
+      2: 1 1
+      3: 0 0
+      4: -1 -1
+      5: 0 0
+      6: 1 1
+      7: 0 0
+      8: -1 -1
+
+  // head
+  3242;3363;3494;3495;3496;3497;5888
+    direction-draw-order: 1 1 1 1
+
+  3234;3235;3236;3237;3238;3239;3240;3241;3242;3363:
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+
+// -- archery male end -- \\
+
+// -- archery female start -- \\
+  // bow
+  3510;3511;3512;3513;3514;3515
+    direction-draw-order: 1 1 1 1
+
+  // string
+  3520;3521;3522;3523;3524;3525
+    direction-draw-order: 0 1 1 0
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // arm
+  3516;3517
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // arrow
+  3518
+    animate-from-start: true
+    only-attack-animation: true
+    direction-draw-order: 1 1 1 1
+    draw-phase-offset: true
+  3519
+    animate-from-start: true
+    only-attack-animation: true
+    direction-draw-order: 0 1 1 0
+    draw-phase-offset: true
+
+  // quiver
+  3504
+    direction-draw-order: 1 1 1 1
+
+  // body
+  3503
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+
+  // head
+  3505;3506;3507;3508;3509;5894
+    direction-draw-order: 1 1 1 1
+
+
+// -- archery female end -- \\
+
+// -- wizardry male start -- \\
+
+  // arms
+  3255
+    direction-draw-order: 1 1 1 1
+    hide-when-attacking: true
+  3260
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  // head
+  3257;3753;3754;3755;3756;3757;5514
+    direction-draw-order: 1 1 1 1
+
+  // staff
+  3258;3759;3761;3763;3765;3767
+    direction-draw-order: 1 1 1 1
+    hide-when-attacking: true
+  3261;3758;3760;3762;3764;3766;3747;3748;3749;3750;3751;3752
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  // body
+  3256
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 
+    creature-offset: 64 52
+    name-displacement: 0 0
+    main-body: true
+
+  3261;3758;3760;3762;3764;3766;3747;3748;3749;3750;3751;3752;3259;3759;3761;3763;3765;3767;3256;3257;3753;3754;3755;3756;3757;3258;5514:
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+// -- wizardry male end -- \\
+
+// -- wizardry female start -- \\
+
+  // arms
+  3493
+    direction-draw-order: 1 1 1 1
+    hide-when-attacking: true
+  3469
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  // head
+  3470;3471;3472;3473;3474;3746
+    direction-draw-order: 1 1 1 1
+
+  // staff
+  3485;3486;3487;3488;3489;3527
+    direction-draw-order: 1 1 1 1
+    hide-when-attacking: true
+  3475;3476;3477;3478;3479;3480;3481;3482;3483;3484;3528;3526
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  // body
+  3490
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 41 41
+    name-displacement: 0 0
+    main-body: true
+
+  3469;3470;3471;3472;3473;3474;3485;3486;3487;3488;3489;3475;3476;3477;3478;3479;3480;3481;3482;3483;3484;3493;3527;3528;3526:
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+
+// -- wizardry female end -- \\
+
+// -- witchcraft male start -- \\
+
+  // arms
+  3771;3780;3782;3784;3786;3788;3790
+    direction-draw-order: 1 1 1 1
+    hide-when-attacking: true
+  3770
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  3779;3781;3783;3785;3787;3789
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  // head
+  3771;3772;3773;3774;3775;3776;3777;3778
+    direction-draw-order: 1 1 1 1
+
+  // staff
+  3793;3796;3799;3802;3805;3808
+    direction-draw-order: 1 1 1 1
+    hide-when-attacking: true
+  3791;3792;3794;3795;3797;3798;3800;3801;3803;3804;3806;3807
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  // body
+  3769
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 41 41
+    name-displacement: 0 0
+    main-body: true
+
+// -- witchcraft male end -- \\
+
+// -- witchcraft male start -- \\
+
+  // arms
+  3811;3820;3822;3824;3826;3828;3830
+    direction-draw-order: 1 1 1 1
+    hide-when-attacking: true
+  3810
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  3819;3821;3823;3825;3827;3829
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  // head
+  3812;3813;3814;3815;3816;3817;3818
+    direction-draw-order: 1 1 1 1
+
+  // staff
+  3833;3836;3839;3842;3845;3848
+    direction-draw-order: 1 1 1 1
+    hide-when-attacking: true
+  3831;3832;3834;3835;3837;3838;3840;3841;3843;3844;3846;3847
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+
+  // body
+  3809
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 41 41
+    name-displacement: 0 0
+    main-body: true
+
+// -- witchcraft male end -- \\
+
+// -- protection male start -- \\
+  // sword
+  3289;3290;3291;3292;3293;5028;5948:
+    direction-draw-order: 1 1 1 1
+
+  // body
+  3283
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 41 41
+    name-displacement: 0 0
+    main-body: true
+
+  // head
+  3288;3284;3285;3286;3287;5027;5953:
+    direction-draw-order: 1 1 1 1
+
+  5948;5953
+    creature-offset: 23 23
+
+  5742;5743;5744;5745;5746;5747:
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+
+  3283;3289;3290;3291;3292;3293;3288;3284;3285;3286;3287;5027;5028;5948;5953:
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+// -- protection male end -- \\
+
+// -- protection female start -- \\
+  // sword
+  3386;3387;3388;3389;3390;5040;5938:
+    direction-draw-order: 1 1 1 1
+
+  // body
+  3380
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 41 41
+    name-displacement: 0 0
+    main-body: true
+
+  // head
+  3381;3382;3383;3384;3385;5039;5783;5706;5707;5708;5709;5710;5711;5784;5785;5786;5718;5712;5724;5719;5713;5725;5720;5714;5726;5721;5715;5727;5722;5716;5728;5723;5717;5729;5943
+    direction-draw-order: 1 1 1 1
+
+  5783;5706;5707;5708;5709;5710;5711
+    animate-from-start: true
+  
+  5938;5943
+    creature-offset: 23 23
+
+  3386;3387;3388;3389;3390;3380;3381;3382;3383;3384;3385;5039;5040;5784;5785;5786;5718;5712;5724;5719;5713;5725;5720;5714;5726;5721;5715;5727;5722;5716;5728;5723;5717;5729;5938;5943
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+// -- protection female end -- \\
+
+// -- kid archery male start -- \\
+  // string
+  3274
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  3275
+    direction-draw-order: 0 0 0 0
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // quiver
+  3278
+    direction-draw-order: 1 1 1 1
+
+  // body
+  3276
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+    phase-offsets:
+      0: 0 0
+      1: 0 0
+      2: 1 1
+      3: 0 0
+      4: -1 -1
+      5: 0 0
+      6: 1 1
+      7: 0 0
+      8: -1 -1
+
+  3274;3275;3276;3278:
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+
+// -- kid archery male end -- \\
+
+// -- kid wizardry male start -- \\
+  // arms
+  3279
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // staff
+  3280
+    direction-draw-order: 0 0 0 0
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // body
+  3281
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+    phase-offsets:
+      0: 0 0
+      1: 0 0
+      2: 1 1
+      3: 0 0
+      4: -1 -1
+      5: 0 0
+      6: 1 1
+      7: 0 0
+      8: -1 -1
+
+  3280;3279;3281:
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+
+// -- kid wizardry male end -- \\
+
+// -- kid holy male start -- \\
+  // staff
+  3296
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // body
+  3297
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+    phase-offsets:
+      0: 0 0
+      1: 0 0
+      2: 1 1
+      3: 0 0
+      4: -1 -1
+      5: 0 0
+      6: 1 1
+      7: 0 0
+      8: -1 -1
+
+  3296;3297:
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+
+// -- kid holy male end -- \\
+
+
+// -- kid holy female start -- \\
+  // staff
+  3334
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // body
+  3336
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+    phase-offsets:
+      0: 0 0
+      1: 0 0
+      2: 1 1
+      3: 0 0
+      4: -1 -1
+      5: 0 0
+      6: 1 1
+      7: 0 0
+      8: -1 -1
+
+  3334;3336:
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+
+// -- kid holy female end -- \\
+
+// -- kid archery female start -- \\
+  // string
+  3325
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  3326
+    direction-draw-order: 0 0 0 0
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // quiver
+  3327
+    direction-draw-order: 1 1 1 1
+
+  // body
+  3328
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+    phase-offsets:
+      0: 0 0
+      1: 0 0
+      2: 1 1
+      3: 0 0
+      4: -1 -1
+      5: 0 0
+      6: 1 1
+      7: 0 0
+      8: -1 -1
+
+  3328;3327;3325;3326:
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+
+// -- kid archery female end -- \\
+
+// -- kid wizardry female start -- \\
+  // arms
+  3349
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // staff
+  3350
+    direction-draw-order: 0 0 0 0
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // body
+  3352
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+    phase-offsets:
+      0: 0 0
+      1: 0 0
+      2: 1 1
+      3: 0 0
+      4: -1 -1
+      5: 0 0
+      6: 1 1
+      7: 0 0
+      8: -1 -1
+
+  3349;3350;3352:
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+
+// -- kid wizardry female end -- \\
+
+// -- kid dualwield male start -- \\
+  3347
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    alternate-animation: 3348
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  3348
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    alternate-animation: 3347
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+// -- kid dualwield male start -- \\
+
+// -- kid dualwield female start -- \\
+  3344
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    alternate-animation: 3345
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+  3345
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    alternate-animation: 3344
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+// -- kid dualwield female start -- \\
+
+// -- spiritual female start -- \\
+  // sword
+  3393;3726;3727;3728;3729;5933
+    direction-draw-order: 1 1 1 1
+
+  // body
+  3391
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 42 42
+    name-displacement: 0 0
+    main-body: true
+
+  // head
+  3392;3722;3723;3724;3725;5928
+    direction-draw-order: 1 1 1 1
+
+  3393;3391;3392;3726;3727;3728;3729;3722;3723;3724;3725;5928;5933
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+// -- spiritual female end -- \\
+
+// -- spiritual male start -- \\
+  // sword
+  3700;3701;3702;3703;3704;5862
+    direction-draw-order: 1 0 0 1
+
+  // body
+  3705
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 42 42
+    name-displacement: 0 0
+    main-body: true
+
+  // head
+  3706;3707;3708;3698;3699;5861;5862
+    direction-draw-order: 1 1 1 1
+  
+  5861;5862
+    creature-offset: -10 -10
+
+  3705;3706;3707;3708;3698;3699;3700;3701;3702;3703;3704;5861;5862
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+// -- spiritual male end -- \\
+
+// -- two-handed sword start -- \\
+  // sword
+
+  // body
+  5589
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 64 64
+    name-displacement: 0 0
+    main-body: true
+
+  // head
+  5588
+    direction-draw-order: 1 1 1 1
+
+  5590
+    direction-draw-order: 1 0 0 1
+  5591
+    direction-draw-order: 0 0 0 0
+
+  5588;5589;5590;5591
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+
+// -- two-handed sword end -- \\
+
+// -- shadow male start -- \\
+  3395
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 41 41
+    name-displacement: 0 0
+    alternate-animation: 3399
+    main-body: true
+    addon-draw-order:
+      3447: 5
+      3441: 5
+      3451: 5
+      3450: 5
+      3460: 5
+
+  3399
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 41 41
+    name-displacement: 0 0
+    alternate-animation: 3395
+    main-body: true
+    addon-draw-order:
+      3447: 5
+      3441: 5
+      3451: 5
+      3450: 5
+      3460: 5
+
+  3396
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3400
+  3397
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3398
+  3398
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3397
+  3400
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3396
+  3441
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3451
+  3451
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3441
+  3442
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3452
+  3452
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3442
+  3447
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3457
+  3448
+    direction-draw-order: 1 0 0 1
+    alternate-animation: 3458
+  3457
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3447
+  3458
+    direction-draw-order: 1 0 0 1
+    alternate-animation: 3448
+  5981
+    direction-draw-order: 1 0 0 1
+    alternate-animation: 5983
+  5983
+    direction-draw-order: 1 0 0 1
+    alternate-animation: 5981
+
+  3449
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3459
+  3450
+    direction-draw-order: 0 1 1 0
+    alternate-animation: 3460
+  3459
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3449
+  3460
+    direction-draw-order: 0 1 1 0
+    alternate-animation: 3450
+  3443
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3453
+  3453
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3443
+  3444
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3454
+  3454
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3444
+  3445
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3455
+  3455
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3445
+  3446
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3456
+  3456
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3446
+  5980
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 5982
+  5982
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 5980
+
+  3395;3399;3396;3397;3398;3400;3441;3451;3442;3452;3447;3448;3457;3458;3449;3450;3459;3460;3443;3453;3444;3454;3445;3455;3446;3456;5980;5981;5982;5983
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+// -- shadow male end -- \\
+
+// -- shadow female start -- \\
+  3544
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 41 41
+    name-displacement: 0 0
+    alternate-animation: 3558
+    main-body: true
+    addon-draw-order:
+      3574: 5
+      3546: 4
+      3560: 4
+      3555: 5
+      3579: 5
+
+  3558
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 41 41
+    name-displacement: 0 0
+    alternate-animation: 3544
+    main-body: true
+    addon-draw-order:
+      3574: 5
+      3546: 4
+      3560: 4
+      3555: 5
+      3579: 5
+
+  //hairs
+  3549
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3556
+  3556
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3549
+  3552
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3576
+  3576
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3552
+  3553
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3577
+  3577
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3553
+  3554
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3578
+  3578
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3553
+  3547
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3561
+  3561
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3547
+  5968
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 5970
+  5970
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 5968
+
+  //arm
+  3543
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3557
+  3557
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3543
+  5978
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 5979
+  5979
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 5978
+
+  //swords
+  3546
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3560
+  3560
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3546
+  3542
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3572
+  3572
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3542
+  3548
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3573
+  3573
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3548
+  3550
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3574
+  3551
+    direction-draw-order: 1 0 0 1
+    alternate-animation: 3575
+  3574
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3550
+  3575
+    direction-draw-order: 1 0 0 1
+    alternate-animation: 3551
+  3555
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3579
+  3579
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 3555
+  5969
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 5971
+  5971
+    direction-draw-order: 1 1 1 1
+    alternate-animation: 5969
+
+  3558;3559;3572;3574;3560;3573;3544;3546;3556;3552;3553;3554;3561;3542;3548;3575;3550;3551;3579;3555;3549;3576;3577;3543;3557;3578;3547;5968;5969;5970;5971
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+// -- shadow male end -- \\
+
+
+// -- holy female start -- \\
+
+  // body
+  3418
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+    phase-offsets:
+      0: 0 0
+      1: 0 0
+      2: 1 1
+      3: 0 0
+      4: -1 -1
+      5: 0 0
+      6: 1 1
+      7: 0 0
+      8: -1 -1
+
+  // hand
+  3408
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // staff
+  3409;3410;3411;3412;3413
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+  3414
+    direction-draw-order: 1 1 1 1
+    hide-when-attacking: true
+  3438
+    direction-draw-order: 1 1 1 1
+    only-attack-animation: true
+    animate-from-start: true
+    hide-when-not-attacking: true
+  // shield
+  3419;3420;3421;3422;3423;3424
+    direction-draw-order: 0 1 1 0
+
+  // hair
+  3425;3426;3427;3428;3429;3430
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+  3430
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  // arm cloth
+  3415;3416;3417
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  3408;3409;3410;3411;3412;3413;3414
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+  3438
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+
+// -- holy female end -- \\
+
+// -- holy male start -- \\
+
+  // body
+  3667
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 4 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    main-body: true
+    phase-offsets:
+      0: 0 0
+      1: 0 0
+      2: 1 1
+      3: 0 0
+      4: -1 -1
+      5: 0 0
+      6: 1 1
+      7: 0 0
+      8: -1 -1
+
+  // hand
+  3668
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // staff
+  3655;3656;3657;3658;3659;3660
+    direction-draw-order: 1 0 0 1
+    animate-from-start: true
+    only-attack-animation: true
+    draw-phase-offset: true
+
+  // shield
+  3661;3662;3663;3664;3665;3666
+    direction-draw-order: 0 1 1 0
+    draw-phase-offset: true
+
+  // hair
+  3649;3650;3651;3652;3653
+    direction-draw-order: 1 1 1 1
+    animate-from-start: true
+  3654
+    direction-draw-order: 1 1 1 1
+    offset-x: 4
+    offset-y: 4
+    draw-phase-offset: true
+
+// -- holy male end -- \\

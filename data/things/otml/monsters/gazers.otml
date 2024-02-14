@@ -1,0 +1,96 @@
+creatures
+  4058;4059;4056;4057;4989;4990;4991;4992;4993;4994;4995;4996
+    animate-from-start: true
+    creature-offset: 48 48
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+
+  2363;2364;2365;2366;2367;2368;2369;2370;2371;2372;2373;2374;2375;2376;2377;2378
+    creature-offset: 16 16
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    main-body: true
+
+  2363
+    attack-animation-type: 0
+    attack-animation:
+      0: 4994
+
+  2364
+    attack-animation-type: 0
+    attack-animation:
+      0: 4993
+
+  2365
+    attack-animation-type: 0
+    attack-animation:
+      0: 4996
+
+  2366
+    attack-animation-type: 0
+    attack-animation:
+      0: 4995
+
+  2367
+    attack-animation-type: 0
+    attack-animation:
+      0: 4989
+
+  2368
+    attack-animation-type: 0
+    attack-animation:
+      0: 4992
+
+  2369
+    attack-animation-type: 0
+    attack-animation:
+      0: 4991
+
+  2370
+    attack-animation-type: 0
+    attack-animation:
+      0: 4991
+
+  2371
+    attack-animation-type: 0
+    attack-animation:
+      0: 4990
+
+  2372
+    attack-animation-type: 0
+    attack-animation:
+      0: 4992
+
+  2373
+    attack-animation-type: 0
+    attack-animation:
+      0: 4989
+
+  2374
+    attack-animation-type: 0
+    attack-animation:
+      0: 4991
+
+  2375
+    attack-animation-type: 0
+    attack-animation:
+      0: 4059
+
+  2376
+    attack-animation-type: 0
+    attack-animation:
+      0: 4057
+
+  2377
+    attack-animation-type: 0
+    attack-animation:
+      0: 4056
+
+  2378
+    attack-animation-type: 0
+    attack-animation:
+      0: 4058

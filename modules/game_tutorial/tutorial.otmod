@@ -1,0 +1,7 @@
+Module
+  name: game_tutorial
+  description: Tutorial
+  sandboxed: false
+  scripts: [ tutorial ]
+  @onLoad: Tutorial.init()
+  @onUnload: Tutorial.terminate()

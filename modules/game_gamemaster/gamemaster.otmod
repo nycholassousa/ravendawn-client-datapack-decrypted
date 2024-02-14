@@ -1,0 +1,6 @@
+Module
+  name: game_gamemaster
+  sandboxed: true
+  scripts: [ gamemaster ]
+  @onLoad: init()
+  @onUnload: terminate()

@@ -1,0 +1,373 @@
+items
+  30060;39125;39126;39127;39128;39129;39130;39131;39132;39133;39134
+    bottom-effect: true
+  30060
+    offset-x: 96
+    offset-y: 96
+  39125
+    offset-x: -2
+    offset-y: -2
+  39126
+    offset-x: 10
+    offset-y: 10
+  39127
+    offset-x: 26
+    offset-y: 26
+  39128
+    offset-x: 40
+    offset-y: 40
+  39129
+    offset-x: 54
+    offset-y: 54
+  39130
+    offset-x: 68
+    offset-y: 68
+  39131
+    offset-x: 82
+    offset-y: 82
+  39132
+    offset-x: 96
+    offset-y: 96
+  39133
+    offset-x: 110
+    offset-y: 110
+  39134
+    offset-x: 124
+    offset-y: 124
+
+effects
+  11
+    offset-x: 10
+    offset-y: 14
+    bottom-effect: true
+  14
+    offset-x: 12
+    offset-y: 12
+    bottom-effect: true
+  338
+    offset-x: 20
+    offset-y: 22
+    bottom-effect: true
+  595
+    bottom-effect: true
+  598
+    bottom-effect: true
+  602
+    bottom-effect: true
+  603
+    bottom-effect: true
+  604
+    bottom-effect: true
+  608
+    bottom-effect: true
+    offset-x: 16
+    offset-y: 16
+  683
+    bottom-effect: true
+  684
+    bottom-effect: true
+  685
+    bottom-effect: true
+  686
+    bottom-effect: true
+  691
+    offset-x: 80
+    offset-y: 80
+    bottom-effect: true
+    middle: true
+
+// glyphs
+  494
+    bottom-effect: true
+  501
+    offset-x: 8
+    offset-y: 8
+    bottom-effect: true
+  507
+    bottom-effect: true
+  508
+    bottom-effect: true
+  509
+    bottom-effect: true
+  510
+    bottom-effect: true
+  511
+    offset-x: 8
+    offset-y: 8
+    bottom-effect: true
+  512
+    bottom-effect: true
+  513
+    bottom-effect: true
+  514
+    bottom-effect: true
+  515
+    bottom-effect: true
+  516
+    bottom-effect: true
+  517
+    bottom-effect: true
+  518
+    offset-x: 8
+    offset-y: 8
+    bottom-effect: true
+  519
+    bottom-effect: true
+  520
+    offset-x: 8
+    offset-y: 8
+    bottom-effect: true
+  521
+    offset-x: 8
+    offset-y: 8
+    bottom-effect: true
+  522
+    offset-x: 8
+    offset-y: 8
+    bottom-effect: true
+  523
+    bottom-effect: true
+  524
+    bottom-effect: true
+  531
+    offset-x: 40
+    offset-y: 40
+    bottom-effect: true
+  554
+    bottom-effect: true
+  595
+    bottom-effect: true
+  598
+    bottom-effect: true
+  625
+    bottom-effect: true
+  627
+    bottom-effect: true
+  628
+    bottom-effect: true
+  633
+    bottom-effect: true
+  634
+    bottom-effect: true
+  645
+    bottom-effect: true
+  646
+    bottom-effect: true
+  657
+    bottom-effect: true
+  658
+    bottom-effect: true
+  659
+    bottom-effect: true
+  660
+    bottom-effect: true
+  662
+    bottom-effect: true
+  677
+    offset-x: 8
+    offset-y: 4
+    bottom-effect: true
+  679
+    bottom-effect: true
+  681
+    offset-x: 8
+    offset-y: 8
+    bottom-effect: true
+  682
+    offset-x: 8
+    offset-y: 8
+    bottom-effect: true
+  687
+    bottom-effect: true
+  690
+    bottom-effect: true
+  697
+    bottom-effect: true
+  763
+    bottom-effect: true
+  681
+    bottom-effect: true
+
+  835
+    bottom-effect: true
+
+  968
+    bottom-effect: true
+    offset-y: 32
+  969
+    bottom-effect: true
+  970
+    bottom-effect: true
+  971
+    bottom-effect: true
+    offset-x: 32
+
+  998
+    bottom-effect: true
+
+  1081
+    offset-x: 32
+    offset-y: 32
+    bottom-effect: true
+
+  1222
+    bottom-effect: true
+
+  1235
+    offset-x: 125
+    offset-y: 140
+    bottom-effect: true
+
+  1236;1237;1238;1239
+    offset-x: 32
+    offset-y: 32
+    bottom-effect: true
+
+  1262;1264
+    bottom-effect: true
+
+  1273
+    bottom-effect: true
+
+  1278;1280
+    offset-x: 32
+    offset-y: 32
+    bottom-effect: true
+
+  1289;1290
+    bottom-effect: true
+
+  1298
+    bottom-effect: true
+
+  1307;1308;1309;1310;1311;1312;1313;1314;1315;1316;1317;1318;1319;1320;1321;1322;1323;1324
+    bottom-effect: true
+
+  1366;1367;1368;1747;1748;1749
+    bottom-effect: true
+
+  1439;1440;1441;1442;1443;1444;1445;1446;1447;1448;1449;1450;1451;1452;1453;1454;1455;1456;1457;1458;1459;1460;1461;1462;1463
+    bottom-effect: true
+
+  1396;1397;1398
+    bottom-effect: true
+  
+  1409;1410;1411
+    bottom-effect: true
+
+  1420;1421;1422;1423
+    bottom-effect: true
+
+  1468
+    bottom-effect: true
+
+  1469
+    bottom-effect: true
+
+  1494;1495;1496;1497
+    bottom-effect: true
+
+  1414;1415;1416;1417;1418;1419
+    bottom-effect: true
+
+  1177
+    bottom-effect: true
+  1023
+    bottom-effect: true
+
+  1339
+    bottom-effect: true
+
+  1545
+    bottom-effect: true
+
+  1546
+    bottom-effect: true
+
+  1557;1558;1559;1560;1561;1562;1563;1564;1565;1566;1567;1568;1569;1570
+    bottom-effect: true
+
+  1511
+    bottom-effect: true
+
+  1736
+    bottom-effect: true
+
+  1681;1688;1690
+    bottom-effect: true
+
+  1683;1689;1691
+    bottom-effect: true
+
+  1608;1609;1610;1611;1612;1613;1614;1615;1616;1617;1618;1619;1620;1621;1622;1623;1624;1625;1626;1627;1628;1629;1630;1631
+    bottom-effect: true
+
+  1637;1638;1639;1640
+    bottom-effect: true
+
+  1750;1752;1754
+    bottom-effect: true
+
+  1787;1788
+    bottom-effect: true
+
+  // Death Animations
+  792;1807;1808;1809;1810;1811;1812;1813;1814;1815;1816;1817;1818;1819;1820;1821;1832;1846;1847;1848
+    bottom-effect: true
+
+  1783;1784;1786
+    bottom-effect: true
+
+  1833;1834;1835;1836;1837
+    bottom-effect: true
+
+  // Retribution
+  1850;1852
+    bottom-effect: true
+  
+  // Blood Reckoning
+  1849
+    bottom-effect: true
+
+  // Red Teleport
+  1867
+    bottom-effect: true
+
+  // Blood Circle
+  1830
+    bottom-effect: true
+
+  // Stacking
+  1874;1875;1891;1893
+    bottom-effect: true
+
+  // Rain
+  1878;1879;1880;1881;1882;1883;1884;1885
+    bottom-effect: true
+
+  // Spikes
+  1801;1802;1803;1804;1805;1806
+    bottom-effect: true
+
+  //Blood rune for the Ground
+  1951;1952;1953
+    bottom-effect: true
+
+  //Thunder Ground Smash Effect
+  1954;1955;1956;1957;1958;1959;1960;1961
+    bottom-effect: true
+
+  1935
+    bottom-effect: true
+
+  //Floral Rejuvenation
+  1963;1965;1967;1968
+    bottom-effect: true
+
+  //Eye of the Storm
+  1928;1931
+    bottom-effect: true
+
+  //Chaos Chains
+  1921;1923
+    bottom-effect: true

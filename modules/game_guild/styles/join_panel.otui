@@ -1,0 +1,9 @@
+GameGuildJoinGuildPanel < UIWidget
+  id: join_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+
+  GameGuildJoinGuildPanelSearch
+  GameGuildJoinListPanel

@@ -1,0 +1,126 @@
+GamePremiumStoreRavenpacksItemWidget < UIWidget
+  width: 530
+  height: 483
+  $!first:
+    margin-left: -45
+
+  UIWidget
+    id: box
+    margin-top: 60
+    anchors.centerIn: parent
+    image-source: /images/ui/windows/premium_store/premium_ravenpack_item_box_off
+    $on:
+      image-source: /images/ui/windows/premium_store/premium_ravenpack_item_box_on
+    $checked:
+      image-source: /images/ui/windows/premium_store/premium_ravenpack_item_box_on
+    size: 530 425
+
+    UIWidget
+      id: shadow
+      image-source: /images/ui/windows/premium_store/item_name_box_shadow
+      anchors.centerIn: amount
+      size: 424 130
+      margin-top: 15
+
+    UIWidget
+      id: bow
+      anchors.top: parent.top
+      anchors.left: parent.left
+      margin-left: 43
+      margin-top: 70
+      image-source: /images/ui/windows/premium_store/bow
+      visible: false
+      UIWidget
+        id: text
+        anchors.left: parent.left
+        anchors.top: parent.top
+        text-align: left
+        size: 200 30
+        rotation: -36
+        font: poppins-semibold-15
+        margin-top: 24
+        margin-left: 0
+
+    UIWidget
+      id: amount
+      anchors.centerIn: parent
+      size: 0 39
+      margin-bottom: 30
+      layout:
+        type: horizontalBox
+        spacing: 14
+        fit-children: true
+      
+//      UIWidget
+//        id: icon
+//        image-source: /images/ui/windows/premium_store/icon_ravencoin_box
+//        size: 39 39
+
+      UIWidget
+        id: text
+        text-auto-resize: true
+        font: poppins-semibold-30
+        text: 1,000
+        text-offset: 0 3
+
+    UIWidget
+      id: subtitle
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.top: amount.bottom
+      text-auto-resize: true
+      margin-top: 15
+      text: Patron Account
+      font: poppins-20
+      text-color: #CED2D9
+
+    YellowButton
+      id: purchase_button
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.bottom: parent.bottom
+      margin-bottom: 90
+      font: poppins-semibold-18
+
+    YellowButton
+      id: purchase_button2
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.bottom: parent.bottom
+      margin-bottom: 90
+      font: poppins-semibold-18
+      visible: false
+      @onVisibilityChange: |
+        function(self, visible)
+          if visible then
+            local parent = self:getParent()
+            if parent.purchase_button:isVisible() then
+              parent.purchase_button:setMarginRight(parent.purchase_button:getWidth() / 2 + 10)
+              self:setMarginLeft(parent.purchase_button:getWidth() / 2 + 10)
+            else
+              parent.purchase_button:setMarginRight(0)
+              self:setMarginLeft(0)
+            end
+          else
+            local parent = self:getParent()
+            parent.purchase_button:setMarginRight(0)
+            self:setMarginLeft(0)
+          end
+        end
+
+  UIWidget
+    id: bonus_panel
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: box.bottom
+    margin-top: -53
+    size: 0 50
+    layout:
+      type: horizontalBox
+      spacing: 14
+      fit-children: true
+    
+    GamePremiumStoreBonusWidget
+    GamePremiumStoreBonusWidget
+
+  UIWidget
+    id: icon
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: box.top
+    margin-bottom: 25

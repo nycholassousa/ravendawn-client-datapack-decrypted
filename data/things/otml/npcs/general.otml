@@ -1,0 +1,2191 @@
+// Random NPC's
+creatures
+  // Slums1
+  2244
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 2000
+      1: 500
+      2: 2000
+      3: 500
+      4: 200
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 50
+      11: 50
+      12: 500
+
+  // Slums2
+  2264
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Slums3
+  1939
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Slums4
+  1937
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 500
+      1: 100
+      2: 60
+      3: 100
+      4: 100
+      5: 500
+      6: 100
+      7: 60
+      8: 100
+      9: 100
+      10: 500
+      11: 100
+      12: 60
+      13: 100
+      14: 100
+      15: 100
+      16: 500
+      17: 100
+      18: 2000
+      19: 1000
+      20: 100
+
+  // Slums5
+  2569
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 2000
+      1: 150
+      2: 150
+      3: 150
+      4: 500
+      5: 150
+      6: 150
+      7: 150
+      8: 500
+      9: 150
+      10: 150
+      11: 150
+      12: 500
+      13: 150
+      14: 150
+      15: 150
+      16: 150
+      17: 150
+      18: 150
+      19: 150
+      20: 150
+
+  // Slums6
+  2570
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Slums7
+  2571
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 1000
+      1: 200
+      2: 200
+      3: 200
+      4: 200
+      5: 200
+      6: 200
+      7: 200
+
+  // Merchant1
+  2241
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Merchant2
+  2560
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Merchant3
+  2161
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Merchant4
+  1944
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Merchant5
+  2247
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Dock1
+  2171
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Dock3
+  2172
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Cook1
+  2242
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Cook3
+  2566
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Bar Customer
+  2903
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Bar Customer
+  2904
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Bar Customer
+  2905
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Bar Customer
+  2906
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Bar Customer
+  2907
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  // Bar Customer
+  2908
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  // Bar Customer
+  2909
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  // Bar Customer
+  2910
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  // Bar Customer
+  2911
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Bar Customer
+  2912
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Bar Customer
+  2913
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Bar Customer
+  2914
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Bar Customer
+  2915
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  // Bar Customer
+  2916
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  // Bar Customer
+  2917
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  // Bar Customer
+  2918
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  // Prison Guard
+  2993
+    creature-offset: 10 10
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 10 10
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 4467
+  4467
+    animate-from-start: true
+    creature-offset: 42 42
+  // General Galien
+  2994
+    creature-offset: 4 4
+    main-body: true
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 4466
+  4466
+    animate-from-start: true
+    creature-offset: 36 36
+  3437
+    animate-from-start: true
+    phase-durations:
+      0: 500
+      1: 500
+      2: 60
+      3: 500
+      4: 100
+      5: 500
+      6: 500
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+      17: 500
+      18: 500
+      19: 500
+      20: 100
+      21: 200
+      22: 100
+      23: 500
+      24: 500
+      25: 100
+      26: 60
+      27: 60
+
+  // Blake Npc
+  3203
+    creature-offset: 42 42
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Aghenor
+  4768
+    creature-offset: 32 64
+    enemy-circle-size: 32 32
+    enemy-circle-offset: -4 8
+    friend-circle-size: 32 32
+    friend-circle-offset: -4 8
+    phase-durations:
+      0: 500
+      1: 200
+      2: 500
+      3: 200
+      4: 1000
+      5: 200
+      6: 200
+      7: 500
+      8: 500
+      9: 200
+      10: 200
+      11: 2000
+      12: 1000
+      13: 200
+      14: 200
+      15: 200
+      16: 500
+      17: 200
+
+  // Glaceforde generic npcs
+
+  // MALE 3
+  // Stading Talking
+  4519
+    creature-offset: 2 2
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 2000
+      1: 200
+      2: 1000
+      3: 200
+      4: 200
+      5: 2000
+      6: 100
+      7: 1000
+      8: 200
+      9: 1000
+      10: 100
+      11: 500
+      12: 100
+      13: 2000
+      14: 1000
+      15: 500
+      17: 500
+
+  // Walking
+  4520
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Sitting Talk
+  4521
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+
+  // Fishing
+  4522
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+
+  // MALE 2
+  // Sitting Talk Coffee
+  4517
+    creature-offset: 2 2
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 2000
+      1: 200
+      2: 1000
+      3: 200
+      4: 200
+      5: 2000
+      6: 100
+      7: 1000
+      8: 200
+      9: 1000
+      10: 100
+      11: 500
+      12: 100
+      13: 2000
+      14: 1000
+      15: 500
+      17: 500
+
+  // Sitting Talk
+  4518
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+
+  // Standing Coffee
+  4514
+    creature-offset: 2 2
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 1000
+      4: 1000
+      5: 100
+
+  // Standing Talk
+  4515
+    creature-offset: 2 2
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 2000
+      1: 200
+      2: 1000
+      3: 200
+      4: 200
+      5: 2000
+      6: 100
+      7: 1000
+      8: 200
+      9: 1000
+      10: 100
+      11: 500
+      12: 100
+      13: 2000
+      14: 1000
+      15: 500
+      16: 500
+      17: 500
+
+  // Walk
+  4516
+    creature-offset: 2 2
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // MALE 1
+  // Sitting Talk
+  4513
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+
+  // Standing Talking
+  4512
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+
+  // Standing Sneeze
+  4539
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 500
+      3: 50
+      4: 50
+      5: 50
+      6: 50
+      7: 1000
+      8: 100
+
+  // FEMALE 3
+  // Sitting Talk
+  4511
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+
+  // Standing 1
+  4510
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+  
+  // Standing 2
+  4541
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 200
+      1: 200
+      2: 500
+      3: 200
+      4: 200
+      5: 200
+      6: 200
+      7: 200
+      8: 500
+      9: 100
+      10: 100
+
+  // FEMALE 2
+  // Sitting Talk
+  4509
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+
+  // Standing 1
+  4508
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+  
+  // Standing 2
+  4524
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 500
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 1000
+      12: 100
+      13: 100
+
+  // FEMALE 1
+  // Sitting Talk
+  4507
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+  
+  // Standing 1
+  4505
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 2000
+      2: 200
+      3: 1000
+      4: 200
+      5: 200
+      6: 2000
+      7: 100
+      8: 1000
+      9: 200
+      10: 1000
+      11: 100
+      12: 500
+      13: 100
+      14: 2000
+      15: 1000
+      16: 500
+      17: 500
+      18: 500
+
+  // Standing 2
+  4523
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  
+  // Walk
+  4506
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Gums
+  4527
+    creature-offset: 12 32
+    enemy-circle-offset: 8 8
+    friend-circle-offset: 8 8
+
+  // Bette
+  4821
+    creature-offset: 0 48
+    enemy-circle-size: 32 32
+    enemy-circle-offset: -8 16
+    friend-circle-size: 32 32
+    friend-circle-offset: -8 16
+    name-displacement: 40 70
+    phase-durations:
+      0: 500
+      1: 200
+      2: 500
+      3: 200
+      4: 200
+      5: 1000
+      6: 200
+      7: 200
+      8: 1000
+      9: 100
+      10: 100
+      11: 10
+      12: 10
+      13: 10
+      14: 10
+      15: 10
+      16: 10
+      17: 10
+      18: 10
+      19: 1000
+      20: 200
+      21: 500
+
+  // Munk Keeper
+  4822
+    creature-offset: 8 8
+    enemy-circle-offset: 8 8
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 500
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 500
+      11: 100
+      12: 500
+      13: 100
+      14: 100
+      15: 200
+      16: 100
+      17: 100
+      18: 100
+      19: 200
+      20: 100
+      21: 500
+      22: 100
+      23: 60
+      24: 100
+      25: 100
+      26: 100
+      27: 100
+      28: 100
+      29: 100
+      30: 100
+      31: 100
+      32: 300
+      33: 100
+      34: 100
+      35: 100
+      36: 100
+      37: 100
+      38: 100
+      39: 100
+      40: 100
+      41: 100
+      42: 500
+      43: 100
+      44: 100
+      45: 500
+
+  // Female Kid
+  4787
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 500
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 150
+      11: 150
+      12: 150
+      13: 150
+      14: 150
+      15: 150
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 500
+      21: 500
+      22: 100
+      23: 500
+      24: 500
+      25: 500
+
+  // Grandmaster
+  4998
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 500
+      1: 500
+      2: 500
+      3: 500
+      4: 120
+      5: 120
+      6: 120
+      7: 120
+      8: 120
+      9: 120
+      10: 120
+      11: 120
+      12: 120
+      13: 120
+      14: 120
+      15: 120
+      16: 120
+      17: 120
+      18: 120
+      19: 120
+      20: 120
+      21: 120
+      22: 120
+      23: 120
+      24: 120
+      25: 200
+      26: 200
+      27: 100
+      28: 100
+      29: 100
+      30: 200
+      31: 120
+      32: 120
+      33: 120
+      34: 120
+      35: 120
+      36: 120
+      37: 120
+      38: 120
+      39: 120
+      40: 500
+      41: 500
+      42: 500
+      43: 150
+      44: 150
+      45: 150
+      46: 150
+      47: 150
+      48: 150
+      49: 150
+      50: 150
+      51: 150
+      52: 500
+      53: 500
+      54: 100
+      55: 100
+      56: 100
+
+  // King Dwarf
+  4791
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 200
+      2: 500
+      3: 200
+      4: 200
+      5: 200
+      6: 200
+      7: 200
+      8: 500
+      9: 200
+      10: 200
+      11: 200
+      12: 500
+      13: 500
+      14: 100
+      15: 200
+      16: 100
+      17: 200
+      18: 500
+      19: 200
+      20: 200
+      21: 200
+      22: 200
+      23: 200
+      24: 200
+      25: 200
+      26: 200
+      27: 200
+      28: 200
+      29: 200
+      30: 200
+      31: 100
+      32: 100
+      33: 500
+      34: 200
+      35: 200
+      36: 1000
+
+  // Queen Dwarf
+  4816
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 500
+      3: 100
+      4: 200
+      5: 100
+      6: 500
+      7: 100
+      8: 100
+      9: 100
+      10: 500
+      11: 200
+      12: 1000
+      13: 500
+      14: 500
+      15: 100
+      16: 100
+      17: 100
+      18: 500
+      19: 200
+      20: 200
+      21: 200
+      22: 200
+      23: 200
+      24: 200
+      25: 200
+      26: 1000
+      27: 100
+      28: 100
+
+  // Dwarf Peasent Female
+  4796
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 200
+      4: 200
+      5: 1000
+      6: 100
+      7: 400
+      8: 100
+      9: 100
+      10: 2000
+      11: 200
+      12: 1000
+      13: 200
+      14: 200
+      15: 2000
+      16: 100
+      17: 1000
+      18: 200
+      19: 1000
+      20: 100
+      21: 500
+      22: 100
+      23: 2000
+      24: 1000
+      25: 500
+      26: 500
+      27: 500
+
+  // Dwarf Peasent Male
+  4799
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 200
+      4: 200
+      5: 1000
+      6: 100
+      7: 400
+      8: 100
+      9: 100
+      10: 2000
+      11: 200
+      12: 1000
+      13: 200
+      14: 200
+      15: 2000
+      16: 100
+      17: 1000
+      18: 200
+      19: 1000
+      20: 100
+      21: 500
+      22: 100
+      23: 2000
+      24: 1000
+      25: 500
+      26: 500
+      27: 500
+
+  // Dwarf Commoner Female
+  4802
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Dwarf Commoner Female Tavern
+  4803
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 200
+      4: 200
+      5: 1000
+      6: 100
+      7: 400
+      8: 100
+      9: 100
+      10: 2000
+      11: 200
+      12: 1000
+      13: 200
+      14: 200
+      15: 2000
+      16: 100
+      17: 1000
+      18: 200
+      19: 1000
+      20: 100
+      21: 500
+      22: 100
+      23: 2000
+      24: 1000
+      25: 500
+      26: 500
+      27: 500
+
+  // Dwarf Commoner Male
+  4805
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Dwarf Commoner Male Tavern
+  4806
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 200
+      4: 200
+      5: 1000
+      6: 100
+      7: 400
+      8: 100
+      9: 100
+      10: 2000
+      11: 200
+      12: 1000
+      13: 200
+      14: 200
+      15: 2000
+      16: 100
+      17: 1000
+      18: 200
+      19: 1000
+      20: 100
+      21: 500
+      22: 100
+      23: 2000
+      24: 1000
+      25: 500
+      26: 500
+      27: 500
+
+  
+  // Dwarf Blacksmith Male Tavern
+  4808
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 200
+      4: 200
+      5: 1000
+      6: 100
+      7: 400
+      8: 100
+      9: 100
+      10: 2000
+      11: 200
+      12: 1000
+      13: 200
+      14: 200
+      15: 2000
+      16: 100
+      17: 1000
+      18: 200
+      19: 1000
+      20: 100
+      21: 500
+      22: 100
+      23: 2000
+      24: 1000
+      25: 500
+      26: 500
+      27: 500
+
+  // Dwarf Inkeeper Male Tavern Stopped
+  4807
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Dwarf Inkeeper Male Tavern
+  4809
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 200
+      4: 200
+      5: 1000
+      6: 100
+      7: 400
+      8: 100
+      9: 100
+      10: 2000
+      11: 200
+      12: 1000
+      13: 200
+      14: 200
+      15: 2000
+      16: 100
+      17: 1000
+      18: 200
+      19: 1000
+      20: 100
+      21: 500
+      22: 100
+      23: 2000
+      24: 1000
+      25: 500
+      26: 500
+      27: 500
+
+  // Dwarf Inkeeper Female Stopped
+  4810
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Male Kid
+  3199
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Rhovald
+  4529
+    creature-offset: 8 8
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Wylbore
+  4986
+    creature-offset: 16 18
+    name-displacement: 48 60
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Mother Wylla
+  4987
+    creature-offset: 16 18
+    name-displacement: 48 64
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  //Commander Rolstad
+  5022
+    creature-offset: 32 32
+
+  //Captain Haroldsson
+  5051
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  
+  5052
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 200
+      2: 500
+      3: 200
+      4: 200
+      5: 200
+      6: 200
+      7: 200
+      8: 200
+      9: 200
+      10: 200
+
+  5092
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  5150
+    creature-offset: 17 12
+    enemy-circle-size: 96 96
+    enemy-circle-offset: 0 0
+    friend-circle-size: 96 96
+    friend-circle-offset: 0 0
+
+  5151
+    creature-offset: 20 22
+    enemy-circle-size: 96 96
+    enemy-circle-offset: 0 0
+    friend-circle-size: 96 96
+    friend-circle-offset: 0 0
+
+  5152
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 1000
+      6: 200
+      7: 200
+      8: 200
+      9: 200
+      10: 200
+      11: 200
+      12: 200
+      13: 200
+      14: 200
+      15: 200
+      16: 200
+      17: 1000
+      18: 500
+      19: 100
+      20: 100
+
+  // Adept Karl Schaffer
+  5182
+    creature-offset: 36 36
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  5183
+    creature-offset: 36 36
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  5193;5194
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+
+  5195;5196
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 180
+      1: 180
+      2: 180
+      3: 180
+
+  5197;5198
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 150
+      1: 150
+      2: 150
+      3: 150
+
+  5199;5200
+    creature-offset: 16 16
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 80
+      4: 300
+      5: 100
+      6: 500
+      7: 100
+
+  5201
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    name-displacement: 68 80
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+      4: 200
+      5: 200
+      6: 200
+      7: 200
+      8: 200
+      9: 200
+      10: 200
+      11: 200
+      12: 200
+      13: 200
+      14: 200
+      15: 200
+      16: 200
+      17: 200
+      18: 200
+      19: 200
+      20: 200
+      20: 200
+      21: 200
+      22: 200
+      23: 200
+      24: 200
+      25: 200
+      26: 200
+      27: 200
+      28: 200
+      29: 200
+
+  5208
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // General Warrior 1
+  5212
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // General Warrior 2
+  5213
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // General Warrior 3
+  5214
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  5215
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  5216
+    creature-offset: 4 4
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  5227
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  5228
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  5241
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5240
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200
+      3: 200
+  5240
+    animate-from-start: true
+    creature-offset: 32 32
+    phase-durations:
+      0: 120
+      1: 120
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+
+  // Djinns
+  5272;5273;5274
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+
+  // Alchemist
+  5281
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 200
+      2: 200
+      3: 200
+      4: 200
+      5: 500
+      6: 200
+      7: 200
+      8: 200
+      9: 200
+      10: 500
+      11: 1000
+      12: 500
+      13: 200
+      14: 200
+      15: 200
+      16: 200
+      17: 200
+      18: 200
+      19: 200
+      20: 500
+      21: 200
+      22: 200
+      23: 200
+      24: 200
+      25: 200
+      26: 200
+      27: 200
+      28: 200
+      29: 200
+
+  // Zogl'omor
+  5282
+    animate-from-start: true
+    creature-offset: 32 32
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100 
+      3: 500
+      4: 500
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 1000
+      16: 100
+      17: 100
+
+  // Dendrion
+  5283
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -4 -4
+    friend-circle-size: 64 64
+    friend-circle-offset: -4 -4
+    name-displacement: 54 54
+
+  // Isris
+  1950
+    phase-durations:
+      0: 200
+      1: 200
+      2: 200 
+      3: 200
+
+  // Administrator
+  5305
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Xeniad
+  2564
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 2000
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 500
+      11: 100
+      12: 1000
+      13: 100
+      14: 100
+
+  // Cryptic Hag
+  5329
+    creature-offset: 32 32
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 4
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 4
+
+  // August Huskey
+  3021
+    creature-offset: 14 2
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Duhmorlig
+  3050
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Ezra
+  2240
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Timotty
+  2563
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 2000
+      1: 150
+      2: 150
+      3: 1000
+      4: 150
+      5: 150
+      6: 150
+
+  // Azar the Marked
+  2245
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Mertiza
+  2216
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 8
+
+  // Basil
+  2562
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 2000
+      1: 100
+      2: 100
+      3: 500
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 200
+      11: 100
+      12: 100
+      13: 100
+
+  // Holga
+  2173
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Noosh
+  5376
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Thalassa
+  2962
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Chase Eagle
+  5578
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  5606
+    creature-offset: 32 32
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 2 -4
+    friend-circle-size: 56 56
+    friend-circle-offset: 2 -4
+    name-displacement: 70 90
+
+  5807;5808;5809;5810;5811;5812;5813;5814
+    hide-information: true
+    enemy-circle-size: 0 0
+    friend-circle-size: 0 0
+
+  // Varney Hook
+  5828;5829;5830;5831
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Maymun
+  5832
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 8400
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 3200
+      16: 100
+      17: 100
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+
+  // Elder
+  5695
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Karryn Ironheart
+  5880
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 200
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 1000
+      12: 100
+      13: 100
+      14: 100
+
+  // Dwarf Warpriest of Eternal Forge
+  6000
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    all-phase-durations: 150
+
+  // Dwarf Highpriest
+  6001
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    all-phase-durations: 150
+
+  // Riverlyn
+  6002
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Corlian
+  6003
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Munk Potion Seller
+  6015
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Dwarf Thorlak Barrowborn
+  6037
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 500
+      4: 100
+      5: 100
+      6: 500
+      7: 100
+      8: 100
+      9: 100
+      10: 500
+      11: 200
+      12: 700
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+
+  // Torghred
+  6027
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 500
+      4: 200
+      5: 500
+      6: 100
+      7: 100
+      8: 500
+      9: 100
+      10: 100
+      11: 100
+      12: 1000
+      13: 100
+      14: 100
+      15: 1000
+      16: 200
+      17: 1000
+      18: 200
+      19: 1000
+      20: 200
+      21: 1000
+      22: 200
+      23: 1000
+      24: 100
+      25: 100
+      26: 1000
+      27: 100
+      28: 100
+      29: 100
+
+  //Old Dwarf
+  6061
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations: 
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 500
+      5: 100
+      6: 100
+      7: 500
+      8: 200
+      9: 500
+      10: 200
+      11: 500
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 100
+
+  //Selenia
+  5490
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations:
+      0: 5000
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 500
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 500
+      17: 1000
+      18: 100
+      19: 100
+      20: 100
+      21: 100
+      22: 100
+      23: 100
+      24: 100
+
+  //Pince
+  2565
+    creature-offset: 1 0
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations: 
+      0: 500
+      1: 500
+      2: 500
+      3: 1000
+      4: 150
+      5: 150
+      6: 150
+      7: 500
+      8: 150
+      9: 150
+      10: 150
+      11: 150
+      12: 150
+      13: 150
+      14: 500
+      15: 150
+      16: 150
+      17: 1000
+
+  //Gunter
+  5488
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    phase-durations: 
+      0: 2000
+      1: 100
+      2: 100
+      3: 100
+      4: 500
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 1000
+      15: 100
+      16: 100
+      17: 100

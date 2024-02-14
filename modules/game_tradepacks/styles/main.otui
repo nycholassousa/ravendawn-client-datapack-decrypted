@@ -1,0 +1,16 @@
+GameTradepacksWindow < MainWindow
+  id: gameTradepacksWindow
+  size: 447 704
+  anchors.centerIn: parent
+  &title: 'Tradepacks'
+  &shortcut: 'T'
+  &iconName: 'icon_tradepack_storage'
+  &isGeneralUIWindow: true
+
+  MainWindowContent
+    padding: 0 0 0 0
+    GameTradepacksWindowTopPanel
+      margin: 20 20 20 20
+    GameTradepacksWindowListPanel
+    GameTradepacksWindowListPanelScrollbar
+    GameTradepacksWindowBottomPanel

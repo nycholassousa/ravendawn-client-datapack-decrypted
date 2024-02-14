@@ -1,0 +1,80 @@
+GameGuildTopPanel < UIWidget
+  id: top_panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: parent.top
+  height: 40
+  background-color: #00000075
+  layout:
+    type: horizontalBox
+    spacing: 30
+  GameGuildTopPanelItem
+    id: overview
+  GameGuildTopPanelItem
+    id: members
+
+GameGuildTopPanelItem < UIWidget
+  id: header_panel_item
+  $first:
+    margin-left: 30
+  @onHoverChange: |
+    for _, child in ipairs(self:getChildren()) do
+      child:setChecked(self:isHovered())
+    end
+  @onClick: |
+    GameGuild:selectPanel(self:getId()..'_panel')
+  @onStateChange: |
+    for _, child in ipairs(self:getChildren()) do
+      child:setOn(self:isOn())
+    end
+
+  UIWidget
+    id: holder
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    height: 40
+    phantom: true
+    layout:
+      type: horizontalBox
+      spacing: 10
+      fit-children: true
+    @onStateChange: |
+      for _, child in ipairs(self:getChildren()) do
+        child:setOn(self:isOn())
+      end
+
+    UIWidget
+      id: text
+      font: poppins-15
+      text-color: #7E828B
+      text-auto-resize: true
+      text-offset: 0 5
+      phantom: true
+      $on:
+        text-color: white
+      $checked:
+        text-color: white
+      @onSetup: |
+        function(self)
+          self:setText(self:getParent():getParent():getId():gsub("_", " "):titleCase())
+          self:setOn(self:getParent():getParent():getId() == 'overview')
+          local parent = self:getParent():getParent()
+          parent:setWidth(self:getTextSize().width + 50)
+        end
+
+  UIWidget
+    id: highlight
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    phantom: true
+    anchors.right: parent.right
+    height: 2
+    background-color: alpha
+    $on:
+      background-color: #36F991
+    $checked:
+      background-color: #36F991
+    @onSetup: |
+      function(self)
+        self:setOn(self:getParent():getId() == 'overview')
+      end

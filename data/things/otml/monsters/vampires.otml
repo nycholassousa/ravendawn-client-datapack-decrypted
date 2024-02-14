@@ -1,0 +1,222 @@
+// Vampires
+creatures
+  // Forsaken Vampire
+  3697
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 4 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 4 6
+    creature-offset: 32 32
+    attack-animation:
+      0: 3963
+  3963
+    animate-from-start: true
+    creature-offset: 8 8
+
+  // Vampire Lord
+  2112
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 4778
+  4778
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Vampire Reaver
+  2113
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 4780
+  4780
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Vampire Vixen
+  2114
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 4781
+  4781
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Vampire Necromancer
+  2115
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 4779
+  4779
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Blake
+  3204
+    main-body: true
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 10 10
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 4465
+    channeling-animation:
+      init: 6021
+      loop: 6021
+      ignore-release: true
+  4465
+    animate-from-start: true
+    creature-offset: 40 40
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  6021
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    force-direction: 2
+
+  5883
+    animate-from-start: true
+    creature-offset: 40 40
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+
+  // The Red Count
+  3642
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    phase-durations:
+      0: 300
+      1: 300
+      2: 300
+      3: 300
+  3641
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+
+  3643
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  3640
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 70 92
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+
+  // Vampire Ripper
+  5290
+    creature-offset: 34 34
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5289
+  5289
+    animate-from-start: true
+    creature-offset: 34 34
+
+  // Leagros
+  5876
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+
+  // Zander
+  3245
+    creature-offset: 16 16
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5994
+  5994
+    animate-from-start: true
+    creature-offset: 16 16
+
+  // other
+  3244
+    creature-offset: 16 16
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5993
+  5993
+    animate-from-start: true
+    creature-offset: 16 16

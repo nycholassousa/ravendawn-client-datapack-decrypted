@@ -1,0 +1,29 @@
+GameNotificationIconLeft < UIWidget
+  id: icon_left
+  size: 48 48
+  margin-left: 15
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+
+GameNotificationIconRight < UIWidget
+  id: icon_right
+  size: 48 48
+  margin-right: 15
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+
+GameNotificationRegionTimer < UIWidget
+  id: region_timer
+  anchors.top: region_title.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  font: poppins-semibold-15
+  text-auto-resize: true
+
+GameNotificationRegionTitle < UIWidget
+  id: region_title
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.top: parent.top
+  font: poppins-semibold-20
+  text: Notification title goes here
+  text-auto-resize: true
+  margin-top: 20

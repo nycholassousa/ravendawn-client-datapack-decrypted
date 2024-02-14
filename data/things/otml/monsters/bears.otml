@@ -1,0 +1,100 @@
+// Bears
+creatures
+  // Bear
+  2090
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3694
+  3694
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 40 40
+    name-displacement: 0 0
+
+  // Black Bear
+  2091
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5246
+  5246
+    animate-from-start: true
+    creature-offset: 40 40
+
+  // Polar Bear
+  2092
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5245
+  5245
+    animate-from-start: true
+    creature-offset: 40 40
+
+  // Infected Bear
+  2782
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+    main-body: true
+    step-sound-type: 3
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3693
+  3693
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    animate-from-start: true
+    creature-offset: 40 40
+    name-displacement: 0 0
+
+  // Mutated Bear
+  5087
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    step-sound-type: 3
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5084
+  5086
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    animate-from-start: true

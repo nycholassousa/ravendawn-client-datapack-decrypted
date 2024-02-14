@@ -1,0 +1,556 @@
+// Dwarves
+creatures
+  // Dwarf Commoner
+  2207
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3612
+  3612
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+    phase-durations:
+      0: 120
+      1: 130
+      2: 100
+      3: 120
+      4: 100
+      5: 120
+      6: 100
+
+  // Dwarf Prospector
+  2208
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 5 5
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3626
+  3626
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 100
+      1: 100
+      2: 120
+      3: 80
+      4: 100
+      5: 120
+      6: 80
+      7: 100
+
+  // Dwarf Mechanic
+  2209
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3609
+  3609
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 20 20
+    name-displacement: 0 0
+    phase-durations:
+      0: 150
+      1: 120
+      2: 120
+      3: 120
+      4: 80
+      5: 120
+      6: 120
+
+  // Dwarf Warrior
+  2210
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 2 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3606
+  3606
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 180
+      1: 150
+      2: 150
+      3: 80
+      4: 120
+      5: 120
+      6: 80
+      7: 80
+
+  // Dwarf Spearman
+  2211
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 5 5
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3607
+  3607
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 21 21
+    name-displacement: 0 0
+    phase-durations:
+      0: 120
+      1: 130
+      2: 120
+      3: 130
+      4: 130
+      5: 60
+      6: 120
+      7: 100
+      8: 100
+
+  // Dwarf Legionnaire
+  2212
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3611
+  3611
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+    phase-durations:
+      0: 120
+      1: 150
+      2: 150
+      3: 100
+      4: 80
+      5: 100
+      6: 100
+
+  // Dwarf Technomancer
+  2213
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3608
+  3608
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 20 20
+    name-displacement: 0 0
+    phase-durations:
+      0: 130
+      1: 130
+      2: 120
+      3: 80
+      4: 100
+      5: 120
+      6: 120
+
+  // Dwarf Thunderrer
+  2214
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 8 8
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3605
+  3605
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 48 48
+    name-displacement: 0 0
+    phase-durations:
+      0: 80
+      1: 80
+      2: 500
+      3: 80
+      4: 80
+      5: 80
+      6: 80
+      7: 80
+      8: 80
+      9: 80
+      10: 80
+
+  // King Dezzin Oakenhart
+  2215
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 5 5
+
+  // Mindslave Prospector
+  3109
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    creature-offset: 16 16
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3644
+  3644
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+
+  // Mindslave Taskmaster
+  3110
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    creature-offset: 16 16
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3645
+  3645
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 20 20
+    name-displacement: 0 0
+
+  // Mindslave Thrall
+  3111
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    creature-offset: 16 16
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3647
+  3647
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+
+  // Mindslave Guard
+  3112
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    creature-offset: 16 16
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3646
+  3646
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 32 32
+    name-displacement: 0 0
+
+  // ICEFORGE
+  // Hossoc the Grievous
+  4064
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 12 12
+    main-body: true
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 5177
+  5177
+    animate-from-start: true
+    creature-offset: 44 44
+
+  // Kadaec
+  4066
+    creature-offset: 8 8
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 4815
+  4815
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 28 28
+    phase-durations:
+      0: 80
+      1: 80
+      2: 200
+      3: 80
+      4: 100
+      5: 80
+      6: 80
+      7: 80
+      8: 80
+
+  // Berserker
+  4060
+    creature-offset: 13 13
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    main-body: true
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 4985
+  4985
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    animate-from-start: true
+    creature-offset: 29 29
+
+  // Frostcaller
+  4061
+    creature-offset: 12 12
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5000
+  5000
+    animate-from-start: true
+    creature-offset: 12 12
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Mounted Dwarf
+  4062
+    creature-offset: 16 16
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 4753
+  4753
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+
+  // Winterlord
+  4063
+    creature-offset: 12 12
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 5008
+  5008
+    animate-from-start: true
+    creature-offset: 60 60
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 0 0
+    friend-circle-size: 32 32
+    friend-circle-offset: 0 0
+
+  // Mounted Dwarf 2
+  4065
+    creature-offset: 12 12
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    attack-animation:
+      0: 4999
+  4999
+    animate-from-start: true
+    creature-offset: 16 16
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+
+  // Tank Dwarf
+  4067
+    creature-offset: 8 8
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 4761
+  4761
+    animate-from-start: true
+    creature-offset: 40 40
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+
+  // Old Dwarf
+  4790
+    creature-offset: 32 32
+
+  // Sentinel
+  4820
+    creature-offset: 32 32
+
+  // Dwarf Warpriest
+  5996
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    all-phase-durations: 150
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5995
+  5995
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // Dwarf Warpriest Fire
+  5999
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    all-phase-durations: 150
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5997
+  5997
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // Dwarf Legionnaire
+  5887
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    all-phase-durations: 150
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5886
+  5886
+    animate-from-start: true
+    creature-offset: 32 32
+  

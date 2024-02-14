@@ -1,0 +1,6 @@
+Module
+  name: client_locale
+  scripts: [ locale ]
+  sandboxed: true
+  @onLoad: ClientLocale:init()
+  @onUnload: ClientLocale:terminate()

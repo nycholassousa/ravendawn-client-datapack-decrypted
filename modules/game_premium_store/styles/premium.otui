@@ -1,0 +1,258 @@
+GamePremiumStorePremiumItemWidget < UIWidget
+  width: 530
+  height: 483
+  $!first:
+    margin-left: -45
+
+  UIWidget
+    id: box
+    anchors.centerIn: parent
+    image-source: /images/ui/windows/premium_store/premium_ravenpack_item_box_off
+    $on:
+      image-source: /images/ui/windows/premium_store/premium_ravenpack_item_box_on
+    $checked:
+      image-source: /images/ui/windows/premium_store/premium_ravenpack_item_box_on
+    size: 530 425
+
+    UIWidget
+      id: shadow
+      image-source: /images/ui/windows/premium_store/item_name_box_shadow
+      anchors.centerIn: amount
+      size: 424 130
+      margin-top: 15
+
+    UIWidget
+      id: bow
+      anchors.top: parent.top
+      anchors.left: parent.left
+      margin-left: 43
+      margin-top: 45
+      image-source: /images/ui/windows/premium_store/bow
+      visible: false
+      UIWidget
+        id: text
+        anchors.left: parent.left
+        anchors.top: parent.top
+        text-align: left
+        size: 200 30
+        rotation: -36
+        font: poppins-semibold-15
+        margin-top: 24
+        margin-left: 0
+
+    UIWidget
+      id: amount
+      anchors.centerIn: parent
+      size: 0 39
+      margin-bottom: 30
+      layout:
+        type: horizontalBox
+        spacing: 14
+        fit-children: true
+      
+//      UIWidget
+//        id: icon
+//        image-source: /images/ui/windows/premium_store/icon_ravencoin_box
+//        size: 39 39
+
+      UIWidget
+        id: text
+        text-auto-resize: true
+        font: poppins-semibold-30
+        text: 1,000
+        text-offset: 0 3
+
+    UIWidget
+      id: subtitle
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.top: amount.bottom
+      text-auto-resize: true
+      margin-top: 15
+      text: Patron Account
+      font: poppins-20
+      text-color: #CED2D9
+
+    YellowButton
+      id: purchase_button
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.bottom: parent.bottom
+      margin-bottom: 90
+      font: poppins-semibold-18
+
+  UIWidget
+    id: bonus_panel
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: box.bottom
+    margin-top: -53
+    size: 0 50
+    layout:
+      type: horizontalBox
+      spacing: 14
+      fit-children: true
+    
+    GamePremiumStoreBonusWidget
+    GamePremiumStoreBonusWidget
+
+  UIWidget
+    id: icon
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: box.top
+    margin-top: 40
+
+GamePremiumStorePremiumBenefitItem < UIWidget
+  size: 168 217
+  image-source: /images/ui/windows/premium_store/premium_benefit_background_off
+  $hover:
+    image-source: /images/ui/windows/premium_store/premium_benefit_background_on
+
+  UIWidget
+    id: icon
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    size: 110 107
+    margin-top: 20
+    phantom: true
+
+  UIWidget
+    id: text
+    margin-bottom: 20
+    margin-left: 20
+    margin-right: 20
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    height: 55
+    text-wrap: true
+    font: poppins-14
+    phantom: true
+
+GamePremiumStorePremiumAdditionalTooltip < UIWidget
+  image-source: /images/ui/windows/premium_store/tooltip_background
+  image-border: 40
+  size: 0 280
+  visible: false
+  UIWidget
+    id: title
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    margin-top: 20
+    font: poppins-semibold-18
+    text-color: #CED2D9
+    text-auto-resize: true
+
+  UIWidget
+    id: subtitle
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: title.bottom
+    font: poppins-14
+    text-color: #36F991
+    text-auto-resize: true
+
+  UIWidget
+    id: content
+    image-source: /images/ui/windows/premium_store/tooltip_content_background
+    image-border: 10
+    anchors.fill: parent
+    margin-top: 70
+    margin-left: 10
+    margin-right: 10
+    margin-bottom: 10
+    padding: 20
+    layout:
+      type: horizontalBox
+      spacing: 10
+      fit-children: true
+    @onLayoutUpdate: |
+      local parent = self:getParent()
+      parent:setWidth(self:getWidth() + 20)
+
+GamePremiumStorePremiumAdditionalTooltipItem < UIWidget
+  size: 136 160
+  image-source: /images/ui/windows/premium_store/tooltip_item_background
+  UIItem
+    id: icon
+    size: 96 96
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    margin-top: 5
+  
+  UIWidget
+    id: spacer
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    margin-bottom: 40
+    image-source: /images/ui/windows/premium_store/tooltip_item_spacer
+  
+  UIWidget
+    id: text
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: spacer.bottom
+    anchors.bottom: parent.bottom
+    text-auto-resize: true
+    text-align: center
+    text-wrap: true
+    text: Tree
+    font: poppins-14
+    text-color: #CED2D9
+
+GamePremiumStorePremiumBenefitCustomTooltip < UIWidget
+  image-source: /images/ui/windows/premium_store/tooltip_background
+  image-border: 40
+  size: 438 0
+  visible: false
+
+  UIWidget
+    id: content
+    image-source: /images/ui/windows/premium_store/tooltip_content_background
+    image-border: 10
+    anchors.fill: parent
+    padding: 10
+    padding-left: 20
+    padding-right: 20
+    layout:
+      type: verticalBox
+      fit-children: true
+    @onLayoutUpdate: |
+      local parent = self:getParent()
+      parent:setHeight(self:getHeight())
+
+GamePremiumStorePremiumBenefitCustomTooltipItem < UIWidget
+  size: 400 80
+  UIItem
+    id: icon
+    size: 60 60
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+  
+  UIWidget
+    id: text
+    anchors.left: icon.right
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    text-auto-resize: true
+    margin-left: 10
+    text-align: left
+    text-wrap: true
+    text-auto-resize: true
+    text: Tree
+    font: poppins-14
+    text-color: #CED2D9
+
+  UIWidget
+    id: spacer
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    height: 1
+    background-color: #3A3D43
+
+  @onSetup: |
+    addEvent(function()
+      local parent = self:getParent()
+      local childIndex = parent:getChildIndex(self)
+      if childIndex == parent:getChildCount() then
+        self.spacer:hide()
+      end
+    end)

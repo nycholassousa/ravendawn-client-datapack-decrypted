@@ -1,0 +1,99 @@
+GameHouseDecorationInfoWindow < MainWindow
+  id: farm_info_window
+  &title: 'Item Description'
+  &iconName: 'icon_house_decoration'
+  size: 350 290
+  &maxHeight: 535
+  &minHeight: 290
+  draggable: false
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  margin-bottom: 50
+  MainWindowScrollableContent
+    padding: 0 0 0 0
+    anchors.bottom: place_button.top
+    margin-bottom: 20
+    GameHouseDecorationInfoWindowPreviewPanel
+  MainWindowScrollableContentScrollBar
+    margin-right: 5
+  PrimaryButton
+    id: place_button
+    text: Place
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 20
+
+GameHouseDecorationInfoWindowPreviewPanel < Panel
+  id: preview_panel
+  size: 350 150
+  padding: 20 20 20 20
+  GameHouseDecorationInfoWindowPreview
+  GameHouseDecorationInfoWindowInfo
+
+GameHouseDecorationInfoWindowPreview < UIWidget
+  id: preview
+  size: 140 120
+  image-source: /images/ui/windows/house/list_item_background
+  image-border: 10
+  anchors.left: parent.left
+  anchors.top: parent.top
+  UIItem
+    id: item
+    anchors.centerIn: parent
+    size: 64 64
+    phantom: true
+    $checked:
+      size: 110 110
+
+GameHouseDecorationInfoWindowInfo < UIWidget
+  id: info
+  anchors.top: parent.top
+  anchors.bottom: preview.bottom
+  anchors.left: preview.right
+  anchors.right: parent.right
+  margin-left: 18
+  UIWidget
+    id: name
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    text-color: #ced2d9
+  UIWidget
+    id: size
+    anchors.top: name.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    icon: /images/ui/windows/house/size_icon
+    icon-align: left
+    text-offset: 25 3
+    text-color: #ced2d9
+  UIWidget
+    id: level
+    anchors.top: size.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    icon: /images/ui/windows/house/level_icon
+    icon-align: left
+    text-offset: 25 3
+    text-color: #ced2d9
+  UIWidget
+    id: ownership
+    anchors.top: level.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    icon: /images/ui/windows/house/ownership_icon
+    icon-align: left
+    text-offset: 25 3
+    text-color: #ced2d9

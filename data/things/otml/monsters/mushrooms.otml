@@ -1,0 +1,153 @@
+// Mushrooms
+creatures
+  // Toadstool Beast
+  1276
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 5 5
+
+  // Green Toadstool Beast
+  1277
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 5 5
+
+  // Toadstool Emperor
+  1232
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 3 3
+
+  // Toadstool Spikehorn
+  1233
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+
+  // Toadstool Hulk
+  1234
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 4 4
+
+  // Toadstool Shaman
+  1235
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 6 6
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3720
+  3720
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 6 6
+    name-displacement: 0 0
+
+  // Toadstool Warrior
+  1236
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 8
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 8
+    creature-offset: 16 16
+    step-sound-type: 2
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3721
+  3721
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 19 19
+    name-displacement: 0 0
+
+  // Mysticap Mushroom
+  4741
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    creature-offset: 4 4
+    impact-time: 450
+    attack-animation-type: 0
+    attack-animation:
+      0: 4742
+  4742
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    animate-from-start: true
+    creature-offset: 12 12
+    name-displacement: 0 0
+
+  // Rubycap Mushroom
+  4743
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    creature-offset: 4 4
+    impact-time: 450
+    attack-animation-type: 0
+    attack-animation:
+      0: 4744
+  4744
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    animate-from-start: true
+    creature-offset: 12 12
+    name-displacement: 0 0
+
+  // Lava Mushroom
+  5575
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    creature-offset: 15 15
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5574
+  5574
+    animate-from-start: true
+    creature-offset: 15 15
+
+  // Embercap Mushroom
+  6055
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 6
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 6
+    creature-offset: 8 8
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 6056
+  6056
+    animate-from-start: true
+    creature-offset: 16 16

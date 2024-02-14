@@ -1,0 +1,6 @@
+Module
+  name: game_player_report
+  sandboxed: true
+  scripts: [ player_report ]
+  @onLoad: GamePlayerReport:init()
+  @onUnload: GamePlayerReport:terminate()

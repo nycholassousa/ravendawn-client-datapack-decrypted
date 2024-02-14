@@ -1,0 +1,79 @@
+GameTradepacksWindowLeftWindow < AttachedWindow
+  id: left_panel
+  size: 350 470
+  title: Tradepack Bags
+  side: left
+  $on:
+    margin-top: 0
+  $!on:
+    margin-top: 46
+  GameTradepacksWindowLeftWindowCategory
+    margin-top: 48
+    id: user
+    anchors.top: parent.top
+    GameTradepacksWindowLeftWindowCategoryItem
+  GameTradepacksWindowLeftWindowCategory
+    id: wagon
+    anchors.top: user.bottom
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+  GameTradepacksWindowLeftWindowCategory
+    id: ship
+    anchors.top: wagon.bottom
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+    GameTradepacksWindowLeftWindowCategoryItem
+
+GameTradepacksWindowLeftWindowCategory < UIWidget
+  background-color: #101012
+  background-size: 350 30
+  font: poppins-semibold-14
+  text-color: #b8b8b8
+  text-align: center
+  anchors.left: parent.left
+  anchors.right: parent.right
+  text-align: top
+  text-offset: 0 5
+  padding-top: 40
+  padding-left: 20
+  @onSetup: |
+    self:setText(self:getId():titleCase())
+  layout:
+    type: grid
+    cell-size: 60 60
+    flow: true
+    cell-spacing: 23 23
+  @onGeometryChange: |
+    local height = 30
+    for i, child in ipairs(self:getChildren()) do
+      if i == 1 or i % 5 == 0 then
+        height = height + child:getHeight() + 23
+      end
+    end
+    self:setHeight(height)
+
+GameTradepacksWindowLeftWindowCategoryItem < Item
+  size: 60 60
+  image-source: /images/ui/windows/tradepacks/item_background
+  image-border: 5
+  virtual: true
+  $on:
+    self:setImageSource('/images/ui/windows/tradepacks/item_background')
+  UIWidget
+    id: lock
+    size: 19 22
+    image-source: /images/ui/windows/tradepacks/icon_lock
+    image-color: white
+    phantom: true
+    $on:
+      image-color: alpha
+    anchors.centerIn: parent
+  @onStateChange: |
+    self.lock:setOn(self:isOn())

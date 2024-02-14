@@ -1,0 +1,27 @@
+// Boars
+creatures
+  // Boar
+  2807
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 12 12
+    step-sound-type: 3
+
+  // Boar Runt
+  2808
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 6 6
+    step-sound-type: 2
+
+  // Mounted Boar
+  2842
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 12 12

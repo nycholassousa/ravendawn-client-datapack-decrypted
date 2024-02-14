@@ -1,0 +1,43 @@
+// Wurms
+creatures
+  // Mire Wurm
+  1215
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 6 6 
+    friend-circle-size: 32 32
+    friend-circle-offset: 6 6
+    main-body: true
+    creature-offset: 16 16
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3695
+  3695
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0
+
+  // Vile Wurm
+  3046
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    creature-offset: 8 8
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3696
+  3696
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 16 16
+    name-displacement: 0 0

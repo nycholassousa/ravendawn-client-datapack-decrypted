@@ -1,0 +1,72 @@
+// Pirates
+creatures
+  // Pirate Freebooter
+  2846
+    main-body: true
+    creature-offset: 8 8
+    enemy-circle-offset: 8 8
+    friend-circle-offset: 8 8
+    impact-time: 550
+    attack-animation-type: 0
+    attack-animation:
+      0: 4462
+  4462
+    animate-from-start: true
+    creature-offset: 40 40
+
+  // Pirate Cannoneer
+  2844
+    main-body: true
+    creature-offset: 4 4
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    impact-time: 700
+    attack-animation-type: 0
+    attack-animation:
+      0: 4464
+  4464
+    animate-from-start: true
+    creature-offset: 36 36
+
+  // Pirate to be added 
+  2843
+    main-body: true
+    creature-offset: 11 11
+    impact-time: 550
+    attack-animation-type: 0
+    attack-animation:
+      0: 4461
+  4461
+    animate-from-start: true
+    creature-offset: 43 43
+
+  // Pirate to be added 
+  2845
+    main-body: true
+    creature-offset: 8 8
+    impact-time: 550
+    attack-animation-type: 0
+    attack-animation:
+      0: 4463
+  4463
+    animate-from-start: true
+    creature-offset: 40 40
+
+
+  // Captain Adamastor
+  5827
+    main-body: true
+    creature-offset: 12 12
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5826
+  5826
+    animate-from-start: true
+    creature-offset: 12 12

@@ -1,0 +1,6 @@
+Module
+  name: game_tradepacks
+  author: LPE
+  scripts: [ tradepacks ]
+  @onLoad: GameTradepacks:init()
+  @onUnload: GameTradepacks:terminate()

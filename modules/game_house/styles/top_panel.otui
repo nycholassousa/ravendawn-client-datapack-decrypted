@@ -1,0 +1,130 @@
+GameHouseMainTopPanel < UIWidget
+  id: gameHouseMainTopPanel
+  size: 600 90
+  anchors.top: parent.top
+  anchors.left: parent.left
+  margin-top: 20
+  image-source: /images/ui/windows/house/main_top_panel_background
+  image-size: 580 90
+  @onEscape: modules.game_house.GameHouse:hide()
+
+  GameHouseMainTopPanelIcon
+  GameHouseMainTopPanelTitle
+  GameHouseMainTopPanelSelectionButton
+  GameHouseMainTopPanelButtonPanel
+
+  UIWidget
+    id: house_tooltip
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    image-source: /images/ui/windows/house/info
+    @onHoverChange: |
+      GameHouse:displayInformationTooltip(self)
+
+GameHouseMainTopPanelIcon < UIWidget
+  id: house_icon
+  size: 22 22
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  margin-left: 23
+  image-source: /images/ui/windows/house/top_panel_house_icon
+  image-color: #ced2d9
+
+GameHouseMainTopPanelTitle < UIWidget
+  id: house_title
+  size: 200 22
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: house_icon.right
+  margin-left: 23
+
+  UIWidget
+    id: size_description
+    anchors.bottom: parent.verticalCenter
+    anchors.left: parent.left
+    text: Medium
+    font: poppins-semibold-15
+    text-color: #b5b8be
+    text-auto-resize: true
+    &land_sizes: |
+      {
+        'small', 'medium', 'large', 'stronghold', 'fort'
+      }
+    @onTextChange: |
+      local text = self:getText()
+      for _, size in pairs(self.land_sizes) do
+        if text:lower():find(size, 1, true) then
+          self:getParent():getParent().house_icon:setImageSource('/images/ui/windows/house/land_sizes/' .. size)
+          return
+        end
+      end
+
+  UIWidget
+    id: house_description
+    anchors.top: parent.verticalCenter
+    anchors.left: parent.left
+    text: South Glademire #123456
+    font: poppins-semibold-15
+    text-color: #36f991
+    text-auto-resize: true
+
+GameHouseMainTopPanelSelectionButton < UIWidget
+  id: selection_button
+  size: 20 20
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: house_title.right
+  image-source: /images/ui/windows/house/arrow_button
+  $hover:
+    image-source: /images/ui/windows/house/arrow_button_active
+  $pressed:
+    image-source: /images/ui/windows/house/arrow_button_active
+  $on:
+    image-source: /images/ui/windows/house/arrow_button_active
+  @onClick: |
+    GameHouse:openHouseSelectionMenu()
+
+GameHouseMainTopPanelButtonPanel < UIWidget
+  id: button_panel
+  size: 210 60
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.right: parent.right
+  margin-right: 10
+  layout:
+    type: horizontalBox
+    spacing: 15
+  
+  &resize: |
+    function(self)
+      local width = 0
+      for _, child in ipairs(self:getChildren()) do
+        if child:isVisible() then
+          width = width + child:getWidth() + self:getLayout():getSpacing()
+        end
+      end
+      self:setWidth(width)
+    end
+  @onSetup: self:resize()
+
+  PrimaryButton
+    id: claim_button
+    size: 60 60
+    &iconPath: '/images/ui/windows/house/top_panel_claim_button_icon'
+    @onClick: GameHouse:onTopMenuButtonClicked('claim')
+    &tooltip: tr('Claim Land')
+  PrimaryButton
+    id: invite_button
+    size: 60 60
+    &iconPath: '/images/ui/windows/house/top_panel_invite_button_icon'
+    @onClick: GameHouse:onTopMenuButtonClicked('invite')
+    &tooltip: tr('Manage Guests')
+  PrimaryButton
+    id: upgrade_button
+    size: 60 60
+    &iconPath: '/images/ui/windows/house/top_panel_upgrade_button_icon'
+    @onClick: GameHouse:onTopMenuButtonClicked('upgrade')
+    &tooltip: tr('Upgrade House')
+  PrimaryButton
+    id: info_button
+    size: 60 60
+    &iconPath: '/images/ui/windows/house/top_panel_info_button_icon'
+    @onClick: GameHouse:onTopMenuButtonClicked('info')
+    &tooltip: tr('Info')

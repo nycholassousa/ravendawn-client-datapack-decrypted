@@ -1,0 +1,168 @@
+ArenaScoreboardTableColumn < UIWidget
+  height: 30
+
+ArenaScoreboardTableRow < TableRow
+  color: #cccccc
+  height: 18
+
+ArenaScoreboardTableHeaderRow < TableHeaderRow
+  color: #cccccc
+  height: 20
+
+ArenaScoreboardTableHeaderColumn < SortableTableHeaderColumn
+  text-offset: 2 0
+  color: #cccccc
+  @onClick: setScoreboardSortMode(self)
+
+  $focus:
+    background-color: #294f6d
+    color: #ffffff
+
+  $checked:
+    background-color: #294f6d
+    color: #ffffff
+    image-clip: 0 46 22 23
+    text-offset: 1 1
+
+ArenaScoreboardTeamRow < UIWidget
+  height: 30
+
+  UIWidget
+    id: teamColor
+    anchors.left: parent.left
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    width: 4
+
+    $on:
+      background-color: #294f6d
+    $!on:
+      background-color: #e7b131
+
+  UIWidget
+    id: scoreInfo
+    anchors.fill: parent
+    margin-left: 10
+    layout:
+      type: horizontalBox
+
+    $on:
+      image-source: /images/ui/windows/arena/team_winner
+    $!on:
+      image-source: /images/ui/windows/arena/team_defeated
+
+    ArenaScoreboardTableColumn
+      id: playerName
+      text: -
+      width: 140
+      text-align: left
+      text-offset: 10 0
+
+    ArenaScoreboardTableColumn
+      id: damageDealt
+      text: 0
+      width: 85
+    ArenaScoreboardTableColumn
+      id: damageReceived
+      text: 0
+      width: 85
+    ArenaScoreboardTableColumn
+      id: healDealt
+      text: 0
+      width: 85
+    ArenaScoreboardTableColumn
+      id: healReceived
+      text: 0
+      width: 85
+
+ArenaScoreboardWindow < MainWindow
+  id: arenaScoreboardWindow
+  size: 545 300
+  anchors.centerIn: parent
+  focusable: false
+  visible: false
+  &title: 'Scoreboard'
+  &iconName: 'icon_reputation'
+  @onEscape: leaveArena()
+
+  VerticalScrollBar
+    id: scrollbar
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    margin-top: 0
+    margin-bottom:0
+    margin-right:7
+    step: 45
+    pixels-scroll: true
+    visible: false
+
+  MainWindowContent
+    id: content
+    phantom: true
+
+    UIWidget
+      id: battleStatus
+      text-auto-resize: true
+      anchors.top: parent.top
+      anchors.horizontalCenter: parent.horizontalCenter
+      color: #e7b131
+      font: myriad-pro-32
+      text: SCOREBOARD
+
+      $on:
+        text: VICTORY
+      $!on:
+        text: DEFEATED
+
+    ArenaScoreboardTableHeaderRow
+      id: header
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 10
+      height: 30
+
+      ArenaScoreboardTableHeaderColumn
+        !text: tr('Player')
+        width: 150
+        &sortBy: 'teamId'
+        checked: true
+      ArenaScoreboardTableHeaderColumn
+        !text: tr('DMG Dealt')
+        width: 85
+        &sortBy: 'damageDealt'
+      ArenaScoreboardTableHeaderColumn
+        !text: tr('DMG Received')
+        width: 85
+        &sortBy: 'damageReceived'
+      ArenaScoreboardTableHeaderColumn
+        !text: tr('Heal Dealt')
+        width: 85
+        &sortBy: 'healingDealt'
+      ArenaScoreboardTableHeaderColumn
+        !text: tr('Heal Received')
+        width: 85
+        &sortBy: 'healingReceived'
+
+    UIWidget
+      id: arenaScoreboardTable
+      height: 70
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-top: 5
+      layout:
+        type: verticalBox
+        fit-children: true
+        spacing: 5
+
+    UIButton
+      size: 200 40
+      anchors.bottom: parent.bottom
+      anchors.horizontalCenter: parent.horizontalCenter
+      image-source: /images/ui/windows/arena/base_button
+      font: myriad-pro-semibold-18
+      text: Leave Arena
+      text-offset: 0 5
+      @onClick: leaveArena()

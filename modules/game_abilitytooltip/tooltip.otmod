@@ -1,0 +1,8 @@
+Module
+  name: game_abilitytooltip
+  sandboxed: false
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ tooltip ]
+  @onLoad: g_abilityTooltip.init()
+  @onUnload: g_abilityTooltip.terminate()

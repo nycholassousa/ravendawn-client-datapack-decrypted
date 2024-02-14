@@ -1,0 +1,7 @@
+Module
+  name: game_highlight_sparkles
+  description: Highlight Sparkles
+  sandboxed: false
+  scripts: [ highlight_sparkles ]
+  @onLoad: GameHighlightSparkles:init()
+  @onUnload: GameHighlightSparkles:terminate()

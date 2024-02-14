@@ -1,0 +1,81 @@
+// Dragons
+creatures
+  // Plaguescale Dragon
+  2093
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 20 20
+
+  // Bluehorn Dragon
+  2094
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 20 20
+
+  // Spellslayer Dragon
+  2095
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 20 20
+
+  // Seascale Dragon
+  2096
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 20 20
+
+  // Emberscale Dragon
+  2097
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 20 20
+
+  // Godsbane Dragon
+  2098
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 20 20
+
+  // Myrdyr Blackscale Dragon Old
+  2099
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 20 20
+
+  // Dragon Sketch
+  5306
+    creature-offset: 64 64
+
+  // Myrdyr
+  6063
+    draw-over-everything: true
+    animate-from-start: true
+    animate-from-previous: true
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+  6062
+    draw-over-everything: true
+    animate-from-start: true
+    animate-from-previous: true
+    creature-offset: 96 96
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0

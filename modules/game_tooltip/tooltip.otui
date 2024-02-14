@@ -1,0 +1,402 @@
+GameTooltipAttribute < UIWidget
+  id: value
+  font: poppins-14
+  text-align: left
+  text-auto-resize: true
+  text-wrap: true
+
+GameTooltipAttributePrice < UIWidget
+  height: 20
+
+  UIWidget
+    id: icon
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-source: /images/ui/icons/silver_24
+    size: 20 20
+
+  UIWidget
+    id: value
+    anchors.verticalCenter: icon.verticalCenter
+    anchors.left: icon.right
+    margin-left: 5
+    font: poppins-14
+    text-align: left
+    text-auto-resize: true
+    text-wrap: true
+
+TooltipGameHeader < TooltipHeader
+  id: itemHeader
+  visible: false
+
+  Item
+    id: item
+    size: 64 64
+    anchors.top: parent.top
+    anchors.left: parent.left
+    item-tooltip: false
+    &hasFrame: false
+    item-visible: true
+    virtual: true
+  
+  UIWidget
+    id: info
+    anchors.verticalCenter: item.verticalCenter
+    anchors.left: item.right
+    anchors.right: parent.right
+    margin-left: 10
+    layout:
+      type: verticalBox
+      fit-children: true
+
+    UIWidget
+      id: name
+      font: poppins-16
+      text-align: left
+      text-vertical-auto-resize: true
+      text-wrap: true
+
+    UIWidget
+      id: quality
+      font: poppins-14
+      text-align: left
+      text-vertical-auto-resize: true
+
+    UIWidget
+      id: tier
+      font: poppins-14
+      text-align: left
+      text-vertical-auto-resize: true
+
+TooltipCreatureHeader < TooltipHeader
+  id: creatureHeader
+  visible: false
+
+  UIWidget
+    id: frame
+    size: 74 74
+    anchors.horizontalCenter: creature.horizontalCenter
+    anchors.verticalCenter: creature.verticalCenter
+    image-source: /images/ui/items/background
+    UIWidget
+      id: outline
+      anchors.fill: parent
+      phantom: true
+      on: false
+      image-color: alpha
+      image-source: /images/ui/items/outline
+      $!on:
+        visible: false
+      $on:
+        visible: true
+
+  UICreature
+    id: creature
+    size: 64 64
+    anchors.top: parent.top
+    anchors.left: parent.left
+
+  UIWidget
+    id: info
+    anchors.verticalCenter: creature.verticalCenter
+    anchors.left: frame.right
+    anchors.right: parent.right
+    margin-left: 10
+    layout:
+      type: verticalBox
+      fit-children: true
+
+    UIWidget
+      id: name
+      font: poppins-16
+      text-align: left
+      text-vertical-auto-resize: true
+      text-wrap: true
+
+    UIWidget
+      id: subtitle
+      font: poppins-14
+      text-align: left
+      text-vertical-auto-resize: true
+
+GameTooltipAttributeListHorizontal < UIWidget
+  visible: false
+  layout:
+    type: verticalBox
+    fit-children: true
+  @onSetup: |
+    if self.titleText and self.titleText ~= "" then
+      self.title:setText(self.titleText)
+      self.title:setVisible(true)
+    else
+      self.title:setVisible(false)
+    end
+
+    if self.height then
+      self.list:setHeight(self.height)
+    end
+
+    if self.spacing then
+      self.list:getLayout():setSpacing(self.spacing)
+    end
+
+    if self.titleFont then
+      self.title:setFont(self.titleFont)
+    end
+
+  UIWidget
+    id: title
+    text-auto-resize: true
+    text-align: left
+    text-color: #A6AAB2
+
+  UIWidget
+    id: list
+    layout:
+      type: horizontalBox
+      spacing: 10
+
+GameTooltipAttributeList < UIWidget
+  visible: false
+  layout:
+    type: verticalBox
+    fit-children: true
+  @onSetup: |
+    if self.titleText and self.titleText ~= "" then
+      self.title:setText(self.titleText)
+      self.title:setVisible(true)
+    else
+      self.title:setVisible(false)
+    end
+
+    if self.spacing then
+      self.list:getLayout():setSpacing(self.spacing)
+    end
+
+    if self.titleFont then
+      self.title:setFont(self.titleFont)
+    end
+
+  UIWidget
+    id: title
+    text-auto-resize: true
+    text-align: left
+    text-color: #A6AAB2
+
+  UIWidget
+    id: list
+    layout:
+      type: verticalBox
+      fit-children: true
+
+GameTooltipAttributeListVertical < UIWidget
+  visible: false
+  layout:
+    type: verticalBox
+    fit-children: true
+  @onSetup: |
+    if self.titleText and self.titleText ~= "" then
+      self.title:setText(self.titleText)
+      self.title:setVisible(true)
+    else
+      self.title:setVisible(false)
+    end
+
+    if self.spacing then
+      self.list:getLayout():setSpacing(self.spacing)
+    end
+
+    if self.titleFont then
+      self.title:setFont(self.titleFont)
+    end
+
+  UIWidget
+    id: title
+    font: poppins-14
+    text-auto-resize: true
+    text-align: left
+    text-color: #A6AAB2
+
+  UIWidget
+    id: list
+    layout:
+      type: verticalBox
+      fit-children: true
+
+GameTooltipAttributeRollPanel < UIWidget
+  id: attributeRollPanel
+  visible: true
+  anchors.fill: parent
+  layout:
+    type: horizontalBox
+    spacing: 10
+
+GameTooltipAttributeRoll < UIWidget
+  id: attributeRoll
+  size: 8 19
+  image-source: /images/ui/windows/tooltip/attribute_roll_empty
+  $on:
+    image-source: /images/ui/windows/tooltip/attribute_roll
+
+GameTooltipHeader < UIWidget
+  id: header
+  image-source: /images/ui/windows/tooltip/header_single
+  image-border: 15
+  $checked:
+    image-source: /images/ui/windows/tooltip/header
+  layout:
+    type: verticalBox
+    fit-children: true
+
+  TooltipGameHeader
+  TooltipCreatureHeader
+  TooltipReputationHeader
+  TooltipReputationPointsHeader
+  TooltipAttributesHeader
+  TooltipPremiumTitleHeader
+  TooltipExperienceTitleHeader
+
+GameTooltipBody < UIWidget
+  id: body
+  text-auto-resize: true
+  background-color: #181A1D
+  image-border: 15
+  padding: 20
+  layout:
+    type: verticalBox
+    spacing: 15
+    fit-children: true
+
+  GameTooltipAttributeListHorizontal
+    &height: 30
+    id: premiumFeatures
+
+  GameTooltipAttributeList
+    id: description
+
+  GameTooltipAttributeList
+    id: attributes
+    &titleText: 'Attributes'
+
+  GameTooltipAttributeList
+    id: base
+    &titleText: 'Base'
+
+  GameTooltipAttributeList
+    id: primary
+    &titleText: 'Primary Attributes'
+
+  GameTooltipAttributeList
+    id: secondary
+    &titleText: 'Secondary Attributes'
+
+  GameTooltipAttributeList
+    id: enchantment
+    &titleText: 'Enchantment Slot'
+
+  GameTooltipAttributeList
+    id: attribute_rolls
+    &titleText: 'Quality Crystals'
+
+  GameTooltipAttributeList
+    id: buff
+    &titleText: 'Buff'
+
+  GameTooltipAttributeList
+    id: details
+    &titleText: 'Details'
+
+  GameTooltipAttributeList
+    id: attributes
+    &titleText: 'Attributes'
+
+  GameTooltipAttributeList
+    id: attributes
+    &titleText: 'Attributes'
+
+  GameTooltipAttributeListHorizontal
+    &height: 30
+    id: reputation
+
+  GameTooltipAttributeListVertical
+    id: activeArcheypes
+    &height: 34
+    &titleText: 'Current Archetypes'
+    &titleFont: 'poppins-14'
+    &spacing: 5
+
+  GameTooltipAttributeList
+    id: activeArcheypesPoints
+    margin-top: -5
+  
+  GameTooltipAttributeList
+    id: archetypeSeparator
+
+  GameTooltipAttributeListVertical
+    id: inactiveArcheypes
+    &height: 34
+    &titleText: 'Inactive Archetypes'
+    &titleFont: 'poppins-14'
+    &spacing: 5
+
+  GameTooltipAttributeList
+    id: inactiveArcheypesPoints
+    margin-top: -5
+    margin-bottom: -5
+
+GameTooltipBottom < UIWidget
+  id: bottom
+  padding: 20
+  image-source: /images/ui/windows/tooltip/bottom
+  image-border: 15
+  layout:
+    type: verticalBox
+    spacing: 10
+    fit-children: true
+
+  GameTooltipAttributeList
+    id: levelRequirement
+
+  GameTooltipAttributeList
+    id: description
+
+  GameTooltipAttributeList
+    id: trait
+    &titleText: 'Trait'
+
+  GameTooltipAttributeList
+    id: skills
+    &titleText: 'Skills'
+    &spacing: 10
+
+  GameTooltipAttributeList
+    id: bonusParcial
+
+  GameTooltipAttributeList
+    id: bonusTotal
+
+  GameTooltipAttributeList
+    id: price
+
+  GameTooltipAttributeList
+    id: inactiveArcheypes
+    &titleText: 'Inactive Archetypes'
+    &titleFont: 'poppins-semibold-14'
+    &spacing: 6
+
+GameTooltipWindow < UIWindow
+  image-border: 13
+  width: 326
+  focusable: false
+  phantom: true
+
+  layout:
+    type: verticalBox
+    fit-children: true
+
+  GameTooltipHeader
+    phantom: true
+  GameTooltipBody
+    phantom: true
+  GameTooltipBottom
+    phantom: true

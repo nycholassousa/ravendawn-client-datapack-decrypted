@@ -1,0 +1,237 @@
+// Styles
+InfoMessageLabel < Label
+  font: myriad-pro-24
+  color: white
+  text-auto-resize: true
+  text-align: center
+InfoMessageLabelTop < InfoMessageLabel
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 50
+InfoMessageLabelBottom < InfoMessageLabel
+  anchors.bottom: parent.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-bottom: 50
+InfoMessageLabelCenter < InfoMessageLabel
+  anchors.centerIn: parent
+
+CharacterLabel < Label
+  color: #a6aab2
+  font: poppins-semibold-16
+  text-align: left
+  text-auto-resize: true
+
+CharacterSlot < UIWidget
+  id: character_slot
+  height: 125
+  image-source: /images/ui/windows/entergame/characterSelection/bgPlayer
+  $on:
+    image-source: /images/ui/windows/entergame/characterSelection/bgPlayerActive
+
+  UICreature
+    id: creature
+    size: 90 90
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 21
+    margin-left: 25
+    outfit-walk: false
+    outfit-scale: 1.5
+    outfit-offset: 20 20
+    phantom: true
+
+  Panel
+    id: level
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 15
+    margin-left: 150
+    image-source: /images/ui/windows/entergame/characterSelection/bgLevel
+    CharacterLabel
+      id: level_label
+      anchors.centerIn: parent
+      color: #36F991
+      text: 70
+      text-offset: 0 4
+
+  CharacterLabel
+    id: name
+    color: white
+    anchors.top: parent.top
+    anchors.left: level.right
+    margin-top: 15
+    margin-left: 15
+  CharacterLabel
+    id: archetype_name
+    font: poppins-13
+    anchors.top: prev.bottom
+    anchors.left: prev.left
+    margin-top: 5
+    text: Novice
+
+  Panel
+    id: archetype_icons
+    height: 45
+    anchors.top: prev.bottom
+    anchors.left: level.left
+    margin-top: 10
+    layout:
+      type: horizontalBox
+      fit-children: true
+      spacing: 10
+    Panel
+      id: archetype_1
+      size: 45 45
+      image-source: /images/ui/windows/entergame/characterSelection/archetypeLock
+    Panel
+      id: archetype_2
+      size: 45 45
+      image-source: /images/ui/windows/entergame/characterSelection/archetypeLock
+    Panel
+      id: archetype_3
+      size: 45 45
+      image-source: /images/ui/windows/entergame/characterSelection/archetypeLock
+
+
+  UIWidget
+    id: delete_button
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    margin-right: 25
+    image-source: /images/ui/windows/entergame/login/delete_background
+    opacity: 0.5
+    $hover:
+      opacity: 1
+    @onClick: CharacterList.deleteCharacterInput(self:getParent().name:getText())
+    
+    UIWidget
+      id: level_label
+      anchors.centerIn: parent
+      image-source: /images/ui/windows/entergame/characterSelection/iconTrash
+      image-auto-resize: true
+      phantom: true
+
+  @onClick: CharacterList:selectCharacter(self)
+  @onSetup: |
+    if self.archetype1 then
+      self.archetype_icons.archetype_1:setImageSource(string.format('/images/ui/icons/archetypes/45x45/%s', self.archetype1))
+    end
+    if self.archetype2 then
+      self.archetype_icons.archetype_2:setImageSource(string.format('/images/ui/icons/archetypes/45x45/%s', self.archetype2))
+    end
+    if self.archetype3 then
+      self.archetype_icons.archetype_3:setImageSource(string.format('/images/ui/icons/archetypes/45x45/%s', self.archetype3))
+    end
+
+    if self.characterLevel then
+      self.character_level.label:setText(self.characterLevel)
+    end
+
+CharacterEmptySlot < Panel
+  id: empty_slot
+  height: 125
+  image-source: /images/ui/windows/entergame/characterSelection/bgAddPlayer
+  phantom: false
+  @onClick: CharacterCreation:show()
+  @onHoverChange: |
+    self.middle_panel.icon:setOn(self:isHovered())
+
+  Panel
+    id: middle_panel
+    height: 40
+    anchors.centerIn: parent
+    phantom: true
+    layout:
+      type: horizontalBox
+      fit-children: true
+      spacing: 10
+    UIWidget
+      id: icon
+      image-source: /images/ui/windows/entergame/characterSelection/btnAdd
+      phantom: true
+      $on:
+        image-source: /images/ui/windows/entergame/characterSelection/btnAddHover
+    CharacterLabel
+      id: label
+      text: New Character
+      phantom: true
+
+CharactersList < ScrollablePanel
+  id: characters_list
+  anchors.top: prev.bottom
+  anchors.bottom: next.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  padding: 20 20 20 20
+  layout:
+    type: verticalBox
+    spacing: 20
+
+TopLabel < CharacterLabel
+  font: poppins-26
+  text-align: center
+  color: white
+  anchors.centerIn: parent
+
+EnterWorldButton < Button
+  id: enter_world_button
+  text: Enter World
+  width: 175
+  height: 50
+  &color: '#36F991'
+  background-color: #1A1A1A
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  margin-right: 20
+  @onClick: CharacterList.doLogin()
+
+LoginBackButton < NeutralButton
+  id: enter_world_button
+  text: Back
+  width: 90
+  height: 50
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+  margin-left: 20
+  @onClick: CharacterList.hide(true)
+
+CharactersTopPanel < Panel
+  id: top_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 80
+  margin-top: 5
+  background-color: #151515
+  TopLabel
+    text: Select Character
+
+CharactersBottomPanel < Panel
+  id: bottom_panel
+  anchors.bottom: parent.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 100
+  background-color: #151515
+  margin-bottom: 5
+  EnterWorldButton
+  LoginBackButton
+
+CharactersListWindow < UIWindow
+  id: characters_window
+  width: 500
+  height: 800
+  anchors.centerIn: parent
+  draggable: false
+  image-source: /images/ui/windows/entergame/login/bg
+
+  MainWindowEdgeTop
+  MainWindowEdgeBottom
+
+  CharactersTopPanel
+  CharactersList
+  CharactersBottomPanel
+
+  @onEscape: CharacterList.hide(true)
+  @onEnter: if self:isVisible() then CharacterList.doLogin() end
+  

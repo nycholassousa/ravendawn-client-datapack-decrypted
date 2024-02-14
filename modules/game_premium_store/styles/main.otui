@@ -1,0 +1,379 @@
+GamePremiumStoreWindow < UIWidget
+  id: premium_store_window
+  anchors.fill: parent
+  visible: true
+  image-source: /images/ui/windows/premium_store/background.jpg
+  @onEscape: |
+    modules.game_premium_store.GamePremiumStore:close()
+
+  GamePremiumStoreWindowCloseButton
+  GamePremiumStoreWindowLeftPanel
+    GamePremiumStoreRavenCoinBalance
+//    GamePremiumStorePremiumTokenBalance
+    GamePremiumStorePremiumDaysBalance
+    GamePremiumStoreDawnEssenceBalance
+    GamePremiumStoreSelectCategory    
+
+GamePremiumStoreWindowCloseButton < UIWidget
+  id: close_button
+  anchors.right: parent.right
+  anchors.top: parent.top
+  size: 40 40
+  margin: 20
+  image-source: /images/ui/windows/ravencards/packs/close_button
+  $hover:
+    image-source: /images/ui/windows/ravencards/packs/close_button_on
+  opacity: 1
+  $pressed:
+    opacity: 0.8
+  @onClick: |
+    GamePremiumStore:close()
+
+GamePremiumStoreWindowLeftPanel < UIWidget
+  id: left_panel
+  anchors.left: parent.left
+  anchors.top: parent.top
+  anchors.bottom: parent.bottom
+  width: 300
+
+GamePremiumStoreWindowContentPanel < UIWidget
+  id: content_panel
+  anchors.left: left_panel.right
+  anchors.top: close_button.bottom
+  anchors.bottom: parent.bottom
+  anchors.right: parent.right
+  GamePremiumStoreWindowContentPanelContent
+    margin-top: -30
+
+  GamePremiumStoreWindowContentPanelFooter
+
+GamePremiumStoreWindowContentPanelGrid < UIWidget
+  id: content_panel
+  anchors.left: left_panel.right
+  anchors.top: close_button.bottom
+  anchors.bottom: parent.bottom
+  anchors.right: parent.right
+  GamePremiumStoreWindowContentPanelContentGrid
+    margin-top: -30
+
+  GamePremiumStoreWindowContentPanelFooter
+
+GamePremiumStoreWindowContentPanelFooter < UIWidget
+  id: footer
+  anchors.bottom: parent.bottom
+  anchors.top: prev.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  size: 1400 200
+  visible: false
+
+  UIWidget
+    id: title
+    anchors.top: parent.top
+    anchors.horizontalCenter: parent.horizontalCenter
+    image-source: /images/ui/windows/premium_store/background_premium_benefits_label
+    image-border-left: 25
+    image-border-right: 25
+    margin-top: 20
+    padding-left: 40
+    padding-right: 40
+    text: Patron Benefits
+    text-horizontal-auto-resize: true
+    height: 42
+    font: poppins-22
+    text-color: #CED2D9
+    text-offset: 0 4
+
+  UIWidget
+    id: content
+    anchors.top: title.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    size: 168 217
+    margin-top: 10
+    layout:
+      type: horizontalBox
+      fit-children: true
+
+GamePremiumStoreWindowContentPanelContent < UIWidget
+  id: content
+  size: 1482 708
+  anchors.centerIn: parent
+  image-source: /images/ui/windows/premium_store/content_panel_background
+  image-border: 50
+  GamePremiumStoreWindowContentPanelItemHolder
+    anchors.centerIn: parent
+
+GamePremiumStoreWindowContentPanelContentGrid < UIWidget
+  id: content
+  size: 1482 708
+  anchors.centerIn: parent
+  image-source: /images/ui/windows/premium_store/content_panel_background
+  image-border: 50
+
+  UIWidget
+    id: item_holder
+    anchors.fill: parent
+    layout:
+      type: grid
+      cell-spacing: 0 20
+      auto-cell-size: true
+      align: center
+      flow: true
+
+GamePremiumStoreWindowContentPanelItemHolder < UIWidget
+  id: item_holder
+  anchors.top: prev.bottom
+  anchors.horizontalCenter: parent.horizontalCenter
+  width: 0
+  height: 708
+  layout:
+    type: horizontalBox
+    fit-children: true
+
+GamePremiumStoreRavenCoinBalance < UIWidget
+  id: raven_coin_balance
+  anchors.bottom: premium_days_balance.top
+  anchors.left: parent.left
+  margin-left: 37
+  margin-bottom: 10
+  size: 250 60
+  image-source: /images/ui/windows/premium_store/background_premium_token_balance
+  image-border: 10
+  visible: false
+
+  UIWidget
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/premium_store/icon_ravencoins_balance
+    margin-bottom: 3
+    margin-left: 2
+
+  UIWidget
+    id: value
+    anchors.left: prev.right
+    anchors.right: button.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 15
+    text-align: right
+    text-auto-resize: true
+    font: poppins-24
+    text-color: white
+    text: 0
+    text-offset: 0 8
+
+  UIWidget
+    id: button
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 17
+    image-source: /images/ui/windows/premium_store/button_plus_premium_off
+    opacity: 1
+    $hover:
+      opacity: 0.8
+    $pressed:
+      image-source: /images/ui/windows/premium_store/button_plus_premium_on
+    @onClick: |
+      modules.game_premium_store.GamePremiumStore:selectCategory('RavenCoins')
+
+GamePremiumStorePremiumDaysBalance < UIWidget
+  id: premium_days_balance
+  anchors.left: parent.left
+  anchors.bottom: parent.bottom
+  margin-bottom: 30
+  margin-left: 15
+  image-source: /images/ui/windows/premium_store/background_premium_time_balance
+  image-border: 10
+  image-offset: 25 0
+  image-size: 243 60
+  width: 255
+  
+  MainWindowEdgeTop
+    height: 2
+    margin-left: 25
+    margin-right: -13
+  MainWindowEdgeBottom
+    height: 2
+    margin-left: 25
+    margin-right: -13
+
+  UIWidget
+    id: icon
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/premium_store/icon_bonus_info
+    margin-left: 15
+    &tooltip: tr('These are your remaining Patron days. To add more, click here and to see the options available for adding more.')
+
+  UIWidget
+    id: value
+    anchors.left: prev.right
+    anchors.right: button.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-right: 15
+    text-align: right
+    text-auto-resize: true
+    font: poppins-24
+    text-color: white
+    text-offset: 0 8
+    text: 0 days
+    icon: /images/ui/windows/premium_store/icon_premium_balance
+    icon-size: 44 43
+    icon-offset: 5 -3
+
+  UIWidget
+    id: button
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/premium_store/button_plus_premium_off
+    opacity: 1
+    $hover:
+      opacity: 0.8
+    $pressed:
+      image-source: /images/ui/windows/premium_store/button_plus_premium_on
+    margin-right: 0
+    @onClick: |
+      modules.game_premium_store.GamePremiumStore:selectCategory('Patron')
+
+//GamePremiumStorePremiumTokenBalance < UIWidget
+//  id: premium_token_balance
+//  anchors.bottom: parent.bottom
+//  anchors.left: parent.left
+//  margin-left: 37
+//  margin-bottom: 100
+//  size: 250 60
+//  image-source: /images/ui/windows/premium_store/background_premium_token_balance
+//  image-border: 10
+
+//  UIWidget
+//    id: icon
+//    anchors.left: parent.left
+//    anchors.verticalCenter: parent.verticalCenter
+//    image-source: /images/ui/windows/premium_store/icon_premium_balance
+//    margin-left: 13
+//    size: 60 60
+//    @onSetup: |
+//      modules.game_premium_store.GamePremiumStore:animateWidget(self, '/images/ui/windows/premium_store/premium_token_animation/tag_%03d.png', 0, 239, 12)
+
+//  UIWidget
+//    id: value
+//    anchors.left: prev.right
+//    anchors.right: parent.right
+//    anchors.verticalCenter: parent.verticalCenter
+//    text-align: right
+//    text-auto-resize: true
+//    font: poppins-24
+//    text-color: white
+//    text: 12 days
+//    text-offset: 0 8
+//    margin-right: 25
+
+GamePremiumStoreSelectCategory < UIWidget
+  id: select_category
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  margin-left: 28
+  image-source: /images/ui/windows/premium_store/select_category_background
+  image-border-top: 50
+  image-border-bottom: 50
+  image-border-left: 100
+  image-offset: 1 0
+  width: 300
+
+  UIWidget
+    id: content
+    anchors.fill: parent
+    padding-top: 62
+    padding-bottom: 62
+    layout:
+      type: verticalBox
+      spacing: 29
+      fit-children: true
+
+    @onLayoutUpdate: |
+      addEvent(function()
+        local parent = self:getParent()
+        parent:setHeight(self:getHeight())
+      end)
+
+GamePremiumStoreSelectCategoryWidget < UIWidget
+  size: 300 44
+  @onStateChange: |
+    for _, child in ipairs(self:recursiveGetChildren()) do
+      child:setOn(self:isOn())
+    end
+  @onHoverChange: |
+    for _, child in ipairs(self:recursiveGetChildren()) do
+      child:setHovered(self:isHovered())
+    end
+
+  UIWidget
+    id: button
+    phantom: true
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/premium_store/select_button_off
+    $on:
+      image-source: /images/ui/windows/premium_store/select_button_on
+    $hover:
+      image-source: /images/ui/windows/premium_store/select_button_on
+    
+    UIWidget
+      id: icon
+      phantom: true
+      anchors.centerIn: parent
+      image-source: /images/ui/windows/premium_store/icon_ravencoins
+      image-color: white
+      $on:
+        image-color: #36F991
+      $hover:
+        image-color: #36F991
+
+  UIWidget
+    id: text
+    phantom: true
+    anchors.left: button.right
+    margin-left: 10
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: left
+    font: poppins-24
+    text-color: white
+    $on:
+      text-color: #36F991
+    $hover:
+      text-color: #36F991
+    text: Patron
+    text-auto-resize: true
+    text-offset: 0 8
+
+
+GamePremiumStoreDawnEssenceBalance < UIWidget
+  id: dawn_essence_balance
+  anchors.top: parent.top
+  anchors.left: parent.left
+  margin-left: 37
+  margin-top: 30
+  size: 250 60
+  image-source: /images/ui/windows/premium_store/background_ravencoins_balance
+  image-border: 10
+  visible: true
+  &tooltip: tr('Dawn Essence is obtained by progressing through the world of Ravendawn and from Supply Bags. Dawn Essence can be used to obtain Ravenpacks.')
+
+  UIWidget
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/windows/premium_store/icon_dawn_essence
+    margin-left: 5
+    phantom: true
+
+  UIWidget
+    id: value
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: right
+    text-auto-resize: true
+    font: poppins-24
+    text-color: white
+    text: 0
+    text-offset: 0 8
+    margin-right: 15
+    phantom: true

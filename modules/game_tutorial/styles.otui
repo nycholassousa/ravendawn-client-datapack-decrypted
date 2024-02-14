@@ -1,0 +1,754 @@
+TutorialWindow < Panel
+  image-border: 12
+  image-source: /images/ui/windows/tutorial/bg
+  focusable: false
+  draggable: false
+  padding-top: 15
+  padding-bottom: 16
+  padding-left: 20
+  padding-right: 20
+
+TutorialLabel < Label
+  font: myriad-pro-semibold-24
+  text-auto-resize: true
+  text-wrap: true
+  text-align: center
+
+TutorialTextPanel < Panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+
+TutorialTextPotion < TutorialTextPanel
+  height: 95
+  &size: { height = 175, width = 700 }
+  TutorialLabel
+    text: Simply right-click
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 10
+    text-offset: 0 10
+    text-wrap: false
+  UIWidget
+    size: 30 45
+    image-source: /images/ui/windows/tutorial/mouseRight
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 5
+    margin-bottom: 5
+    margin-top: 5
+  TutorialLabel
+    text: the potions and
+    anchors.left: prev.right
+    anchors.top: parent.top
+    text-offset: 0 10
+    margin-top: 10
+    text-wrap: false
+  TutorialLabel
+    text: choose to add them to your ability bar
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-left: 25
+    text-offset: 0 10
+    text-wrap: false
+
+TutorialTextOpenMenuBandit < TutorialTextPanel
+  height: 50
+  &size: { height = 120, width = 540 }
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: Press
+    text-align: top
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 15
+    margin-top: 10
+  UIWidget
+    size: 28 33
+    image-source: /images/ui/windows/tutorial/esc
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 10
+  TutorialLabel
+    text: to open your Character Menu
+    font: myriad-pro-semibold-18
+    text-align: top
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 10
+    margin-top: 10
+
+TutorialTextPotionEnd < TutorialTextPanel
+  height: 95
+  &size: { height = 175, width = 640 }
+  TutorialLabel
+    text: Easy, right? Now press
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 10
+    text-offset: 0 10
+    text-wrap: false
+  UIWidget
+    size: 35 41
+    image-source: /images/ui/windows/tutorial/esc
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 5
+    margin-bottom: 5
+    margin-top: 15
+  TutorialLabel
+    text: to close your
+    anchors.left: prev.right
+    anchors.top: parent.top
+    text-offset: 0 10
+    margin-top: 10
+    margin-left: 3
+    text-wrap: false
+  TutorialLabel
+    text: Character Menu
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-left: 25
+    text-offset: 0 10
+    text-wrap: false
+
+TutorialWindowBox < TutorialWindow
+  anchors.fill: parent
+  TutorialLabel
+    id: text
+    text-align: top
+    anchors.fill: parent
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    margin-top: 25
+  RDUIButton
+    id: skipButton
+    image-source: /images/ui/windows/tutorial/btnSkip
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    margin-left: 5
+    margin-bottom: 5
+    text-align: center
+    text: Skip
+    @onClick: Tutorial.onSkip(self, self.isClose)
+  RDUIButton
+    id: continueButton
+    image-source: /images/ui/windows/tutorial/btnNext
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    margin-right: 5
+    margin-bottom: 5
+    text-align: center
+    text: Continue
+    @onClick: self:getParent():getParent():destroy() Tutorial.onInteraction(true)
+
+TutorialBanditBox < TutorialWindow
+  id: content
+  anchors.fill: parent
+  &disableButtons: function(self) self.skipButton:setVisible(false) self.skipButton:setHeight(0) self.continueButton:setVisible(false) self.continueButton:setHeight(0) self:getParent():setHeight(130) end
+  &disableContinue: function(self) self.continueButton:setVisible() self.skipButton:setText('Close') self.skipButton.isClose = true end
+  UIWidget
+    id: bandit
+    size: 84 84
+    image-source: /images/ui/portraits/bandit
+    anchors.right: next.left
+    anchors.verticalCenter: next.verticalCenter
+    margin-right: 5
+  Panel
+    id: textPanel
+    anchors.fill: parent
+    anchors.left: parent.left
+    anchors.bottom: next.top
+    margin-top: 5
+    margin-left: 95
+    margin-bottom: 5
+    TutorialLabel
+      id: text
+      font: myriad-pro-semibold-18
+      anchors.fill: parent
+      text-align: center
+  RDUIButton
+    id: skipButton
+    image-source: /images/ui/windows/tutorial/btnSkip
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    margin-left: 5
+    margin-bottom: 5
+    text-align: center
+    text: Skip
+    @onClick: Tutorial.onSkip(self, self.isClose)
+  RDUIButton
+    id: continueButton
+    image-source: /images/ui/windows/tutorial/btnNext
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    margin-right: 5
+    margin-bottom: 5
+    text-align: center
+    text: Continue
+    @onClick: self:getParent():getParent():destroy() Tutorial.onInteraction(true)
+
+TutorialWindowLeftArrow < Panel
+  size: 554 135
+  UIWidget
+    image-source: /images/ui/windows/tutorial/arrowYellowLeft
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+  TutorialWindowBox
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 20
+
+TutorialWindowRightArrow < Panel
+  size: 554 135
+  UIWidget
+    image-source: /images/ui/windows/tutorial/arrowYellowRight
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+  TutorialWindowBox
+    anchors.right: prev.left
+    margin-right: 20
+
+TutorialWindowNoArrow < Panel
+  size: 554 135
+  TutorialWindowBox
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+
+TutorialBanditPanel < Panel
+  size: 604 160
+  &addTutorialText: |
+    function(self, style)
+      local label = g_ui.createWidget(style, self:recursiveGetChildById('textPanel'))
+      if label then
+        self:recursiveGetChildById('text'):destroy()
+        if label.size then
+          self:setSize(label.size)
+        end
+      end
+    end
+
+TutorialBanditNoArrow < TutorialBanditPanel
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 60
+  @onSetup: self.allowTabChange = true
+  TutorialBanditBox
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+
+TutorialLeftArrow < UIWidget
+  image-source: /images/ui/windows/tutorial/arrowYellowLeft
+  focusable: false
+TutorialRightArrow < UIWidget
+  image-source: /images/ui/windows/tutorial/arrowYellowRight
+  focusable: false
+TutorialMarkerSquare < UIWidget
+  image-source: /images/ui/windows/tutorial/markerSquare
+  image-border: 5
+  focusable: false
+
+TutorialBanditLeftArrow < TutorialBanditPanel
+  UIWidget
+    image-source: /images/ui/windows/tutorial/arrowYellowLeft
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+  TutorialBanditBox
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 20
+
+TutorialBanditRightArrow < TutorialBanditPanel
+  UIWidget
+    image-source: /images/ui/windows/tutorial/arrowYellowRight
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+  TutorialBanditBox
+    anchors.right: prev.left
+    anchors.top: parent.top
+    margin-right: 20
+
+TutorialDownstairsTask < TutorialWindow
+  size: 614 131
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 100
+  TutorialLabel
+    text: Use
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 25
+  UIWidget
+    size: 96 73
+    image-source: /images/ui/windows/tutorial/keysArrow
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 25
+    margin-bottom: 5
+  TutorialLabel
+    text: or
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 25
+  UIWidget
+    size: 96 73
+    image-source: /images/ui/windows/tutorial/keysWords
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 25
+    margin-bottom: 5
+  TutorialLabel
+    text: to move around
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 25
+
+TutorialTalkMomTask < TutorialWindow
+  size: 634 145
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 100
+  TutorialLabel
+    text: Press
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 25
+  UIWidget
+    image-source: /images/ui/windows/tutorial/f
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 25
+    margin-bottom: 5
+  TutorialLabel
+    text: or right-click
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 25
+  UIWidget
+    image-source: /images/ui/windows/tutorial/mouseRight
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 25
+    margin-bottom: 5
+  TutorialLabel
+    text: to interact with
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 25
+  TutorialLabel
+    text: NPCs and world objects
+    anchors.left: parent.left
+    anchors.top: prev.bottom
+    margin-left: 25
+    margin-top: 8
+
+TutorialEquipWeaponTask < TutorialWindow
+  size: 521 100
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 100
+  TutorialLabel
+    text: Press
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 25
+  UIWidget
+    image-source: /images/ui/windows/tutorial/esc
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 25
+    margin-bottom: 5
+  TutorialLabel
+    text: to open your Character Menu
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 25
+
+TutorialScarecrowTask < TutorialWindow
+  size: 634 145
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 100
+  TutorialLabel
+    text: Press
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 25
+  UIWidget
+    image-source: /images/ui/windows/tutorial/tab
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 25
+    margin-bottom: 5
+  TutorialLabel
+    text: to target the nearest creature or
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 25
+  TutorialLabel
+    id: rightClick
+    text: right-click
+    anchors.left: parent.left
+    anchors.top: prev.bottom
+    margin-left: 25
+    margin-top: 21
+  UIWidget
+    image-source: /images/ui/windows/tutorial/mouseRight
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 25
+    margin-bottom: 5
+  TutorialLabel
+    text: on a specific target
+    anchors.left: prev.right
+    anchors.top: rightClick.top
+    margin-left: 25
+
+TutorialTextHarvestPotato < TutorialTextPanel
+  height: 95
+  &size: { height = 160, width = 600 }
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: In order to do that, right-click
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 30
+    text-offset: 0 10
+    text-wrap: false
+  UIWidget
+    size: 30 45
+    image-source: /images/ui/windows/tutorial/mouseRight
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 5
+    margin-bottom: 5
+    margin-top: 25
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: the potato bed.
+    anchors.left: prev.right
+    anchors.top: parent.top
+    text-offset: 0 10
+    margin-right: 5
+    margin-top: 30
+    text-wrap: false
+
+TutorialTextButcherPig < TutorialTextPanel
+  height: 95
+  &size: { height = 160, width = 600 }
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: In order to do that, right-click
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 30
+    text-offset: 0 10
+    text-wrap: false
+  UIWidget
+    size: 30 45
+    image-source: /images/ui/windows/tutorial/mouseRight
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 5
+    margin-bottom: 5
+    margin-top: 25
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: their pen!
+    anchors.left: prev.right
+    anchors.top: parent.top
+    text-offset: 0 10
+    margin-right: 5
+    margin-top: 30
+    text-wrap: false
+
+TutorialTextTrinket < TutorialTextPanel
+  height: 95
+  &size: { height = 160, width = 600 }
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: You can equip them by right-clicking
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 30
+    text-offset: 0 10
+    text-wrap: false
+  UIWidget
+    size: 30 45
+    image-source: /images/ui/windows/tutorial/mouseRight
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 5
+    margin-bottom: 5
+    margin-top: 25
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: or dragging
+    anchors.left: prev.right
+    anchors.top: parent.top
+    text-offset: 0 10
+    margin-right: 5
+    margin-top: 30
+    text-wrap: false
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: them into the right slot
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-left: 25
+    text-offset: 0 4
+    text-wrap: false
+
+TutorialTextWeaponSkill < TutorialTextPanel
+  height: 95
+  &size: { height = 160, width = 610 }
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: And next time you find yourself in danger,
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 20
+    text-offset: 0 10
+    text-wrap: false
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: press
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-left: 25
+    text-offset: 0 6
+    text-wrap: false
+  UIWidget
+    size: 34 40
+    image-source: /images/ui/windows/tutorial/r
+    anchors.left: prev.right
+    anchors.top: prev.top
+    margin-left: 4
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: and try it out!
+    anchors.top: prev.top
+    anchors.left: prev.right
+    margin-left: 4
+    text-offset: 0 6
+    text-wrap: false
+
+TutorialTextSelectMount < TutorialTextPanel
+  height: 95
+  &size: { height = 160, width = 600 }
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: To select your new mount, press
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 20
+    text-offset: 0 10
+    text-wrap: false
+  UIWidget
+    size: 35 41
+    image-source: /images/ui/windows/tutorial/esc
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 5
+    margin-bottom: 5
+    margin-top: 20
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: and navigate
+    anchors.left: prev.right
+    anchors.top: parent.top
+    text-offset: 0 10
+    margin-left: 5
+    margin-top: 20
+    text-wrap: false
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: to the Outfit tab
+    anchors.top: prev.bottom
+    anchors.left: parent.left
+    margin-left: 25
+    text-offset: 0 4
+    text-wrap: false
+
+TutorialTextInfusionMenu < TutorialTextPanel
+  height: 50
+  &size: { height = 120, width = 540 }
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: Press
+    text-align: top
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 15
+    margin-top: 10
+  UIWidget
+    size: 28 33
+    image-source: /images/ui/windows/tutorial/esc
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 10
+  TutorialLabel
+    text: and navigate to your Inventory
+    font: myriad-pro-semibold-18
+    text-align: top
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 10
+    margin-top: 10
+
+TutorialTextMountMoa < TutorialTextPanel
+  height: 50
+  &size: { height = 155, width = 580 }
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: To ride the selected moa, simply press
+    text-wrap: false
+    text-align: top
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 15
+    margin-top: 10
+  UIWidget
+    size: 55 40
+    image-source: /images/ui/windows/tutorial/ctrl
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 10
+  UIWidget
+    size: 34 40
+    image-source: /images/ui/windows/tutorial/r
+    anchors.left: prev.right
+    anchors.top: prev.top
+    margin-left: 10
+
+TutorialTextInfuseWeapon < TutorialTextPanel
+  height: 95
+  &size: { height = 160, width = 600 }
+  UIWidget
+    size: 30 45
+    image-source: /images/ui/windows/tutorial/mouseRight
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 26
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: or drag it back into your inventory
+    anchors.left: prev.right
+    anchors.top: parent.top
+    text-offset: 0 10
+    margin-left: 5
+    margin-right: 5
+    margin-top: 30
+    text-wrap: false
+
+TutorialTextFishingRod < TutorialTextPanel
+  height: 95
+  &size: { height = 160, width = 730 }
+  UIWidget
+    size: 30 45
+    image-source: /images/ui/windows/tutorial/mouseRight
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 26
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: or drag your fishing rod and hook into the right cells
+    anchors.left: prev.right
+    anchors.top: parent.top
+    text-offset: 0 10
+    margin-left: 5
+    margin-right: 5
+    margin-top: 30
+    text-wrap: false
+
+TutorialTextEquipInfusion < TutorialTextPanel
+  height: 95
+  &size: { height = 160, width = 765 }
+  UIWidget
+    size: 30 45
+    image-source: /images/ui/windows/tutorial/mouseRight
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 26
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: the weapon you just crafted, or drag it into the slot on the left
+    anchors.left: prev.right
+    anchors.top: parent.top
+    text-offset: 0 10
+    margin-left: 5
+    margin-right: 5
+    margin-top: 30
+    text-wrap: false
+
+TutorialTextArchetypeMenu < TutorialTextPanel
+  height: 50
+  &size: { height = 120, width = 540 }
+  TutorialLabel
+    font: myriad-pro-semibold-18
+    text: Press
+    text-align: top
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 15
+    margin-top: 10
+  UIWidget
+    size: 28 33
+    image-source: /images/ui/windows/tutorial/esc
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 10
+  TutorialLabel
+    text: and navigate to your Spell Tree
+    font: myriad-pro-semibold-18
+    text-align: top
+    anchors.left: prev.right
+    anchors.top: parent.top
+    margin-left: 10
+    margin-top: 10
+
+TutorialDefeatCultist < TutorialWindow
+  size: 634 145
+  anchors.top: parent.top
+  anchors.horizontalCenter: parent.horizontalCenter
+  margin-top: 100
+  TutorialLabel
+    id: leftClick
+    text: Left-click
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: 25
+    margin-top: 25
+  UIWidget
+    image-source: /images/ui/windows/tutorial/mouseLeft
+    anchors.left: prev.right
+    anchors.verticalCenter: prev.verticalCenter
+    margin-left: 25
+    margin-bottom: 5
+  TutorialLabel
+    text: the skill in the action bar or press
+    anchors.left: prev.right
+    anchors.top: leftClick.top
+    margin-left: 25
+  TutorialLabel
+    text: the corresponding hotkey to use them!
+    anchors.left: leftClick.left
+    anchors.top: prev.bottom
+    margin-top: 15

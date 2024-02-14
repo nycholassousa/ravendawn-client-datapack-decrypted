@@ -1,0 +1,66 @@
+// Ravenguards
+creatures
+  // Ravenguard1
+  2651
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 4
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 4
+  // Ravenguard2
+  1940
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+  // Ravenguard3
+  1941
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Ravenguard4
+  1942
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+  // Ravenguard5
+  1943
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+  // Ravenguard6
+  2953
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    name-displacement: 48 64
+  // Ravenguard7
+  2954
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    name-displacement: 48 60
+  // Ravenguard8
+  2955
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    name-displacement: 48 60
+  // Ravenguard Scout
+  2956
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 16 16
+    name-displacement: 48 60

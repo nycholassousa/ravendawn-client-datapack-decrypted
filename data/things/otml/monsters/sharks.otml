@@ -1,0 +1,142 @@
+// Sharks
+creatures
+  // Shark Slasher
+  2200
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 18 18
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5614
+  5614
+    animate-from-start: true
+    creature-offset: 29 29
+
+  // Shark Buccaneer
+  2201
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 18 18
+    main-body: true
+    impact-time: 400
+    attack-animation-type: 0
+    attack-animation:
+      0: 5610
+  5610
+    animate-from-start: true
+    creature-offset: 24 24
+    alternate-animation: 5611
+  5611
+    animate-from-start: true
+    creature-offset: 24 24
+    alternate-animation: 5610
+
+  // Shark Goldfin - Old
+  2202
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 18 18
+
+  // Shark Harpooner
+  2203
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 18 18
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5613
+  5613
+    animate-from-start: true
+    creature-offset: 38 38
+
+  // Shark Hydromancer
+  2204
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5615
+  5615
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Shark Cleaver
+  2205
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 18 18
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5612
+  5612
+    animate-from-start: true
+    creature-offset: 29 29
+
+  // Shark Pup
+  2206
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 18 18
+
+  // Shark Goldenmaw
+  3040
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    creature-offset: 18 18
+
+  // Shark Goldfin Old
+  5253
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5252
+  5252
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Shark Goldfin
+  6052
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 6051
+  6051
+    animate-from-start: true
+    creature-offset: 32 32

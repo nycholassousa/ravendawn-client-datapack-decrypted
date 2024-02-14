@@ -1,0 +1,7 @@
+Module
+  name: game_telegraph
+  description: Telegraph
+  sandboxed: false
+  scripts: [ telegraph ]
+  @onLoad: GameTelegraph:init()
+  @onUnload: GameTelegraph:terminate()

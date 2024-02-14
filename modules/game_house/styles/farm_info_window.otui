@@ -1,0 +1,319 @@
+GameHouseFarmInfoWindow < MainWindow
+  id: farm_info_window
+  &title: 'Item Description'
+  &iconName: 'icon_house_farm'
+  size: 350 535
+  &maxHeight: 535
+  &minHeight: 290
+  draggable: false
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  margin-bottom: 50
+  MainWindowScrollableContent
+    padding: 0 0 0 0
+    anchors.bottom: place_button.top
+    margin-bottom: 20
+    GameHouseFarmInfoWindowPreviewPanel
+    GameHouseFarmInfoWindowMessagePanel
+    GameHouseFarmInfoWindowPassivePanel
+    GameHouseFarmInfoWindowRewardsPanel
+  MainWindowScrollableContentScrollBar
+    margin-right: 5
+  PrimaryButton
+    id: place_button
+    text: Place
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: 20
+
+GameHouseFarmInfoWindowPassivePanel < UIWidget
+  id: passive_panel
+  height: 35
+  text-align: center
+  font: poppins-14
+  text: Requires
+  $!on:
+    height: 0
+
+GameHouseFarmInfoWindowPreviewPanel < Panel
+  id: preview_panel
+  size: 350 150
+  padding: 20 20 20 20
+  GameHouseFarmInfoWindowPreview
+  GameHouseFarmInfoWindowInfo
+
+GameHouseFarmInfoWindowPreview < UIWidget
+  id: preview
+  size: 140 120
+  image-source: /images/ui/windows/house/list_item_background
+  image-border: 10
+  anchors.left: parent.left
+  anchors.top: parent.top
+  UIItem
+    id: item
+    anchors.centerIn: parent
+    size: 64 64
+    phantom: true
+    $checked:
+      size: 110 110
+
+GameHouseFarmInfoWindowInfo < UIWidget
+  id: info
+  anchors.top: parent.top
+  anchors.bottom: preview.bottom
+  anchors.left: preview.right
+  anchors.right: parent.right
+  margin-left: 18
+  UIWidget
+    id: name
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    text-color: #ced2d9
+  UIWidget
+    id: size
+    anchors.top: name.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    icon: /images/ui/windows/house/size_icon
+    icon-align: left
+    text-offset: 25 3
+    text-color: #ced2d9
+  UIWidget
+    id: level
+    anchors.top: size.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    icon: /images/ui/windows/house/level_icon
+    icon-align: left
+    text-offset: 25 3
+    text-color: #ced2d9
+  UIWidget
+    id: price
+    anchors.top: level.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    icon: /images/ui/icons/silver_24
+    icon-size: 20 20
+    icon-align: left
+    text-offset: 25 3
+    text-color: #ced2d9
+    @onTextChange:
+      -- format text to have comma separators
+      local text = self:getText()
+      if tonumber(text) then
+        local formatted = ''
+        local count = 0
+        for i = #text, 1, -1 do
+          formatted = text:sub(i, i) .. formatted
+          count = count + 1
+          if count == 3 and i ~= 1 then
+            formatted = ',' .. formatted
+            count = 0
+          end
+        end
+        self:setText(formatted, true)
+      end
+  UIWidget
+    id: effort
+    anchors.top: price.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    font: poppins-semibold-14
+    text-align: left
+    margin-top: 7
+    icon: /images/ui/windows/house/effort_icon
+    icon-size: 18 18
+    icon-align: left
+    text-offset: 23 3
+    text-color: #FFA851
+    @onTextChange:
+      -- format text to have comma separators
+      local text = self:getText()
+      if tonumber(text) then
+        local formatted = ''
+        local count = 0
+        for i = #text, 1, -1 do
+          formatted = text:sub(i, i) .. formatted
+          count = count + 1
+          if count == 3 and i ~= 1 then
+            formatted = ',' .. formatted
+            count = 0
+          end
+        end
+        self:setText(formatted, true)
+      end
+
+GameHouseFarmInfoWindowMessagePanel < Panel
+  id: message_panel
+  visible: false
+  height: 61
+  image-source: /images/ui/windows/house/message_panel_background
+  image-border: 5
+  margin-left: 20
+  margin-right: 20
+  margin-bottom: 10
+  font: poppins-14
+  text-align: center
+  text-wrap: true
+  text-color: #ffa851
+
+GameHouseFarmInfoWindowRewardsPanel < UIWidget
+  id: rewards_panel
+  height: 500
+  layout:
+    type: verticalBox
+
+  GameHouseFarmInfoWindowRewardsPanelCategoryTitle
+  GameHouseFarmInfoWindowRewardsPanelItem
+  GameHouseFarmInfoWindowRewardsPanelItem
+
+GameHouseFarmInfoWindowRewardsPanelCategoryTitle < UIWidget
+  height: 30
+  font: poppins-semibold-14
+  text-align: center
+  text-color: #ced2d9
+  background-color: #10101190
+  text: Gathering
+  $!first:
+    margin-top: 15
+
+GameHouseFarmInfoWindowRewardsPanelItem < UIWidget
+  margin-top: 15
+  height: 70
+  image-source: /images/ui/windows/house/list_item_background
+  image-border: 10
+  margin-left: 20
+  margin-right: 20
+  UIWidget
+    id: item_background
+    size: 50 50
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/items/background
+    margin-left: 11
+    padding: 3
+  UIItem
+    id: item
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    size: 50 50
+    phantom: true
+    margin-left: 11
+    padding: 3
+    virtual: true
+    UIWidget
+      id: amount
+      anchors.bottom: parent.bottom
+      anchors.right: parent.right
+      font: poppins-semibold-12
+      image-source: /images/ui/items/background
+      image-border: 10
+      text-auto-resize: true
+      padding-left: 3
+      padding-right: 3
+      text: 0-1
+      margin-bottom: -3
+      margin-right: -3
+      text-offset: 0 1
+
+  UIWidget
+    id: time
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    font: poppins-semibold-13
+    text-align: right
+    margin-right: 20
+    text-color: #ced2d9
+    text: 2 hours
+    text-offset: 15 0
+    icon: /images/ui/windows/house/clock_icon
+    icon-align: left
+    icon-size: 10 10
+    icon-offset: 0 4
+    text-auto-resize: true
+
+  UIWidget
+    id: name
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: item.right
+    anchors.right: time.left
+    font: poppins-semibold-15
+    text-align: left
+    margin-left: 20
+    text-color: #ced2d9
+    text: Item Name
+
+GameHouseFarmInfoWindowRequiredPanelItem < UIWidget
+  margin-top: 15
+  height: 70
+  image-source: /images/ui/windows/house/list_item_background
+  image-border: 10
+  margin-left: 20
+  margin-right: 20
+
+  UIWidget
+    id: amount
+    padding: 10
+    image-source: /images/ui/windows/professions/points_background
+    $on:
+      image-source: /images/ui/windows/professions/points_background_active
+    image-border: 5
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    text: 0/1
+    font: poppins-semibold-14
+    text-offset: 0 2
+    text-color: #a6aab2
+    margin-left: 10
+    size: 70 30
+    @onStateChange: self:getParent().check:setVisible(self:isOn())
+
+  UIWidget
+    id: item_background
+    size: 40 40
+    anchors.left: prev.right
+    anchors.verticalCenter: parent.verticalCenter
+    image-source: /images/ui/items/background
+    margin-left: 15
+    padding: 3
+
+  UIItem
+    id: item
+    anchors.centerIn: item_background
+    size: 40 40
+    phantom: true
+    padding: 3
+    virtual: true
+
+  UIWidget
+    id: name
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: item_background.right
+    anchors.right: next.left
+    font: poppins-semibold-15
+    text-align: left
+    margin-left: 15
+    margin-right: 10
+    text-color: #ced2d9
+    text: Item Name
+
+  UIWidget
+    id: check
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    image-source: /images/ui/windows/house/ownership_icon
+    margin-right: 20
+    visible: false

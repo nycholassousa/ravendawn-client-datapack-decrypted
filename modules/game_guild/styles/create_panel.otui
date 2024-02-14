@@ -1,0 +1,610 @@
+GameGuildCreateGuildPanel < MainWindow
+  id: create_guild_panel
+  size: 560 940
+  anchors.centerIn: parent
+  &title: 'Create Guild'
+  visible: false
+  &createSize: {width = 560, height = 940}
+  &editSize: {width = 560, height = 840}
+  MainWindowContent
+    padding-left: 0
+    padding-right: 0
+    padding-bottom: 0
+    GameGuildCreateGuildPanelIconPanel
+    GameGuildCreateGuildPanelNameInputPanel
+    GameGuildCreateGuildPanelTagInputPanel
+    GameGuildCreateGuildPanelLanguageSelectPanel
+    GameGuildCreateGuildPanelFocusSelectPanel
+    GameGuildCreateGuildPanelLogoBackgroundPanel
+    GameGuildCreateGuildPanelLogoForegroundPanel
+    GameGuildCreateGuildPanelLogoDescriptionPanel
+    GameGuildCreateGuildPanelLogoRequirementPanel
+    GameGuildCreateGuildPanelCreateButtonPanel
+    GameGuildCreateGuildPanelListGuildPanel
+
+GameGuildCreateGuildPanelIconPanel < UIWidget
+  id: icon_panel
+  size: 104 104
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.top: parent.top
+  image-source: /images/ui/windows/guild/logo_background
+
+  UIWidget
+    id: background
+    margin: 2
+    anchors.fill: parent
+    image-source: /images/ui/windows/guild/logo_background/001
+  
+  UIWidget
+    id: icon
+    anchors.fill: parent
+    margin: 5
+    image-source: /images/ui/windows/guild/logo_icons/001
+
+GameGuildCreateGuildPanelNameInputPanel < UIWidget
+  id: name_input_panel
+  size: 195 66
+  margin-left: 20
+  anchors.left: parent.left
+  anchors.top: icon_panel.bottom
+  margin-top: 15
+  @onEnableChange: |
+    for _, child in ipairs(self:getChildren()) do
+      child:setEnabled(self:isEnabled())
+    end
+
+  UIWidget
+    id: title
+    anchors.left: parent.left
+    anchors.top: parent.top
+    text: Name
+    font: poppins-14
+    text-color: #CED2D9
+    text-auto-resize: true
+  
+  UITextEdit
+    id: input
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    font: poppins-14
+    preview: Name of your Guild
+    image-color: white
+    text-color: #CED2D9
+    image-source: /images/ui/windows/guild/text_input_background
+    $on:
+      image-source: /images/ui/windows/guild/text_input_background_on
+    $disabled:
+      text-color: #3A3D43
+      image-color: #3A3D43
+    padding: 10
+    selection-color: #FFFFFF
+    selection-background-color: #2F2F2F
+    max-length: 20
+    image-border-left: 20
+    image-border-right: 20
+    @onTextChange: |
+      modules.game_guild.GameGuild.onCreateGuildNameChange(self, self:getText())
+    @onStateChange: |
+      local parent = self:getParent()
+      parent.error:setVisible(self:isOn())
+
+  UIWidget
+    id: error
+    anchors.right: parent.right
+    anchors.verticalCenter: input.verticalCenter
+    margin-right: 10
+    image-source: /images/ui/windows/guild/icon_warning
+    visible: false
+    phantom: true
+
+GameGuildCreateGuildPanelTagInputPanel < UIWidget
+  id: tag_input_panel
+  size: 80 66
+  margin-left: 10
+  anchors.left: prev.right
+  anchors.top: icon_panel.bottom
+  margin-top: 15
+  @onEnableChange: |
+    for _, child in ipairs(self:getChildren()) do
+      child:setEnabled(self:isEnabled())
+    end
+
+  UIWidget
+    id: title
+    anchors.left: parent.left
+    anchors.top: parent.top
+    text: Tag
+    font: poppins-14
+    text-color: #CED2D9
+    text-auto-resize: true
+  
+  UITextEdit
+    id: input
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    font: poppins-14
+    preview: Tag
+    image-color: white
+    text-color: #CED2D9
+    image-source: /images/ui/windows/guild/text_input_background
+    $on:
+      image-source: /images/ui/windows/guild/text_input_background_on
+    $disabled:
+      text-color: #3A3D43
+      image-color: #3A3D43
+    padding: 10
+    selection-color: #FFFFFF
+    selection-background-color: #2F2F2F
+    max-length: 3
+    image-border-left: 20
+    image-border-right: 20
+    @onTextChange: |
+      modules.game_guild.GameGuild.onCreateGuildTagChange(self, self:getText())
+    @onStateChange: |
+      local parent = self:getParent()
+      parent.error:setVisible(self:isOn())
+
+  UIWidget
+    id: error
+    anchors.right: parent.right
+    anchors.verticalCenter: input.verticalCenter
+    margin-right: 10
+    image-source: /images/ui/windows/guild/icon_warning
+    visible: false
+    phantom: true
+
+
+GameGuildCreateGuildPanelComboBox < UIComboBox
+  image-source: /images/ui/windows/guild/combo_box_background
+  $on:
+    image-source: /images/ui/windows/guild/combo_box_background_on
+  image-border-left: 20
+  image-border-right: 30
+  icon-align: left
+  icon-offset: 10 0
+  text: English
+  text-offset: 50 0
+  padding-right: 40
+  text-color: #CED2D9
+  text-align: left
+
+GameGuildCreateGuildPanelComboBoxPopupMenuButton < UIWidget
+  height: 45
+  text-align: left
+  text-offset: 50 0
+  background-color: alpha
+  margin: 1
+  font: poppins-semibold-13
+  text-color: #ced2d9
+  icon-align: left
+  icon-offset: 9 0
+
+  $disabled:
+    text-color: #ced2d988
+
+  $hover:
+    text-color: #36f991
+
+GameGuildCreateGuildPanelComboBoxPopupMenu < UIPopupMenu
+  image-source: /images/ui/dropdown/bg_dropdown
+  image-border: 3
+
+GameGuildCreateGuildPanelSmallComboBox < UIComboBox
+  image-source: /images/ui/windows/guild/combo_box_background
+  $on:
+    image-source: /images/ui/windows/guild/combo_box_background_on
+  image-border-left: 20
+  image-border-right: 30
+  icon-align: left
+  text: English
+  text-offset: 50 0
+  padding-right: 40
+  text-hidden: true
+  text-align: left
+  icon-size: 30 30
+  icon-offset: 10 6
+  &fixedWidth: 150
+
+GameGuildCreateGuildPanelSmallComboBoxPopupMenuButton < UIWidget
+  height: 45
+  text-align: left
+  text-offset: 40 0
+  background-color: alpha
+  margin: 1
+  font: poppins-semibold-13
+  text-color: #ced2d9
+  icon-align: left
+  icon-offset: 9 0
+  icon-size: 24 24
+  icon-offset: 10 10
+
+  $disabled:
+    text-color: #ced2d988
+
+  $hover:
+    text-color: #36f991
+
+GameGuildCreateGuildPanelSmallComboBoxPopupMenu < UIPopupMenu
+  image-source: /images/ui/dropdown/bg_dropdown
+  image-border: 3
+
+GameGuildCreateGuildPanelLanguageSelectPanel < UIWidget
+  id: language_select_panel
+  size: 140 66
+  anchors.left: prev.right
+  anchors.top: name_input_panel.top
+  margin-left: 10
+
+  UIWidget
+    id: title
+    anchors.left: parent.left
+    anchors.top: parent.top
+    text: Language
+    font: poppins-14
+    text-color: #CED2D9
+    text-auto-resize: true
+  
+  GameGuildCreateGuildPanelComboBox
+    id: language_select
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    font: poppins-14
+    
+    @onSetup: |
+      local module = modules.game_guild
+      connect(self, {
+        onOptionChange = function(self, text)
+          local flag = module.cfg.languageToFlag[text]
+          self:setIcon('/images/ui/windows/guild/flags/' .. flag)
+        end
+      })
+      
+      for language in pairs(module.cfg.possibleLanguages) do
+        self:addOption(language, {icon = '/images/ui/windows/guild/flags/' .. module.cfg.languageToFlag[language]})
+      end
+      self:setOption('English')
+
+    @onOptionChange: |
+      function(self, text)
+        modules.game_guild.GameGuild.createOptions.language = text
+      end
+
+GameGuildCreateGuildPanelFocusSelectPanel < UIWidget
+  id: focus_select_panel
+  size: 80 66
+  anchors.left: language_select_panel.right
+  anchors.top: language_select_panel.top
+  margin-left: 10
+
+  UIWidget
+    id: title
+    anchors.left: parent.left
+    anchors.top: parent.top
+    text: Focus
+    font: poppins-14
+    text-color: #CED2D9
+    text-auto-resize: true
+  
+  GameGuildCreateGuildPanelSmallComboBox
+    id: focus_select
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    font: poppins-14
+    
+    @onSetup: |
+      local module = modules.game_guild
+      connect(self, {
+        onOptionChange = function(self, text)
+          local flag = module.cfg.focusToIcon[self:getOption(text)]
+          self:setIcon('/images/ui/windows/guild/' .. flag)
+        end
+      })
+      
+      for idx, focus in pairs(module.cfg.possibleFocuses) do
+        self:addOption(focus, {icon = '/images/ui/windows/guild/' .. module.cfg.focusToIcon[idx]})
+      end
+      self:setOption('PvE/PvP')
+
+    @onOptionChange: |
+      function(self, text)
+        modules.game_guild.GameGuild.createOptions.focus = text
+      end
+
+GameGuildCreateGuildPanelLogoBackgroundPanel < UIWidget
+  id: logo_background_panel
+  margin-left: 20
+  size: 520 96
+  anchors.left: parent.left
+  anchors.top: focus_select_panel.bottom
+  margin-top: 15
+
+  UIWidget
+    id: title
+    anchors.left: parent.left
+    anchors.top: parent.top
+    text: Background Pattern
+    font: poppins-14
+    text-color: #CED2D9
+    text-auto-resize: true
+
+  UIWidget
+    id: content
+    size: 520 70
+    image-source: /images/ui/windows/guild/panel_background
+    image-border: 15
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    padding: 10
+    layout:
+      type: horizontalBox
+      spacing: 0
+
+GameGuildCreateGuildPanelLogoBackgroundPanelButton < UIWidget
+  size: 50 50
+  image-source:
+  icon: /images/ui/windows/guild/logo_background/001
+  icon-offset: 5 5
+  icon-size: 40 40
+  icon-align: left
+  $on:
+    image-source: /images/ui/windows/guild/logo_select_background
+  $hover:
+    image-source: /images/ui/windows/guild/logo_select_background
+  $on:
+    image-source: /images/ui/windows/guild/logo_select_background
+
+GameGuildCreateGuildPanelLogoForegroundPanel < UIWidget
+  id: logo_foreground_panel
+  margin-left: 20
+  size: 520 216
+  anchors.left: parent.left
+  anchors.top: logo_background_panel.bottom
+  margin-top: 15
+
+  UIWidget
+    id: title
+    anchors.left: parent.left
+    anchors.top: parent.top
+    text: Guild Crest
+    font: poppins-14
+    text-color: #CED2D9
+    text-auto-resize: true
+
+  ScrollablePanel
+    id: content
+    size: 520 190
+    image-source: /images/ui/windows/guild/panel_background
+    image-border: 15
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    vertical-scrollbar: list_scrollbar
+    padding: 10
+    layout:
+      type: grid
+      spacing: 0
+      num-columns: 10
+      num-rows: 40
+      cell-size: 50 50
+
+  VerticalScrollBar
+    id: list_scrollbar
+    anchors.top: content.top
+    anchors.right: parent.right
+    anchors.bottom: content.bottom
+    margin-top: 15
+    margin-bottom: 15
+    step: 15
+
+GameGuildCreateGuildPanelLogoDescriptionPanel < UIWidget
+  id: description_panel
+  margin-left: 20
+  size: 520 106
+  anchors.left: parent.left
+  anchors.top: logo_foreground_panel.bottom
+  margin-top: 15
+
+  UIWidget
+    id: title
+    anchors.left: parent.left
+    anchors.top: parent.top
+    text: Description (140 characters)
+    font: poppins-14
+    text-color: #CED2D9
+    text-auto-resize: true
+
+  UITextEdit
+    id: input_panel
+    size: 520 80
+    image-source: /images/ui/windows/guild/text_input_background
+    image-border: 15
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    padding: 10
+    font: poppins-14
+    preview: Write a description that will excite people to join your Guild.
+    max-length: 140
+    multiline: true
+    text-wrap: true
+    selection-color: #FFFFFF
+    selection-background-color: #2F2F2F
+    @onTextChange: |
+      modules.game_guild.GameGuild.createOptions.description = self:getText()
+
+GameGuildCreateGuildPanelLogoRequirementPanel < UIWidget
+  id: requirement_panel
+  margin-left: 20
+  size: 520 126
+  anchors.left: parent.left
+  anchors.top: description_panel.bottom
+  margin-top: 15
+
+  UIWidget
+    id: title
+    anchors.left: parent.left
+    anchors.top: parent.top
+    text: Requirements
+    font: poppins-14
+    text-color: #CED2D9
+    text-auto-resize: true
+  
+  UIWidget
+    id: spacer
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: prev.bottom
+    margin-top: 5
+    height: 1
+    background-color: #3A3D43
+
+  UIWidget
+    id: content
+    anchors.left: parent.left
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    size: 520 90
+    margin-left: 10
+    layout:
+      type: horizontalBox
+      spacing: 10
+  
+    GameGuildCreateGuildPanelLogoRequirementPanelItem
+      id: level
+    GameGuildCreateGuildPanelLogoRequirementPanelItem
+      id: silver
+    GameGuildCreateGuildPanelLogoRequirementPanelItem
+      id: premium
+
+GameGuildCreateGuildPanelLogoRequirementPanelItem < UIWidget
+  id: item
+  size: 160 90
+  image-source: /images/ui/windows/guild/requirement_background_off
+  $on:
+    image-source: /images/ui/windows/guild/requirement_background_on
+  $checked:
+    image-source: /images/ui/windows/guild/get_premium_background
+
+  @onCheckChange: |
+    for _, child in pairs(self:getChildren()) do
+      child:setChecked(self:isChecked())
+    end
+
+  UIWidget
+    id: title
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    size: 60 60
+    margin-bottom: 10
+    font: poppins-semibold-30
+    text-horizontal-auto-resize: true
+    @onSetup: |
+      local parent = self:getParent()
+      if parent:getId() == 'level' then
+        self:setText(cfg.createRequirements.level)
+      elseif parent:getId() == 'silver' then
+        self:setImageSource('/images/ui/icons/silver_44')
+        local textureWidth = self:getImageTextureWidth()
+        local textureHeight = self:getImageTextureHeight()
+        self:setSize({width = textureWidth, height = textureHeight})
+      elseif parent:getId() == 'premium' then
+        self:setImageSource('/images/ui/windows/guild/premium_token')
+        local textureWidth = self:getImageTextureWidth()
+        local textureHeight = self:getImageTextureHeight()
+        self:setSize({width = textureWidth, height = textureHeight})
+      end
+
+  UIWidget
+    id: subtitle
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    margin-bottom: 6
+    font: poppins-13
+    text-color: white
+    $checked:
+      margin-bottom: 15
+      text-color: #FEFEC6
+      font: poppins-semibold-13
+    @onCheckChange: |
+      if self:isChecked() then
+        self:setText('Get Patron')
+        self.onClick = function()
+          modules.game_premium_store.GamePremiumStore:open()
+        end
+      else
+        self.onClick = function() end
+        local parent = self:getParent()
+        local cfg = modules.game_guild.cfg
+        if parent:getId() == 'level' then
+          self:setText('Legacy Level')
+        elseif parent:getId() == 'silver' then
+          self:setText(FormatCommaNumber(cfg.createRequirements.silver) .. ' Silver')
+        elseif parent:getId() == 'premium' then
+          self:setText('Patron Account')
+        end
+      end
+    @onSetup: |
+      local parent = self:getParent()
+      local cfg = modules.game_guild.cfg
+      if parent:getId() == 'level' then
+        self:setText('Legacy Level')
+      elseif parent:getId() == 'silver' then
+        self:setText(FormatCommaNumber(cfg.createRequirements.silver) .. ' Silver')
+      elseif parent:getId() == 'premium' then
+        self:setText('Patron Account')
+      end
+
+GameGuildCreateGuildPanelCreateButtonPanel < UIWidget
+  id: create_button_panel
+  size: 520 70
+  anchors.left: parent.left
+  anchors.bottom: parent.bottom
+  anchors.right: parent.right
+  background-color: #101111
+  margin-bottom: 1
+
+  UIWidget
+    id: spacer
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: parent.top
+    height: 1
+    background-color: #3A3D43
+
+  PrimaryButton
+    id: create_button
+    text: Create Guild
+    &resizeText: true
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: parent.verticalCenter
+    @onClick: |
+      modules.game_guild.GameGuild:onCreateGuildButtonClicked()
+
+GameGuildCreateGuildPanelListGuildPanel < UIWidget
+  id: list_guild_panel
+  size: 560 30
+  anchors.left: parent.left
+  anchors.top: description_panel.bottom
+  margin-top: 15
+  visible: false
+  margin-left: 20
+
+  CheckBox
+    id: list_guild_checkbox
+    anchors.left: parent.left
+    anchors.top: parent.top
+    @onCheckChange: |
+      modules.game_guild.GameGuild.createOptions.listed = not self:isChecked()
+  UIWidget
+    id: text
+    anchors.left: list_guild_checkbox.right
+    anchors.verticalCenter: list_guild_checkbox.verticalCenter
+    text: Hide Guild from Search List.
+    font: poppins-14
+    text-auto-resize: true
+    margin-left: 10
+    @onClick: |
+      local parent = self:getParent()
+      parent.list_guild_checkbox:setChecked(not parent.list_guild_checkbox:isChecked())

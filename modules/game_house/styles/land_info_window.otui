@@ -1,0 +1,84 @@
+GameHouseLandInfoWindow < UIWidget
+  id: land_info_window
+  size: 265 70
+  image-source: /images/ui/windows/house/land_info_background
+  image-border: 10
+  margin-top: -16
+
+  UIWidget
+    id: land_icon
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    margin: 10 10 10 10
+    image-source: /images/ui/windows/house/land_icon_background
+    image-border: 5
+    UIWidget
+      id: icon
+      anchors.centerIn: parent
+      image-source: /images/ui/windows/house/medium_land_icon
+
+  UIWidget
+    id: silver_icon
+    anchors.top: prev.top
+    anchors.left: prev.right
+    size: 25 25
+    margin-left: 15
+    margin-top: 1
+    UIWidget
+      anchors.centerIn: parent
+      image-source: /images/ui/windows/house/land_silver_icon
+  
+  UIWidget
+    id: deed_icon
+    anchors.bottom: land_icon.bottom
+    anchors.left: land_icon.right
+    size: 25 25
+    margin-left: 15
+    margin-bottom: 1
+    UIWidget
+      anchors.centerIn: parent
+      image-source: /images/ui/windows/house/land_deed_icon
+  
+  UIWidget
+    id: silver_value
+    anchors.bottom: silver_icon.bottom
+    anchors.left: silver_icon.right
+    anchors.right: parent.right
+    margin-left: 8
+    margin-right: 5
+    font: poppins-14
+    text-align: left
+    text: 50,000
+  
+  UIWidget
+    id: deed_text
+    anchors.bottom: deed_icon.bottom
+    anchors.left: deed_icon.right
+    anchors.right: parent.right
+    margin-left: 8
+    margin-right: 5
+    font: poppins-14
+    text-align: left
+    text: Medium Land Deed
+  
+GameHouseSmallLandInfoWindow < GameHouseLandInfoWindow
+  margin-left: -16
+  @onSetup: |
+    self.land_icon.icon:setImageSource('/images/ui/windows/house/small_land_icon')
+    self.silver_value:setText("10,000")
+    self.deed_text:setText("Small Land Deed")
+
+GameHouseMediumLandInfoWindow < GameHouseLandInfoWindow
+  margin-left: -16
+  @onSetup: |
+    self.land_icon.icon:setImageSource('/images/ui/windows/house/medium_land_icon')
+    self.silver_value:setText("500,000")
+    self.deed_text:setText("Medium Land Deed")
+
+GameHouseLargeLandInfoWindow < GameHouseLandInfoWindow
+  margin-left: 18
+  @onSetup: |
+    self.land_icon.icon:setImageSource('/images/ui/windows/house/large_land_icon')
+    self.silver_value:setText("5,000,000")
+    self.deed_text:setText("Large Land Deed")

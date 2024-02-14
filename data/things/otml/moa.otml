@@ -1,0 +1,133 @@
+creatures
+  // Equipment
+  5565
+    reins-id: 5519
+    one-hand-reins-id: 5518
+
+  5520
+    reins-id: 5519
+    one-hand-reins-id: 5518
+
+  5522
+    reins-id: 5524
+    one-hand-reins-id: 5523
+
+  5527
+    reins-id: 5529
+    one-hand-reins-id: 5528
+
+  5532
+    reins-id: 5534
+    one-hand-reins-id: 5533
+
+  5537
+    reins-id: 5539
+    one-hand-reins-id: 5538
+
+  5562
+    creature-offset: 32 32
+    reins-id: 5566
+    one-hand-reins-id: 5607
+  
+  5563
+    creature-offset: 32 32
+    reins-id: 5567
+    one-hand-reins-id: 5608
+  
+  5564
+    creature-offset: 32 32
+    reins-id: 5568
+    one-hand-reins-id: 5609
+  
+  // Reins
+  5566;5607;5567;5608;5568;5609;5966;5967;6093;6094;6099;6100;6168;6169
+    creature-offset: 32 32
+
+  // Ghaz Sandrider Mount
+  3126
+    reins-id: 3127
+
+  // 1000 Firts Premium Moa Cosmetic
+  5867
+    creature-offset: 32 32
+    reins-id: 5967
+    one-hand-reins-id: 5966
+
+  // Moa Effect
+  6033
+    creature-offset: 32 32
+    reins-id: 5967
+    one-hand-reins-id: 5966
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+      9: 100
+      10: 100
+      11: 100
+      12: 100
+      13: 100
+      14: 100
+      15: 100
+      16: 50
+      17: 50
+      18: 50
+      19: 50
+      20: 50
+      21: 50
+      22: 50
+      23: 50
+      24: 50
+      25: 50
+      26: 50
+      27: 50
+      28: 50
+      29: 50
+      30: 50
+      31: 50
+
+  //Horse
+  6064
+    creature-offset: 32 32
+
+//Explorer Barding
+  6074
+    creature-offset: 32 32
+    reins-id: 5568
+    one-hand-reins-id: 5609
+
+//Professional Barding
+  6075
+    creature-offset: 32 32
+    reins-id: 5566
+    one-hand-reins-id: 5607
+
+//War Saddle Barding
+  6076
+    creature-offset: 32 32
+    reins-id: 5567
+    one-hand-reins-id: 5608
+
+// Trailblazer
+  6092
+    creature-offset: 32 32
+    reins-id: 6094
+    one-hand-reins-id: 6093
+
+// Adventurer
+  6098
+    creature-offset: 32 32
+    reins-id: 6100
+    one-hand-reins-id: 6099
+
+//Carnival Moa
+  6167
+    creature-offset: 32 32
+    reins-id: 6169
+    one-hand-reins-id: 6168

@@ -1,0 +1,37 @@
+creatures
+  2005
+    off-hand: true
+    hand-empty: 2005
+    hand-shield: 1992
+  2007
+    off-hand: true
+    hand-empty: 2007
+    hand-shield: 1994
+  2008
+    off-hand: true
+    hand-empty: 2008
+    hand-shield: 1995
+  2010
+    off-hand: true
+    hand-empty: 2010
+    hand-shield: 1997
+  2011
+    off-hand: true
+    hand-empty: 2011
+    hand-shield: 1998
+  2013
+    off-hand: true
+    hand-empty: 2013
+    hand-shield: 2000
+  2014
+    off-hand: true
+    hand-empty: 2014
+    hand-shield: 2001
+  2016
+    off-hand: true
+    hand-empty: 2016
+    hand-shield: 2003
+  2017
+    off-hand: true
+    hand-empty: 2017
+    hand-shield: 2004

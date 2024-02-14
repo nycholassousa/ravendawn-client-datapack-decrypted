@@ -1,0 +1,152 @@
+GameGuildMembersPanel < UIWidget
+  id: members_panel
+  anchors.top: top_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  GameGuildMembersPanelHeader
+  GameGuildMembersListPanel
+  GameGuildMembersApplicationListPanel
+  GameGuildMembersListPanelVerticalScrollBar
+  GameGuildMembersApplicationListPanelVerticalScrollBar
+
+GameGuildMembersPanelHeader < UIWidget
+  id: header
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 60
+  icon: /images/ui/windows/guild/members_icon
+  icon-align: left
+  icon-size: 30 30
+  icon-offset: 10 15
+  margin-right: 10
+
+  UIWidget
+    id: title
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: parent.left
+    font: poppins-semibold-14
+    text-align: left
+    text: Members
+    text-offset: 50 0
+    text-auto-resize: true
+
+  UIWidget
+    id: horizontalSpacer
+    anchors.top: parent.top
+    anchors.bottom: parent.bottom
+    anchors.left: title.right
+    margin-left: 10
+    width: 1
+    background-color: white
+    margin-top: 23
+    margin-bottom: 23
+
+  UIWidget
+    id: value
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: horizontalSpacer.right
+    margin-left: 7
+    text-auto-resize: true
+    text-offset: 0 2
+    text: 1/50
+    font: poppins-semibold-14
+    text-color: #FFA851
+
+  PrimaryButton
+    id: increase_slots_button
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: value.right
+    margin-left: 20
+    text: + Increase Member Slots
+    &font: 'poppins-semibold-12'
+    size: 180 40
+    visible: false
+    @onClick: |
+      modules.game_guild.GameGuild:onMembersPanelIncreaseSlotsButtonPressed()
+
+  GameGuildMembersPanelSearch
+
+  UIWidget
+    id: applications
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: search_panel.right
+    margin-left: 35
+    icon: /images/ui/windows/guild/applications_icon
+    icon-align: left
+    icon-size: 24 24
+    icon-offset: 0 8
+    height: 40
+    text: Applications received
+    font: poppins-semibold-14
+    text-offset: 30 0
+    text-align: left
+    text-horizontal-auto-resize: true
+
+  UIWidget
+    id: applications_amount
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.left: applications.right
+    font: poppins-semibold-14
+    padding-left: 7
+    padding-right: 7
+    text-auto-resize: true
+    text-offset: 0 2
+    margin-left: 10
+    text: 0
+    image-source: /images/ui/windows/guild/application_amount_background
+    image-border: 5
+
+  PrimaryButton
+    id: invite_button
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    text: Invite Player
+    &resizeText: true
+    height: 40
+    &font: 'poppins-semibold-12'
+    visible: false
+    @onClick: |
+      modules.game_guild.GameGuild:onMembersPanelInvitePlayerButtonPressed()
+
+GameGuildMembersPanelSearch < UIWidget
+  id: search_panel
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  image-source: /images/ui/windows/market/search_panel_background
+  image-border: 5
+  size: 240 40
+  margin-left: 470
+
+  UIWidget
+    id: icon
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    margin-left: 10
+    image-source: /images/ui/windows/market/search_panel_icon
+    size: 20 20
+    phantom: true
+  
+  UITextEdit
+    id: input
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.verticalCenter: parent.verticalCenter
+    height: 30
+    padding-top: 5
+    margin-left: 40
+    margin-right: 10
+    font: poppins-14
+    preview: Search Members
+    editable: true
+    focusable: true
+    shift-navigation: true
+    selection-color: #7E828B
+    @onEnableChange: |
+      self:getParent().clear_button:setVisible(not self:isEnabled())
+      self:setPhantom(not self:isEnabled())
+    @onTextChange: |
+      function(self, text)
+        modules.game_guild.GameGuild:onMembersPanelSearchMembers(text)
+      end

@@ -1,0 +1,141 @@
+FeedbackLabel < Label
+  background-color: alpha
+  text-offset: 2 0
+  focusable: true
+
+  $focus:
+    background-color: #00000055
+    color: #ffffff
+
+FeedbackWindow < ModalDialog
+  id: feedbackWindow
+  !text: tr('Report / Feedback')
+  size: 370 466
+  @onEscape: addEvent(function() modules.game_feedback.hide() end)
+
+  Panel
+    id: contents
+    anchors.fill: parent
+    margin: 10
+
+    ComboBox
+      id: category
+      anchors.top: parent.top
+      anchors.left: parent.left
+      anchors.right: parent.right
+      text: Please select a category
+      font: myriad-pro-20
+      height: 30
+      image-border: 5
+      @onClick: |
+        self:clearOptions()
+        for _, category in ipairs(modules.game_feedback.categories.bugs) do
+          self:addOption(category)
+        end
+        self:onMousePress()
+
+    MultilineTextEdit
+      id: feedbackText
+      anchors.top: prev.bottom
+      margin-top: 10
+      height: 200
+      anchors.left: parent.left
+      anchors.right: parent.right
+      //anchors.bottom: next.top
+      font: myriad-pro-16
+      background-color: #00000049
+      text-offset: 3 3
+      text-align: topleft
+      text-wrap: true
+      image-source: 
+      border: 1 #44413a
+      max-length: 2048
+
+    Label
+      margin-top: 10
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      font: myriad-pro-20
+      text: Input image/video URL:
+
+    TextEdit
+      id: urlTextEdit
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      margin-right: 70
+      margin-top: 5
+      background-color: #00000049
+      image-source: 
+      border: 1 #44413a
+      max-length: 500
+
+    ModalButton
+      id: addUrlButton
+      anchors.top: prev.top
+      anchors.bottom: prev.bottom
+      anchors.right: parent.right
+      font: myriad-pro-16
+      text-offset: 0 6
+      width: 60
+      height: 24
+      text-auto-resize: false
+      text: Add
+      @onClick: |
+        local list = self:getParent():getChildById('urlsList')
+        local url = self:getParent():getChildById('urlTextEdit')
+        if string.find(url:getText(), 'http://') or string.find(url:getText(), 'https://') then
+          if #list:getChildren() >= 5 then return end
+          local widget = g_ui.createWidget('UIWidget', list)
+          widget:setTextAlign(left)
+          widget:setTextAutoResize(true)
+          widget:setText(url:getText())
+          widget.onDoubleClick = function() 
+            widget:destroy() 
+            if #list:getChildren() == 0 then
+              list:setVisible(false)
+            end 
+            modules.game_feedback.resizeToFit()
+          end
+          widget:setTooltip("Double click to remove.")
+          if #list:getChildren() > 0 then
+            list:setVisible(true)
+            list:setPaddingTop(3)
+            list:setPaddingBottom(3)
+            list:getLayout():setFitChildren(true)
+            list:getLayout():setSpacing(2)
+          end
+          url:setText('')
+          modules.game_feedback.resizeToFit()
+        end
+
+    VerticalList
+      id: urlsList
+      margin-top: 10
+      anchors.top: prev.bottom
+      anchors.left: parent.left
+      anchors.right: parent.right
+      height: 0
+      background-color: #00000049
+      image-source: 
+      border: 1 #44413a
+
+    ModalButton
+      id: selectButton
+      !text: tr('Submit')
+      anchors.bottom: closeButton.bottom
+      anchors.left: parent.left
+      size: 140 35
+      text-auto-resize: false
+      margin-left: 0
+      @onClick: modules.game_feedback.onSubmit()
+
+    ModalButton
+      id: closeButton
+      anchors.top: urlsList.bottom
+      margin-top: 5
+      anchors.right: parent.right
+      !text: tr('Cancel')
+      size: 140 35
+      text-auto-resize: false
+      @onClick: modules.game_feedback.hide()

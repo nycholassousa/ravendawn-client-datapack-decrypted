@@ -1,0 +1,26 @@
+Module
+  name: game_npcs
+  author: LPE
+  scripts: [ npc, itemshop, warehouse, tradepost, fishpost, builder, bank, rangers_company_shop, gear_breakdown_shop ]
+
+  @onLoad: |
+    GameNpc:init()
+    ItemShop:init()
+    PortWarehouse:init()
+    Tradepost:init()
+    Fishpost:init()
+    BuilderShop:init()
+    GameBank:init()
+    RangersCompanyShop:init()
+    GearBreakdownShop:init()
+
+  @onUnload: |
+    GameNpc:terminate()
+    ItemShop:terminate()
+    PortWarehouse:terminate()
+    Tradepost:terminate()
+    Fishpost:terminate()
+    BuilderShop:terminate()
+    GameBank:terminate()
+    RangersCompanyShop:terminate()
+    GearBreakdownShop:terminate()

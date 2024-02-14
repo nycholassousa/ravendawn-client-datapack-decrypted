@@ -1,0 +1,20 @@
+GameTransportWindow < MainWindow
+  id: gameTransportWindow
+  size: 447 704
+  anchors.centerIn: parent
+  &title: 'Transport'
+  &shortcut: 'Y'
+  &iconName: 'icon_transport'
+  &isGeneralUIWindow: true
+  MainWindowScrollableContent
+    padding: 0 0 0 0
+    GameTransportShipPanel
+    GameTransportMountPanel
+      GameTransportShipPanelContentButtonPanelPopup
+        GameTransportShipPanelContentButtonPanelButtonSlot
+          id: cargo
+    GameTransportWagonPanel
+
+  MainWindowScrollableContentScrollBar
+    step: 48
+    margin-right: 5

@@ -1,0 +1,8 @@
+Module
+  name: client_demoscreen
+  description: Demo Login Screen
+  author: LPE
+  sandboxed: false
+  scripts: [ demo_screen ]
+  @onLoad: DemoScreen.init()
+  @onUnload: DemoScreen.terminate()

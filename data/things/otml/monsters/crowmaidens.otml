@@ -1,0 +1,185 @@
+// Crowmaindens
+creatures
+  // Crowman
+  5089
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+    main-body: true
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 5088
+  5088
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 6 6
+    friend-circle-size: 48 48
+    friend-circle-offset: 6 6
+
+  // Crow Matriarch
+  5094
+    creature-offset: 20 20
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 600
+    attack-animation-type: 0
+    attack-animation:
+      0: 5093
+  5093
+    animate-from-start: true
+    creature-offset: 20 20
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Corvine Bride
+  5096
+    creature-offset: 20 20
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5095
+  5095
+    animate-from-start: true
+    creature-offset: 20 20
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+
+  // Glutton Hag
+  5144
+    creature-offset: 24 24
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5145
+  5145
+    animate-from-start: true
+    creature-offset: 24 24
+
+  // Ravenous Sister
+  5146
+    creature-offset: 24 24
+    enemy-circle-size: 64 64
+    enemy-circle-offset: 0 0
+    friend-circle-size: 64 64
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5147
+  5147
+    animate-from-start: true
+    creature-offset: 24 24
+
+  // Bog Hag
+  5158
+    creature-offset: 32 32
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 6
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 6
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5157
+  5157
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Ghostlamp Hag Normal/Invisible
+  5161;5164
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  5160;5162
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+  5159;5163
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+
+  // Sightless Sister Normal/Invisible
+  5167;5170
+    creature-offset: 32 32
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 0 0
+    friend-circle-size: 56 56
+    friend-circle-offset: 0 0
+  5166;5168
+    animate-from-start: true
+    creature-offset: 32 32
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 0 0
+    friend-circle-size: 56 56
+    friend-circle-offset: 0 0
+  5165;5169
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 56 56
+    enemy-circle-offset: 0 0
+    friend-circle-size: 56 56
+    friend-circle-offset: 0 0
+
+  // Smiling Sister
+  5234
+    creature-offset: 32 32
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 0 0
+    friend-circle-size: 48 48
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5233
+  5233
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // Harvester Hag
+  5236
+    creature-offset: 32 32
+    enemy-circle-size: 44 44
+    enemy-circle-offset: 0 0
+    friend-circle-size: 44 44
+    friend-circle-offset: 0 0
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5235
+  5235
+    animate-from-start: true
+    creature-offset: 64 64

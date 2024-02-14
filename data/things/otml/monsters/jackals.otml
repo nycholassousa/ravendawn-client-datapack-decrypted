@@ -1,0 +1,175 @@
+// Jackals
+creatures
+  // Dunewalker Jackal
+  5337
+    creature-offset: 32 32
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 6 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 6 6
+    attack-animation-type: 0
+    attack-animation:
+      0: 5336
+  5336
+    animate-from-start: true
+    creature-offset: 64 64
+    phase-durations:
+      0: 60
+      1: 100
+      2: 60
+      3: 60
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  // Eclipse Jackal
+  5339
+    creature-offset: 32 32
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 6 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 6 6
+    attack-animation-type: 0
+    attack-animation:
+      0: 5338
+  5338
+    animate-from-start: true
+    creature-offset: 64 64
+    phase-durations:
+      0: 60
+      1: 100
+      2: 60
+      3: 60
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+
+  // Feral Jackal
+  5341
+    creature-offset: 32 32
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 6 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 6 6
+    attack-animation-type: 0
+    attack-animation:
+      0: 5340
+  5340
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Lightstorm Jackal
+  5343
+    creature-offset: 32 32
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 6 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 6 6
+    attack-animation-type: 0
+    attack-animation:
+      0: 5342
+  5342
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Moonblade Jackal
+  5345
+    creature-offset: 32 32
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 6 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 6 6
+    attack-animation-type: 0
+    attack-animation:
+      0: 5344
+  5344
+    animate-from-start: true
+    creature-offset: 64 64
+
+  // Runegust Jackal
+  5347
+    creature-offset: 32 32
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 6 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 6 6
+    attack-animation-type: 0
+    attack-animation:
+      0: 5346
+  5346
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Sandwatcher Jackal
+  5349
+    creature-offset: 32 32
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 6 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 6 6
+    attack-animation-type: 0
+    attack-animation:
+      0: 5348
+  5348
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Sunchaser Jackal
+  5351
+    creature-offset: 32 32
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 6 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 6 6
+    main-body: true
+    attack-animation-type: 0
+    attack-animation:
+      0: 5350
+  5350
+    animate-from-start: true
+    creature-offset: 32 32
+    additional-draw-things:
+      1: 5352
+  5352
+    animate-from-start: true
+
+  // Wildfire Jackal
+  5354
+    creature-offset: 32 32
+    enemy-circle-size: 36 36
+    enemy-circle-offset: 6 6
+    friend-circle-size: 36 36
+    friend-circle-offset: 6 6
+    attack-animation-type: 0
+    attack-animation:
+      0: 5353
+  5353
+    animate-from-start: true
+    creature-offset: 32 32
+    phase-durations:
+      0: 120
+      1: 120
+      2: 120
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 120
+
+  // General Thinfang
+  5573
+    creature-offset: 32 32
+    enemy-circle-size: 40 40
+    enemy-circle-offset: 6 4
+    friend-circle-size: 40 40
+    friend-circle-offset: 6 4
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 5572
+  5572
+    animate-from-start: true
+    creature-offset: 64 64

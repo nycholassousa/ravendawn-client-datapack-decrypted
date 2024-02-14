@@ -1,0 +1,109 @@
+// Foulotus
+creatures
+  // Poisonpetal Seedling
+  1164
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 7 7
+    step-sound-type: 2
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3614
+  3614
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 39 39
+    name-displacement: 0 0
+
+  // Poisonpetal Goliath
+  1165
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 15 15
+    step-sound-type: 3
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3615
+  3615
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 47 47
+    name-displacement: 0 0
+
+  // Poisonpetal Lotus
+  1178
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 8 8
+    friend-circle-size: 48 48
+    friend-circle-offset: 8 8
+    creature-offset: 13 13
+    main-body: true
+    impact-time: 300
+    attack-animation-type: 0
+    attack-animation:
+      0: 3616
+  3616
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    animate-from-start: true
+    creature-offset: 45 45
+    name-displacement: 0 0
+
+  // Poisonpetal Overgrowth
+  3121
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    name-displacement: 64 96
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5254
+  5254
+    animate-from-start: true
+    creature-offset: 32 32
+    
+  // Poisonpetal Overgrowth
+  3122
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    name-displacement: 64 96
+    main-body: true
+    impact-time: 500
+    attack-animation-type: 0
+    attack-animation:
+      0: 5255
+  5255
+    animate-from-start: true
+    creature-offset: 32 32
+
+  // Poisonpetal Overgrowth
+  3123
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 4 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 4 4
+    creature-offset: 32 32
+    name-displacement: 64 96

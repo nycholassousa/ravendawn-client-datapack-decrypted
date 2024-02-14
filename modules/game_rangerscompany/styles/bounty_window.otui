@@ -1,0 +1,366 @@
+GameRangersCompanyBountyWindowTopPanel < UIWidget
+  id: top_panel
+  height: 80
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: parent.top
+  GameRangersCompanyBountyWindowTopPanelRankPanel
+  GameRangersCompanyBountyWindowTopPanelLocationPanel
+  PrimaryButton
+    id: refresh_button
+    text: Reroll
+    anchors.verticalCenter: parent.verticalCenter
+    anchors.right: parent.right
+    @onClick: |
+      modules.game_rangerscompany.GameRangersCompany:rerollTasks()
+
+  HorizontalSeparator
+    id: separator
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.bottom: parent.bottom
+    height: 2
+    margin-left: -18
+    margin-right: -18
+
+GameRangersCompanyBountyWindowTopPanelRankPanel < UIWidget
+  id: rank_panel
+  size: 200 80
+  anchors.left: parent.left
+  anchors.verticalCenter: parent.verticalCenter
+
+  UIWidget
+    id: icon
+    size: 80 80
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    &update: |
+      function(self, path)
+        self:setImageSource(path)
+
+        local textureWidth = self:getImageTextureWidth()
+        local textureHeight = self:getImageTextureHeight()
+        local width = self:getWidth()
+        local height = self:getHeight()
+        self:setImageSize({width = textureWidth, height = textureHeight})
+        self:setImageOffset({x = (width - textureWidth) / 2, y = (height - textureHeight) / 2})
+      end
+
+  UIWidget
+    id: name
+    text-auto-resize: true
+    text: Champion
+    anchors.left: icon.right
+    anchors.top: parent.top
+    font: poppins-semibold-16
+    margin-left: 10
+    margin-top: 12
+
+  UIWidget
+    id: progress_text
+    text-auto-resize: true
+    text: 150,423 / 200,000
+    anchors.left: icon.right
+    anchors.verticalCenter: parent.verticalCenter
+    font: poppins-semibold-13
+    margin-left: 10
+    margin-top: 3
+
+  UIWidget
+    id: progress_bg
+    anchors.bottom: parent.bottom
+    anchors.left: icon.right
+    anchors.right: parent.right
+    margin-left: 10
+    size: 200 10
+    image-source: /images/ui/windows/character/level_progress_background
+    image-border: 3
+    margin-bottom: 15
+    
+  UIProgressBar
+    id: progress
+    anchors.fill: prev
+    size: 200 3
+    margin-top: 3
+    margin-bottom: 4
+    margin-left: 2
+    margin-right: 2
+    background-color: #36f991
+
+GameRangersCompanyBountyWindowTopPanelLocationPanel < UIWidget
+  id: location_panel
+  size: 250 78
+  anchors.centerIn: parent
+
+  UIWidget
+    id: icon
+    size: 45 45
+    anchors.top: parent.top
+    margin-top: 10
+    anchors.horizontalCenter: parent.horizontalCenter
+    &update: |
+      function(self, path)
+        self:setImageSource(path)
+        local textureWidth = self:getImageTextureWidth()
+        local textureHeight = self:getImageTextureHeight()
+        local width = self:getWidth()
+        local height = self:getHeight()
+        self:setImageSize({width = textureWidth, height = textureHeight})
+        self:setImageOffset({x = (width - textureWidth) / 2, y = (height - textureHeight) / 2})
+      end
+  
+  UIWidget
+    id: name
+    text-auto-resize: true
+    anchors.top: icon.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    font: poppins-semibold-14
+    margin-bottom: -5
+    text: Deadlands
+
+GameRangersCompanyBountyWindowBottomPanel < UIWidget
+  id: bottom_panel
+  anchors.top: top_panel.bottom
+  anchors.bottom: parent.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-top: 1
+
+  layout:
+    type: horizontalBox
+    spacing: 21
+  
+  GameRangersCompanyBountyWindowBottomPanelTaskPanel
+    id: 1
+  GameRangersCompanyBountyWindowBottomPanelTaskPanel
+    id: 2
+  GameRangersCompanyBountyWindowBottomPanelTaskPanel
+    id: 3
+  
+GameRangersCompanyBountyWindowBottomPanelTaskPanel < UIWidget
+  width: 290
+  image-source: /images/ui/windows/rangers_company/task_background
+
+  UIWidget
+    id: background
+    anchors.top: parent.top
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 403
+    margin-left: 1
+    margin-right: 1
+    image-source: /images/ui/ravencards/illustrations/rat_scavenger.jpg
+
+  UIWidget
+    anchors.bottom: background.bottom
+    anchors.left: background.left
+    anchors.right: background.right
+    image-source: /images/ui/windows/rangers_company/task_bottom_background
+    height: 138
+
+  UIWidget
+    size: 80 70
+    id: category
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin: 10
+    image-source: /images/ui/windows/rangers_company/monster_category_background
+    UIWidget
+      id: icon
+      size: 34 34
+      anchors.horizontalCenter: parent.horizontalCenter
+      anchors.top: parent.top
+      margin-top: 10
+      image-source: /images/ui/windows/rangers_company/icon_aquatics
+    UIWidget
+      id: name
+      text-auto-resize: true
+      anchors.left: parent.left
+      anchors.right: parent.right
+      anchors.top: icon.bottom
+      text: Aquatics
+      font: poppins-semibold-12
+      margin-top: 5
+      text-color: #cecfce
+
+  UIWidget
+    id: type
+    anchors.right: parent.right
+    anchors.verticalCenter: category.verticalCenter
+    size: 35 35
+    image-source: /images/ui/windows/rangers_company/icon_type_3
+    margin-right: 10
+
+  UIWidget
+    id: name
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.verticalCenter: background.verticalCenter
+    text-auto-resize: true
+    text: Rat Scavenger
+    font: poppins-semibold-20
+    margin-top: 70
+
+  UIWidget
+    id: region
+    anchors.top: name.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    text-auto-resize: true
+    text: Ravencrest
+    font: poppins-semibold-18
+    text-color: #cecfce
+
+  UIWidget
+    id: progress_panel
+    anchors.verticalCenter: description.verticalCenter
+    anchors.left: background.left
+    anchors.right: background.right
+    size: 250 50
+    visible: false
+
+    UIWidget
+      id: progress_text
+      anchors.top: parent.top
+      anchors.horizontalCenter: progress_bg.horizontalCenter
+      font: poppins-semibold-16
+      text-auto-resize: true
+      margin-top: 10
+
+    UIWidget
+      id: progress_bg
+      anchors.centerIn: parent
+      size: 200 10
+      image-source: /images/ui/windows/character/level_progress_background
+      image-border: 3
+      margin-top: 20
+      
+    UIProgressBar
+      id: progress
+      anchors.fill: prev
+      size: 200 3
+      margin-top: 3
+      margin-bottom: 4
+      margin-left: 2
+      margin-right: 2
+      background-color: #36f991
+
+  UIWidget
+    id: error_label
+    margin-top: 10
+    width: 230
+    padding: 5
+    anchors.verticalCenter: description.verticalCenter
+    anchors.horizontalCenter: background.horizontalCenter
+    text-wrap: true
+    image-source: /images/ui/windows/rangers_company/monster_category_background
+    image-border: 5
+    text: You have already chosen a task to do.
+    font: poppins-semibold-14
+    text-color: #ced2d9
+    visible: false
+
+  UIWidget
+    id: description
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: name.bottom
+    anchors.bottom: background.bottom
+    margin-left: 40
+    margin-right: 40
+    text-wrap: true
+    font: poppins-semibold-15
+    text: Gain 30,000 experience by killing Rat creatures
+
+  GameRangersCompanyBountyWindowBottomPanelRewardPanel
+
+GameRangersCompanyBountyWindowBottomPanelRewardPanel < UIWidget
+  id: reward_panel
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.top: prev.bottom
+  anchors.bottom: parent.bottom
+
+  UIWidget
+    id: rewards_label
+    text-auto-resize: true
+    text: Rewards
+    font: poppins-semibold-16
+    text-color: #30d77f
+    anchors.left: parent.left
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 10
+  
+  HorizontalSeparator
+    id: separator
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: rewards_label.bottom
+    margin-top: 10
+    margin-right: 10
+    margin-left: 10
+    height: 2
+
+  GameRangersCompanyBountyWindowBottomPanelReward
+    anchors.left: parent.left
+    id: prestige points
+  GameRangersCompanyBountyWindowBottomPanelReward
+    anchors.right: parent.right
+    id: bounty marks
+
+  SuccessButton
+    id: accept_button
+    text: Accept
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    margin-bottom: 25
+    @onClick: |
+      local parent = self:getParent()
+      modules.game_rangerscompany.GameRangersCompany:selectTask(parent.taskType)
+
+GameRangersCompanyBountyWindowBottomPanelReward < UIWidget
+  size: 130 64
+  image-source: /images/ui/windows/rangers_company/reward_background
+  anchors.top: separator.bottom
+  margin: 10
+  margin-top: 15
+
+  UIWidget
+    id: icon
+    size: 100 30
+    text: 6000
+    font: poppins-semibold-14
+    margin-top: 5
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    text-offset: 30 2
+    text-color: #e2e2e2
+    @onSetup: |
+      local parent = self:getParent()
+      if parent:getId() == 'prestige points' then
+        self:update('/images/ui/windows/rangers_company/icon_prestige')
+      elseif parent:getId() == 'bounty marks' then
+        self:update('/images/ui/windows/rangers_company/icon_bounty_mark')
+      end
+    &update: |
+      function(self, path)
+        self:setImageSource(path)
+        local textureWidth = self:getImageTextureWidth()
+        local textureHeight = self:getImageTextureHeight()
+        local width = self:getWidth()
+        local height = self:getHeight()
+        self:setImageSize({width = textureWidth, height = textureHeight})
+        self:setImageOffset({x = (width - textureWidth) / 2 - self:getTextSize().width / 2, y = (height - textureHeight) / 2})
+      end
+  
+  UIWidget
+    id: name
+    text-auto-resize: true
+    anchors.bottom: parent.bottom
+    margin-bottom: 10
+    anchors.horizontalCenter: parent.horizontalCenter
+    font: poppins-semibold-14
+    text: Prestige Points
+    text-color: #e2e2e2
+    @onSetup: |
+      local parent = self:getParent()
+      self:setText(parent:getId():titleCase())

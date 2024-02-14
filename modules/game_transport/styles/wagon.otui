@@ -1,0 +1,190 @@
+GameTransportWagonPanel < UIWidget
+  id: wagon_panel
+  height: 252
+
+  GameTransportWagonPanelTitle
+  GameTransportWagonPanelContent
+
+GameTransportWagonPanelTitle < UIWidget
+  id: wagon_title
+  anchors.left: parent.left
+  anchors.top: parent.top
+  anchors.right: parent.right
+  height: 42
+  text: Wagon
+  font: poppins-semibold-18
+  text-color: #b8b8b8
+  image-source: /images/ui/windows/transport/title_background
+  image-border: 10
+  @onGeometryChange: |
+    self:setImageSize({width = self:getWidth() + 56, height = self:getHeight()})
+
+GameTransportWagonPanelContent < UIWidget
+  id: wagon_content
+  anchors.top: wagon_title.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  anchors.bottom: parent.bottom
+  padding: 15 45 15 37
+  GameTransportWagonPanelContentButtonPanelConnections
+  GameTransportWagonPanelContentPreviewPanel
+  GameTransportWagonPanelContentButtonPanel
+
+GameTransportWagonPanelContentPreviewPanel < UIWidget
+  id: wagon_preview_panel
+  anchors.top: parent.top
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 100
+  image-source: /images/ui/windows/transport/bordered_background
+  image-border: 10
+  text: Preview
+  font: poppins-semibold-12
+  text-color: #b8b8b8
+  text-align: top-left
+  text-offset: 10 10
+  GameTransportWagonPanelContentPreviewPanelAttributes
+  GameTransportWagonPanelContentPreviewPanelOutfit
+
+GameTransportWagonPanelContentPreviewPanelOutfit < UIWidget
+  id: wagon_preview
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.left: parent.left
+  size: 53 72
+
+  UIWidget
+    id: placeholder
+    anchors.fill: parent
+    image-source: /images/ui/windows/transport/wagon_preview
+
+  UICreature
+    id: outfit
+    anchors.fill: parent
+
+  @onGeometryChange: |
+    -- center the outfit from parent left to wagon_attributes right
+    local parent = self:getParent()
+    self:setMarginLeft((parent:getWidth() - self:getWidth()) / 2 - parent.wagon_attributes:getWidth() / 2)
+
+GameTransportWagonPanelContentPreviewPanelAttributes < UIWidget
+  id: wagon_attributes
+  anchors.right: parent.right
+  anchors.verticalCenter: parent.verticalCenter
+  size: 125 100
+  image-source: /images/ui/windows/transport/vertical_separator
+  image-size: 3 100
+  layout:
+    type: verticalBox
+    spacing: 5
+
+  GameTransportWagonPanelContentPreviewPanelAttributesAttribute
+    id: health
+  GameTransportWagonPanelContentPreviewPanelAttributesAttribute
+    id: weight
+  GameTransportWagonPanelContentPreviewPanelAttributesAttribute
+    id: tradepacks
+  @onGeometryChange: |
+    -- center the children in self
+    local height = 0
+    for _, child in ipairs(self:getChildren()) do
+      height = height + child:getHeight() + self:getLayout():getSpacing()
+    end
+    local margin = (self:getHeight() - height) / 2 + self:getLayout():getSpacing() / 2
+    self:getFirstChild():setMarginTop(margin)
+
+GameTransportWagonPanelContentPreviewPanelAttributesAttribute < UIWidget
+  id: wagon_attribute
+  size: 125 22
+  layout:
+    type: horizontalBox
+    spacing: 10
+  UIWidget
+    id: icon
+    size: 22 22
+    image-source: /images/ui/windows/transport/icon_weight
+    margin-left: 23
+    phantom: true
+    @onSetup: |
+      self:setImageSource(string.format('/images/ui/windows/transport/icon_%s', self:getParent():getId()))
+      local textureSize = {width = self:getImageTextureWidth(), height = self:getImageTextureHeight()}
+      self:setImageSize(textureSize)
+      self:setImageOffset({x = (self:getWidth() - textureSize.width) / 2, y = (self:getHeight() - textureSize.height) / 2})
+  UIWidget
+    id: value
+    size: 105 20
+    text: 0
+    text-offset: 0 2
+    font: poppins-semibold-14
+    text-color: #b8b8b8
+    text-align: left
+    margin-left: 10
+    phantom: true
+
+GameTransportWagonPanelContentButtonPanel < UIWidget
+  id: button_panel
+  anchors.top: wagon_preview_panel.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  height: 60
+  margin-top: 21
+  layout:
+    type: horizontalBox
+
+  GameTransportWagonPanelContentButtonPanelButton
+    id: wagon
+  GameTransportWagonPanelContentButtonPanelButton
+    id: wagon_cosmetic
+  @onGeometryChange: |
+    -- set the spacing between the buttons
+    local childCount = self:getChildCount()
+    local spacing = (self:getWidth() - self:getFirstChild():getWidth() * childCount) / (childCount - 1)
+    self:getLayout():setSpacing(spacing)
+
+GameTransportWagonPanelContentButtonPanelConnections < UIWidget
+  border: 2 #3a3d43
+  size: 308 55
+  anchors.top: next.bottom
+  anchors.left: parent.left
+  anchors.right: parent.right
+  margin-left: 30
+  margin-right: 30
+  margin-top: -2
+
+GameTransportWagonPanelContentButtonPanelButton < UIWidget
+  id: wagon_button
+  size: 60 60
+  image-source: /images/ui/windows/transport/bordered_background
+  image-border: 10
+  @onSetup: |
+    self.placeholder:setImageSource(string.format('/images/ui/windows/transport/icon_%s', self:getId()))
+    local textureSize = {width = self.placeholder:getImageTextureWidth(), height = self.placeholder:getImageTextureHeight()}
+    self.placeholder:setSize(textureSize)
+  @onClick: |
+    for _, child in ipairs(self:getParent():getChildren()) do
+      child:setOn(false)
+    end
+    GameTransport:toggleAttachedWindow('wagon', self:getId(), self)
+  @onVisibilityChange: |
+    if not self:isVisible() then
+      for _, child in ipairs(self:getParent():getChildren()) do
+        child:setOn(false)
+      end
+    end
+  $on:
+    image-source: /images/ui/windows/transport/bordered_background_on
+  UIWidget
+    id: placeholder
+    anchors.centerIn: parent
+    image-color: #3a3d43
+    phantom: true
+  UICreature
+    id: outfit
+    size: 40 40
+    anchors.centerIn: parent
+    &tooltipEnabled: true
+    phantom: false
+    @onClick: |
+      for _, child in ipairs(self:getParent():getParent():getChildren()) do
+        child:setOn(false)
+      end
+      GameTransport:toggleAttachedWindow('wagon', self:getParent():getId(), self:getParent())

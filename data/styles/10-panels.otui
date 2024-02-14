@@ -1,0 +1,18 @@
+Panel < UIWidget
+  phantom: true
+  auto-focus: first
+
+ScrollablePanel < UIScrollArea
+  phantom: true
+  auto-focus: first
+
+EditModePanel < Panel
+  id: editModeBackground
+  anchors.fill: parent
+  border: 1 white
+
+HorizontalBox < Panel
+  layout: horizontalBox
+
+VerticalBox < Panel
+  layout: verticalBox
