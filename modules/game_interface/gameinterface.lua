@@ -41,8 +41,8 @@ local fadeEvent
 cachedShader = 0
 spellCursor = {
 	isDirectional = false,
-	currentType = "circle",
 	size = 1,
+	currentType = "circle",
 	direction = Directions.Invalid,
 	circle = {
 		originalOffset = {
@@ -50,8 +50,8 @@ spellCursor = {
 			y = 175
 		},
 		originalSize = {
-			width = 320,
 			height = 320,
+			width = 320,
 			border = {
 				x = 40,
 				y = 40
@@ -62,8 +62,8 @@ spellCursor = {
 			y = 175
 		},
 		size = {
-			width = 320,
-			height = 320
+			height = 320,
+			width = 320
 		}
 	},
 	rect = {
@@ -72,8 +72,8 @@ spellCursor = {
 			y = 0
 		},
 		originalSize = {
-			width = 96,
 			height = 96,
+			width = 96,
 			border = {
 				x = 0,
 				y = 0
@@ -84,14 +84,14 @@ spellCursor = {
 			y = 0
 		},
 		size = {
-			width = 96,
-			height = 96
+			height = 96,
+			width = 96
 		}
 	}
 }
 chatPanelSize = {
-	width = 200,
-	height = 200
+	height = 200,
+	width = 200
 }
 keys = {
 	walk = {
@@ -167,8 +167,8 @@ keys = {
 }
 escMenuButtons = {
 	{
-		name = "RavenStore",
 		style = "GameEscMenuButtonPremium",
+		name = "RavenStore",
 		callback = function()
 			modules.game_premium_store.GamePremiumStore:open()
 
@@ -176,9 +176,9 @@ escMenuButtons = {
 		end
 	},
 	{
-		name = "Settings",
 		icon = "icon_settings",
 		style = "GameEscMenuButton",
+		name = "Settings",
 		callback = function()
 			modules.game_settings.GameSettings:show()
 
@@ -186,9 +186,9 @@ escMenuButtons = {
 		end
 	},
 	{
-		name = "Graphics",
 		icon = "icon_graphics",
 		style = "GameEscMenuButton",
+		name = "Graphics",
 		callback = function()
 			modules.game_settings.GameSettings:show()
 			modules.game_settings.GameSettings:selectTab(1)
@@ -197,9 +197,9 @@ escMenuButtons = {
 		end
 	},
 	{
-		name = "Audio / Language",
 		icon = "icon_audio",
 		style = "GameEscMenuButton",
+		name = "Audio / Language",
 		callback = function()
 			modules.game_settings.GameSettings:show()
 			modules.game_settings.GameSettings:selectTab(2)
@@ -208,9 +208,9 @@ escMenuButtons = {
 		end
 	},
 	{
-		name = "Windows",
 		icon = "icon_windows",
 		style = "GameEscMenuButton",
+		name = "Windows",
 		callback = function()
 			modules.game_settings.GameSettings:show()
 			modules.game_settings.GameSettings:selectTab(3)
@@ -219,9 +219,9 @@ escMenuButtons = {
 		end
 	},
 	{
-		name = "Misc",
 		icon = "icon_misc",
 		style = "GameEscMenuButton",
+		name = "Misc",
 		callback = function()
 			modules.game_settings.GameSettings:show()
 			modules.game_settings.GameSettings:selectTab(4)
@@ -233,9 +233,9 @@ escMenuButtons = {
 		style = "GameEscMenuSeparator"
 	},
 	{
-		name = "Feedback",
 		icon = "icon_feedback",
 		style = "GameEscMenuButton",
+		name = "Feedback",
 		callback = function()
 			modules.game_feedback.show()
 
@@ -246,9 +246,9 @@ escMenuButtons = {
 		style = "GameEscMenuSeparator"
 	},
 	{
-		name = "Logout",
 		icon = "icon_logout",
 		style = "GameEscMenuButton",
+		name = "Logout",
 		callback = function()
 			modules.game_interface.tryLogout(true)
 
@@ -256,9 +256,9 @@ escMenuButtons = {
 		end
 	},
 	{
-		name = "Exit Game",
 		icon = "icon_close",
 		style = "GameEscMenuButton",
+		name = "Exit Game",
 		callback = function()
 			modules.game_interface.tryExit()
 
@@ -1047,10 +1047,10 @@ function onGameStart()
 	getMapPanel():setShader(currentShader)
 
 	currentRegion = {
-		name = "",
 		aboutToPvp = false,
 		pvp = false,
-		timer = 0
+		timer = 0,
+		name = ""
 	}
 
 	if g_game.isChangingChannel() then
@@ -1798,8 +1798,8 @@ function addWagonMenu(menu, creatureThing)
 			end)
 			menu:addOption(tr("Move Packs"), function()
 				sendOpcode(ExtendedIds.Trading, {
-					action = "move",
-					type = "wagon"
+					type = "wagon",
+					action = "move"
 				})
 			end)
 		elseif creatureType == CreatureTypeWagonOther then
@@ -1809,8 +1809,8 @@ function addWagonMenu(menu, creatureThing)
 
 			menu:addOption(tr("Inspect Packs"), function()
 				sendOpcode(ExtendedIds.Trading, {
-					action = "inspect",
 					type = "wagon",
+					action = "inspect",
 					id = creatureThing:getId()
 				})
 			end)
@@ -1897,19 +1897,6 @@ function addCreatureMenu(menu, creatureThing)
 		menu:addOption(tr("Report Player"), function()
 			modules.game_player_report.GamePlayerReport:requestReportWindow(creatureThing:getName())
 		end)
-
-		local name = creatureThing:getName()
-		local social = modules.game_social.GameSocial
-
-		if not social:isIgnored(name) then
-			menu:addOption(tr("Ignore Player"), function()
-				social:addIgnored(name)
-			end)
-		else
-			menu:addOption(tr("Remove from Ignored List"), function()
-				social:removeIgnored(name)
-			end)
-		end
 	end
 end
 
@@ -2642,23 +2629,23 @@ function refreshViewMode()
 
 	if mode == ViewModePlayer then
 		gameMapPanel:setVisibleDimension({
-			width = 25,
-			height = 13
+			height = 13,
+			width = 25
 		})
 	elseif mode == ViewModeShip then
 		gameMapPanel:setVisibleDimension({
-			width = 37,
-			height = 19
+			height = 19,
+			width = 37
 		})
 	elseif mode == ViewModeAnchor then
 		gameMapPanel:setVisibleDimension({
-			width = 31,
-			height = 17
+			height = 17,
+			width = 31
 		})
 	elseif mode == ViewModeHouse then
 		gameMapPanel:setVisibleDimension({
-			width = 37,
-			height = 19
+			height = 19,
+			width = 37
 		})
 	end
 

@@ -2,14 +2,14 @@
 
 VFX = {
 	appear = {
-		count = 32,
 		name = "appear_%s",
+		count = 32,
 		rarities = {
 			[CARD_RARITY_UNCOMMON] = {
 				{
 					size = {
-						height = 0,
-						width = 0
+						width = 0,
+						height = 0
 					},
 					pos = {
 						x = 0,
@@ -18,8 +18,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 191,
-						width = 141
+						width = 141,
+						height = 191
 					},
 					pos = {
 						x = 377,
@@ -28,8 +28,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 193,
-						width = 143
+						width = 143,
+						height = 193
 					},
 					pos = {
 						x = 376,
@@ -38,8 +38,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 203,
-						width = 147
+						width = 147,
+						height = 203
 					},
 					pos = {
 						x = 374,
@@ -48,8 +48,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 230,
-						width = 165
+						width = 165,
+						height = 230
 					},
 					pos = {
 						x = 364,
@@ -58,8 +58,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 305,
-						width = 218
+						width = 218,
+						height = 305
 					},
 					pos = {
 						x = 336,
@@ -68,8 +68,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 346,
-						width = 234
+						width = 234,
+						height = 346
 					},
 					pos = {
 						x = 328,
@@ -78,8 +78,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 373,
-						width = 221
+						width = 221,
+						height = 373
 					},
 					pos = {
 						x = 336,
@@ -88,8 +88,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 408,
-						width = 264
+						width = 264,
+						height = 408
 					},
 					pos = {
 						x = 314,
@@ -98,8 +98,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 427,
-						width = 305
+						width = 305,
+						height = 427
 					},
 					pos = {
 						x = 296,
@@ -108,8 +108,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 435,
-						width = 307
+						width = 307,
+						height = 435
 					},
 					pos = {
 						x = 297,
@@ -118,8 +118,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 437,
-						width = 300
+						width = 300,
+						height = 437
 					},
 					pos = {
 						x = 301,
@@ -128,8 +128,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 438,
-						width = 293
+						width = 293,
+						height = 438
 					},
 					pos = {
 						x = 305,
@@ -138,8 +138,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 437,
-						width = 290
+						width = 290,
+						height = 437
 					},
 					pos = {
 						x = 307,
@@ -148,8 +148,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 437,
-						width = 289
+						width = 289,
+						height = 437
 					},
 					pos = {
 						x = 307,
@@ -158,8 +158,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 437,
-						width = 289
+						width = 289,
+						height = 437
 					},
 					pos = {
 						x = 307,
@@ -168,8 +168,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 436,
-						width = 288
+						width = 288,
+						height = 436
 					},
 					pos = {
 						x = 308,
@@ -178,8 +178,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 435,
-						width = 289
+						width = 289,
+						height = 435
 					},
 					pos = {
 						x = 307,
@@ -188,8 +188,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 434,
-						width = 288
+						width = 288,
+						height = 434
 					},
 					pos = {
 						x = 308,
@@ -198,8 +198,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 429,
-						width = 285
+						width = 285,
+						height = 429
 					},
 					pos = {
 						x = 309,
@@ -208,8 +208,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 429,
-						width = 288
+						width = 288,
+						height = 429
 					},
 					pos = {
 						x = 307,
@@ -218,8 +218,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 427,
-						width = 287
+						width = 287,
+						height = 427
 					},
 					pos = {
 						x = 308,
@@ -228,8 +228,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 423,
-						width = 286
+						width = 286,
+						height = 423
 					},
 					pos = {
 						x = 308,
@@ -238,8 +238,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 420,
-						width = 287
+						width = 287,
+						height = 420
 					},
 					pos = {
 						x = 308,
@@ -248,8 +248,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 415,
-						width = 289
+						width = 289,
+						height = 415
 					},
 					pos = {
 						x = 307,
@@ -258,8 +258,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 412,
-						width = 292
+						width = 292,
+						height = 412
 					},
 					pos = {
 						x = 305,
@@ -268,8 +268,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 408,
-						width = 294
+						width = 294,
+						height = 408
 					},
 					pos = {
 						x = 304,
@@ -278,8 +278,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 406,
-						width = 296
+						width = 296,
+						height = 406
 					},
 					pos = {
 						x = 302,
@@ -288,8 +288,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 403,
-						width = 296
+						width = 296,
+						height = 403
 					},
 					pos = {
 						x = 302,
@@ -298,8 +298,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 401,
-						width = 296
+						width = 296,
+						height = 401
 					},
 					pos = {
 						x = 302,
@@ -308,8 +308,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 296
+						width = 296,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -318,8 +318,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -330,8 +330,8 @@ VFX = {
 			[CARD_RARITY_GRAND] = {
 				{
 					size = {
-						height = 0,
-						width = 0
+						width = 0,
+						height = 0
 					},
 					pos = {
 						x = 0,
@@ -340,8 +340,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 260,
-						width = 189
+						width = 189,
+						height = 260
 					},
 					pos = {
 						x = 355,
@@ -350,8 +350,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 310,
-						width = 195
+						width = 195,
+						height = 310
 					},
 					pos = {
 						x = 353,
@@ -360,8 +360,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 324,
-						width = 217
+						width = 217,
+						height = 324
 					},
 					pos = {
 						x = 335,
@@ -370,8 +370,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 366,
-						width = 242
+						width = 242,
+						height = 366
 					},
 					pos = {
 						x = 321,
@@ -380,8 +380,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 482,
-						width = 318
+						width = 318,
+						height = 482
 					},
 					pos = {
 						x = 279,
@@ -390,8 +390,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 531,
-						width = 335
+						width = 335,
+						height = 531
 					},
 					pos = {
 						x = 271,
@@ -400,8 +400,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 522,
-						width = 307
+						width = 307,
+						height = 522
 					},
 					pos = {
 						x = 290,
@@ -410,8 +410,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 567,
-						width = 405
+						width = 405,
+						height = 567
 					},
 					pos = {
 						x = 241,
@@ -420,8 +420,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 593,
-						width = 472
+						width = 472,
+						height = 593
 					},
 					pos = {
 						x = 215,
@@ -430,8 +430,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 608,
-						width = 476
+						width = 476,
+						height = 608
 					},
 					pos = {
 						x = 218,
@@ -440,8 +440,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 610,
-						width = 466
+						width = 466,
+						height = 610
 					},
 					pos = {
 						x = 225,
@@ -450,8 +450,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 610,
-						width = 456
+						width = 456,
+						height = 610
 					},
 					pos = {
 						x = 231,
@@ -460,8 +460,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 610,
-						width = 451
+						width = 451,
+						height = 610
 					},
 					pos = {
 						x = 234,
@@ -470,8 +470,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 609,
-						width = 449
+						width = 449,
+						height = 609
 					},
 					pos = {
 						x = 235,
@@ -480,8 +480,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 608,
-						width = 448
+						width = 448,
+						height = 608
 					},
 					pos = {
 						x = 236,
@@ -490,8 +490,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 607,
-						width = 447
+						width = 447,
+						height = 607
 					},
 					pos = {
 						x = 235,
@@ -500,8 +500,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 605,
-						width = 446
+						width = 446,
+						height = 605
 					},
 					pos = {
 						x = 236,
@@ -510,8 +510,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 603,
-						width = 445
+						width = 445,
+						height = 603
 					},
 					pos = {
 						x = 236,
@@ -520,8 +520,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 599,
-						width = 444
+						width = 444,
+						height = 599
 					},
 					pos = {
 						x = 236,
@@ -530,8 +530,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 595,
-						width = 442
+						width = 442,
+						height = 595
 					},
 					pos = {
 						x = 236,
@@ -540,8 +540,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 589,
-						width = 440
+						width = 440,
+						height = 589
 					},
 					pos = {
 						x = 236,
@@ -550,8 +550,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 583,
-						width = 435
+						width = 435,
+						height = 583
 					},
 					pos = {
 						x = 238,
@@ -560,8 +560,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 574,
-						width = 430
+						width = 430,
+						height = 574
 					},
 					pos = {
 						x = 239,
@@ -570,8 +570,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 568,
-						width = 425
+						width = 425,
+						height = 568
 					},
 					pos = {
 						x = 240,
@@ -580,8 +580,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 561,
-						width = 419
+						width = 419,
+						height = 561
 					},
 					pos = {
 						x = 242,
@@ -590,8 +590,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 557,
-						width = 414
+						width = 414,
+						height = 557
 					},
 					pos = {
 						x = 244,
@@ -600,8 +600,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 410
+						width = 410,
+						height = 552
 					},
 					pos = {
 						x = 245,
@@ -610,8 +610,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 548,
-						width = 406
+						width = 406,
+						height = 548
 					},
 					pos = {
 						x = 247,
@@ -620,8 +620,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 545,
-						width = 403
+						width = 403,
+						height = 545
 					},
 					pos = {
 						x = 248,
@@ -630,8 +630,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 401
+						width = 401,
+						height = 542
 					},
 					pos = {
 						x = 249,
@@ -640,8 +640,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 400
+						width = 400,
+						height = 542
 					},
 					pos = {
 						x = 249,
@@ -652,8 +652,8 @@ VFX = {
 			[CARD_RARITY_RARE] = {
 				{
 					size = {
-						height = 0,
-						width = 0
+						width = 0,
+						height = 0
 					},
 					pos = {
 						x = 0,
@@ -662,8 +662,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 230,
-						width = 155
+						width = 155,
+						height = 230
 					},
 					pos = {
 						x = 370,
@@ -672,8 +672,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 239,
-						width = 157
+						width = 157,
+						height = 239
 					},
 					pos = {
 						x = 370,
@@ -682,8 +682,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 251,
-						width = 164
+						width = 164,
+						height = 251
 					},
 					pos = {
 						x = 366,
@@ -692,8 +692,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 282,
-						width = 183
+						width = 183,
+						height = 282
 					},
 					pos = {
 						x = 356,
@@ -702,8 +702,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 375,
-						width = 241
+						width = 241,
+						height = 375
 					},
 					pos = {
 						x = 325,
@@ -712,8 +712,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 419,
-						width = 266
+						width = 266,
+						height = 419
 					},
 					pos = {
 						x = 311,
@@ -722,8 +722,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 418,
-						width = 263
+						width = 263,
+						height = 418
 					},
 					pos = {
 						x = 314,
@@ -732,8 +732,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 450,
-						width = 336
+						width = 336,
+						height = 450
 					},
 					pos = {
 						x = 278,
@@ -742,8 +742,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 470,
-						width = 386
+						width = 386,
+						height = 470
 					},
 					pos = {
 						x = 258,
@@ -752,8 +752,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 480,
-						width = 386
+						width = 386,
+						height = 480
 					},
 					pos = {
 						x = 261,
@@ -762,8 +762,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 482,
-						width = 376
+						width = 376,
+						height = 482
 					},
 					pos = {
 						x = 268,
@@ -772,8 +772,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 482,
-						width = 369
+						width = 369,
+						height = 482
 					},
 					pos = {
 						x = 272,
@@ -782,8 +782,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 481,
-						width = 363
+						width = 363,
+						height = 481
 					},
 					pos = {
 						x = 275,
@@ -792,8 +792,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 481,
-						width = 361
+						width = 361,
+						height = 481
 					},
 					pos = {
 						x = 276,
@@ -802,8 +802,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 481,
-						width = 360
+						width = 360,
+						height = 481
 					},
 					pos = {
 						x = 276,
@@ -812,8 +812,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 479,
-						width = 360
+						width = 360,
+						height = 479
 					},
 					pos = {
 						x = 275,
@@ -822,8 +822,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 479,
-						width = 366
+						width = 366,
+						height = 479
 					},
 					pos = {
 						x = 269,
@@ -832,8 +832,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 478,
-						width = 370
+						width = 370,
+						height = 478
 					},
 					pos = {
 						x = 266,
@@ -842,8 +842,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 476,
-						width = 373
+						width = 373,
+						height = 476
 					},
 					pos = {
 						x = 263,
@@ -852,8 +852,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 474,
-						width = 376
+						width = 376,
+						height = 474
 					},
 					pos = {
 						x = 260,
@@ -862,8 +862,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 471,
-						width = 381
+						width = 381,
+						height = 471
 					},
 					pos = {
 						x = 255,
@@ -872,8 +872,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 467,
-						width = 381
+						width = 381,
+						height = 467
 					},
 					pos = {
 						x = 254,
@@ -882,8 +882,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 463,
-						width = 386
+						width = 386,
+						height = 463
 					},
 					pos = {
 						x = 248,
@@ -892,8 +892,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 460,
-						width = 385
+						width = 385,
+						height = 460
 					},
 					pos = {
 						x = 247,
@@ -902,8 +902,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 455,
-						width = 384
+						width = 384,
+						height = 455
 					},
 					pos = {
 						x = 246,
@@ -912,8 +912,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 453,
-						width = 382
+						width = 382,
+						height = 453
 					},
 					pos = {
 						x = 246,
@@ -922,8 +922,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 450,
-						width = 351
+						width = 351,
+						height = 450
 					},
 					pos = {
 						x = 275,
@@ -932,8 +932,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 448,
-						width = 349
+						width = 349,
+						height = 448
 					},
 					pos = {
 						x = 276,
@@ -942,8 +942,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 349
+						width = 349,
+						height = 446
 					},
 					pos = {
 						x = 276,
@@ -952,8 +952,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 347
+						width = 347,
+						height = 445
 					},
 					pos = {
 						x = 277,
@@ -962,8 +962,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 347
+						width = 347,
+						height = 446
 					},
 					pos = {
 						x = 277,
@@ -974,8 +974,8 @@ VFX = {
 			[CARD_RARITY_ARCANE] = {
 				{
 					size = {
-						height = 0,
-						width = 0
+						width = 0,
+						height = 0
 					},
 					pos = {
 						x = 0,
@@ -984,8 +984,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 233,
-						width = 158
+						width = 158,
+						height = 233
 					},
 					pos = {
 						x = 369,
@@ -994,8 +994,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 239,
-						width = 162
+						width = 162,
+						height = 239
 					},
 					pos = {
 						x = 366,
@@ -1004,8 +1004,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 251,
-						width = 168
+						width = 168,
+						height = 251
 					},
 					pos = {
 						x = 363,
@@ -1014,8 +1014,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 282,
-						width = 187
+						width = 187,
+						height = 282
 					},
 					pos = {
 						x = 353,
@@ -1024,8 +1024,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 373,
-						width = 246
+						width = 246,
+						height = 373
 					},
 					pos = {
 						x = 321,
@@ -1034,8 +1034,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 420,
-						width = 266
+						width = 266,
+						height = 420
 					},
 					pos = {
 						x = 311,
@@ -1044,8 +1044,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 421,
-						width = 260
+						width = 260,
+						height = 421
 					},
 					pos = {
 						x = 315,
@@ -1054,8 +1054,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 454,
-						width = 331
+						width = 331,
+						height = 454
 					},
 					pos = {
 						x = 280,
@@ -1064,8 +1064,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 475,
-						width = 383
+						width = 383,
+						height = 475
 					},
 					pos = {
 						x = 258,
@@ -1074,8 +1074,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 484,
-						width = 385
+						width = 385,
+						height = 484
 					},
 					pos = {
 						x = 260,
@@ -1084,8 +1084,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 486,
-						width = 377
+						width = 377,
+						height = 486
 					},
 					pos = {
 						x = 266,
@@ -1094,8 +1094,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 487,
-						width = 369
+						width = 369,
+						height = 487
 					},
 					pos = {
 						x = 271,
@@ -1104,8 +1104,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 486,
-						width = 365
+						width = 365,
+						height = 486
 					},
 					pos = {
 						x = 274,
@@ -1114,8 +1114,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 486,
-						width = 363
+						width = 363,
+						height = 486
 					},
 					pos = {
 						x = 275,
@@ -1124,8 +1124,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 486,
-						width = 364
+						width = 364,
+						height = 486
 					},
 					pos = {
 						x = 275,
@@ -1134,8 +1134,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 485,
-						width = 365
+						width = 365,
+						height = 485
 					},
 					pos = {
 						x = 275,
@@ -1144,8 +1144,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 483,
-						width = 363
+						width = 363,
+						height = 483
 					},
 					pos = {
 						x = 275,
@@ -1154,8 +1154,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 483,
-						width = 365
+						width = 365,
+						height = 483
 					},
 					pos = {
 						x = 275,
@@ -1164,8 +1164,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 480,
-						width = 362
+						width = 362,
+						height = 480
 					},
 					pos = {
 						x = 275,
@@ -1174,8 +1174,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 477,
-						width = 360
+						width = 360,
+						height = 477
 					},
 					pos = {
 						x = 274,
@@ -1184,8 +1184,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 474,
-						width = 359
+						width = 359,
+						height = 474
 					},
 					pos = {
 						x = 274,
@@ -1194,8 +1194,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 476,
-						width = 358
+						width = 358,
+						height = 476
 					},
 					pos = {
 						x = 274,
@@ -1204,8 +1204,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 476,
-						width = 356
+						width = 356,
+						height = 476
 					},
 					pos = {
 						x = 274,
@@ -1214,8 +1214,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 474,
-						width = 355
+						width = 355,
+						height = 474
 					},
 					pos = {
 						x = 274,
@@ -1224,8 +1224,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 472,
-						width = 351
+						width = 351,
+						height = 472
 					},
 					pos = {
 						x = 275,
@@ -1234,8 +1234,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 456,
-						width = 351
+						width = 351,
+						height = 456
 					},
 					pos = {
 						x = 276,
@@ -1244,8 +1244,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 453,
-						width = 348
+						width = 348,
+						height = 453
 					},
 					pos = {
 						x = 277,
@@ -1254,8 +1254,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 450,
-						width = 346
+						width = 346,
+						height = 450
 					},
 					pos = {
 						x = 278,
@@ -1264,8 +1264,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 448,
-						width = 346
+						width = 346,
+						height = 448
 					},
 					pos = {
 						x = 279,
@@ -1274,8 +1274,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 347
+						width = 347,
+						height = 446
 					},
 					pos = {
 						x = 279,
@@ -1284,8 +1284,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 346
+						width = 346,
+						height = 447
 					},
 					pos = {
 						x = 279,
@@ -1296,8 +1296,8 @@ VFX = {
 			[CARD_RARITY_MYTHIC] = {
 				{
 					size = {
-						height = 0,
-						width = 0
+						width = 0,
+						height = 0
 					},
 					pos = {
 						x = 0,
@@ -1306,8 +1306,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 238,
-						width = 157
+						width = 157,
+						height = 238
 					},
 					pos = {
 						x = 369,
@@ -1316,8 +1316,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 245,
-						width = 160
+						width = 160,
+						height = 245
 					},
 					pos = {
 						x = 368,
@@ -1326,8 +1326,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 258,
-						width = 165
+						width = 165,
+						height = 258
 					},
 					pos = {
 						x = 366,
@@ -1336,8 +1336,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 290,
-						width = 184
+						width = 184,
+						height = 290
 					},
 					pos = {
 						x = 356,
@@ -1346,8 +1346,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 386,
-						width = 245
+						width = 245,
+						height = 386
 					},
 					pos = {
 						x = 325,
@@ -1356,8 +1356,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 433,
-						width = 269
+						width = 269,
+						height = 433
 					},
 					pos = {
 						x = 313,
@@ -1366,8 +1366,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 433,
-						width = 270
+						width = 270,
+						height = 433
 					},
 					pos = {
 						x = 316,
@@ -1376,8 +1376,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 457,
-						width = 354
+						width = 354,
+						height = 457
 					},
 					pos = {
 						x = 282,
@@ -1386,8 +1386,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 476,
-						width = 414
+						width = 414,
+						height = 476
 					},
 					pos = {
 						x = 260,
@@ -1396,8 +1396,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 486,
-						width = 422
+						width = 422,
+						height = 486
 					},
 					pos = {
 						x = 260,
@@ -1406,8 +1406,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 489,
-						width = 416
+						width = 416,
+						height = 489
 					},
 					pos = {
 						x = 265,
@@ -1416,8 +1416,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 490,
-						width = 406
+						width = 406,
+						height = 490
 					},
 					pos = {
 						x = 271,
@@ -1426,8 +1426,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 490,
-						width = 405
+						width = 405,
+						height = 490
 					},
 					pos = {
 						x = 271,
@@ -1436,8 +1436,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 491,
-						width = 373
+						width = 373,
+						height = 491
 					},
 					pos = {
 						x = 269,
@@ -1446,8 +1446,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 491,
-						width = 381
+						width = 381,
+						height = 491
 					},
 					pos = {
 						x = 263,
@@ -1456,8 +1456,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 491,
-						width = 383
+						width = 383,
+						height = 491
 					},
 					pos = {
 						x = 262,
@@ -1466,8 +1466,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 489,
-						width = 386
+						width = 386,
+						height = 489
 					},
 					pos = {
 						x = 261,
@@ -1476,8 +1476,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 489,
-						width = 389
+						width = 389,
+						height = 489
 					},
 					pos = {
 						x = 259,
@@ -1486,8 +1486,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 489,
-						width = 392
+						width = 392,
+						height = 489
 					},
 					pos = {
 						x = 257,
@@ -1496,8 +1496,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 475,
-						width = 394
+						width = 394,
+						height = 475
 					},
 					pos = {
 						x = 256,
@@ -1506,8 +1506,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 474,
-						width = 378
+						width = 378,
+						height = 474
 					},
 					pos = {
 						x = 272,
@@ -1516,8 +1516,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 474,
-						width = 377
+						width = 377,
+						height = 474
 					},
 					pos = {
 						x = 273,
@@ -1526,8 +1526,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 474,
-						width = 373
+						width = 373,
+						height = 474
 					},
 					pos = {
 						x = 274,
@@ -1536,8 +1536,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 473,
-						width = 360
+						width = 360,
+						height = 473
 					},
 					pos = {
 						x = 272,
@@ -1546,8 +1546,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 472,
-						width = 359
+						width = 359,
+						height = 472
 					},
 					pos = {
 						x = 271,
@@ -1556,8 +1556,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 470,
-						width = 359
+						width = 359,
+						height = 470
 					},
 					pos = {
 						x = 270,
@@ -1566,8 +1566,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 467,
-						width = 359
+						width = 359,
+						height = 467
 					},
 					pos = {
 						x = 269,
@@ -1576,8 +1576,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 465,
-						width = 358
+						width = 358,
+						height = 465
 					},
 					pos = {
 						x = 269,
@@ -1586,8 +1586,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 465,
-						width = 353
+						width = 353,
+						height = 465
 					},
 					pos = {
 						x = 273,
@@ -1596,8 +1596,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 468,
-						width = 350
+						width = 350,
+						height = 468
 					},
 					pos = {
 						x = 275,
@@ -1606,8 +1606,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 470,
-						width = 350
+						width = 350,
+						height = 470
 					},
 					pos = {
 						x = 275,
@@ -1618,8 +1618,8 @@ VFX = {
 			[CARD_RARITY_LEGENDARY] = {
 				{
 					size = {
-						height = 0,
-						width = 0
+						width = 0,
+						height = 0
 					},
 					pos = {
 						x = 0,
@@ -1628,8 +1628,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 266,
-						width = 200
+						width = 200,
+						height = 266
 					},
 					pos = {
 						x = 341,
@@ -1638,8 +1638,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 272,
-						width = 203
+						width = 203,
+						height = 272
 					},
 					pos = {
 						x = 339,
@@ -1648,8 +1648,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 277,
-						width = 205
+						width = 205,
+						height = 277
 					},
 					pos = {
 						x = 342,
@@ -1658,8 +1658,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 315,
-						width = 232
+						width = 232,
+						height = 315
 					},
 					pos = {
 						x = 326,
@@ -1668,8 +1668,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 415,
-						width = 308
+						width = 308,
+						height = 415
 					},
 					pos = {
 						x = 284,
@@ -1678,8 +1678,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 469,
-						width = 336
+						width = 336,
+						height = 469
 					},
 					pos = {
 						x = 274,
@@ -1688,8 +1688,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 516,
-						width = 333
+						width = 333,
+						height = 516
 					},
 					pos = {
 						x = 274,
@@ -1698,8 +1698,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 567,
-						width = 373
+						width = 373,
+						height = 567
 					},
 					pos = {
 						x = 255,
@@ -1708,8 +1708,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 595,
-						width = 431
+						width = 431,
+						height = 595
 					},
 					pos = {
 						x = 230,
@@ -1718,8 +1718,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 603,
-						width = 424
+						width = 424,
+						height = 603
 					},
 					pos = {
 						x = 242,
@@ -1728,8 +1728,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 608,
-						width = 416
+						width = 416,
+						height = 608
 					},
 					pos = {
 						x = 249,
@@ -1738,8 +1738,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 608,
-						width = 415
+						width = 415,
+						height = 608
 					},
 					pos = {
 						x = 249,
@@ -1748,8 +1748,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 606,
-						width = 413
+						width = 413,
+						height = 606
 					},
 					pos = {
 						x = 251,
@@ -1758,8 +1758,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 589,
-						width = 414
+						width = 414,
+						height = 589
 					},
 					pos = {
 						x = 251,
@@ -1768,8 +1768,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 573,
-						width = 413
+						width = 413,
+						height = 573
 					},
 					pos = {
 						x = 251,
@@ -1778,8 +1778,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 579,
-						width = 418
+						width = 418,
+						height = 579
 					},
 					pos = {
 						x = 252,
@@ -1788,8 +1788,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 590,
-						width = 415
+						width = 415,
+						height = 590
 					},
 					pos = {
 						x = 252,
@@ -1798,8 +1798,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 592,
-						width = 416
+						width = 416,
+						height = 592
 					},
 					pos = {
 						x = 251,
@@ -1808,8 +1808,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 593,
-						width = 421
+						width = 421,
+						height = 593
 					},
 					pos = {
 						x = 250,
@@ -1818,8 +1818,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 592,
-						width = 423
+						width = 423,
+						height = 592
 					},
 					pos = {
 						x = 250,
@@ -1828,8 +1828,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 587,
-						width = 423
+						width = 423,
+						height = 587
 					},
 					pos = {
 						x = 249,
@@ -1838,8 +1838,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 584,
-						width = 425
+						width = 425,
+						height = 584
 					},
 					pos = {
 						x = 248,
@@ -1848,8 +1848,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 580,
-						width = 421
+						width = 421,
+						height = 580
 					},
 					pos = {
 						x = 244,
@@ -1858,8 +1858,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 575,
-						width = 424
+						width = 424,
+						height = 575
 					},
 					pos = {
 						x = 239,
@@ -1868,8 +1868,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 570,
-						width = 432
+						width = 432,
+						height = 570
 					},
 					pos = {
 						x = 235,
@@ -1878,8 +1878,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 551,
-						width = 442
+						width = 442,
+						height = 551
 					},
 					pos = {
 						x = 229,
@@ -1888,8 +1888,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 543,
-						width = 447
+						width = 447,
+						height = 543
 					},
 					pos = {
 						x = 226,
@@ -1898,8 +1898,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 546,
-						width = 449
+						width = 449,
+						height = 546
 					},
 					pos = {
 						x = 226,
@@ -1908,8 +1908,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 548,
-						width = 449
+						width = 449,
+						height = 548
 					},
 					pos = {
 						x = 226,
@@ -1918,8 +1918,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 549,
-						width = 448
+						width = 448,
+						height = 549
 					},
 					pos = {
 						x = 226,
@@ -1928,8 +1928,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 549,
-						width = 439
+						width = 439,
+						height = 549
 					},
 					pos = {
 						x = 235,
@@ -1940,14 +1940,14 @@ VFX = {
 		}
 	},
 	flip = {
-		count = 32,
 		name = "flip_%s",
+		count = 32,
 		rarities = {
 			[CARD_RARITY_UNCOMMON] = {
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 302,
@@ -1956,8 +1956,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -1966,8 +1966,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 398,
-						width = 295
+						width = 295,
+						height = 398
 					},
 					pos = {
 						x = 302,
@@ -1976,8 +1976,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 398,
-						width = 295
+						width = 295,
+						height = 398
 					},
 					pos = {
 						x = 302,
@@ -1986,8 +1986,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 396,
-						width = 294
+						width = 294,
+						height = 396
 					},
 					pos = {
 						x = 303,
@@ -1996,8 +1996,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -2006,8 +2006,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 402,
-						width = 297
+						width = 297,
+						height = 402
 					},
 					pos = {
 						x = 301,
@@ -2016,8 +2016,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 296
+						width = 296,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -2026,8 +2026,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 398,
-						width = 294
+						width = 294,
+						height = 398
 					},
 					pos = {
 						x = 303,
@@ -2036,8 +2036,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -2046,8 +2046,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 401,
-						width = 296
+						width = 296,
+						height = 401
 					},
 					pos = {
 						x = 302,
@@ -2056,8 +2056,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 398,
-						width = 294
+						width = 294,
+						height = 398
 					},
 					pos = {
 						x = 303,
@@ -2066,8 +2066,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 394,
-						width = 291
+						width = 291,
+						height = 394
 					},
 					pos = {
 						x = 304,
@@ -2076,8 +2076,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 390,
-						width = 289
+						width = 289,
+						height = 390
 					},
 					pos = {
 						x = 305,
@@ -2086,8 +2086,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 397,
-						width = 293
+						width = 293,
+						height = 397
 					},
 					pos = {
 						x = 303,
@@ -2096,8 +2096,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 402,
-						width = 293
+						width = 293,
+						height = 402
 					},
 					pos = {
 						x = 302,
@@ -2106,8 +2106,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 405,
-						width = 277
+						width = 277,
+						height = 405
 					},
 					pos = {
 						x = 308,
@@ -2116,8 +2116,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 408,
-						width = 215
+						width = 215,
+						height = 408
 					},
 					pos = {
 						x = 338,
@@ -2126,8 +2126,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 410,
-						width = 65
+						width = 65,
+						height = 410
 					},
 					pos = {
 						x = 416,
@@ -2136,8 +2136,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 404,
-						width = 125
+						width = 125,
+						height = 404
 					},
 					pos = {
 						x = 391,
@@ -2146,8 +2146,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 404,
-						width = 248
+						width = 248,
+						height = 404
 					},
 					pos = {
 						x = 330,
@@ -2156,8 +2156,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 396,
-						width = 284
+						width = 284,
+						height = 396
 					},
 					pos = {
 						x = 310,
@@ -2166,8 +2166,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 385,
-						width = 284
+						width = 284,
+						height = 385
 					},
 					pos = {
 						x = 309,
@@ -2176,8 +2176,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 386,
-						width = 285
+						width = 285,
+						height = 386
 					},
 					pos = {
 						x = 308,
@@ -2186,8 +2186,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 388,
-						width = 287
+						width = 287,
+						height = 388
 					},
 					pos = {
 						x = 307,
@@ -2196,8 +2196,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 303,
@@ -2206,8 +2206,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 303,
@@ -2216,8 +2216,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -2226,8 +2226,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 296
+						width = 296,
+						height = 399
 					},
 					pos = {
 						x = 302,
@@ -2236,8 +2236,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 296
+						width = 296,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -2246,8 +2246,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 296
+						width = 296,
+						height = 399
 					},
 					pos = {
 						x = 302,
@@ -2256,8 +2256,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -2268,8 +2268,8 @@ VFX = {
 			[CARD_RARITY_GRAND] = {
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 250,
@@ -2278,8 +2278,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 250,
@@ -2288,8 +2288,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 250,
@@ -2298,8 +2298,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 540,
-						width = 398
+						width = 398,
+						height = 540
 					},
 					pos = {
 						x = 250,
@@ -2308,8 +2308,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 538,
-						width = 397
+						width = 397,
+						height = 538
 					},
 					pos = {
 						x = 251,
@@ -2318,8 +2318,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 400
+						width = 400,
+						height = 542
 					},
 					pos = {
 						x = 249,
@@ -2328,8 +2328,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 546,
-						width = 402
+						width = 402,
+						height = 546
 					},
 					pos = {
 						x = 248,
@@ -2338,8 +2338,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 400
+						width = 400,
+						height = 542
 					},
 					pos = {
 						x = 249,
@@ -2348,8 +2348,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 540,
-						width = 398
+						width = 398,
+						height = 540
 					},
 					pos = {
 						x = 250,
@@ -2358,8 +2358,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 250,
@@ -2368,8 +2368,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 544,
-						width = 401
+						width = 401,
+						height = 544
 					},
 					pos = {
 						x = 249,
@@ -2378,8 +2378,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 538,
-						width = 398
+						width = 398,
+						height = 538
 					},
 					pos = {
 						x = 250,
@@ -2388,8 +2388,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 534,
-						width = 394
+						width = 394,
+						height = 534
 					},
 					pos = {
 						x = 252,
@@ -2398,8 +2398,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 529,
-						width = 391
+						width = 391,
+						height = 529
 					},
 					pos = {
 						x = 254,
@@ -2408,8 +2408,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 538,
-						width = 396
+						width = 396,
+						height = 538
 					},
 					pos = {
 						x = 251,
@@ -2418,8 +2418,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 550,
-						width = 396
+						width = 396,
+						height = 550
 					},
 					pos = {
 						x = 249,
@@ -2428,8 +2428,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 565,
-						width = 374
+						width = 374,
+						height = 565
 					},
 					pos = {
 						x = 257,
@@ -2438,8 +2438,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 580,
-						width = 290
+						width = 290,
+						height = 580
 					},
 					pos = {
 						x = 297,
@@ -2448,8 +2448,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 593,
-						width = 91
+						width = 91,
+						height = 593
 					},
 					pos = {
 						x = 401,
@@ -2458,8 +2458,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 589,
-						width = 173
+						width = 173,
+						height = 589
 					},
 					pos = {
 						x = 370,
@@ -2468,8 +2468,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 569,
-						width = 337
+						width = 337,
+						height = 569
 					},
 					pos = {
 						x = 289,
@@ -2478,8 +2478,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 546,
-						width = 384
+						width = 384,
+						height = 546
 					},
 					pos = {
 						x = 262,
@@ -2488,8 +2488,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 524,
-						width = 385
+						width = 385,
+						height = 524
 					},
 					pos = {
 						x = 259,
@@ -2498,8 +2498,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 523,
-						width = 386
+						width = 386,
+						height = 523
 					},
 					pos = {
 						x = 258,
@@ -2508,8 +2508,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 527,
-						width = 389
+						width = 389,
+						height = 527
 					},
 					pos = {
 						x = 256,
@@ -2518,8 +2518,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -2528,8 +2528,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -2538,8 +2538,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -2548,8 +2548,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -2558,8 +2558,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -2568,8 +2568,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -2578,8 +2578,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -2590,8 +2590,8 @@ VFX = {
 			[CARD_RARITY_RARE] = {
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -2600,8 +2600,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 348
+						width = 348,
+						height = 446
 					},
 					pos = {
 						x = 276,
@@ -2610,8 +2610,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 347
+						width = 347,
+						height = 445
 					},
 					pos = {
 						x = 277,
@@ -2620,8 +2620,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 347
+						width = 347,
+						height = 444
 					},
 					pos = {
 						x = 277,
@@ -2630,8 +2630,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 442,
-						width = 346
+						width = 346,
+						height = 442
 					},
 					pos = {
 						x = 277,
@@ -2640,8 +2640,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 348
+						width = 348,
+						height = 446
 					},
 					pos = {
 						x = 276,
@@ -2650,8 +2650,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 449,
-						width = 350
+						width = 350,
+						height = 449
 					},
 					pos = {
 						x = 275,
@@ -2660,8 +2660,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 448,
-						width = 347
+						width = 347,
+						height = 448
 					},
 					pos = {
 						x = 277,
@@ -2670,8 +2670,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 346
+						width = 346,
+						height = 444
 					},
 					pos = {
 						x = 277,
@@ -2680,8 +2680,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 349
+						width = 349,
+						height = 444
 					},
 					pos = {
 						x = 275,
@@ -2690,8 +2690,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 350
+						width = 350,
+						height = 447
 					},
 					pos = {
 						x = 274,
@@ -2700,8 +2700,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 443,
-						width = 346
+						width = 346,
+						height = 443
 					},
 					pos = {
 						x = 276,
@@ -2710,8 +2710,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 440,
-						width = 345
+						width = 345,
+						height = 440
 					},
 					pos = {
 						x = 276,
@@ -2720,8 +2720,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 435,
-						width = 340
+						width = 340,
+						height = 435
 					},
 					pos = {
 						x = 278,
@@ -2730,8 +2730,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 441,
-						width = 345
+						width = 345,
+						height = 441
 					},
 					pos = {
 						x = 275,
@@ -2740,8 +2740,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 448,
-						width = 346
+						width = 346,
+						height = 448
 					},
 					pos = {
 						x = 273,
@@ -2750,8 +2750,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 453,
-						width = 325
+						width = 325,
+						height = 453
 					},
 					pos = {
 						x = 281,
@@ -2760,8 +2760,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 460,
-						width = 257
+						width = 257,
+						height = 460
 					},
 					pos = {
 						x = 311,
@@ -2770,8 +2770,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 465,
-						width = 82
+						width = 82,
+						height = 465
 					},
 					pos = {
 						x = 405,
@@ -2780,8 +2780,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 463,
-						width = 158
+						width = 158,
+						height = 463
 					},
 					pos = {
 						x = 380,
@@ -2790,8 +2790,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 456,
-						width = 309
+						width = 309,
+						height = 456
 					},
 					pos = {
 						x = 309,
@@ -2800,8 +2800,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 442,
-						width = 356
+						width = 356,
+						height = 442
 					},
 					pos = {
 						x = 286,
@@ -2810,8 +2810,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 429,
-						width = 356
+						width = 356,
+						height = 429
 					},
 					pos = {
 						x = 284,
@@ -2820,8 +2820,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 429,
-						width = 362
+						width = 362,
+						height = 429
 					},
 					pos = {
 						x = 282,
@@ -2830,8 +2830,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 432,
-						width = 364
+						width = 364,
+						height = 432
 					},
 					pos = {
 						x = 281,
@@ -2840,8 +2840,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 375
+						width = 375,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -2850,8 +2850,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 375
+						width = 375,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -2860,8 +2860,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -2870,8 +2870,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -2880,8 +2880,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -2890,8 +2890,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 347
+						width = 347,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -2900,8 +2900,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 348
+						width = 348,
+						height = 446
 					},
 					pos = {
 						x = 276,
@@ -2912,8 +2912,8 @@ VFX = {
 			[CARD_RARITY_ARCANE] = {
 				{
 					size = {
-						height = 447,
-						width = 344
+						width = 344,
+						height = 447
 					},
 					pos = {
 						x = 279,
@@ -2922,8 +2922,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 343
+						width = 343,
+						height = 447
 					},
 					pos = {
 						x = 279,
@@ -2932,8 +2932,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 448,
-						width = 343
+						width = 343,
+						height = 448
 					},
 					pos = {
 						x = 280,
@@ -2942,8 +2942,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 342
+						width = 342,
+						height = 447
 					},
 					pos = {
 						x = 277,
@@ -2952,8 +2952,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 342
+						width = 342,
+						height = 444
 					},
 					pos = {
 						x = 276,
@@ -2962,8 +2962,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 342
+						width = 342,
+						height = 447
 					},
 					pos = {
 						x = 277,
@@ -2972,8 +2972,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 449,
-						width = 344
+						width = 344,
+						height = 449
 					},
 					pos = {
 						x = 276,
@@ -2982,8 +2982,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 342
+						width = 342,
+						height = 447
 					},
 					pos = {
 						x = 278,
@@ -2992,8 +2992,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 339
+						width = 339,
+						height = 445
 					},
 					pos = {
 						x = 280,
@@ -3002,8 +3002,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 341
+						width = 341,
+						height = 447
 					},
 					pos = {
 						x = 279,
@@ -3012,8 +3012,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 448,
-						width = 343
+						width = 343,
+						height = 448
 					},
 					pos = {
 						x = 279,
@@ -3022,8 +3022,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 350
+						width = 350,
+						height = 445
 					},
 					pos = {
 						x = 280,
@@ -3032,8 +3032,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 441,
-						width = 351
+						width = 351,
+						height = 441
 					},
 					pos = {
 						x = 280,
@@ -3042,8 +3042,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 436,
-						width = 347
+						width = 347,
+						height = 436
 					},
 					pos = {
 						x = 282,
@@ -3052,8 +3052,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 443,
-						width = 351
+						width = 351,
+						height = 443
 					},
 					pos = {
 						x = 279,
@@ -3062,8 +3062,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 450,
-						width = 347
+						width = 347,
+						height = 450
 					},
 					pos = {
 						x = 279,
@@ -3072,8 +3072,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 457,
-						width = 325
+						width = 325,
+						height = 457
 					},
 					pos = {
 						x = 287,
@@ -3082,8 +3082,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 464,
-						width = 245
+						width = 245,
+						height = 464
 					},
 					pos = {
 						x = 322,
@@ -3092,8 +3092,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 470,
-						width = 76
+						width = 76,
+						height = 470
 					},
 					pos = {
 						x = 410,
@@ -3102,8 +3102,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 467,
-						width = 147
+						width = 147,
+						height = 467
 					},
 					pos = {
 						x = 381,
@@ -3112,8 +3112,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 458,
-						width = 286
+						width = 286,
+						height = 458
 					},
 					pos = {
 						x = 312,
@@ -3122,8 +3122,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 449,
-						width = 328
+						width = 328,
+						height = 449
 					},
 					pos = {
 						x = 288,
@@ -3132,8 +3132,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 441,
-						width = 328
+						width = 328,
+						height = 441
 					},
 					pos = {
 						x = 287,
@@ -3142,8 +3142,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 330
+						width = 330,
+						height = 444
 					},
 					pos = {
 						x = 284,
@@ -3152,8 +3152,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 333
+						width = 333,
+						height = 447
 					},
 					pos = {
 						x = 283,
@@ -3162,8 +3162,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 461,
-						width = 345
+						width = 345,
+						height = 461
 					},
 					pos = {
 						x = 277,
@@ -3172,8 +3172,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 346
+						width = 346,
+						height = 447
 					},
 					pos = {
 						x = 276,
@@ -3182,8 +3182,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 344
+						width = 344,
+						height = 447
 					},
 					pos = {
 						x = 277,
@@ -3192,8 +3192,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 344
+						width = 344,
+						height = 447
 					},
 					pos = {
 						x = 276,
@@ -3202,8 +3202,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 345
+						width = 345,
+						height = 447
 					},
 					pos = {
 						x = 275,
@@ -3212,8 +3212,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 346
+						width = 346,
+						height = 446
 					},
 					pos = {
 						x = 274,
@@ -3222,8 +3222,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 346
+						width = 346,
+						height = 446
 					},
 					pos = {
 						x = 275,
@@ -3234,8 +3234,8 @@ VFX = {
 			[CARD_RARITY_MYTHIC] = {
 				{
 					size = {
-						height = 473,
-						width = 350
+						width = 350,
+						height = 473
 					},
 					pos = {
 						x = 275,
@@ -3244,8 +3244,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 474,
-						width = 347
+						width = 347,
+						height = 474
 					},
 					pos = {
 						x = 278,
@@ -3254,8 +3254,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 473,
-						width = 347
+						width = 347,
+						height = 473
 					},
 					pos = {
 						x = 278,
@@ -3264,8 +3264,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 471,
-						width = 345
+						width = 345,
+						height = 471
 					},
 					pos = {
 						x = 279,
@@ -3274,8 +3274,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 470,
-						width = 346
+						width = 346,
+						height = 470
 					},
 					pos = {
 						x = 280,
@@ -3284,8 +3284,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 463,
-						width = 350
+						width = 350,
+						height = 463
 					},
 					pos = {
 						x = 279,
@@ -3294,8 +3294,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 468,
-						width = 353
+						width = 353,
+						height = 468
 					},
 					pos = {
 						x = 277,
@@ -3304,8 +3304,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 466,
-						width = 357
+						width = 357,
+						height = 466
 					},
 					pos = {
 						x = 278,
@@ -3314,8 +3314,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 464,
-						width = 365
+						width = 365,
+						height = 464
 					},
 					pos = {
 						x = 277,
@@ -3324,8 +3324,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 466,
-						width = 371
+						width = 371,
+						height = 466
 					},
 					pos = {
 						x = 273,
@@ -3334,8 +3334,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 467,
-						width = 379
+						width = 379,
+						height = 467
 					},
 					pos = {
 						x = 270,
@@ -3344,8 +3344,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 464,
-						width = 378
+						width = 378,
+						height = 464
 					},
 					pos = {
 						x = 270,
@@ -3354,8 +3354,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 460,
-						width = 377
+						width = 377,
+						height = 460
 					},
 					pos = {
 						x = 270,
@@ -3364,8 +3364,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 456,
-						width = 376
+						width = 376,
+						height = 456
 					},
 					pos = {
 						x = 270,
@@ -3374,8 +3374,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 463,
-						width = 363
+						width = 363,
+						height = 463
 					},
 					pos = {
 						x = 263,
@@ -3384,8 +3384,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 464,
-						width = 371
+						width = 371,
+						height = 464
 					},
 					pos = {
 						x = 256,
@@ -3394,8 +3394,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 473,
-						width = 353
+						width = 353,
+						height = 473
 					},
 					pos = {
 						x = 263,
@@ -3404,8 +3404,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 478,
-						width = 275
+						width = 275,
+						height = 478
 					},
 					pos = {
 						x = 301,
@@ -3414,8 +3414,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 480,
-						width = 85
+						width = 85,
+						height = 480
 					},
 					pos = {
 						x = 403,
@@ -3424,8 +3424,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 479,
-						width = 166
+						width = 166,
+						height = 479
 					},
 					pos = {
 						x = 375,
@@ -3434,8 +3434,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 460,
-						width = 324
+						width = 324,
+						height = 460
 					},
 					pos = {
 						x = 299,
@@ -3444,8 +3444,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 452,
-						width = 346
+						width = 346,
+						height = 452
 					},
 					pos = {
 						x = 273,
@@ -3454,8 +3454,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 442,
-						width = 348
+						width = 348,
+						height = 442
 					},
 					pos = {
 						x = 270,
@@ -3464,8 +3464,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 443,
-						width = 347
+						width = 347,
+						height = 443
 					},
 					pos = {
 						x = 271,
@@ -3474,8 +3474,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 340
+						width = 340,
+						height = 447
 					},
 					pos = {
 						x = 281,
@@ -3484,8 +3484,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 461,
-						width = 350
+						width = 350,
+						height = 461
 					},
 					pos = {
 						x = 276,
@@ -3494,8 +3494,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 461,
-						width = 352
+						width = 352,
+						height = 461
 					},
 					pos = {
 						x = 276,
@@ -3504,8 +3504,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 461,
-						width = 353
+						width = 353,
+						height = 461
 					},
 					pos = {
 						x = 276,
@@ -3514,8 +3514,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 462,
-						width = 354
+						width = 354,
+						height = 462
 					},
 					pos = {
 						x = 275,
@@ -3524,8 +3524,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 462,
-						width = 351
+						width = 351,
+						height = 462
 					},
 					pos = {
 						x = 275,
@@ -3534,8 +3534,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 467,
-						width = 350
+						width = 350,
+						height = 467
 					},
 					pos = {
 						x = 275,
@@ -3544,8 +3544,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 470,
-						width = 349
+						width = 349,
+						height = 470
 					},
 					pos = {
 						x = 275,
@@ -3556,8 +3556,8 @@ VFX = {
 			[CARD_RARITY_LEGENDARY] = {
 				{
 					size = {
-						height = 551,
-						width = 438
+						width = 438,
+						height = 551
 					},
 					pos = {
 						x = 236,
@@ -3566,8 +3566,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 551,
-						width = 421
+						width = 421,
+						height = 551
 					},
 					pos = {
 						x = 237,
@@ -3576,8 +3576,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 421
+						width = 421,
+						height = 552
 					},
 					pos = {
 						x = 238,
@@ -3586,8 +3586,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 535,
-						width = 429
+						width = 429,
+						height = 535
 					},
 					pos = {
 						x = 231,
@@ -3596,8 +3596,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 536,
-						width = 432
+						width = 432,
+						height = 536
 					},
 					pos = {
 						x = 228,
@@ -3606,8 +3606,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 541,
-						width = 437
+						width = 437,
+						height = 541
 					},
 					pos = {
 						x = 225,
@@ -3616,8 +3616,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 549,
-						width = 441
+						width = 441,
+						height = 549
 					},
 					pos = {
 						x = 224,
@@ -3626,8 +3626,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 549,
-						width = 444
+						width = 444,
+						height = 549
 					},
 					pos = {
 						x = 225,
@@ -3636,8 +3636,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 546,
-						width = 443
+						width = 443,
+						height = 546
 					},
 					pos = {
 						x = 227,
@@ -3646,8 +3646,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 551,
-						width = 433
+						width = 433,
+						height = 551
 					},
 					pos = {
 						x = 239,
@@ -3656,8 +3656,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 550,
-						width = 427
+						width = 427,
+						height = 550
 					},
 					pos = {
 						x = 248,
@@ -3666,8 +3666,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 549,
-						width = 423
+						width = 423,
+						height = 549
 					},
 					pos = {
 						x = 250,
@@ -3676,8 +3676,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 545,
-						width = 428
+						width = 428,
+						height = 545
 					},
 					pos = {
 						x = 243,
@@ -3686,8 +3686,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 540,
-						width = 422
+						width = 422,
+						height = 540
 					},
 					pos = {
 						x = 242,
@@ -3696,8 +3696,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 538,
-						width = 431
+						width = 431,
+						height = 538
 					},
 					pos = {
 						x = 237,
@@ -3706,8 +3706,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 528,
-						width = 433
+						width = 433,
+						height = 528
 					},
 					pos = {
 						x = 235,
@@ -3716,8 +3716,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 539,
-						width = 410
+						width = 410,
+						height = 539
 					},
 					pos = {
 						x = 243,
@@ -3726,8 +3726,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 317
+						width = 317,
+						height = 552
 					},
 					pos = {
 						x = 286,
@@ -3736,8 +3736,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 487,
-						width = 100
+						width = 100,
+						height = 487
 					},
 					pos = {
 						x = 397,
@@ -3746,8 +3746,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 562,
-						width = 191
+						width = 191,
+						height = 562
 					},
 					pos = {
 						x = 360,
@@ -3756,8 +3756,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 561,
-						width = 371
+						width = 371,
+						height = 561
 					},
 					pos = {
 						x = 270,
@@ -3766,8 +3766,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 545,
-						width = 413
+						width = 413,
+						height = 545
 					},
 					pos = {
 						x = 250,
@@ -3776,8 +3776,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 532,
-						width = 414
+						width = 414,
+						height = 532
 					},
 					pos = {
 						x = 246,
@@ -3786,8 +3786,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 533,
-						width = 414
+						width = 414,
+						height = 533
 					},
 					pos = {
 						x = 243,
@@ -3796,8 +3796,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 537,
-						width = 419
+						width = 419,
+						height = 537
 					},
 					pos = {
 						x = 241,
@@ -3806,8 +3806,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 438
+						width = 438,
+						height = 552
 					},
 					pos = {
 						x = 231,
@@ -3816,8 +3816,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 538,
-						width = 444
+						width = 444,
+						height = 538
 					},
 					pos = {
 						x = 229,
@@ -3826,8 +3826,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 534,
-						width = 446
+						width = 446,
+						height = 534
 					},
 					pos = {
 						x = 228,
@@ -3836,8 +3836,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 540,
-						width = 448
+						width = 448,
+						height = 540
 					},
 					pos = {
 						x = 226,
@@ -3846,8 +3846,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 545,
-						width = 448
+						width = 448,
+						height = 545
 					},
 					pos = {
 						x = 226,
@@ -3856,8 +3856,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 547,
-						width = 448
+						width = 448,
+						height = 547
 					},
 					pos = {
 						x = 226,
@@ -3866,8 +3866,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 548,
-						width = 439
+						width = 439,
+						height = 548
 					},
 					pos = {
 						x = 226,
@@ -3878,14 +3878,14 @@ VFX = {
 		}
 	},
 	loop = {
-		count = 32,
 		name = "loop_%s",
+		count = 32,
 		rarities = {
 			[CARD_RARITY_UNCOMMON] = {
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -3894,8 +3894,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -3904,8 +3904,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 398,
-						width = 296
+						width = 296,
+						height = 398
 					},
 					pos = {
 						x = 302,
@@ -3914,8 +3914,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 296
+						width = 296,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -3924,8 +3924,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 296
+						width = 296,
+						height = 399
 					},
 					pos = {
 						x = 302,
@@ -3934,8 +3934,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 303,
@@ -3944,8 +3944,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 303,
@@ -3954,8 +3954,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -3964,8 +3964,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -3974,8 +3974,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 303,
@@ -3984,8 +3984,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 303,
@@ -3994,8 +3994,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4004,8 +4004,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4014,8 +4014,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4024,8 +4024,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4034,8 +4034,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 296
+						width = 296,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -4044,8 +4044,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 296
+						width = 296,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -4054,8 +4054,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 296
+						width = 296,
+						height = 400
 					},
 					pos = {
 						x = 302,
@@ -4064,8 +4064,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4074,8 +4074,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 397,
-						width = 292
+						width = 292,
+						height = 397
 					},
 					pos = {
 						x = 304,
@@ -4084,8 +4084,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4094,8 +4094,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4104,8 +4104,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 303,
@@ -4114,8 +4114,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4124,8 +4124,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4134,8 +4134,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 303,
@@ -4144,8 +4144,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 295
+						width = 295,
+						height = 399
 					},
 					pos = {
 						x = 303,
@@ -4154,8 +4154,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4164,8 +4164,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 296
+						width = 296,
+						height = 399
 					},
 					pos = {
 						x = 302,
@@ -4174,8 +4174,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 296
+						width = 296,
+						height = 399
 					},
 					pos = {
 						x = 302,
@@ -4184,8 +4184,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 399,
-						width = 296
+						width = 296,
+						height = 399
 					},
 					pos = {
 						x = 302,
@@ -4194,8 +4194,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 400,
-						width = 295
+						width = 295,
+						height = 400
 					},
 					pos = {
 						x = 303,
@@ -4206,8 +4206,8 @@ VFX = {
 			[CARD_RARITY_GRAND] = {
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4216,8 +4216,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4226,8 +4226,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4236,8 +4236,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4246,8 +4246,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4256,8 +4256,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4266,8 +4266,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4276,8 +4276,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4286,8 +4286,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4296,8 +4296,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4306,8 +4306,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4316,8 +4316,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4326,8 +4326,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4336,8 +4336,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4346,8 +4346,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4356,8 +4356,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4366,8 +4366,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4376,8 +4376,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4386,8 +4386,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4396,8 +4396,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4406,8 +4406,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4416,8 +4416,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4426,8 +4426,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4436,8 +4436,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4446,8 +4446,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4456,8 +4456,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4466,8 +4466,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4476,8 +4476,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4486,8 +4486,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4496,8 +4496,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4506,8 +4506,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4516,8 +4516,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 399
+						width = 399,
+						height = 542
 					},
 					pos = {
 						x = 251,
@@ -4528,8 +4528,8 @@ VFX = {
 			[CARD_RARITY_RARE] = {
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4538,8 +4538,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 348
+						width = 348,
+						height = 446
 					},
 					pos = {
 						x = 276,
@@ -4548,8 +4548,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 347
+						width = 347,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4558,8 +4558,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4568,8 +4568,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4578,8 +4578,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4588,8 +4588,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4598,8 +4598,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 347
+						width = 347,
+						height = 446
 					},
 					pos = {
 						x = 276,
@@ -4608,8 +4608,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 348
+						width = 348,
+						height = 446
 					},
 					pos = {
 						x = 276,
@@ -4618,8 +4618,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 349
+						width = 349,
+						height = 444
 					},
 					pos = {
 						x = 276,
@@ -4628,8 +4628,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 349
+						width = 349,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4638,8 +4638,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 277,
@@ -4648,8 +4648,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 349
+						width = 349,
+						height = 446
 					},
 					pos = {
 						x = 277,
@@ -4658,8 +4658,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 278,
@@ -4668,8 +4668,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 278,
@@ -4678,8 +4678,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 348
+						width = 348,
+						height = 444
 					},
 					pos = {
 						x = 278,
@@ -4688,8 +4688,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 347
+						width = 347,
+						height = 444
 					},
 					pos = {
 						x = 279,
@@ -4698,8 +4698,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 354
+						width = 354,
+						height = 444
 					},
 					pos = {
 						x = 278,
@@ -4708,8 +4708,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 359
+						width = 359,
+						height = 445
 					},
 					pos = {
 						x = 278,
@@ -4718,8 +4718,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 362
+						width = 362,
+						height = 445
 					},
 					pos = {
 						x = 278,
@@ -4728,8 +4728,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 365
+						width = 365,
+						height = 445
 					},
 					pos = {
 						x = 277,
@@ -4738,8 +4738,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 369
+						width = 369,
+						height = 445
 					},
 					pos = {
 						x = 277,
@@ -4748,8 +4748,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 370
+						width = 370,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4758,8 +4758,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 375
+						width = 375,
+						height = 444
 					},
 					pos = {
 						x = 276,
@@ -4768,8 +4768,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 444,
-						width = 375
+						width = 375,
+						height = 444
 					},
 					pos = {
 						x = 276,
@@ -4778,8 +4778,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 375
+						width = 375,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4788,8 +4788,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 375
+						width = 375,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4798,8 +4798,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4808,8 +4808,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4818,8 +4818,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 348
+						width = 348,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4828,8 +4828,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 347
+						width = 347,
+						height = 445
 					},
 					pos = {
 						x = 276,
@@ -4838,8 +4838,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 347
+						width = 347,
+						height = 446
 					},
 					pos = {
 						x = 276,
@@ -4850,8 +4850,8 @@ VFX = {
 			[CARD_RARITY_ARCANE] = {
 				{
 					size = {
-						height = 447,
-						width = 344
+						width = 344,
+						height = 447
 					},
 					pos = {
 						x = 277,
@@ -4860,8 +4860,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 344
+						width = 344,
+						height = 447
 					},
 					pos = {
 						x = 277,
@@ -4870,8 +4870,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 448,
-						width = 344
+						width = 344,
+						height = 448
 					},
 					pos = {
 						x = 277,
@@ -4880,8 +4880,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 342
+						width = 342,
+						height = 447
 					},
 					pos = {
 						x = 281,
@@ -4890,8 +4890,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 344
+						width = 344,
+						height = 446
 					},
 					pos = {
 						x = 281,
@@ -4900,8 +4900,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 342
+						width = 342,
+						height = 447
 					},
 					pos = {
 						x = 281,
@@ -4910,8 +4910,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 342
+						width = 342,
+						height = 447
 					},
 					pos = {
 						x = 281,
@@ -4920,8 +4920,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 342
+						width = 342,
+						height = 446
 					},
 					pos = {
 						x = 280,
@@ -4930,8 +4930,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 341
+						width = 341,
+						height = 446
 					},
 					pos = {
 						x = 280,
@@ -4940,8 +4940,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 342
+						width = 342,
+						height = 447
 					},
 					pos = {
 						x = 279,
@@ -4950,8 +4950,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 342
+						width = 342,
+						height = 447
 					},
 					pos = {
 						x = 279,
@@ -4960,8 +4960,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 351
+						width = 351,
+						height = 447
 					},
 					pos = {
 						x = 269,
@@ -4970,8 +4970,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 355
+						width = 355,
+						height = 446
 					},
 					pos = {
 						x = 267,
@@ -4980,8 +4980,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 355
+						width = 355,
+						height = 445
 					},
 					pos = {
 						x = 267,
@@ -4990,8 +4990,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 354
+						width = 354,
+						height = 445
 					},
 					pos = {
 						x = 268,
@@ -5000,8 +5000,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 349
+						width = 349,
+						height = 445
 					},
 					pos = {
 						x = 271,
@@ -5010,8 +5010,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 347
+						width = 347,
+						height = 445
 					},
 					pos = {
 						x = 273,
@@ -5020,8 +5020,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 339
+						width = 339,
+						height = 445
 					},
 					pos = {
 						x = 281,
@@ -5030,8 +5030,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 341
+						width = 341,
+						height = 445
 					},
 					pos = {
 						x = 279,
@@ -5040,8 +5040,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 445,
-						width = 342
+						width = 342,
+						height = 445
 					},
 					pos = {
 						x = 278,
@@ -5050,8 +5050,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 340
+						width = 340,
+						height = 447
 					},
 					pos = {
 						x = 280,
@@ -5060,8 +5060,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 452,
-						width = 341
+						width = 341,
+						height = 452
 					},
 					pos = {
 						x = 279,
@@ -5070,8 +5070,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 458,
-						width = 341
+						width = 341,
+						height = 458
 					},
 					pos = {
 						x = 280,
@@ -5080,8 +5080,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 460,
-						width = 342
+						width = 342,
+						height = 460
 					},
 					pos = {
 						x = 278,
@@ -5090,8 +5090,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 460,
-						width = 343
+						width = 343,
+						height = 460
 					},
 					pos = {
 						x = 278,
@@ -5100,8 +5100,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 460,
-						width = 345
+						width = 345,
+						height = 460
 					},
 					pos = {
 						x = 277,
@@ -5110,8 +5110,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 447,
-						width = 345
+						width = 345,
+						height = 447
 					},
 					pos = {
 						x = 276,
@@ -5120,8 +5120,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 344
+						width = 344,
+						height = 446
 					},
 					pos = {
 						x = 277,
@@ -5130,8 +5130,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 345
+						width = 345,
+						height = 446
 					},
 					pos = {
 						x = 276,
@@ -5140,8 +5140,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 345
+						width = 345,
+						height = 446
 					},
 					pos = {
 						x = 275,
@@ -5150,8 +5150,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 347
+						width = 347,
+						height = 446
 					},
 					pos = {
 						x = 274,
@@ -5160,8 +5160,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 446,
-						width = 346
+						width = 346,
+						height = 446
 					},
 					pos = {
 						x = 275,
@@ -5172,8 +5172,8 @@ VFX = {
 			[CARD_RARITY_MYTHIC] = {
 				{
 					size = {
-						height = 473,
-						width = 350
+						width = 350,
+						height = 473
 					},
 					pos = {
 						x = 275,
@@ -5182,8 +5182,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 474,
-						width = 347
+						width = 347,
+						height = 474
 					},
 					pos = {
 						x = 275,
@@ -5192,8 +5192,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 473,
-						width = 347
+						width = 347,
+						height = 473
 					},
 					pos = {
 						x = 275,
@@ -5202,8 +5202,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 472,
-						width = 346
+						width = 346,
+						height = 472
 					},
 					pos = {
 						x = 275,
@@ -5212,8 +5212,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 472,
-						width = 348
+						width = 348,
+						height = 472
 					},
 					pos = {
 						x = 273,
@@ -5222,8 +5222,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 463,
-						width = 350
+						width = 350,
+						height = 463
 					},
 					pos = {
 						x = 271,
@@ -5232,8 +5232,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 465,
-						width = 351
+						width = 351,
+						height = 465
 					},
 					pos = {
 						x = 271,
@@ -5242,8 +5242,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 466,
-						width = 356
+						width = 356,
+						height = 466
 					},
 					pos = {
 						x = 266,
@@ -5252,8 +5252,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 465,
-						width = 367
+						width = 367,
+						height = 465
 					},
 					pos = {
 						x = 257,
@@ -5262,8 +5262,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 466,
-						width = 370
+						width = 370,
+						height = 466
 					},
 					pos = {
 						x = 256,
@@ -5272,8 +5272,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 466,
-						width = 376
+						width = 376,
+						height = 466
 					},
 					pos = {
 						x = 253,
@@ -5282,8 +5282,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 466,
-						width = 379
+						width = 379,
+						height = 466
 					},
 					pos = {
 						x = 251,
@@ -5292,8 +5292,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 467,
-						width = 382
+						width = 382,
+						height = 467
 					},
 					pos = {
 						x = 250,
@@ -5302,8 +5302,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 467,
-						width = 384
+						width = 384,
+						height = 467
 					},
 					pos = {
 						x = 250,
@@ -5312,8 +5312,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 467,
-						width = 365
+						width = 365,
+						height = 467
 					},
 					pos = {
 						x = 273,
@@ -5322,8 +5322,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 461,
-						width = 373
+						width = 373,
+						height = 461
 					},
 					pos = {
 						x = 270,
@@ -5332,8 +5332,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 463,
-						width = 375
+						width = 375,
+						height = 463
 					},
 					pos = {
 						x = 268,
@@ -5342,8 +5342,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 462,
-						width = 379
+						width = 379,
+						height = 462
 					},
 					pos = {
 						x = 267,
@@ -5352,8 +5352,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 462,
-						width = 381
+						width = 381,
+						height = 462
 					},
 					pos = {
 						x = 265,
@@ -5362,8 +5362,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 462,
-						width = 382
+						width = 382,
+						height = 462
 					},
 					pos = {
 						x = 264,
@@ -5372,8 +5372,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 454,
-						width = 383
+						width = 383,
+						height = 454
 					},
 					pos = {
 						x = 264,
@@ -5382,8 +5382,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 456,
-						width = 360
+						width = 360,
+						height = 456
 					},
 					pos = {
 						x = 263,
@@ -5392,8 +5392,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 458,
-						width = 360
+						width = 360,
+						height = 458
 					},
 					pos = {
 						x = 263,
@@ -5402,8 +5402,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 459,
-						width = 360
+						width = 360,
+						height = 459
 					},
 					pos = {
 						x = 264,
@@ -5412,8 +5412,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 460,
-						width = 350
+						width = 350,
+						height = 460
 					},
 					pos = {
 						x = 276,
@@ -5422,8 +5422,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 461,
-						width = 350
+						width = 350,
+						height = 461
 					},
 					pos = {
 						x = 276,
@@ -5432,8 +5432,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 461,
-						width = 351
+						width = 351,
+						height = 461
 					},
 					pos = {
 						x = 276,
@@ -5442,8 +5442,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 461,
-						width = 353
+						width = 353,
+						height = 461
 					},
 					pos = {
 						x = 276,
@@ -5452,8 +5452,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 462,
-						width = 355
+						width = 355,
+						height = 462
 					},
 					pos = {
 						x = 275,
@@ -5462,8 +5462,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 462,
-						width = 351
+						width = 351,
+						height = 462
 					},
 					pos = {
 						x = 275,
@@ -5472,8 +5472,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 467,
-						width = 350
+						width = 350,
+						height = 467
 					},
 					pos = {
 						x = 275,
@@ -5482,8 +5482,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 470,
-						width = 349
+						width = 349,
+						height = 470
 					},
 					pos = {
 						x = 275,
@@ -5494,8 +5494,8 @@ VFX = {
 			[CARD_RARITY_LEGENDARY] = {
 				{
 					size = {
-						height = 551,
-						width = 438
+						width = 438,
+						height = 551
 					},
 					pos = {
 						x = 226,
@@ -5504,8 +5504,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 421
+						width = 421,
+						height = 552
 					},
 					pos = {
 						x = 242,
@@ -5514,8 +5514,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 421
+						width = 421,
+						height = 552
 					},
 					pos = {
 						x = 241,
@@ -5524,8 +5524,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 537,
-						width = 430
+						width = 430,
+						height = 537
 					},
 					pos = {
 						x = 239,
@@ -5534,8 +5534,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 539,
-						width = 434
+						width = 434,
+						height = 539
 					},
 					pos = {
 						x = 239,
@@ -5544,8 +5544,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 541,
-						width = 436
+						width = 436,
+						height = 541
 					},
 					pos = {
 						x = 238,
@@ -5554,8 +5554,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 545,
-						width = 438
+						width = 438,
+						height = 545
 					},
 					pos = {
 						x = 236,
@@ -5564,8 +5564,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 547,
-						width = 443
+						width = 443,
+						height = 547
 					},
 					pos = {
 						x = 231,
@@ -5574,8 +5574,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 548,
-						width = 445
+						width = 445,
+						height = 548
 					},
 					pos = {
 						x = 229,
@@ -5584,8 +5584,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 551,
-						width = 433
+						width = 433,
+						height = 551
 					},
 					pos = {
 						x = 228,
@@ -5594,8 +5594,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 548,
-						width = 425
+						width = 425,
+						height = 548
 					},
 					pos = {
 						x = 226,
@@ -5604,8 +5604,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 551,
-						width = 425
+						width = 425,
+						height = 551
 					},
 					pos = {
 						x = 226,
@@ -5614,8 +5614,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 433
+						width = 433,
+						height = 552
 					},
 					pos = {
 						x = 226,
@@ -5624,8 +5624,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 431
+						width = 431,
+						height = 552
 					},
 					pos = {
 						x = 231,
@@ -5634,8 +5634,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 542,
-						width = 435
+						width = 435,
+						height = 542
 					},
 					pos = {
 						x = 229,
@@ -5644,8 +5644,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 523,
-						width = 436
+						width = 436,
+						height = 523
 					},
 					pos = {
 						x = 228,
@@ -5654,8 +5654,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 528,
-						width = 438
+						width = 438,
+						height = 528
 					},
 					pos = {
 						x = 226,
@@ -5664,8 +5664,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 540,
-						width = 438
+						width = 438,
+						height = 540
 					},
 					pos = {
 						x = 226,
@@ -5674,8 +5674,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 535,
-						width = 440
+						width = 440,
+						height = 535
 					},
 					pos = {
 						x = 226,
@@ -5684,8 +5684,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 544,
-						width = 440
+						width = 440,
+						height = 544
 					},
 					pos = {
 						x = 226,
@@ -5694,8 +5694,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 546,
-						width = 440
+						width = 440,
+						height = 546
 					},
 					pos = {
 						x = 226,
@@ -5704,8 +5704,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 549,
-						width = 429
+						width = 429,
+						height = 549
 					},
 					pos = {
 						x = 238,
@@ -5714,8 +5714,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 551,
-						width = 430
+						width = 430,
+						height = 551
 					},
 					pos = {
 						x = 237,
@@ -5724,8 +5724,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 551,
-						width = 428
+						width = 428,
+						height = 551
 					},
 					pos = {
 						x = 236,
@@ -5734,8 +5734,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 430
+						width = 430,
+						height = 552
 					},
 					pos = {
 						x = 235,
@@ -5744,8 +5744,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 552,
-						width = 438
+						width = 438,
+						height = 552
 					},
 					pos = {
 						x = 231,
@@ -5754,8 +5754,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 538,
-						width = 444
+						width = 444,
+						height = 538
 					},
 					pos = {
 						x = 229,
@@ -5764,8 +5764,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 534,
-						width = 446
+						width = 446,
+						height = 534
 					},
 					pos = {
 						x = 228,
@@ -5774,8 +5774,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 540,
-						width = 448
+						width = 448,
+						height = 540
 					},
 					pos = {
 						x = 226,
@@ -5784,8 +5784,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 545,
-						width = 448
+						width = 448,
+						height = 545
 					},
 					pos = {
 						x = 226,
@@ -5794,8 +5794,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 547,
-						width = 448
+						width = 448,
+						height = 547
 					},
 					pos = {
 						x = 226,
@@ -5804,8 +5804,8 @@ VFX = {
 				},
 				{
 					size = {
-						height = 548,
-						width = 439
+						width = 439,
+						height = 548
 					},
 					pos = {
 						x = 226,
@@ -5818,13 +5818,13 @@ VFX = {
 }
 card = {
 	appear = {
-		count = 32,
 		name = "appear_%s",
+		count = 32,
 		frames = {
 			{
 				size = {
-					height = 0,
-					width = 0
+					width = 0,
+					height = 0
 				},
 				pos = {
 					x = 0,
@@ -5833,8 +5833,8 @@ card = {
 			},
 			{
 				size = {
-					height = 193,
-					width = 130
+					width = 130,
+					height = 193
 				},
 				pos = {
 					x = 383,
@@ -5843,8 +5843,8 @@ card = {
 			},
 			{
 				size = {
-					height = 197,
-					width = 132
+					width = 132,
+					height = 197
 				},
 				pos = {
 					x = 382,
@@ -5853,8 +5853,8 @@ card = {
 			},
 			{
 				size = {
-					height = 207,
-					width = 136
+					width = 136,
+					height = 207
 				},
 				pos = {
 					x = 380,
@@ -5863,8 +5863,8 @@ card = {
 			},
 			{
 				size = {
-					height = 232,
-					width = 153
+					width = 153,
+					height = 232
 				},
 				pos = {
 					x = 371,
@@ -5873,8 +5873,8 @@ card = {
 			},
 			{
 				size = {
-					height = 311,
-					width = 202
+					width = 202,
+					height = 311
 				},
 				pos = {
 					x = 345,
@@ -5883,8 +5883,8 @@ card = {
 			},
 			{
 				size = {
-					height = 344,
-					width = 212
+					width = 212,
+					height = 344
 				},
 				pos = {
 					x = 340,
@@ -5893,8 +5893,8 @@ card = {
 			},
 			{
 				size = {
-					height = 334,
-					width = 193
+					width = 193,
+					height = 334
 				},
 				pos = {
 					x = 351,
@@ -5903,8 +5903,8 @@ card = {
 			},
 			{
 				size = {
-					height = 368,
-					width = 255
+					width = 255,
+					height = 368
 				},
 				pos = {
 					x = 320,
@@ -5913,8 +5913,8 @@ card = {
 			},
 			{
 				size = {
-					height = 386,
-					width = 298
+					width = 298,
+					height = 386
 				},
 				pos = {
 					x = 301,
@@ -5923,8 +5923,8 @@ card = {
 			},
 			{
 				size = {
-					height = 395,
-					width = 300
+					width = 300,
+					height = 395
 				},
 				pos = {
 					x = 302,
@@ -5933,8 +5933,8 @@ card = {
 			},
 			{
 				size = {
-					height = 398,
-					width = 295
+					width = 295,
+					height = 398
 				},
 				pos = {
 					x = 305,
@@ -5943,8 +5943,8 @@ card = {
 			},
 			{
 				size = {
-					height = 397,
-					width = 288
+					width = 288,
+					height = 397
 				},
 				pos = {
 					x = 309,
@@ -5953,8 +5953,8 @@ card = {
 			},
 			{
 				size = {
-					height = 396,
-					width = 285
+					width = 285,
+					height = 396
 				},
 				pos = {
 					x = 311,
@@ -5963,8 +5963,8 @@ card = {
 			},
 			{
 				size = {
-					height = 396,
-					width = 283
+					width = 283,
+					height = 396
 				},
 				pos = {
 					x = 312,
@@ -5973,8 +5973,8 @@ card = {
 			},
 			{
 				size = {
-					height = 396,
-					width = 283
+					width = 283,
+					height = 396
 				},
 				pos = {
 					x = 312,
@@ -5983,8 +5983,8 @@ card = {
 			},
 			{
 				size = {
-					height = 395,
-					width = 282
+					width = 282,
+					height = 395
 				},
 				pos = {
 					x = 312,
@@ -5993,8 +5993,8 @@ card = {
 			},
 			{
 				size = {
-					height = 394,
-					width = 282
+					width = 282,
+					height = 394
 				},
 				pos = {
 					x = 312,
@@ -6003,8 +6003,8 @@ card = {
 			},
 			{
 				size = {
-					height = 392,
-					width = 280
+					width = 280,
+					height = 392
 				},
 				pos = {
 					x = 313,
@@ -6013,8 +6013,8 @@ card = {
 			},
 			{
 				size = {
-					height = 390,
-					width = 280
+					width = 280,
+					height = 390
 				},
 				pos = {
 					x = 313,
@@ -6023,8 +6023,8 @@ card = {
 			},
 			{
 				size = {
-					height = 387,
-					width = 279
+					width = 279,
+					height = 387
 				},
 				pos = {
 					x = 313,
@@ -6033,8 +6033,8 @@ card = {
 			},
 			{
 				size = {
-					height = 383,
-					width = 277
+					width = 277,
+					height = 383
 				},
 				pos = {
 					x = 314,
@@ -6043,8 +6043,8 @@ card = {
 			},
 			{
 				size = {
-					height = 379,
-					width = 274
+					width = 274,
+					height = 379
 				},
 				pos = {
 					x = 315,
@@ -6053,8 +6053,8 @@ card = {
 			},
 			{
 				size = {
-					height = 375,
-					width = 271
+					width = 271,
+					height = 375
 				},
 				pos = {
 					x = 316,
@@ -6063,8 +6063,8 @@ card = {
 			},
 			{
 				size = {
-					height = 370,
-					width = 268
+					width = 268,
+					height = 370
 				},
 				pos = {
 					x = 317,
@@ -6073,8 +6073,8 @@ card = {
 			},
 			{
 				size = {
-					height = 366,
-					width = 263
+					width = 263,
+					height = 366
 				},
 				pos = {
 					x = 319,
@@ -6083,8 +6083,8 @@ card = {
 			},
 			{
 				size = {
-					height = 363,
-					width = 261
+					width = 261,
+					height = 363
 				},
 				pos = {
 					x = 320,
@@ -6093,8 +6093,8 @@ card = {
 			},
 			{
 				size = {
-					height = 360,
-					width = 257
+					width = 257,
+					height = 360
 				},
 				pos = {
 					x = 322,
@@ -6103,8 +6103,8 @@ card = {
 			},
 			{
 				size = {
-					height = 357,
-					width = 255
+					width = 255,
+					height = 357
 				},
 				pos = {
 					x = 323,
@@ -6113,8 +6113,8 @@ card = {
 			},
 			{
 				size = {
-					height = 355,
-					width = 253
+					width = 253,
+					height = 355
 				},
 				pos = {
 					x = 324,
@@ -6123,8 +6123,8 @@ card = {
 			},
 			{
 				size = {
-					height = 354,
-					width = 252
+					width = 252,
+					height = 354
 				},
 				pos = {
 					x = 324,
@@ -6133,8 +6133,8 @@ card = {
 			},
 			{
 				size = {
-					height = 354,
-					width = 250
+					width = 250,
+					height = 354
 				},
 				pos = {
 					x = 325,
@@ -6144,13 +6144,13 @@ card = {
 		}
 	},
 	flip = {
-		count = 32,
 		name = "flip_%s",
+		count = 32,
 		frames = {
 			{
 				size = {
-					height = 354,
-					width = 250
+					width = 250,
+					height = 354
 				},
 				pos = {
 					x = 325,
@@ -6159,8 +6159,8 @@ card = {
 			},
 			{
 				size = {
-					height = 354,
-					width = 250
+					width = 250,
+					height = 354
 				},
 				pos = {
 					x = 325,
@@ -6169,8 +6169,8 @@ card = {
 			},
 			{
 				size = {
-					height = 354,
-					width = 250
+					width = 250,
+					height = 354
 				},
 				pos = {
 					x = 325,
@@ -6179,8 +6179,8 @@ card = {
 			},
 			{
 				size = {
-					height = 352,
-					width = 250
+					width = 250,
+					height = 352
 				},
 				pos = {
 					x = 325,
@@ -6189,8 +6189,8 @@ card = {
 			},
 			{
 				size = {
-					height = 352,
-					width = 250
+					width = 250,
+					height = 352
 				},
 				pos = {
 					x = 325,
@@ -6199,8 +6199,8 @@ card = {
 			},
 			{
 				size = {
-					height = 354,
-					width = 250
+					width = 250,
+					height = 354
 				},
 				pos = {
 					x = 325,
@@ -6209,8 +6209,8 @@ card = {
 			},
 			{
 				size = {
-					height = 356,
-					width = 252
+					width = 252,
+					height = 356
 				},
 				pos = {
 					x = 324,
@@ -6219,8 +6219,8 @@ card = {
 			},
 			{
 				size = {
-					height = 354,
-					width = 252
+					width = 252,
+					height = 354
 				},
 				pos = {
 					x = 324,
@@ -6229,8 +6229,8 @@ card = {
 			},
 			{
 				size = {
-					height = 352,
-					width = 252
+					width = 252,
+					height = 352
 				},
 				pos = {
 					x = 325,
@@ -6239,8 +6239,8 @@ card = {
 			},
 			{
 				size = {
-					height = 354,
-					width = 250
+					width = 250,
+					height = 354
 				},
 				pos = {
 					x = 325,
@@ -6249,8 +6249,8 @@ card = {
 			},
 			{
 				size = {
-					height = 354,
-					width = 252
+					width = 252,
+					height = 354
 				},
 				pos = {
 					x = 324,
@@ -6259,8 +6259,8 @@ card = {
 			},
 			{
 				size = {
-					height = 352,
-					width = 250
+					width = 250,
+					height = 352
 				},
 				pos = {
 					x = 325,
@@ -6269,8 +6269,8 @@ card = {
 			},
 			{
 				size = {
-					height = 348,
-					width = 248
+					width = 248,
+					height = 348
 				},
 				pos = {
 					x = 326,
@@ -6279,8 +6279,8 @@ card = {
 			},
 			{
 				size = {
-					height = 354,
-					width = 256
+					width = 256,
+					height = 354
 				},
 				pos = {
 					x = 322,
@@ -6289,8 +6289,8 @@ card = {
 			},
 			{
 				size = {
-					height = 359,
-					width = 259
+					width = 259,
+					height = 359
 				},
 				pos = {
 					x = 320,
@@ -6299,8 +6299,8 @@ card = {
 			},
 			{
 				size = {
-					height = 366,
-					width = 260
+					width = 260,
+					height = 366
 				},
 				pos = {
 					x = 319,
@@ -6309,8 +6309,8 @@ card = {
 			},
 			{
 				size = {
-					height = 416,
-					width = 301
+					width = 301,
+					height = 416
 				},
 				pos = {
 					x = 269,
@@ -6319,8 +6319,8 @@ card = {
 			},
 			{
 				size = {
-					height = 412,
-					width = 255
+					width = 255,
+					height = 412
 				},
 				pos = {
 					x = 287,
@@ -6329,8 +6329,8 @@ card = {
 			},
 			{
 				size = {
-					height = 387,
-					width = 301
+					width = 301,
+					height = 387
 				},
 				pos = {
 					x = 317,
@@ -6339,8 +6339,8 @@ card = {
 			},
 			{
 				size = {
-					height = 382,
-					width = 225
+					width = 225,
+					height = 382
 				},
 				pos = {
 					x = 370,
@@ -6349,8 +6349,8 @@ card = {
 			},
 			{
 				size = {
-					height = 389,
-					width = 312
+					width = 312,
+					height = 389
 				},
 				pos = {
 					x = 276,
@@ -6359,8 +6359,8 @@ card = {
 			},
 			{
 				size = {
-					height = 409,
-					width = 359
+					width = 359,
+					height = 409
 				},
 				pos = {
 					x = 247,
@@ -6369,8 +6369,8 @@ card = {
 			},
 			{
 				size = {
-					height = 406,
-					width = 302
+					width = 302,
+					height = 406
 				},
 				pos = {
 					x = 275,
@@ -6379,8 +6379,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 253
+					width = 253,
+					height = 351
 				},
 				pos = {
 					x = 324,
@@ -6389,8 +6389,8 @@ card = {
 			},
 			{
 				size = {
-					height = 353,
-					width = 255
+					width = 255,
+					height = 353
 				},
 				pos = {
 					x = 323,
@@ -6399,8 +6399,8 @@ card = {
 			},
 			{
 				size = {
-					height = 363,
-					width = 263
+					width = 263,
+					height = 363
 				},
 				pos = {
 					x = 319,
@@ -6409,8 +6409,8 @@ card = {
 			},
 			{
 				size = {
-					height = 363,
-					width = 263
+					width = 263,
+					height = 363
 				},
 				pos = {
 					x = 319,
@@ -6419,8 +6419,8 @@ card = {
 			},
 			{
 				size = {
-					height = 363,
-					width = 262
+					width = 262,
+					height = 363
 				},
 				pos = {
 					x = 320,
@@ -6429,8 +6429,8 @@ card = {
 			},
 			{
 				size = {
-					height = 363,
-					width = 262
+					width = 262,
+					height = 363
 				},
 				pos = {
 					x = 320,
@@ -6439,8 +6439,8 @@ card = {
 			},
 			{
 				size = {
-					height = 363,
-					width = 263
+					width = 263,
+					height = 363
 				},
 				pos = {
 					x = 319,
@@ -6449,8 +6449,8 @@ card = {
 			},
 			{
 				size = {
-					height = 363,
-					width = 262
+					width = 262,
+					height = 363
 				},
 				pos = {
 					x = 320,
@@ -6459,8 +6459,8 @@ card = {
 			},
 			{
 				size = {
-					height = 364,
-					width = 263
+					width = 263,
+					height = 364
 				},
 				pos = {
 					x = 319,
@@ -6470,13 +6470,13 @@ card = {
 		}
 	},
 	disenchant = {
-		count = 84,
 		name = "disenchant_%s",
+		count = 84,
 		frames = {
 			{
 				size = {
-					height = 538,
-					width = 431
+					width = 431,
+					height = 538
 				},
 				pos = {
 					x = 234,
@@ -6485,8 +6485,8 @@ card = {
 			},
 			{
 				size = {
-					height = 531,
-					width = 432
+					width = 432,
+					height = 531
 				},
 				pos = {
 					x = 236,
@@ -6495,8 +6495,8 @@ card = {
 			},
 			{
 				size = {
-					height = 537,
-					width = 436
+					width = 436,
+					height = 537
 				},
 				pos = {
 					x = 233,
@@ -6505,8 +6505,8 @@ card = {
 			},
 			{
 				size = {
-					height = 535,
-					width = 432
+					width = 432,
+					height = 535
 				},
 				pos = {
 					x = 235,
@@ -6515,8 +6515,8 @@ card = {
 			},
 			{
 				size = {
-					height = 531,
-					width = 437
+					width = 437,
+					height = 531
 				},
 				pos = {
 					x = 232,
@@ -6525,8 +6525,8 @@ card = {
 			},
 			{
 				size = {
-					height = 529,
-					width = 431
+					width = 431,
+					height = 529
 				},
 				pos = {
 					x = 235,
@@ -6535,8 +6535,8 @@ card = {
 			},
 			{
 				size = {
-					height = 534,
-					width = 431
+					width = 431,
+					height = 534
 				},
 				pos = {
 					x = 237,
@@ -6545,8 +6545,8 @@ card = {
 			},
 			{
 				size = {
-					height = 533,
-					width = 432
+					width = 432,
+					height = 533
 				},
 				pos = {
 					x = 234,
@@ -6555,8 +6555,8 @@ card = {
 			},
 			{
 				size = {
-					height = 538,
-					width = 436
+					width = 436,
+					height = 538
 				},
 				pos = {
 					x = 232,
@@ -6565,8 +6565,8 @@ card = {
 			},
 			{
 				size = {
-					height = 534,
-					width = 432
+					width = 432,
+					height = 534
 				},
 				pos = {
 					x = 233,
@@ -6575,8 +6575,8 @@ card = {
 			},
 			{
 				size = {
-					height = 536,
-					width = 436
+					width = 436,
+					height = 536
 				},
 				pos = {
 					x = 231,
@@ -6585,8 +6585,8 @@ card = {
 			},
 			{
 				size = {
-					height = 537,
-					width = 436
+					width = 436,
+					height = 537
 				},
 				pos = {
 					x = 233,
@@ -6595,8 +6595,8 @@ card = {
 			},
 			{
 				size = {
-					height = 538,
-					width = 432
+					width = 432,
+					height = 538
 				},
 				pos = {
 					x = 235,
@@ -6605,8 +6605,8 @@ card = {
 			},
 			{
 				size = {
-					height = 538,
-					width = 437
+					width = 437,
+					height = 538
 				},
 				pos = {
 					x = 232,
@@ -6615,8 +6615,8 @@ card = {
 			},
 			{
 				size = {
-					height = 539,
-					width = 432
+					width = 432,
+					height = 539
 				},
 				pos = {
 					x = 234,
@@ -6625,8 +6625,8 @@ card = {
 			},
 			{
 				size = {
-					height = 537,
-					width = 436
+					width = 436,
+					height = 537
 				},
 				pos = {
 					x = 232,
@@ -6635,8 +6635,8 @@ card = {
 			},
 			{
 				size = {
-					height = 537,
-					width = 431
+					width = 431,
+					height = 537
 				},
 				pos = {
 					x = 234,
@@ -6645,8 +6645,8 @@ card = {
 			},
 			{
 				size = {
-					height = 531,
-					width = 432
+					width = 432,
+					height = 531
 				},
 				pos = {
 					x = 236,
@@ -6655,8 +6655,8 @@ card = {
 			},
 			{
 				size = {
-					height = 531,
-					width = 437
+					width = 437,
+					height = 531
 				},
 				pos = {
 					x = 233,
@@ -6665,8 +6665,8 @@ card = {
 			},
 			{
 				size = {
-					height = 529,
-					width = 436
+					width = 436,
+					height = 529
 				},
 				pos = {
 					x = 231,
@@ -6675,8 +6675,8 @@ card = {
 			},
 			{
 				size = {
-					height = 535,
-					width = 437
+					width = 437,
+					height = 535
 				},
 				pos = {
 					x = 232,
@@ -6685,8 +6685,8 @@ card = {
 			},
 			{
 				size = {
-					height = 532,
-					width = 431
+					width = 431,
+					height = 532
 				},
 				pos = {
 					x = 235,
@@ -6695,8 +6695,8 @@ card = {
 			},
 			{
 				size = {
-					height = 533,
-					width = 435
+					width = 435,
+					height = 533
 				},
 				pos = {
 					x = 233,
@@ -6705,8 +6705,8 @@ card = {
 			},
 			{
 				size = {
-					height = 534,
-					width = 432
+					width = 432,
+					height = 534
 				},
 				pos = {
 					x = 234,
@@ -6715,8 +6715,8 @@ card = {
 			},
 			{
 				size = {
-					height = 534,
-					width = 436
+					width = 436,
+					height = 534
 				},
 				pos = {
 					x = 232,
@@ -6725,8 +6725,8 @@ card = {
 			},
 			{
 				size = {
-					height = 538,
-					width = 431
+					width = 431,
+					height = 538
 				},
 				pos = {
 					x = 234,
@@ -6735,8 +6735,8 @@ card = {
 			},
 			{
 				size = {
-					height = 534,
-					width = 432
+					width = 432,
+					height = 534
 				},
 				pos = {
 					x = 236,
@@ -6745,8 +6745,8 @@ card = {
 			},
 			{
 				size = {
-					height = 603,
-					width = 499
+					width = 499,
+					height = 603
 				},
 				pos = {
 					x = 199,
@@ -6755,8 +6755,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6765,8 +6765,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6775,8 +6775,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6785,8 +6785,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6795,8 +6795,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6805,8 +6805,8 @@ card = {
 			},
 			{
 				size = {
-					height = 637,
-					width = 888
+					width = 888,
+					height = 637
 				},
 				pos = {
 					x = 6,
@@ -6815,8 +6815,8 @@ card = {
 			},
 			{
 				size = {
-					height = 771,
-					width = 888
+					width = 888,
+					height = 771
 				},
 				pos = {
 					x = 6,
@@ -6825,8 +6825,8 @@ card = {
 			},
 			{
 				size = {
-					height = 834,
-					width = 888
+					width = 888,
+					height = 834
 				},
 				pos = {
 					x = 6,
@@ -6835,8 +6835,8 @@ card = {
 			},
 			{
 				size = {
-					height = 865,
-					width = 888
+					width = 888,
+					height = 865
 				},
 				pos = {
 					x = 6,
@@ -6845,8 +6845,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6855,8 +6855,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6865,8 +6865,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6875,8 +6875,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6885,8 +6885,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6895,8 +6895,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6905,8 +6905,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6915,8 +6915,8 @@ card = {
 			},
 			{
 				size = {
-					height = 888,
-					width = 888
+					width = 888,
+					height = 888
 				},
 				pos = {
 					x = 6,
@@ -6925,8 +6925,8 @@ card = {
 			},
 			{
 				size = {
-					height = 650,
-					width = 534
+					width = 534,
+					height = 650
 				},
 				pos = {
 					x = 193,
@@ -6935,8 +6935,8 @@ card = {
 			},
 			{
 				size = {
-					height = 654,
-					width = 540
+					width = 540,
+					height = 654
 				},
 				pos = {
 					x = 190,
@@ -6945,8 +6945,8 @@ card = {
 			},
 			{
 				size = {
-					height = 658,
-					width = 545
+					width = 545,
+					height = 658
 				},
 				pos = {
 					x = 187,
@@ -6955,8 +6955,8 @@ card = {
 			},
 			{
 				size = {
-					height = 663,
-					width = 549
+					width = 549,
+					height = 663
 				},
 				pos = {
 					x = 185,
@@ -6965,8 +6965,8 @@ card = {
 			},
 			{
 				size = {
-					height = 668,
-					width = 552
+					width = 552,
+					height = 668
 				},
 				pos = {
 					x = 183,
@@ -6975,8 +6975,8 @@ card = {
 			},
 			{
 				size = {
-					height = 671,
-					width = 554
+					width = 554,
+					height = 671
 				},
 				pos = {
 					x = 182,
@@ -6985,8 +6985,8 @@ card = {
 			},
 			{
 				size = {
-					height = 672,
-					width = 556
+					width = 556,
+					height = 672
 				},
 				pos = {
 					x = 181,
@@ -6995,8 +6995,8 @@ card = {
 			},
 			{
 				size = {
-					height = 674,
-					width = 556
+					width = 556,
+					height = 674
 				},
 				pos = {
 					x = 181,
@@ -7005,8 +7005,8 @@ card = {
 			},
 			{
 				size = {
-					height = 674,
-					width = 557
+					width = 557,
+					height = 674
 				},
 				pos = {
 					x = 180,
@@ -7015,8 +7015,8 @@ card = {
 			},
 			{
 				size = {
-					height = 671,
-					width = 557
+					width = 557,
+					height = 671
 				},
 				pos = {
 					x = 180,
@@ -7025,8 +7025,8 @@ card = {
 			},
 			{
 				size = {
-					height = 671,
-					width = 557
+					width = 557,
+					height = 671
 				},
 				pos = {
 					x = 180,
@@ -7035,8 +7035,8 @@ card = {
 			},
 			{
 				size = {
-					height = 817,
-					width = 859
+					width = 859,
+					height = 817
 				},
 				pos = {
 					x = 33,
@@ -7045,8 +7045,8 @@ card = {
 			},
 			{
 				size = {
-					height = 850,
-					width = 886
+					width = 886,
+					height = 850
 				},
 				pos = {
 					x = 8,
@@ -7055,8 +7055,8 @@ card = {
 			},
 			{
 				size = {
-					height = 856,
-					width = 888
+					width = 888,
+					height = 856
 				},
 				pos = {
 					x = 6,
@@ -7065,8 +7065,8 @@ card = {
 			},
 			{
 				size = {
-					height = 849,
-					width = 888
+					width = 888,
+					height = 849
 				},
 				pos = {
 					x = 6,
@@ -7075,8 +7075,8 @@ card = {
 			},
 			{
 				size = {
-					height = 831,
-					width = 888
+					width = 888,
+					height = 831
 				},
 				pos = {
 					x = 6,
@@ -7085,8 +7085,8 @@ card = {
 			},
 			{
 				size = {
-					height = 808,
-					width = 888
+					width = 888,
+					height = 808
 				},
 				pos = {
 					x = 6,
@@ -7095,8 +7095,8 @@ card = {
 			},
 			{
 				size = {
-					height = 771,
-					width = 888
+					width = 888,
+					height = 771
 				},
 				pos = {
 					x = 6,
@@ -7105,8 +7105,8 @@ card = {
 			},
 			{
 				size = {
-					height = 723,
-					width = 888
+					width = 888,
+					height = 723
 				},
 				pos = {
 					x = 6,
@@ -7115,8 +7115,8 @@ card = {
 			},
 			{
 				size = {
-					height = 648,
-					width = 888
+					width = 888,
+					height = 648
 				},
 				pos = {
 					x = 6,
@@ -7125,8 +7125,8 @@ card = {
 			},
 			{
 				size = {
-					height = 554,
-					width = 888
+					width = 888,
+					height = 554
 				},
 				pos = {
 					x = 6,
@@ -7135,8 +7135,8 @@ card = {
 			},
 			{
 				size = {
-					height = 431,
-					width = 724
+					width = 724,
+					height = 431
 				},
 				pos = {
 					x = 88,
@@ -7145,8 +7145,8 @@ card = {
 			},
 			{
 				size = {
-					height = 306,
-					width = 460
+					width = 460,
+					height = 306
 				},
 				pos = {
 					x = 219,
@@ -7155,8 +7155,8 @@ card = {
 			},
 			{
 				size = {
-					height = 482,
-					width = 499
+					width = 499,
+					height = 482
 				},
 				pos = {
 					x = 195,
@@ -7165,8 +7165,8 @@ card = {
 			},
 			{
 				size = {
-					height = 482,
-					width = 500
+					width = 500,
+					height = 482
 				},
 				pos = {
 					x = 194,
@@ -7175,8 +7175,8 @@ card = {
 			},
 			{
 				size = {
-					height = 482,
-					width = 498
+					width = 498,
+					height = 482
 				},
 				pos = {
 					x = 195,
@@ -7185,18 +7185,8 @@ card = {
 			},
 			{
 				size = {
-					height = 484,
-					width = 500
-				},
-				pos = {
-					x = 194,
-					y = 189
-				}
-			},
-			{
-				size = {
-					height = 483,
-					width = 500
+					width = 500,
+					height = 484
 				},
 				pos = {
 					x = 194,
@@ -7205,8 +7195,18 @@ card = {
 			},
 			{
 				size = {
-					height = 481,
-					width = 499
+					width = 500,
+					height = 483
+				},
+				pos = {
+					x = 194,
+					y = 189
+				}
+			},
+			{
+				size = {
+					width = 499,
+					height = 481
 				},
 				pos = {
 					x = 195,
@@ -7215,8 +7215,8 @@ card = {
 			},
 			{
 				size = {
-					height = 481,
-					width = 498
+					width = 498,
+					height = 481
 				},
 				pos = {
 					x = 195,
@@ -7225,8 +7225,8 @@ card = {
 			},
 			{
 				size = {
-					height = 480,
-					width = 498
+					width = 498,
+					height = 480
 				},
 				pos = {
 					x = 195,
@@ -7235,8 +7235,8 @@ card = {
 			},
 			{
 				size = {
-					height = 479,
-					width = 497
+					width = 497,
+					height = 479
 				},
 				pos = {
 					x = 196,
@@ -7245,8 +7245,8 @@ card = {
 			},
 			{
 				size = {
-					height = 477,
-					width = 495
+					width = 495,
+					height = 477
 				},
 				pos = {
 					x = 197,
@@ -7255,8 +7255,8 @@ card = {
 			},
 			{
 				size = {
-					height = 474,
-					width = 496
+					width = 496,
+					height = 474
 				},
 				pos = {
 					x = 196,
@@ -7265,8 +7265,8 @@ card = {
 			},
 			{
 				size = {
-					height = 472,
-					width = 492
+					width = 492,
+					height = 472
 				},
 				pos = {
 					x = 198,
@@ -7275,8 +7275,8 @@ card = {
 			},
 			{
 				size = {
-					height = 463,
-					width = 487
+					width = 487,
+					height = 463
 				},
 				pos = {
 					x = 201,
@@ -7285,8 +7285,8 @@ card = {
 			},
 			{
 				size = {
-					height = 447,
-					width = 470
+					width = 470,
+					height = 447
 				},
 				pos = {
 					x = 209,
@@ -7295,8 +7295,8 @@ card = {
 			},
 			{
 				size = {
-					height = 197,
-					width = 227
+					width = 227,
+					height = 197
 				},
 				pos = {
 					x = 331,
@@ -7305,8 +7305,8 @@ card = {
 			},
 			{
 				size = {
-					height = 197,
-					width = 227
+					width = 227,
+					height = 197
 				},
 				pos = {
 					x = 331,
@@ -7316,13 +7316,13 @@ card = {
 		}
 	},
 	shard_extraction = {
-		count = 36,
 		name = "shard_extraction_%s",
+		count = 36,
 		frames = {
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7331,8 +7331,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7341,8 +7341,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7351,8 +7351,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7361,8 +7361,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7371,8 +7371,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7381,8 +7381,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7391,8 +7391,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7401,8 +7401,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7411,8 +7411,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7421,8 +7421,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7431,8 +7431,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7441,8 +7441,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7451,8 +7451,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7461,8 +7461,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7471,8 +7471,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7481,8 +7481,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7491,8 +7491,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7501,8 +7501,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7511,8 +7511,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7521,8 +7521,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7531,8 +7531,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7541,8 +7541,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7551,8 +7551,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7561,8 +7561,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7571,8 +7571,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7581,8 +7581,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7591,8 +7591,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7601,8 +7601,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7611,8 +7611,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7621,8 +7621,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7631,8 +7631,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7641,8 +7641,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7651,8 +7651,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7661,8 +7661,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7671,8 +7671,8 @@ card = {
 			},
 			{
 				size = {
-					height = 351,
-					width = 251
+					width = 251,
+					height = 351
 				},
 				pos = {
 					x = 320,
@@ -7687,13 +7687,13 @@ card = {
 }
 boom = {
 	appear = {
-		count = 26,
 		name = "appear_%s",
+		count = 26,
 		frames = {
 			{
 				size = {
-					height = 1069,
-					width = 1659
+					width = 1659,
+					height = 1069
 				},
 				pos = {
 					x = 303,
@@ -7702,8 +7702,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1061,
-					width = 1671
+					width = 1671,
+					height = 1061
 				},
 				pos = {
 					x = 295,
@@ -7712,8 +7712,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1068,
-					width = 1694
+					width = 1694,
+					height = 1068
 				},
 				pos = {
 					x = 285,
@@ -7722,8 +7722,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1073,
-					width = 1699
+					width = 1699,
+					height = 1073
 				},
 				pos = {
 					x = 280,
@@ -7732,8 +7732,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1078,
-					width = 1714
+					width = 1714,
+					height = 1078
 				},
 				pos = {
 					x = 271,
@@ -7742,8 +7742,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1075,
-					width = 1726
+					width = 1726,
+					height = 1075
 				},
 				pos = {
 					x = 266,
@@ -7752,8 +7752,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1077,
-					width = 1732
+					width = 1732,
+					height = 1077
 				},
 				pos = {
 					x = 275,
@@ -7762,8 +7762,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1074,
-					width = 1750
+					width = 1750,
+					height = 1074
 				},
 				pos = {
 					x = 254,
@@ -7772,8 +7772,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1076,
-					width = 1742
+					width = 1742,
+					height = 1076
 				},
 				pos = {
 					x = 267,
@@ -7782,8 +7782,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1070,
-					width = 1751
+					width = 1751,
+					height = 1070
 				},
 				pos = {
 					x = 263,
@@ -7792,8 +7792,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1077,
-					width = 1763
+					width = 1763,
+					height = 1077
 				},
 				pos = {
 					x = 258,
@@ -7802,8 +7802,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1078,
-					width = 1767
+					width = 1767,
+					height = 1078
 				},
 				pos = {
 					x = 259,
@@ -7812,8 +7812,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1078,
-					width = 1766
+					width = 1766,
+					height = 1078
 				},
 				pos = {
 					x = 268,
@@ -7822,8 +7822,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1078,
-					width = 1772
+					width = 1772,
+					height = 1078
 				},
 				pos = {
 					x = 267,
@@ -7832,8 +7832,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1078,
-					width = 1709
+					width = 1709,
+					height = 1078
 				},
 				pos = {
 					x = 267,
@@ -7842,8 +7842,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1078,
-					width = 1696
+					width = 1696,
+					height = 1078
 				},
 				pos = {
 					x = 279,
@@ -7852,8 +7852,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1078,
-					width = 1705
+					width = 1705,
+					height = 1078
 				},
 				pos = {
 					x = 273,
@@ -7862,8 +7862,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1074,
-					width = 1694
+					width = 1694,
+					height = 1074
 				},
 				pos = {
 					x = 291,
@@ -7872,8 +7872,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1078,
-					width = 1686
+					width = 1686,
+					height = 1078
 				},
 				pos = {
 					x = 284,
@@ -7882,8 +7882,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1073,
-					width = 1684
+					width = 1684,
+					height = 1073
 				},
 				pos = {
 					x = 285,
@@ -7892,8 +7892,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1075,
-					width = 1686
+					width = 1686,
+					height = 1075
 				},
 				pos = {
 					x = 281,
@@ -7902,8 +7902,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1078,
-					width = 1664
+					width = 1664,
+					height = 1078
 				},
 				pos = {
 					x = 278,
@@ -7912,8 +7912,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1077,
-					width = 1584
+					width = 1584,
+					height = 1077
 				},
 				pos = {
 					x = 357,
@@ -7922,8 +7922,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 1077,
-					width = 1593
+					width = 1593,
+					height = 1077
 				},
 				pos = {
 					x = 353,
@@ -7932,8 +7932,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 437,
-					width = 414
+					width = 414,
+					height = 437
 				},
 				pos = {
 					x = 926,
@@ -7942,8 +7942,8 @@ boom = {
 			},
 			{
 				size = {
-					height = 442,
-					width = 367
+					width = 367,
+					height = 442
 				},
 				pos = {
 					x = 928,
@@ -7956,17 +7956,17 @@ boom = {
 pack = {
 	appear = {
 		name = "appear_%s",
-		card_frame = 31,
 		count = 49,
+		card_frame = 31,
 		originalResolution = {
-			height = 1080,
-			width = 1920
+			width = 1920,
+			height = 1080
 		},
 		frames = {
 			{
 				size = {
-					height = 219,
-					width = 148
+					width = 148,
+					height = 219
 				},
 				pos = {
 					x = 888,
@@ -7975,8 +7975,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 231,
-					width = 152
+					width = 152,
+					height = 231
 				},
 				pos = {
 					x = 885,
@@ -7985,8 +7985,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 261,
-					width = 173
+					width = 173,
+					height = 261
 				},
 				pos = {
 					x = 874,
@@ -7995,8 +7995,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 313,
-					width = 206
+					width = 206,
+					height = 313
 				},
 				pos = {
 					x = 858,
@@ -8005,8 +8005,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 376,
-					width = 247
+					width = 247,
+					height = 376
 				},
 				pos = {
 					x = 837,
@@ -8015,8 +8015,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 439,
-					width = 289
+					width = 289,
+					height = 439
 				},
 				pos = {
 					x = 816,
@@ -8025,8 +8025,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 496,
-					width = 326
+					width = 326,
+					height = 496
 				},
 				pos = {
 					x = 798,
@@ -8035,8 +8035,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 540,
-					width = 355
+					width = 355,
+					height = 540
 				},
 				pos = {
 					x = 783,
@@ -8045,8 +8045,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 573,
-					width = 380
+					width = 380,
+					height = 573
 				},
 				pos = {
 					x = 773,
@@ -8055,8 +8055,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 594,
-					width = 390
+					width = 390,
+					height = 594
 				},
 				pos = {
 					x = 766,
@@ -8065,8 +8065,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 606,
-					width = 401
+					width = 401,
+					height = 606
 				},
 				pos = {
 					x = 762,
@@ -8075,8 +8075,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 610,
-					width = 400
+					width = 400,
+					height = 610
 				},
 				pos = {
 					x = 761,
@@ -8085,8 +8085,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 610,
-					width = 401
+					width = 401,
+					height = 610
 				},
 				pos = {
 					x = 761,
@@ -8095,8 +8095,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 612,
-					width = 402
+					width = 402,
+					height = 612
 				},
 				pos = {
 					x = 760,
@@ -8105,8 +8105,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 638,
-					width = 469
+					width = 469,
+					height = 638
 				},
 				pos = {
 					x = 696,
@@ -8115,8 +8115,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 735,
-					width = 546
+					width = 546,
+					height = 735
 				},
 				pos = {
 					x = 617,
@@ -8125,8 +8125,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 740,
-					width = 504
+					width = 504,
+					height = 740
 				},
 				pos = {
 					x = 660,
@@ -8135,8 +8135,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 741,
-					width = 441
+					width = 441,
+					height = 741
 				},
 				pos = {
 					x = 723,
@@ -8145,8 +8145,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 744,
-					width = 424
+					width = 424,
+					height = 744
 				},
 				pos = {
 					x = 741,
@@ -8155,8 +8155,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 748,
-					width = 435
+					width = 435,
+					height = 748
 				},
 				pos = {
 					x = 744,
@@ -8165,8 +8165,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 751,
-					width = 427
+					width = 427,
+					height = 751
 				},
 				pos = {
 					x = 752,
@@ -8175,8 +8175,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 754,
-					width = 432
+					width = 432,
+					height = 754
 				},
 				pos = {
 					x = 756,
@@ -8185,8 +8185,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 755,
-					width = 434
+					width = 434,
+					height = 755
 				},
 				pos = {
 					x = 755,
@@ -8195,8 +8195,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 754,
-					width = 434
+					width = 434,
+					height = 754
 				},
 				pos = {
 					x = 755,
@@ -8205,8 +8205,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 753,
-					width = 437
+					width = 437,
+					height = 753
 				},
 				pos = {
 					x = 755,
@@ -8215,8 +8215,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 730,
-					width = 434
+					width = 434,
+					height = 730
 				},
 				pos = {
 					x = 756,
@@ -8225,8 +8225,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 622,
-					width = 431
+					width = 431,
+					height = 622
 				},
 				pos = {
 					x = 758,
@@ -8235,8 +8235,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 614,
-					width = 400
+					width = 400,
+					height = 614
 				},
 				pos = {
 					x = 761,
@@ -8245,8 +8245,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 602,
-					width = 393
+					width = 393,
+					height = 602
 				},
 				pos = {
 					x = 765,
@@ -8255,8 +8255,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 585,
-					width = 382
+					width = 382,
+					height = 585
 				},
 				pos = {
 					x = 770,
@@ -8265,8 +8265,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 564,
-					width = 368
+					width = 368,
+					height = 564
 				},
 				pos = {
 					x = 777,
@@ -8275,8 +8275,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 532,
-					width = 350
+					width = 350,
+					height = 532
 				},
 				pos = {
 					x = 786,
@@ -8285,8 +8285,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 491,
-					width = 322
+					width = 322,
+					height = 491
 				},
 				pos = {
 					x = 800,
@@ -8295,8 +8295,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 405,
-					width = 351
+					width = 351,
+					height = 405
 				},
 				pos = {
 					x = 791,
@@ -8305,8 +8305,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 286,
-					width = 247
+					width = 247,
+					height = 286
 				},
 				pos = {
 					x = 841,
@@ -8315,8 +8315,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 285,
-					width = 247
+					width = 247,
+					height = 285
 				},
 				pos = {
 					x = 841,
@@ -8325,8 +8325,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 286,
-					width = 248
+					width = 248,
+					height = 286
 				},
 				pos = {
 					x = 840,
@@ -8335,8 +8335,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 287,
-					width = 249
+					width = 249,
+					height = 287
 				},
 				pos = {
 					x = 839,
@@ -8345,8 +8345,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 288,
-					width = 250
+					width = 250,
+					height = 288
 				},
 				pos = {
 					x = 838,
@@ -8355,8 +8355,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 290,
-					width = 253
+					width = 253,
+					height = 290
 				},
 				pos = {
 					x = 841,
@@ -8365,8 +8365,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 293,
-					width = 255
+					width = 255,
+					height = 293
 				},
 				pos = {
 					x = 856,
@@ -8375,8 +8375,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 296,
-					width = 258
+					width = 258,
+					height = 296
 				},
 				pos = {
 					x = 886,
@@ -8385,8 +8385,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 304,
-					width = 261
+					width = 261,
+					height = 304
 				},
 				pos = {
 					x = 936,
@@ -8395,8 +8395,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 316,
-					width = 265
+					width = 265,
+					height = 316
 				},
 				pos = {
 					x = 1013,
@@ -8405,8 +8405,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 333,
-					width = 283
+					width = 283,
+					height = 333
 				},
 				pos = {
 					x = 1127,
@@ -8415,8 +8415,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 348,
-					width = 301
+					width = 301,
+					height = 348
 				},
 				pos = {
 					x = 1283,
@@ -8425,8 +8425,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 358,
-					width = 314
+					width = 314,
+					height = 358
 				},
 				pos = {
 					x = 1471,
@@ -8435,8 +8435,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 365,
-					width = 267
+					width = 267,
+					height = 365
 				},
 				pos = {
 					x = 1653,
@@ -8445,8 +8445,8 @@ pack = {
 			},
 			{
 				size = {
-					height = 309,
-					width = 112
+					width = 112,
+					height = 309
 				},
 				pos = {
 					x = 1808,
@@ -8463,44 +8463,44 @@ sounds = {
 	},
 	events = {
 		whoosh = {
-			frame = 1,
-			id = 1778197610
+			id = 1778197610,
+			frame = 1
 		},
 		open = {
-			frame = 14,
-			id = 1239272502
+			id = 1239272502,
+			frame = 14
 		},
 		deal = {
-			frame = 25,
-			id = 557833896
+			id = 557833896,
+			frame = 25
 		},
 		flip = {
-			frame = 20,
-			id = 591314027
+			id = 591314027,
+			frame = 20
 		},
 		boom = {
-			frame = 31,
-			id = 3353282449
+			id = 3353282449,
+			frame = 31
 		},
 		crystalize = {
-			frame = 1,
-			id = 382474589
+			id = 382474589,
+			frame = 1
 		},
 		crackling = {
-			frame = 20,
-			id = 2126447192
+			id = 2126447192,
+			frame = 20
 		},
 		explosion = {
-			frame = 34,
-			id = 4200964467
+			id = 4200964467,
+			frame = 34
 		},
 		shard_forming = {
-			frame = 57,
-			id = 2853109880
+			id = 2853109880,
+			frame = 57
 		},
 		shard_coin = {
-			frame = 1,
-			id = 3627306349
+			id = 3627306349,
+			frame = 1
 		}
 	},
 	allEventIds = {

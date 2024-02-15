@@ -153,8 +153,8 @@ function parseQuestTrackerData(data)
 		quest.rangers_company = true
 		quest.tasks = quest.tasks or {
 			{
-				taskId = 1,
 				state = 1,
+				taskId = 1,
 				name = quest.description,
 				compassUnlocked = quest.compassUnlocked,
 				compassData = quest.compassData,
@@ -179,10 +179,10 @@ function parseQuestTrackerData(data)
 		quest.north_star = true
 		quest.tasks = quest.tasks or {
 			{
-				taskId = 1,
-				state = 1,
-				compassUnlocked = false,
 				north_star = true,
+				compassUnlocked = false,
+				state = 1,
+				taskId = 1,
 				name = quest.name,
 				finished = quest.finished
 			}

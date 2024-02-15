@@ -60,9 +60,9 @@ tasks = {
 				local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("transports")
 
 				GameInteractions:displayActionBox({
-					text = "Press Y or Left-Click to open your Transport menu",
 					bandit = true,
 					preferSide = "top",
+					text = "Press Y or Left-Click to open your Transport menu",
 					keys = {
 						"Y",
 						MouseLeftButton
@@ -127,9 +127,9 @@ tasks = {
 
 				parentPanel:ensureChildVisible(parentWidget)
 				GameInteractions:displayActionBox({
-					text = "Click on the Hull slot",
 					bandit = true,
 					preferSide = "top",
+					text = "Click on the Hull slot",
 					keys = {
 						MouseLeftButton
 					},
@@ -195,9 +195,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					text = "Select which hull you want for your ship",
 					bandit = true,
 					preferSide = "top",
+					text = "Select which hull you want for your ship",
 					keys = {
 						MouseLeftButton
 					},
@@ -260,9 +260,9 @@ tasks = {
 
 				parentPanel:ensureChildVisible(parentWidget)
 				GameInteractions:displayActionBox({
-					text = "Now do the same with the sail. Just click here...",
 					bandit = true,
 					preferSide = "top",
+					text = "Now do the same with the sail. Just click here...",
 					keys = {
 						MouseLeftButton
 					},
@@ -328,9 +328,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					text = "And select which sail you want.",
 					bandit = true,
 					preferSide = "top",
+					text = "And select which sail you want.",
 					keys = {
 						MouseLeftButton
 					},
@@ -377,9 +377,9 @@ tasks = {
 				local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("transports")
 
 				GameInteractions:displayActionBox({
-					text = "Press Y or Left-Click to open your Transport menu",
 					bandit = true,
 					preferSide = "top",
+					text = "Press Y or Left-Click to open your Transport menu",
 					keys = {
 						"Y",
 						MouseLeftButton

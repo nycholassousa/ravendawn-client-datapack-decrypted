@@ -196,7 +196,13 @@ GameMarketWindowSearchPanelInputPanel < UIWidget
   @onClick: |
     if not self.input:isEnabled() then
       if self:containsPoint(g_window.getMousePosition()) then
-        modules.game_market.GameMarket:clearSearchInput()
+        -- lets let the player write down whatever he want
+        self.input.selectedText = self.input:getText()
+        self.input.editingText = true
+        self.input:setText("", true)
+        self.input:setTextPreview(self.input.selectedText)
+        self.input:setEnabled(true)
+        self.input.editingText = false
       end
     end
 
@@ -235,7 +241,10 @@ GameMarketWindowSearchPanelInputPanel < UIWidget
         GameMarket:onSearchInputTextChange(self, text)
       end
     @onEnableChange: |
-      self:getParent().clear_button:setVisible(not self:isEnabled())
+      if not self.editingText then
+        self:getParent().clear_button:setVisible(not self:isEnabled())
+      end
+
       self:setPhantom(not self:isEnabled())
 
   UIWidget
@@ -249,6 +258,8 @@ GameMarketWindowSearchPanelInputPanel < UIWidget
     image-color: white
     $disabled:
       image-color: #7E828B
+    $hover:
+      image-color: #FF5151
     @onClick: |
       modules.game_market.GameMarket:clearSearchInput()
 
@@ -304,6 +315,37 @@ GameMarketWindowSearchFilterPanel < UIWidget
       text-color: #36F991
     $disabled:
       text-color: #7E828B
+
+  UIWidget
+    id: indicative
+    size: 20 20
+    anchors.left: text.right
+    anchors.verticalCenter: text.verticalCenter
+    image-source: /images/ui/windows/market/filter_indicative
+    text-color: #18181B
+    text-offset: 1 2
+    font: poppins-14
+    margin-left: 5
+    visible: true
+    opacity: 1.0
+    @onSetup: |
+      function(self)
+        self:setEnabled(false)
+      end
+    @onClick: |
+      modules.game_market.GameMarket:clearAllFilters()
+    $hover:
+      opacity: 1.0
+      image-source: /images/ui/windows/market/filter_indicative_clear
+      text-offset: 50 50
+    $hover disabled:
+      visible: false
+    $pressed:
+      opacity: 0.9
+    $pressed disabled:
+      visible: false
+    $disabled:
+      visible: false
 
   UIWidget
     id: arrow

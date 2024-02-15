@@ -556,10 +556,10 @@ end
 
 function EnterGame.setLoginRegion(widget, region)
 	local ips = {
-		europe = "3.250.128.128",
 		usa = "44.234.32.107",
 		brazil = "18.230.198.212",
-		sea = "18.141.143.79"
+		sea = "18.141.143.79",
+		europe = "3.250.128.128"
 	}
 
 	APP_LOGIN_IP_ADDRESS = ips[region] or APP_LOGIN_IP_ADDRESS

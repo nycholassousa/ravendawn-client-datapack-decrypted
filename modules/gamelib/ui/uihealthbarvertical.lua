@@ -24,8 +24,8 @@ function UIHealthBarVertical:setPercentage(value, maxValue)
 	local height = math.ceil(widget:getHeight() * percentage / 100)
 
 	widget:setImageRect({
-		y = 0,
 		x = 0,
+		y = 0,
 		width = widget:getWidth(),
 		height = height
 	})

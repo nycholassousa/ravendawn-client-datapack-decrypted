@@ -3,11 +3,11 @@
 recipes = recipes or {}
 recipes[ProfessionFarming] = {
 	{
-		skillRequired = 1,
-		name = "Potatoes",
 		id = 25131,
 		experience = 200,
+		name = "Potatoes",
 		growingTime = 3600,
+		skillRequired = 1,
 		items = {
 			{
 				name = "Potato",
@@ -28,11 +28,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 1,
-		name = "Cotton Tree",
 		id = 34249,
 		experience = 3600,
+		name = "Cotton Tree",
 		growingTime = 16200,
+		skillRequired = 1,
 		items = {
 			{
 				name = "Cotton",
@@ -53,11 +53,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 3,
-		name = "Corn",
 		id = 25130,
 		experience = 3000,
+		name = "Corn",
 		growingTime = 54000,
+		skillRequired = 3,
 		items = {
 			{
 				name = "Corn",
@@ -78,11 +78,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 5,
-		name = "Wheat",
 		id = 30284,
 		experience = 1200,
+		name = "Wheat",
 		growingTime = 21600,
+		skillRequired = 5,
 		items = {
 			{
 				name = "Wheat",
@@ -103,11 +103,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 7,
-		name = "Apple Tree",
 		id = 34246,
 		experience = 6000,
+		name = "Apple Tree",
 		growingTime = 27000,
+		skillRequired = 7,
 		items = {
 			{
 				name = "Apple",
@@ -128,11 +128,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 10,
-		name = "Carrots",
 		id = 25133,
 		experience = 400,
+		name = "Carrots",
 		growingTime = 7200,
+		skillRequired = 10,
 		items = {
 			{
 				name = "Carrot",
@@ -153,11 +153,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 15,
-		name = "Grapes",
 		id = 30255,
 		experience = 1200,
+		name = "Grapes",
 		growingTime = 21600,
+		skillRequired = 15,
 		items = {
 			{
 				name = "Grape",
@@ -178,11 +178,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 17,
-		name = "Blueberries",
 		id = 30246,
 		experience = 1200,
+		name = "Blueberries",
 		growingTime = 21600,
+		skillRequired = 17,
 		items = {
 			{
 				name = "Blueberry",
@@ -203,11 +203,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 20,
-		name = "Cabbages",
 		id = 30225,
 		experience = 1200,
+		name = "Cabbages",
 		growingTime = 21600,
+		skillRequired = 20,
 		items = {
 			{
 				name = "Cabbage",
@@ -228,11 +228,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 21,
-		name = "Peppers",
 		id = 25129,
 		experience = 5700,
+		name = "Peppers",
 		growingTime = 102600,
+		skillRequired = 21,
 		items = {
 			{
 				name = "Pepper",
@@ -253,11 +253,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 21,
-		name = "Cherries",
 		id = 34248,
 		experience = 16800,
+		name = "Cherries",
 		growingTime = 75600,
+		skillRequired = 21,
 		items = {
 			{
 				name = "Cherry",
@@ -278,11 +278,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 22,
-		name = "Orange Tree",
 		id = 34250,
 		experience = 12000,
+		name = "Orange Tree",
 		growingTime = 54000,
+		skillRequired = 22,
 		items = {
 			{
 				name = "Orange",
@@ -303,11 +303,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 25,
-		name = "Onions",
 		id = 25128,
 		experience = 1800,
+		name = "Onions",
 		growingTime = 32400,
+		skillRequired = 25,
 		items = {
 			{
 				name = "Onion",
@@ -328,11 +328,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 27,
-		name = "Strawberries",
 		id = 30261,
 		experience = 1500,
+		name = "Strawberries",
 		growingTime = 27000,
+		skillRequired = 27,
 		items = {
 			{
 				name = "Strawberry",
@@ -353,11 +353,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 30,
-		name = "Beans",
 		id = 30219,
 		experience = 3000,
+		name = "Beans",
 		growingTime = 54000,
+		skillRequired = 30,
 		items = {
 			{
 				name = "Bean",
@@ -378,11 +378,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 32,
-		name = "Banana Tree",
 		id = 34247,
 		experience = 19200,
+		name = "Banana Tree",
 		growingTime = 86400,
+		skillRequired = 32,
 		items = {
 			{
 				name = "Banana",
@@ -403,11 +403,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 35,
-		name = "Pumpkin",
 		id = 30234,
 		experience = 4800,
+		name = "Pumpkin",
 		growingTime = 86400,
+		skillRequired = 35,
 		items = {
 			{
 				name = "Pumpkin",
@@ -428,11 +428,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 37,
-		name = "Watermelon",
 		id = 30267,
 		experience = 6000,
+		name = "Watermelon",
 		growingTime = 108000,
+		skillRequired = 37,
 		items = {
 			{
 				name = "Watermelon",
@@ -453,11 +453,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 40,
-		name = "Peas",
 		id = 30231,
 		experience = 3900,
+		name = "Peas",
 		growingTime = 70200,
+		skillRequired = 40,
 		items = {
 			{
 				name = "Pea",
@@ -478,11 +478,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 42,
-		name = "Moonberry",
 		id = 30281,
 		experience = 4200,
+		name = "Moonberry",
 		growingTime = 75600,
+		skillRequired = 42,
 		items = {
 			{
 				name = "Moonberry",
@@ -503,11 +503,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 45,
-		name = "Garlic",
 		id = 30228,
 		experience = 3300,
+		name = "Garlic",
 		growingTime = 59400,
+		skillRequired = 45,
 		items = {
 			{
 				name = "Garlic",
@@ -528,11 +528,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 47,
-		name = "Acorn Tree",
 		id = 34245,
 		experience = 38400,
+		name = "Acorn Tree",
 		growingTime = 172800,
+		skillRequired = 47,
 		items = {
 			{
 				name = "Acorn",
@@ -553,11 +553,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 50,
-		name = "Brocolli",
 		id = 30222,
 		experience = 3000,
+		name = "Brocolli",
 		growingTime = 54000,
+		skillRequired = 50,
 		items = {
 			{
 				name = "Brocolli",
@@ -578,11 +578,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		skillRequired = 52,
-		name = "Sunberries",
 		id = 30264,
 		experience = 6000,
+		name = "Sunberries",
 		growingTime = 108000,
+		skillRequired = 52,
 		items = {
 			{
 				name = "Sunberry",

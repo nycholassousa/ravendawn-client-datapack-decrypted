@@ -224,8 +224,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press I or Left-Click to open your Inventory",
+						preferSide = "top",
 						keys = {
 							"I",
 							MouseLeftButton
@@ -328,8 +328,8 @@ tasks = {
 						parentWidget.preventDragItem = true
 
 						GameInteractions:displayActionBox({
-							preferSide = "top",
 							text = "Press Right-Click to equip your weapon",
+							preferSide = "top",
 							keys = {
 								MouseRightButton
 							},
@@ -492,8 +492,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press I or Left-Click to open your Inventory",
+						preferSide = "top",
 						keys = {
 							"I",
 							MouseLeftButton
@@ -586,8 +586,8 @@ tasks = {
 
 				if not questPanel:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "right",
 						text = "Left-Click on the Quest Bag to open it",
+						preferSide = "right",
 						keys = {
 							MouseLeftButton
 						},
@@ -649,8 +649,8 @@ tasks = {
 						parentWidget.preventDragItem = true
 
 						GameInteractions:displayActionBox({
-							preferSide = "top",
 							text = "Press Right-Click to use a consumable item",
+							preferSide = "top",
 							keys = {
 								MouseRightButton
 							},
@@ -783,8 +783,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("skill_tree")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press K or Left-Click to open your Skill Tree",
+						preferSide = "top",
 						keys = {
 							"K",
 							MouseLeftButton
@@ -882,8 +882,8 @@ tasks = {
 					end
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Left-Click the highlighted skill to learn it",
+						preferSide = "top",
 						keys = {
 							MouseLeftButton
 						},
@@ -1022,8 +1022,8 @@ tasks = {
 					local _, abilitySlot = AbilityBar.getFirstOccupiedSlot(AbilityBarCategorySpell)
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press 1 to use your new skill",
+						preferSide = "top",
 						keys = {
 							"1"
 						},
@@ -1053,8 +1053,8 @@ tasks = {
 
 				if parent and parent.compass then
 					GameInteractions:displayActionBox({
-						preferSide = "left",
 						text = "Click on the compass icon to track the chosen quest",
+						preferSide = "left",
 						keys = {
 							MouseLeftButton
 						},

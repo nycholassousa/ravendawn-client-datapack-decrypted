@@ -3,9 +3,9 @@
 recipes = recipes or {}
 recipes[ProfessionHusbandry] = {
 	{
-		name = "Small Chicken Pen",
 		skillRequired = 5,
 		id = 34373,
+		name = "Small Chicken Pen",
 		items = {
 			gathering = {
 				{
@@ -50,9 +50,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Small Hare Pen",
 		skillRequired = 1,
 		id = 34461,
+		name = "Small Hare Pen",
 		items = {
 			gathering = {
 				{
@@ -97,9 +97,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Small Pig Pen",
 		skillRequired = 1,
 		id = 34399,
+		name = "Small Pig Pen",
 		items = {
 			butchering = {
 				{
@@ -133,9 +133,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Small Goat Pen",
 		skillRequired = 10,
 		id = 35083,
+		name = "Small Goat Pen",
 		items = {
 			gathering = {
 				{
@@ -188,9 +188,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Small Turkey Pen",
 		skillRequired = 15,
 		id = 35085,
+		name = "Small Turkey Pen",
 		items = {
 			butchering = {
 				{
@@ -224,9 +224,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Small Sheep Pen",
 		skillRequired = 20,
 		id = 34412,
+		name = "Small Sheep Pen",
 		items = {
 			gathering = {
 				{
@@ -271,9 +271,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Cheese Barrel",
 		skillRequired = 21,
 		id = 37440,
+		name = "Cheese Barrel",
 		specialization = "Fermenting Barrels",
 		items = {
 			gathering = {
@@ -292,9 +292,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Small Cow Pen",
 		skillRequired = 25,
 		id = 34386,
+		name = "Small Cow Pen",
 		items = {
 			gathering = {
 				{
@@ -347,9 +347,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Medium Chicken Pen",
 		skillRequired = 30,
 		id = 34377,
+		name = "Medium Chicken Pen",
 		items = {
 			gathering = {
 				{
@@ -394,9 +394,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Medium Hare Pen",
 		skillRequired = 35,
 		id = 34465,
+		name = "Medium Hare Pen",
 		items = {
 			gathering = {
 				{
@@ -441,9 +441,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Medium Pig Pen",
 		skillRequired = 40,
 		id = 34403,
+		name = "Medium Pig Pen",
 		items = {
 			butchering = {
 				{
@@ -477,9 +477,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Medium Goat Pen",
 		skillRequired = 50,
 		id = 35082,
+		name = "Medium Goat Pen",
 		items = {
 			gathering = {
 				{
@@ -532,9 +532,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Medium Turkey Pen",
 		skillRequired = 55,
 		id = 35084,
+		name = "Medium Turkey Pen",
 		items = {
 			butchering = {
 				{
@@ -568,9 +568,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Medium Sheep Pen",
 		skillRequired = 60,
 		id = 34416,
+		name = "Medium Sheep Pen",
 		items = {
 			gathering = {
 				{
@@ -615,9 +615,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Medium Cow Pen",
 		skillRequired = 65,
 		id = 34390,
+		name = "Medium Cow Pen",
 		items = {
 			gathering = {
 				{
@@ -670,9 +670,9 @@ recipes[ProfessionHusbandry] = {
 		}
 	},
 	{
-		name = "Bee Hive",
 		skillRequired = 21,
 		id = 44230,
+		name = "Bee Hive",
 		specialization = "Beekeeper",
 		items = {
 			gathering = {

@@ -57,8 +57,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("reputation")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press H or Left-Click to open your Reputation Tree",
+						preferSide = "top",
 						keys = {
 							"H",
 							MouseLeftButton

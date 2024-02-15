@@ -124,7 +124,6 @@ function onModalDialog(id, customId, title, message, sender, height, width, wind
 	local choiceScrollbar = modalDialog:getChildById("choiceScrollBar")
 	local buttonsPanel = modalDialog:getChildById("buttonsPanel")
 	local outfit = {
-		lookHead = 114,
 		lookAddons = 3,
 		lookType = 0,
 		lookShader = 0,
@@ -135,6 +134,7 @@ function onModalDialog(id, customId, title, message, sender, height, width, wind
 		lookFeet = 114,
 		lookLegs = 114,
 		lookBody = 114,
+		lookHead = 114,
 		category = ThingCategoryCreature
 	}
 	local player = g_game.getLocalPlayer()

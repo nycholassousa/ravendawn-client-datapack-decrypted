@@ -48,9 +48,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("skill_tree")
 
 					GameInteractions:displayActionBox({
-						text = "Press K or Left-Click to open your Skill Tree menu",
 						bandit = true,
 						preferSide = "top",
+						text = "Press K or Left-Click to open your Skill Tree menu",
 						keys = {
 							"K",
 							MouseLeftButton
@@ -110,8 +110,8 @@ tasks = {
 
 				if not hasAnySkill then
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						text = "You should learn at least one skill before equipping a card!",
 						parent = skillTreeWindow:recursiveGetChildById("spell1"),
 						keys = {
@@ -193,8 +193,8 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					text = "Then switch to the RavenCards menu...",
 					parent = skillTreeWindow:recursiveGetChildById("cards_toggle_button"),
 					keys = {
@@ -265,8 +265,8 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					bandit = true,
 					text = "And select a skill you already know",
+					bandit = true,
 					parent = parentWidget,
 					keys = {
 						MouseLeftButton

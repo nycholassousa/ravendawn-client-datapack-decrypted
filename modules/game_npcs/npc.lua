@@ -227,8 +227,8 @@ function GameNpc:onGreet(data)
 		if type(npcOutfit) == "string" then
 			npcPreview:setAutoResize(false)
 			npcPreview:setSize({
-				height = 100,
-				width = 100
+				width = 100,
+				height = 100
 			})
 			npcPreview:setImageSource("/images/ui/portraits/" .. npcOutfit:lower())
 		else
@@ -282,8 +282,8 @@ function GameNpc:onReply(data)
 		icon = answer.icon:getImageSource()
 	})
 	self:logText({
-		icon = "",
 		color = "#7B7062",
+		icon = "",
 		text = string.format("{%s, #ffa85180} - \"%s\"", self.npcName:upper(), self.npcQuestion.say)
 	})
 
@@ -456,8 +456,8 @@ function GameNpc:buttonResized(button, forced)
 
 	button:setWidth(width)
 	button:setImageOffset({
-		y = 4,
-		x = 30
+		x = 30,
+		y = 4
 	})
 
 	if not forced and size < maxWidth then
@@ -470,8 +470,8 @@ function GameNpc:buttonResized(button, forced)
 
 	button:setHeight(2 + widget:getHeight())
 	button:setImageOffset({
-		y = -1,
-		x = 8
+		x = 8,
+		y = -1
 	})
 end
 

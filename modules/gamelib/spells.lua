@@ -3,17 +3,17 @@
 g_spells = {}
 g_spells.spells = {
 	{
-		cooldown = 30000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Precision Shot",
+		channeling = true,
 		crosshair = false,
-		id = 1,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 2,
 		type = "none",
+		name = "Precision Shot",
+		id = 1,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -24,17 +24,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 25000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Concussive Shot",
+		channeling = false,
 		crosshair = false,
-		id = 2,
+		cooldown = 25000,
 		needTarget = true,
 		archetype = 2,
 		type = "none",
+		name = "Concussive Shot",
+		id = 2,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -45,17 +45,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 45000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Dragons Arrow",
+		channeling = false,
 		crosshair = false,
-		id = 3,
+		cooldown = 45000,
 		needTarget = true,
 		archetype = 2,
 		type = "none",
+		name = "Dragons Arrow",
+		id = 3,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -66,17 +66,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Disengage",
+		channeling = false,
 		crosshair = false,
-		id = 4,
+		cooldown = 60000,
 		needTarget = true,
 		archetype = 2,
 		type = "none",
+		name = "Disengage",
+		id = 4,
+		range = 6,
 		resource = {
 			gain = 30
 		},
@@ -87,17 +87,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 30000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Dawn Arrow",
+		channeling = false,
 		crosshair = true,
-		id = 5,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 2,
 		type = "none",
+		name = "Dawn Arrow",
+		id = 5,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -108,17 +108,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 45000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Rain Of Arrows",
+		channeling = true,
 		crosshair = true,
-		id = 6,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 2,
 		type = "none",
+		name = "Rain Of Arrows",
+		id = 6,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -129,17 +129,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 30000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Quick Fire",
+		channeling = true,
 		crosshair = false,
-		id = 7,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 2,
 		type = "none",
+		name = "Quick Fire",
+		id = 7,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -150,17 +150,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 30000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Snaring Shot",
+		channeling = false,
 		crosshair = false,
-		id = 8,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 2,
 		type = "none",
+		name = "Snaring Shot",
+		id = 8,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -171,17 +171,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 20000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Viper Arrow",
+		channeling = false,
 		crosshair = false,
-		id = 9,
+		cooldown = 20000,
 		needTarget = true,
 		archetype = 2,
 		type = "none",
+		name = "Viper Arrow",
+		id = 9,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -192,17 +192,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 1000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Wind Arrow",
+		channeling = false,
 		crosshair = false,
-		id = 10,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 2,
 		type = "none",
+		name = "Wind Arrow",
+		id = 10,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -213,17 +213,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 60000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Icestorm",
+		channeling = true,
 		crosshair = true,
-		id = 11,
+		cooldown = 60000,
 		needTarget = false,
 		archetype = 5,
 		type = "none",
+		name = "Icestorm",
+		id = 11,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -234,17 +234,17 @@ g_spells.spells = {
 		}
 	},
 	[13] = {
-		cooldown = 1000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Fireball",
+		channeling = false,
 		crosshair = false,
-		id = 13,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 5,
 		type = "none",
+		name = "Fireball",
+		id = 13,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -255,17 +255,17 @@ g_spells.spells = {
 		}
 	},
 	[15] = {
-		cooldown = 20000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Freezing Wind",
+		channeling = false,
 		crosshair = false,
-		id = 15,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 5,
 		type = "none",
+		name = "Freezing Wind",
+		id = 15,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -276,17 +276,17 @@ g_spells.spells = {
 		}
 	},
 	[16] = {
-		cooldown = 30000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Frost Nova",
+		channeling = false,
 		crosshair = false,
-		id = 16,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 5,
 		type = "none",
+		name = "Frost Nova",
+		id = 16,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -297,17 +297,17 @@ g_spells.spells = {
 		}
 	},
 	[17] = {
-		cooldown = 15000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Frost Shards",
+		channeling = true,
 		crosshair = false,
-		id = 17,
+		cooldown = 15000,
 		needTarget = true,
 		archetype = 5,
 		type = "none",
+		name = "Frost Shards",
+		id = 17,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -318,17 +318,17 @@ g_spells.spells = {
 		}
 	},
 	[18] = {
-		cooldown = 1000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Frostbolt",
+		channeling = false,
 		crosshair = false,
-		id = 18,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 5,
 		type = "none",
+		name = "Frostbolt",
+		id = 18,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -339,17 +339,17 @@ g_spells.spells = {
 		}
 	},
 	[19] = {
-		cooldown = 15000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Erupt",
+		channeling = true,
 		crosshair = false,
-		id = 19,
+		cooldown = 15000,
 		needTarget = true,
 		archetype = 5,
 		type = "none",
+		name = "Erupt",
+		id = 19,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -360,17 +360,17 @@ g_spells.spells = {
 		}
 	},
 	[20] = {
-		cooldown = 30000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Pyroblast",
+		channeling = true,
 		crosshair = false,
-		id = 20,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 5,
 		type = "none",
+		name = "Pyroblast",
+		id = 20,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -381,17 +381,17 @@ g_spells.spells = {
 		}
 	},
 	[21] = {
-		cooldown = 30000,
-		range = 1,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Arcane Beam",
+		channeling = true,
 		crosshair = false,
-		id = 21,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 8,
 		type = "none",
+		name = "Arcane Beam",
+		id = 21,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -402,17 +402,17 @@ g_spells.spells = {
 		}
 	},
 	[22] = {
-		cooldown = 1000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Arcane Pulse",
+		channeling = false,
 		crosshair = false,
-		id = 22,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Arcane Pulse",
+		id = 22,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -423,17 +423,17 @@ g_spells.spells = {
 		}
 	},
 	[23] = {
-		cooldown = 15000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Arcane Torrent",
+		channeling = true,
 		crosshair = false,
-		id = 23,
+		cooldown = 15000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Arcane Torrent",
+		id = 23,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -444,17 +444,17 @@ g_spells.spells = {
 		}
 	},
 	[24] = {
-		cooldown = 45000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Siphon",
+		channeling = true,
 		crosshair = false,
-		id = 24,
+		cooldown = 45000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Siphon",
+		id = 24,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -465,17 +465,17 @@ g_spells.spells = {
 		}
 	},
 	[25] = {
-		cooldown = 45000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Hex",
+		channeling = true,
 		crosshair = false,
-		id = 25,
+		cooldown = 45000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Hex",
+		id = 25,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -486,17 +486,17 @@ g_spells.spells = {
 		}
 	},
 	[26] = {
-		cooldown = 15000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Leech",
+		channeling = false,
 		crosshair = false,
-		id = 26,
+		cooldown = 15000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Leech",
+		id = 26,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -507,17 +507,17 @@ g_spells.spells = {
 		}
 	},
 	[27] = {
-		cooldown = 25000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Magic Rupture",
+		channeling = false,
 		crosshair = false,
-		id = 27,
+		cooldown = 25000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Magic Rupture",
+		id = 27,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -528,17 +528,17 @@ g_spells.spells = {
 		}
 	},
 	[28] = {
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Shackles Of Pain",
+		channeling = false,
 		crosshair = false,
-		id = 28,
+		cooldown = 60000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Shackles Of Pain",
+		id = 28,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -549,17 +549,17 @@ g_spells.spells = {
 		}
 	},
 	[30] = {
-		cooldown = 60000,
-		range = 1,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Time Warp",
+		channeling = true,
 		crosshair = false,
-		id = 30,
+		cooldown = 60000,
 		needTarget = false,
 		archetype = 8,
 		type = "none",
+		name = "Time Warp",
+		id = 30,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -570,17 +570,17 @@ g_spells.spells = {
 		}
 	},
 	[32] = {
-		cooldown = 20000,
-		range = 4,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Banner Of Protection",
+		channeling = false,
 		crosshair = true,
-		id = 32,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Banner Of Protection",
+		id = 32,
+		range = 4,
 		resource = {
 			consume = true
 		},
@@ -591,17 +591,17 @@ g_spells.spells = {
 		}
 	},
 	[34] = {
-		cooldown = 30000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Blessed Earth",
+		channeling = false,
 		crosshair = false,
-		id = 34,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Blessed Earth",
+		id = 34,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -612,17 +612,17 @@ g_spells.spells = {
 		}
 	},
 	[35] = {
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Safeguard",
+		channeling = false,
 		crosshair = false,
-		id = 35,
+		cooldown = 60000,
 		needTarget = true,
 		archetype = 4,
 		type = "none",
+		name = "Safeguard",
+		id = 35,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -633,17 +633,17 @@ g_spells.spells = {
 		}
 	},
 	[36] = {
-		cooldown = 15000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Provoke",
+		channeling = false,
 		crosshair = false,
-		id = 36,
+		cooldown = 15000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Provoke",
+		id = 36,
+		range = 1,
 		resource = {
 			gain = 30
 		},
@@ -654,17 +654,17 @@ g_spells.spells = {
 		}
 	},
 	[37] = {
-		cooldown = 1000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Bash",
+		channeling = false,
 		crosshair = false,
-		id = 37,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 4,
 		type = "none",
+		name = "Bash",
+		id = 37,
+		range = 1,
 		resource = {
 			gain = 20
 		},
@@ -675,17 +675,17 @@ g_spells.spells = {
 		}
 	},
 	[39] = {
-		cooldown = 45000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Spirit Shield",
+		channeling = false,
 		crosshair = false,
-		id = 39,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Spirit Shield",
+		id = 39,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -696,17 +696,17 @@ g_spells.spells = {
 		}
 	},
 	[41] = {
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Air Aura",
+		channeling = false,
 		crosshair = false,
-		id = 41,
+		cooldown = 60000,
 		needTarget = true,
 		archetype = 7,
 		type = "none",
+		name = "Air Aura",
+		id = 41,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -717,17 +717,17 @@ g_spells.spells = {
 		}
 	},
 	[42] = {
-		cooldown = 15000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Barrier",
+		channeling = false,
 		crosshair = false,
-		id = 42,
+		cooldown = 15000,
 		needTarget = true,
 		archetype = 7,
 		type = "none",
+		name = "Barrier",
+		id = 42,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -738,17 +738,17 @@ g_spells.spells = {
 		}
 	},
 	[43] = {
-		cooldown = 40000,
-		range = 6,
-		channeling = true,
 		selfTarget = true,
 		aggressive = false,
-		name = "Empower",
+		channeling = true,
 		crosshair = false,
-		id = 43,
+		cooldown = 40000,
 		needTarget = true,
 		archetype = 7,
 		type = "none",
+		name = "Empower",
+		id = 43,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -759,17 +759,17 @@ g_spells.spells = {
 		}
 	},
 	[44] = {
-		cooldown = 90000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Haste",
+		channeling = false,
 		crosshair = false,
-		id = 44,
+		cooldown = 90000,
 		needTarget = true,
 		archetype = 7,
 		type = "none",
+		name = "Haste",
+		id = 44,
+		range = 6,
 		resource = {
 			gain = 50
 		},
@@ -780,17 +780,17 @@ g_spells.spells = {
 		}
 	},
 	[45] = {
-		cooldown = 45000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = false,
-		name = "Healing Air Sphere",
+		channeling = true,
 		crosshair = true,
-		id = 45,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 7,
 		type = "none",
+		name = "Healing Air Sphere",
+		id = 45,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -801,17 +801,17 @@ g_spells.spells = {
 		}
 	},
 	[46] = {
-		cooldown = 45000,
-		range = 1,
-		channeling = true,
 		selfTarget = false,
 		aggressive = false,
-		name = "Party Recovery",
+		channeling = true,
 		crosshair = false,
-		id = 46,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 7,
 		type = "none",
+		name = "Party Recovery",
+		id = 46,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -822,17 +822,17 @@ g_spells.spells = {
 		}
 	},
 	[47] = {
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Windstrike Spirit",
+		channeling = false,
 		crosshair = false,
-		id = 47,
+		cooldown = 60000,
 		needTarget = true,
 		archetype = 7,
 		type = "none",
+		name = "Windstrike Spirit",
+		id = 47,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -843,17 +843,17 @@ g_spells.spells = {
 		}
 	},
 	[48] = {
-		cooldown = 12000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Regenerate",
+		channeling = false,
 		crosshair = false,
-		id = 48,
+		cooldown = 12000,
 		needTarget = true,
 		archetype = 7,
 		type = "none",
+		name = "Regenerate",
+		id = 48,
+		range = -1,
 		resource = {
 			gain = 20
 		},
@@ -864,17 +864,17 @@ g_spells.spells = {
 		}
 	},
 	[49] = {
-		cooldown = 1000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Cyclone",
+		channeling = false,
 		crosshair = false,
-		id = 49,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 7,
 		type = "none",
+		name = "Cyclone",
+		id = 49,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -885,17 +885,17 @@ g_spells.spells = {
 		}
 	},
 	[50] = {
-		cooldown = 30000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Wind Wall",
+		channeling = false,
 		crosshair = true,
-		id = 50,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 7,
 		type = "none",
+		name = "Wind Wall",
+		id = 50,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -906,17 +906,17 @@ g_spells.spells = {
 		}
 	},
 	[51] = {
-		cooldown = 60000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Anti-Healing Venom",
+		channeling = false,
 		crosshair = false,
-		id = 51,
+		cooldown = 60000,
 		needTarget = true,
 		archetype = 3,
 		type = "none",
+		name = "Anti-Healing Venom",
+		id = 51,
+		range = 10,
 		resource = {
 			consume = true
 		},
@@ -927,17 +927,17 @@ g_spells.spells = {
 		}
 	},
 	[52] = {
-		cooldown = 45000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Coup de Grace",
+		channeling = false,
 		crosshair = false,
-		id = 52,
+		cooldown = 45000,
 		needTarget = true,
 		archetype = 3,
 		type = "none",
+		name = "Coup de Grace",
+		id = 52,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -948,17 +948,17 @@ g_spells.spells = {
 		}
 	},
 	[53] = {
-		cooldown = 30000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Crippling Dagger",
+		channeling = false,
 		crosshair = false,
-		id = 53,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 3,
 		type = "none",
+		name = "Crippling Dagger",
+		id = 53,
+		range = 6,
 		resource = {
 			gain = 30
 		},
@@ -969,17 +969,17 @@ g_spells.spells = {
 		}
 	},
 	[54] = {
-		cooldown = 60000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Death Blossom",
+		channeling = false,
 		crosshair = false,
-		id = 54,
+		cooldown = 60000,
 		needTarget = true,
 		archetype = 3,
 		type = "none",
+		name = "Death Blossom",
+		id = 54,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -990,17 +990,17 @@ g_spells.spells = {
 		}
 	},
 	[55] = {
-		cooldown = 12000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Shadowstrike",
+		channeling = false,
 		crosshair = false,
-		id = 55,
+		cooldown = 12000,
 		needTarget = true,
 		archetype = 3,
 		type = "none",
+		name = "Shadowstrike",
+		id = 55,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -1011,17 +1011,17 @@ g_spells.spells = {
 		}
 	},
 	[56] = {
-		cooldown = 90000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Illusive",
+		channeling = false,
 		crosshair = false,
-		id = 56,
+		cooldown = 90000,
 		needTarget = false,
 		archetype = 3,
 		type = "none",
+		name = "Illusive",
+		id = 56,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -1032,17 +1032,17 @@ g_spells.spells = {
 		}
 	},
 	[57] = {
-		cooldown = 1000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Quick Slash",
+		channeling = false,
 		crosshair = false,
-		id = 57,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 3,
 		type = "none",
+		name = "Quick Slash",
+		id = 57,
+		range = 1,
 		resource = {
 			gain = 20
 		},
@@ -1053,17 +1053,17 @@ g_spells.spells = {
 		}
 	},
 	[58] = {
-		cooldown = 30000,
-		range = 4,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Shadowbind",
+		channeling = false,
 		crosshair = false,
-		id = 58,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 3,
 		type = "none",
+		name = "Shadowbind",
+		id = 58,
+		range = 4,
 		resource = {
 			consume = true
 		},
@@ -1074,17 +1074,17 @@ g_spells.spells = {
 		}
 	},
 	[59] = {
-		cooldown = 20000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Stalk",
+		channeling = false,
 		crosshair = false,
-		id = 59,
+		cooldown = 20000,
 		needTarget = true,
 		archetype = 3,
 		type = "none",
+		name = "Stalk",
+		id = 59,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -1095,17 +1095,17 @@ g_spells.spells = {
 		}
 	},
 	[60] = {
-		cooldown = 60000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Sinister Plot",
+		channeling = false,
 		crosshair = false,
-		id = 60,
+		cooldown = 60000,
 		needTarget = false,
 		archetype = 3,
 		type = "none",
+		name = "Sinister Plot",
+		id = 60,
+		range = 1,
 		resource = {
 			gain = 200
 		},
@@ -1116,17 +1116,17 @@ g_spells.spells = {
 		}
 	},
 	[61] = {
-		cooldown = 1000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Brutal Strike",
+		channeling = false,
 		crosshair = false,
-		id = 61,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 1,
 		type = "none",
+		name = "Brutal Strike",
+		id = 61,
+		range = 1,
 		resource = {
 			gain = 20
 		},
@@ -1137,17 +1137,17 @@ g_spells.spells = {
 		}
 	},
 	[62] = {
-		cooldown = 20000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Bull Rush",
+		channeling = false,
 		crosshair = false,
-		id = 62,
+		cooldown = 20000,
 		needTarget = true,
 		archetype = 1,
 		type = "none",
+		name = "Bull Rush",
+		id = 62,
+		range = 6,
 		resource = {
 			gain = 30
 		},
@@ -1158,17 +1158,17 @@ g_spells.spells = {
 		}
 	},
 	[63] = {
-		cooldown = 50000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Earthquake",
+		channeling = false,
 		crosshair = false,
-		id = 63,
+		cooldown = 50000,
 		needTarget = false,
 		archetype = 1,
 		type = "none",
+		name = "Earthquake",
+		id = 63,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -1179,17 +1179,17 @@ g_spells.spells = {
 		}
 	},
 	[64] = {
-		cooldown = 30000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Feasting Strike",
+		channeling = false,
 		crosshair = false,
-		id = 64,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 1,
 		type = "none",
+		name = "Feasting Strike",
+		id = 64,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -1200,17 +1200,17 @@ g_spells.spells = {
 		}
 	},
 	[65] = {
-		cooldown = 15000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Guillotine",
+		channeling = false,
 		crosshair = false,
-		id = 65,
+		cooldown = 15000,
 		needTarget = true,
 		archetype = 1,
 		type = "none",
+		name = "Guillotine",
+		id = 65,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -1221,17 +1221,17 @@ g_spells.spells = {
 		}
 	},
 	[66] = {
-		cooldown = 45000,
-		range = 5,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Fierce Leap",
+		channeling = false,
 		crosshair = true,
-		id = 66,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 1,
 		type = "none",
+		name = "Fierce Leap",
+		id = 66,
+		range = 5,
 		resource = {
 			gain = 30
 		},
@@ -1242,17 +1242,17 @@ g_spells.spells = {
 		}
 	},
 	[67] = {
-		cooldown = 30000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Berserk",
+		channeling = false,
 		crosshair = false,
-		id = 67,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 1,
 		type = "none",
+		name = "Berserk",
+		id = 67,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -1263,17 +1263,17 @@ g_spells.spells = {
 		}
 	},
 	[68] = {
-		cooldown = 15000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Shieldbreak",
+		channeling = false,
 		crosshair = false,
-		id = 68,
+		cooldown = 15000,
 		needTarget = true,
 		archetype = 1,
 		type = "none",
+		name = "Shieldbreak",
+		id = 68,
+		range = 10,
 		resource = {
 			consume = true
 		},
@@ -1284,17 +1284,17 @@ g_spells.spells = {
 		}
 	},
 	[69] = {
-		cooldown = 25000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Fissure",
+		channeling = false,
 		crosshair = false,
-		id = 69,
+		cooldown = 25000,
 		needTarget = false,
 		archetype = 1,
 		type = "none",
+		name = "Fissure",
+		id = 69,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -1305,17 +1305,17 @@ g_spells.spells = {
 		}
 	},
 	[70] = {
-		cooldown = 30000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Spiked Chains",
+		channeling = false,
 		crosshair = false,
-		id = 70,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 1,
 		type = "none",
+		name = "Spiked Chains",
+		id = 70,
+		range = -1,
 		resource = {
 			gain = 20
 		},
@@ -1326,17 +1326,17 @@ g_spells.spells = {
 		}
 	},
 	[71] = {
-		cooldown = 45000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = false,
-		name = "Circle Of Light",
+		channeling = true,
 		crosshair = true,
-		id = 71,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 6,
 		type = "none",
+		name = "Circle Of Light",
+		id = 71,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1347,17 +1347,17 @@ g_spells.spells = {
 		}
 	},
 	[72] = {
-		cooldown = 18000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Devotion",
+		channeling = false,
 		crosshair = false,
-		id = 72,
+		cooldown = 18000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Devotion",
+		id = 72,
+		range = 6,
 		resource = {
 			gain = 50
 		},
@@ -1368,17 +1368,17 @@ g_spells.spells = {
 		}
 	},
 	[73] = {
-		cooldown = 1000,
-		range = 6,
-		channeling = true,
 		selfTarget = true,
 		aggressive = false,
-		name = "Flash Heal",
+		channeling = true,
 		crosshair = false,
-		id = 73,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Flash Heal",
+		id = 73,
+		range = 6,
 		resource = {
 			gain = 30
 		},
@@ -1389,17 +1389,17 @@ g_spells.spells = {
 		}
 	},
 	[74] = {
-		cooldown = 25000,
-		range = 6,
-		channeling = true,
 		selfTarget = true,
 		aggressive = false,
-		name = "Healing Channel",
+		channeling = true,
 		crosshair = false,
-		id = 74,
+		cooldown = 25000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Healing Channel",
+		id = 74,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1410,17 +1410,17 @@ g_spells.spells = {
 		}
 	},
 	[75] = {
-		cooldown = 30000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Holy Force",
+		channeling = true,
 		crosshair = false,
-		id = 75,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Holy Force",
+		id = 75,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1431,17 +1431,17 @@ g_spells.spells = {
 		}
 	},
 	[76] = {
-		cooldown = 10000,
-		range = 6,
-		channeling = true,
 		selfTarget = true,
 		aggressive = false,
-		name = "Dawn's Light",
+		channeling = true,
 		crosshair = false,
-		id = 76,
+		cooldown = 10000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Dawn's Light",
+		id = 76,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1452,17 +1452,17 @@ g_spells.spells = {
 		}
 	},
 	[77] = {
-		cooldown = 20000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Holy Shackles",
+		channeling = true,
 		crosshair = false,
-		id = 77,
+		cooldown = 20000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Holy Shackles",
+		id = 77,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1473,17 +1473,17 @@ g_spells.spells = {
 		}
 	},
 	[78] = {
-		cooldown = 120000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Living Saint",
+		channeling = false,
 		crosshair = false,
-		id = 78,
+		cooldown = 120000,
 		needTarget = false,
 		archetype = 6,
 		type = "none",
+		name = "Living Saint",
+		id = 78,
+		range = 1,
 		resource = {
 			gain = 20
 		},
@@ -1494,17 +1494,17 @@ g_spells.spells = {
 		}
 	},
 	[79] = {
-		cooldown = 15000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Mend",
+		channeling = false,
 		crosshair = false,
-		id = 79,
+		cooldown = 15000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Mend",
+		id = 79,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1515,17 +1515,17 @@ g_spells.spells = {
 		}
 	},
 	[80] = {
-		cooldown = 1000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Smite",
+		channeling = false,
 		crosshair = false,
-		id = 80,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Smite",
+		id = 80,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -1536,17 +1536,17 @@ g_spells.spells = {
 		}
 	},
 	[82] = {
-		cooldown = 30000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Combustion",
+		channeling = false,
 		crosshair = true,
-		id = 82,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 5,
 		type = "none",
+		name = "Combustion",
+		id = 82,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -1557,17 +1557,17 @@ g_spells.spells = {
 		}
 	},
 	[83] = {
-		cooldown = 45000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Flame Tornado",
+		channeling = false,
 		crosshair = true,
-		id = 83,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 5,
 		type = "none",
+		name = "Flame Tornado",
+		id = 83,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1578,17 +1578,17 @@ g_spells.spells = {
 		}
 	},
 	[84] = {
-		cooldown = 30000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Coldblast",
+		channeling = false,
 		crosshair = false,
-		id = 84,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 5,
 		type = "none",
+		name = "Coldblast",
+		id = 84,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -1599,18 +1599,18 @@ g_spells.spells = {
 		}
 	},
 	[85] = {
-		cooldown = 30000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Teleport",
+		channeling = false,
 		crosshair = true,
-		id = 85,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 5,
 		disableQuickcast = true,
+		name = "Teleport",
 		type = "none",
+		id = 85,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -1621,17 +1621,17 @@ g_spells.spells = {
 		}
 	},
 	[86] = {
-		cooldown = 35000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Force Push",
+		channeling = false,
 		crosshair = false,
-		id = 86,
+		cooldown = 35000,
 		needTarget = false,
 		archetype = 7,
 		type = "none",
+		name = "Force Push",
+		id = 86,
+		range = 1,
 		resource = {
 			gain = 30
 		},
@@ -1642,17 +1642,17 @@ g_spells.spells = {
 		}
 	},
 	[87] = {
-		cooldown = 1000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Curse",
+		channeling = false,
 		crosshair = false,
-		id = 87,
+		cooldown = 1000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Curse",
+		id = 87,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -1663,17 +1663,17 @@ g_spells.spells = {
 		}
 	},
 	[88] = {
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Death Touch",
+		channeling = false,
 		crosshair = false,
-		id = 88,
+		cooldown = 60000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Death Touch",
+		id = 88,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1684,17 +1684,17 @@ g_spells.spells = {
 		}
 	},
 	[89] = {
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Mirror Image",
+		channeling = false,
 		crosshair = false,
-		id = 89,
+		cooldown = 60000,
 		needTarget = false,
 		archetype = 8,
 		type = "none",
+		name = "Mirror Image",
+		id = 89,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1705,17 +1705,17 @@ g_spells.spells = {
 		}
 	},
 	[90] = {
-		cooldown = 3000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Spirits Resolve",
+		channeling = false,
 		crosshair = false,
-		id = 90,
+		cooldown = 3000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Spirits Resolve",
+		id = 90,
+		range = 1,
 		resource = {
 			gain = 20
 		},
@@ -1726,17 +1726,17 @@ g_spells.spells = {
 		}
 	},
 	[91] = {
-		cooldown = 60000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Unchained",
+		channeling = false,
 		crosshair = false,
-		id = 91,
+		cooldown = 60000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Unchained",
+		id = 91,
+		range = 1,
 		resource = {
 			gain = 30
 		},
@@ -1747,17 +1747,17 @@ g_spells.spells = {
 		}
 	},
 	[97] = {
-		cooldown = 90000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Meteor Strike",
+		channeling = true,
 		crosshair = true,
-		id = 97,
+		cooldown = 90000,
 		needTarget = false,
 		archetype = 5,
 		type = "none",
+		name = "Meteor Strike",
+		id = 97,
+		range = 6,
 		resource = {
 			gain = 30
 		},
@@ -1768,17 +1768,17 @@ g_spells.spells = {
 		}
 	},
 	[98] = {
-		cooldown = 20000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Frost Lance",
+		channeling = false,
 		crosshair = false,
-		id = 98,
+		cooldown = 20000,
 		needTarget = true,
 		archetype = 5,
 		type = "none",
+		name = "Frost Lance",
+		id = 98,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1789,17 +1789,17 @@ g_spells.spells = {
 		}
 	},
 	[99] = {
-		cooldown = 2000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Purify",
+		channeling = false,
 		crosshair = false,
-		id = 99,
+		cooldown = 2000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Purify",
+		id = 99,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -1810,17 +1810,17 @@ g_spells.spells = {
 		}
 	},
 	[100] = {
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Generous Influence",
+		channeling = false,
 		crosshair = false,
-		id = 100,
+		cooldown = 60000,
 		needTarget = true,
 		archetype = 6,
 		type = "none",
+		name = "Generous Influence",
+		id = 100,
+		range = 6,
 		resource = {
 			gain = 50
 		},
@@ -1831,17 +1831,17 @@ g_spells.spells = {
 		}
 	},
 	[101] = {
-		cooldown = 20000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Whirlwind",
+		channeling = false,
 		crosshair = false,
-		id = 101,
+		cooldown = 20000,
 		needTarget = true,
 		archetype = 7,
 		type = "none",
+		name = "Whirlwind",
+		id = 101,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1852,17 +1852,17 @@ g_spells.spells = {
 		}
 	},
 	[102] = {
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Typhoon",
+		channeling = false,
 		crosshair = true,
-		id = 102,
+		cooldown = 60000,
 		needTarget = false,
 		archetype = 7,
 		type = "none",
+		name = "Typhoon",
+		id = 102,
+		range = 6,
 		resource = {
 			consume = true
 		},
@@ -1873,17 +1873,17 @@ g_spells.spells = {
 		}
 	},
 	[103] = {
-		cooldown = 30000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Eternal Worms",
+		channeling = false,
 		crosshair = false,
-		id = 103,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Eternal Worms",
+		id = 103,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -1894,17 +1894,17 @@ g_spells.spells = {
 		}
 	},
 	[104] = {
-		cooldown = 30000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Dispel",
+		channeling = false,
 		crosshair = false,
-		id = 104,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Dispel",
+		id = 104,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -1915,17 +1915,17 @@ g_spells.spells = {
 		}
 	},
 	[105] = {
-		cooldown = 30000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Pummel",
+		channeling = false,
 		crosshair = false,
-		id = 105,
+		cooldown = 30000,
 		needTarget = true,
 		archetype = 1,
 		type = "none",
+		name = "Pummel",
+		id = 105,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -1936,17 +1936,17 @@ g_spells.spells = {
 		}
 	},
 	[106] = {
-		cooldown = 20000,
-		range = 1,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Bladestorm",
+		channeling = true,
 		crosshair = false,
-		id = 106,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 1,
 		type = "none",
+		name = "Bladestorm",
+		id = 106,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -1957,17 +1957,17 @@ g_spells.spells = {
 		}
 	},
 	[107] = {
-		cooldown = 15000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Smiting Smash",
+		channeling = false,
 		crosshair = false,
-		id = 107,
+		cooldown = 15000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Smiting Smash",
+		id = 107,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -1978,17 +1978,17 @@ g_spells.spells = {
 		}
 	},
 	[108] = {
-		cooldown = 75000,
-		range = 1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Unbreakable",
+		channeling = false,
 		crosshair = false,
-		id = 108,
+		cooldown = 75000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Unbreakable",
+		id = 108,
+		range = 1,
 		resource = {
 			gain = 50
 		},
@@ -1999,17 +1999,17 @@ g_spells.spells = {
 		}
 	},
 	[109] = {
-		cooldown = 90000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Venomous Weapons",
+		channeling = false,
 		crosshair = false,
-		id = 109,
+		cooldown = 90000,
 		needTarget = false,
 		archetype = 3,
 		type = "none",
+		name = "Venomous Weapons",
+		id = 109,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -2020,17 +2020,17 @@ g_spells.spells = {
 		}
 	},
 	[110] = {
-		cooldown = 35000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Shadow Kick",
+		channeling = false,
 		crosshair = false,
-		id = 110,
+		cooldown = 35000,
 		needTarget = true,
 		archetype = 3,
 		type = "none",
+		name = "Shadow Kick",
+		id = 110,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2041,17 +2041,17 @@ g_spells.spells = {
 		}
 	},
 	[111] = {
-		cooldown = 90000,
-		range = 6,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Spirit Rangers",
+		channeling = true,
 		crosshair = false,
-		id = 111,
+		cooldown = 90000,
 		needTarget = true,
 		archetype = 2,
 		type = "none",
+		name = "Spirit Rangers",
+		id = 111,
+		range = 6,
 		resource = {
 			gain = 30
 		},
@@ -2062,17 +2062,17 @@ g_spells.spells = {
 		}
 	},
 	[112] = {
-		cooldown = 60000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Venom Grenade",
+		channeling = false,
 		crosshair = true,
-		id = 112,
+		cooldown = 60000,
 		needTarget = false,
 		archetype = 2,
 		type = "none",
+		name = "Venom Grenade",
+		id = 112,
+		range = 6,
 		resource = {
 			gain = 20
 		},
@@ -2083,17 +2083,17 @@ g_spells.spells = {
 		}
 	},
 	[113] = {
-		cooldown = 40000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Revenge",
+		channeling = false,
 		crosshair = false,
-		id = 113,
+		cooldown = 40000,
 		needTarget = true,
 		archetype = 4,
 		type = "none",
+		name = "Revenge",
+		id = 113,
+		range = 1,
 		resource = {
 			consume = true
 		},
@@ -2104,17 +2104,17 @@ g_spells.spells = {
 		}
 	},
 	[114] = {
-		cooldown = 20000,
-		range = 4,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Shield Throw",
+		channeling = false,
 		crosshair = false,
-		id = 114,
+		cooldown = 20000,
 		needTarget = true,
 		archetype = 4,
 		type = "none",
+		name = "Shield Throw",
+		id = 114,
+		range = 4,
 		resource = {
 			none = 0
 		},
@@ -2125,17 +2125,17 @@ g_spells.spells = {
 		}
 	},
 	{
-		cooldown = 30000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Dragons Roar",
+		channeling = false,
 		crosshair = false,
-		id = 12,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 5,
 		type = "none",
+		name = "Dragons Roar",
+		id = 12,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2146,17 +2146,17 @@ g_spells.spells = {
 		}
 	},
 	[29] = {
-		cooldown = 10000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Shadowflare",
+		channeling = false,
 		crosshair = false,
-		id = 29,
+		cooldown = 10000,
 		needTarget = true,
 		archetype = 8,
 		type = "none",
+		name = "Shadowflare",
+		id = 29,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -2167,17 +2167,17 @@ g_spells.spells = {
 		}
 	},
 	[31] = {
-		cooldown = 20000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Banner Of Justice",
+		channeling = false,
 		crosshair = true,
-		id = 31,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Banner Of Justice",
+		id = 31,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2188,17 +2188,17 @@ g_spells.spells = {
 		}
 	},
 	[33] = {
-		cooldown = 20000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Banner Of Virtue",
+		channeling = false,
 		crosshair = true,
-		id = 33,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Banner Of Virtue",
+		id = 33,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2209,17 +2209,17 @@ g_spells.spells = {
 		}
 	},
 	[38] = {
-		cooldown = 1000,
-		range = 1,
-		channeling = true,
 		selfTarget = false,
 		aggressive = false,
-		name = "Spirit Hammer",
+		channeling = true,
 		crosshair = false,
-		id = 38,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Spirit Hammer",
+		id = 38,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2230,17 +2230,17 @@ g_spells.spells = {
 		}
 	},
 	[40] = {
-		cooldown = 1000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Zealots Flame",
+		channeling = false,
 		crosshair = true,
-		id = 40,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 4,
 		type = "none",
+		name = "Zealots Flame",
+		id = 40,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2251,17 +2251,17 @@ g_spells.spells = {
 		}
 	},
 	[81] = {
-		cooldown = 2000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Cannon",
+		channeling = false,
 		crosshair = true,
-		id = 81,
+		cooldown = 2000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Cannon",
+		id = 81,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2272,17 +2272,17 @@ g_spells.spells = {
 		}
 	},
 	[92] = {
-		cooldown = 8000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Small Siege Cannon",
+		channeling = false,
 		crosshair = true,
-		id = 92,
+		cooldown = 8000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Small Siege Cannon",
+		id = 92,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2293,17 +2293,17 @@ g_spells.spells = {
 		}
 	},
 	[93] = {
-		cooldown = 20000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Basic Water Pumps",
+		channeling = false,
 		crosshair = false,
-		id = 93,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Basic Water Pumps",
+		id = 93,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2314,17 +2314,17 @@ g_spells.spells = {
 		}
 	},
 	[94] = {
-		cooldown = 20000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Efficient Water Pumps",
+		channeling = false,
 		crosshair = false,
-		id = 94,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Efficient Water Pumps",
+		id = 94,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2335,17 +2335,17 @@ g_spells.spells = {
 		}
 	},
 	[95] = {
-		cooldown = 20000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Advanced Water Pumps",
+		channeling = false,
 		crosshair = false,
-		id = 95,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Advanced Water Pumps",
+		id = 95,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2356,17 +2356,17 @@ g_spells.spells = {
 		}
 	},
 	[96] = {
-		cooldown = 15000,
-		range = -1,
-		channeling = true,
 		selfTarget = true,
 		aggressive = false,
-		name = "Ship Repair",
+		channeling = true,
 		crosshair = false,
-		id = 96,
+		cooldown = 15000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Ship Repair",
+		id = 96,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2377,17 +2377,17 @@ g_spells.spells = {
 		}
 	},
 	[115] = {
-		cooldown = 30000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Small Hullbreaker Cannon",
+		channeling = false,
 		crosshair = false,
-		id = 115,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Small Hullbreaker Cannon",
+		id = 115,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2398,17 +2398,17 @@ g_spells.spells = {
 		}
 	},
 	[116] = {
-		cooldown = 20000,
-		range = 10,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Small Drake Head",
+		channeling = true,
 		crosshair = false,
-		id = 116,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Small Drake Head",
+		id = 116,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2419,17 +2419,17 @@ g_spells.spells = {
 		}
 	},
 	[117] = {
-		cooldown = 20000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Superior Water Pumps",
+		channeling = false,
 		crosshair = false,
-		id = 117,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Superior Water Pumps",
+		id = 117,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2440,17 +2440,17 @@ g_spells.spells = {
 		}
 	},
 	[118] = {
-		cooldown = 20000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Royal Water Pumps",
+		channeling = false,
 		crosshair = false,
-		id = 118,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Royal Water Pumps",
+		id = 118,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2461,17 +2461,17 @@ g_spells.spells = {
 		}
 	},
 	[119] = {
-		cooldown = 8000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Medium Siege Cannon",
+		channeling = false,
 		crosshair = true,
-		id = 119,
+		cooldown = 8000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Medium Siege Cannon",
+		id = 119,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2482,17 +2482,17 @@ g_spells.spells = {
 		}
 	},
 	[120] = {
-		cooldown = 6000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Medium Shrapnel Cannon",
+		channeling = false,
 		crosshair = true,
-		id = 120,
+		cooldown = 6000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Medium Shrapnel Cannon",
+		id = 120,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2503,17 +2503,17 @@ g_spells.spells = {
 		}
 	},
 	[121] = {
-		cooldown = 30000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Medium Hullbreaker Cannon",
+		channeling = false,
 		crosshair = false,
-		id = 121,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Medium Hullbreaker Cannon",
+		id = 121,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2524,17 +2524,17 @@ g_spells.spells = {
 		}
 	},
 	[122] = {
-		cooldown = 20000,
-		range = 10,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Medium Drake Head",
+		channeling = true,
 		crosshair = false,
-		id = 122,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Medium Drake Head",
+		id = 122,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2545,17 +2545,17 @@ g_spells.spells = {
 		}
 	},
 	[123] = {
-		cooldown = 18000,
-		range = 10,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Medium Mortar Cannon",
+		channeling = true,
 		crosshair = true,
-		id = 123,
+		cooldown = 18000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Medium Mortar Cannon",
+		id = 123,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2566,17 +2566,17 @@ g_spells.spells = {
 		}
 	},
 	[124] = {
-		cooldown = 8000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Large Siege Cannon",
+		channeling = false,
 		crosshair = true,
-		id = 124,
+		cooldown = 8000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Large Siege Cannon",
+		id = 124,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2587,17 +2587,17 @@ g_spells.spells = {
 		}
 	},
 	[125] = {
-		cooldown = 6000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Large Shrapnel Cannon",
+		channeling = false,
 		crosshair = true,
-		id = 125,
+		cooldown = 6000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Large Shrapnel Cannon",
+		id = 125,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2608,17 +2608,17 @@ g_spells.spells = {
 		}
 	},
 	[126] = {
-		cooldown = 30000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Large Hullbreaker Cannon",
+		channeling = false,
 		crosshair = false,
-		id = 126,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Large Hullbreaker Cannon",
+		id = 126,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2629,17 +2629,17 @@ g_spells.spells = {
 		}
 	},
 	[127] = {
-		cooldown = 20000,
-		range = 10,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Large Drake Head",
+		channeling = true,
 		crosshair = false,
-		id = 127,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Large Drake Head",
+		id = 127,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2650,17 +2650,17 @@ g_spells.spells = {
 		}
 	},
 	[128] = {
-		cooldown = 18000,
-		range = 10,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Large Mortar Cannon",
+		channeling = true,
 		crosshair = true,
-		id = 128,
+		cooldown = 18000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Large Mortar Cannon",
+		id = 128,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2671,17 +2671,17 @@ g_spells.spells = {
 		}
 	},
 	[129] = {
-		cooldown = 10000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Small Broadside Artillery",
+		channeling = false,
 		crosshair = false,
-		id = 129,
+		cooldown = 10000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Small Broadside Artillery",
+		id = 129,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2692,17 +2692,17 @@ g_spells.spells = {
 		}
 	},
 	[130] = {
-		cooldown = 10000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Medium Broadside Artillery",
+		channeling = false,
 		crosshair = false,
-		id = 130,
+		cooldown = 10000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Medium Broadside Artillery",
+		id = 130,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2713,17 +2713,17 @@ g_spells.spells = {
 		}
 	},
 	[131] = {
-		cooldown = 10000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Large Broadside Artillery",
+		channeling = false,
 		crosshair = false,
-		id = 131,
+		cooldown = 10000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Large Broadside Artillery",
+		id = 131,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -2734,17 +2734,17 @@ g_spells.spells = {
 		}
 	},
 	[132] = {
-		cooldown = 20000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Small Grappling Hooks",
+		channeling = false,
 		crosshair = false,
-		id = 132,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Small Grappling Hooks",
+		id = 132,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2755,17 +2755,17 @@ g_spells.spells = {
 		}
 	},
 	[133] = {
-		cooldown = 20000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Medium Grappling Hooks",
+		channeling = false,
 		crosshair = false,
-		id = 133,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Medium Grappling Hooks",
+		id = 133,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2776,17 +2776,17 @@ g_spells.spells = {
 		}
 	},
 	[134] = {
-		cooldown = 20000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Large Grappling Hooks",
+		channeling = false,
 		crosshair = false,
-		id = 134,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Large Grappling Hooks",
+		id = 134,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2797,17 +2797,17 @@ g_spells.spells = {
 		}
 	},
 	[135] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Small Floating Mines",
+		channeling = false,
 		crosshair = false,
-		id = 135,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Small Floating Mines",
+		id = 135,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2818,17 +2818,17 @@ g_spells.spells = {
 		}
 	},
 	[136] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Medium Floating Mines",
+		channeling = false,
 		crosshair = false,
-		id = 136,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Medium Floating Mines",
+		id = 136,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2839,17 +2839,17 @@ g_spells.spells = {
 		}
 	},
 	[137] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Large Floating Mines",
+		channeling = false,
 		crosshair = false,
-		id = 137,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Large Floating Mines",
+		id = 137,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2860,17 +2860,17 @@ g_spells.spells = {
 		}
 	},
 	[138] = {
-		cooldown = 18000,
-		range = 10,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Small Mortar Cannon",
+		channeling = true,
 		crosshair = true,
-		id = 138,
+		cooldown = 18000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Small Mortar Cannon",
+		id = 138,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2881,17 +2881,17 @@ g_spells.spells = {
 		}
 	},
 	[139] = {
-		cooldown = 6000,
-		range = 10,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Small Shrapnel Cannon",
+		channeling = false,
 		crosshair = true,
-		id = 139,
+		cooldown = 6000,
 		needTarget = false,
 		archetype = 0,
 		type = "none",
+		name = "Small Shrapnel Cannon",
+		id = 139,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -2902,17 +2902,17 @@ g_spells.spells = {
 		}
 	},
 	[1000] = {
-		cooldown = 30000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Friendship Amulet",
+		channeling = false,
 		crosshair = false,
-		id = 1000,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Friendship Amulet",
+		id = 1000,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2923,17 +2923,17 @@ g_spells.spells = {
 		}
 	},
 	[1001] = {
-		cooldown = 180000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Slow Mending Potion",
+		channeling = false,
 		crosshair = false,
-		id = 1001,
+		cooldown = 180000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Slow Mending Potion",
+		id = 1001,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2944,17 +2944,17 @@ g_spells.spells = {
 		}
 	},
 	[1002] = {
-		cooldown = 180000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 1002,
+		cooldown = 180000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Mana Potion",
+		id = 1002,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2965,17 +2965,17 @@ g_spells.spells = {
 		}
 	},
 	[1003] = {
-		cooldown = 180000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 1003,
+		cooldown = 180000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Health Potion",
+		id = 1003,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -2986,17 +2986,17 @@ g_spells.spells = {
 		}
 	},
 	[1004] = {
-		cooldown = 90000,
-		range = 3,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Vial Of Poison",
+		channeling = false,
 		crosshair = false,
-		id = 1004,
+		cooldown = 90000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Vial Of Poison",
+		id = 1004,
+		range = 3,
 		resource = {
 			none = 0
 		},
@@ -3007,17 +3007,17 @@ g_spells.spells = {
 		}
 	},
 	[1005] = {
-		cooldown = 90000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Bandages",
+		channeling = false,
 		crosshair = false,
-		id = 1005,
+		cooldown = 90000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Bandages",
+		id = 1005,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3028,17 +3028,17 @@ g_spells.spells = {
 		}
 	},
 	[1006] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Regrowth Stone",
+		channeling = false,
 		crosshair = false,
-		id = 1006,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Regrowth Stone",
+		id = 1006,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3049,17 +3049,17 @@ g_spells.spells = {
 		}
 	},
 	[1008] = {
-		cooldown = 600000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Twilight Lamp",
+		channeling = false,
 		crosshair = false,
-		id = 1008,
+		cooldown = 600000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Twilight Lamp",
+		id = 1008,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3070,17 +3070,17 @@ g_spells.spells = {
 		}
 	},
 	[1009] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Iron Blood Potion",
+		channeling = false,
 		crosshair = false,
-		id = 1009,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Iron Blood Potion",
+		id = 1009,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3091,17 +3091,17 @@ g_spells.spells = {
 		}
 	},
 	[1010] = {
-		cooldown = 180000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Mending Potion",
+		channeling = false,
 		crosshair = false,
-		id = 1010,
+		cooldown = 180000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Mending Potion",
+		id = 1010,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3112,17 +3112,17 @@ g_spells.spells = {
 		}
 	},
 	[1011] = {
-		cooldown = 600000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Coal Goblin Gadget",
+		channeling = false,
 		crosshair = false,
-		id = 1011,
+		cooldown = 600000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Coal Goblin Gadget",
+		id = 1011,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3133,17 +3133,17 @@ g_spells.spells = {
 		}
 	},
 	[1012] = {
-		cooldown = 600000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Venomous Goblin Gadget",
+		channeling = false,
 		crosshair = false,
-		id = 1012,
+		cooldown = 600000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Venomous Goblin Gadget",
+		id = 1012,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3154,17 +3154,17 @@ g_spells.spells = {
 		}
 	},
 	[1013] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Phosphorescent Shell",
+		channeling = false,
 		crosshair = false,
-		id = 1013,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Phosphorescent Shell",
+		id = 1013,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3175,17 +3175,17 @@ g_spells.spells = {
 		}
 	},
 	[1014] = {
-		cooldown = 600000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Poisonpetal Seeds",
+		channeling = false,
 		crosshair = false,
-		id = 1014,
+		cooldown = 600000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Poisonpetal Seeds",
+		id = 1014,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3196,17 +3196,17 @@ g_spells.spells = {
 		}
 	},
 	[1015] = {
-		cooldown = 300000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Javelin Quiver",
+		channeling = false,
 		crosshair = false,
-		id = 1015,
+		cooldown = 300000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Javelin Quiver",
+		id = 1015,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -3217,17 +3217,17 @@ g_spells.spells = {
 		}
 	},
 	[1016] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Crystal of the Dawn",
+		channeling = false,
 		crosshair = false,
-		id = 1016,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Crystal of the Dawn",
+		id = 1016,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3238,17 +3238,17 @@ g_spells.spells = {
 		}
 	},
 	[1017] = {
-		cooldown = 300000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Duelist's Honor",
+		channeling = false,
 		crosshair = false,
-		id = 1017,
+		cooldown = 300000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Duelist's Honor",
+		id = 1017,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -3259,17 +3259,17 @@ g_spells.spells = {
 		}
 	},
 	[1018] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Exotic Incense",
+		channeling = false,
 		crosshair = false,
-		id = 1018,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Exotic Incense",
+		id = 1018,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3280,17 +3280,17 @@ g_spells.spells = {
 		}
 	},
 	[1019] = {
-		cooldown = 180000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Stepping Fuel",
+		channeling = false,
 		crosshair = false,
-		id = 1019,
+		cooldown = 180000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Stepping Fuel",
+		id = 1019,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3301,17 +3301,17 @@ g_spells.spells = {
 		}
 	},
 	[1020] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Aegis Rune",
+		channeling = false,
 		crosshair = false,
-		id = 1020,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Aegis Rune",
+		id = 1020,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3322,17 +3322,17 @@ g_spells.spells = {
 		}
 	},
 	[1021] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Bag of Caltrops",
+		channeling = false,
 		crosshair = false,
-		id = 1021,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Bag of Caltrops",
+		id = 1021,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3343,17 +3343,17 @@ g_spells.spells = {
 		}
 	},
 	[1022] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Emergency Blockage",
+		channeling = false,
 		crosshair = false,
-		id = 1022,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Emergency Blockage",
+		id = 1022,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3364,17 +3364,17 @@ g_spells.spells = {
 		}
 	},
 	[1023] = {
-		cooldown = 180000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Hidden Blade",
+		channeling = false,
 		crosshair = false,
-		id = 1023,
+		cooldown = 180000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Hidden Blade",
+		id = 1023,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3385,17 +3385,17 @@ g_spells.spells = {
 		}
 	},
 	[1024] = {
-		cooldown = 300000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Goblin Contraption",
+		channeling = false,
 		crosshair = false,
-		id = 1024,
+		cooldown = 300000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Goblin Contraption",
+		id = 1024,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -3406,17 +3406,17 @@ g_spells.spells = {
 		}
 	},
 	[1025] = {
-		cooldown = 300000,
-		range = 4,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Ships Glue Leftovers",
+		channeling = false,
 		crosshair = false,
-		id = 1025,
+		cooldown = 300000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Ships Glue Leftovers",
+		id = 1025,
+		range = 4,
 		resource = {
 			none = 0
 		},
@@ -3427,17 +3427,17 @@ g_spells.spells = {
 		}
 	},
 	[1026] = {
-		cooldown = 300000,
-		range = 4,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Suspicious Milk",
+		channeling = false,
 		crosshair = false,
-		id = 1026,
+		cooldown = 300000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Suspicious Milk",
+		id = 1026,
+		range = 4,
 		resource = {
 			none = 0
 		},
@@ -3448,17 +3448,17 @@ g_spells.spells = {
 		}
 	},
 	[1027] = {
-		cooldown = 300000,
-		range = 4,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Musty Liquid",
+		channeling = false,
 		crosshair = false,
-		id = 1027,
+		cooldown = 300000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Musty Liquid",
+		id = 1027,
+		range = 4,
 		resource = {
 			none = 0
 		},
@@ -3469,17 +3469,17 @@ g_spells.spells = {
 		}
 	},
 	[1028] = {
-		cooldown = 30000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Agent Medallion",
+		channeling = false,
 		crosshair = false,
-		id = 1028,
+		cooldown = 30000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Agent Medallion",
+		id = 1028,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3490,17 +3490,17 @@ g_spells.spells = {
 		}
 	},
 	[1029] = {
-		cooldown = 300000,
-		range = 7,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Dawn Bomb",
+		channeling = false,
 		crosshair = true,
-		id = 1029,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Dawn Bomb",
+		id = 1029,
+		range = 7,
 		resource = {
 			none = 0
 		},
@@ -3511,17 +3511,17 @@ g_spells.spells = {
 		}
 	},
 	[1030] = {
-		cooldown = 720000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Bloody Binding Stone",
+		channeling = false,
 		crosshair = false,
-		id = 1030,
+		cooldown = 720000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Bloody Binding Stone",
+		id = 1030,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3532,17 +3532,17 @@ g_spells.spells = {
 		}
 	},
 	[1031] = {
-		cooldown = 180000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Iron Handcuffs",
+		channeling = false,
 		crosshair = false,
-		id = 1031,
+		cooldown = 180000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Iron Handcuffs",
+		id = 1031,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -3553,17 +3553,17 @@ g_spells.spells = {
 		}
 	},
 	[1032] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Living Branches",
+		channeling = false,
 		crosshair = false,
-		id = 1032,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Living Branches",
+		id = 1032,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3574,17 +3574,17 @@ g_spells.spells = {
 		}
 	},
 	[1033] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Bear Trap",
+		channeling = false,
 		crosshair = false,
-		id = 1033,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Bear Trap",
+		id = 1033,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3595,17 +3595,17 @@ g_spells.spells = {
 		}
 	},
 	[1034] = {
-		cooldown = 300000,
-		range = 3,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Emergencial Campfire",
+		channeling = false,
 		crosshair = true,
-		id = 1034,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Emergencial Campfire",
+		id = 1034,
+		range = 3,
 		resource = {
 			none = 0
 		},
@@ -3616,17 +3616,17 @@ g_spells.spells = {
 		}
 	},
 	[1035] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Icedrop Solution",
+		channeling = false,
 		crosshair = false,
-		id = 1035,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Icedrop Solution",
+		id = 1035,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3637,17 +3637,17 @@ g_spells.spells = {
 		}
 	},
 	[1036] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Mysticap Fetish",
+		channeling = false,
 		crosshair = false,
-		id = 1036,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Mysticap Fetish",
+		id = 1036,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3658,17 +3658,17 @@ g_spells.spells = {
 		}
 	},
 	[1037] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Sinister Sigil",
+		channeling = false,
 		crosshair = false,
-		id = 1037,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Sinister Sigil",
+		id = 1037,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3679,17 +3679,17 @@ g_spells.spells = {
 		}
 	},
 	[1038] = {
-		cooldown = 180000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Angerhorn Impaler",
+		channeling = false,
 		crosshair = false,
-		id = 1038,
+		cooldown = 180000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Angerhorn Impaler",
+		id = 1038,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3700,17 +3700,17 @@ g_spells.spells = {
 		}
 	},
 	[1039] = {
-		cooldown = 300000,
-		range = 7,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Goblin Bombs",
+		channeling = false,
 		crosshair = true,
-		id = 1039,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Goblin Bombs",
+		id = 1039,
+		range = 7,
 		resource = {
 			none = 0
 		},
@@ -3721,17 +3721,17 @@ g_spells.spells = {
 		}
 	},
 	[1040] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Omega Stone",
+		channeling = false,
 		crosshair = false,
-		id = 1040,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Omega Stone",
+		id = 1040,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3742,17 +3742,17 @@ g_spells.spells = {
 		}
 	},
 	[1041] = {
-		cooldown = 900000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Torment Configuration",
+		channeling = false,
 		crosshair = false,
-		id = 1041,
+		cooldown = 900000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Torment Configuration",
+		id = 1041,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3763,17 +3763,17 @@ g_spells.spells = {
 		}
 	},
 	[1042] = {
-		cooldown = 300000,
-		range = 7,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Ratoxin Bomb",
+		channeling = false,
 		crosshair = true,
-		id = 1042,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Ratoxin Bomb",
+		id = 1042,
+		range = 7,
 		resource = {
 			none = 0
 		},
@@ -3784,17 +3784,17 @@ g_spells.spells = {
 		}
 	},
 	[1043] = {
-		cooldown = 120000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Shamanic Brooch",
+		channeling = false,
 		crosshair = false,
-		id = 1043,
+		cooldown = 120000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Shamanic Brooch",
+		id = 1043,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3805,17 +3805,17 @@ g_spells.spells = {
 		}
 	},
 	[1044] = {
-		cooldown = 900000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Idol of Gluttony",
+		channeling = false,
 		crosshair = false,
-		id = 1044,
+		cooldown = 900000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Idol of Gluttony",
+		id = 1044,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3826,17 +3826,17 @@ g_spells.spells = {
 		}
 	},
 	[1045] = {
-		cooldown = 600000,
-		range = 5,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Ghostlamp",
+		channeling = false,
 		crosshair = false,
-		id = 1045,
+		cooldown = 600000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Ghostlamp",
+		id = 1045,
+		range = 5,
 		resource = {
 			none = 0
 		},
@@ -3847,17 +3847,17 @@ g_spells.spells = {
 		}
 	},
 	[1046] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "The Grim Smile",
+		channeling = false,
 		crosshair = false,
-		id = 1046,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "The Grim Smile",
+		id = 1046,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3868,17 +3868,17 @@ g_spells.spells = {
 		}
 	},
 	[1047] = {
-		cooldown = 1800000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Eldritch Crow Mask",
+		channeling = false,
 		crosshair = false,
-		id = 1047,
+		cooldown = 1800000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Eldritch Crow Mask",
+		id = 1047,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3889,17 +3889,17 @@ g_spells.spells = {
 		}
 	},
 	[1048] = {
-		cooldown = 120000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Eau de Berserk",
+		channeling = false,
 		crosshair = false,
-		id = 1048,
+		cooldown = 120000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Eau de Berserk",
+		id = 1048,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -3910,17 +3910,17 @@ g_spells.spells = {
 		}
 	},
 	[1049] = {
-		cooldown = 90000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Toxique N5",
+		channeling = false,
 		crosshair = false,
-		id = 1049,
+		cooldown = 90000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Toxique N5",
+		id = 1049,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3931,17 +3931,17 @@ g_spells.spells = {
 		}
 	},
 	[1050] = {
-		cooldown = 720000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Dendrion's Memento",
+		channeling = false,
 		crosshair = false,
-		id = 1050,
+		cooldown = 720000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Dendrion's Memento",
+		id = 1050,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3952,17 +3952,17 @@ g_spells.spells = {
 		}
 	},
 	[1051] = {
-		cooldown = 15000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Hypnotizing Stone",
+		channeling = false,
 		crosshair = false,
-		id = 1051,
+		cooldown = 15000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Hypnotizing Stone",
+		id = 1051,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3973,17 +3973,17 @@ g_spells.spells = {
 		}
 	},
 	[1052] = {
-		cooldown = 150000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Corrupted Fang",
+		channeling = false,
 		crosshair = false,
-		id = 1052,
+		cooldown = 150000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Corrupted Fang",
+		id = 1052,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -3994,17 +3994,17 @@ g_spells.spells = {
 		}
 	},
 	[1053] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Immaterial Bangle",
+		channeling = false,
 		crosshair = false,
-		id = 1053,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Immaterial Bangle",
+		id = 1053,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4015,17 +4015,17 @@ g_spells.spells = {
 		}
 	},
 	[1054] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Dunewalker Cloak",
+		channeling = false,
 		crosshair = false,
-		id = 1054,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Dunewalker Cloak",
+		id = 1054,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4036,17 +4036,17 @@ g_spells.spells = {
 		}
 	},
 	[1055] = {
-		cooldown = 120000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Toadish Cloak",
+		channeling = false,
 		crosshair = false,
-		id = 1055,
+		cooldown = 120000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Toadish Cloak",
+		id = 1055,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4057,17 +4057,17 @@ g_spells.spells = {
 		}
 	},
 	[1056] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Frost Ward",
+		channeling = false,
 		crosshair = false,
-		id = 1056,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Frost Ward",
+		id = 1056,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4078,17 +4078,17 @@ g_spells.spells = {
 		}
 	},
 	[1057] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Waterless Poppy Blossoms",
+		channeling = false,
 		crosshair = false,
-		id = 1057,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Waterless Poppy Blossoms",
+		id = 1057,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4099,17 +4099,17 @@ g_spells.spells = {
 		}
 	},
 	[1058] = {
-		cooldown = 180000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Reflective Carapace",
+		channeling = false,
 		crosshair = false,
-		id = 1058,
+		cooldown = 180000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Reflective Carapace",
+		id = 1058,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4120,17 +4120,17 @@ g_spells.spells = {
 		}
 	},
 	[1059] = {
-		cooldown = 420000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Bracelet of Skorn",
+		channeling = false,
 		crosshair = false,
-		id = 1059,
+		cooldown = 420000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Bracelet of Skorn",
+		id = 1059,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4141,17 +4141,17 @@ g_spells.spells = {
 		}
 	},
 	[1060] = {
-		cooldown = 420000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Garment of Skorn",
+		channeling = false,
 		crosshair = false,
-		id = 1060,
+		cooldown = 420000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Garment of Skorn",
+		id = 1060,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4162,17 +4162,17 @@ g_spells.spells = {
 		}
 	},
 	[1061] = {
-		cooldown = 300000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Gauntlet of Skorn",
+		channeling = false,
 		crosshair = false,
-		id = 1061,
+		cooldown = 300000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Gauntlet of Skorn",
+		id = 1061,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4183,17 +4183,17 @@ g_spells.spells = {
 		}
 	},
 	[1062] = {
-		cooldown = 120000,
-		range = 1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Golden Maw",
+		channeling = false,
 		crosshair = false,
-		id = 1062,
+		cooldown = 120000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Golden Maw",
+		id = 1062,
+		range = 1,
 		resource = {
 			none = 0
 		},
@@ -4204,17 +4204,17 @@ g_spells.spells = {
 		}
 	},
 	[1063] = {
-		cooldown = 600000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Arrowcaller Horn",
+		channeling = false,
 		crosshair = false,
-		id = 1063,
+		cooldown = 600000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Arrowcaller Horn",
+		id = 1063,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4225,17 +4225,17 @@ g_spells.spells = {
 		}
 	},
 	[1064] = {
-		cooldown = 180000,
-		range = 10,
-		channeling = true,
 		selfTarget = false,
 		aggressive = true,
-		name = "Withered Demon Hand",
+		channeling = true,
 		crosshair = false,
-		id = 1064,
+		cooldown = 180000,
 		needTarget = true,
 		archetype = 0,
 		type = "trinket",
+		name = "Withered Demon Hand",
+		id = 1064,
+		range = 10,
 		resource = {
 			none = 0
 		},
@@ -4246,17 +4246,17 @@ g_spells.spells = {
 		}
 	},
 	[1065] = {
-		cooldown = 120000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Saint Alsek's Cloak",
+		channeling = false,
 		crosshair = false,
-		id = 1065,
+		cooldown = 120000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Saint Alsek's Cloak",
+		id = 1065,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4267,17 +4267,17 @@ g_spells.spells = {
 		}
 	},
 	[1066] = {
-		cooldown = 180000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Golden Fleece",
+		channeling = false,
 		crosshair = false,
-		id = 1066,
+		cooldown = 180000,
 		needTarget = false,
 		archetype = 0,
 		type = "trinket",
+		name = "Golden Fleece",
+		id = 1066,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4288,17 +4288,17 @@ g_spells.spells = {
 		}
 	},
 	[1500] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Lethal Edge",
+		channeling = false,
 		crosshair = false,
-		id = 1500,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Lethal Edge",
+		id = 1500,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4309,17 +4309,17 @@ g_spells.spells = {
 		}
 	},
 	[1501] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = false,
-		name = "Fencer's Escape",
+		channeling = false,
 		crosshair = false,
-		id = 1501,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Fencer's Escape",
+		id = 1501,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4330,17 +4330,17 @@ g_spells.spells = {
 		}
 	},
 	[1502] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Blade Warding",
+		channeling = false,
 		crosshair = false,
-		id = 1502,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Blade Warding",
+		id = 1502,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4351,17 +4351,17 @@ g_spells.spells = {
 		}
 	},
 	[1503] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Power Surge",
+		channeling = false,
 		crosshair = false,
-		id = 1503,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Power Surge",
+		id = 1503,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4372,17 +4372,17 @@ g_spells.spells = {
 		}
 	},
 	[1504] = {
-		cooldown = 45000,
-		range = 6,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Magic Ward",
+		channeling = false,
 		crosshair = false,
-		id = 1504,
+		cooldown = 45000,
 		needTarget = true,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Magic Ward",
+		id = 1504,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -4393,17 +4393,17 @@ g_spells.spells = {
 		}
 	},
 	[1505] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Mana Overcharge",
+		channeling = false,
 		crosshair = false,
-		id = 1505,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Mana Overcharge",
+		id = 1505,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4414,17 +4414,17 @@ g_spells.spells = {
 		}
 	},
 	[1506] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Steady Stance",
+		channeling = false,
 		crosshair = false,
-		id = 1506,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Steady Stance",
+		id = 1506,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4435,17 +4435,17 @@ g_spells.spells = {
 		}
 	},
 	[1507] = {
-		cooldown = 45000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Rending Throw",
+		channeling = false,
 		crosshair = false,
-		id = 1507,
+		cooldown = 45000,
 		needTarget = true,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Rending Throw",
+		id = 1507,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -4456,17 +4456,17 @@ g_spells.spells = {
 		}
 	},
 	[1508] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Whirl Slash",
+		channeling = false,
 		crosshair = false,
-		id = 1508,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Whirl Slash",
+		id = 1508,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4477,17 +4477,17 @@ g_spells.spells = {
 		}
 	},
 	[1509] = {
-		cooldown = 45000,
-		range = 6,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Mace Toss",
+		channeling = false,
 		crosshair = false,
-		id = 1509,
+		cooldown = 45000,
 		needTarget = true,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Mace Toss",
+		id = 1509,
+		range = 6,
 		resource = {
 			none = 0
 		},
@@ -4498,17 +4498,17 @@ g_spells.spells = {
 		}
 	},
 	[1510] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = false,
 		aggressive = true,
-		name = "Mighty Smash",
+		channeling = false,
 		crosshair = false,
-		id = 1510,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
 		type = "weapon_skill",
+		name = "Mighty Smash",
+		id = 1510,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4519,17 +4519,17 @@ g_spells.spells = {
 		}
 	},
 	[1600] = {
-		cooldown = 20000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Dash T1",
+		channeling = false,
 		crosshair = false,
-		id = 1600,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Dash T1",
+		id = 1600,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4540,17 +4540,17 @@ g_spells.spells = {
 		}
 	},
 	[1601] = {
-		cooldown = 20000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Dash T2",
+		channeling = false,
 		crosshair = false,
-		id = 1601,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Dash T2",
+		id = 1601,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4561,17 +4561,17 @@ g_spells.spells = {
 		}
 	},
 	[1602] = {
-		cooldown = 20000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Dash T3",
+		channeling = false,
 		crosshair = false,
-		id = 1602,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Dash T3",
+		id = 1602,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4582,17 +4582,17 @@ g_spells.spells = {
 		}
 	},
 	[1603] = {
-		cooldown = 90000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Sprint T1",
+		channeling = false,
 		crosshair = false,
-		id = 1603,
+		cooldown = 90000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Sprint T1",
+		id = 1603,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4603,17 +4603,17 @@ g_spells.spells = {
 		}
 	},
 	[1604] = {
-		cooldown = 90000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Sprint T2",
+		channeling = false,
 		crosshair = false,
-		id = 1604,
+		cooldown = 90000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Sprint T2",
+		id = 1604,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4624,17 +4624,17 @@ g_spells.spells = {
 		}
 	},
 	[1605] = {
-		cooldown = 90000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Sprint T3",
+		channeling = false,
 		crosshair = false,
-		id = 1605,
+		cooldown = 90000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Sprint T3",
+		id = 1605,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4645,17 +4645,17 @@ g_spells.spells = {
 		}
 	},
 	[1606] = {
-		cooldown = 40000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Stampede T1",
+		channeling = false,
 		crosshair = false,
-		id = 1606,
+		cooldown = 40000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Stampede T1",
+		id = 1606,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4666,17 +4666,17 @@ g_spells.spells = {
 		}
 	},
 	[1607] = {
-		cooldown = 40000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Stampede T2",
+		channeling = false,
 		crosshair = false,
-		id = 1607,
+		cooldown = 40000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Stampede T2",
+		id = 1607,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4687,17 +4687,17 @@ g_spells.spells = {
 		}
 	},
 	[1608] = {
-		cooldown = 40000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Stampede T3",
+		channeling = false,
 		crosshair = false,
-		id = 1608,
+		cooldown = 40000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Stampede T3",
+		id = 1608,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4708,17 +4708,17 @@ g_spells.spells = {
 		}
 	},
 	[1609] = {
-		cooldown = 40000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Charge T1",
+		channeling = false,
 		crosshair = false,
-		id = 1609,
+		cooldown = 40000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Charge T1",
+		id = 1609,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4729,17 +4729,17 @@ g_spells.spells = {
 		}
 	},
 	[1610] = {
-		cooldown = 40000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Charge T2",
+		channeling = false,
 		crosshair = false,
-		id = 1610,
+		cooldown = 40000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Charge T2",
+		id = 1610,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4750,17 +4750,17 @@ g_spells.spells = {
 		}
 	},
 	[1611] = {
-		cooldown = 40000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = true,
-		name = "Charge T3",
+		channeling = false,
 		crosshair = false,
-		id = 1611,
+		cooldown = 40000,
 		needTarget = false,
 		archetype = 0,
 		type = "mount_skill",
+		name = "Charge T3",
+		id = 1611,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -4773,260 +4773,260 @@ g_spells.spells = {
 }
 g_spells.crafting = {
 	["apprentice synthesis"] = {
+		progress = 25,
+		labour = 10,
+		name = "Apprentice Synthesis",
+		level = 1,
+		id = 1,
 		durability = 1,
 		success = 100,
-		labour = 10,
-		progress = 25,
-		level = 1,
-		name = "Apprentice Synthesis",
-		id = 1,
 		type = AbilityTypeSynthesis
 	},
 	["expert synthesis"] = {
+		progress = 50,
+		labour = 15,
+		name = "Expert Synthesis",
+		level = 15,
+		id = 2,
 		durability = 1,
 		success = 90,
-		labour = 15,
-		progress = 50,
-		level = 15,
-		name = "Expert Synthesis",
-		id = 2,
 		type = AbilityTypeSynthesis
 	},
 	["master synthesis"] = {
+		progress = 75,
+		labour = 20,
+		name = "Master Synthesis",
+		level = 35,
+		id = 3,
 		durability = 1,
 		success = 80,
-		labour = 20,
-		progress = 75,
-		level = 35,
-		name = "Master Synthesis",
-		id = 3,
 		type = AbilityTypeSynthesis
 	},
 	["artisan synthesis"] = {
+		progress = 100,
+		labour = 25,
+		name = "Artisan Synthesis",
+		level = 60,
+		id = 4,
 		durability = 2,
 		success = 75,
-		labour = 25,
-		progress = 100,
-		level = 60,
-		name = "Artisan Synthesis",
-		id = 4,
 		type = AbilityTypeSynthesis
 	},
 	["smither's synthesis"] = {
+		unique = 1,
+		labour = 30,
+		roundCooldown = 10,
+		durability = 2,
 		success = 75,
+		progress = 200,
 		name = "Smither's Synthesis",
 		id = 5,
-		durability = 2,
-		labour = 30,
-		progress = 200,
-		roundCooldown = 10,
-		unique = 1,
 		profession = ProfessionBlacksmithing,
 		type = AbilityTypeSynthesis
 	},
 	["apprentice shine"] = {
-		labour = 5,
 		success = 100,
-		chance = 10,
-		level = 5,
+		labour = 5,
 		name = "Apprentice Shine",
+		level = 5,
 		id = 6,
+		chance = 10,
 		type = AbilityTypeShine
 	},
 	["expert shine"] = {
-		labour = 10,
 		success = 100,
-		chance = 20,
-		level = 25,
+		labour = 10,
 		name = "Expert Shine",
+		level = 25,
 		id = 7,
+		chance = 20,
 		type = AbilityTypeShine
 	},
 	["master shine"] = {
-		labour = 15,
 		success = 100,
-		chance = 30,
-		level = 45,
+		labour = 15,
 		name = "Master Shine",
+		level = 45,
 		id = 8,
+		chance = 30,
 		type = AbilityTypeShine
 	},
 	["artisan shine"] = {
-		labour = 20,
 		success = 100,
-		chance = 50,
-		level = 65,
+		labour = 20,
 		name = "Artisan Shine",
+		level = 65,
 		id = 9,
+		chance = 50,
 		type = AbilityTypeShine
 	},
 	["carpenter's shine"] = {
-		chance = 100,
-		name = "Carpenter's Shine",
-		id = 10,
-		success = 75,
-		labour = 25,
-		roundCooldown = 10,
 		unique = 1,
+		name = "Carpenter's Shine",
+		labour = 25,
+		success = 75,
+		chance = 100,
+		roundCooldown = 10,
+		id = 10,
 		profession = ProfessionCarpentry,
 		type = AbilityTypeShine
 	},
 	["apprentice touch"] = {
-		quality = 25,
-		success = 100,
-		labour = 10,
-		durability = 1,
-		level = 8,
-		name = "Apprentice Touch",
 		id = 11,
+		labour = 10,
+		name = "Apprentice Touch",
+		level = 8,
+		quality = 25,
+		durability = 1,
+		success = 100,
 		type = AbilityTypeTouch
 	},
 	["expert touch"] = {
-		quality = 50,
-		success = 90,
-		labour = 15,
-		durability = 1,
-		level = 23,
-		name = "Expert Touch",
 		id = 12,
+		labour = 15,
+		name = "Expert Touch",
+		level = 23,
+		quality = 50,
+		durability = 1,
+		success = 90,
 		type = AbilityTypeTouch
 	},
 	["master touch"] = {
-		quality = 75,
-		success = 80,
-		labour = 20,
-		durability = 1,
-		level = 48,
-		name = "Master Touch",
 		id = 13,
+		labour = 20,
+		name = "Master Touch",
+		level = 48,
+		quality = 75,
+		durability = 1,
+		success = 80,
 		type = AbilityTypeTouch
 	},
 	["artisan touch"] = {
-		quality = 100,
-		success = 75,
-		labour = 25,
-		durability = 2,
-		level = 75,
-		name = "Artisan Touch",
 		id = 14,
+		labour = 25,
+		name = "Artisan Touch",
+		level = 75,
+		quality = 100,
+		durability = 2,
+		success = 75,
 		type = AbilityTypeTouch
 	},
 	["precision touch"] = {
-		success = 75,
-		roundCooldown = 10,
-		name = "Precision Touch",
-		id = 15,
-		durability = 2,
-		labour = 30,
-		quality = 200,
 		unique = 1,
+		labour = 30,
+		id = 15,
+		roundCooldown = 10,
+		durability = 2,
+		success = 75,
+		name = "Precision Touch",
+		quality = 200,
 		profession = ProfessionWeaving,
 		type = AbilityTypeTouch
 	},
 	["apprentice mend"] = {
-		durability = 1,
-		success = 100,
 		labour = 15,
 		level = 10,
 		name = "Apprentice Mend",
 		id = 16,
+		durability = 1,
+		success = 100,
 		type = AbilityTypeMend
 	},
 	["expert mend"] = {
-		durability = 2,
-		success = 90,
 		labour = 25,
 		level = 30,
 		name = "Expert Mend",
 		id = 17,
+		durability = 2,
+		success = 90,
 		type = AbilityTypeMend
 	},
 	["master mend"] = {
-		durability = 3,
-		success = 80,
 		labour = 35,
 		level = 50,
 		name = "Master Mend",
 		id = 18,
+		durability = 3,
+		success = 80,
 		type = AbilityTypeMend
 	},
 	["artisan mend"] = {
-		durability = 5,
-		success = 60,
 		labour = 45,
 		level = 70,
 		name = "Artisan Mend",
 		id = 19,
+		durability = 5,
+		success = 60,
 		type = AbilityTypeMend
 	},
 	["focused mend"] = {
-		success = 100,
 		name = "Focused Mend",
-		id = 20,
-		durability = 4,
-		labour = 50,
-		roundCooldown = 10,
 		unique = 1,
+		labour = 50,
+		durability = 4,
+		success = 100,
+		roundCooldown = 10,
+		id = 20,
 		profession = ProfessionCooking,
 		type = AbilityTypeMend
 	},
 	["new tools"] = {
-		rounds = 3,
 		name = "New Tools",
-		id = 21,
-		success = 100,
-		labour = 50,
-		roundCooldown = 10,
 		unique = 2,
+		rounds = 3,
+		labour = 50,
+		success = 100,
+		roundCooldown = 10,
+		id = 21,
 		profession = ProfessionCarpentry,
 		type = AbilityTypeBuff
 	},
 	["steady hand"] = {
-		rounds = 1,
 		name = "Steady Hand",
-		id = 22,
-		success = 100,
-		labour = 50,
-		roundCooldown = 10,
 		unique = 2,
+		rounds = 1,
+		labour = 50,
+		success = 100,
+		roundCooldown = 10,
+		id = 22,
 		profession = ProfessionWeaving,
 		type = AbilityTypeBuff
 	},
 	["firm grip"] = {
-		rounds = 3,
 		name = "Firm Grip",
-		id = 23,
-		success = 100,
-		labour = 50,
-		roundCooldown = 10,
 		unique = 2,
+		rounds = 3,
+		labour = 50,
+		success = 100,
+		roundCooldown = 10,
+		id = 23,
 		profession = ProfessionBlacksmithing,
 		type = AbilityTypeBuff
 	},
 	["touch of salt"] = {
-		rounds = 3,
 		name = "Touch of Salt",
-		id = 24,
-		success = 100,
-		labour = 50,
-		roundCooldown = 10,
 		unique = 2,
+		rounds = 3,
+		labour = 50,
+		success = 100,
+		roundCooldown = 10,
+		id = 24,
 		profession = ProfessionCooking,
 		type = AbilityTypeBuff
 	}
 }
 g_spells.potions = {
 	[35442] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Lesser Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35442,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Lesser Health Potion",
+		id = 35442,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5035,16 +5035,16 @@ g_spells.potions = {
 		}
 	},
 	[35443] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Intermediate Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35443,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Intermediate Health Potion",
+		id = 35443,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5053,16 +5053,16 @@ g_spells.potions = {
 		}
 	},
 	[35444] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Greater Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35444,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Greater Health Potion",
+		id = 35444,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5071,16 +5071,16 @@ g_spells.potions = {
 		}
 	},
 	[35445] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Major Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35445,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Major Health Potion",
+		id = 35445,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5089,16 +5089,16 @@ g_spells.potions = {
 		}
 	},
 	[35446] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Supreme Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35446,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Supreme Health Potion",
+		id = 35446,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5107,16 +5107,16 @@ g_spells.potions = {
 		}
 	},
 	[35447] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Eternal Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35447,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Eternal Health Potion",
+		id = 35447,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5125,16 +5125,16 @@ g_spells.potions = {
 		}
 	},
 	[35448] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Transcendent Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35448,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Transcendent Health Potion",
+		id = 35448,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5143,16 +5143,16 @@ g_spells.potions = {
 		}
 	},
 	[35449] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "T8 Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35449,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "T8 Health Potion",
+		id = 35449,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5161,16 +5161,16 @@ g_spells.potions = {
 		}
 	},
 	[35450] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "T9 Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35450,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "T9 Health Potion",
+		id = 35450,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5179,16 +5179,16 @@ g_spells.potions = {
 		}
 	},
 	[35451] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "T10 Health Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35451,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "T10 Health Potion",
+		id = 35451,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5197,16 +5197,16 @@ g_spells.potions = {
 		}
 	},
 	[35452] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Lesser Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35452,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Lesser Mana Potion",
+		id = 35452,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5215,16 +5215,16 @@ g_spells.potions = {
 		}
 	},
 	[35453] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Intermediate Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35453,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Intermediate Mana Potion",
+		id = 35453,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5233,16 +5233,16 @@ g_spells.potions = {
 		}
 	},
 	[35454] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Greater Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35454,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Greater Mana Potion",
+		id = 35454,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5251,16 +5251,16 @@ g_spells.potions = {
 		}
 	},
 	[35455] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Major Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35455,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Major Mana Potion",
+		id = 35455,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5269,16 +5269,16 @@ g_spells.potions = {
 		}
 	},
 	[35456] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Supreme Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35456,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Supreme Mana Potion",
+		id = 35456,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5287,16 +5287,16 @@ g_spells.potions = {
 		}
 	},
 	[35457] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Eternal Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35457,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Eternal Mana Potion",
+		id = 35457,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5305,16 +5305,16 @@ g_spells.potions = {
 		}
 	},
 	[35458] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Transcendent Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35458,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "Transcendent Mana Potion",
+		id = 35458,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5323,16 +5323,16 @@ g_spells.potions = {
 		}
 	},
 	[35459] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "T8 Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35459,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "T8 Mana Potion",
+		id = 35459,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5341,16 +5341,16 @@ g_spells.potions = {
 		}
 	},
 	[35460] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "T9 Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35460,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "T9 Mana Potion",
+		id = 35460,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5359,16 +5359,16 @@ g_spells.potions = {
 		}
 	},
 	[35461] = {
-		cooldown = 45000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "T10 Mana Potion",
+		channeling = false,
 		crosshair = false,
-		id = 35461,
+		cooldown = 45000,
 		needTarget = false,
 		archetype = 0,
+		name = "T10 Mana Potion",
+		id = 35461,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5377,16 +5377,16 @@ g_spells.potions = {
 		}
 	},
 	[36940] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Energetic Tonic",
+		channeling = false,
 		crosshair = false,
-		id = 36940,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Energetic Tonic",
+		id = 36940,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5395,16 +5395,16 @@ g_spells.potions = {
 		}
 	},
 	[36941] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Training Elixir",
+		channeling = false,
 		crosshair = false,
-		id = 36941,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Training Elixir",
+		id = 36941,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5413,16 +5413,16 @@ g_spells.potions = {
 		}
 	},
 	[36947] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Dawn's Drop",
+		channeling = false,
 		crosshair = false,
-		id = 36947,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Dawn's Drop",
+		id = 36947,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5431,16 +5431,16 @@ g_spells.potions = {
 		}
 	},
 	[36948] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Infantry Boost",
+		channeling = false,
 		crosshair = false,
-		id = 36948,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Infantry Boost",
+		id = 36948,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5449,16 +5449,16 @@ g_spells.potions = {
 		}
 	},
 	[36989] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Tonic of Regeneration",
+		channeling = false,
 		crosshair = false,
-		id = 36989,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Tonic of Regeneration",
+		id = 36989,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5467,16 +5467,16 @@ g_spells.potions = {
 		}
 	},
 	[36990] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Opportunist's Elixir",
+		channeling = false,
 		crosshair = false,
-		id = 36990,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Opportunist's Elixir",
+		id = 36990,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5485,16 +5485,16 @@ g_spells.potions = {
 		}
 	},
 	[36998] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Oversea Tonic",
+		channeling = false,
 		crosshair = false,
-		id = 36998,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Oversea Tonic",
+		id = 36998,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5503,16 +5503,16 @@ g_spells.potions = {
 		}
 	},
 	[36995] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Weakening Poison",
+		channeling = false,
 		crosshair = false,
-		id = 36995,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Weakening Poison",
+		id = 36995,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5521,16 +5521,16 @@ g_spells.potions = {
 		}
 	},
 	[37040] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Thug's Tonic",
+		channeling = false,
 		crosshair = false,
-		id = 37040,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Thug's Tonic",
+		id = 37040,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5539,16 +5539,16 @@ g_spells.potions = {
 		}
 	},
 	[37041] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Nursing Elixir",
+		channeling = false,
 		crosshair = false,
-		id = 37041,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Nursing Elixir",
+		id = 37041,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5557,16 +5557,16 @@ g_spells.potions = {
 		}
 	},
 	[37045] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Assault Tonic",
+		channeling = false,
 		crosshair = false,
-		id = 37045,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Assault Tonic",
+		id = 37045,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5575,16 +5575,16 @@ g_spells.potions = {
 		}
 	},
 	[37046] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Toxic Poison",
+		channeling = false,
 		crosshair = false,
-		id = 37046,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Toxic Poison",
+		id = 37046,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5593,16 +5593,16 @@ g_spells.potions = {
 		}
 	},
 	[37125] = {
-		cooldown = 20000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Rusty Old Trap",
+		channeling = false,
 		crosshair = false,
-		id = 37125,
+		cooldown = 20000,
 		needTarget = false,
 		archetype = 0,
+		name = "Rusty Old Trap",
+		id = 37125,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5611,16 +5611,16 @@ g_spells.potions = {
 		}
 	},
 	[39073] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Combat Panacea",
+		channeling = false,
 		crosshair = false,
-		id = 39073,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Combat Panacea",
+		id = 39073,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5629,16 +5629,16 @@ g_spells.potions = {
 		}
 	},
 	[39102] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Wild Pheromones",
+		channeling = false,
 		crosshair = false,
-		id = 39102,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Wild Pheromones",
+		id = 39102,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5647,16 +5647,16 @@ g_spells.potions = {
 		}
 	},
 	[37006] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Juggernaut Tonic",
+		channeling = false,
 		crosshair = false,
-		id = 37006,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Juggernaut Tonic",
+		id = 37006,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5665,16 +5665,16 @@ g_spells.potions = {
 		}
 	},
 	[36957] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Sun Tears",
+		channeling = false,
 		crosshair = false,
-		id = 36957,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Sun Tears",
+		id = 36957,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5683,16 +5683,16 @@ g_spells.potions = {
 		}
 	},
 	[39080] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Manastorm Draft",
+		channeling = false,
 		crosshair = false,
-		id = 39080,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Manastorm Draft",
+		id = 39080,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5701,16 +5701,16 @@ g_spells.potions = {
 		}
 	},
 	[39093] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Savage Compound",
+		channeling = false,
 		crosshair = false,
-		id = 39093,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Savage Compound",
+		id = 39093,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5719,16 +5719,16 @@ g_spells.potions = {
 		}
 	},
 	[39096] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Slayer Elixir",
+		channeling = false,
 		crosshair = false,
-		id = 39096,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Slayer Elixir",
+		id = 39096,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5737,16 +5737,16 @@ g_spells.potions = {
 		}
 	},
 	[39076] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Expert Elixir",
+		channeling = false,
 		crosshair = false,
-		id = 39076,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Expert Elixir",
+		id = 39076,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5755,16 +5755,16 @@ g_spells.potions = {
 		}
 	},
 	[39077] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Frenzy Potion",
+		channeling = false,
 		crosshair = false,
-		id = 39077,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Frenzy Potion",
+		id = 39077,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5773,16 +5773,16 @@ g_spells.potions = {
 		}
 	},
 	[39087] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Resilience Mutagen",
+		channeling = false,
 		crosshair = false,
-		id = 39087,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Resilience Mutagen",
+		id = 39087,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5791,16 +5791,16 @@ g_spells.potions = {
 		}
 	},
 	[39085] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Quickening Concoction",
+		channeling = false,
 		crosshair = false,
-		id = 39085,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Quickening Concoction",
+		id = 39085,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5809,16 +5809,16 @@ g_spells.potions = {
 		}
 	},
 	[39092] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Sage's Essence",
+		channeling = false,
 		crosshair = false,
-		id = 39092,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Sage's Essence",
+		id = 39092,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5827,16 +5827,16 @@ g_spells.potions = {
 		}
 	},
 	[39084] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Potent Pheromones",
+		channeling = false,
 		crosshair = false,
-		id = 39084,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Potent Pheromones",
+		id = 39084,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5845,16 +5845,16 @@ g_spells.potions = {
 		}
 	},
 	[39098] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Sumptuous Panacea",
+		channeling = false,
 		crosshair = false,
-		id = 39098,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Sumptuous Panacea",
+		id = 39098,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5863,16 +5863,16 @@ g_spells.potions = {
 		}
 	},
 	[39074] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Essence of Bravery",
+		channeling = false,
 		crosshair = false,
-		id = 39074,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Essence of Bravery",
+		id = 39074,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5881,16 +5881,16 @@ g_spells.potions = {
 		}
 	},
 	[39075] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Executioner's Mutagen",
+		channeling = false,
 		crosshair = false,
-		id = 39075,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Executioner's Mutagen",
+		id = 39075,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5899,16 +5899,16 @@ g_spells.potions = {
 		}
 	},
 	[39070] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Astral Decoction",
+		channeling = false,
 		crosshair = false,
-		id = 39070,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Astral Decoction",
+		id = 39070,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5917,16 +5917,16 @@ g_spells.potions = {
 		}
 	},
 	[37004] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Slowing Poison",
+		channeling = false,
 		crosshair = false,
-		id = 37004,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Slowing Poison",
+		id = 37004,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5935,16 +5935,16 @@ g_spells.potions = {
 		}
 	},
 	[37054] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Tonic of Blood",
+		channeling = false,
 		crosshair = false,
-		id = 37054,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Tonic of Blood",
+		id = 37054,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5953,16 +5953,16 @@ g_spells.potions = {
 		}
 	},
 	[39100] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Vigorous Draught",
+		channeling = false,
 		crosshair = false,
-		id = 39100,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Vigorous Draught",
+		id = 39100,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5971,16 +5971,16 @@ g_spells.potions = {
 		}
 	},
 	[37053] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Vampirism Venom",
+		channeling = false,
 		crosshair = false,
-		id = 37053,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Vampirism Venom",
+		id = 37053,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -5989,16 +5989,16 @@ g_spells.potions = {
 		}
 	},
 	[39079] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Magic Leeching Venom",
+		channeling = false,
 		crosshair = false,
-		id = 39079,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Magic Leeching Venom",
+		id = 39079,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6007,16 +6007,16 @@ g_spells.potions = {
 		}
 	},
 	[36954] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Fatiguing Poison",
+		channeling = false,
 		crosshair = false,
-		id = 36954,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Fatiguing Poison",
+		id = 36954,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6025,16 +6025,16 @@ g_spells.potions = {
 		}
 	},
 	[37005] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Tree of Life Sap",
+		channeling = false,
 		crosshair = false,
-		id = 37005,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Tree of Life Sap",
+		id = 37005,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6043,16 +6043,16 @@ g_spells.potions = {
 		}
 	},
 	[36956] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Drop of Grace",
+		channeling = false,
 		crosshair = false,
-		id = 36956,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Drop of Grace",
+		id = 36956,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6061,16 +6061,16 @@ g_spells.potions = {
 		}
 	},
 	[43989] = {
-		cooldown = 24000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Rune Scribing Feather",
+		channeling = false,
 		crosshair = false,
-		id = 42989,
+		cooldown = 24000,
 		needTarget = false,
 		archetype = 0,
+		name = "Rune Scribing Feather",
+		id = 42989,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6079,16 +6079,16 @@ g_spells.potions = {
 		}
 	},
 	[34746] = {
-		cooldown = 1000,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Norro's Wand",
+		channeling = false,
 		crosshair = false,
-		id = 42989,
+		cooldown = 1000,
 		needTarget = false,
 		archetype = 0,
+		name = "Norro's Wand",
+		id = 42989,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6097,16 +6097,16 @@ g_spells.potions = {
 		}
 	},
 	[28760] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Beer",
+		channeling = false,
 		crosshair = false,
-		id = 28760,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Beer",
+		id = 28760,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6115,16 +6115,16 @@ g_spells.potions = {
 		}
 	},
 	[28882] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Wine",
+		channeling = false,
 		crosshair = false,
-		id = 28882,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Wine",
+		id = 28882,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6133,16 +6133,16 @@ g_spells.potions = {
 		}
 	},
 	[28761] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Whiskey",
+		channeling = false,
 		crosshair = false,
-		id = 28761,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Whiskey",
+		id = 28761,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6151,16 +6151,16 @@ g_spells.potions = {
 		}
 	},
 	[28767] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Vodka",
+		channeling = false,
 		crosshair = false,
-		id = 28767,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Vodka",
+		id = 28767,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6169,16 +6169,16 @@ g_spells.potions = {
 		}
 	},
 	[28883] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Rum",
+		channeling = false,
 		crosshair = false,
-		id = 28883,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Rum",
+		id = 28883,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6187,16 +6187,16 @@ g_spells.potions = {
 		}
 	},
 	[28754] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Bun",
+		channeling = false,
 		crosshair = false,
-		id = 28754,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Bun",
+		id = 28754,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6205,16 +6205,16 @@ g_spells.potions = {
 		}
 	},
 	[28759] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Scone",
+		channeling = false,
 		crosshair = false,
-		id = 28759,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Scone",
+		id = 28759,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6223,16 +6223,16 @@ g_spells.potions = {
 		}
 	},
 	[28765] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Muffin",
+		channeling = false,
 		crosshair = false,
-		id = 28765,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Muffin",
+		id = 28765,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6241,16 +6241,16 @@ g_spells.potions = {
 		}
 	},
 	[28756] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Croissant",
+		channeling = false,
 		crosshair = false,
-		id = 28756,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Croissant",
+		id = 28756,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6259,16 +6259,16 @@ g_spells.potions = {
 		}
 	},
 	[28757] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Danish",
+		channeling = false,
 		crosshair = false,
-		id = 28757,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Danish",
+		id = 28757,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6277,16 +6277,16 @@ g_spells.potions = {
 		}
 	},
 	[28766] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Cookies",
+		channeling = false,
 		crosshair = false,
-		id = 28766,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Cookies",
+		id = 28766,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6295,16 +6295,16 @@ g_spells.potions = {
 		}
 	},
 	[28764] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Deluxe Cookies",
+		channeling = false,
 		crosshair = false,
-		id = 28764,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Deluxe Cookies",
+		id = 28764,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6313,16 +6313,16 @@ g_spells.potions = {
 		}
 	},
 	[28755] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Cake",
+		channeling = false,
 		crosshair = false,
-		id = 28755,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Cake",
+		id = 28755,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6331,16 +6331,16 @@ g_spells.potions = {
 		}
 	},
 	[28758] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Deluxe Cake",
+		channeling = false,
 		crosshair = false,
-		id = 28758,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Deluxe Cake",
+		id = 28758,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6349,16 +6349,16 @@ g_spells.potions = {
 		}
 	},
 	[28753] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Pie",
+		channeling = false,
 		crosshair = false,
-		id = 28753,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Pie",
+		id = 28753,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6367,16 +6367,16 @@ g_spells.potions = {
 		}
 	},
 	[34866] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Settler's Stew",
+		channeling = false,
 		crosshair = false,
-		id = 34866,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Settler's Stew",
+		id = 34866,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6385,16 +6385,16 @@ g_spells.potions = {
 		}
 	},
 	[34865] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Sailor's Seastew",
+		channeling = false,
 		crosshair = false,
-		id = 34865,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Sailor's Seastew",
+		id = 34865,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6403,16 +6403,16 @@ g_spells.potions = {
 		}
 	},
 	[34861] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Roasted Chicken and Veggies",
+		channeling = false,
 		crosshair = false,
-		id = 34861,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Roasted Chicken and Veggies",
+		id = 34861,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6421,16 +6421,16 @@ g_spells.potions = {
 		}
 	},
 	[34857] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Firered Chicken Kebab",
+		channeling = false,
 		crosshair = false,
-		id = 34857,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Firered Chicken Kebab",
+		id = 34857,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6439,16 +6439,16 @@ g_spells.potions = {
 		}
 	},
 	[34849] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Charred Meat Kebab",
+		channeling = false,
 		crosshair = false,
-		id = 34849,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Charred Meat Kebab",
+		id = 34849,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6457,16 +6457,16 @@ g_spells.potions = {
 		}
 	},
 	[34859] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Lyderian Chopped Tenderloin",
+		channeling = false,
 		crosshair = false,
-		id = 34859,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Lyderian Chopped Tenderloin",
+		id = 34859,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6475,16 +6475,16 @@ g_spells.potions = {
 		}
 	},
 	[34869] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Smoked Sausage",
+		channeling = false,
 		crosshair = false,
-		id = 34869,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Smoked Sausage",
+		id = 34869,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6493,16 +6493,16 @@ g_spells.potions = {
 		}
 	},
 	[34847] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Acornchar Sausage",
+		channeling = false,
 		crosshair = false,
-		id = 34847,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Acornchar Sausage",
+		id = 34847,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6511,16 +6511,16 @@ g_spells.potions = {
 		}
 	},
 	[34864] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Rum Downslider",
+		channeling = false,
 		crosshair = false,
-		id = 34864,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Rum Downslider",
+		id = 34864,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6529,16 +6529,16 @@ g_spells.potions = {
 		}
 	},
 	[34853] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Freshfish Roll",
+		channeling = false,
 		crosshair = false,
-		id = 34853,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Freshfish Roll",
+		id = 34853,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6547,16 +6547,16 @@ g_spells.potions = {
 		}
 	},
 	[34852] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Fillet Lucien",
+		channeling = false,
 		crosshair = false,
-		id = 34852,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Fillet Lucien",
+		id = 34852,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6565,16 +6565,16 @@ g_spells.potions = {
 		}
 	},
 	[34862] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Rohna Roasted Ham",
+		channeling = false,
 		crosshair = false,
-		id = 34862,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Rohna Roasted Ham",
+		id = 34862,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6583,16 +6583,16 @@ g_spells.potions = {
 		}
 	},
 	[34860] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Ravendawnian Porridge",
+		channeling = false,
 		crosshair = false,
-		id = 34860,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Ravendawnian Porridge",
+		id = 34860,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6601,16 +6601,16 @@ g_spells.potions = {
 		}
 	},
 	[34870] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Sweetened Beans",
+		channeling = false,
 		crosshair = false,
-		id = 34870,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Sweetened Beans",
+		id = 34870,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6619,16 +6619,16 @@ g_spells.potions = {
 		}
 	},
 	[34855] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Fruit Pancakes",
+		channeling = false,
 		crosshair = false,
-		id = 34855,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Fruit Pancakes",
+		id = 34855,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6637,16 +6637,16 @@ g_spells.potions = {
 		}
 	},
 	[34858] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Lucien's Waffles",
+		channeling = false,
 		crosshair = false,
-		id = 34858,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Lucien's Waffles",
+		id = 34858,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6655,16 +6655,16 @@ g_spells.potions = {
 		}
 	},
 	[34851] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Dwarven Purple Shank",
+		channeling = false,
 		crosshair = false,
-		id = 34851,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Dwarven Purple Shank",
+		id = 34851,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6673,16 +6673,16 @@ g_spells.potions = {
 		}
 	},
 	[34848] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Bittersweet Roast",
+		channeling = false,
 		crosshair = false,
-		id = 34848,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Bittersweet Roast",
+		id = 34848,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6691,16 +6691,16 @@ g_spells.potions = {
 		}
 	},
 	[34868] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Shaked Fruitmilk",
+		channeling = false,
 		crosshair = false,
-		id = 34868,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Shaked Fruitmilk",
+		id = 34868,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6709,16 +6709,16 @@ g_spells.potions = {
 		}
 	},
 	[34854] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Frozen Sweet Berries",
+		channeling = false,
 		crosshair = false,
-		id = 34854,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Frozen Sweet Berries",
+		id = 34854,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6727,16 +6727,16 @@ g_spells.potions = {
 		}
 	},
 	[34856] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Iced Fruitmilk",
+		channeling = false,
 		crosshair = false,
-		id = 34856,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Iced Fruitmilk",
+		id = 34856,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6745,16 +6745,16 @@ g_spells.potions = {
 		}
 	},
 	[35397] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Apple Cider",
+		channeling = false,
 		crosshair = false,
-		id = 35397,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Apple Cider",
+		id = 35397,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6763,16 +6763,16 @@ g_spells.potions = {
 		}
 	},
 	[35400] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Blueberry Wine",
+		channeling = false,
 		crosshair = false,
-		id = 35400,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Blueberry Wine",
+		id = 35400,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6781,16 +6781,16 @@ g_spells.potions = {
 		}
 	},
 	[35399] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Strawberry Whiskey",
+		channeling = false,
 		crosshair = false,
-		id = 35399,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Strawberry Whiskey",
+		id = 35399,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6799,16 +6799,16 @@ g_spells.potions = {
 		}
 	},
 	[35398] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Banana Vodka",
+		channeling = false,
 		crosshair = false,
-		id = 35398,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Banana Vodka",
+		id = 35398,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6817,16 +6817,16 @@ g_spells.potions = {
 		}
 	},
 	[35401] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Spiced Rum",
+		channeling = false,
 		crosshair = false,
-		id = 35401,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Spiced Rum",
+		id = 35401,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6835,16 +6835,16 @@ g_spells.potions = {
 		}
 	},
 	[35402] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Shanks n' Mash",
+		channeling = false,
 		crosshair = false,
-		id = 35402,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Shanks n' Mash",
+		id = 35402,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6853,16 +6853,16 @@ g_spells.potions = {
 		}
 	},
 	[42109] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Corn Chowder",
+		channeling = false,
 		crosshair = false,
-		id = 42109,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Corn Chowder",
+		id = 42109,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6871,16 +6871,16 @@ g_spells.potions = {
 		}
 	},
 	[42110] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Corn on a Cob",
+		channeling = false,
 		crosshair = false,
-		id = 42110,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Corn on a Cob",
+		id = 42110,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6889,16 +6889,16 @@ g_spells.potions = {
 		}
 	},
 	[42748] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Glademire Crackers",
+		channeling = false,
 		crosshair = false,
-		id = 42748,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Glademire Crackers",
+		id = 42748,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6907,16 +6907,16 @@ g_spells.potions = {
 		}
 	},
 	[42128] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Corn Salad",
+		channeling = false,
 		crosshair = false,
-		id = 42128,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Corn Salad",
+		id = 42128,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6925,16 +6925,16 @@ g_spells.potions = {
 		}
 	},
 	[42111] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Cornbread",
+		channeling = false,
 		crosshair = false,
-		id = 42111,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Cornbread",
+		id = 42111,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6943,16 +6943,16 @@ g_spells.potions = {
 		}
 	},
 	[42723] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Eclipse",
+		channeling = false,
 		crosshair = false,
-		id = 42723,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Eclipse",
+		id = 42723,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6961,16 +6961,16 @@ g_spells.potions = {
 		}
 	},
 	[42724] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Landing Brandy",
+		channeling = false,
 		crosshair = false,
-		id = 42724,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Landing Brandy",
+		id = 42724,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6979,16 +6979,16 @@ g_spells.potions = {
 		}
 	},
 	[42113] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Loaf Bread",
+		channeling = false,
 		crosshair = false,
-		id = 42113,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Loaf Bread",
+		id = 42113,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -6997,16 +6997,16 @@ g_spells.potions = {
 		}
 	},
 	[42114] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Lyderian Fries",
+		channeling = false,
 		crosshair = false,
-		id = 42114,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Lyderian Fries",
+		id = 42114,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7015,16 +7015,16 @@ g_spells.potions = {
 		}
 	},
 	[42115] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Mashed Potatoes",
+		channeling = false,
 		crosshair = false,
-		id = 42115,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Mashed Potatoes",
+		id = 42115,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7033,16 +7033,16 @@ g_spells.potions = {
 		}
 	},
 	[42116] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Omelet",
+		channeling = false,
 		crosshair = false,
-		id = 42116,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Omelet",
+		id = 42116,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7051,16 +7051,16 @@ g_spells.potions = {
 		}
 	},
 	[42721] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Orange Liqueur",
+		channeling = false,
 		crosshair = false,
-		id = 42721,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Orange Liqueur",
+		id = 42721,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7069,16 +7069,16 @@ g_spells.potions = {
 		}
 	},
 	[42117] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Potato Bread",
+		channeling = false,
 		crosshair = false,
-		id = 42117,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Potato Bread",
+		id = 42117,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7087,16 +7087,16 @@ g_spells.potions = {
 		}
 	},
 	[42119] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Rohna Crackers",
+		channeling = false,
 		crosshair = false,
-		id = 42119,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Rohna Crackers",
+		id = 42119,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7105,16 +7105,16 @@ g_spells.potions = {
 		}
 	},
 	[42120] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Rye Bread",
+		channeling = false,
 		crosshair = false,
-		id = 42120,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Rye Bread",
+		id = 42120,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7123,16 +7123,16 @@ g_spells.potions = {
 		}
 	},
 	[42121] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Sajecho Hardtack",
+		channeling = false,
 		crosshair = false,
-		id = 42121,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Sajecho Hardtack",
+		id = 42121,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7141,16 +7141,16 @@ g_spells.potions = {
 		}
 	},
 	[42122] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Scrambled Eggs",
+		channeling = false,
 		crosshair = false,
-		id = 42122,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Scrambled Eggs",
+		id = 42122,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7159,16 +7159,16 @@ g_spells.potions = {
 		}
 	},
 	[42124] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Silky Scrambled Eggs",
+		channeling = false,
 		crosshair = false,
-		id = 42124,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Silky Scrambled Eggs",
+		id = 42124,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7177,16 +7177,16 @@ g_spells.potions = {
 		}
 	},
 	[42125] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Sourdought Bagel",
+		channeling = false,
 		crosshair = false,
-		id = 42125,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Sourdought Bagel",
+		id = 42125,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7195,16 +7195,16 @@ g_spells.potions = {
 		}
 	},
 	[42127] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Steamed Carrots",
+		channeling = false,
 		crosshair = false,
-		id = 42127,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Steamed Carrots",
+		id = 42127,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7213,16 +7213,16 @@ g_spells.potions = {
 		}
 	},
 	[42725] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Blueberry Pie",
+		channeling = false,
 		crosshair = false,
-		id = 42725,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Blueberry Pie",
+		id = 42725,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7231,16 +7231,16 @@ g_spells.potions = {
 		}
 	},
 	[42722] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Boozemelon",
+		channeling = false,
 		crosshair = false,
-		id = 42722,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Boozemelon",
+		id = 42722,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7249,16 +7249,16 @@ g_spells.potions = {
 		}
 	},
 	[42108] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Carrot Soup",
+		channeling = false,
 		crosshair = false,
-		id = 42108,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Carrot Soup",
+		id = 42108,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7267,16 +7267,16 @@ g_spells.potions = {
 		}
 	},
 	[42103] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Apple Puree",
+		channeling = false,
 		crosshair = false,
-		id = 42103,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Apple Puree",
+		id = 42103,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7285,16 +7285,16 @@ g_spells.potions = {
 		}
 	},
 	[42104] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Bagel",
+		channeling = false,
 		crosshair = false,
-		id = 42104,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Bagel",
+		id = 42104,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -7303,16 +7303,16 @@ g_spells.potions = {
 		}
 	},
 	[42105] = {
-		cooldown = 0,
-		range = -1,
-		channeling = false,
 		selfTarget = true,
 		aggressive = false,
-		name = "Baked Potatoes",
+		channeling = false,
 		crosshair = false,
-		id = 42105,
+		cooldown = 0,
 		needTarget = false,
 		archetype = 0,
+		name = "Baked Potatoes",
+		id = 42105,
+		range = -1,
 		resource = {
 			none = 0
 		},
@@ -9898,14 +9898,14 @@ end
 g_spells.descriptions["pt-BR"] = nil
 
 local HEALING_ATTUNEMENT_SPELLS = {
-	regenerate = 1,
-	["party recovery"] = 1,
 	devotion = 1,
 	["dawn's light"] = 1,
-	["flash heal"] = 1,
+	regenerate = 1,
 	["healing channel"] = 1,
 	mend = 1,
-	["generous influence"] = 1
+	["generous influence"] = 1,
+	["party recovery"] = 1,
+	["flash heal"] = 1
 }
 local fishingAbilities = {
 	"basic reel",

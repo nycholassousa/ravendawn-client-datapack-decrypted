@@ -36,12 +36,12 @@ local freeRecastAbilities = {
 }
 
 AbilityBar = {
-	mountKeysIndex = 7,
-	mountSkillKey = "Ctrl+R",
-	weaponSkillKey = "R",
 	spellBatchTime = 500,
 	numSlots = 36,
 	numSlotsPerBar = 6,
+	mountSkillKey = "Ctrl+R",
+	weaponSkillKey = "R",
+	mountKeysIndex = 7,
 	spellCharges = {},
 	customGlobalCooldownAbilities = {},
 	bars = {},
@@ -327,149 +327,149 @@ AbilityBar = {
 			[50000] = "Basic Reel"
 		},
 		[1822] = {
+			id = 93,
 			description = "",
-			name = "Basic Water Pumps",
-			id = 93
+			name = "Basic Water Pumps"
 		},
 		[1823] = {
+			id = 94,
 			description = "",
-			name = "Efficient Water Pumps",
-			id = 94
+			name = "Efficient Water Pumps"
 		},
 		[1824] = {
+			id = 95,
 			description = "",
-			name = "Advanced Water Pumps",
-			id = 95
+			name = "Advanced Water Pumps"
 		},
 		[5805] = {
+			id = 117,
 			description = "",
-			name = "Superior Water Pumps",
-			id = 117
+			name = "Superior Water Pumps"
 		},
 		[5806] = {
+			id = 118,
 			description = "",
-			name = "Royal Water Pumps",
-			id = 118
+			name = "Royal Water Pumps"
 		},
 		[2848] = {
+			id = 92,
 			description = "",
-			name = "Small Siege Cannon",
-			id = 92
+			name = "Small Siege Cannon"
 		},
 		[5781] = {
+			id = 139,
 			description = "",
-			name = "Small Shrapnel Cannon",
-			id = 139
+			name = "Small Shrapnel Cannon"
 		},
 		[5780] = {
+			id = 115,
 			description = "",
-			name = "Small Hullbreaker Cannon",
-			id = 115
+			name = "Small Hullbreaker Cannon"
 		},
 		[5477] = {
+			id = 116,
 			description = "",
-			name = "Small Drake Head",
-			id = 116
+			name = "Small Drake Head"
 		},
 		[5782] = {
+			id = 138,
 			description = "",
-			name = "Small Mortar Cannon",
-			id = 138
+			name = "Small Mortar Cannon"
 		},
 		[5483] = {
+			id = 129,
 			description = "",
-			name = "Small Broadside Artillery",
-			id = 129
+			name = "Small Broadside Artillery"
 		},
 		[5815] = {
+			id = 119,
 			description = "",
-			name = "Medium Siege Cannon",
-			id = 119
+			name = "Medium Siege Cannon"
 		},
 		[5797] = {
+			id = 120,
 			description = "",
-			name = "Medium Shrapnel Cannon",
-			id = 120
+			name = "Medium Shrapnel Cannon"
 		},
 		[5795] = {
+			id = 121,
 			description = "",
-			name = "Medium Hullbreaker Cannon",
-			id = 121
+			name = "Medium Hullbreaker Cannon"
 		},
 		[5817] = {
+			id = 122,
 			description = "",
-			name = "Medium Drake Head",
-			id = 122
+			name = "Medium Drake Head"
 		},
 		[5799] = {
+			id = 123,
 			description = "",
-			name = "Medium Mortar Cannon",
-			id = 123
+			name = "Medium Mortar Cannon"
 		},
 		[5819] = {
+			id = 130,
 			description = "",
-			name = "Medium Broadside Artillery",
-			id = 130
+			name = "Medium Broadside Artillery"
 		},
 		[5816] = {
+			id = 124,
 			description = "",
-			name = "Large Siege Cannon",
-			id = 124
+			name = "Large Siege Cannon"
 		},
 		[5798] = {
+			id = 125,
 			description = "",
-			name = "Large Shrapnel Cannon",
-			id = 125
+			name = "Large Shrapnel Cannon"
 		},
 		[5796] = {
+			id = 126,
 			description = "",
-			name = "Large Hullbreaker Cannon",
-			id = 126
+			name = "Large Hullbreaker Cannon"
 		},
 		[5818] = {
+			id = 127,
 			description = "",
-			name = "Large Drake Head",
-			id = 127
+			name = "Large Drake Head"
 		},
 		[5800] = {
+			id = 128,
 			description = "",
-			name = "Large Mortar Cannon",
-			id = 128
+			name = "Large Mortar Cannon"
 		},
 		[5820] = {
+			id = 131,
 			description = "",
-			name = "Large Broadside Artillery",
-			id = 131
+			name = "Large Broadside Artillery"
 		},
 		[5480] = {
+			id = 135,
 			description = "",
-			name = "Small Floating Mines",
-			id = 135
+			name = "Small Floating Mines"
 		},
 		[5481] = {
+			id = 132,
 			description = "",
-			name = "Small Grappling Hooks",
-			id = 132
+			name = "Small Grappling Hooks"
 		},
 		[5801] = {
+			id = 136,
 			description = "",
-			name = "Medium Floating Mines",
-			id = 136
+			name = "Medium Floating Mines"
 		},
 		[5803] = {
+			id = 133,
 			description = "",
-			name = "Medium Grappling Hooks",
-			id = 133
+			name = "Medium Grappling Hooks"
 		},
 		[5802] = {
+			id = 137,
 			description = "",
-			name = "Large Floating Mines",
-			id = 137
+			name = "Large Floating Mines"
 		},
 		[5804] = {
+			id = 134,
 			description = "",
-			name = "Large Grappling Hooks",
-			id = 134
+			name = "Large Grappling Hooks"
 		},
 		[AbilityBarCategoryShip] = {
 			[96] = "Repair",

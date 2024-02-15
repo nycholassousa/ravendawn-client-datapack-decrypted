@@ -15,67 +15,6 @@ GameSettings.settingsWidgets = {
 	comboBox = {}
 }
 GameSettings.defaultOptions = {
-	dash = true,
-	fasterWalkAnimation = false,
-	slowWalk = false,
-	smartWalk = true,
-	classicControl = false,
-	fullscreen = true,
-	showPing = false,
-	showFps = false,
-	vsync = true,
-	enableMapClick = false,
-	spellBatchingInterval = 500,
-	lifeManaBarType = 1,
-	lifeManaBarSize = 1,
-	showMessage = true,
-	hideInterface = false,
-	showFort = true,
-	showStronghold = true,
-	showLargeEstate = true,
-	showMediumEstate = true,
-	showSmallEstate = true,
-	displayWeatherEffects = true,
-	showSeaport = true,
-	showHouse = true,
-	showTradepost = true,
-	showCraftingStation = true,
-	showLevelBrackets = true,
-	showZoneNames = true,
-	showMissionAvailable = true,
-	showMissionComplete = true,
-	actionKeyOpacity = 80,
-	showActionKey = true,
-	chatBubbleFadeTime = "Normal",
-	chatBubbleOpacity = 80,
-	showLFGChatInGeneralChat = false,
-	showGlobalChatInGeneralChat = false,
-	showChatBubble = true,
-	showQuestTracker = true,
-	screenShake = true,
-	drawManaBars = true,
-	drawHealthBars = true,
-	drawTitles = true,
-	drawNames = true,
-	layoutEditMode = false,
-	numBarsCrafting = 0,
-	numBarsSpell = 2,
-	displayBarHeaders = true,
-	hideOthersDamage = false,
-	damageView = 2,
-	lookMessageWindow = false,
-	smallUI = false,
-	showCopyWarning = true,
-	dragStackControl = true,
-	effectsSpeed = 75,
-	arcsTransparency = 100,
-	otherWindowTransparancy = 100,
-	mapWindowTransparancy = 100,
-	inventoryWindowTransparancy = 100,
-	healthWindowTransparancy = 100,
-	chatWindowTransparancy = 100,
-	displayOtherCastBar = true,
-	displayOwnCastBar = 4,
 	displayOtherAuras = true,
 	displayOtherIcons = true,
 	displayOtherManas = true,
@@ -158,7 +97,68 @@ GameSettings.defaultOptions = {
 	backgroundFrameRate = 200,
 	screenshotMode = false,
 	enableLights = true,
-	autoChaseOverride = true
+	autoChaseOverride = true,
+	dash = true,
+	fasterWalkAnimation = false,
+	slowWalk = false,
+	smartWalk = true,
+	classicControl = false,
+	fullscreen = true,
+	showPing = false,
+	showFps = false,
+	vsync = true,
+	enableMapClick = false,
+	spellBatchingInterval = 500,
+	lifeManaBarType = 1,
+	lifeManaBarSize = 1,
+	showMessage = true,
+	hideInterface = false,
+	showFort = true,
+	showStronghold = true,
+	showLargeEstate = true,
+	showMediumEstate = true,
+	showSmallEstate = true,
+	displayWeatherEffects = true,
+	showSeaport = true,
+	showHouse = true,
+	showTradepost = true,
+	showCraftingStation = true,
+	showLevelBrackets = true,
+	showZoneNames = true,
+	showMissionAvailable = true,
+	showMissionComplete = true,
+	actionKeyOpacity = 80,
+	showActionKey = true,
+	chatBubbleFadeTime = "Normal",
+	chatBubbleOpacity = 80,
+	showLFGChatInGeneralChat = false,
+	showGlobalChatInGeneralChat = false,
+	showChatBubble = true,
+	showQuestTracker = true,
+	screenShake = true,
+	drawManaBars = true,
+	drawHealthBars = true,
+	drawTitles = true,
+	drawNames = true,
+	layoutEditMode = false,
+	numBarsCrafting = 0,
+	numBarsSpell = 2,
+	displayBarHeaders = true,
+	hideOthersDamage = false,
+	damageView = 2,
+	lookMessageWindow = false,
+	smallUI = false,
+	showCopyWarning = true,
+	dragStackControl = true,
+	effectsSpeed = 75,
+	arcsTransparency = 100,
+	otherWindowTransparancy = 100,
+	mapWindowTransparancy = 100,
+	inventoryWindowTransparancy = 100,
+	healthWindowTransparancy = 100,
+	chatWindowTransparancy = 100,
+	displayOtherCastBar = true,
+	displayOwnCastBar = 4
 }
 GameSettings.loadOnOnline = {
 	hideInterface = false,
@@ -175,52 +175,52 @@ GameSettings.order = {
 GameSettings.settings = {
 	["Audio & Language"] = {
 		{
-			min = 0,
-			suffix = "%",
 			id = "volumeMaster",
 			text = "Master volume",
 			type = "SettingsSliderOption",
-			max = 100
+			max = 100,
+			min = 0,
+			suffix = "%"
 		},
 		{
-			min = 0,
-			suffix = "%",
 			id = "volumeAmbiance",
 			text = "Ambience volume",
 			type = "SettingsSliderOption",
-			max = 100
+			max = 100,
+			min = 0,
+			suffix = "%"
 		},
 		{
-			min = 0,
-			suffix = "%",
 			id = "volumeMusic",
 			text = "Music volume",
 			type = "SettingsSliderOption",
-			max = 100
+			max = 100,
+			min = 0,
+			suffix = "%"
 		},
 		{
-			min = 0,
-			suffix = "%",
 			id = "volumeSFX",
 			text = "SFX volume",
 			type = "SettingsSliderOption",
-			max = 100
+			max = 100,
+			min = 0,
+			suffix = "%"
 		},
 		{
-			min = 0,
-			suffix = "%",
 			id = "volumeUI",
 			text = "UI volume",
 			type = "SettingsSliderOption",
-			max = 100
+			max = 100,
+			min = 0,
+			suffix = "%"
 		},
 		{
-			min = 0,
-			suffix = "%",
 			id = "volumeVoice",
 			text = "Voice volume",
 			type = "SettingsSliderOption",
-			max = 100
+			max = 100,
+			min = 0,
+			suffix = "%"
 		},
 		{
 			text = "Select your language",
@@ -251,30 +251,30 @@ GameSettings.settings = {
 			type = "GameSettingsTrueFalseOption"
 		},
 		{
-			min = 0,
-			suffix = " ms",
 			id = "floorFading",
 			text = "Floor fading",
 			type = "SettingsSliderOption",
-			max = 1000
+			max = 1000,
+			min = 0,
+			suffix = " ms"
 		},
 		{
-			min = 10,
-			suffix = " fps",
 			id = "backgroundFrameRate",
 			text = "Framerate limit",
 			type = "SettingsSliderOption",
-			max = 200
+			max = 200,
+			min = 10,
+			suffix = " fps"
 		},
 		{
-			min = 0,
-			suffix = " %",
+			text = "UI Scale",
 			id = "UIScale",
+			max = 100,
+			min = 0,
 			applyValueChange = true,
 			width = 100,
-			text = "UI Scale",
 			type = "SettingsSliderOption",
-			max = 100,
+			suffix = " %",
 			displayFormat = function(value)
 				return (0.75 + value / 100 * 0.5) * 100
 			end
@@ -369,20 +369,20 @@ GameSettings.settings = {
 			}
 		},
 		{
-			min = 0,
-			suffix = " %",
 			id = "actionKeyOpacity",
 			text = "Action key opacity",
 			type = "SettingsSliderOption",
-			max = 100
+			max = 100,
+			min = 0,
+			suffix = " %"
 		},
 		{
-			min = 0,
-			suffix = " %",
 			id = "chatBubbleOpacity",
 			text = "Chat bubble opacity",
 			type = "SettingsSliderOption",
-			max = 100
+			max = 100,
+			min = 0,
+			suffix = " %"
 		},
 		{
 			text = "Chat bubble fading",
@@ -412,10 +412,10 @@ GameSettings.settings = {
 			type = "GameSettingsTrueFalseOption"
 		},
 		{
-			suffix = "  tiles",
 			id = "quickTargetRange",
 			text = "Targeting detect range",
 			type = "GameSettingsComboBoxOption",
+			suffix = "  tiles",
 			values = {
 				1,
 				2,
@@ -471,12 +471,12 @@ GameSettings.settings = {
 			type = "GameSettingsTrueFalseOption"
 		},
 		{
-			min = 100,
-			suffix = " ms",
 			id = "spellBatchingInterval",
 			text = "Spell batching interval",
 			type = "SettingsSliderOption",
-			max = 1500
+			max = 1500,
+			min = 100,
+			suffix = " ms"
 		}
 	}
 }

@@ -2,6 +2,6 @@ DatSpr
   extended: true
   transparency: true
   frame-durations: true
-  frame-groups: false
+  frame-groups: true
   metadata-file: Ravendawn.dat
   sprites-file: Ravendawn.spr

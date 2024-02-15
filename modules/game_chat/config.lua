@@ -2,79 +2,79 @@
 
 buttonList = {
 	{
-		isTab = true,
-		name = "general",
+		tooltip = "General Chat",
 		splitter = true,
-		tooltip = "General Chat"
+		name = "general",
+		isTab = true
 	},
 	{
 		name = "global",
 		selection = {
 			english = {
+				channelId = 8,
 				isTab = true,
-				tooltip = "English Global Chat",
-				hasSelection = true,
 				name = "english",
-				buffer = "global_en",
-				channelId = 8
+				hasSelection = true,
+				tooltip = "English Global Chat",
+				buffer = "global_en"
 			},
 			portuguese = {
+				channelId = 9,
 				isTab = true,
-				tooltip = "Portuguese Global Chat",
-				hasSelection = true,
 				name = "portuguese",
-				buffer = "global_br",
-				channelId = 9
+				hasSelection = true,
+				tooltip = "Portuguese Global Chat",
+				buffer = "global_br"
 			},
 			polish = {
+				channelId = 10,
 				isTab = true,
-				tooltip = "Polish Global Chat",
-				hasSelection = true,
 				name = "polish",
-				buffer = "global_pl",
-				channelId = 10
+				hasSelection = true,
+				tooltip = "Polish Global Chat",
+				buffer = "global_pl"
 			},
 			spanish = {
+				channelId = 11,
 				isTab = true,
-				tooltip = "Spanish Global Chat",
-				hasSelection = true,
 				name = "spanish",
-				buffer = "global_spa",
-				channelId = 11
+				hasSelection = true,
+				tooltip = "Spanish Global Chat",
+				buffer = "global_spa"
 			}
 		}
 	},
 	{
-		bufferSize = 50,
 		tooltip = "Server Log",
-		internal = true,
+		isTab = true,
 		name = "server_log",
-		isTab = true
-	},
-	{
-		bufferSize = 50,
-		tooltip = "Action Log",
 		internal = true,
+		bufferSize = 50
+	},
+	{
+		tooltip = "Action Log",
+		isTab = true,
 		name = "action_log",
-		isTab = true
+		internal = true,
+		bufferSize = 50
 	},
 	{
-		tooltip = "Party Chat",
+		channelId = 1,
+		isTab = true,
 		name = "party",
-		isTab = true,
-		channelId = 1
+		tooltip = "Party Chat"
 	},
 	{
-		tooltip = "Guild Chat",
+		channelId = 2,
+		isTab = true,
 		name = "guild",
-		isTab = true,
-		channelId = 2
+		tooltip = "Guild Chat"
 	},
 	{
-		tooltip = "Looking for Group",
-		name = "looking_for_group",
+		channelId = 12,
 		isTab = true,
-		channelId = 12
+		name = "looking_for_group",
+		tooltip = "Looking for Group"
 	}
 }
 indexedButtonList = {}
@@ -296,15 +296,15 @@ talkModeSettings = {
 	}
 }
 chatMessageTitlePrefix = {
+	private = "[Whisper]",
+	global_spa = "[Global-SPA]",
 	global_pl = "[Global-PL]",
 	global_br = "[Global-BR]",
 	global_en = "[Global-EN]",
 	general = "[Local]",
-	private = "[Whisper]",
 	looking_for_group = "[LFG]",
 	guild = "[Guild]",
-	party = "[Party]",
-	global_spa = "[Global-SPA]"
+	party = "[Party]"
 }
 messageHistorySize = 50
 messageBufferSize = 50
@@ -331,28 +331,28 @@ GuildChannelId = 2
 LFGChannelId = 12
 talkTypes = {
 	{
-		color = "#CED2D9",
-		name = "Say"
+		name = "Say",
+		color = "#CED2D9"
 	},
 	{
-		color = "#A556FF",
-		name = "Whisper"
+		name = "Whisper",
+		color = "#A556FF"
 	},
 	{
-		color = "#5DA4FB",
-		name = "Party"
+		name = "Party",
+		color = "#5DA4FB"
 	},
 	{
-		color = "#77D463",
-		name = "Guild"
+		name = "Guild",
+		color = "#77D463"
 	},
 	{
-		color = "#CED2D9",
-		name = "Global"
+		name = "Global",
+		color = "#CED2D9"
 	},
 	{
-		color = "#CED2D9",
-		name = "Looking for Group"
+		name = "Looking for Group",
+		color = "#CED2D9"
 	}
 }
 talkTypesColor = {}

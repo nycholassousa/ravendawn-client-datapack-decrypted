@@ -30,8 +30,8 @@ BuilderShop = {
 		}
 	},
 	windowIconName = {
-		wagon = "icon_wagon_builder",
 		["moa equipment"] = "icon_moa_equipment_builder",
+		wagon = "icon_wagon_builder",
 		ship = "icon_ship_builder"
 	}
 }
@@ -183,8 +183,8 @@ function BuilderShop.updateMaterials()
 	if wagons then
 		for _, wagon in ipairs(wagons) do
 			local outfit = {
-				category = 1,
 				wagonActive = 1,
+				category = 1,
 				wagon = wagon.lookType,
 				wagonBody = wagon.lookType,
 				lookType = wagon.lookType,
@@ -322,8 +322,8 @@ function BuilderShop:show(data)
 
 			if item.category == "Wagons" then
 				outfit = {
-					category = 1,
 					wagonActive = 1,
+					category = 1,
 					wagon = item.lookType,
 					wagonBody = item.lookType,
 					lookType = item.lookType,
@@ -333,9 +333,9 @@ function BuilderShop:show(data)
 			elseif item.category == "Moa Equipment" then
 				entryWidget.icon.outfitId = item.lookType
 				outfit = {
-					category = 1,
-					mountBody = 3540,
 					mount = 3540,
+					mountBody = 3540,
+					category = 1,
 					mountArmor = item.lookType
 				}
 			else

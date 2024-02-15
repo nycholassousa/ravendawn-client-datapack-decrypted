@@ -31,20 +31,20 @@ function GameGuild:displayJoinGuildPage(guilds, totalResults)
 		logoWidget:setImageSource("/images/ui/windows/guild/logo_background/" .. string.format(cfg.logoImageFileFormat, guild.logo.background) .. ".png")
 		logoWidget:setIcon("/images/ui/windows/guild/logo_icons/" .. string.format(cfg.logoImageFileFormat, guild.logo.icon) .. ".png")
 		logoWidget:setImageSize({
-			width = 50,
-			height = 50
+			height = 50,
+			width = 50
 		})
 		logoWidget:setIconSize({
-			width = 46,
-			height = 46
+			height = 46,
+			width = 46
 		})
 		logoWidget:setImageOffset({
-			y = 10,
-			x = 15
+			x = 15,
+			y = 10
 		})
 		logoWidget:setIconOffset({
-			y = 12,
-			x = 17
+			x = 17,
+			y = 12
 		})
 		nameWidget.text:setText(guild.name)
 		languageWidget.icon:setOn(false)

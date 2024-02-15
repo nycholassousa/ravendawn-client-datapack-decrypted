@@ -1,11 +1,11 @@
 ﻿-- chunkname: @/modules/game_cards/cards.lua
 
 GameCards = {
-	page = 1,
-	unlocked_card_count = 0,
-	shards = 0,
 	display_type = "list",
+	unlocked_card_count = 0,
 	cards_per_page = 9,
+	page = 1,
+	shards = 0,
 	filter = {},
 	cards = {},
 	listCardWidgets = {},
@@ -68,9 +68,9 @@ function GameCards:init()
 
 	self.upgrade_animation = Animation.create({
 		duration = 2500,
-		imageSource = "/images/ui/windows/ravencards/animation/upgrade/upgrade_%02d",
 		restoreInitialStateOnEnd = true,
 		pauseWhenHidden = true,
+		imageSource = "/images/ui/windows/ravencards/animation/upgrade/upgrade_%02d",
 		canvas = self.upgrade_panel.upgrade_card.card.canvas,
 		frames = FramesDataset.upgrade,
 		onFrame = function(self, canvas, currentFrame)
@@ -94,9 +94,9 @@ function GameCards:init()
 	})
 
 	self.upgrade_animation:fadeIn({
+		opacity = 1,
 		finish = 12,
-		start = 1,
-		opacity = 1
+		start = 1
 	})
 	g_keyboard.bindKeyDown("G", self.toggleCollectionWindow)
 	ProtocolGame.registerExtendedOpcode(ExtendedIds.Cards, GameCards.onExtendedOpcode)
@@ -132,6 +132,7 @@ function GameCards.onGameEnd()
 	GameCards:hideAnimationPanel()
 	GameCards:resetAnimationPanel()
 	GameCards:closeUpgradeCard()
+	GameCards:resetPityPanel()
 
 	for _, widget in pairs(GameCards.listCardWidgets) do
 		widget:destroy()
@@ -754,8 +755,8 @@ function GameCards:openPack(packId, amount)
 	end
 
 	self:sendExtendedOpcode({
-		action = "open_pack",
 		packId = 1,
+		action = "open_pack",
 		amount = amount
 	})
 end

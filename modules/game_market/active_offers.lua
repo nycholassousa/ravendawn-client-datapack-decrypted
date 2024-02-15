@@ -1,11 +1,15 @@
 ﻿-- chunkname: @/modules/game_market/active_offers.lua
 
 function GameMarket:requestActiveOffers(newCacheIdentifier, resetPage)
-	if not self:canPerformAction() then
-		self:displayLock()
-	else
-		self:displayLock(g_clock.millis() + cfg.minLockDuration)
+	if not g_game.isOnline() then
+		return
 	end
+
+	if not self:canPerformAction() then
+		print("GameMarket.requestActiveOffers - unable to perform action")
+	end
+
+	self:displayLock(true)
 
 	local itemName = self.activeOffersWindow.search_panel.search_panel.search_input_panel.input:getText():lower()
 	local clientId = cfg.MarketableItemsByName[itemName]
@@ -42,6 +46,7 @@ function GameMarket:requestActiveOffers(newCacheIdentifier, resetPage)
 		cacheIdentifier = self.activeOffersWindow.cacheIdentifier
 	}
 
+	print("GameMarket.requestActiveOffers - fetching active offers")
 	self:sendOpcode(data)
 end
 
@@ -282,29 +287,36 @@ function GameMarket.onActiveOffersSearchPopupMenuKeyPressed(widget, keyCode)
 end
 
 function GameMarket:clearActiveOffersSearchInput()
+	if not self.activeOffersWindow.search_panel then
+		return
+	end
+
 	self.activeOffersWindow.search_panel.search_panel.search_input_panel.input:setEnabled(true)
+	self.activeOffersWindow.search_panel.search_panel.search_input_panel.clear_button:setVisible(false)
 	self.activeOffersWindow.search_panel.search_panel.search_input_panel.input:setText("", true)
+	self.activeOffersWindow.search_panel.search_panel.search_input_panel.input:setTextPreview("Search...")
 	self:requestActiveOffers(true)
 end
 
 function GameMarket:clearAllActiveOffersFilters()
 	self.activeOffersWindow.filters = {}
 
-	if not self.activeOffersWindow.popupMenu then
-		return
-	end
+	if self.activeOffersWindow.popupMenu then
+		if self.activeOffersWindow.popupMenu.clear_button then
+			self.activeOffersWindow.popupMenu.clear_button:setEnabled(false)
+		end
 
-	self.activeOffersWindow.popupMenu.clear_button:setEnabled(false)
+		for _, child in ipairs(self.activeOffersWindow.popupMenu:getChildren()) do
+			if child.content then
+				child.content.filters = nil
 
-	for _, child in ipairs(self.activeOffersWindow.popupMenu:getChildren()) do
-		if child.content then
-			child.content.filters = nil
-
-			child.content:destroyChildren()
-			child:setHeight(30)
+				child.content:destroyChildren()
+				child:setHeight(30)
+			end
 		end
 	end
 
+	self.activeOffersWindow.search_panel.search_panel.filter_panel.indicative:setEnabled(false)
 	self:requestActiveOffers(true)
 end
 
@@ -514,6 +526,17 @@ function GameMarket:onActiveOffersFilterPanelCheckboxChange(widget, state)
 		return
 	end
 
+	local consideredFilter = totalAmountOfFilters + 1
+
+	if not state then
+		consideredFilter = totalAmountOfFilters - 1
+	end
+
+	local filterPanel = self.activeOffersWindow.search_panel.search_panel.filter_panel
+
+	filterPanel.indicative:setEnabled(consideredFilter ~= 0)
+	filterPanel.indicative:setText(consideredFilter)
+
 	self.activeOffersWindow.filters[changedCategory] = self.activeOffersWindow.filters[changedCategory] or {}
 	self.activeOffersWindow.filters[changedCategory][changedFilter] = state or nil
 
@@ -587,7 +610,8 @@ function GameMarket:displayActiveOffers(offers, resultsAmount)
 				local menu = g_ui.createWidget("PopupMenu")
 
 				menu:addOption("Cancel offer", function()
-					self:displayLock(g_clock.millis() + 999)
+					print("GameMarket.displayActiveOffers - cancel offer")
+					self:displayLock(true)
 					self:sendOpcode({
 						action = "cancel_offer",
 						offerId = offer.id

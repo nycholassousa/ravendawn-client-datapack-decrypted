@@ -94,8 +94,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 			},
 			{
 				text = "This will be implemented on next alpha phase.",
-				title = "Feeding",
 				disabled = true,
+				title = "Feeding",
 				info = {
 					{
 						text = "Current feed bonus: ",
@@ -381,16 +381,16 @@ end
 
 function sendMinigameAbility(abilityId)
 	sendCraftingOpcode({
-		action = "craft",
 		subaction = "input",
+		action = "craft",
 		ability = abilityId
 	})
 end
 
 function sendCancelCraft()
 	sendCraftingOpcode({
-		action = "craft",
-		subaction = "cancel"
+		subaction = "cancel",
+		action = "craft"
 	})
 end
 

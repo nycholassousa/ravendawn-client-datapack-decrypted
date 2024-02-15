@@ -4,8 +4,8 @@ local defaultMarks = {}
 
 for _, port in pairs(Ports) do
 	table.insert(defaultMarks, {
-		minZoom = 3,
 		maxZoom = 10,
+		minZoom = 3,
 		pos = port.pos,
 		type = MAPMARK_SEAPORT,
 		description = port.description
@@ -14,8 +14,8 @@ end
 
 for id, event in pairs(DynamicEvents) do
 	table.insert(defaultMarks, {
-		minZoom = 1,
 		maxZoom = 10,
+		minZoom = 1,
 		pos = event.pos,
 		type = MAPMARK_DYNAMICEVENT,
 		description = event.name,
@@ -27,9 +27,9 @@ end
 
 for id, region in pairs(Regions) do
 	table.insert(defaultMarks, {
-		minZoom = 1,
 		style = "WorldMapIconAndBottomText",
 		maxZoom = 10,
+		minZoom = 1,
 		pos = region.pos,
 		type = MAPMARK_REGION_CONFLICT,
 		description = region.name,
@@ -49,8 +49,8 @@ for profession, data in pairs(CraftingStations) do
 		}
 
 		table.insert(defaultMarks, {
-			minZoom = 3,
 			maxZoom = 10,
+			minZoom = 3,
 			pos = pos,
 			type = MAPMARK_CRAFTING_STATION,
 			description = string.format("%s %s", ProfessionNames[profession], "Station"),
@@ -60,9 +60,9 @@ for profession, data in pairs(CraftingStations) do
 end
 
 table.insert(defaultMarks, {
+	maxZoom = 10,
 	minZoom = 3,
 	description = "Market",
-	maxZoom = 10,
 	pos = {
 		z = 6,
 		y = 5108,
@@ -71,9 +71,9 @@ table.insert(defaultMarks, {
 	type = MAPMARK_MARKET
 })
 table.insert(defaultMarks, {
+	maxZoom = 10,
 	minZoom = 3,
 	description = "Moa Merchant",
-	maxZoom = 10,
 	pos = {
 		z = 7,
 		y = 5201,
@@ -102,9 +102,9 @@ end
 
 for _, waypoint in ipairs(Waypoints) do
 	table.insert(defaultMarks, {
+		maxZoom = 10,
 		minZoom = 3,
 		description = "Respawn Shrine",
-		maxZoom = 10,
 		pos = waypoint.position,
 		type = MAPMARK_RESPAWN_SHRINE
 	})
@@ -145,25 +145,25 @@ local lastEventId = 0
 local regionConflictTimerEvent, houseTimerEvent, playerCurrentFloor
 local regionConflictDuration = 3600
 local regionConflictDescription = {
-	peace_warzone = "This region is in a state of peace, but soon transitioning into a warzone. Players cannot commit murder until the timer reaches zero. Once the region becomes a warzone, players will be able to engage in combat. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
-	conflict = "This region is currently in conflict. Murder can be committed by players during this time.",
-	peace_warmode = "This region is currently in peace. No murder can be committed by players during this time.",
-	peace = "This region is currently in peace. No murder can be committed by players during this time.",
 	warzone_peace = "This region is a warzone, but transitioning into a state of peace. Players can engage in combat and commit murder until the timer reaches 0. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
+	peace_warzone = "This region is in a state of peace, but soon transitioning into a warzone. Players cannot commit murder until the timer reaches zero. Once the region becomes a warzone, players will be able to engage in combat. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
 	warzone = "This region is a warzone. Players can freely engage in combat and commit murder without consequences. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
 	conflict_peace_warmode = "This region is currently in conflict, but going into peace soon. Murder can be committed by players until the timer goes to 0.",
 	conflict_peace = "This region is currently in conflict, but going into peace soon. Murder can be committed by players until the timer goes to 0.",
 	peace_conflict_warmode = "This region is currently in peace, but going into conflict soon. No murder can be committed by players until the timer goes to 0.",
 	peace_conflict = "This region is currently in peace, but going into conflict soon. No murder can be committed by players until the timer goes to 0.",
-	conflict_warmode = "This region is currently in conflict. Murder can be committed by players during this time."
+	conflict_warmode = "This region is currently in conflict. Murder can be committed by players during this time.",
+	conflict = "This region is currently in conflict. Murder can be committed by players during this time.",
+	peace_warmode = "This region is currently in peace. No murder can be committed by players during this time.",
+	peace = "This region is currently in peace. No murder can be committed by players during this time."
 }
 local regionConflictBottomText = {
+	peace_conflict = "Monsters will provide 5% increased experience and silver when the conflict starts.",
+	warzone_peace = "Monsters will cease to provide the additional 5% experience and silver.",
 	warzone = "Monsters provide 5% increased experience and silver during the conflict in this region.",
 	conflict = "Monsters provide 5% increased experience and silver during the conflict in this region.",
-	warzone_peace = "Monsters will cease to provide the additional 5% experience and silver.",
 	conflict_peace = "Monsters will cease to provide the additional 5% experience and silver.",
-	peace_warzone = "Monsters will provide 5% increased experience and silver when the conflict starts.",
-	peace_conflict = "Monsters will provide 5% increased experience and silver when the conflict starts."
+	peace_warzone = "Monsters will provide 5% increased experience and silver when the conflict starts."
 }
 local landSizeToIcon = {
 	[10] = MAPMARK_SMALL_LAND,
@@ -181,28 +181,28 @@ local landIconToWidgetSize = {
 }
 local compassSizeToImage = {
 	{
-		size = 55,
-		name = "/images/ui/icons/compass_highlight_1"
+		name = "/images/ui/icons/compass_highlight_1",
+		size = 55
 	},
 	{
-		size = 85,
-		name = "/images/ui/icons/compass_highlight_2"
+		name = "/images/ui/icons/compass_highlight_2",
+		size = 85
 	},
 	{
-		size = 125,
-		name = "/images/ui/icons/compass_highlight_3"
+		name = "/images/ui/icons/compass_highlight_3",
+		size = 125
 	},
 	{
-		size = 200,
-		name = "/images/ui/icons/compass_highlight_4"
+		name = "/images/ui/icons/compass_highlight_4",
+		size = 200
 	},
 	{
-		size = 300,
-		name = "/images/ui/icons/compass_highlight_5"
+		name = "/images/ui/icons/compass_highlight_5",
+		size = 300
 	},
 	{
-		size = 450,
-		name = "/images/ui/icons/compass_highlight_6"
+		name = "/images/ui/icons/compass_highlight_6",
+		size = 450
 	},
 	{
 		name = "/images/ui/icons/compass_highlight_7"
@@ -211,8 +211,8 @@ local compassSizeToImage = {
 local mapImageSource = {
 	{
 		name = "tutorial_p1_%s.jpg",
-		displayFlags = false,
 		tutorial = true,
+		displayFlags = false,
 		inside = {
 			from = {
 				z = 0,
@@ -226,10 +226,10 @@ local mapImageSource = {
 			}
 		},
 		area = {
-			toX = 3426,
 			fromY = 4543,
-			fromX = 3097,
-			toY = 4723
+			toX = 3426,
+			toY = 4723,
+			fromX = 3097
 		},
 		minimapZoom = {
 			min = 300,
@@ -242,8 +242,8 @@ local mapImageSource = {
 	},
 	{
 		name = "tutorial_p2_%s.jpg",
-		displayFlags = false,
 		tutorial = true,
+		displayFlags = false,
 		inside = {
 			from = {
 				z = 0,
@@ -257,10 +257,10 @@ local mapImageSource = {
 			}
 		},
 		area = {
-			toX = 3420,
 			fromY = 4740,
-			fromX = 3093,
-			toY = 4920
+			toX = 3420,
+			toY = 4920,
+			fromX = 3093
 		},
 		minimapZoom = {
 			min = 300,
@@ -272,14 +272,14 @@ local mapImageSource = {
 		end
 	},
 	{
+		displayCurrentFloorFlags = true,
 		name = "floor%i_%s.jpg",
 		displayFlags = true,
-		displayCurrentFloorFlags = true,
 		area = {
-			toX = 7174,
 			fromY = 3800,
-			fromX = 3046,
-			toY = 6122
+			toX = 7174,
+			toY = 6122,
+			fromX = 3046
 		},
 		minimapZoom = {
 			min = 100,
@@ -302,10 +302,10 @@ local mapImageSource = {
 		displayFlags = true,
 		main = true,
 		area = {
-			toX = 7174,
 			fromY = 3800,
-			fromX = 3046,
-			toY = 6122
+			toX = 7174,
+			toY = 6122,
+			fromX = 3046
 		},
 		minimapZoom = {
 			min = 100,
@@ -323,18 +323,18 @@ local mapImageSource = {
 }
 
 g_worldMap = {
-	globalFont = "myriad-pro-semibold-",
-	fullmapView = false,
 	zoom = 1,
+	globalFont = "myriad-pro-semibold-",
 	maxZoom = 10,
 	minZoom = 1,
+	fullmapView = false,
 	startPos = {
-		y = 0,
-		x = 0
+		x = 0,
+		y = 0
 	},
 	centerPos = {
-		y = 0.5,
-		x = 0.5
+		x = 0.5,
+		y = 0.5
 	},
 	flags = {},
 	landFlags = {},
@@ -346,17 +346,17 @@ g_worldMap = {
 	area = {},
 	compassHighlights = {},
 	zoneCfg = {
-		minZoom = 5,
 		fullmapViewExtraFontSize = 6,
 		fontMaxSize = 24,
 		fontMinSize = 12,
-		font = "vollkorn-sc-bold-bordered-"
+		font = "vollkorn-sc-bold-bordered-",
+		minZoom = 5
 	},
 	regionCfg = {
+		font = "vollkorn-sc-bold-bordered-",
 		fullmapViewExtraFontSize = 4,
 		fontMaxSize = 22,
 		fontMinSize = 10,
-		font = "vollkorn-sc-bold-bordered-",
 		maxZoom = 5
 	},
 	iconSettings = {
@@ -676,8 +676,8 @@ function g_worldMap.init()
 	g_worldMap.image = g_worldMap.window:recursiveGetChildById("image")
 	g_worldMap.cross = g_worldMap.window:recursiveGetChildById("cross")
 	g_worldMap.cross.pos = {
-		y = 0,
-		x = 0
+		x = 0,
+		y = 0
 	}
 	g_worldMap.infoPanel = g_worldMap.window:recursiveGetChildById("infoPanel")
 	iconFilterPanel = g_worldMap.window:recursiveGetChildById("iconFilterPanel")

@@ -1,8 +1,8 @@
 ﻿-- chunkname: @/modules/game_trade/trade.lua
 
 GameTrade = {
-	isSetText = false,
 	isTrading = false,
+	isSetText = false,
 	slots = {},
 	panels = {},
 	overlays = {},

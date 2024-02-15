@@ -16,12 +16,12 @@ FishFight.bigNumbers = false
 
 local fishBehaviour = {
 	[FISHFIGHT_STATE_AGGRESSIVE] = {
-		icon = "/images/ui/windows/fishfight/fish_state_aggressive",
-		description = "Increases the damage done to your rod by 200%."
+		description = "Increases the damage done to your rod by 200%.",
+		icon = "/images/ui/windows/fishfight/fish_state_aggressive"
 	},
 	[FISHFIGHT_STATE_TIRED] = {
-		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		description = "Increases the damage done to the fish by 50%."
+		description = "Increases the damage done to the fish by 50%.",
+		icon = "/images/ui/windows/fishfight/fish_state_tired"
 	},
 	[FISHFIGHT_STATE_TIRED_2] = {
 		text = "2",
@@ -61,10 +61,10 @@ local function updateAbilityTimer()
 end
 
 local weightColors = {
-	small = "#b3b3b3",
 	large = "#87c72c",
 	medium = "white",
-	gargantuan = "#fc8c08"
+	gargantuan = "#fc8c08",
+	small = "#b3b3b3"
 }
 
 function FishFight.sendAbility(id)

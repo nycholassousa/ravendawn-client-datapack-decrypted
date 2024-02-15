@@ -23,8 +23,8 @@ archetypes = {
 	active = {},
 	slots = {
 		{
-			id = 0,
-			active = false
+			active = false,
+			id = 0
 		}
 	}
 }
@@ -769,9 +769,9 @@ function onExperienceDebtChange(localPlayer, experienceDebt)
 		local width = math.min(parent:getWidth() - expBar:getImageRect().width - 25, math.max(1, parent:getWidth() * (experienceDebt / nextLevelExp)))
 
 		bar:setImageRect({
-			height = 8,
 			y = 0,
 			x = 0,
+			height = 8,
 			width = math.max(1, width)
 		})
 		border:setMarginLeft(width)
@@ -853,9 +853,9 @@ function updateRestedExperienceBar(displayPercent, percent)
 	local width = math.min(progressWidth, math.max(1, (parent:getWidth() - 25) * math.min(1, displayPercent / 100)))
 
 	bar:setImageRect({
-		height = 8,
 		y = 0,
 		x = 0,
+		height = 8,
 		width = math.floor(math.max(1, width))
 	})
 	border:setMarginLeft(width)

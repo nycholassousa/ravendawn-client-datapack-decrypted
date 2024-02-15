@@ -48,8 +48,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press I or Left-Click to open your Inventory",
+						preferSide = "top",
 						keys = {
 							"I",
 							MouseLeftButton
@@ -93,8 +93,8 @@ tasks = {
 
 				if not questPanel:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "right",
 						text = "Left-Click on the Quest Bag to open it",
+						preferSide = "right",
 						keys = {
 							MouseLeftButton
 						},
@@ -156,8 +156,8 @@ tasks = {
 						parentWidget.preventDragItem = true
 
 						GameInteractions:displayActionBox({
-							preferSide = "top",
 							text = "It looks like a summoning letter!? I wonder who's that from...",
+							preferSide = "top",
 							keys = {
 								MouseRightButton
 							},

@@ -640,7 +640,7 @@ GameMarketCreateOfferWindowPanelPagination < UIWidget
         end
 
         -- update the page count
-        modules.game_market.GameMarket:changeSimilarOffersListPage(self:getText())
+        modules.game_market.GameMarket:scheduleForABit(function() modules.game_market.GameMarket:changeSimilarOffersListPage(self:getText()) end)
       end
 
   UIWidget

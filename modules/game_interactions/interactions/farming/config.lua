@@ -56,8 +56,8 @@ tasks = {
 
 				if not houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						bandit = true,
 						text = "To start managing your Farmland, click on that house button next to the minimap",
+						bandit = true,
 						keys = {
 							MouseLeftButton
 						},
@@ -261,8 +261,8 @@ tasks = {
 
 				if not houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						bandit = true,
 						text = "To start managing your Farmland, click on that house button next to the minimap",
+						bandit = true,
 						keys = {
 							MouseLeftButton
 						},
@@ -328,8 +328,8 @@ tasks = {
 				if houseWindow:isVisible() then
 					if parentWidget then
 						GameInteractions:displayActionBox({
-							preferSide = "top",
 							bandit = true,
+							preferSide = "top",
 							text = "Now, since the farmer asked for potatoes, you should start by selecting them in the list",
 							keys = {
 								MouseLeftButton
@@ -399,9 +399,9 @@ tasks = {
 
 				if houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						text = "Oh! I guess the munk ain't charging us a thing this time. Let's not waste the opportunity!",
 						bandit = true,
 						preferSide = "right",
+						text = "Oh! I guess the munk ain't charging us a thing this time. Let's not waste the opportunity!",
 						keys = {
 							MouseLeftButton
 						},
@@ -452,8 +452,8 @@ tasks = {
 			onStartInteraction = function(self)
 				GameInteractions:displayActionBox({
 					preferSide = "top",
-					bandit = true,
 					text = "Now place the potatoes on the garden bed, but be sure to leave room for the Pig Pen as well!",
+					bandit = true,
 					keys = {
 						MouseLeftButton
 					},

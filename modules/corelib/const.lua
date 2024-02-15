@@ -293,14 +293,14 @@ KeyCodeDescs = {
 	[KeyNumpad9] = "Numpad9"
 }
 NetworkMessageTypes = {
-	U32 = 4,
-	U16 = 3,
-	U8 = 2,
-	Boolean = 1,
 	Table = 8,
 	String = 7,
 	NumberString = 6,
-	U64 = 5
+	U64 = 5,
+	U32 = 4,
+	U16 = 3,
+	U8 = 2,
+	Boolean = 1
 }
 SoundChannels = {
 	Effect = 3,

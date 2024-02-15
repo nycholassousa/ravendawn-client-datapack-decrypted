@@ -101,10 +101,10 @@ function GameCards:initCardAnimation()
 	self.animation_panel.pack:raise()
 
 	local animation = Animation.create({
-		duration = 400,
-		imageSource = "/images/ui/windows/ravencards/packs/shards_increasing_anim/small_shard_%02d",
 		framesCount = 18,
+		duration = 400,
 		restoreInitialState = true,
+		imageSource = "/images/ui/windows/ravencards/packs/shards_increasing_anim/small_shard_%02d",
 		canvas = self.animation_panel.button_panel.shards.icon,
 		frames = FramesDataset.shards_increasing,
 		onEnd = function(self, canvas)
@@ -125,6 +125,16 @@ function GameCards:initCardAnimation()
 		if i == CARD_RARITY_END then
 			widget.separator:destroy()
 		end
+	end
+end
+
+function GameCards:resetPityPanel()
+	for i = CARD_RARITY_START + 1, CARD_RARITY_END do
+		local rarityName = CardRarityToName[i]
+		local widget = self.pity_panel.panel:getChildById(rarityName:lower())
+
+		widget:setText("+0%")
+		widget.icon_holder.icon:setImageSource(string.format("/images/ui/windows/ravencards/pity/animation_%s/00", rarityName:lower()))
 	end
 end
 
@@ -560,8 +570,8 @@ function GameCards:animate(type, cycle, position, animation_widget, cardData, re
 				widget.amount:setText(cardData.shards)
 
 				local animation = Animation.create({
-					duration = 2000,
 					framesCount = 36,
+					duration = 2000,
 					canvas = widget,
 					onEnd = function(self, canvas)
 						canvas:destroy()
@@ -574,21 +584,21 @@ function GameCards:animate(type, cycle, position, animation_widget, cardData, re
 				})
 
 				animation:fadeIn({
+					opacity = 1,
 					finish = 6,
-					start = 1,
-					opacity = 1
+					start = 1
 				})
 				animation:move({
-					start = 1,
 					finish = 36,
+					start = 1,
 					offset = {
 						top = -220
 					}
 				})
 				animation:fadeOut({
+					opacity = 0,
 					finish = 36,
-					start = 7,
-					opacity = 0
+					start = 7
 				})
 				animation:start()
 				self:displayCardWidget(self.animations[position].vfx, cardData, true)

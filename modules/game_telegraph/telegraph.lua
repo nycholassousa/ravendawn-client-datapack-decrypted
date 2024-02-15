@@ -349,8 +349,8 @@ function GameTelegraph:directionalExtension(telegraphData, telegraphInfo, target
 		if elapsedPercent >= 1 then
 			imageWidget:setMarginTop(0)
 			imageWidget:setImageClip({
-				y = 0,
 				x = 0,
+				y = 0,
 				width = telegraphInfo.imageWidth,
 				height = telegraphInfo.imageHeight
 			})
@@ -369,8 +369,8 @@ function GameTelegraph:directionalExtension(telegraphData, telegraphInfo, target
 			secondaryImageWidget:setVisible(true)
 			secondaryImageWidget:setMarginBottom(height - marginTop)
 			secondaryImageWidget:setImageClip({
-				y = 0,
 				x = 0,
+				y = 0,
 				width = telegraphInfo.imageWidth,
 				height = telegraphInfo.imageHeight - clipHeight
 			})

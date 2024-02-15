@@ -342,7 +342,7 @@ GameMarketCompletedOffersPanelPagination < UIWidget
         end
 
         -- update the page count
-        modules.game_market.GameMarket:changeCompletedOffersListPage(self:getText())
+        modules.game_market.GameMarket:scheduleForABit(function() modules.game_market.GameMarket:changeCompletedOffersListPage(self:getText()) end)
       end
 
   UIWidget

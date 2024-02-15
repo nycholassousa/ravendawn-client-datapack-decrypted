@@ -4,492 +4,492 @@ FramesDataset = {
 	border_highlight = {
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		},
 		{
 			size = {
-				height = 111,
-				width = 113
+				width = 113,
+				height = 111
 			},
 			offset = {
-				x = -7,
-				y = -6
+				y = -6,
+				x = -7
 			}
 		}
 	}

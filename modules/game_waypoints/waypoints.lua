@@ -186,10 +186,10 @@ function GameWaypoints:setupLocations()
 
 	local waypointArrow = g_ui.createWidget("WaypointArrow", self.map)
 	local arrowAnimation = Animation.create({
-		duration = 1500,
 		framesCount = 36,
 		pauseWhenHidden = true,
 		loop = -1,
+		duration = 1500,
 		canvas = waypointArrow
 	})
 

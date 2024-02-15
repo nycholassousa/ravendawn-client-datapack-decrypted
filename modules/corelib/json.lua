@@ -6,12 +6,12 @@ json = {
 
 local encode
 local escape_char_map = {
-	["\\"] = "\\\\",
 	["\n"] = "\\n",
-	["\f"] = "\\f",
+	["\\"] = "\\\\",
 	["\r"] = "\\r",
-	["\b"] = "\\b",
+	["\f"] = "\\f",
 	["\t"] = "\\t",
+	["\b"] = "\\b",
 	["\""] = "\\\""
 }
 local escape_char_map_inv = {

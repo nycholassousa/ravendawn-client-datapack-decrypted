@@ -1,11 +1,15 @@
 ﻿-- chunkname: @/modules/game_market/completed_offers.lua
 
 function GameMarket:requestCompletedOffers(newCacheIdentifier, resetPage)
-	if not self:canPerformAction() then
-		self:displayLock()
-	else
-		self:displayLock(g_clock.millis() + cfg.minLockDuration)
+	if not g_game.isOnline() then
+		return
 	end
+
+	if not self:canPerformAction() then
+		print("GameMarket.requestCompletedOffers - unable to perform action")
+	end
+
+	self:displayLock(true)
 
 	local itemName = self.completedOffersWindow.search_panel.search_panel.search_input_panel.input:getText():lower()
 	local clientId = cfg.MarketableItemsByName[itemName]
@@ -42,6 +46,7 @@ function GameMarket:requestCompletedOffers(newCacheIdentifier, resetPage)
 		cacheIdentifier = self.completedOffersWindow.cacheIdentifier
 	}
 
+	print("GameMarket.requestCompletedOffers - fetching completed offers")
 	self:sendOpcode(data)
 end
 
@@ -282,29 +287,36 @@ function GameMarket.onCompletedOffersSearchPopupMenuKeyPressed(widget, keyCode)
 end
 
 function GameMarket:clearCompletedOffersSearchInput()
+	if not self.completedOffersWindow.search_panel then
+		return
+	end
+
 	self.completedOffersWindow.search_panel.search_panel.search_input_panel.input:setEnabled(true)
+	self.completedOffersWindow.search_panel.search_panel.search_input_panel.clear_button:setVisible(false)
 	self.completedOffersWindow.search_panel.search_panel.search_input_panel.input:setText("", true)
+	self.completedOffersWindow.search_panel.search_panel.search_input_panel.input:setTextPreview("Search...")
 	self:requestCompletedOffers(true)
 end
 
 function GameMarket:clearAllCompletedOffersFilters()
 	self.completedOffersWindow.filters = {}
 
-	if not self.completedOffersWindow.popupMenu then
-		return
-	end
+	if self.completedOffersWindow.popupMenu then
+		if self.completedOffersWindow.popupMenu.clear_button then
+			self.completedOffersWindow.popupMenu.clear_button:setEnabled(false)
+		end
 
-	self.completedOffersWindow.popupMenu.clear_button:setEnabled(false)
+		for _, child in ipairs(self.completedOffersWindow.popupMenu:getChildren()) do
+			if child.content then
+				child.content.filters = nil
 
-	for _, child in ipairs(self.completedOffersWindow.popupMenu:getChildren()) do
-		if child.content then
-			child.content.filters = nil
-
-			child.content:destroyChildren()
-			child:setHeight(30)
+				child.content:destroyChildren()
+				child:setHeight(30)
+			end
 		end
 	end
 
+	self.completedOffersWindow.search_panel.search_panel.filter_panel.indicative:setEnabled(false)
 	self:requestCompletedOffers(true)
 end
 
@@ -513,6 +525,17 @@ function GameMarket:onCompletedOffersFilterPanelCheckboxChange(widget, state)
 	if not changedCategory or not changedFilter then
 		return
 	end
+
+	local consideredFilter = totalAmountOfFilters + 1
+
+	if not state then
+		consideredFilter = totalAmountOfFilters - 1
+	end
+
+	local filterPanel = self.completedOffersWindow.search_panel.search_panel.filter_panel
+
+	filterPanel.indicative:setEnabled(consideredFilter ~= 0)
+	filterPanel.indicative:setText(consideredFilter)
 
 	self.completedOffersWindow.filters[changedCategory] = self.completedOffersWindow.filters[changedCategory] or {}
 	self.completedOffersWindow.filters[changedCategory][changedFilter] = state or nil

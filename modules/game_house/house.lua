@@ -2321,8 +2321,8 @@ function GameHouse:populateLandTrackerList()
 				widget.item:setMarginLeft(7)
 				widget.item:setMarginBottom(10)
 				widget.item:setSize({
-					height = 48,
-					width = 48
+					width = 48,
+					height = 48
 				})
 				widget.item:setItemId(crop.clientId[1])
 				widget.stable_right:setItemId(crop.clientId[2])

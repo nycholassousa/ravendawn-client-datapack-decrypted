@@ -117,8 +117,8 @@ function g_tooltip.init()
 		toolTipTitle:setFont("myriad-pro-semibold-20")
 		toolTipTitle:setTextAlign(AlignCenter)
 		toolTipTitle:setTextOffset({
-			y = 2,
-			x = 0
+			x = 0,
+			y = 2
 		})
 		toolTipTitle:setTextWrap(true)
 		toolTipTitle:hide()
@@ -129,8 +129,8 @@ function g_tooltip.init()
 		toolTipLabel:setFont("myriad-pro-semibold-14")
 		toolTipLabel:setTextAlign(AlignCenter)
 		toolTipLabel:setTextOffset({
-			y = 2,
-			x = 0
+			x = 0,
+			y = 2
 		})
 		toolTipLabel:setTextWrap(true)
 		toolTipLabel:hide()
@@ -198,8 +198,8 @@ function g_tooltip.display(widget)
 				value:setText(info.value(widget.advancedTooltipValue))
 				value:setFont("myriad-pro-semibold-14")
 				value:setTextOffset({
-					y = 2,
-					x = 0
+					x = 0,
+					y = 2
 				})
 				value:resizeToText()
 				value:setColor(widget.advancedTooltipColor)
@@ -210,8 +210,8 @@ function g_tooltip.display(widget)
 			child:setText(info.text)
 			child:setFont("myriad-pro-semibold-14")
 			child:setTextOffset({
-				y = 2,
-				x = 0
+				x = 0,
+				y = 2
 			})
 			child:resizeToText()
 			child:setColor(widget.advancedTooltipColor)

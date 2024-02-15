@@ -75,9 +75,9 @@ tasks = {
 
 				if pigPen then
 					GameInteractions:displayActionBox({
+						preferSide = "top",
 						text = "Right-click their pen!",
 						bandit = true,
-						preferSide = "top",
 						tilePos = pigPen:getPosition(),
 						keys = {
 							MouseRightButton
@@ -121,8 +121,8 @@ tasks = {
 				if widget and not widget:isDestroyed() then
 					GameInteractions:displayActionBox({
 						preferSide = "top",
-						bandit = true,
 						text = "Your options to manage livestock are different from a vegetable bed",
+						bandit = true,
 						keys = {
 							MouseLeftButton
 						},
@@ -165,8 +165,8 @@ tasks = {
 
 				if minigameWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						text = "But in order to get meat, you'll need to butcher the pig like the farmer said",
 						keys = {
 							"F"

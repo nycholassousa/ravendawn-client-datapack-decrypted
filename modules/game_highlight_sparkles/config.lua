@@ -340,7 +340,7 @@ actionIds = {
 		quest = "The Lighthouse Mystery"
 	},
 	[10154] = {
-		taskId = 10,
+		taskId = 8,
 		quest = "Reviving The Glory Days"
 	},
 	[10515] = {
@@ -526,16 +526,16 @@ actionIds = {
 		quest = "Green Sabbath"
 	},
 	[10562] = {
-		event = "Green Sabbath",
-		taskId = 26
+		taskId = 26,
+		event = "Green Sabbath"
 	},
 	[10563] = {
-		event = "Green Sabbath",
-		taskId = 26
+		taskId = 26,
+		event = "Green Sabbath"
 	},
 	[10694] = {
-		event = "Green Sabbath",
-		taskId = 26
+		taskId = 26,
+		event = "Green Sabbath"
 	},
 	[10602] = {
 		taskId = 5,

@@ -3,10 +3,10 @@
 recipes = recipes or {}
 recipes[ProfessionWoodcutting] = {
 	{
-		name = "Juniper Tree",
-		growingTime = 7200,
-		skillRequired = 1,
 		experience = 1600,
+		growingTime = 7200,
+		name = "Juniper Tree",
+		skillRequired = 1,
 		id = 34228,
 		items = {
 			{
@@ -28,10 +28,10 @@ recipes[ProfessionWoodcutting] = {
 		}
 	},
 	{
-		name = "Fir Tree",
-		growingTime = 28800,
-		skillRequired = 5,
 		experience = 6400,
+		growingTime = 28800,
+		name = "Fir Tree",
+		skillRequired = 5,
 		id = 34237,
 		items = {
 			{
@@ -53,10 +53,10 @@ recipes[ProfessionWoodcutting] = {
 		}
 	},
 	{
-		name = "Palm Tree",
-		growingTime = 21600,
-		skillRequired = 10,
 		experience = 4800,
+		growingTime = 21600,
+		name = "Palm Tree",
+		skillRequired = 10,
 		id = 34234,
 		items = {
 			{
@@ -78,10 +78,10 @@ recipes[ProfessionWoodcutting] = {
 		}
 	},
 	{
-		name = "Oak Tree",
-		growingTime = 86400,
-		skillRequired = 20,
 		experience = 19000,
+		growingTime = 86400,
+		name = "Oak Tree",
+		skillRequired = 20,
 		id = 34231,
 		items = {
 			{
@@ -103,10 +103,10 @@ recipes[ProfessionWoodcutting] = {
 		}
 	},
 	{
-		name = "Wildleaf Tree",
-		growingTime = 57600,
-		skillRequired = 35,
 		experience = 13000,
+		growingTime = 57600,
+		name = "Wildleaf Tree",
+		skillRequired = 35,
 		id = 34225,
 		items = {
 			{
@@ -128,10 +128,10 @@ recipes[ProfessionWoodcutting] = {
 		}
 	},
 	{
-		name = "Willow Tree",
-		growingTime = 43200,
-		skillRequired = 50,
 		experience = 9600,
+		growingTime = 43200,
+		name = "Willow Tree",
+		skillRequired = 50,
 		id = 34244,
 		items = {
 			{

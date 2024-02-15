@@ -235,9 +235,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "top",
 					text = "Select one of the available tasks and give your first step as a member of the Rangers Company!",
 					bandit = true,
+					preferSide = "top",
 					keys = {
 						MouseLeftButton
 					},

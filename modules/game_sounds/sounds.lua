@@ -75,10 +75,10 @@ CONST_SE_DYNAMIC_EVENT_STARTING = 768002248
 CONST_SE_ZONE_PEACE_TO_PVP = 3624410068
 CONST_SE_ZONE_PVP_TO_PEACE = 3266013748
 FOOTSTEP_TYPES = {
-	MEDIUM_CREATURE = 3,
 	SMALL_CREATURE = 2,
 	PLAYER = 1,
-	BIG_CREATURE = 4
+	BIG_CREATURE = 4,
+	MEDIUM_CREATURE = 3
 }
 
 local minimized = false
@@ -88,12 +88,12 @@ local lastVisibilityChangeEvent = 0
 
 CONST_ALL_GAME_OBJECTS = g_wwise and g_wwise.getAllObjectsConst() or -1
 g_sound = {
+	initialized = false,
 	channelId = 0,
 	channelName = "",
+	ravencardsAnimationEmitterId = 300,
 	localEmitterId = 200,
 	listenerId = 100,
-	initialized = false,
-	ravencardsAnimationEmitterId = 300,
 	playingIDs = {},
 	regionSounds = {},
 	loadedSoundbanks = {},

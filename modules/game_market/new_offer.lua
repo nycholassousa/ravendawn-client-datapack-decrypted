@@ -66,7 +66,7 @@ function GameMarket:displayCreateOfferWindow(offerType)
 	end
 
 	self:selectCreateOfferPanel("sell_offers")
-	self:setSimilarOffersSortOrder("desc", 3)
+	self:setSimilarOffersSortOrder("asc", 3)
 	window.place_offer_panel.place_offer_button:setEnabled(false)
 	window:show()
 	window:raise()
@@ -133,7 +133,7 @@ function GameMarket:selectCreateOfferPanel(panel)
 
 	self.createOfferWindow.type = panel
 	self.createOfferWindow.page = 1
-	self.createOfferWindow.orderDirection = "desc"
+	self.createOfferWindow.orderDirection = "asc"
 	self.createOfferWindow.orderType = "price"
 	self.createOfferWindow.totalOffers = 0
 	self.createOfferWindow.cacheIdentifier = nil
@@ -144,7 +144,7 @@ function GameMarket:selectCreateOfferPanel(panel)
 		self:updateSimilarOffersListPagination()
 	end
 
-	self:setSimilarOffersSortOrder("desc", 3, true)
+	self:setSimilarOffersSortOrder("asc", 3, true)
 end
 
 function GameMarket.onCreateOfferDropItem(widget, droppedWidget)
@@ -433,7 +433,8 @@ function GameMarket:onCreateOfferButtonClick(panel)
 
 	window:hide()
 	self:clearCreateOfferItem()
-	self:displayLock(g_clock.millis() + 999)
+	print("GameMarket.onCreateOfferButtonClick - creating new offer")
+	self:displayLock(true)
 	self:sendOpcode(data)
 	scheduleEvent(function()
 		self:requestActiveOffers(true)
@@ -545,10 +546,10 @@ function GameMarket:requestSimilarOffers(panel, newCacheIdentifier)
 	end
 
 	if not self:canPerformAction() then
-		self:displayLock()
-	else
-		self:displayLock(g_clock.millis() + cfg.minLockDuration)
+		print("GameMarket.requestSimilarOffers - unable to perform action")
 	end
+
+	self:displayLock(true)
 
 	if newCacheIdentifier then
 		self.createOfferWindow.cacheIdentifier = os.time()
@@ -565,6 +566,7 @@ function GameMarket:requestSimilarOffers(panel, newCacheIdentifier)
 		}
 	}
 
+	print("GameMarket.requestSimilarOffers - fetching similar offers")
 	self:sendOpcode(data)
 end
 
@@ -1200,12 +1202,16 @@ function GameMarket:onCreateBuyOfferRarityListBoxClick(widget)
 	})
 
 	local rarityPanel = self.activeOffersWindow.createOfferWindow.content_buy_offers.left_panel.details_panel
+	local itemPanel = self.activeOffersWindow.createOfferWindow.content_buy_offers.left_panel.place_item_panel
+	local itemId = itemPanel.item:getItemId()
 	local rarity = rarityPanel.rarity_label:getText():lower()
 
 	if rarity == "quality" then
-		for i = ITEM_QUALITY_FIRST, ITEM_QUALITY_LAST do
-			local quality = ItemQualityNames[i]
-			local option = self.createOfferWindow.popupMenu:addOption(quality, function(option)
+		local forcedQuality = cfg.forceQualityForMarketCategory[cfg.MarketableItemsByCategory[itemId]]
+
+		if forcedQuality then
+			local qualityName = ItemQualityNames[forcedQuality]
+			local option = self.createOfferWindow.popupMenu:addOption(qualityName, function(option)
 				if self.createOfferWindow.popupMenu.currentSelectedOption then
 					self.createOfferWindow.popupMenu.currentSelectedOption:setOn(false)
 				end
@@ -1214,15 +1220,37 @@ function GameMarket:onCreateBuyOfferRarityListBoxClick(widget)
 
 				self.createOfferWindow.popupMenu.currentSelectedOption = option
 
-				rarityPanel.rarity_panel.text:setText(quality)
-				rarityPanel.rarity_panel.text:setTextColor(ItemQualityColors[i])
-				self:updateCreateBuyOfferItemRarity(i, "quality")
+				rarityPanel.rarity_panel.text:setText(qualityName)
+				rarityPanel.rarity_panel.text:setTextColor(ItemQualityColors[forcedQuality])
+				self:updateCreateBuyOfferItemRarity(forcedQuality, "quality")
 			end, nil, false, "GameMarketRarityPopupMenuButton")
 
 			option:setChecked(true)
-			option:setTextColor(ItemQualityColors[i])
+			option:setTextColor(ItemQualityColors[forcedQuality])
 
-			option.textColor = ItemQualityColors[i]
+			option.textColor = ItemQualityColors[forcedQuality]
+		else
+			for i = ITEM_QUALITY_FIRST, ITEM_QUALITY_LAST do
+				local quality = ItemQualityNames[i]
+				local option = self.createOfferWindow.popupMenu:addOption(quality, function(option)
+					if self.createOfferWindow.popupMenu.currentSelectedOption then
+						self.createOfferWindow.popupMenu.currentSelectedOption:setOn(false)
+					end
+
+					option:setOn(true)
+
+					self.createOfferWindow.popupMenu.currentSelectedOption = option
+
+					rarityPanel.rarity_panel.text:setText(quality)
+					rarityPanel.rarity_panel.text:setTextColor(ItemQualityColors[i])
+					self:updateCreateBuyOfferItemRarity(i, "quality")
+				end, nil, false, "GameMarketRarityPopupMenuButton")
+
+				option:setChecked(true)
+				option:setTextColor(ItemQualityColors[i])
+
+				option.textColor = ItemQualityColors[i]
+			end
 		end
 	elseif rarity == "grade" then
 		for i = ITEM_GRADE_FIRST, ITEM_GRADE_LAST do

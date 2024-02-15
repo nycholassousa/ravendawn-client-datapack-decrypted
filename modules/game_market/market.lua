@@ -1,34 +1,35 @@
 ﻿-- chunkname: @/modules/game_market/market.lua
 
 GameMarket = {
+	customSetOrder = false,
 	unlockTime = 0,
 	premiumOnly = false,
 	offerListWindow = {
+		totalOffers = 0,
 		offerType = 0,
 		page = 1,
-		totalOffers = 0,
 		categoryWidgets = {},
 		selectedCategory = {},
 		filters = {},
 		currentOfferList = {}
 	},
 	activeOffersWindow = {
-		page = 1,
 		totalOffers = 0,
+		page = 1,
 		filters = {},
 		currentOfferList = {}
 	},
 	createOfferWindow = {
-		page = 1,
 		totalOffers = 0,
+		page = 1,
 		currentOfferList = {},
 		categoryWidgets = {},
 		selectedCategory = {},
 		attributes = {}
 	},
 	completedOffersWindow = {
-		page = 1,
 		totalOffers = 0,
+		page = 1,
 		filters = {},
 		currentOfferList = {}
 	},
@@ -91,8 +92,8 @@ function GameMarket:init()
 	for _ = 1, 30 do
 		table.insert(frames, {
 			size = {
-				width = 200,
-				height = 200
+				height = 200,
+				width = 200
 			},
 			offset = {
 				x = self.window.loading_icon:getWidth() / 2 - 115,
@@ -102,9 +103,9 @@ function GameMarket:init()
 	end
 
 	self.loadingAnimation = Animation.create({
+		loop = -1,
 		imageSource = "/images/ui/loading/frame-%d",
 		pauseWhenHidden = true,
-		loop = -1,
 		duration = 1000,
 		canvas = self.window.loading_icon,
 		frames = frames,
@@ -150,6 +151,7 @@ function GameMarket:init()
 	self:setCompletedOffersSortOrder("desc", 2)
 
 	self.createOfferWindow.categoriesPanel = self.window.create_offer_window.content_buy_offers.select_item_panel.categories
+	self.customSetOrder = false
 
 	addEvent(function()
 		self:setupCreateOfferCategoriesPanel()
@@ -234,13 +236,23 @@ function GameMarket.onExtendedOpcode(protocol, opcode, buffer)
 		return
 	end
 
-	if data.action == "fetch_offers" then
+	if data.action == "rollback" then
+		addEvent(function()
+			print("GameMarket.onExtendedOpcode 0", data.errMsg)
+			GameMarket:displayLock(false)
+		end)
+	elseif data.action == "fetch_offers" then
 		GameMarket.unlockTime = g_clock.millis() + (data.lock or cfg.minLockDuration)
 		GameMarket.offerListWindow.currentOfferList = data.offers
 
 		function GameMarket.unlockCallback()
 			GameMarket:displayOffers(data.offers, data.totalResults)
 		end
+
+		addEvent(function()
+			print("GameMarket.onExtendedOpcode 1")
+			GameMarket:displayLock(false)
+		end)
 	elseif data.action == "fetch_active_offers" then
 		GameMarket.unlockTime = g_clock.millis() + (data.lock or cfg.minLockDuration)
 		GameMarket.activeOffersWindow.currentOfferList = data.offers
@@ -248,18 +260,33 @@ function GameMarket.onExtendedOpcode(protocol, opcode, buffer)
 		function GameMarket.unlockCallback()
 			GameMarket:displayActiveOffers(data.offers, data.totalResults)
 		end
+
+		addEvent(function()
+			print("GameMarket.onExtendedOpcode 2")
+			GameMarket:displayLock(false)
+		end)
 	elseif data.action == "fetch_sell_offers" then
 		GameMarket.unlockTime = g_clock.millis() + (data.lock or cfg.minLockDuration)
 
 		function GameMarket.unlockCallback()
 			GameMarket:displaySimilarSellOffers(data.offers, data.totalResults)
 		end
+
+		addEvent(function()
+			print("GameMarket.onExtendedOpcode 3")
+			GameMarket:displayLock(false)
+		end)
 	elseif data.action == "fetch_buy_offers" then
 		GameMarket.unlockTime = g_clock.millis() + (data.lock or cfg.minLockDuration)
 
 		function GameMarket.unlockCallback()
 			GameMarket:displaySimilarBuyOffers(data.offers, data.totalResults)
 		end
+
+		addEvent(function()
+			print("GameMarket.onExtendedOpcode 4")
+			GameMarket:displayLock(false)
+		end)
 	elseif data.action == "fetch_completed_offers" then
 		GameMarket.unlockTime = g_clock.millis() + (data.lock or cfg.minLockDuration)
 		GameMarket.completedOffersWindow.currentOfferList = data.offers
@@ -267,6 +294,11 @@ function GameMarket.onExtendedOpcode(protocol, opcode, buffer)
 		function GameMarket.unlockCallback()
 			GameMarket:displayCompletedOffers(data.offers, data.totalResults)
 		end
+
+		addEvent(function()
+			print("GameMarket.onExtendedOpcode 5")
+			GameMarket:displayLock(false)
+		end)
 	end
 end
 
@@ -364,6 +396,24 @@ function GameMarket:selectMarketCategory(categoryId, skipRequest)
 		return
 	end
 
+	local selectedText = self.offerListWindow.search_panel.search_panel.search_input_panel.input:getText()
+	local itemName = selectedText:lower()
+	local clientId = cfg.MarketableItemsByName[itemName]
+
+	if not clientId then
+		local selectedText = self.offerListWindow.search_panel.search_panel.search_input_panel.input.selectedText
+
+		if selectedText then
+			local itemName = selectedText:lower()
+
+			clientId = cfg.MarketableItemsByName[itemName]
+		end
+	end
+
+	if clientId and not skipRequest then
+		self:clearSearchInput(true)
+	end
+
 	local parentCategoryWidget = categoryWidget:getParent() and categoryWidget:getParent():getParent()
 
 	if parentCategoryWidget and parentCategoryWidget:getStyleName() == "GameMarketCategoriesPanelCategory" then
@@ -424,7 +474,7 @@ function GameMarket:onSearchInputTextChange(widget, text)
 			widget:setText(match:titleCase(), true)
 			widget:setCursorPos(#match)
 			widget:setEnabled(false)
-			self:requestSearch(true, true)
+			self:requestSearch(true, true, true)
 		end)
 
 		if index > 20 then
@@ -498,7 +548,7 @@ function GameMarket.onSearchPopupMenuKeyPressed(widget, keyCode)
 
 		self.offerListWindow.popupMenu = nil
 
-		self:requestSearch(true, true)
+		self:requestSearch(true, true, true)
 
 		return
 	end
@@ -760,6 +810,15 @@ function GameMarket:onFilterPanelCheckboxChange(widget, state)
 		return
 	end
 
+	local consideredFilter = totalAmountOfFilters + 1
+
+	if not state then
+		consideredFilter = totalAmountOfFilters - 1
+	end
+
+	self.window.content_list.search.filter_panel.indicative:setEnabled(consideredFilter ~= 0)
+	self.window.content_list.search.filter_panel.indicative:setText(consideredFilter)
+
 	self.offerListWindow.filters[changedCategory] = self.offerListWindow.filters[changedCategory] or {}
 	self.offerListWindow.filters[changedCategory][changedFilter] = state or nil
 
@@ -816,32 +875,35 @@ end
 function GameMarket:clearAllFilters()
 	self.offerListWindow.filters = {}
 
-	if not self.offerListWindow.popupMenu then
-		return
-	end
+	if self.offerListWindow.popupMenu then
+		if self.offerListWindow.popupMenu.clear_button then
+			self.offerListWindow.popupMenu.clear_button:setEnabled(false)
+		end
 
-	if self.offerListWindow.popupMenu.clear_button then
-		self.offerListWindow.popupMenu.clear_button:setEnabled(false)
-	end
+		for _, child in ipairs(self.offerListWindow.popupMenu:getChildren()) do
+			if child.content then
+				child.content.filters = nil
 
-	for _, child in ipairs(self.offerListWindow.popupMenu:getChildren()) do
-		if child.content then
-			child.content.filters = nil
-
-			child.content:destroyChildren()
-			child:setHeight(30)
+				child.content:destroyChildren()
+				child:setHeight(30)
+			end
 		end
 	end
 
+	self.window.content_list.search.filter_panel.indicative:setEnabled(false)
 	self:requestSearch(true)
 end
 
-function GameMarket:requestSearch(newCacheIdentifier, resetPage)
-	if not self:canPerformAction() then
-		self:displayLock()
-	else
-		self:displayLock(g_clock.millis() + cfg.minLockDuration)
+function GameMarket:requestSearch(newCacheIdentifier, resetPage, isCustomItemSearch)
+	if not g_game.isOnline() then
+		return
 	end
+
+	if not self:canPerformAction() then
+		print("GameMarket.requestSearch - cannot perform action")
+	end
+
+	self:displayLock(true)
 
 	local itemName = self.offerListWindow.search_panel.search_panel.search_input_panel.input:getText():lower()
 	local clientId = cfg.MarketableItemsByName[itemName]
@@ -853,7 +915,7 @@ function GameMarket:requestSearch(newCacheIdentifier, resetPage)
 	if clientId then
 		local category = cfg.MarketableItemsByCategory[clientId]
 
-		if category then
+		if category and category ~= self.offerListWindow.selectedCategory.id then
 			self:selectMarketCategory(category, true)
 		end
 	end
@@ -882,6 +944,10 @@ function GameMarket:requestSearch(newCacheIdentifier, resetPage)
 		self.offerListWindow.cacheIdentifier = os.time()
 	end
 
+	if isCustomItemSearch and not self.customSetOrder then
+		self:setSortOrder("asc", 7, true)
+	end
+
 	local data = {
 		action = "fetch_items",
 		filters = self.offerListWindow.filters,
@@ -894,6 +960,7 @@ function GameMarket:requestSearch(newCacheIdentifier, resetPage)
 		cacheIdentifier = self.offerListWindow.cacheIdentifier
 	}
 
+	print("GameMarket.requestSearch - fetching items")
 	self:sendOpcode(data)
 end
 
@@ -1065,7 +1132,7 @@ function GameMarket.onProtocolItem(item)
 	self.protocolItems[item:getUUID()] = item
 end
 
-function GameMarket:setSortOrder(orderDirection, orderType)
+function GameMarket:setSortOrder(orderDirection, orderType, skipRequest)
 	if self.offerListWindow.orderDirection == orderDirection and self.offerListWindow.orderType == orderType then
 		return
 	end
@@ -1077,7 +1144,11 @@ function GameMarket:setSortOrder(orderDirection, orderType)
 		return
 	end
 
-	self:changeOfferListPage(1, true)
+	if not skipRequest then
+		self:changeOfferListPage(1, true)
+
+		self.customSetOrder = true
+	end
 
 	local headerPanel = self.window.content_list.offers_panel.list_header
 	local columns = headerPanel:getChildren()
@@ -1101,10 +1172,33 @@ function GameMarket:setSortOrder(orderDirection, orderType)
 	end
 end
 
-function GameMarket:clearSearchInput()
+function GameMarket:clearSearchInput(skipRequest)
+	if not self.offerListWindow.search_panel then
+		return
+	end
+
 	self.offerListWindow.search_panel.search_panel.search_input_panel.input:setEnabled(true)
+	self.offerListWindow.search_panel.search_panel.search_input_panel.clear_button:setVisible(false)
 	self.offerListWindow.search_panel.search_panel.search_input_panel.input:setText("", true)
-	self:requestSearch(true)
+	self.offerListWindow.search_panel.search_panel.search_input_panel.input:setTextPreview("Search...")
+
+	if not self.customSetOrder then
+		self:setSortOrder("desc", 6, true)
+	end
+
+	if not skipRequest then
+		self:requestSearch(true)
+	end
+end
+
+function GameMarket:scheduleForABit(call, time)
+	time = time or cfg.timeForReloadingAfterPageNumberChange
+
+	if self.updatingPageEvent then
+		removeEvent(self.updatingPageEvent)
+	end
+
+	self.updatingPageEvent = scheduleEvent(call, time)
 end
 
 function GameMarket:changeOfferListPage(direction, force)
@@ -1163,23 +1257,58 @@ function GameMarket:canPerformAction()
 	return self.unlockTime < g_clock.millis()
 end
 
-function GameMarket:displayLock(duration)
-	local remaining = (duration or self.unlockTime) - g_clock.millis()
+function GameMarket:displayLock(locking)
+	if not self.locked and locking then
+		self.window:blockInputPanel(true)
+		self.loadingAnimation:start()
+		self.offerListWindow.paginationPanel.page_edit:setEditable(false)
 
-	self.window:blockInputPanel(true)
-	self.loadingAnimation:start()
-	self.offerListWindow.paginationPanel.page_edit:setEditable(false)
-	scheduleEvent(function()
-		self.window:blockInputPanel(false)
-		self.loadingAnimation:stop()
-		self.offerListWindow.paginationPanel.page_edit:setEditable(true)
+		self.locked = true
+		self.unlocksAt = g_clock.millis() + cfg.minLockDuration
 
-		if self.unlockCallback then
-			self.unlockCallback()
+		print("> Adding lock")
+	elseif self.locked and not locking then
+		local ms = self.unlocksAt - g_clock.millis()
 
-			self.unlockCallback = nil
+		local function call()
+			if self.unlockCallback then
+				self.unlockCallback()
+
+				self.unlockCallback = nil
+			end
+
+			self.locked = false
+
+			addEvent(function()
+				local disableRemoval = false
+				local windows = {
+					self.activeOffersWindow.createOfferWindow,
+					self.offerListWindow.interactOfferWindow,
+					self.activeOffersWindow.selectionWindow
+				}
+
+				for _, window in pairs(windows) do
+					if window:isVisible() then
+						disableRemoval = true
+					end
+				end
+
+				if not disableRemoval then
+					self.window:blockInputPanel(false)
+				end
+
+				self.loadingAnimation:stop()
+				self.offerListWindow.paginationPanel.page_edit:setEditable(true)
+				print("> Removing lock")
+			end)
 		end
-	end, remaining)
+
+		if ms > 16 then
+			scheduleEvent(call, ms)
+		else
+			call()
+		end
+	end
 end
 
 function GameMarket:onOfferTypeChanged(type)
@@ -1358,7 +1487,7 @@ function GameMarket:displayInteractOfferWindow(offerId, offerType)
 		end
 
 		window:hide()
-		self:displayLock(g_clock.millis() + 999)
+		self:displayLock(true)
 
 		local data = {
 			action = offerType == cfg.OFFER_TYPE_SELL and "buy_offer" or "sell_offer",
@@ -1367,8 +1496,9 @@ function GameMarket:displayInteractOfferWindow(offerId, offerType)
 			itemUUID = itemWidget.itemUUID
 		}
 
+		print("GameMarket.buyingOrSellingOption")
+		self:sendOpcode(data)
 		scheduleEvent(function()
-			self:sendOpcode(data)
 			self:requestSearch(true)
 		end, 1000)
 	end

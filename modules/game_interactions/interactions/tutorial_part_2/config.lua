@@ -344,9 +344,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
+						bandit = true,
 						preferSide = "top",
 						text = "Press I or Left-Click to open your Inventory",
-						bandit = true,
 						keys = {
 							"I",
 							MouseLeftButton
@@ -408,9 +408,9 @@ tasks = {
 						parentWidget.preventDragItem = true
 
 						GameInteractions:displayActionBox({
+							bandit = true,
 							preferSide = "top",
 							text = "Simply right-click the potions and choose to add them to your action bar",
-							bandit = true,
 							keys = {
 								MouseRightButton
 							},
@@ -550,9 +550,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("skill_tree")
 
 					GameInteractions:displayActionBox({
+						bandit = true,
 						preferSide = "top",
 						text = "Press K or Left-Click to open your Skill Tree",
-						bandit = true,
 						keys = {
 							"K",
 							MouseLeftButton
@@ -620,8 +620,8 @@ tasks = {
 
 					if learnedSpell and nextSpell then
 						GameInteractions:displayDescriptionBox({
-							preferSide = "right",
 							bandit = true,
+							preferSide = "right",
 							pages = {
 								{
 									text = "The skill you already have generates aether. A source of energy that powers up other skills!",
@@ -701,9 +701,9 @@ tasks = {
 
 					if learnedSpell and nextSpell then
 						GameInteractions:displayActionBox({
+							bandit = true,
 							preferSide = "right",
 							text = "Left-click the highlighted skill to learn it",
-							bandit = true,
 							keys = {
 								MouseLeftButton
 							},
@@ -747,8 +747,8 @@ tasks = {
 				if skillTreeWindow:isVisible() then
 					GameInteractions:displayActionBox({
 						preferSide = "left",
-						text = "Now press K to close your Skill Tree",
 						bandit = true,
+						text = "Now press K to close your Skill Tree",
 						keys = {
 							MouseLeftButton,
 							"K",
@@ -848,8 +848,8 @@ tasks = {
 
 				if target then
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "I can hardly believe we're on our way to Ravendawn together!"

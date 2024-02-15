@@ -1,10 +1,10 @@
 ﻿-- chunkname: @/modules/game_chat/chat.lua
 
 GameChat = {
-	messageQueueSize = 0,
-	currentTalkType = "Say",
 	messageHistoryPos = 0,
 	enabled = false,
+	messageQueueSize = 0,
+	currentTalkType = "Say",
 	privateTabs = {},
 	messageHistory = {},
 	currentTab = {
@@ -13,16 +13,16 @@ GameChat = {
 		hiddenMessageBuffer = {}
 	},
 	messageBufferPanels = {
+		action_log = 0,
+		server_log = 0,
+		global_spa = 0,
 		global_pl = 0,
 		global_br = 0,
 		global_en = 0,
 		general = 0,
 		looking_for_group = 0,
 		guild = 0,
-		party = 0,
-		action_log = 0,
-		server_log = 0,
-		global_spa = 0
+		party = 0
 	},
 	messageBuffers = {
 		general = {},
@@ -269,7 +269,7 @@ function GameChat.onTalk(name, level, mode, text, channelId, pos, senderId, hash
 		end
 	end
 
-	GameChat:addMessageWidget(name:titleCase(), text, tab, config, senderId, customTextColor, senderPremium)
+	GameChat:addMessageWidget(name:titleCase(), text, tab, config, senderId, customTextColor, senderPremium, nil, name)
 end
 
 function GameChat.onTextMessage(mode, text)
@@ -770,7 +770,7 @@ function GameChat:addGeneralChatWidget(originalWidget)
 	self:addToMessageBuffer(widget, "general", cfg.messageBufferSize)
 end
 
-function GameChat:addMessageWidget(title, text, tab, config, senderId, customTextColor, isPremium, internalGeneralChatMessage)
+function GameChat:addMessageWidget(title, text, tab, config, senderId, customTextColor, isPremium, internalGeneralChatMessage, name)
 	if not text then
 		self.messageQueueSize = self.messageQueueSize - 1
 	end
@@ -812,18 +812,18 @@ function GameChat:addMessageWidget(title, text, tab, config, senderId, customTex
 						self:whisperPlayer(title)
 					end)
 
-					local creature = g_map.getCreatureById(senderId)
-					local name = creature:getName()
-					local social = modules.game_social.GameSocial
+					if name then
+						local social = modules.game_social.GameSocial
 
-					if not social:isIgnored(name) then
-						menu:addOption(tr("Ignore Player"), function()
-							social:addIgnored(name)
-						end)
-					else
-						menu:addOption(tr("Remove from Ignored List"), function()
-							social:removeIgnored(name)
-						end)
+						if not social:isIgnored(name:titleCase()) then
+							menu:addOption(tr("Ignore Player"), function()
+								social:addIgnored(name:titleCase())
+							end)
+						else
+							menu:addOption(tr("Remove from Ignored List"), function()
+								social:removeIgnored(name:titleCase())
+							end)
+						end
 					end
 
 					menu:addOption(tr("Report Player"), function()

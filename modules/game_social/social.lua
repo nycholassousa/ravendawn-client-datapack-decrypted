@@ -408,8 +408,8 @@ function GameSocial:updatePartyInvitationsPanel(data)
 
 			function widget.request_panel.accept_button.onClick()
 				GameSocial:sendPartyOpcode({
-					subAction = "acceptInvitation",
 					action = "execute_action",
+					subAction = "acceptInvitation",
 					partyId = invitation.partyId
 				})
 				destroyRequestModalDialog(invitation)
@@ -417,8 +417,8 @@ function GameSocial:updatePartyInvitationsPanel(data)
 
 			function widget.request_panel.reject_button.onClick()
 				GameSocial:sendPartyOpcode({
-					subAction = "declineInvitation",
 					action = "execute_action",
+					subAction = "declineInvitation",
 					partyId = invitation.partyId
 				})
 				destroyRequestModalDialog(invitation)
@@ -526,8 +526,8 @@ function GameSocial:onPassPartyLeadershipButtonClicked(widget)
 			text = tr("Yes"),
 			callback = function()
 				GameSocial:sendPartyOpcode({
-					subAction = "passLeadership",
 					action = "execute_action",
+					subAction = "passLeadership",
 					playerGuid = widget.data.guid
 				})
 				self.popupBox:destroy()
@@ -561,8 +561,8 @@ function GameSocial:onRemovePartyMemberButtonClicked(widget, isLeave)
 				text = tr("Yes"),
 				callback = function()
 					GameSocial:sendPartyOpcode({
-						subAction = "kickPlayer",
 						action = "execute_action",
+						subAction = "kickPlayer",
 						playerGuid = widget.data.guid
 					})
 					self.popupBox:destroy()

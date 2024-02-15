@@ -31,8 +31,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("rangers_company")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "You can open the Rangers Company interface anywhere in the world simply by pressing B",
+						preferSide = "top",
 						keys = {
 							"B",
 							MouseLeftButton

@@ -77,8 +77,8 @@ function UIFishHealthBar:setPercentage(value, maxValue)
 		widget:setImageWidth(value)
 		fishIcon:setMarginLeft(math.min(value > 10 and value - 10 or 0, widget:getWidth() - fishIcon:getWidth()))
 		fishLine:setImageRect({
-			y = 4,
 			x = 0,
+			y = 4,
 			width = widget:getWidth() - fishIcon:getWidth() - (value > 10 and value - 13 or -3),
 			height = fishLine:getImageHeight()
 		})

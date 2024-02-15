@@ -33,3 +33,7 @@ GameMarketCompletedOffersPanelSearchPanelFilterPanel < GameMarketWindowSearchFil
     local state = self:isOn()
     self:setOn(not state)
     GameMarket:onCompletedOffersFilterPanelClick(self, not state)
+  @onSetup: |
+    self.indicative.onClick = function()
+      modules.game_market.GameMarket:clearAllCompletedOffersFilters()
+    end

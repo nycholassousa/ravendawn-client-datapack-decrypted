@@ -62,9 +62,9 @@ tasks = {
 				local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("transports")
 
 				GameInteractions:displayActionBox({
-					text = "Press Y or Left-Click to open your Transport menu",
 					bandit = true,
 					preferSide = "top",
+					text = "Press Y or Left-Click to open your Transport menu",
 					keys = {
 						"Y",
 						MouseLeftButton
@@ -199,9 +199,9 @@ tasks = {
 
 				parentPanel:ensureChildVisible(parentWidget)
 				GameInteractions:displayActionBox({
-					text = "Click on the Mount slot",
 					bandit = true,
 					preferSide = "top",
+					text = "Click on the Mount slot",
 					keys = {
 						MouseLeftButton
 					},
@@ -267,9 +267,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					text = "And select the moa as your active mount",
 					bandit = true,
 					preferSide = "top",
+					text = "And select the moa as your active mount",
 					keys = {
 						MouseLeftButton
 					},
@@ -307,9 +307,9 @@ tasks = {
 				local parentWidget = transportWindow.top_panel.close_button
 
 				GameInteractions:displayActionBox({
-					text = "You can now close the menu by pressing ESC or Y",
 					bandit = true,
 					preferSide = "left",
+					text = "You can now close the menu by pressing ESC or Y",
 					keys = {
 						MouseLeftButton,
 						"ESC",

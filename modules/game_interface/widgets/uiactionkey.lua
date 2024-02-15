@@ -154,49 +154,49 @@ end
 local checkDirectionPriotity = {
 	[North] = {
 		{
+			near = true,
 			y = 0,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = -1,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = -1,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
+			near = true,
 			y = -1,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = 0,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = 0,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
+			near = true,
 			y = 1,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = 1,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = 1,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
 			x = 0,
@@ -265,49 +265,49 @@ local checkDirectionPriotity = {
 	},
 	[South] = {
 		{
+			near = true,
 			y = 0,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = 1,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = 1,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = 1,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
+			near = true,
 			y = 0,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = 0,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
+			near = true,
 			y = -1,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = -1,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = -1,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
 			x = 0,
@@ -376,49 +376,49 @@ local checkDirectionPriotity = {
 	},
 	[West] = {
 		{
+			near = true,
 			y = 0,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = 0,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = -1,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = 1,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = -1,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = 1,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = 0,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
+			near = true,
 			y = -1,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
+			near = true,
 			y = 1,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
 			x = -2,
@@ -487,49 +487,49 @@ local checkDirectionPriotity = {
 	},
 	[East] = {
 		{
+			near = true,
 			y = 0,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = 0,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
+			near = true,
 			y = -1,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
+			near = true,
 			y = 1,
-			x = 1,
-			near = true
+			x = 1
 		},
 		{
+			near = true,
 			y = -1,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = 1,
-			x = 0,
-			near = true
+			x = 0
 		},
 		{
+			near = true,
 			y = 0,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = -1,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
+			near = true,
 			y = 1,
-			x = -1,
-			near = true
+			x = -1
 		},
 		{
 			x = 2,
@@ -1358,8 +1358,8 @@ function onUpdateActionKey(force)
 
 			if interactable then
 				action = {
-					force = true,
 					type = "interact",
+					force = true,
 					thing = interactable,
 					icon = getInteractableIcon(interactable:getId(), interactable:getActionId())
 				}

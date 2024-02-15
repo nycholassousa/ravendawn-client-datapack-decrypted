@@ -9,9 +9,9 @@ LOOT_TYPE_PROFESSION = 3
 ItemQualityColors = table.copy(ItemQualityColors)
 ItemQualityColors[0] = "#000000"
 allowedSourceIcon = {
+	rangers_company = true,
 	artifacts = true,
-	dynamic_event = true,
-	rangers_company = true
+	dynamic_event = true
 }
 soundEvents = {
 	[1699745885] = 2,
@@ -49,9 +49,9 @@ rarityToSoundTier = {
 	4,
 	4,
 	4,
+	["Cosmetic Material"] = 4,
+	["Creature Trophy"] = 4,
 	["Dawn Essence"] = 4,
 	Ravenpack = 4,
-	["Quest Item"] = 2,
-	["Cosmetic Material"] = 4,
-	["Creature Trophy"] = 4
+	["Quest Item"] = 2
 }

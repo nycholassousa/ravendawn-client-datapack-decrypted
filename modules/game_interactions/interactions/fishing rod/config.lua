@@ -57,9 +57,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
-						text = "Press I or Left-Click to open your Inventory menu",
 						bandit = true,
 						preferSide = "top",
+						text = "Press I or Left-Click to open your Inventory menu",
 						keys = {
 							"I",
 							MouseLeftButton
@@ -140,9 +140,9 @@ tasks = {
 
 				parentPanel:ensureChildVisible(parentWidget)
 				GameInteractions:displayActionBox({
-					text = " Right-click the fishing rod in order to equip them!",
 					bandit = true,
 					preferSide = "top",
+					text = " Right-click the fishing rod in order to equip them!",
 					keys = {
 						MouseRightButton
 					},
@@ -193,9 +193,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
-						text = "Press I or Left-Click to open your Inventory menu",
 						bandit = true,
 						preferSide = "top",
+						text = "Press I or Left-Click to open your Inventory menu",
 						keys = {
 							"I",
 							MouseLeftButton
@@ -276,9 +276,9 @@ tasks = {
 
 				parentPanel:ensureChildVisible(parentWidget)
 				GameInteractions:displayActionBox({
-					text = "Now equip the fishing hook with a right-click as well",
 					bandit = true,
 					preferSide = "top",
+					text = "Now equip the fishing hook with a right-click as well",
 					keys = {
 						MouseRightButton
 					},

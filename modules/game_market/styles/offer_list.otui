@@ -224,6 +224,7 @@ GameMarketOffersPanelListItemPanelColumn < UIWidget
     text-offset: 0 5
     margin-left: 0
     text-vertical-auto-resize: true
+    text-color: white
     phantom: true
     $on:
       text-offset: 70 5
@@ -340,7 +341,7 @@ GameMarkeOffersPanelPagination < UIWidget
         end
 
         -- update the page count
-        modules.game_market.GameMarket:changeOfferListPage(self:getText())
+        modules.game_market.GameMarket:scheduleForABit(function() modules.game_market.GameMarket:changeOfferListPage(self:getText()) end)
       end
 
   UIWidget

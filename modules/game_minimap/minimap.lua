@@ -8,15 +8,15 @@ maxZoom = 400
 
 local dragSpeed = 1
 local lastPositionOffset = {
-	x = 0,
 	y = 0,
+	x = 0,
 	zoom = zoom
 }
 local clipPosition = {
-	x = 0,
-	width = 200,
 	y = 0,
-	height = 200
+	width = 200,
+	height = 200,
+	x = 0
 }
 local isDragging = g_clock.millis()
 
@@ -39,64 +39,64 @@ local pvpButtons = {
 	[PvpPeaceful] = {
 		{
 			tooltip = "Peaceful",
+			icon = "icon_shield",
 			color = "#A6AAB2",
 			background = "icon_border_off",
-			icon = "icon_shield",
 			id = "shield"
 		},
 		{
 			tooltip = "Defensive",
-			icon = "icon_sword",
+			id = "sword",
 			color = "#A6AAB2",
-			id = "sword"
+			icon = "icon_sword"
 		},
 		{
 			tooltip = "Offensive",
-			icon = "icon_skull",
+			id = "skull",
 			color = "#A6AAB2",
-			id = "skull"
+			icon = "icon_skull"
 		}
 	},
 	[PvpDefensive] = {
 		{
 			tooltip = "Defensive",
+			icon = "icon_sword",
 			color = "#1F2124",
 			background = "icon_border_yellow",
-			icon = "icon_sword",
 			id = "sword"
 		},
 		{
 			tooltip = "Peaceful",
-			icon = "icon_shield",
+			id = "shield",
 			color = "#A6AAB2",
-			id = "shield"
+			icon = "icon_shield"
 		},
 		{
 			tooltip = "Offensive",
-			icon = "icon_skull",
+			id = "skull",
 			color = "#A6AAB2",
-			id = "skull"
+			icon = "icon_skull"
 		}
 	},
 	[PvpOffensive] = {
 		{
 			tooltip = "Offensive",
+			icon = "icon_skull",
 			color = "#1F2124",
 			background = "icon_border_red",
-			icon = "icon_skull",
 			id = "skull"
 		},
 		{
 			tooltip = "Peaceful",
-			icon = "icon_shield",
+			id = "shield",
 			color = "#A6AAB2",
-			id = "shield"
+			icon = "icon_shield"
 		},
 		{
 			tooltip = "Defensive",
-			icon = "icon_sword",
+			id = "sword",
 			color = "#A6AAB2",
-			id = "sword"
+			icon = "icon_sword"
 		}
 	}
 }
@@ -109,8 +109,8 @@ function init()
 
 	minimapWindow.image:setCircle(true)
 	minimapWindow.image:setImageSize({
-		height = 200,
-		width = 200
+		width = 200,
+		height = 200
 	})
 	minimapWindow.image:setTextureRadius(defaultZoom)
 	connect(minimapWindow.image, "onDragEnter", onDragEnterMinimap)

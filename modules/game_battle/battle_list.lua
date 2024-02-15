@@ -1,20 +1,20 @@
 ﻿-- chunkname: @/modules/game_battle/battle_list.lua
 
 BattleList = {
+	isHoveringTheBattleList = false,
 	monsterFilter = 0,
 	playerFilter = 0,
 	sortingOrder = 1,
 	sortingType = 1,
 	updateInterval = 500,
-	isHoveringTheBattleList = false,
 	DEBUG_MODE = false,
 	creatures = {},
 	widgetsByCreatureId = {},
 	activeFilters = {},
 	states = {
-		healing = 2,
+		attacking = 1,
 		none = 0,
-		attacking = 1
+		healing = 2
 	},
 	filtersCategories = {
 		"Players",
@@ -22,78 +22,78 @@ BattleList = {
 	},
 	sortingCategories = {
 		{
-			sortType = 1,
-			name = "Health"
+			name = "Health",
+			sortType = 1
 		},
 		{
-			sortType = 2,
-			name = "Level"
+			name = "Level",
+			sortType = 2
 		},
 		{
-			sortType = 3,
-			name = "Name"
+			name = "Name",
+			sortType = 3
 		},
 		{
-			sortType = 4,
-			name = "Distance"
+			name = "Distance",
+			sortType = 4
 		}
 	},
 	filtersForCategory = {
 		players = {
 			{
-				filterId = 2,
-				name = "Party Members"
+				name = "Party Members",
+				filterId = 2
 			},
 			{
-				filterId = 4,
-				name = "Player with Tradepack"
+				name = "Player with Tradepack",
+				filterId = 4
 			},
 			{
-				filterId = 8,
-				name = "Player with Wagon"
+				name = "Player with Wagon",
+				filterId = 8
 			},
 			{
-				filterId = 16,
-				name = "Player with PK"
+				name = "Player with PK",
+				filterId = 16
 			},
 			{
-				filterId = 32,
-				name = "Other Players"
+				name = "Other Players",
+				filterId = 32
 			}
 		},
 		monsters = {
 			{
-				filterId = 2,
-				name = "Bosses"
+				name = "Bosses",
+				filterId = 2
 			},
 			{
-				filterId = 4,
-				name = "Non-Bosses"
+				name = "Non-Bosses",
+				filterId = 4
 			}
 		}
 	},
 	SORTING_TYPE = {
-		DISTANCE = 4,
 		NAME = 3,
 		LEVEL = 2,
-		HEALTH = 1
+		HEALTH = 1,
+		DISTANCE = 4
 	},
 	SORTING_ORDER = {
-		ASCENDING = 1,
-		DESCENDING = 2
+		DESCENDING = 2,
+		ASCENDING = 1
 	},
 	FILTERS = {
 		PLAYERS = {
+			PARTY_MEMBERS = 2,
 			GUILD_MEMBERS = 1,
 			OTHER_PLAYERS = 32,
 			PLAYER_WITH_PK = 16,
 			PLAYER_WITH_WAGON = 8,
-			PLAYER_WITH_TRADEPACK = 4,
-			PARTY_MEMBERS = 2
+			PLAYER_WITH_TRADEPACK = 4
 		},
 		MONSTERS = {
-			NON_BOSSES = 4,
-			BOSSES = 2
+			BOSSES = 2,
+			NON_BOSSES = 4
 		}
 	}
 }
