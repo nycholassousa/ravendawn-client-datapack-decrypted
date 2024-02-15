@@ -1207,11 +1207,9 @@ function GameMarket:onCreateBuyOfferRarityListBoxClick(widget)
 	local rarity = rarityPanel.rarity_label:getText():lower()
 
 	if rarity == "quality" then
-		local forcedQuality = cfg.forceQualityForMarketCategory[cfg.MarketableItemsByCategory[itemId]]
-
-		if forcedQuality then
-			local qualityName = ItemQualityNames[forcedQuality]
-			local option = self.createOfferWindow.popupMenu:addOption(qualityName, function(option)
+		for i = ITEM_QUALITY_FIRST, ITEM_QUALITY_LAST do
+			local quality = ItemQualityNames[i]
+			local option = self.createOfferWindow.popupMenu:addOption(quality, function(option)
 				if self.createOfferWindow.popupMenu.currentSelectedOption then
 					self.createOfferWindow.popupMenu.currentSelectedOption:setOn(false)
 				end
@@ -1220,37 +1218,15 @@ function GameMarket:onCreateBuyOfferRarityListBoxClick(widget)
 
 				self.createOfferWindow.popupMenu.currentSelectedOption = option
 
-				rarityPanel.rarity_panel.text:setText(qualityName)
-				rarityPanel.rarity_panel.text:setTextColor(ItemQualityColors[forcedQuality])
-				self:updateCreateBuyOfferItemRarity(forcedQuality, "quality")
+				rarityPanel.rarity_panel.text:setText(quality)
+				rarityPanel.rarity_panel.text:setTextColor(ItemQualityColors[i])
+				self:updateCreateBuyOfferItemRarity(i, "quality")
 			end, nil, false, "GameMarketRarityPopupMenuButton")
 
 			option:setChecked(true)
-			option:setTextColor(ItemQualityColors[forcedQuality])
+			option:setTextColor(ItemQualityColors[i])
 
-			option.textColor = ItemQualityColors[forcedQuality]
-		else
-			for i = ITEM_QUALITY_FIRST, ITEM_QUALITY_LAST do
-				local quality = ItemQualityNames[i]
-				local option = self.createOfferWindow.popupMenu:addOption(quality, function(option)
-					if self.createOfferWindow.popupMenu.currentSelectedOption then
-						self.createOfferWindow.popupMenu.currentSelectedOption:setOn(false)
-					end
-
-					option:setOn(true)
-
-					self.createOfferWindow.popupMenu.currentSelectedOption = option
-
-					rarityPanel.rarity_panel.text:setText(quality)
-					rarityPanel.rarity_panel.text:setTextColor(ItemQualityColors[i])
-					self:updateCreateBuyOfferItemRarity(i, "quality")
-				end, nil, false, "GameMarketRarityPopupMenuButton")
-
-				option:setChecked(true)
-				option:setTextColor(ItemQualityColors[i])
-
-				option.textColor = ItemQualityColors[i]
-			end
+			option.textColor = ItemQualityColors[i]
 		end
 	elseif rarity == "grade" then
 		for i = ITEM_GRADE_FIRST, ITEM_GRADE_LAST do
