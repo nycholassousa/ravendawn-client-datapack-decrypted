@@ -268,15 +268,15 @@ function updateFriendlyWidget(creature)
 
 	if size == 1 then
 		friendlyWidget:setImageRect({
-			x = 9,
 			y = 11,
+			x = 9,
 			height = newSize,
 			width = newSize
 		})
 	else
 		friendlyWidget:setImageRect({
-			x = 8,
 			y = 8,
+			x = 8,
 			height = newSize,
 			width = newSize
 		})

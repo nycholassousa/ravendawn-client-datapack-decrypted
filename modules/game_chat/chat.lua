@@ -1,10 +1,10 @@
 ﻿-- chunkname: @/modules/game_chat/chat.lua
 
 GameChat = {
+	currentTalkType = "Say",
 	messageHistoryPos = 0,
 	enabled = false,
 	messageQueueSize = 0,
-	currentTalkType = "Say",
 	privateTabs = {},
 	messageHistory = {},
 	currentTab = {
@@ -13,16 +13,16 @@ GameChat = {
 		hiddenMessageBuffer = {}
 	},
 	messageBufferPanels = {
-		action_log = 0,
-		server_log = 0,
 		global_spa = 0,
-		global_pl = 0,
-		global_br = 0,
-		global_en = 0,
-		general = 0,
 		looking_for_group = 0,
 		guild = 0,
-		party = 0
+		party = 0,
+		action_log = 0,
+		server_log = 0,
+		general = 0,
+		global_pl = 0,
+		global_br = 0,
+		global_en = 0
 	},
 	messageBuffers = {
 		general = {},

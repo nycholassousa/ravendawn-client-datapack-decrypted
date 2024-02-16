@@ -42,16 +42,16 @@ membersOrderType = {
 	"last_login"
 }
 possibleLanguages = {
+	Polski = true,
 	English = true,
 	Español = true,
-	Português = true,
-	Polski = true
+	Português = true
 }
 languageToIndex = {
+	Polski = 2,
 	English = 1,
 	Español = 4,
-	Português = 3,
-	Polski = 2
+	Português = 3
 }
 indexToLanguage = {
 	"English",
@@ -60,10 +60,10 @@ indexToLanguage = {
 	"Espa\xF1ol"
 }
 languageToFlag = {
+	Polski = "pl",
 	English = "us",
 	Español = "es",
-	Português = "br",
-	Polski = "pl"
+	Português = "br"
 }
 indexToFocus = {
 	"PvE",
@@ -84,8 +84,8 @@ filters = {
 	}
 }
 createRequirements = {
-	premium = true,
 	silver = 100000,
+	premium = true,
 	level = 20
 }
 minGuildNameLength = 3

@@ -282,8 +282,8 @@ function GameNpc:onReply(data)
 		icon = answer.icon:getImageSource()
 	})
 	self:logText({
-		color = "#7B7062",
 		icon = "",
+		color = "#7B7062",
 		text = string.format("{%s, #ffa85180} - \"%s\"", self.npcName:upper(), self.npcQuestion.say)
 	})
 
@@ -456,8 +456,8 @@ function GameNpc:buttonResized(button, forced)
 
 	button:setWidth(width)
 	button:setImageOffset({
-		x = 30,
-		y = 4
+		y = 4,
+		x = 30
 	})
 
 	if not forced and size < maxWidth then
@@ -470,8 +470,8 @@ function GameNpc:buttonResized(button, forced)
 
 	button:setHeight(2 + widget:getHeight())
 	button:setImageOffset({
-		x = 8,
-		y = -1
+		y = -1,
+		x = 8
 	})
 end
 

@@ -5,10 +5,6 @@ quest_name = "Crafting"
 current_task = 0
 current_interaction = 0
 itemsToInteractionType = {
-	["Solid Mace"] = "blacksmithing",
-	["Serrated Dagger"] = "blacksmithing",
-	["Rough Greataxe"] = "blacksmithing",
-	["Rough Sword"] = "blacksmithing",
 	["Knotted Sceptre"] = "carpentry",
 	["Mystic Staff"] = "carpentry",
 	["Oakwood Bow"] = "carpentry",
@@ -16,7 +12,11 @@ itemsToInteractionType = {
 	["Skirmisher's Blade"] = "blacksmithing",
 	["Shipbuilding Mallet"] = "blacksmithing",
 	["Burnished Greatsword"] = "blacksmithing",
-	["Wicked Axe"] = "blacksmithing"
+	["Wicked Axe"] = "blacksmithing",
+	["Solid Mace"] = "blacksmithing",
+	["Serrated Dagger"] = "blacksmithing",
+	["Rough Greataxe"] = "blacksmithing",
+	["Rough Sword"] = "blacksmithing"
 }
 
 local function carpentryOrBlacksmithing()

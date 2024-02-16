@@ -1,6 +1,7 @@
 ﻿-- chunkname: @/modules/gamelib/const.lua
 
 TILE_SIZE = 32
+SOFT_CAP_LEVEL = 75
 ItemArchlightToken = 24617
 ItemGoldCoin = 3031
 ItemPlatinumCoin = 3035
@@ -30,14 +31,14 @@ ShipStatusNone = 0
 ShipCruising = 1
 ShipAnchored = 2
 Screenshot = {
+	Boss = 7,
+	Achievement = 6,
+	Death = 5,
 	Kill = 4,
 	Profession = 3,
 	Skill = 2,
 	Awakening = 1,
-	Level = 0,
-	Boss = 7,
-	Achievement = 6,
-	Death = 5
+	Level = 0
 }
 AccountStatus = {
 	Suspended = 2,
@@ -45,13 +46,13 @@ AccountStatus = {
 	Ok = 0
 }
 SubscriptionStatus = {
-	Premium = 1,
-	Free = 0
+	Free = 0,
+	Premium = 1
 }
 HudGameColors = {
-	NameColorMonsterWeak = 6,
 	NameColorMonsterHigh = 8,
-	NameColorMonsterNormal = 7
+	NameColorMonsterNormal = 7,
+	NameColorMonsterWeak = 6
 }
 HudGameIntegers = {
 	MonsterLevelDiff = 0
@@ -125,15 +126,15 @@ GroupSeniorCommunityManager = 5
 GroupJrGamemaster = 6
 GroupSeniorGamemaster = 7
 Directions = {
-	Invalid = 8,
-	NorthWest = 7,
-	SouthWest = 6,
 	SouthEast = 5,
 	NorthEast = 4,
 	West = 3,
 	South = 2,
 	East = 1,
-	North = 0
+	North = 0,
+	Invalid = 8,
+	NorthWest = 7,
+	SouthWest = 6
 }
 North = Directions.North
 East = Directions.East
@@ -311,27 +312,16 @@ GameHideOthersCastBar = 120
 GameFixedWalkAnimationSpeed = 121
 LastGameFeature = 122
 TextColors = {
-	yellow = "#e6c832",
 	lightblue = "#5ff7f7",
 	orange = "#f36500",
 	blue = "#9f9dfd",
 	red = "#ed4337",
 	white = "#ffffff",
 	green = "#00EB00",
-	broadcast = "#03fc90"
+	broadcast = "#03fc90",
+	yellow = "#e6c832"
 }
 TalkTypes = {
-	TalkTypeInvalid = 255,
-	TalkTypeChannelGold = 20,
-	TalkTypeChannelGreen = 19,
-	TalkTypeGamemasterBroadcastGreen = 18,
-	TalkTypeMonsterYell = 17,
-	TalkTypeMonsterSay = 16,
-	TalkTypeGameMasterPrivateTo = 15,
-	TalkTypeGameMasterPrivateFrom = 14,
-	TalkTypeGamemasterChannel = 13,
-	TalkTypeGamemasterBroadcast = 12,
-	TalkTypeNpcTo = 11,
 	TalkTypeNpcFrom = 10,
 	TalkTypeSpell = 9,
 	TalkTypeChannelOrange = 8,
@@ -342,9 +332,35 @@ TalkTypes = {
 	TalkTypeYell = 3,
 	TalkTypeWhisper = 2,
 	TalkTypeSay = 1,
-	TalkTypeNone = 0
+	TalkTypeNone = 0,
+	TalkTypeInvalid = 255,
+	TalkTypeChannelGold = 20,
+	TalkTypeChannelGreen = 19,
+	TalkTypeGamemasterBroadcastGreen = 18,
+	TalkTypeMonsterYell = 17,
+	TalkTypeMonsterSay = 16,
+	TalkTypeGameMasterPrivateTo = 15,
+	TalkTypeGameMasterPrivateFrom = 14,
+	TalkTypeGamemasterChannel = 13,
+	TalkTypeGamemasterBroadcast = 12,
+	TalkTypeNpcTo = 11
 }
 TextTypes = {
+	TextTypeParty = 19,
+	TextTypePartyManagement = 18,
+	TextTypeGuild = 17,
+	TextTypeLoot = 16,
+	TextTypeEventDefault = 15,
+	TextTypeExpOthers = 14,
+	TextTypeHealOthers = 13,
+	TextTypeDamageOthers = 12,
+	TextTypeExp = 11,
+	TextTypeHeal = 10,
+	TextTypeDamageReceived = 9,
+	TextTypeDamageDealt = 8,
+	TextTypeInfoDescription = 7,
+	TextTypeSmall = 6,
+	TextTypeEventAdvance = 5,
 	TextTypeWarning = 4,
 	TextTypeDefault = 3,
 	TextTypeConsoleRed = 2,
@@ -361,55 +377,52 @@ TextTypes = {
 	TextTypeConsoleWhite = 23,
 	TextTypeLook = 22,
 	TextTypeConsoleOrange = 21,
-	TextTypeEventOrange = 20,
-	TextTypeParty = 19,
-	TextTypePartyManagement = 18,
-	TextTypeGuild = 17,
-	TextTypeLoot = 16,
-	TextTypeEventDefault = 15,
-	TextTypeExpOthers = 14,
-	TextTypeHealOthers = 13,
-	TextTypeDamageOthers = 12,
-	TextTypeExp = 11,
-	TextTypeHeal = 10,
-	TextTypeDamageReceived = 9,
-	TextTypeDamageDealt = 8,
-	TextTypeInfoDescription = 7,
-	TextTypeSmall = 6,
-	TextTypeEventAdvance = 5
+	TextTypeEventOrange = 20
 }
-RD_RSA = "7839044256351974631720189073989421559127109529179770525209306950" .. "5204081425866226971194656465141806443869259742357284844783435133" .. "4623296512537777404251439773695248876870199049839909072577969676" .. "6236552988593926989489538006366405606647005976684595830577288890" .. "0611798239484979335807086112787632176320873523293233"
+RD_RSA = "749211159682025922153040660400777019027204757244376289573105595939928351381592299618691771533349026863507675601490870222332805688539973073333055996133038278864749803140185512069480238201465044521408580118462025696465082843482092208021895212173830544323681953243030378530797476121812008496399414010141953818393839243752524079727066123738140124744795923483017428718496020922807500419747319744674997603224538277952462851041554590108372146477274330623926035237300737554840925793402101265312964248639552057366483324412497173794179287644390116328098143776583358565335680568908466854199324643721143742909027955429260215492825855919707734973935969201696642052654304305822780988953783746607808453860370689434888200307032201494029477451467657630054829067162459242612331043799510866690257583949393219907388662829065892143292655862454890156409035164487365772838770749954969012598325404421138789452470163492893624440034105310860701822100871673053529532975500988290890077246654009354882711683640333602997445968445703626267252781178303029490931251316438917156283913882484917279538615792207252503205669734131059265551477653269838706938959621519878487728663147515509052245051586203186486612847204688488265906544436897518425985581257225070580495440487"
 OsTypes = {
-	OtclientWindows = 11,
+	Linux = 1,
 	OtclientMac = 12,
 	Windows = 2,
+	OtclientWindows = 11,
 	OtclientLinux = 10,
-	Flash = 3,
-	Linux = 1
+	Flash = 3
 }
 PathFindResults = {
 	Impossible = 2,
-	Position = 1,
-	Ok = 0,
 	NoWay = 4,
-	TooFar = 3
+	TooFar = 3,
+	Ok = 0,
+	Position = 1
 }
 PathFindFlags = {
-	AllowNullTiles = 1,
-	AllowNonWalkable = 8,
 	AllowNonPathable = 4,
-	AllowCreatures = 2
+	AllowCreatures = 2,
+	AllowNullTiles = 1,
+	AllowNonWalkable = 8
 }
 ChannelEvent = {
-	Exclude = 3,
-	Invite = 2,
 	Leave = 1,
-	Join = 0
+	Join = 0,
+	Exclude = 3,
+	Invite = 2
 }
 ExtendedIds = {
-	Ping = 2,
-	Locale = 1,
-	Activate = 0,
+	House = 128,
+	MapViewManager = 129,
+	Mailbox = 130,
+	RessurrectionSpawnPoint = 131,
+	ChannelSelector = 132,
+	LevelAttributes = 133,
+	PartyManager = 134,
+	Bank = 135,
+	NorthStar = 136,
+	Waypoints = 137,
+	Market = 138,
+	MapRewards = 139,
+	LootNotification = 140,
+	Journal = 141,
+	Telegraph = 142,
 	DialogueViewer = 151,
 	PlayerReport = 150,
 	Titles = 149,
@@ -419,21 +432,21 @@ ExtendedIds = {
 	RestedExperience = 145,
 	LevelUpNotification = 144,
 	HearthTeleport = 143,
-	Telegraph = 142,
-	Journal = 141,
-	LootNotification = 140,
-	MapRewards = 139,
-	Market = 138,
-	Waypoints = 137,
-	NorthStar = 136,
-	Bank = 135,
-	PartyManager = 134,
-	LevelAttributes = 133,
-	ChannelSelector = 132,
-	RessurrectionSpawnPoint = 131,
-	Mailbox = 130,
-	MapViewManager = 129,
-	House = 128,
+	ThingCheckInformation = 107,
+	Arena = 106,
+	Achievements = 105,
+	ChannelingMinigame = 104,
+	Professions = 103,
+	Interactions = 102,
+	RangersCompany = 101,
+	NeedsUpdate = 7,
+	MapShader = 6,
+	Particles = 5,
+	Game = 4,
+	Sound = 3,
+	Ping = 2,
+	Locale = 1,
+	Activate = 0,
 	Tradepacks = 127,
 	Regions = 126,
 	StatusIconText = 125,
@@ -453,19 +466,7 @@ ExtendedIds = {
 	OutfitManagement = 111,
 	Crosshair = 110,
 	QuestManager = 109,
-	Archetypes = 108,
-	ThingCheckInformation = 107,
-	Arena = 106,
-	Achievements = 105,
-	ChannelingMinigame = 104,
-	Professions = 103,
-	Interactions = 102,
-	RangersCompany = 101,
-	NeedsUpdate = 7,
-	MapShader = 6,
-	Particles = 5,
-	Game = 4,
-	Sound = 3
+	Archetypes = 108
 }
 PreviewState = {
 	Active = 2,
@@ -473,40 +474,40 @@ PreviewState = {
 	Default = 0
 }
 Blessings = {
+	FireOfSuns = 4,
 	EmbraceOfArchlight = 2,
 	SpiritualShielding = 1,
 	None = 0,
 	Gold = 64,
 	TwistOfFate = 32,
 	SparkOfPhoenix = 16,
-	WisdomOfSolitude = 8,
-	FireOfSuns = 4
+	WisdomOfSolitude = 8
 }
 DeathType = {
-	Blessed = 1,
-	Regular = 0
+	Regular = 0,
+	Blessed = 1
 }
 ProductType = {
-	Other = 0,
-	NameChange = 1
+	NameChange = 1,
+	Other = 0
 }
 StoreErrorType = {
+	TransferError = 3,
 	HistoryError = 2,
 	NetworkError = 1,
 	PurchaseError = 0,
 	NoError = -1,
-	Information = 4,
-	TransferError = 3
+	Information = 4
 }
 StoreState = {
+	Sale = 2,
 	New = 1,
 	Timed = 3,
-	None = 0,
-	Sale = 2
+	None = 0
 }
 SoundChannels = {
-	Music = 1,
-	Effect = 2
+	Effect = 2,
+	Music = 1
 }
 ItemQualityNormal = 0
 ItemQualityHigh = 1
@@ -658,14 +659,14 @@ ArchetypeIds = {
 }
 ArchetypeFlags = {
 	Wizardry = 16,
+	Witchcraft = 128,
+	Spiritual = 64,
+	Holy = 32,
+	None = 0,
 	Protection = 8,
 	Shadow = 4,
 	Archery = 2,
-	Warfare = 1,
-	None = 0,
-	Witchcraft = 128,
-	Spiritual = 64,
-	Holy = 32
+	Warfare = 1
 }
 ReputationNames = {
 	[ReputationVillain] = "Villain",
@@ -911,11 +912,11 @@ SALT_WATER = 0
 OCEAN_SHORE = 1
 FRESH_WATER = 2
 TradeState = {
-	Transfer = 4,
-	Acknowledge = 3,
-	None = 0,
+	Accept = 2,
 	Initiated = 1,
-	Accept = 2
+	None = 0,
+	Transfer = 4,
+	Acknowledge = 3
 }
 TRADEPACK_CATEGORY_DEFAULT = 1
 TRADEPACK_CATEGORY_QUEST = 2
@@ -1104,200 +1105,200 @@ FishingStats = {
 }
 Ports = {
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Ravencrest Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 5058,
 			z = 6,
-			y = 5107
+			y = 5107,
+			x = 5058
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Margrove Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4875,
 			z = 7,
-			y = 4866
+			y = 4866,
+			x = 4875
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Barnsley Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 5025,
 			z = 6,
-			y = 4990
+			y = 4990,
+			x = 5025
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Sajecho Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4785,
 			z = 6,
-			y = 5008
+			y = 5008,
+			x = 4785
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Orca Bay Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4673,
 			z = 6,
-			y = 5341
+			y = 5341,
+			x = 4673
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Eelsnout Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4439,
 			z = 6,
-			y = 5274
+			y = 5274,
+			x = 4439
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Roatuga Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4254,
 			z = 6,
-			y = 5081
+			y = 5081,
+			x = 4254
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Seabreeze Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 3982,
 			z = 6,
-			y = 5165
+			y = 5165,
+			x = 3982
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Northern Hook Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4083,
 			z = 6,
-			y = 4873
+			y = 4873,
+			x = 4083
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Mount Shiver Northern Dock",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4336,
 			z = 6,
-			y = 4882
+			y = 4882,
+			x = 4336
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Hogula Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4360,
 			z = 6,
-			y = 5495
+			y = 5495,
+			x = 4360
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Rumalos Abandoned Dock",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 3932,
 			z = 6,
-			y = 5594
+			y = 5594,
+			x = 3932
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Gilead Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4287,
 			z = 6,
-			y = 5935
+			y = 5935,
+			x = 4287
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Vikkar Bay Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4636,
 			z = 6,
-			y = 4361
+			y = 4361,
+			x = 4636
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Newvik Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4310,
 			z = 6,
-			y = 4258
+			y = 4258,
+			x = 4310
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Saint Alsek Port",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 4114,
 			z = 6,
-			y = 4190
+			y = 4190,
+			x = 4114
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
+		maxZoom = 10,
+		minZoom = 3,
 		description = "Forgotten Wharf",
-		maxZoom = 10,
-		minZoom = 3,
 		pos = {
-			x = 5883,
 			z = 6,
-			y = 4634
+			y = 4634,
+			x = 5883
 		},
 		type = MAPMARK_SEAPORT
 	},
 	{
-		description = "Bog's Berth Dock",
 		maxZoom = 10,
 		minZoom = 3,
+		description = "Bog's Berth Dock",
 		pos = {
-			x = 5993,
 			z = 6,
-			y = 4682
+			y = 4682,
+			x = 5993
 		},
 		type = MAPMARK_SEAPORT
 	}
@@ -1307,315 +1308,315 @@ GeneralNpcs = {
 		description = "Collector",
 		type = MAPMARK_COLLECTOR,
 		pos = {
-			x = 4700,
 			z = 7,
-			y = 5307
+			y = 5307,
+			x = 4700
 		}
 	},
 	{
 		description = "Collector",
 		type = MAPMARK_COLLECTOR,
 		pos = {
-			x = 5116,
 			z = 6,
-			y = 5085
+			y = 5085,
+			x = 5116
 		}
 	},
 	{
 		description = "Collector",
 		type = MAPMARK_COLLECTOR,
 		pos = {
-			x = 5366,
 			z = 6,
-			y = 5544
+			y = 5544,
+			x = 5366
 		}
 	},
 	{
 		description = "Bank",
 		type = MAPMARK_NPC_BANK,
 		pos = {
-			x = 5115,
 			z = 6,
-			y = 5111
+			y = 5111,
+			x = 5115
 		}
 	},
 	{
 		description = "Builder",
 		type = MAPMARK_NPC_BUILDERS,
 		pos = {
-			x = 5029,
 			z = 7,
-			y = 4974
+			y = 4974,
+			x = 5029
 		}
 	},
 	{
 		description = "Builder",
 		type = MAPMARK_NPC_BUILDERS,
 		pos = {
-			x = 5069,
 			z = 6,
-			y = 5111
+			y = 5111,
+			x = 5069
 		}
 	},
 	{
 		description = "Builder",
 		type = MAPMARK_NPC_BUILDERS,
 		pos = {
-			x = 5081,
 			z = 6,
-			y = 5112
+			y = 5112,
+			x = 5081
 		}
 	},
 	{
 		description = "Builder",
 		type = MAPMARK_NPC_BUILDERS,
 		pos = {
-			x = 5124,
 			z = 7,
-			y = 5198
+			y = 5198,
+			x = 5124
 		}
 	},
 	{
 		description = "Fishpost",
 		type = MAPMARK_NPC_FISHPOST,
 		pos = {
-			x = 3983,
 			z = 6,
-			y = 5152
+			y = 5152,
+			x = 3983
 		}
 	},
 	{
 		description = "Fishpost",
 		type = MAPMARK_NPC_FISHPOST,
 		pos = {
-			x = 4355,
 			z = 6,
-			y = 5495
+			y = 5495,
+			x = 4355
 		}
 	},
 	{
 		description = "Fishpost",
 		type = MAPMARK_NPC_FISHPOST,
 		pos = {
-			x = 4664,
 			z = 7,
-			y = 5335
+			y = 5335,
+			x = 4664
 		}
 	},
 	{
 		description = "Fishpost",
 		type = MAPMARK_NPC_FISHPOST,
 		pos = {
-			x = 4879,
 			z = 7,
-			y = 4868
+			y = 4868,
+			x = 4879
 		}
 	},
 	{
 		description = "Fishpost",
 		type = MAPMARK_NPC_FISHPOST,
 		pos = {
-			x = 5052,
 			z = 6,
-			y = 5097
+			y = 5097,
+			x = 5052
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 3940,
 			z = 7,
-			y = 5593
+			y = 5593,
+			x = 3940
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 3981,
 			z = 6,
-			y = 5159
+			y = 5159,
+			x = 3981
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 4118,
 			z = 6,
-			y = 4189
+			y = 4189,
+			x = 4118
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 4286,
 			z = 6,
-			y = 5934
+			y = 5934,
+			x = 4286
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 4310,
 			z = 7,
-			y = 4260
+			y = 4260,
+			x = 4310
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 4358,
 			z = 7,
-			y = 5500
+			y = 5500,
+			x = 4358
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 4438,
 			z = 7,
-			y = 5270
+			y = 5270,
+			x = 4438
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 4637,
 			z = 7,
-			y = 4360
+			y = 4360,
+			x = 4637
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 4671,
 			z = 6,
-			y = 5337
+			y = 5337,
+			x = 4671
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 4790,
 			z = 6,
-			y = 5006
+			y = 5006,
+			x = 4790
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 4880,
 			z = 7,
-			y = 4865
+			y = 4865,
+			x = 4880
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 5026,
 			z = 7,
-			y = 4988
+			y = 4988,
+			x = 5026
 		}
 	},
 	{
 		description = "Warehouse",
 		type = MAPMARK_NPC_WAREHOUSE,
 		pos = {
-			x = 5066,
 			z = 6,
-			y = 5115
+			y = 5115,
+			x = 5066
 		}
 	},
 	{
 		description = "Harbor Island Outpost",
 		type = MAPMARK_RANGERS_COMPANY,
 		pos = {
-			x = 4005,
 			z = 7,
-			y = 5131
+			y = 5131,
+			x = 4005
 		}
 	},
 	{
 		description = "Gilead Island Outpost",
 		type = MAPMARK_RANGERS_COMPANY,
 		pos = {
-			x = 4205,
 			z = 7,
-			y = 5594
+			y = 5594,
+			x = 4205
 		}
 	},
 	{
 		description = "Glaceforde Outpost",
 		type = MAPMARK_RANGERS_COMPANY,
 		pos = {
-			x = 4436,
 			z = 6,
-			y = 4475
+			y = 4475,
+			x = 4436
 		}
 	},
 	{
 		description = "Sajecho Island Outpost",
 		type = MAPMARK_RANGERS_COMPANY,
 		pos = {
-			x = 4725,
 			z = 7,
-			y = 5131
+			y = 5131,
+			x = 4725
 		}
 	},
 	{
 		description = "Rohna Woods Outpost",
 		type = MAPMARK_RANGERS_COMPANY,
 		pos = {
-			x = 5058,
 			z = 7,
-			y = 4976
+			y = 4976,
+			x = 5058
 		}
 	},
 	{
 		description = "South Glademire Outpost",
 		type = MAPMARK_RANGERS_COMPANY,
 		pos = {
-			x = 5340,
 			z = 7,
-			y = 5039
+			y = 5039,
+			x = 5340
 		}
 	},
 	{
 		description = "Hadarak Desert Outpost",
 		type = MAPMARK_RANGERS_COMPANY,
 		pos = {
-			x = 5466,
 			z = 7,
-			y = 5356
+			y = 5356,
+			x = 5466
 		}
 	},
 	{
 		description = "Forsaken Mountains Outpost",
 		type = MAPMARK_RANGERS_COMPANY,
 		pos = {
-			x = 5478,
 			z = 7,
-			y = 4857
+			y = 4857,
+			x = 5478
 		}
 	},
 	{
 		description = "Zephyr Vale Outpost",
 		type = MAPMARK_RANGERS_COMPANY,
 		pos = {
-			x = 5848,
 			z = 6,
-			y = 5250
+			y = 5250,
+			x = 5848
 		}
 	},
 	{
@@ -1623,9 +1624,9 @@ GeneralNpcs = {
 		tradepostId = 4,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 3956,
 			z = 6,
-			y = 5154
+			y = 5154,
+			x = 3956
 		}
 	},
 	{
@@ -1633,9 +1634,9 @@ GeneralNpcs = {
 		tradepostId = 7,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 4349,
 			z = 7,
-			y = 5853
+			y = 5853,
+			x = 4349
 		}
 	},
 	{
@@ -1643,9 +1644,9 @@ GeneralNpcs = {
 		tradepostId = 8,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 4602,
 			z = 7,
-			y = 4367
+			y = 4367,
+			x = 4602
 		}
 	},
 	{
@@ -1653,9 +1654,9 @@ GeneralNpcs = {
 		tradepostId = 3,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 4669,
 			z = 7,
-			y = 5311
+			y = 5311,
+			x = 4669
 		}
 	},
 	{
@@ -1663,9 +1664,9 @@ GeneralNpcs = {
 		tradepostId = 2,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 4898,
 			z = 7,
-			y = 4875
+			y = 4875,
+			x = 4898
 		}
 	},
 	{
@@ -1673,9 +1674,9 @@ GeneralNpcs = {
 		tradepostId = 5,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 4967,
 			z = 7,
-			y = 5500
+			y = 5500,
+			x = 4967
 		}
 	},
 	{
@@ -1683,18 +1684,18 @@ GeneralNpcs = {
 		tradepostId = 9,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 5070,
 			z = 6,
-			y = 5108
+			y = 5108,
+			x = 5070
 		}
 	},
 	{
 		description = "Tradepost",
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 5268,
 			z = 7,
-			y = 4654
+			y = 4654,
+			x = 5268
 		}
 	},
 	{
@@ -1702,9 +1703,9 @@ GeneralNpcs = {
 		tradepostId = 1,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 5483,
 			z = 7,
-			y = 5150
+			y = 5150,
+			x = 5483
 		}
 	},
 	{
@@ -1712,9 +1713,9 @@ GeneralNpcs = {
 		tradepostId = 6,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 5557,
 			z = 7,
-			y = 5685
+			y = 5685,
+			x = 5557
 		}
 	},
 	{
@@ -1722,189 +1723,189 @@ GeneralNpcs = {
 		tradepostId = 10,
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 5844,
 			z = 7,
-			y = 5200
+			y = 5200,
+			x = 5844
 		}
 	},
 	{
 		description = "Tradepost",
 		type = MAPMARK_TRADEPOST,
 		pos = {
-			x = 5926,
 			z = 5,
-			y = 4131
+			y = 4131,
+			x = 5926
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 3938,
 			z = 5,
-			y = 5133
+			y = 5133,
+			x = 3938
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 3964,
 			z = 4,
-			y = 5134
+			y = 5134,
+			x = 3964
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 4311,
 			z = 6,
-			y = 5868
+			y = 5868,
+			x = 4311
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 4413,
 			z = 6,
-			y = 4493
+			y = 4493,
+			x = 4413
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 4682,
 			z = 7,
-			y = 5298
+			y = 5298,
+			x = 4682
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 4764,
 			z = 7,
-			y = 5090
+			y = 5090,
+			x = 4764
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 4937,
 			z = 6,
-			y = 5519
+			y = 5519,
+			x = 4937
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5099,
 			z = 6,
-			y = 5111
+			y = 5111,
+			x = 5099
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5107,
 			z = 6,
-			y = 5112
+			y = 5112,
+			x = 5107
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5117,
 			z = 6,
-			y = 5095
+			y = 5095,
+			x = 5117
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5143,
 			z = 6,
-			y = 5088
+			y = 5088,
+			x = 5143
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5173,
 			z = 7,
-			y = 5201
+			y = 5201,
+			x = 5173
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5361,
 			z = 7,
-			y = 5507
+			y = 5507,
+			x = 5361
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5523,
 			z = 6,
-			y = 5689
+			y = 5689,
+			x = 5523
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5529,
 			z = 6,
-			y = 5710
+			y = 5710,
+			x = 5529
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5551,
 			z = 6,
-			y = 5700
+			y = 5700,
+			x = 5551
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5629,
 			z = 4,
-			y = 5227
+			y = 5227,
+			x = 5629
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5663,
 			z = 5,
-			y = 5229
+			y = 5229,
+			x = 5663
 		}
 	},
 	{
 		description = "Vendor",
 		type = MAPMARK_VENDOR,
 		pos = {
-			x = 5841,
 			z = 8,
-			y = 5548
+			y = 5548,
+			x = 5841
 		}
 	}
 }
@@ -1937,41 +1938,41 @@ Regions = {
 	[RegionRavencrest] = {
 		name = "Glademire",
 		pos = {
-			x = 5299,
 			z = 7,
-			y = 5003
+			y = 5003,
+			x = 5299
 		}
 	},
 	[RegionSouthGlademire] = {
 		name = "Glademire",
 		pos = {
-			x = 5299,
 			z = 7,
-			y = 5003
+			y = 5003,
+			x = 5299
 		}
 	},
 	[RegionNorthGlademire] = {
 		name = "Glademire",
 		pos = {
-			x = 5299,
 			z = 7,
-			y = 5003
+			y = 5003,
+			x = 5299
 		}
 	},
 	[RegionRohnaWoods] = {
 		name = "Rohna Woods",
 		pos = {
-			x = 5013,
 			z = 7,
-			y = 4845
+			y = 4845,
+			x = 5013
 		}
 	},
 	[RegionForsakenMountains] = {
 		name = "Forsaken Mountains",
 		pos = {
-			x = 5445,
 			z = 7,
-			y = 4803
+			y = 4803,
+			x = 5445
 		},
 		data = {
 			displayName = "Forsaken\nMountains"
@@ -1980,49 +1981,49 @@ Regions = {
 	[RegionSajechoIsland] = {
 		name = "Sajecho Island",
 		pos = {
-			x = 4653,
 			z = 7,
-			y = 5164
+			y = 5164,
+			x = 4653
 		}
 	},
 	[RegionHarborIsland] = {
 		name = "Harbor Island",
 		pos = {
-			x = 4095,
 			z = 7,
-			y = 5014
+			y = 5014,
+			x = 4095
 		}
 	},
 	[RegionHadarakDesert] = {
 		name = "Hadarak Desert",
 		pos = {
-			x = 5524,
 			z = 7,
-			y = 5497
+			y = 5497,
+			x = 5524
 		}
 	},
 	[RegionGileadIsland] = {
 		name = "Gilead Island",
 		pos = {
-			x = 4193,
 			z = 7,
-			y = 5670
+			y = 5670,
+			x = 4193
 		}
 	},
 	[RegionIceContinent] = {
 		name = "Glaceforde",
 		pos = {
-			x = 4385,
 			z = 7,
-			y = 4239
+			y = 4239,
+			x = 4385
 		}
 	},
 	[RegionCrowhollowBog] = {
 		name = "Crowhollow Bog",
 		pos = {
-			x = 5725,
 			z = 7,
-			y = 4893
+			y = 4893,
+			x = 5725
 		},
 		data = {
 			displayName = "Crowhollow\nBog"
@@ -2031,17 +2032,17 @@ Regions = {
 	[RegionZephyrVale] = {
 		name = "Zephyr Vale",
 		pos = {
-			x = 5886,
 			z = 7,
-			y = 5109
+			y = 5109,
+			x = 5886
 		}
 	},
 	[RegionFieldsOfDespair] = {
 		name = "Fields of Despair",
 		pos = {
-			x = 5755,
 			z = 7,
-			y = 4594
+			y = 4594,
+			x = 5755
 		},
 		data = {
 			displayName = "Fields of\nDespair"
@@ -2050,9 +2051,9 @@ Regions = {
 	[RegionTheBlotch] = {
 		name = "The Blotch",
 		pos = {
-			x = 6015,
 			z = 7,
-			y = 4744
+			y = 4744,
+			x = 6015
 		}
 	}
 }
@@ -2094,641 +2095,641 @@ DynamicEvents = {
 	{
 		name = "Mounted Vengeance",
 		pos = {
-			x = 5442,
 			z = 7,
-			y = 5316
+			y = 5316,
+			x = 5442
 		}
 	},
 	{
 		name = "Thirsty Bandits",
 		pos = {
-			x = 5236,
 			z = 7,
-			y = 5076
+			y = 5076,
+			x = 5236
 		}
 	},
 	{
 		name = "Flower Power",
 		pos = {
-			x = 5160,
 			z = 7,
-			y = 4988
+			y = 4988,
+			x = 5160
 		}
 	},
 	{
 		name = "For The Love of Demons",
 		pos = {
-			x = 5334,
 			z = 7,
-			y = 5043
+			y = 5043,
+			x = 5334
 		}
 	},
 	{
 		name = "A Troll's Favorite Food",
 		pos = {
-			x = 5491,
 			z = 7,
-			y = 5153
+			y = 5153,
+			x = 5491
 		}
 	},
 	{
 		name = "Goblins Attack!",
 		pos = {
-			x = 5031,
 			z = 7,
-			y = 4978
+			y = 4978,
+			x = 5031
 		}
 	},
 	{
 		name = "Killer Bees",
 		pos = {
-			x = 4940,
 			z = 5,
-			y = 4928
+			y = 4928,
+			x = 4940
 		}
 	},
 	{
 		name = "In The Spider's Web",
 		pos = {
-			x = 5008,
 			z = 7,
-			y = 4903
+			y = 4903,
+			x = 5008
 		}
 	},
 	{
 		name = "Souls of the Forest",
 		pos = {
-			x = 5013,
 			z = 7,
-			y = 4838
+			y = 4838,
+			x = 5013
 		}
 	},
 	{
 		name = "Trespassers Will Be Shot",
 		pos = {
-			x = 4996,
 			z = 7,
-			y = 4802
+			y = 4802,
+			x = 4996
 		}
 	},
 	{
 		name = "Open Waters",
 		pos = {
-			x = 4343,
 			z = 7,
-			y = 5068
+			y = 5068,
+			x = 4343
 		}
 	},
 	{
 		name = "Greedy Gliders",
 		pos = {
-			x = 4768,
 			z = 7,
-			y = 5102
+			y = 5102,
+			x = 4768
 		}
 	},
 	{
 		name = "Piss Drunk Patrons",
 		pos = {
-			x = 3956,
 			z = 6,
-			y = 5137
+			y = 5137,
+			x = 3956
 		}
 	},
 	{
 		name = "Raiders of the Wastes",
 		pos = {
-			x = 5238,
 			z = 7,
-			y = 5329
+			y = 5329,
+			x = 5238
 		}
 	},
 	{
 		name = "Dangerous Denizens",
 		pos = {
-			x = 4996,
 			z = 7,
-			y = 5338
+			y = 5338,
+			x = 4996
 		}
 	},
 	{
 		name = "Amphibious Assassins",
 		pos = {
-			x = 5340,
 			z = 7,
-			y = 5512
+			y = 5512,
+			x = 5340
 		}
 	},
 	{
 		name = "Windy Canyon Clash",
 		pos = {
-			x = 5218,
 			z = 7,
-			y = 5493
+			y = 5493,
+			x = 5218
 		}
 	},
 	{
 		name = "The Elderwood Grotto",
 		pos = {
-			x = 5369,
 			z = 7,
-			y = 5241
+			y = 5241,
+			x = 5369
 		}
 	},
 	{
 		name = "Up From the Deep",
 		pos = {
-			x = 5496,
 			z = 7,
-			y = 5146
+			y = 5146,
+			x = 5496
 		}
 	},
 	{
 		name = "Hidden Grounds",
 		pos = {
-			x = 4919,
 			z = 7,
-			y = 4921
+			y = 4921,
+			x = 4919
 		}
 	},
 	{
 		name = "The Dark Lighthouse",
 		pos = {
-			x = 4981,
 			z = 7,
-			y = 4964
+			y = 4964,
+			x = 4981
 		}
 	},
 	{
 		name = "Lit Beacons",
 		pos = {
-			x = 5106,
 			z = 7,
-			y = 4813
+			y = 4813,
+			x = 5106
 		}
 	},
 	{
 		name = "Never Enough Furs",
 		pos = {
-			x = 4922,
 			z = 7,
-			y = 4855
+			y = 4855,
+			x = 4922
 		}
 	},
 	{
 		name = "As Above So Below",
 		pos = {
-			x = 5209,
 			z = 7,
-			y = 4904
+			y = 4904,
+			x = 5209
 		}
 	},
 	{
 		name = "The Shroom Shaman",
 		pos = {
-			x = 5269,
 			z = 7,
-			y = 5063
+			y = 5063,
+			x = 5269
 		}
 	},
 	{
 		name = "The Astronomer's Prediction",
 		pos = {
-			x = 5158,
 			z = 7,
-			y = 5266
+			y = 5266,
+			x = 5158
 		}
 	},
 	[28] = {
 		name = "Hexs Heavy Price",
 		pos = {
-			x = 5335,
 			z = 7,
-			y = 5486
+			y = 5486,
+			x = 5335
 		}
 	},
 	[30] = {
 		name = "The Bone Carver",
 		pos = {
-			x = 5207,
 			z = 7,
-			y = 5550
+			y = 5550,
+			x = 5207
 		}
 	},
 	[31] = {
 		name = "She Sells Seashells",
 		pos = {
-			x = 4874,
 			z = 7,
-			y = 5474
+			y = 5474,
+			x = 4874
 		}
 	},
 	[32] = {
 		name = "Look Don't Touch",
 		pos = {
-			x = 4738,
 			z = 7,
-			y = 5030
+			y = 5030,
+			x = 4738
 		}
 	},
 	[33] = {
 		name = "Ghost of The Old Mariner",
 		pos = {
-			x = 3983,
 			z = 7,
-			y = 4907
+			y = 4907,
+			x = 3983
 		}
 	},
 	[35] = {
 		name = "The Murmuring Tree",
 		pos = {
-			x = 5261,
 			z = 7,
-			y = 5237
+			y = 5237,
+			x = 5261
 		}
 	},
 	[36] = {
 		name = "What Does The Fox Say",
 		pos = {
-			x = 5261,
 			z = 7,
-			y = 5461
+			y = 5461,
+			x = 5261
 		}
 	},
 	[38] = {
 		name = "Misty Waters",
 		pos = {
-			x = 4652,
 			z = 7,
-			y = 4995
+			y = 4995,
+			x = 4652
 		}
 	},
 	[39] = {
 		name = "Swarming Spread",
 		pos = {
-			x = 3998,
 			z = 7,
-			y = 5052
+			y = 5052,
+			x = 3998
 		}
 	},
 	[40] = {
 		name = "A Mushroom Cut In Half",
 		pos = {
-			x = 5325,
 			z = 7,
-			y = 5073
+			y = 5073,
+			x = 5325
 		}
 	},
 	[41] = {
 		name = "A Usual Day At The Workshop",
 		pos = {
-			x = 4782,
 			z = 7,
-			y = 5132
+			y = 5132,
+			x = 4782
 		}
 	},
 	[42] = {
 		name = "Hunters Under The Sunheat",
 		pos = {
-			x = 5236,
 			z = 7,
-			y = 5471
+			y = 5471,
+			x = 5236
 		}
 	},
 	[43] = {
 		name = "Man Corrupted Grounds",
 		pos = {
-			x = 5261,
 			z = 7,
-			y = 5119
+			y = 5119,
+			x = 5261
 		}
 	},
 	[44] = {
 		name = "Creepy Howls Under The Moon",
 		pos = {
-			x = 5184,
 			z = 7,
-			y = 4959
+			y = 4959,
+			x = 5184
 		}
 	},
 	[47] = {
 		name = "The Champion's Den",
 		pos = {
-			x = 4998,
 			z = 2,
-			y = 5524
+			y = 5524,
+			x = 4998
 		}
 	},
 	[49] = {
 		name = "Night Sacrifice",
 		pos = {
-			x = 4376,
 			z = 4,
-			y = 5566
+			y = 5566,
+			x = 4376
 		}
 	},
 	[50] = {
 		name = "The Hoarder's Stash",
 		pos = {
-			x = 4282,
 			z = 6,
-			y = 5876
+			y = 5876,
+			x = 4282
 		}
 	},
 	[51] = {
 		name = "Fishy Secrets",
 		pos = {
-			x = 4239,
 			z = 10,
-			y = 5828
+			y = 5828,
+			x = 4239
 		}
 	},
 	[52] = {
 		name = "Starving Crawlers",
 		pos = {
-			x = 4490,
 			z = 7,
-			y = 4295
+			y = 4295,
+			x = 4490
 		}
 	},
 	[53] = {
 		name = "Frolls Over the Bridge",
 		pos = {
-			x = 4090,
 			z = 5,
-			y = 4344
+			y = 4344,
+			x = 4090
 		}
 	},
 	[54] = {
 		name = "Picky Eaters",
 		pos = {
-			x = 4236,
 			z = 7,
-			y = 4483
+			y = 4483,
+			x = 4236
 		}
 	},
 	[55] = {
 		name = "Aggressive Preservation",
 		pos = {
-			x = 4236,
 			z = 7,
-			y = 4484
+			y = 4484,
+			x = 4236
 		}
 	},
 	[56] = {
 		name = "Magical Pheromones",
 		pos = {
-			x = 4174,
 			z = 7,
-			y = 4293
+			y = 4293,
+			x = 4174
 		}
 	},
 	[57] = {
 		name = "Twisted Hybridization",
 		pos = {
-			x = 4174,
 			z = 7,
-			y = 4294
+			y = 4294,
+			x = 4174
 		}
 	},
 	[58] = {
 		name = "Risky Business",
 		pos = {
-			x = 4071,
 			z = 7,
-			y = 5511
+			y = 5511,
+			x = 4071
 		}
 	},
 	[59] = {
 		name = "Praise the Sun",
 		pos = {
-			x = 4388,
 			z = 6,
-			y = 5647
+			y = 5647,
+			x = 4388
 		}
 	},
 	[60] = {
 		name = "Undead Harvesting",
 		pos = {
-			x = 4823,
 			z = 9,
-			y = 4243
+			y = 4243,
+			x = 4823
 		}
 	},
 	[61] = {
 		name = "Ice Cold Enemies",
 		pos = {
-			x = 4772,
 			z = 7,
-			y = 4202
+			y = 4202,
+			x = 4772
 		}
 	},
 	[62] = {
 		name = "Lady of the Snow",
 		pos = {
-			x = 4510,
 			z = 7,
-			y = 4305
+			y = 4305,
+			x = 4510
 		}
 	},
 	[63] = {
 		name = "Extremist Naturalists",
 		pos = {
-			x = 4113,
 			z = 7,
-			y = 5568
+			y = 5568,
+			x = 4113
 		}
 	},
 	[64] = {
 		name = "Humanity Lost",
 		pos = {
-			x = 5479,
 			z = 7,
-			y = 4761
+			y = 4761,
+			x = 5479
 		}
 	},
 	[66] = {
 		name = "Tool Appropriation",
 		pos = {
-			x = 4248,
 			z = 7,
-			y = 4403
+			y = 4403,
+			x = 4248
 		}
 	},
 	[67] = {
 		name = "Foreigner's Plague",
 		pos = {
-			x = 4614,
 			z = 7,
-			y = 4353
+			y = 4353,
+			x = 4614
 		}
 	},
 	[71] = {
 		name = "Overrun Hideout",
 		pos = {
-			x = 4946,
 			z = 7,
-			y = 5439
+			y = 5439,
+			x = 4946
 		}
 	},
 	[72] = {
 		name = "The Red Count",
 		pos = {
-			x = 5416,
 			z = 3,
-			y = 4735
+			y = 4735,
+			x = 5416
 		}
 	},
 	[74] = {
 		name = "Toxicity",
 		pos = {
-			x = 5823,
 			z = 7,
-			y = 4777
+			y = 4777,
+			x = 5823
 		}
 	},
 	[75] = {
 		name = "Chain Reaction",
 		pos = {
-			x = 5703,
 			z = 7,
-			y = 4938
+			y = 4938,
+			x = 5703
 		}
 	},
 	[76] = {
 		name = "No Rest for the Wicked",
 		pos = {
-			x = 5481,
 			z = 7,
-			y = 5032
+			y = 5032,
+			x = 5481
 		}
 	},
 	[77] = {
 		name = "The Muddy Catch",
 		pos = {
-			x = 5759,
 			z = 7,
-			y = 4896
+			y = 4896,
+			x = 5759
 		}
 	},
 	[78] = {
 		name = "A Bad Hookup",
 		pos = {
-			x = 5759,
 			z = 7,
-			y = 4897
+			y = 4897,
+			x = 5759
 		}
 	},
 	[79] = {
 		name = "Reaping Harvest",
 		pos = {
-			x = 5841,
 			z = 7,
-			y = 5185
+			y = 5185,
+			x = 5841
 		}
 	},
 	[80] = {
 		name = "Daughters of Slaughter I",
 		pos = {
-			x = 5729,
 			z = 9,
-			y = 4724
+			y = 4724,
+			x = 5729
 		}
 	},
 	[81] = {
 		name = "Daughters of Slaughter II",
 		pos = {
-			x = 5638,
 			z = 9,
-			y = 4781
+			y = 4781,
+			x = 5638
 		}
 	},
 	[82] = {
 		name = "Daughters of Slaughter III",
 		pos = {
-			x = 5710,
 			z = 9,
-			y = 4982
+			y = 4982,
+			x = 5710
 		}
 	},
 	[83] = {
 		name = "The Corvine Bride",
 		pos = {
-			x = 5795,
 			z = 10,
-			y = 4810
+			y = 4810,
+			x = 5795
 		}
 	},
 	[85] = {
 		name = "Drunken Ritual",
 		pos = {
-			x = 5212,
 			z = 7,
-			y = 5060
+			y = 5060,
+			x = 5212
 		}
 	},
 	[86] = {
 		name = "Fear the Reaper",
 		pos = {
-			x = 5707,
 			z = 7,
-			y = 4899
+			y = 4899,
+			x = 5707
 		}
 	},
 	[88] = {
 		name = "Turmoil in Orkwatch",
 		pos = {
-			x = 5489,
 			z = 7,
-			y = 5523
+			y = 5523,
+			x = 5489
 		}
 	},
 	[89] = {
 		name = "An Escort to Truce",
 		pos = {
-			x = 5825,
 			z = 7,
-			y = 5155
+			y = 5155,
+			x = 5825
 		}
 	},
 	[90] = {
 		name = "Orcultist Society",
 		pos = {
-			x = 5830,
 			z = 7,
-			y = 5432
+			y = 5432,
+			x = 5830
 		}
 	},
 	[92] = {
 		name = "An Escort to Bastion",
 		pos = {
-			x = 5792,
 			z = 7,
-			y = 5182
+			y = 5182,
+			x = 5792
 		}
 	},
 	[93] = {
 		name = "An Escort to Defiance",
 		pos = {
-			x = 5771,
 			z = 7,
-			y = 5248
+			y = 5248,
+			x = 5771
 		}
 	},
 	[95] = {
 		name = "Masked Onslaught",
 		pos = {
-			x = 5752,
 			z = 7,
-			y = 5242
+			y = 5242,
+			x = 5752
 		}
 	},
 	[99] = {
 		name = "Just a Drop",
 		pos = {
-			x = 5675,
 			z = 7,
-			y = 5316
+			y = 5316,
+			x = 5675
 		}
 	}
 }
@@ -2736,1176 +2737,1176 @@ CraftingStations = {
 	[ProfessionBlacksmithing] = {
 		{
 			from = {
-				x = 5098,
 				z = 6,
-				y = 5110
+				y = 5110,
+				x = 5098
 			},
 			to = {
-				x = 5104,
 				z = 6,
-				y = 5116
+				y = 5116,
+				x = 5104
 			}
 		},
 		{
 			from = {
-				x = 5037,
 				z = 7,
-				y = 4973
+				y = 4973,
+				x = 5037
 			},
 			to = {
-				x = 5040,
 				z = 7,
-				y = 4976
+				y = 4976,
+				x = 5040
 			}
 		},
 		{
 			from = {
-				x = 5291,
 				z = 9,
-				y = 5060
+				y = 5060,
+				x = 5291
 			},
 			to = {
-				x = 5293,
 				z = 9,
-				y = 5062
+				y = 5062,
+				x = 5293
 			}
 		},
 		{
 			from = {
-				x = 5339,
 				z = 7,
-				y = 5033
+				y = 5033,
+				x = 5339
 			},
 			to = {
-				x = 5344,
 				z = 7,
-				y = 5036
+				y = 5036,
+				x = 5344
 			}
 		},
 		{
 			from = {
-				x = 4700,
 				z = 7,
-				y = 5290
+				y = 5290,
+				x = 4700
 			},
 			to = {
-				x = 4703,
 				z = 7,
-				y = 5293
+				y = 5293,
+				x = 4703
 			}
 		},
 		{
 			from = {
-				x = 3946,
 				z = 6,
-				y = 5120
+				y = 5120,
+				x = 3946
 			},
 			to = {
-				x = 3950,
 				z = 6,
-				y = 5124
+				y = 5124,
+				x = 3950
 			}
 		},
 		{
 			from = {
-				x = 5366,
 				z = 6,
-				y = 5533
+				y = 5533,
+				x = 5366
 			},
 			to = {
-				x = 5368,
 				z = 6,
-				y = 5535
+				y = 5535,
+				x = 5368
 			}
 		},
 		{
 			from = {
-				x = 5508,
 				z = 6,
-				y = 5702
+				y = 5702,
+				x = 5508
 			},
 			to = {
-				x = 5512,
 				z = 6,
-				y = 5708
+				y = 5708,
+				x = 5512
 			}
 		},
 		{
 			from = {
-				x = 4961,
 				z = 6,
-				y = 5486
+				y = 5486,
+				x = 4961
 			},
 			to = {
-				x = 4964,
 				z = 6,
-				y = 5488
+				y = 5488,
+				x = 4964
 			}
 		},
 		{
 			from = {
-				x = 5361,
 				z = 7,
-				y = 4864
+				y = 4864,
+				x = 5361
 			},
 			to = {
-				x = 5363,
 				z = 7,
-				y = 4866
+				y = 4866,
+				x = 5363
 			}
 		},
 		{
 			from = {
-				x = 3971,
 				z = 7,
-				y = 5597
+				y = 5597,
+				x = 3971
 			},
 			to = {
-				x = 3973,
 				z = 7,
-				y = 5602
+				y = 5602,
+				x = 3973
 			}
 		},
 		{
 			from = {
-				x = 4214,
 				z = 7,
-				y = 4420
+				y = 4420,
+				x = 4214
 			},
 			to = {
-				x = 4218,
 				z = 7,
-				y = 4424
+				y = 4424,
+				x = 4218
 			}
 		},
 		{
 			from = {
-				x = 4322,
 				z = 7,
-				y = 4460
+				y = 4460,
+				x = 4322
 			},
 			to = {
-				x = 4325,
 				z = 7,
-				y = 4464
+				y = 4464,
+				x = 4325
 			}
 		},
 		{
 			from = {
-				x = 5639,
 				z = 5,
-				y = 5238
+				y = 5238,
+				x = 5639
 			},
 			to = {
-				x = 5643,
 				z = 5,
-				y = 5241
+				y = 5241,
+				x = 5643
 			}
 		},
 		{
 			from = {
-				x = 5710,
 				z = 6,
-				y = 4953
+				y = 4953,
+				x = 5710
 			},
 			to = {
-				x = 5715,
 				z = 7,
-				y = 4958
+				y = 4958,
+				x = 5715
 			}
 		},
 		{
 			from = {
-				x = 6025,
 				z = 4,
-				y = 4923
+				y = 4923,
+				x = 6025
 			},
 			to = {
-				x = 6028,
 				z = 4,
-				y = 4926
+				y = 4926,
+				x = 6028
 			}
 		},
 		{
 			from = {
-				x = 6036,
 				z = 7,
-				y = 4943
+				y = 4943,
+				x = 6036
 			},
 			to = {
-				x = 6039,
 				z = 7,
-				y = 4944
+				y = 4944,
+				x = 6039
 			}
 		},
 		{
 			from = {
-				x = 6034,
 				z = 7,
-				y = 4944
+				y = 4944,
+				x = 6034
 			},
 			to = {
-				x = 6035,
 				z = 7,
-				y = 4947
+				y = 4947,
+				x = 6035
 			}
 		}
 	},
 	[ProfessionCooking] = {
 		{
 			from = {
-				x = 5154,
 				z = 6,
-				y = 5087
+				y = 5087,
+				x = 5154
 			},
 			to = {
-				x = 5158,
 				z = 6,
-				y = 5090
+				y = 5090,
+				x = 5158
 			}
 		},
 		{
 			from = {
-				x = 5108,
 				z = 7,
-				y = 5044
+				y = 5044,
+				x = 5108
 			},
 			to = {
-				x = 5110,
 				z = 7,
-				y = 5047
+				y = 5047,
+				x = 5110
 			}
 		},
 		{
 			from = {
-				x = 5037,
 				z = 7,
-				y = 4983
+				y = 4983,
+				x = 5037
 			},
 			to = {
-				x = 5040,
 				z = 7,
-				y = 4986
+				y = 4986,
+				x = 5040
 			}
 		},
 		{
 			from = {
-				x = 5497,
 				z = 7,
-				y = 5153
+				y = 5153,
+				x = 5497
 			},
 			to = {
-				x = 5499,
 				z = 7,
-				y = 5155
+				y = 5155,
+				x = 5499
 			}
 		},
 		{
 			from = {
-				x = 4800,
 				z = 6,
-				y = 5098
+				y = 5098,
+				x = 4800
 			},
 			to = {
-				x = 4805,
 				z = 6,
-				y = 5103
+				y = 5103,
+				x = 4805
 			}
 		},
 		{
 			from = {
-				x = 4217,
 				z = 6,
-				y = 5083
+				y = 5083,
+				x = 4217
 			},
 			to = {
-				x = 4220,
 				z = 6,
-				y = 5087
+				y = 5087,
+				x = 4220
 			}
 		},
 		{
 			from = {
-				x = 3982,
 				z = 6,
-				y = 5133
+				y = 5133,
+				x = 3982
 			},
 			to = {
-				x = 3985,
 				z = 6,
-				y = 5136
+				y = 5136,
+				x = 3985
 			}
 		},
 		{
 			from = {
-				x = 4941,
 				z = 5,
-				y = 5291
+				y = 5291,
+				x = 4941
 			},
 			to = {
-				x = 4946,
 				z = 5,
-				y = 5292
+				y = 5292,
+				x = 4946
 			}
 		},
 		{
 			from = {
-				x = 5528,
 				z = 6,
-				y = 5714
+				y = 5714,
+				x = 5528
 			},
 			to = {
-				x = 5531,
 				z = 6,
-				y = 5716
+				y = 5716,
+				x = 5531
 			}
 		},
 		{
 			from = {
-				x = 5403,
 				z = 7,
-				y = 4864
+				y = 4864,
+				x = 5403
 			},
 			to = {
-				x = 5406,
 				z = 7,
-				y = 4866
+				y = 4866,
+				x = 5406
 			}
 		},
 		{
 			from = {
-				x = 4272,
 				z = 7,
-				y = 5501
+				y = 5501,
+				x = 4272
 			},
 			to = {
-				x = 4279,
 				z = 7,
-				y = 5504
+				y = 5504,
+				x = 4279
 			}
 		},
 		{
 			from = {
-				x = 4367,
 				z = 7,
-				y = 4504
+				y = 4504,
+				x = 4367
 			},
 			to = {
-				x = 4371,
 				z = 7,
-				y = 4508
+				y = 4508,
+				x = 4371
 			}
 		},
 		{
 			from = {
-				x = 4614,
 				z = 7,
-				y = 4331
+				y = 4331,
+				x = 4614
 			},
 			to = {
-				x = 4618,
 				z = 7,
-				y = 4335
+				y = 4335,
+				x = 4618
 			}
 		},
 		{
 			from = {
-				x = 5628,
 				z = 6,
-				y = 5238
+				y = 5238,
+				x = 5628
 			},
 			to = {
-				x = 5632,
 				z = 6,
-				y = 5241
+				y = 5241,
+				x = 5632
 			}
 		},
 		{
 			from = {
-				x = 5711,
 				z = 6,
-				y = 4964
+				y = 4964,
+				x = 5711
 			},
 			to = {
-				x = 5713,
 				z = 6,
-				y = 4966
+				y = 4966,
+				x = 5713
 			}
 		},
 		{
 			from = {
-				x = 6054,
 				z = 6,
-				y = 4915
+				y = 4915,
+				x = 6054
 			},
 			to = {
-				x = 6059,
 				z = 6,
-				y = 4919
+				y = 4919,
+				x = 6059
 			}
 		}
 	},
 	[ProfessionCarpentry] = {
 		{
 			from = {
-				x = 5129,
 				z = 6,
-				y = 5125
+				y = 5125,
+				x = 5129
 			},
 			to = {
-				x = 5137,
 				z = 6,
-				y = 5129
+				y = 5129,
+				x = 5137
 			}
 		},
 		{
 			from = {
-				x = 4950,
 				z = 7,
-				y = 4853
+				y = 4853,
+				x = 4950
 			},
 			to = {
-				x = 4955,
 				z = 7,
-				y = 4857
+				y = 4857,
+				x = 4955
 			}
 		},
 		{
 			from = {
-				x = 5286,
 				z = 9,
-				y = 5061
+				y = 5061,
+				x = 5286
 			},
 			to = {
-				x = 5289,
 				z = 9,
-				y = 5063
+				y = 5063,
+				x = 5289
 			}
 		},
 		{
 			from = {
-				x = 4621,
 				z = 7,
-				y = 5094
+				y = 5094,
+				x = 4621
 			},
 			to = {
-				x = 4628,
 				z = 7,
-				y = 5099
+				y = 5099,
+				x = 4628
 			}
 		},
 		{
 			from = {
-				x = 3958,
 				z = 6,
-				y = 5140
+				y = 5140,
+				x = 3958
 			},
 			to = {
-				x = 3965,
 				z = 6,
-				y = 5142
+				y = 5142,
+				x = 3965
 			}
 		},
 		{
 			from = {
-				x = 5395,
 				z = 6,
-				y = 5519
+				y = 5519,
+				x = 5395
 			},
 			to = {
-				x = 5399,
 				z = 6,
-				y = 5521
+				y = 5521,
+				x = 5399
 			}
 		},
 		{
 			from = {
-				x = 5530,
 				z = 6,
-				y = 5698
+				y = 5698,
+				x = 5530
 			},
 			to = {
-				x = 5540,
 				z = 6,
-				y = 5701
+				y = 5701,
+				x = 5540
 			}
 		},
 		{
 			from = {
-				x = 5469,
 				z = 7,
-				y = 4835
+				y = 4835,
+				x = 5469
 			},
 			to = {
-				x = 5471,
 				z = 7,
-				y = 4838
+				y = 4838,
+				x = 5471
 			}
 		},
 		{
 			from = {
-				x = 5495,
 				z = 7,
-				y = 4835
+				y = 4835,
+				x = 5495
 			},
 			to = {
-				x = 5497,
 				z = 7,
-				y = 4838
+				y = 4838,
+				x = 5497
 			}
 		},
 		{
 			from = {
-				x = 4330,
 				z = 7,
-				y = 5880
+				y = 5880,
+				x = 4330
 			},
 			to = {
-				x = 4334,
 				z = 7,
-				y = 5884
+				y = 5884,
+				x = 4334
 			}
 		},
 		{
 			from = {
-				x = 4330,
 				z = 7,
-				y = 5880
+				y = 5880,
+				x = 4330
 			},
 			to = {
-				x = 4334,
 				z = 7,
-				y = 5884
+				y = 5884,
+				x = 4334
 			}
 		},
 		{
 			from = {
-				x = 4124,
 				z = 5,
-				y = 4173
+				y = 4173,
+				x = 4124
 			},
 			to = {
-				x = 4127,
 				z = 5,
-				y = 4176
+				y = 4176,
+				x = 4127
 			}
 		},
 		{
 			from = {
-				x = 4616,
 				z = 7,
-				y = 4349
+				y = 4349,
+				x = 4616
 			},
 			to = {
-				x = 4618,
 				z = 7,
-				y = 4352
+				y = 4352,
+				x = 4618
 			}
 		},
 		{
 			from = {
-				x = 5606,
 				z = 6,
-				y = 5250
+				y = 5250,
+				x = 5606
 			},
 			to = {
-				x = 5611,
 				z = 6,
-				y = 5253
+				y = 5253,
+				x = 5611
 			}
 		},
 		{
 			from = {
-				x = 6030,
 				z = 7,
-				y = 4983
+				y = 4983,
+				x = 6030
 			},
 			to = {
-				x = 6034,
 				z = 7,
-				y = 4988
+				y = 4988,
+				x = 6034
 			}
 		},
 		{
 			from = {
-				x = 6029,
 				z = 7,
-				y = 4990
+				y = 4990,
+				x = 6029
 			},
 			to = {
-				x = 6035,
 				z = 7,
-				y = 4994
+				y = 4994,
+				x = 6035
 			}
 		},
 		{
 			from = {
-				x = 5695,
 				z = 6,
-				y = 4965
+				y = 4965,
+				x = 5695
 			},
 			to = {
-				x = 5699,
 				z = 6,
-				y = 4970
+				y = 4970,
+				x = 5699
 			}
 		}
 	},
 	[ProfessionWeaving] = {
 		{
 			from = {
-				x = 5159,
 				z = 6,
-				y = 5111
+				y = 5111,
+				x = 5159
 			},
 			to = {
-				x = 5164,
 				z = 6,
-				y = 5116
+				y = 5116,
+				x = 5164
 			}
 		},
 		{
 			from = {
-				x = 5152,
 				z = 7,
-				y = 5046
+				y = 5046,
+				x = 5152
 			},
 			to = {
-				x = 5155,
 				z = 7,
-				y = 5049
+				y = 5049,
+				x = 5155
 			}
 		},
 		{
 			from = {
-				x = 4888,
 				z = 7,
-				y = 4862
+				y = 4862,
+				x = 4888
 			},
 			to = {
-				x = 4891,
 				z = 7,
-				y = 4864
+				y = 4864,
+				x = 4891
 			}
 		},
 		{
 			from = {
-				x = 5339,
 				z = 6,
-				y = 5033
+				y = 5033,
+				x = 5339
 			},
 			to = {
-				x = 5344,
 				z = 6,
-				y = 5036
+				y = 5036,
+				x = 5344
 			}
 		},
 		{
 			from = {
-				x = 4463,
 				z = 7,
-				y = 5244
+				y = 5244,
+				x = 4463
 			},
 			to = {
-				x = 4466,
 				z = 7,
-				y = 5247
+				y = 5247,
+				x = 4466
 			}
 		},
 		{
 			from = {
-				x = 3961,
 				z = 6,
-				y = 5153
+				y = 5153,
+				x = 3961
 			},
 			to = {
-				x = 3965,
 				z = 6,
-				y = 5159
+				y = 5159,
+				x = 3965
 			}
 		},
 		{
 			from = {
-				x = 5157,
 				z = 6,
-				y = 5431
+				y = 5431,
+				x = 5157
 			},
 			to = {
-				x = 5160,
 				z = 6,
-				y = 5435
+				y = 5435,
+				x = 5160
 			}
 		},
 		{
 			from = {
-				x = 5546,
 				z = 6,
-				y = 5713
+				y = 5713,
+				x = 5546
 			},
 			to = {
-				x = 5550,
 				z = 6,
-				y = 5716
+				y = 5716,
+				x = 5550
 			}
 		},
 		{
 			from = {
-				x = 4249,
 				z = 7,
-				y = 5482
+				y = 5482,
+				x = 4249
 			},
 			to = {
-				x = 4254,
 				z = 7,
-				y = 5484
+				y = 5484,
+				x = 4254
 			}
 		},
 		{
 			from = {
-				x = 4145,
 				z = 6,
-				y = 4184
+				y = 4184,
+				x = 4145
 			},
 			to = {
-				x = 4148,
 				z = 6,
-				y = 4187
+				y = 4187,
+				x = 4148
 			}
 		},
 		{
 			from = {
-				x = 4371,
 				z = 7,
-				y = 4484
+				y = 4484,
+				x = 4371
 			},
 			to = {
-				x = 4374,
 				z = 7,
-				y = 4486
+				y = 4486,
+				x = 4374
 			}
 		},
 		{
 			from = {
-				x = 4219,
 				z = 6,
-				y = 4420
+				y = 4420,
+				x = 4219
 			},
 			to = {
-				x = 4222,
 				z = 6,
-				y = 4424
+				y = 4424,
+				x = 4222
 			}
 		},
 		{
 			from = {
-				x = 5660,
 				z = 5,
-				y = 5242
+				y = 5242,
+				x = 5660
 			},
 			to = {
-				x = 5663,
 				z = 5,
-				y = 5244
+				y = 5244,
+				x = 5663
 			}
 		},
 		{
 			from = {
-				x = 6016,
 				z = 6,
-				y = 4942
+				y = 4942,
+				x = 6016
 			},
 			to = {
-				x = 6020,
 				z = 6,
-				y = 4947
+				y = 4947,
+				x = 6020
 			}
 		},
 		{
 			from = {
-				x = 5749,
 				z = 7,
-				y = 5076
+				y = 5076,
+				x = 5749
 			},
 			to = {
-				x = 5752,
 				z = 7,
-				y = 5079
+				y = 5079,
+				x = 5752
 			}
 		}
 	}
 }
 ZonesInfo = {
 	{
-		maxLevel = 6,
 		name = "Slums",
+		maxLevel = 6,
 		minLevel = 4,
 		pos = {
-			x = 5131,
 			z = 7,
-			y = 5050
+			y = 5050,
+			x = 5131
 		}
 	},
 	{
-		maxLevel = 32,
 		name = "Ravencrest Grove",
+		maxLevel = 32,
 		minLevel = 6,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5207,
 			z = 7,
-			y = 5071
+			y = 5071,
+			x = 5207
 		}
 	},
 	{
-		maxLevel = 10,
 		name = "Hookmask Camps",
+		maxLevel = 10,
 		minLevel = 7,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5208,
 			z = 7,
-			y = 4999
+			y = 4999,
+			x = 5208
 		}
 	},
 	{
-		maxLevel = 10,
 		name = "Morninglight Mounds",
+		maxLevel = 10,
 		minLevel = 7,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5189,
 			z = 7,
-			y = 4956
+			y = 4956,
+			x = 5189
 		}
 	},
 	{
 		name = "Ravencrest",
 		pos = {
-			x = 5122,
 			z = 7,
-			y = 5141
+			y = 5141,
+			x = 5122
 		}
 	},
 	{
-		maxLevel = 14,
 		name = "Oakwood",
+		maxLevel = 14,
 		minLevel = 10,
 		pos = {
-			x = 5129,
 			z = 7,
-			y = 4798
+			y = 4798,
+			x = 5129
 		}
 	},
 	{
-		maxLevel = 18,
 		name = "Azog Hills",
+		maxLevel = 18,
 		minLevel = 13,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5070,
 			z = 7,
-			y = 4791
+			y = 4791,
+			x = 5070
 		}
 	},
 	{
-		maxLevel = 38,
 		name = "Barrendon Mines",
+		maxLevel = 38,
 		minLevel = 14,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5099,
 			z = 7,
-			y = 4880
+			y = 4880,
+			x = 5099
 		}
 	},
 	{
-		maxLevel = 15,
 		name = "Siren Hills",
+		maxLevel = 15,
 		minLevel = 13,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5108,
 			z = 7,
-			y = 4966
+			y = 4966,
+			x = 5108
 		}
 	},
 	{
-		maxLevel = 16,
 		name = "Greenshriek Hills",
+		maxLevel = 16,
 		minLevel = 13,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5034,
 			z = 7,
-			y = 4951
+			y = 4951,
+			x = 5034
 		}
 	},
 	{
-		maxLevel = 17,
 		name = "Corvo Lighthouse",
+		maxLevel = 17,
 		minLevel = 11,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4960,
 			z = 7,
-			y = 4945
+			y = 4945,
+			x = 4960
 		}
 	},
 	{
-		maxLevel = 18,
 		name = "Saltdusk Keep",
-		minLevel = 15,
-		wordBreaks = {
-			1
-		},
-		pos = {
-			x = 4886,
-			z = 7,
-			y = 4902
-		}
-	},
-	{
 		maxLevel = 18,
-		name = "Furpack Hills",
 		minLevel = 15,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4919,
 			z = 7,
-			y = 4838
+			y = 4902,
+			x = 4886
 		}
 	},
 	{
-		maxLevel = 19,
+		name = "Furpack Hills",
+		maxLevel = 18,
+		minLevel = 15,
+		wordBreaks = {
+			1
+		},
+		pos = {
+			z = 7,
+			y = 4838,
+			x = 4919
+		}
+	},
+	{
 		name = "Bentbow Hideout",
+		maxLevel = 19,
 		minLevel = 16,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5000,
 			z = 7,
-			y = 4784
+			y = 4784,
+			x = 5000
 		}
 	},
 	{
-		maxLevel = 55,
 		name = "Rohna Woods",
+		maxLevel = 55,
 		minLevel = 12,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5012,
 			z = 7,
-			y = 4874
+			y = 4874,
+			x = 5012
 		}
 	},
 	{
-		maxLevel = 38,
 		name = "Deep Rohna",
+		maxLevel = 38,
 		minLevel = 36,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4961,
 			z = 7,
-			y = 4696
+			y = 4696,
+			x = 4961
 		}
 	},
 	{
 		name = "Margrove",
 		pos = {
-			x = 4914,
 			z = 7,
-			y = 4871
+			y = 4871,
+			x = 4914
 		}
 	},
 	{
 		name = "Barnsley",
 		pos = {
-			x = 5037,
 			z = 7,
-			y = 4996
+			y = 4996,
+			x = 5037
 		}
 	},
 	{
-		maxLevel = 30,
 		name = "Warlord's Rest",
+		maxLevel = 30,
 		minLevel = 8,
 		pos = {
-			x = 5214,
 			z = 7,
-			y = 4904
+			y = 4904,
+			x = 5214
 		}
 	},
 	{
-		maxLevel = 11,
 		name = "Stonecrush Ruins",
+		maxLevel = 11,
 		minLevel = 8,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5169,
 			z = 7,
-			y = 4854
+			y = 4854,
+			x = 5169
 		}
 	},
 	{
-		maxLevel = 21,
 		name = "Leapwater Marsh",
+		maxLevel = 21,
 		minLevel = 17,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5282,
 			z = 7,
-			y = 4838
+			y = 4838,
+			x = 5282
 		}
 	},
 	{
-		maxLevel = 38,
 		name = "Ellesmera",
+		maxLevel = 38,
 		minLevel = 18,
 		pos = {
-			x = 5233,
 			z = 7,
-			y = 4770
+			y = 4770,
+			x = 5233
 		}
 	},
 	{
-		maxLevel = 8,
 		name = "Sporeswamp Flats",
+		maxLevel = 8,
 		minLevel = 6,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5293,
 			z = 7,
-			y = 5065
+			y = 5065,
+			x = 5293
 		}
 	},
 	{
-		maxLevel = 17,
 		name = "Sporeswamp Mines",
+		maxLevel = 17,
 		minLevel = 16,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5262,
 			z = 7,
-			y = 5112
+			y = 5112,
+			x = 5262
 		}
 	},
 	{
-		maxLevel = 44,
 		name = "Chapel of Skorn",
+		maxLevel = 44,
 		minLevel = 17,
 		pos = {
-			x = 5387,
 			z = 7,
-			y = 5007
+			y = 5007,
+			x = 5387
 		}
 	},
 	{
-		maxLevel = 19,
 		name = "Witches Crag",
+		maxLevel = 19,
 		minLevel = 17,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5323,
 			z = 7,
-			y = 5133
+			y = 5133,
+			x = 5323
 		}
 	},
 	{
-		maxLevel = 18,
 		name = "Glademire Swamps",
+		maxLevel = 18,
 		minLevel = 16,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5420,
 			z = 7,
-			y = 5076
+			y = 5076,
+			x = 5420
 		}
 	},
 	{
-		maxLevel = 23,
 		name = "Tarnag Mountain",
+		maxLevel = 23,
 		minLevel = 19,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5536,
 			z = 7,
-			y = 5053
+			y = 5053,
+			x = 5536
 		}
 	},
 	{
-		maxLevel = 18,
 		name = "Aspen Woods",
+		maxLevel = 18,
 		minLevel = 17,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5382,
 			z = 7,
-			y = 5133
+			y = 5133,
+			x = 5382
 		}
 	},
 	{
-		maxLevel = 35,
 		name = "Whispering Fountains",
+		maxLevel = 35,
 		minLevel = 23,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5281,
 			z = 7,
-			y = 5233
+			y = 5233,
+			x = 5281
 		}
 	},
 	{
-		maxLevel = 43,
 		name = "Dalgon Canyon",
+		maxLevel = 43,
 		minLevel = 22,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5461,
 			z = 7,
-			y = 5252
+			y = 5252,
+			x = 5461
 		}
 	},
 	{
@@ -3914,9 +3915,9 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 5335,
 			z = 7,
-			y = 5039
+			y = 5039,
+			x = 5335
 		}
 	},
 	{
@@ -3925,121 +3926,121 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 5490,
 			z = 7,
-			y = 5155
+			y = 5155,
+			x = 5490
 		}
 	},
 	{
-		maxLevel = 23,
 		name = "The High Jungles",
+		maxLevel = 23,
 		minLevel = 21,
 		wordBreaks = {
 			2
 		},
 		pos = {
-			x = 4774,
 			z = 7,
-			y = 5036
+			y = 5036,
+			x = 4774
 		}
 	},
 	{
-		maxLevel = 24,
 		name = "Maud Isle",
+		maxLevel = 24,
 		minLevel = 22,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4703,
 			z = 7,
-			y = 5051
+			y = 5051,
+			x = 4703
 		}
 	},
 	{
-		maxLevel = 25,
 		name = "Sajecho Ruins",
+		maxLevel = 25,
 		minLevel = 23,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4829,
 			z = 7,
-			y = 5064
+			y = 5064,
+			x = 4829
 		}
 	},
 	{
-		maxLevel = 26,
 		name = "Skimcoast Cliffs",
+		maxLevel = 26,
 		minLevel = 24,
 		pos = {
-			x = 4737,
 			z = 7,
-			y = 5111
+			y = 5111,
+			x = 4737
 		}
 	},
 	{
-		maxLevel = 27,
 		name = "Dead Man's Shore",
+		maxLevel = 27,
 		minLevel = 25,
 		wordBreaks = {
 			2
 		},
 		pos = {
-			x = 4647,
 			z = 7,
-			y = 5044
+			y = 5044,
+			x = 4647
 		}
 	},
 	{
-		maxLevel = 27,
 		name = "Sawcutt Lumber",
+		maxLevel = 27,
 		minLevel = 25,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4615,
 			z = 7,
-			y = 5084
+			y = 5084,
+			x = 4615
 		}
 	},
 	{
-		maxLevel = 27,
 		name = "Gob' Gurzak",
+		maxLevel = 27,
 		minLevel = 25,
 		pos = {
-			x = 4668,
 			z = 7,
-			y = 5127
+			y = 5127,
+			x = 4668
 		}
 	},
 	{
-		maxLevel = 29,
 		name = "Silkveil Overgrowth",
+		maxLevel = 29,
 		minLevel = 27,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4695,
 			z = 7,
-			y = 5180
+			y = 5180,
+			x = 4695
 		}
 	},
 	{
-		maxLevel = 31,
 		name = "Tower of the Everliving",
+		maxLevel = 31,
 		minLevel = 29,
 		wordBreaks = {
 			1,
 			3
 		},
 		pos = {
-			x = 4522,
 			z = 7,
-			y = 5217
+			y = 5217,
+			x = 4522
 		}
 	},
 	{
@@ -4048,9 +4049,9 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 4759,
 			z = 7,
-			y = 5082
+			y = 5082,
+			x = 4759
 		}
 	},
 	{
@@ -4059,133 +4060,133 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 4691,
 			z = 7,
-			y = 5296
+			y = 5296,
+			x = 4691
 		}
 	},
 	{
 		name = "Eelsnout",
 		pos = {
-			x = 4456,
 			z = 7,
-			y = 5251
+			y = 5251,
+			x = 4456
 		}
 	},
 	{
-		maxLevel = 52,
 		name = "Mount Shiver",
+		maxLevel = 52,
 		minLevel = 25,
 		pos = {
-			x = 4336,
 			z = 7,
-			y = 4909
+			y = 4909,
+			x = 4336
 		}
 	},
 	{
-		maxLevel = 33,
 		name = "Shacklehold",
+		maxLevel = 33,
 		minLevel = 32,
 		pos = {
-			x = 4202,
 			z = 7,
-			y = 4941
+			y = 4941,
+			x = 4202
 		}
 	},
 	{
-		maxLevel = 30,
 		name = "Turtleshell Hills",
+		maxLevel = 30,
 		minLevel = 28,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4148,
 			z = 7,
-			y = 4985
+			y = 4985,
+			x = 4148
 		}
 	},
 	{
-		maxLevel = 32,
 		name = "Rockjaw Mounds",
+		maxLevel = 32,
 		minLevel = 29,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4111,
 			z = 7,
-			y = 5043
+			y = 5043,
+			x = 4111
 		}
 	},
 	{
-		maxLevel = 34,
 		name = "Camp Clew",
+		maxLevel = 34,
 		minLevel = 33,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4049,
 			z = 7,
-			y = 5059
+			y = 5059,
+			x = 4049
 		}
 	},
 	{
-		maxLevel = 32,
 		name = "Sweet Sugar Plantation",
+		maxLevel = 32,
 		minLevel = 30,
 		wordBreaks = {
 			2
 		},
 		pos = {
-			x = 4042,
 			z = 7,
-			y = 4944
+			y = 4944,
+			x = 4042
 		}
 	},
 	{
-		maxLevel = 33,
 		name = "Gallowstown",
+		maxLevel = 33,
 		minLevel = 32,
 		pos = {
-			x = 3987,
 			z = 7,
-			y = 4906
+			y = 4906,
+			x = 3987
 		}
 	},
 	{
-		maxLevel = 41,
 		name = "Beacon Hills",
+		maxLevel = 41,
 		minLevel = 33,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 3939,
 			z = 7,
-			y = 4981
+			y = 4981,
+			x = 3939
 		}
 	},
 	{
-		maxLevel = 34,
 		name = "Brinewind Points",
+		maxLevel = 34,
 		minLevel = 33,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 3950,
 			z = 7,
-			y = 5028
+			y = 5028,
+			x = 3950
 		}
 	},
 	{
 		name = "Seabreeze",
 		pos = {
-			x = 3955,
 			z = 7,
-			y = 5134
+			y = 5134,
+			x = 3955
 		}
 	},
 	{
@@ -4194,278 +4195,278 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 4224,
 			z = 7,
-			y = 5084
+			y = 5084,
+			x = 4224
 		}
 	},
 	{
 		name = "Hook's End",
 		pos = {
-			x = 4084,
 			z = 7,
-			y = 4884
+			y = 4884,
+			x = 4084
 		}
 	},
 	{
-		maxLevel = 33,
 		name = "Thurin's Meadow",
+		maxLevel = 33,
 		minLevel = 31,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5733,
 			z = 7,
-			y = 5258
+			y = 5258,
+			x = 5733
 		}
 	},
 	{
-		maxLevel = 38,
 		name = "Fort Mercury",
+		maxLevel = 38,
 		minLevel = 33,
 		pos = {
-			x = 5707,
 			z = 7,
-			y = 5321
+			y = 5321,
+			x = 5707
 		}
 	},
 	{
-		maxLevel = 42,
 		name = "Aurum Hold",
+		maxLevel = 42,
 		minLevel = 39,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5961,
 			z = 7,
-			y = 5096
+			y = 5096,
+			x = 5961
 		}
 	},
 	{
-		maxLevel = 38,
 		name = "Feral Woods",
+		maxLevel = 38,
 		minLevel = 35,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5889,
 			z = 7,
-			y = 5113
+			y = 5113,
+			x = 5889
 		}
 	},
 	{
-		maxLevel = 44,
 		name = "Silvercliff Hills",
+		maxLevel = 44,
 		minLevel = 40,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5882,
 			z = 7,
-			y = 5021
+			y = 5021,
+			x = 5882
 		}
 	},
 	{
-		maxLevel = 47,
 		name = "Firslight",
+		maxLevel = 47,
 		minLevel = 44,
 		pos = {
-			x = 6030,
 			z = 7,
-			y = 4947
+			y = 4947,
+			x = 6030
 		}
 	},
 	{
 		name = "Bastion",
 		pos = {
-			x = 5634,
 			z = 7,
-			y = 5237
+			y = 5237,
+			x = 5634
 		}
 	},
 	{
 		name = "Defiance",
 		pos = {
-			x = 5839,
 			z = 7,
-			y = 5228
+			y = 5228,
+			x = 5839
 		}
 	},
 	{
 		name = "Truce",
 		pos = {
-			x = 5764,
 			z = 7,
-			y = 5085
+			y = 5085,
+			x = 5764
 		}
 	},
 	{
-		maxLevel = 35,
 		name = "Hadarak Oasis",
+		maxLevel = 35,
 		minLevel = 34,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5211,
 			z = 7,
-			y = 5306
+			y = 5306,
+			x = 5211
 		}
 	},
 	{
-		maxLevel = 38,
 		name = "Jaffar Hills",
-		minLevel = 35,
-		wordBreaks = {
-			1
-		},
-		pos = {
-			x = 5327,
-			z = 7,
-			y = 5324
-		}
-	},
-	{
 		maxLevel = 38,
-		name = "Mount Minos",
-		minLevel = 36,
-		wordBreaks = {
-			1
-		},
-		pos = {
-			x = 5177,
-			z = 7,
-			y = 5377
-		}
-	},
-	{
-		maxLevel = 36,
-		name = "Chainbreaker Camp",
 		minLevel = 35,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5264,
 			z = 7,
-			y = 5383
+			y = 5324,
+			x = 5327
 		}
 	},
 	{
-		maxLevel = 37,
-		name = "Windy Canyon",
+		name = "Mount Minos",
+		maxLevel = 38,
 		minLevel = 36,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5236,
 			z = 7,
-			y = 5463
+			y = 5377,
+			x = 5177
 		}
 	},
 	{
-		maxLevel = 42,
+		name = "Chainbreaker Camp",
+		maxLevel = 36,
+		minLevel = 35,
+		wordBreaks = {
+			1
+		},
+		pos = {
+			z = 7,
+			y = 5383,
+			x = 5264
+		}
+	},
+	{
+		name = "Windy Canyon",
+		maxLevel = 37,
+		minLevel = 36,
+		wordBreaks = {
+			1
+		},
+		pos = {
+			z = 7,
+			y = 5463,
+			x = 5236
+		}
+	},
+	{
 		name = "Tar Graveyard",
+		maxLevel = 42,
 		minLevel = 38,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5053,
 			z = 7,
-			y = 5483
+			y = 5483,
+			x = 5053
 		}
 	},
 	{
-		maxLevel = 47,
 		name = "Drake's Claws",
+		maxLevel = 47,
 		minLevel = 44,
 		pos = {
-			x = 5066,
 			z = 7,
-			y = 5570
+			y = 5570,
+			x = 5066
 		}
 	},
 	{
-		maxLevel = 43,
 		name = "Ivory Halls",
+		maxLevel = 43,
 		minLevel = 40,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4951,
 			z = 7,
-			y = 5433
+			y = 5433,
+			x = 4951
 		}
 	},
 	{
-		maxLevel = 44,
 		name = "Tarmire Peaks",
+		maxLevel = 44,
 		minLevel = 39,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4987,
 			z = 7,
-			y = 5530
+			y = 5530,
+			x = 4987
 		}
 	},
 	{
-		maxLevel = 44,
 		name = "Sharpa Keys",
+		maxLevel = 44,
 		minLevel = 41,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4873,
 			z = 7,
-			y = 5463
+			y = 5463,
+			x = 4873
 		}
 	},
 	{
-		maxLevel = 41,
 		name = "The Spine",
+		maxLevel = 41,
 		minLevel = 37,
 		pos = {
-			x = 5340,
 			z = 7,
-			y = 5421
+			y = 5421,
+			x = 5340
 		}
 	},
 	{
-		maxLevel = 67,
 		name = "Glimmering Pools",
+		maxLevel = 67,
 		minLevel = 36,
 		pos = {
-			x = 5372,
 			z = 7,
-			y = 5568
+			y = 5568,
+			x = 5372
 		}
 	},
 	{
-		maxLevel = 38,
 		name = "Tuskan Highlands",
+		maxLevel = 38,
 		minLevel = 36,
 		pos = {
-			x = 5201,
 			z = 7,
-			y = 5550
+			y = 5550,
+			x = 5201
 		}
 	},
 	{
 		name = "Tarmire",
 		pos = {
-			x = 4958,
 			z = 7,
-			y = 5507
+			y = 5507,
+			x = 4958
 		}
 	},
 	{
@@ -4474,9 +4475,9 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 5167,
 			z = 6,
-			y = 5440
+			y = 5440,
+			x = 5167
 		}
 	},
 	{
@@ -4485,655 +4486,655 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 5354,
 			z = 6,
-			y = 5516
+			y = 5516,
+			x = 5354
 		}
 	},
 	{
-		maxLevel = 43,
 		name = "High Galdoz",
+		maxLevel = 43,
 		minLevel = 38,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5447,
 			z = 3,
-			y = 5398
+			y = 5398,
+			x = 5447
 		}
 	},
 	{
-		maxLevel = 40,
 		name = "Orkwatch",
+		maxLevel = 40,
 		minLevel = 37,
 		pos = {
-			x = 5493,
 			z = 7,
-			y = 5500
+			y = 5500,
+			x = 5493
 		}
 	},
 	{
-		maxLevel = 37,
 		name = "Buried Nest",
+		maxLevel = 37,
 		minLevel = 35,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5595,
 			z = 7,
-			y = 5372
+			y = 5372,
+			x = 5595
 		}
 	},
 	{
-		maxLevel = 57,
 		name = "Broken Horn Bludd",
+		maxLevel = 57,
 		minLevel = 38,
 		wordBreaks = {
 			2
 		},
 		pos = {
-			x = 5685,
 			z = 7,
-			y = 5409
+			y = 5409,
+			x = 5685
 		}
 	},
 	{
-		maxLevel = 57,
 		name = "Hoovestep Mound",
+		maxLevel = 57,
 		minLevel = 38,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5588,
 			z = 7,
-			y = 5514
+			y = 5514,
+			x = 5588
 		}
 	},
 	{
-		maxLevel = 55,
 		name = "Orkvesh",
+		maxLevel = 55,
 		minLevel = 52,
 		pos = {
-			x = 5832,
 			z = 7,
-			y = 5431
+			y = 5431,
+			x = 5832
 		}
 	},
 	{
-		maxLevel = 71,
 		name = "Mirage Peaks",
+		maxLevel = 71,
 		minLevel = 57,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5875,
 			z = 7,
-			y = 5612
+			y = 5612,
+			x = 5875
 		}
 	},
 	{
-		maxLevel = 46,
 		name = "Hadarak Ruins",
+		maxLevel = 46,
 		minLevel = 44,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5783,
 			z = 7,
-			y = 5542
+			y = 5542,
+			x = 5783
 		}
 	},
 	{
-		maxLevel = 72,
 		name = "Riftsand Trenches",
+		maxLevel = 72,
 		minLevel = 70,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5932,
 			z = 7,
-			y = 5475
+			y = 5475,
+			x = 5932
 		}
 	},
 	{
-		maxLevel = 74,
 		name = "Sandscar Sanctuary",
+		maxLevel = 74,
 		minLevel = 71,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 6003,
 			z = 7,
-			y = 5539
+			y = 5539,
+			x = 6003
 		}
 	},
 	{
-		maxLevel = 73,
 		name = "Arid Ranges",
+		maxLevel = 73,
 		minLevel = 70,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 6037,
 			z = 7,
-			y = 5469
+			y = 5469,
+			x = 6037
 		}
 	},
 	{
-		maxLevel = 74,
 		name = "Temple of Quorras",
+		maxLevel = 74,
 		minLevel = 71,
 		wordBreaks = {
 			2
 		},
 		pos = {
-			x = 5955,
 			z = 7,
-			y = 5377
+			y = 5377,
+			x = 5955
 		}
 	},
 	{
 		name = "Darzuac",
 		pos = {
-			x = 5540,
 			z = 7,
-			y = 5700
+			y = 5700,
+			x = 5540
 		}
 	},
 	{
-		maxLevel = 60,
 		name = "Shellshore Cove",
+		maxLevel = 60,
 		minLevel = 47,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4231,
 			z = 7,
-			y = 5452
+			y = 5452,
+			x = 4231
 		}
 	},
 	{
-		maxLevel = 48,
 		name = "Addler's Nest",
+		maxLevel = 48,
 		minLevel = 47,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4145,
 			z = 7,
-			y = 5476
+			y = 5476,
+			x = 4145
 		}
 	},
 	{
-		maxLevel = 52,
 		name = "Abandoned Mines",
+		maxLevel = 52,
 		minLevel = 49,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4081,
 			z = 7,
-			y = 5529
+			y = 5529,
+			x = 4081
 		}
 	},
 	{
-		maxLevel = 49,
 		name = "The Flooded Maw",
+		maxLevel = 49,
 		minLevel = 47,
 		wordBreaks = {
 			1,
 			2
 		},
 		pos = {
-			x = 4271,
 			z = 7,
-			y = 5617
+			y = 5617,
+			x = 4271
 		}
 	},
 	{
-		maxLevel = 49,
 		name = "Mossgrove Terrace",
+		maxLevel = 49,
 		minLevel = 47,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4374,
 			z = 7,
-			y = 5568
+			y = 5568,
+			x = 4374
 		}
 	},
 	{
-		maxLevel = 51,
 		name = "Ruins of Gilead",
+		maxLevel = 51,
 		minLevel = 47,
 		wordBreaks = {
 			2
 		},
 		pos = {
-			x = 4324,
 			z = 7,
-			y = 5717
+			y = 5717,
+			x = 4324
 		}
 	},
 	{
-		maxLevel = 52,
 		name = "Sunchase Plateau",
+		maxLevel = 52,
 		minLevel = 48,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4078,
 			z = 7,
-			y = 5669
+			y = 5669,
+			x = 4078
 		}
 	},
 	{
-		maxLevel = 51,
 		name = "Fernscale Thicket",
+		maxLevel = 51,
 		minLevel = 48,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4015,
 			z = 7,
-			y = 5722
+			y = 5722,
+			x = 4015
 		}
 	},
 	{
-		maxLevel = 50,
 		name = "Mycelium Marsh",
+		maxLevel = 50,
 		minLevel = 48,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4094,
 			z = 7,
-			y = 5742
+			y = 5742,
+			x = 4094
 		}
 	},
 	{
-		maxLevel = 60,
 		name = "Reptile's Enclave",
+		maxLevel = 60,
 		minLevel = 57,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4179,
 			z = 7,
-			y = 5767
+			y = 5767,
+			x = 4179
 		}
 	},
 	{
-		maxLevel = 49,
 		name = "Ancient Ruins",
+		maxLevel = 49,
 		minLevel = 47,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4272,
 			z = 7,
-			y = 5818
+			y = 5818,
+			x = 4272
 		}
 	},
 	{
 		name = "Gilead",
 		pos = {
-			x = 4336,
 			z = 7,
-			y = 5867
+			y = 5867,
+			x = 4336
 		}
 	},
 	{
 		name = "Rumalos",
 		pos = {
-			x = 3984,
 			z = 7,
-			y = 5608
+			y = 5608,
+			x = 3984
 		}
 	},
 	{
 		name = "Hogula",
 		pos = {
-			x = 4268,
 			z = 7,
-			y = 5492
+			y = 5492,
+			x = 4268
 		}
 	},
 	{
-		maxLevel = 47,
 		name = "Sombershade",
-		minLevel = 45,
-		pos = {
-			x = 5378,
-			z = 7,
-			y = 4849
-		}
-	},
-	{
 		maxLevel = 47,
-		name = "Twilight Pass",
 		minLevel = 45,
 		pos = {
-			x = 5398,
 			z = 7,
-			y = 4883
+			y = 4849,
+			x = 5378
 		}
 	},
 	{
-		maxLevel = 54,
+		name = "Twilight Pass",
+		maxLevel = 47,
+		minLevel = 45,
+		pos = {
+			z = 7,
+			y = 4883,
+			x = 5398
+		}
+	},
+	{
 		name = "Stormcoast Ruins",
+		maxLevel = 54,
 		minLevel = 50,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5518,
 			z = 7,
-			y = 4917
+			y = 4917,
+			x = 5518
 		}
 	},
 	{
-		maxLevel = 56,
 		name = "Greypike Castle",
+		maxLevel = 56,
 		minLevel = 48,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5415,
 			z = 7,
-			y = 4742
+			y = 4742,
+			x = 5415
 		}
 	},
 	{
-		maxLevel = 54,
 		name = "Forgotten Graveyard",
+		maxLevel = 54,
 		minLevel = 50,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5484,
 			z = 7,
-			y = 4758
+			y = 4758,
+			x = 5484
 		}
 	},
 	{
 		name = "Fangwatch",
 		pos = {
-			x = 5483,
 			z = 7,
-			y = 4849
+			y = 4849,
+			x = 5483
 		}
 	},
 	{
-		maxLevel = 60,
 		name = "Deathold",
+		maxLevel = 60,
 		minLevel = 56,
 		pos = {
-			x = 5489,
 			z = 7,
-			y = 5002
+			y = 5002,
+			x = 5489
 		}
 	},
 	{
-		maxLevel = 52,
 		name = "Horror's Nest",
+		maxLevel = 52,
 		minLevel = 50,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5555,
 			z = 7,
-			y = 4980
+			y = 4980,
+			x = 5555
 		}
 	},
 	{
-		maxLevel = 49,
 		name = "Whispering Thicket",
+		maxLevel = 49,
 		minLevel = 47,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5590,
 			z = 7,
-			y = 4912
+			y = 4912,
+			x = 5590
 		}
 	},
 	{
-		maxLevel = 62,
 		name = "Wraithveil Hollows",
+		maxLevel = 62,
 		minLevel = 57,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5644,
 			z = 7,
-			y = 4829
+			y = 4829,
+			x = 5644
 		}
 	},
 	{
-		maxLevel = 62,
 		name = "Dreadmist Hollows",
+		maxLevel = 62,
 		minLevel = 56,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5738,
 			z = 7,
-			y = 4790
+			y = 4790,
+			x = 5738
 		}
 	},
 	{
-		maxLevel = 53,
 		name = "Bogheart",
+		maxLevel = 53,
 		minLevel = 49,
 		pos = {
-			x = 5823,
 			z = 7,
-			y = 4836
+			y = 4836,
+			x = 5823
 		}
 	},
 	{
-		maxLevel = 52,
 		name = "Blightwhiskers Warrens",
+		maxLevel = 52,
 		minLevel = 49,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5830,
 			z = 7,
-			y = 4777
+			y = 4777,
+			x = 5830
 		}
 	},
 	{
-		maxLevel = 51,
 		name = "Crowhollow Bog",
+		maxLevel = 51,
 		minLevel = 48,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5705,
 			z = 7,
-			y = 4893
+			y = 4893,
+			x = 5705
 		}
 	},
 	{
 		name = "Woodhaven",
 		pos = {
-			x = 5702,
 			z = 7,
-			y = 4955
+			y = 4955,
+			x = 5702
 		}
 	},
 	{
-		maxLevel = 67,
 		name = "Sovereign's Crown",
+		maxLevel = 67,
 		minLevel = 65,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5504,
 			z = 7,
-			y = 4649
+			y = 4649,
+			x = 5504
 		}
 	},
 	{
-		maxLevel = 56,
 		name = "Horncrest Knolls",
+		maxLevel = 56,
 		minLevel = 54,
 		pos = {
-			x = 5542,
 			z = 7,
-			y = 4487
+			y = 4487,
+			x = 5542
 		}
 	},
 	{
-		maxLevel = 54,
 		name = "Bleak Hill",
+		maxLevel = 54,
 		minLevel = 52,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5658,
 			z = 7,
-			y = 4560
+			y = 4560,
+			x = 5658
 		}
 	},
 	{
-		maxLevel = 57,
 		name = "The Burrows",
+		maxLevel = 57,
 		minLevel = 54,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5733,
 			z = 7,
-			y = 4503
+			y = 4503,
+			x = 5733
 		}
 	},
 	{
-		maxLevel = 57,
 		name = "Ananda's Fall",
+		maxLevel = 57,
 		minLevel = 53,
 		pos = {
-			x = 5783,
 			z = 7,
-			y = 4592
+			y = 4592,
+			x = 5783
 		}
 	},
 	{
-		maxLevel = 53,
 		name = "Fiend's Eye",
+		maxLevel = 53,
 		minLevel = 51,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5770,
 			z = 7,
-			y = 4459
+			y = 4459,
+			x = 5770
 		}
 	},
 	{
-		maxLevel = 57,
 		name = "Twisted Steps",
+		maxLevel = 57,
 		minLevel = 54,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5859,
 			z = 7,
-			y = 4469
+			y = 4469,
+			x = 5859
 		}
 	},
 	{
-		maxLevel = 55,
 		name = "Scarred Vale",
+		maxLevel = 55,
 		minLevel = 51,
 		pos = {
-			x = 5839,
 			z = 7,
-			y = 4538
+			y = 4538,
+			x = 5839
 		}
 	},
 	{
-		maxLevel = 62,
 		name = "Master's Overlook",
+		maxLevel = 62,
 		minLevel = 59,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5979,
 			z = 7,
-			y = 4589
+			y = 4589,
+			x = 5979
 		}
 	},
 	{
-		maxLevel = 58,
 		name = "Hope's Leap",
+		maxLevel = 58,
 		minLevel = 55,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5948,
 			z = 7,
-			y = 4385
+			y = 4385,
+			x = 5948
 		}
 	},
 	{
-		maxLevel = 57,
 		name = "Skorn's Desolation",
+		maxLevel = 57,
 		minLevel = 55,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 6021,
 			z = 7,
-			y = 4484
+			y = 4484,
+			x = 6021
 		}
 	},
 	{
-		maxLevel = 60,
 		name = "Castle of Skorn",
+		maxLevel = 60,
 		minLevel = 56,
 		wordBreaks = {
 			2
 		},
 		pos = {
-			x = 6089,
 			z = 7,
-			y = 4511
+			y = 4511,
+			x = 6089
 		}
 	},
 	{
@@ -5142,283 +5143,283 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 5884,
 			z = 7,
-			y = 4619
+			y = 4619,
+			x = 5884
 		}
 	},
 	{
-		maxLevel = 75,
 		name = "Hag's Folly",
+		maxLevel = 75,
 		minLevel = 72,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5982,
 			z = 7,
-			y = 4694
+			y = 4694,
+			x = 5982
 		}
 	},
 	{
-		maxLevel = 76,
 		name = "Festering Wetlands",
-		minLevel = 74,
-		wordBreaks = {
-			1
-		},
-		pos = {
-			x = 5965,
-			z = 7,
-			y = 4740
-		}
-	},
-	{
 		maxLevel = 76,
-		name = "Fort Mosshold",
 		minLevel = 74,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 5995,
 			z = 7,
-			y = 4798
+			y = 4740,
+			x = 5965
 		}
 	},
 	{
-		maxLevel = 75,
+		name = "Fort Mosshold",
+		maxLevel = 76,
+		minLevel = 74,
+		wordBreaks = {
+			1
+		},
+		pos = {
+			z = 7,
+			y = 4798,
+			x = 5995
+		}
+	},
+	{
 		name = "Ruins of Greenburg",
+		maxLevel = 75,
 		minLevel = 73,
 		wordBreaks = {
 			2
 		},
 		pos = {
-			x = 6030,
 			z = 7,
-			y = 4754
+			y = 4754,
+			x = 6030
 		}
 	},
 	{
-		maxLevel = 76,
 		name = "The Plagued Hill",
+		maxLevel = 76,
 		minLevel = 74,
 		wordBreaks = {
 			2
 		},
 		pos = {
-			x = 6088,
 			z = 7,
-			y = 4694
+			y = 4694,
+			x = 6088
 		}
 	},
 	{
-		maxLevel = 77,
 		name = "Castle Thergard",
+		maxLevel = 77,
 		minLevel = 74,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4837,
 			z = 7,
-			y = 4308
+			y = 4308,
+			x = 4837
 		}
 	},
 	{
-		maxLevel = 75,
 		name = "Okkar Hills",
+		maxLevel = 75,
 		minLevel = 72,
 		pos = {
-			x = 4803,
 			z = 7,
-			y = 4137
+			y = 4137,
+			x = 4803
 		}
 	},
 	{
-		maxLevel = 74,
 		name = "Deadbane Halls",
+		maxLevel = 74,
 		minLevel = 70,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4698,
 			z = 7,
-			y = 4236
+			y = 4236,
+			x = 4698
 		}
 	},
 	{
-		maxLevel = 59,
 		name = "Frozen Crypts",
+		maxLevel = 59,
 		minLevel = 56,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4581,
 			z = 7,
-			y = 4317
+			y = 4317,
+			x = 4581
 		}
 	},
 	{
-		maxLevel = 72,
 		name = "Howling Hills",
+		maxLevel = 72,
 		minLevel = 49,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4485,
 			z = 7,
-			y = 4158
+			y = 4158,
+			x = 4485
 		}
 	},
 	{
-		maxLevel = 50,
 		name = "Chattering Mounds",
+		maxLevel = 50,
 		minLevel = 47,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4482,
 			z = 7,
-			y = 4296
+			y = 4296,
+			x = 4482
 		}
 	},
 	{
-		maxLevel = 71,
 		name = "Frostclaw Cliff",
+		maxLevel = 71,
 		minLevel = 68,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4375,
 			z = 7,
-			y = 4152
+			y = 4152,
+			x = 4375
 		}
 	},
 	{
-		maxLevel = 53,
 		name = "Snowdeep Mines",
-		minLevel = 47,
-		wordBreaks = {
-			1
-		},
-		pos = {
-			x = 4392,
-			z = 7,
-			y = 4236
-		}
-	},
-	{
-		maxLevel = 50,
-		name = "Darkhollow Ruins",
-		minLevel = 47,
-		wordBreaks = {
-			1
-		},
-		pos = {
-			x = 4440,
-			z = 7,
-			y = 4396
-		}
-	},
-	{
-		maxLevel = 51,
-		name = "Shrieking Pass",
-		minLevel = 47,
-		wordBreaks = {
-			1
-		},
-		pos = {
-			x = 4375,
-			z = 7,
-			y = 4419
-		}
-	},
-	{
-		maxLevel = 52,
-		name = "Snowfall Outpost",
-		minLevel = 49,
-		wordBreaks = {
-			1
-		},
-		pos = {
-			x = 4252,
-			z = 7,
-			y = 4401
-		}
-	},
-	{
-		maxLevel = 52,
-		name = "Chillpike Maws",
-		minLevel = 49,
-		pos = {
-			x = 4236,
-			z = 7,
-			y = 4475
-		}
-	},
-	{
 		maxLevel = 53,
-		name = "Umberfrost Gorge",
+		minLevel = 47,
+		wordBreaks = {
+			1
+		},
+		pos = {
+			z = 7,
+			y = 4236,
+			x = 4392
+		}
+	},
+	{
+		name = "Darkhollow Ruins",
+		maxLevel = 50,
+		minLevel = 47,
+		wordBreaks = {
+			1
+		},
+		pos = {
+			z = 7,
+			y = 4396,
+			x = 4440
+		}
+	},
+	{
+		name = "Shrieking Pass",
+		maxLevel = 51,
+		minLevel = 47,
+		wordBreaks = {
+			1
+		},
+		pos = {
+			z = 7,
+			y = 4419,
+			x = 4375
+		}
+	},
+	{
+		name = "Snowfall Outpost",
+		maxLevel = 52,
 		minLevel = 49,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4148,
 			z = 7,
-			y = 4371
+			y = 4401,
+			x = 4252
 		}
 	},
 	{
-		maxLevel = 55,
+		name = "Chillpike Maws",
+		maxLevel = 52,
+		minLevel = 49,
+		pos = {
+			z = 7,
+			y = 4475,
+			x = 4236
+		}
+	},
+	{
+		name = "Umberfrost Gorge",
+		maxLevel = 53,
+		minLevel = 49,
+		wordBreaks = {
+			1
+		},
+		pos = {
+			z = 7,
+			y = 4371,
+			x = 4148
+		}
+	},
+	{
 		name = "Blizzard's Nest",
+		maxLevel = 55,
 		minLevel = 51,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4176,
 			z = 7,
-			y = 4285
+			y = 4285,
+			x = 4176
 		}
 	},
 	{
-		maxLevel = 68,
 		name = "The Perishing Pass",
+		maxLevel = 68,
 		minLevel = 64,
 		pos = {
-			x = 4270,
 			z = 7,
-			y = 4091
+			y = 4091,
+			x = 4270
 		}
 	},
 	{
-		maxLevel = 69,
 		name = "Chillmane Crag",
+		maxLevel = 69,
 		minLevel = 66,
 		wordBreaks = {
 			1
 		},
 		pos = {
-			x = 4289,
 			z = 7,
-			y = 4000
+			y = 4000,
+			x = 4289
 		}
 	},
 	{
-		maxLevel = 48,
 		name = "Matchwood",
+		maxLevel = 48,
 		minLevel = 45,
 		pos = {
-			x = 4396,
 			z = 7,
-			y = 4492
+			y = 4492,
+			x = 4396
 		}
 	},
 	{
@@ -5427,25 +5428,25 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 4616,
 			z = 7,
-			y = 4358
+			y = 4358,
+			x = 4616
 		}
 	},
 	{
 		name = "Newvik",
 		pos = {
-			x = 4306,
 			z = 7,
-			y = 4279
+			y = 4279,
+			x = 4306
 		}
 	},
 	{
 		name = "Wolfhold",
 		pos = {
-			x = 4201,
 			z = 7,
-			y = 4421
+			y = 4421,
+			x = 4201
 		}
 	},
 	{
@@ -5454,9 +5455,9 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 4603,
 			z = 7,
-			y = 4110
+			y = 4110,
+			x = 4603
 		}
 	},
 	{
@@ -5465,9 +5466,9 @@ ZonesInfo = {
 			1
 		},
 		pos = {
-			x = 4130,
 			z = 7,
-			y = 4179
+			y = 4179,
+			x = 4130
 		}
 	}
 }
@@ -5482,13 +5483,13 @@ FISHFIGHT_STATE_LAST = FISHFIGHT_STATE_TIRED_5
 FARM_TILE_ITEM = 34099
 FARM_BLOCKING_ITEM = 30278
 TileType = {
+	House = 1,
+	GuildPlot = 5,
 	CommunityPlot = 6,
 	None = 0,
-	GuildPlot = 5,
 	LandPlot = 4,
 	Room = 3,
-	RoomEmpty = 2,
-	House = 1
+	RoomEmpty = 2
 }
 HOUSE_MODELS = {
 	SMALL = {
@@ -5522,9 +5523,6 @@ HOUSE_MODELS = {
 	}
 }
 HouseModels = {
-	SmallWoodenCabin = 2,
-	SmallShack = 1,
-	FortDarkWood = 19,
 	FortSandStone = 18,
 	FortWood = 17,
 	FortStone = 16,
@@ -5540,7 +5538,10 @@ HouseModels = {
 	MediumWoodenHouse = 6,
 	MediumWoodenCabin = 5,
 	MediumShack = 4,
-	SmallWoodenHouse = 3
+	SmallWoodenHouse = 3,
+	SmallWoodenCabin = 2,
+	SmallShack = 1,
+	FortDarkWood = 19
 }
 HouseModelsBySize = {
 	[10] = HouseModels.SmallShack,
@@ -7330,8 +7331,8 @@ QuestItemsActionId = {
 		event = "The Husk of Skorn"
 	},
 	[10804] = {
-		always = true,
-		artifactRegion = "Hadarak Desert"
+		artifactRegion = "Hadarak Desert",
+		always = true
 	},
 	[10828] = {
 		artifactRegion = "Hadarak Desert",
@@ -7342,8 +7343,8 @@ QuestItemsActionId = {
 		}
 	},
 	[10806] = {
-		always = true,
-		artifactRegion = "Zephyr Vale"
+		artifactRegion = "Zephyr Vale",
+		always = true
 	}
 }
 QuestItemsUniqueId = {
@@ -9308,81 +9309,86 @@ CARD_RARITY_START = CARD_RARITY_COMMON
 CARD_RARITY_END = CARD_RARITY_LEGENDARY
 ARCHETYPES_DATA = {
 	[ArchetypeWarfare] = {
-		description = "With a ravenous appetite for bloodshed, {Warfare, #E7B131} is the favored archetype of orcs and barbarians. Users of this archetype specialize in {brute force combat, #E7B131}, able to draw upon the lifeblood they've spilled to {heal, #E7B131} themselves and {strengthen, #E7B131} their savage attacks. A Warfare user in the throes of bloodlust and hatred is a terrible sight to behold.",
 		name = "Warfare",
+		description = "With a ravenous appetite for bloodshed, {Warfare, #E7B131} is the favored archetype of orcs and barbarians. Users of this archetype specialize in {brute force combat, #E7B131}, able to draw upon the lifeblood they've spilled to {heal, #E7B131} themselves and {strengthen, #E7B131} their savage attacks. A Warfare user in the throes of bloodlust and hatred is a terrible sight to behold.",
 		skills = {
 			{
-				row = 1,
-				cost = 1,
 				name = "Brutal Strike",
-				slot = 1
+				slot = 1,
+				row = 1,
+				cost = 1
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Guillotine",
-				slot = 2
-			},
-			{
+				slot = 2,
 				row = 2,
-				cost = 2,
+				cost = 2
+			},
+			{
 				name = "Shieldbreak",
-				slot = 3
+				slot = 3,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Bull Rush",
-				slot = 4
+				slot = 4,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Pummel",
-				slot = 5
+				slot = 5,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Feasting Strike",
-				slot = 6
-			},
-			{
+				slot = 6,
 				row = 3,
-				cost = 3,
+				cost = 3
+			},
+			{
 				name = "Bladestorm",
-				slot = 7
+				slot = 7,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Fissure",
-				slot = 8
+				slot = 8,
+				row = 4,
+				cost = 4
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Spiked Chains",
-				slot = 9
-			},
-			{
+				slot = 9,
 				row = 4,
-				cost = 4,
-				name = "Earthquake",
-				slot = 10
+				cost = 4
 			},
 			{
-				reqSkill = "Bull Rush",
-				cost = 5,
+				name = "Earthquake",
+				slot = 10,
+				row = 4,
+				cost = 4
+			},
+			{
 				row = 5,
 				slot = 11,
-				name = "Fierce Leap"
+				name = "Fierce Leap",
+				reqSkill = "Bull Rush",
+				cost = 5
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Berserk",
-				slot = 12
+				slot = 12,
+				row = 5,
+				cost = 5
+			}
+		},
+		legacySkills = {
+			{
+				name = "Chaos Chains"
 			}
 		},
 		passives = {
@@ -9413,102 +9419,107 @@ ARCHETYPES_DATA = {
 		},
 		outfit = {
 			male = {
+				feetColor = 76,
+				legsColor = 132,
+				bodyColor = 115,
+				headColor = 114,
 				secondaryAddon = 2273,
 				primaryAddon = 2268,
 				lookType = 2267,
-				category = 1,
+				category = 1
+			},
+			female = {
 				feetColor = 76,
 				legsColor = 132,
 				bodyColor = 115,
-				headColor = 114
-			},
-			female = {
+				headColor = 114,
 				secondaryAddon = 2765,
 				primaryAddon = 2780,
 				lookType = 2760,
-				category = 1,
-				feetColor = 76,
-				legsColor = 132,
-				bodyColor = 115,
-				headColor = 114
+				category = 1
 			}
 		}
 	},
 	[ArchetypeArchery] = {
-		description = "With the eyes of a hawk and the swiftness of a falcon, {Archery, #E7B131} users outpace their opponents with {speed and vision, #E7B131}. {Ranged combat, #E7B131} is this archetype's specialty, empowering its users with an array of {deadly arrows, #E7B131} to be shot from afar. And if an enemy gets too close an Archery user can draw upon {disengage abilities, #E7B131} to {slow, #E7B131} their opponent and create enough separation for a killing shot. The Rohna Brotherhood has been able to evade the Ravenguard for decades, largely due to the strength of this archetype.",
 		name = "Archery",
+		description = "With the eyes of a hawk and the swiftness of a falcon, {Archery, #E7B131} users outpace their opponents with {speed and vision, #E7B131}. {Ranged combat, #E7B131} is this archetype's specialty, empowering its users with an array of {deadly arrows, #E7B131} to be shot from afar. And if an enemy gets too close an Archery user can draw upon {disengage abilities, #E7B131} to {slow, #E7B131} their opponent and create enough separation for a killing shot. The Rohna Brotherhood has been able to evade the Ravenguard for decades, largely due to the strength of this archetype.",
 		skills = {
 			{
-				row = 1,
-				cost = 1,
 				name = "Wind Arrow",
-				slot = 1
+				slot = 1,
+				row = 1,
+				cost = 1
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Viper Arrow",
-				slot = 2
-			},
-			{
+				slot = 2,
 				row = 2,
-				cost = 2,
+				cost = 2
+			},
+			{
 				name = "Concussive Shot",
-				slot = 3
+				slot = 3,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Quick Fire",
-				slot = 4
+				slot = 4,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Precision Shot",
-				slot = 5
+				slot = 5,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Snaring Shot",
-				slot = 6
-			},
-			{
+				slot = 6,
 				row = 3,
-				cost = 3,
+				cost = 3
+			},
+			{
 				name = "Disengage",
-				slot = 7
+				slot = 7,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Rain of Arrows",
-				slot = 8
+				slot = 8,
+				row = 4,
+				cost = 4
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Dawn Arrow",
-				slot = 8
-			},
-			{
+				slot = 8,
 				row = 4,
-				cost = 4,
+				cost = 4
+			},
+			{
 				name = "Venom Grenade",
-				slot = 10
+				slot = 10,
+				row = 4,
+				cost = 4
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Dragons Arrow",
-				slot = 11
+				slot = 11,
+				row = 5,
+				cost = 5
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Spirit Rangers",
-				slot = 12
+				slot = 12,
+				row = 5,
+				cost = 5
+			}
+		},
+		legacySkills = {
+			{
+				name = "Celestial Barrage"
 			}
 		},
 		passives = {
@@ -9539,102 +9550,107 @@ ARCHETYPES_DATA = {
 		},
 		outfit = {
 			male = {
+				feetColor = 115,
+				legsColor = 114,
+				bodyColor = 120,
+				headColor = 60,
 				secondaryAddon = 2284,
 				primaryAddon = 2279,
 				lookType = 2278,
-				category = 1,
+				category = 1
+			},
+			female = {
 				feetColor = 115,
 				legsColor = 114,
 				bodyColor = 120,
-				headColor = 60
-			},
-			female = {
+				headColor = 60,
 				secondaryAddon = 2578,
 				primaryAddon = 2573,
 				lookType = 2572,
-				category = 1,
-				feetColor = 115,
-				legsColor = 114,
-				bodyColor = 120,
-				headColor = 60
+				category = 1
 			}
 		}
 	},
 	[ArchetypeProtection] = {
-		description = "Strong-footed and brave, these users never lose their {unbreakable spirit, #E7B131} in the heat of battle. The preferred archetype of the mighty Ravenguard, users of {Protection, #E7B131} are often found in the vanguard of armies, {defending their allies, #E7B131} and bashing in the skulls of their enemies. Their {morale in battle, #E7B131} is legendary, a powerful force which affects friend and foe alike.",
 		name = "Protection",
+		description = "Strong-footed and brave, these users never lose their {unbreakable spirit, #E7B131} in the heat of battle. The preferred archetype of the mighty Ravenguard, users of {Protection, #E7B131} are often found in the vanguard of armies, {defending their allies, #E7B131} and bashing in the skulls of their enemies. Their {morale in battle, #E7B131} is legendary, a powerful force which affects friend and foe alike.",
 		skills = {
 			{
-				row = 1,
-				cost = 1,
 				name = "Bash",
-				slot = 1
+				slot = 1,
+				row = 1,
+				cost = 1
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Spirits Resolve",
-				slot = 2
+				slot = 2,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Smiting Smash",
-				slot = 3
-			},
-			{
+				slot = 3,
 				row = 2,
-				cost = 2,
+				cost = 2
+			},
+			{
 				name = "Shield Throw",
-				slot = 4
+				slot = 4,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Revenge",
-				slot = 5
+				slot = 5,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Spirit Shield",
-				slot = 6
-			},
-			{
+				slot = 6,
 				row = 3,
-				cost = 3,
+				cost = 3
+			},
+			{
 				name = "Blessed Earth",
-				slot = 7
+				slot = 7,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Banner of Protection",
-				slot = 8
-			},
-			{
+				slot = 8,
 				row = 4,
-				cost = 4,
+				cost = 4
+			},
+			{
 				name = "Provoke",
-				slot = 9
+				slot = 9,
+				row = 4,
+				cost = 4
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Unchained",
-				slot = 10
+				slot = 10,
+				row = 5,
+				cost = 5
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Safeguard",
-				slot = 11
+				slot = 11,
+				row = 5,
+				cost = 5
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Unbreakable",
-				slot = 12
+				slot = 12,
+				row = 5,
+				cost = 5
+			}
+		},
+		legacySkills = {
+			{
+				name = "Eternal Retribution"
 			}
 		},
 		passives = {
@@ -9665,102 +9681,107 @@ ARCHETYPES_DATA = {
 		},
 		outfit = {
 			male = {
+				feetColor = 79,
+				legsColor = 19,
+				bodyColor = 38,
+				headColor = 115,
 				secondaryAddon = 5952,
 				primaryAddon = 5794,
 				lookType = 2290,
-				category = 1,
+				category = 1
+			},
+			female = {
 				feetColor = 79,
 				legsColor = 19,
 				bodyColor = 38,
-				headColor = 115
-			},
-			female = {
+				headColor = 115,
 				secondaryAddon = 5940,
 				primaryAddon = 5788,
 				lookType = 2608,
-				category = 1,
-				feetColor = 79,
-				legsColor = 19,
-				bodyColor = 38,
-				headColor = 115
+				category = 1
 			}
 		}
 	},
 	[ArchetypeShadow] = {
-		description = "Using the shadows as a cloak, users of this archetype prefer to extinguish the lives of their victims without ever being seen. The {Shadow, #E7B131} archetype makes use of {toxins and deception, #E7B131} to {weaken targets, #E7B131} before dealing a fatal blow. Shadow users are heralds of death by the time you've seen one, you're already dead.",
 		name = "Shadow",
+		description = "Using the shadows as a cloak, users of this archetype prefer to extinguish the lives of their victims without ever being seen. The {Shadow, #E7B131} archetype makes use of {toxins and deception, #E7B131} to {weaken targets, #E7B131} before dealing a fatal blow. Shadow users are heralds of death by the time you've seen one, you're already dead.",
 		skills = {
 			{
-				row = 1,
-				cost = 1,
 				name = "Quick Slash",
-				slot = 1
+				slot = 1,
+				row = 1,
+				cost = 1
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Shadowstrike",
-				slot = 2
-			},
-			{
+				slot = 2,
 				row = 2,
-				cost = 2,
+				cost = 2
+			},
+			{
 				name = "Shadowbind",
-				slot = 3
+				slot = 3,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Coup de Grace",
-				slot = 4
+				slot = 4,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Stalk",
-				slot = 5
+				slot = 5,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Venomous Weapons",
-				slot = 6
-			},
-			{
+				slot = 6,
 				row = 3,
-				cost = 3,
+				cost = 3
+			},
+			{
 				name = "Shadow Kick",
-				slot = 7
+				slot = 7,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Anti-Healing Venom",
-				slot = 8
+				slot = 8,
+				row = 4,
+				cost = 4
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Crippling Dagger",
-				slot = 9
-			},
-			{
+				slot = 9,
 				row = 4,
-				cost = 4,
+				cost = 4
+			},
+			{
 				name = "Illusive",
-				slot = 10
+				slot = 10,
+				row = 4,
+				cost = 4
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Death Blossom",
-				slot = 11
+				slot = 11,
+				row = 5,
+				cost = 5
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Sinister Plot",
-				slot = 12
+				slot = 12,
+				row = 5,
+				cost = 5
+			}
+		},
+		legacySkills = {
+			{
+				name = "Reaper's Eclipse"
 			}
 		},
 		passives = {
@@ -9791,118 +9812,123 @@ ARCHETYPES_DATA = {
 		},
 		outfit = {
 			male = {
+				feetColor = 95,
+				legsColor = 127,
+				bodyColor = 89,
+				headColor = 114,
 				secondaryAddon = 2331,
 				primaryAddon = 2326,
 				lookType = 2325,
-				category = 1,
+				category = 1
+			},
+			female = {
 				feetColor = 95,
 				legsColor = 127,
 				bodyColor = 89,
-				headColor = 114
-			},
-			female = {
+				headColor = 114,
 				secondaryAddon = 2676,
 				primaryAddon = 2667,
 				lookType = 2666,
-				category = 1,
-				feetColor = 95,
-				legsColor = 127,
-				bodyColor = 89,
-				headColor = 114
+				category = 1
 			}
 		}
 	},
 	[ArchetypeWizardry] = {
-		description = "Bending the {elements, #E7B131} to their will, {Wizardry, #E7B131} users harness the power of {Ice and Fire, #E7B131} to devastate their enemies. Whether igniting foes in flames or ensnaring them in ice, Wizardry users call upon powerful {single-target and area spells, #E7B131} to deal {massive amounts of damage, #E7B131} on the battlefield. With the potential to single-handedly shift the tide of battle, a user of this archetype is truly an {arcane force, #E7B131} to be reckoned with.",
 		name = "Wizardry",
+		description = "Bending the {elements, #E7B131} to their will, {Wizardry, #E7B131} users harness the power of {Ice and Fire, #E7B131} to devastate their enemies. Whether igniting foes in flames or ensnaring them in ice, Wizardry users call upon powerful {single-target and area spells, #E7B131} to deal {massive amounts of damage, #E7B131} on the battlefield. With the potential to single-handedly shift the tide of battle, a user of this archetype is truly an {arcane force, #E7B131} to be reckoned with.",
 		skills = {
 			{
-				row = 1,
-				cost = 1,
 				name = "Fireball",
-				slot = 1
-			},
-			{
+				slot = 1,
 				row = 1,
-				cost = 1,
-				name = "Frostbolt",
-				slot = 2
+				cost = 1
 			},
 			{
-				reqSkill = "Fireball",
-				cost = 2,
+				name = "Frostbolt",
+				slot = 2,
+				row = 1,
+				cost = 1
+			},
+			{
 				row = 2,
 				slot = 3,
-				name = "Erupt"
+				name = "Erupt",
+				reqSkill = "Fireball",
+				cost = 2
 			},
 			{
-				reqSkill = "Frostbolt",
-				cost = 2,
 				row = 2,
 				slot = 4,
-				name = "Frost Shards"
+				name = "Frost Shards",
+				reqSkill = "Frostbolt",
+				cost = 2
 			},
 			{
-				reqSkill = "Erupt",
-				cost = 3,
 				row = 3,
 				slot = 5,
-				name = "Combustion"
+				name = "Combustion",
+				reqSkill = "Erupt",
+				cost = 3
 			},
 			{
-				reqSkill = "Frost Shards",
-				cost = 3,
 				row = 3,
 				slot = 6,
-				name = "Frost Lance"
+				name = "Frost Lance",
+				reqSkill = "Frost Shards",
+				cost = 3
 			},
 			{
-				cost = 4,
 				row = 4,
 				slot = 7,
 				name = "Flame Tornado",
+				cost = 4,
 				reqSkill = {
 					"Pyroblast",
 					"Combustion"
 				}
 			},
 			{
-				cost = 4,
 				row = 4,
 				slot = 8,
 				name = "Coldblast",
+				cost = 4,
 				reqSkill = {
 					"Teleport",
 					"Frost Lance"
 				}
 			},
 			{
-				reqSkill = "Flame Tornado",
-				cost = 6,
 				row = 5,
 				slot = 9,
-				name = "Meteor Strike"
+				name = "Meteor Strike",
+				reqSkill = "Flame Tornado",
+				cost = 6
 			},
 			{
-				reqSkill = "Coldblast",
-				cost = 6,
 				row = 5,
 				slot = 10,
-				name = "Icestorm"
+				name = "Icestorm",
+				reqSkill = "Coldblast",
+				cost = 6
 			},
 			{
-				reqSkill = "Erupt",
-				cost = 3,
 				row = 3,
 				slot = 11,
-				name = "Pyroblast"
+				name = "Pyroblast",
+				reqSkill = "Erupt",
+				cost = 3
 			},
 			{
-				reqSkill = "Frost Shards",
-				cost = 3,
 				row = 3,
 				slot = 12,
-				name = "Teleport"
+				name = "Teleport",
+				reqSkill = "Frost Shards",
+				cost = 3
+			}
+		},
+		legacySkills = {
+			{
+				name = "Cataclysm"
 			}
 		},
 		passives = {
@@ -9933,102 +9959,107 @@ ARCHETYPES_DATA = {
 		},
 		outfit = {
 			male = {
+				feetColor = 77,
+				legsColor = 19,
+				bodyColor = 115,
+				headColor = 19,
 				secondaryAddon = 2345,
 				primaryAddon = 2339,
 				lookType = 2338,
-				category = 1,
+				category = 1
+			},
+			female = {
 				feetColor = 77,
 				legsColor = 19,
 				bodyColor = 115,
-				headColor = 19
-			},
-			female = {
+				headColor = 19,
 				secondaryAddon = 2695,
 				primaryAddon = 2689,
 				lookType = 2688,
-				category = 1,
-				feetColor = 77,
-				legsColor = 19,
-				bodyColor = 115,
-				headColor = 19
+				category = 1
 			}
 		}
 	},
 	[ArchetypeHoly] = {
-		description = "Channeling the {restorative light, #E7B131} of the Dawn, {Holy, #E7B131} is the primary {healing, #E7B131} archetype in the world of Ravendawn. While this archetype focuses on keeping its user and their allies alive on the field of battle, the full power of the Dawn should not be underestimated... skilled users can call down its {holy force, #E7B131} to smite their enemies where they stand.",
 		name = "Holy",
+		description = "Channeling the {restorative light, #E7B131} of the Dawn, {Holy, #E7B131} is the primary {healing, #E7B131} archetype in the world of Ravendawn. While this archetype focuses on keeping its user and their allies alive on the field of battle, the full power of the Dawn should not be underestimated... skilled users can call down its {holy force, #E7B131} to smite their enemies where they stand.",
 		skills = {
 			{
-				row = 1,
-				cost = 1,
 				name = "Flash Heal",
-				slot = 1
-			},
-			{
+				slot = 1,
 				row = 1,
-				cost = 1,
+				cost = 1
+			},
+			{
 				name = "Smite",
-				slot = 2
+				slot = 2,
+				row = 1,
+				cost = 1
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Dawn's Light",
-				slot = 3
+				slot = 3,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Mend",
-				slot = 4
-			},
-			{
+				slot = 4,
 				row = 2,
-				cost = 2,
+				cost = 2
+			},
+			{
 				name = "Holy Shackles",
-				slot = 5
+				slot = 5,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Healing Channel",
-				slot = 6
+				slot = 6,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Devotion",
-				slot = 7
-			},
-			{
+				slot = 7,
 				row = 3,
-				cost = 3,
+				cost = 3
+			},
+			{
 				name = "Holy Force",
-				slot = 8
+				slot = 8,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Circle of Light",
-				slot = 9
-			},
-			{
+				slot = 9,
 				row = 4,
-				cost = 4,
+				cost = 4
+			},
+			{
 				name = "Purify",
-				slot = 10
+				slot = 10,
+				row = 4,
+				cost = 4
 			},
 			{
-				row = 5,
-				cost = 6,
 				name = "Generous Influence",
-				slot = 11
+				slot = 11,
+				row = 5,
+				cost = 6
 			},
 			{
-				row = 5,
-				cost = 6,
 				name = "Living Saint",
-				slot = 12
+				slot = 12,
+				row = 5,
+				cost = 6
+			}
+		},
+		legacySkills = {
+			{
+				name = "Dawns Apotheosis"
 			}
 		},
 		passives = {
@@ -10059,104 +10090,109 @@ ARCHETYPES_DATA = {
 		},
 		outfit = {
 			male = {
+				feetColor = 38,
+				legsColor = 24,
+				bodyColor = 23,
+				headColor = 50,
 				secondaryAddon = 2740,
 				primaryAddon = 2735,
 				lookType = 2734,
-				category = 1,
+				category = 1
+			},
+			female = {
 				feetColor = 38,
 				legsColor = 24,
 				bodyColor = 23,
-				headColor = 50
-			},
-			female = {
+				headColor = 50,
 				secondaryAddon = 2358,
 				primaryAddon = 2352,
 				lookType = 2351,
-				category = 1,
-				feetColor = 38,
-				legsColor = 24,
-				bodyColor = 23,
-				headColor = 50
+				category = 1
 			}
 		}
 	},
 	[ArchetypeWitchcraft] = {
-		description = "An archetype said to have originated from ancient vampiric cults, {Witchcraft, #E7B131} users mix {occult powers, #E7B131} with the ability to {gain strength from the weaknesses of others, #E7B131}. There is no one better than a Witchcraft user at {finding an enemy's flaw, #E7B131} and exploiting it to their advantage... which makes them incredibly dangerous foes.",
 		name = "Witchcraft",
+		description = "An archetype said to have originated from ancient vampiric cults, {Witchcraft, #E7B131} users mix {occult powers, #E7B131} with the ability to {gain strength from the weaknesses of others, #E7B131}. There is no one better than a Witchcraft user at {finding an enemy's flaw, #E7B131} and exploiting it to their advantage... which makes them incredibly dangerous foes.",
 		skills = {
 			{
-				row = 1,
-				cost = 1,
 				name = "Arcane Pulse",
-				slot = 1
-			},
-			{
+				slot = 1,
 				row = 1,
-				cost = 1,
-				name = "Curse",
-				slot = 2
+				cost = 1
 			},
 			{
-				reqSkill = "Arcane Pulse",
-				cost = 2,
+				name = "Curse",
+				slot = 2,
+				row = 1,
+				cost = 1
+			},
+			{
 				row = 2,
 				slot = 3,
-				name = "Arcane Torrent"
+				name = "Arcane Torrent",
+				reqSkill = "Arcane Pulse",
+				cost = 2
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Leech",
-				slot = 4
+				slot = 4,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Eternal Worms",
-				slot = 5
-			},
-			{
+				slot = 5,
 				row = 3,
-				cost = 3,
+				cost = 3
+			},
+			{
 				name = "Magic Rupture",
-				slot = 6
+				slot = 6,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Dispel",
-				slot = 7
+				slot = 7,
+				row = 4,
+				cost = 4
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Shackles of Pain",
-				slot = 8
-			},
-			{
+				slot = 8,
 				row = 4,
-				cost = 4,
+				cost = 4
+			},
+			{
 				name = "Siphon",
-				slot = 9
+				slot = 9,
+				row = 4,
+				cost = 4
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Mirror Image",
-				slot = 10
+				slot = 10,
+				row = 5,
+				cost = 5
 			},
 			{
-				reqSkill = "Curse",
-				cost = 5,
 				row = 5,
 				slot = 11,
-				name = "Death Touch"
+				name = "Death Touch",
+				reqSkill = "Curse",
+				cost = 5
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Hex",
-				slot = 12
+				slot = 12,
+				row = 5,
+				cost = 5
+			}
+		},
+		legacySkills = {
+			{
+				name = "Witch's Call"
 			}
 		},
 		passives = {
@@ -10187,103 +10223,108 @@ ARCHETYPES_DATA = {
 		},
 		outfit = {
 			male = {
+				feetColor = 76,
+				legsColor = 48,
+				bodyColor = 87,
+				headColor = 49,
 				secondaryAddon = 2726,
 				primaryAddon = 2717,
 				lookType = 2714,
-				category = 1,
+				category = 1
+			},
+			female = {
 				feetColor = 76,
 				legsColor = 48,
 				bodyColor = 87,
-				headColor = 49
-			},
-			female = {
+				headColor = 49,
 				secondaryAddon = 2319,
 				primaryAddon = 2313,
 				lookType = 2312,
-				category = 1,
-				feetColor = 76,
-				legsColor = 48,
-				bodyColor = 87,
-				headColor = 49
+				category = 1
 			}
 		}
 	},
 	[ArchetypeSpiritual] = {
-		description = "Users of the {Spiritual, #E7B131} archetype have a {supernatural calm, #E7B131}, able to focus intensely upon the invisible threads that tie the world together. With a honed mind, they can {summon these forces, #E7B131} to aid their allies protecting them with barriers of wind, {hastening, #E7B131} their movements, and {refreshing, #E7B131} their dwindling stores of mana. An adept of Spiritual Magic is an invaluable member to any team.",
 		name = "Spiritual",
+		description = "Users of the {Spiritual, #E7B131} archetype have a {supernatural calm, #E7B131}, able to focus intensely upon the invisible threads that tie the world together. With a honed mind, they can {summon these forces, #E7B131} to aid their allies protecting them with barriers of wind, {hastening, #E7B131} their movements, and {refreshing, #E7B131} their dwindling stores of mana. An adept of Spiritual Magic is an invaluable member to any team.",
 		skills = {
 			{
-				row = 1,
-				cost = 1,
 				name = "Cyclone",
-				slot = 1
+				slot = 1,
+				row = 1,
+				cost = 1
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Regenerate",
-				slot = 2
+				slot = 2,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 2,
-				cost = 2,
 				name = "Whirlwind",
-				slot = 3
-			},
-			{
+				slot = 3,
 				row = 2,
-				cost = 2,
+				cost = 2
+			},
+			{
 				name = "Barrier",
-				slot = 4
+				slot = 4,
+				row = 2,
+				cost = 2
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Air Aura",
-				slot = 5
+				slot = 5,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 3,
-				cost = 3,
 				name = "Force Push",
-				slot = 6
-			},
-			{
+				slot = 6,
 				row = 3,
-				cost = 3,
+				cost = 3
+			},
+			{
 				name = "Wind Wall",
-				slot = 7
+				slot = 7,
+				row = 3,
+				cost = 3
 			},
 			{
-				row = 4,
-				cost = 4,
 				name = "Party Recovery",
-				slot = 8
-			},
-			{
+				slot = 8,
 				row = 4,
-				cost = 4,
-				name = "Windstrike Spirit",
-				slot = 9
+				cost = 4
 			},
 			{
-				reqSkill = "Party Recovery",
-				cost = 5,
+				name = "Windstrike Spirit",
+				slot = 9,
+				row = 4,
+				cost = 4
+			},
+			{
 				row = 5,
 				slot = 10,
-				name = "Healing Air Sphere"
+				name = "Healing Air Sphere",
+				reqSkill = "Party Recovery",
+				cost = 5
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Typhoon",
-				slot = 11
+				slot = 11,
+				row = 5,
+				cost = 5
 			},
 			{
-				row = 5,
-				cost = 5,
 				name = "Haste",
-				slot = 12
+				slot = 12,
+				row = 5,
+				cost = 5
+			}
+		},
+		legacySkills = {
+			{
+				name = "Eye of the Storm"
 			}
 		},
 		passives = {
@@ -10314,31 +10355,29 @@ ARCHETYPES_DATA = {
 		},
 		outfit = {
 			male = {
+				feetColor = 36,
+				legsColor = 19,
+				bodyColor = 71,
+				headColor = 57,
 				secondaryAddon = 2822,
 				primaryAddon = 2818,
 				lookType = 2817,
-				category = 1,
+				category = 1
+			},
+			female = {
 				feetColor = 36,
 				legsColor = 19,
 				bodyColor = 71,
-				headColor = 57
-			},
-			female = {
+				headColor = 57,
 				secondaryAddon = 2307,
 				primaryAddon = 2302,
 				lookType = 2301,
-				category = 1,
-				feetColor = 36,
-				legsColor = 19,
-				bodyColor = 71,
-				headColor = 57
+				category = 1
 			}
 		}
 	}
 }
 EquipmentTypesToBonus = {
-	["cloth helmet"] = "cloth",
-	["leather helmet"] = "leather",
 	["plate helmet"] = "plate",
 	["cloth boots"] = "cloth",
 	["leather boots"] = "leather",
@@ -10348,7 +10387,9 @@ EquipmentTypesToBonus = {
 	["plate legs"] = "plate",
 	["cloth armor"] = "cloth",
 	["leather armor"] = "leather",
-	["plate armor"] = "plate"
+	["plate armor"] = "plate",
+	["cloth helmet"] = "cloth",
+	["leather helmet"] = "leather"
 }
 EquipmentSetBonus = {
 	plate = {
@@ -10404,26 +10445,26 @@ EquipmentSetBonus = {
 }
 ItemsShopQuality = {
 	{
-		price = 0.7,
 		name = "Normal",
+		price = 0.7,
 		color = "",
 		quality = ITEM_QUALITY_NORMAL
 	},
 	{
-		price = 0.9,
 		name = "High",
+		price = 0.9,
 		color = "",
 		quality = ITEM_QUALITY_HIGH
 	},
 	{
-		price = 1.1,
 		name = "Superior",
+		price = 1.1,
 		color = "",
 		quality = ITEM_QUALITY_SUPERIOR
 	},
 	{
-		price = 1.3,
 		name = "Artisan",
+		price = 1.3,
 		color = "",
 		quality = ITEM_QUALITY_ARTISAN
 	}
@@ -11647,752 +11688,752 @@ ItemPrices = {
 }
 ShipParts = {
 	[2851] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Increases the damage of fishing abilities by 20%.",
-		type = "cabin",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Double Fishing Hook",
-		weight = 100
+		packcapacity = 0,
+		weight = 100,
+		speed = 0,
+		type = "cabin",
+		health = 0,
+		description = "Increases the damage of fishing abilities by 20%.",
+		name = "Double Fishing Hook"
 	},
 	[5806] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "This skill increases your ships speed by 300 for 5 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Royal Water Pumps",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "This skill increases your ships speed by 300 for 5 seconds.",
+		name = "Royal Water Pumps"
 	},
 	[5487] = {
-		speed = 150,
-		health = 0,
-		packcapacity = 0,
-		description = "Your ship is less affected by slowing effects.",
-		type = "sail",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Sturdy Sail",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 150,
+		type = "sail",
+		health = 0,
+		description = "Your ship is less affected by slowing effects.",
+		name = "Sturdy Sail"
 	},
 	[1801] = {
-		speed = 250,
-		health = 1500,
-		packcapacity = 0,
-		description = "Slightly reduces the cooldown of your cannons.",
-		type = "hull",
 		cargoslots = 1,
 		fishcapacity = 0,
-		name = "Small Galleon",
-		weight = 500
+		packcapacity = 0,
+		weight = 500,
+		speed = 250,
+		type = "hull",
+		health = 1500,
+		description = "Slightly reduces the cooldown of your cannons.",
+		name = "Small Galleon"
 	},
 	[5125] = {
-		speed = 250,
-		health = 800,
-		packcapacity = 0,
-		description = "Basic ship that gets you going.",
-		type = "hull",
 		cargoslots = 0,
 		fishcapacity = 2,
-		name = "Basic Ship",
-		weight = 500
+		packcapacity = 0,
+		weight = 500,
+		speed = 250,
+		type = "hull",
+		health = 800,
+		description = "Basic ship that gets you going.",
+		name = "Basic Ship"
 	},
 	[1795] = {
-		speed = 250,
-		health = 1000,
-		packcapacity = 0,
-		description = "Slightly increases the damage dealt by your fishing skills.",
-		type = "hull",
 		cargoslots = 1,
 		fishcapacity = 0,
-		name = "Small Fishing Ship",
-		weight = 500
+		packcapacity = 0,
+		weight = 500,
+		speed = 250,
+		type = "hull",
+		health = 1000,
+		description = "Slightly increases the damage dealt by your fishing skills.",
+		name = "Small Fishing Ship"
 	},
 	[1817] = {
-		speed = 0,
-		health = 500,
-		packcapacity = 0,
-		description = "The added plating increases the health of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Sturdy Plating",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 500,
+		description = "The added plating increases the health of your ship.",
+		name = "Sturdy Plating"
 	},
 	[1821] = {
-		speed = 150,
-		health = 0,
-		packcapacity = 0,
-		description = "Increases the movement speed of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Adorned Ship Emblems",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 150,
+		type = "auxiliary",
+		health = 0,
+		description = "Increases the movement speed of your ship.",
+		name = "Adorned Ship Emblems"
 	},
 	[1811] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 2,
-		description = "Moderately increases your capacity to carry tradepacks.",
-		type = "cabin",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Tradepack Container",
-		weight = 100
+		packcapacity = 2,
+		weight = 100,
+		speed = 0,
+		type = "cabin",
+		health = 0,
+		description = "Moderately increases your capacity to carry tradepacks.",
+		name = "Large Tradepack Container"
 	},
 	[1813] = {
-		speed = 50,
-		health = 0,
-		packcapacity = 0,
-		description = "Slightly increases ship speed",
-		type = "sail",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Sail",
-		weight = 100
+		packcapacity = 0,
+		weight = 100,
+		speed = 50,
+		type = "sail",
+		health = 0,
+		description = "Slightly increases ship speed",
+		name = "Small Sail"
 	},
 	[5815] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a heavy cannon ball that deals between 200 to 400 damage.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Siege Cannon",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a heavy cannon ball that deals between 200 to 400 damage.",
+		name = "Medium Siege Cannon"
 	},
 	[5799] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "After telegraphing for 1.5 seconds, fires an explosive projectile, dealing between 600 to 800 damage in the area.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Mortar Cannon",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "After telegraphing for 1.5 seconds, fires an explosive projectile, dealing between 600 to 800 damage in the area.",
+		name = "Medium Mortar Cannon"
 	},
 	[5485] = {
-		speed = 0,
-		health = 2000,
-		packcapacity = 0,
-		description = "The added plating increases the health of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Warship Plating",
-		weight = 500
+		packcapacity = 0,
+		weight = 500,
+		speed = 0,
+		type = "auxiliary",
+		health = 2000,
+		description = "The added plating increases the health of your ship.",
+		name = "Warship Plating"
 	},
 	[2852] = {
-		speed = 0,
-		health = 750,
-		packcapacity = 0,
-		description = "The added plating increases the health of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Reinforced Plating",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 0,
+		type = "auxiliary",
+		health = 750,
+		description = "The added plating increases the health of your ship.",
+		name = "Reinforced Plating"
 	},
 	[5816] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a heavy cannon ball that deals between 250 to 500 damage.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Siege Cannon",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a heavy cannon ball that deals between 250 to 500 damage.",
+		name = "Large Siege Cannon"
 	},
 	[5800] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "After telegraphing for 1.5 seconds, fires an explosive projectile, dealing between 800 to 1200 damage in the area.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Mortar Cannon",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "After telegraphing for 1.5 seconds, fires an explosive projectile, dealing between 800 to 1200 damage in the area.",
+		name = "Large Mortar Cannon"
 	},
 	[5478] = {
-		speed = 250,
-		health = 0,
-		packcapacity = 0,
-		description = "Increases the movement speed of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Graceful Ship Emblems",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 250,
+		type = "auxiliary",
+		health = 0,
+		description = "Increases the movement speed of your ship.",
+		name = "Graceful Ship Emblems"
 	},
 	[5817] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a flame in front of the ship for 5 seconds, burning the target for 125 damage per second while also applying a \"Burning Ship\" status, dealing 40 damage per second during 8 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Drake Head",
-		weight = 250
+		packcapacity = 0,
+		weight = 250,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a flame in front of the ship for 5 seconds, burning the target for 125 damage per second while also applying a \"Burning Ship\" status, dealing 40 damage per second during 8 seconds.",
+		name = "Medium Drake Head"
 	},
 	[5801] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Leaves explosive mines in a line behind you, lasting for 10 seconds and exploding on contact. The explosion causes 500 damage while also slowing the target by 35% for 8 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Floating Mines",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Leaves explosive mines in a line behind you, lasting for 10 seconds and exploding on contact. The explosion causes 500 damage while also slowing the target by 35% for 8 seconds.",
+		name = "Medium Floating Mines"
 	},
 	[5484] = {
-		speed = 125,
-		health = 0,
-		packcapacity = 0,
-		description = "Your cannons deal more damage to innocent ships.",
-		type = "sail",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Pirate Sail",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 125,
+		type = "sail",
+		health = 0,
+		description = "Your cannons deal more damage to innocent ships.",
+		name = "Pirate Sail"
 	},
 	[2849] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Increases the damage of fishing abilities by 10%.",
-		type = "cabin",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Fishing Hook",
-		weight = 50
+		packcapacity = 0,
+		weight = 50,
+		speed = 0,
+		type = "cabin",
+		health = 0,
+		description = "Increases the damage of fishing abilities by 10%.",
+		name = "Fishing Hook"
 	},
 	[5818] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a flame in front of the ship for 5 seconds, burning the target for 175 damage per second while also applying a \"Burning Ship\" status, dealing 55 damage per second during 8 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Drake Head",
-		weight = 250
+		packcapacity = 0,
+		weight = 250,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a flame in front of the ship for 5 seconds, burning the target for 175 damage per second while also applying a \"Burning Ship\" status, dealing 55 damage per second during 8 seconds.",
+		name = "Large Drake Head"
 	},
 	[5802] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Leaves explosive mines in a line behind you, lasting for 10 seconds and exploding on contact. The explosion causes 750 damage while also slowing the target by 40% for 8 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Floating Mines",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Leaves explosive mines in a line behind you, lasting for 10 seconds and exploding on contact. The explosion causes 750 damage while also slowing the target by 40% for 8 seconds.",
+		name = "Large Floating Mines"
 	},
 	[5480] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Leaves explosive mines in a line behind you, lasting for 10 seconds and exploding on contact. The explosion causes 250 damage while also slowing the target by 30% for 8 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Floating Mines",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Leaves explosive mines in a line behind you, lasting for 10 seconds and exploding on contact. The explosion causes 250 damage while also slowing the target by 30% for 8 seconds.",
+		name = "Small Floating Mines"
 	},
 	[1800] = {
-		speed = 250,
-		health = 1500,
-		packcapacity = 4,
-		description = "Significantly increases your capacity to carry tradepacks.",
-		type = "hull",
 		cargoslots = 3,
 		fishcapacity = 0,
-		name = "Large Merchant Ship",
-		weight = 600
+		packcapacity = 3,
+		weight = 600,
+		speed = 250,
+		type = "hull",
+		health = 1500,
+		description = "Significantly increases your capacity to carry tradepacks.",
+		name = "Large Merchant Ship"
 	},
 	[1804] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Slightly reduces the cooldown of your cannons.",
-		type = "cabin",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Ammunitions Cabin",
-		weight = 50
+		packcapacity = 0,
+		weight = 50,
+		speed = 0,
+		type = "cabin",
+		health = 0,
+		description = "Slightly reduces the cooldown of your cannons.",
+		name = "Ammunitions Cabin"
 	},
 	[1798] = {
-		speed = 250,
-		health = 1000,
-		packcapacity = 2,
-		description = "Slightly increases your capacity to carry tradepacks.",
-		type = "hull",
 		cargoslots = 1,
 		fishcapacity = 0,
-		name = "Small Merchant Ship",
-		weight = 500
+		packcapacity = 1,
+		weight = 500,
+		speed = 250,
+		type = "hull",
+		health = 1000,
+		description = "Slightly increases your capacity to carry tradepacks.",
+		name = "Small Merchant Ship"
 	},
 	[1796] = {
-		speed = 250,
-		health = 1250,
-		packcapacity = 0,
-		description = "Moderately increases the damage dealt by your fishing skills.",
-		type = "hull",
 		cargoslots = 2,
 		fishcapacity = 0,
-		name = "Medium Fishing Ship",
-		weight = 550
+		packcapacity = 0,
+		weight = 550,
+		speed = 250,
+		type = "hull",
+		health = 1250,
+		description = "Moderately increases the damage dealt by your fishing skills.",
+		name = "Medium Fishing Ship"
 	},
 	[1820] = {
-		speed = 100,
-		health = 0,
-		packcapacity = 0,
-		description = "Increases the movement speed of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Shiny Ship Emblems",
-		weight = 150
+		packcapacity = 0,
+		weight = 150,
+		speed = 100,
+		type = "auxiliary",
+		health = 0,
+		description = "Increases the movement speed of your ship.",
+		name = "Shiny Ship Emblems"
 	},
 	[1810] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 1,
-		description = "Slightly increases your capacity to carry tradepacks.",
-		type = "cabin",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Tradepack Container",
-		weight = 50
+		packcapacity = 1,
+		weight = 50,
+		speed = 0,
+		type = "cabin",
+		health = 0,
+		description = "Slightly increases your capacity to carry tradepacks.",
+		name = "Tradepack Container"
 	},
 	[1814] = {
-		speed = 100,
-		health = 0,
-		packcapacity = 0,
-		description = "Moderately increases ship speed",
-		type = "sail",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Sail",
-		weight = 150
+		packcapacity = 0,
+		weight = 150,
+		speed = 100,
+		type = "sail",
+		health = 0,
+		description = "Moderately increases ship speed",
+		name = "Medium Sail"
 	},
 	[5819] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a barrage of cannon shots on both sides of the ship, dealing 350-400 damage. This ability has 3 charges..",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Broadside Artillery",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a barrage of cannon shots on both sides of the ship, dealing 350-400 damage. This ability has 3 charges..",
+		name = "Medium Broadside Artillery"
 	},
 	[5795] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a powerful blast in a straight line infront of your ship, dealing between 700 to 1000 damage.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Hullbreaker Cannon",
-		weight = 400
+		packcapacity = 0,
+		weight = 400,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a powerful blast in a straight line infront of your ship, dealing between 700 to 1000 damage.",
+		name = "Medium Hullbreaker Cannon"
 	},
 	[1824] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "This skill increases your ships speed by 200 for 5 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Advanced Water Pumps",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "This skill increases your ships speed by 200 for 5 seconds.",
+		name = "Advanced Water Pumps"
 	},
 	[2657] = {
-		speed = 250,
-		health = 1000,
-		packcapacity = 0,
-		description = "Basic ship that gets you going.",
-		type = "hull",
 		cargoslots = 0,
 		fishcapacity = 2,
-		name = "Starter Ship",
-		weight = 500
+		packcapacity = 0,
+		weight = 500,
+		speed = 250,
+		type = "hull",
+		health = 1000,
+		description = "Basic ship that gets you going.",
+		name = "Starter Ship"
 	},
 	[5780] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a powerful blast in a straight line infront of your ship, dealing between 500 to 700 damage.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Hullbreaker Cannon",
-		weight = 400
+		packcapacity = 0,
+		weight = 400,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a powerful blast in a straight line infront of your ship, dealing between 500 to 700 damage.",
+		name = "Small Hullbreaker Cannon"
 	},
 	[2850] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Moderately reduces the cooldown of your cannons.",
-		type = "cabin",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Ammunitions Cabin",
-		weight = 100
+		packcapacity = 0,
+		weight = 100,
+		speed = 0,
+		type = "cabin",
+		health = 0,
+		description = "Moderately reduces the cooldown of your cannons.",
+		name = "Large Ammunitions Cabin"
 	},
 	[5820] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a barrage of cannon shots on both sides of the ship, dealing 450-550 damage. This ability has 3 charges.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Broadside Artillery",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a barrage of cannon shots on both sides of the ship, dealing 450-550 damage. This ability has 3 charges.",
+		name = "Large Broadside Artillery"
 	},
 	[5796] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a powerful blast in a straight line infront of your ship, dealing between 1000 to 1400 damage.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Hullbreaker Cannon",
-		weight = 400
+		packcapacity = 0,
+		weight = 400,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a powerful blast in a straight line infront of your ship, dealing between 1000 to 1400 damage.",
+		name = "Large Hullbreaker Cannon"
 	},
 	[5482] = {
-		speed = 100,
-		health = 0,
-		packcapacity = 0,
-		description = "Increases speed when carrying tradepacks.",
-		type = "sail",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Merchant Sail",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 100,
+		type = "sail",
+		health = 0,
+		description = "Increases speed when carrying tradepacks.",
+		name = "Merchant Sail"
 	},
 	[5804] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a grappling hook in a line in front of the ship, slowing the first target hit by 90% for 3 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Grappling Hooks",
-		weight = 50
+		packcapacity = 0,
+		weight = 50,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a grappling hook in a line in front of the ship, slowing the first target hit by 90% for 3 seconds.",
+		name = "Large Grappling Hooks"
 	},
 	[5803] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a grappling hook in a line in front of the ship, slowing the first target hit by 70% for 3 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Grappling Hooks",
-		weight = 50
+		packcapacity = 0,
+		weight = 50,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a grappling hook in a line in front of the ship, slowing the first target hit by 70% for 3 seconds.",
+		name = "Medium Grappling Hooks"
 	},
 	[5481] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a grappling hook in a line in front of the ship, slowing the first target hit by 50% for 3 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Grappling Hooks",
-		weight = 50
+		packcapacity = 0,
+		weight = 50,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a grappling hook in a line in front of the ship, slowing the first target hit by 50% for 3 seconds.",
+		name = "Small Grappling Hooks"
 	},
 	[5798] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a cloud of shrapnel projectiles, dealing between 200 to 400 damage while applying a Damaged Sail stack. Each stack slows the afflicted ship/creature by 7% for 20 seconds. Stacks up to 3 times. New stacks do not refresh this duration",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Shrapnel Cannon",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a cloud of shrapnel projectiles, dealing between 200 to 400 damage while applying a Damaged Sail stack. Each stack slows the afflicted ship/creature by 7% for 20 seconds. Stacks up to 3 times. New stacks do not refresh this duration",
+		name = "Large Shrapnel Cannon"
 	},
 	[5797] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a cloud of shrapnel projectiles, dealing between 150 to 300 damage while applying a Damaged Sail stack. Each stack slows the afflicted ship/creature by 6% for 20 seconds. Stacks up to 3 times. New stacks do not refresh this duration.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Shrapnel Cannon",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a cloud of shrapnel projectiles, dealing between 150 to 300 damage while applying a Damaged Sail stack. Each stack slows the afflicted ship/creature by 6% for 20 seconds. Stacks up to 3 times. New stacks do not refresh this duration.",
+		name = "Medium Shrapnel Cannon"
 	},
 	[1823] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "This skill increases your ships speed by 150 for 5 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Efficient Water Pumps",
-		weight = 150
+		packcapacity = 0,
+		weight = 150,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "This skill increases your ships speed by 150 for 5 seconds.",
+		name = "Efficient Water Pumps"
 	},
 	[1797] = {
-		speed = 250,
-		health = 1500,
-		packcapacity = 0,
-		description = "Significantly increases the damage dealt by your fishing skills.",
-		type = "hull",
 		cargoslots = 3,
 		fishcapacity = 0,
-		name = "Large Fishing Ship",
-		weight = 600
+		packcapacity = 0,
+		weight = 600,
+		speed = 250,
+		type = "hull",
+		health = 1500,
+		description = "Significantly increases the damage dealt by your fishing skills.",
+		name = "Large Fishing Ship"
 	},
 	[5477] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a flame in front of the ship for 5 seconds, burning the target for 75 damage per second while also applying a \"Burning Ship\" status, dealing 25 damage per second during 8 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Drake Head",
-		weight = 250
+		packcapacity = 0,
+		weight = 250,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a flame in front of the ship for 5 seconds, burning the target for 75 damage per second while also applying a \"Burning Ship\" status, dealing 25 damage per second during 8 seconds.",
+		name = "Small Drake Head"
 	},
 	[2853] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Slightly reduces the time it takes for a fish to bite.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Fishing Nets",
-		weight = 100
+		packcapacity = 0,
+		weight = 100,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Slightly reduces the time it takes for a fish to bite.",
+		name = "Small Fishing Nets"
 	},
 	[5486] = {
-		speed = 0,
-		health = 1250,
-		packcapacity = 0,
-		description = "The added plating increases the health of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Fortified Plating",
-		weight = 400
+		packcapacity = 0,
+		weight = 400,
+		speed = 0,
+		type = "auxiliary",
+		health = 1250,
+		description = "The added plating increases the health of your ship.",
+		name = "Fortified Plating"
 	},
 	[5479] = {
-		speed = 200,
-		health = 0,
-		packcapacity = 0,
-		description = "Increases the movement speed of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Deluxe Ship Emblems",
-		weight = 250
+		packcapacity = 0,
+		weight = 250,
+		speed = 200,
+		type = "auxiliary",
+		health = 0,
+		description = "Increases the movement speed of your ship.",
+		name = "Deluxe Ship Emblems"
 	},
 	[5781] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a cloud of shrapnel projectiles, dealing between 100 to 200 damage while applying a Damaged Sail stack. Each stack slows the afflicted ship/creature by 5% for 20 seconds. Stacks up to 3 times. New stacks do not refresh this duration.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Shrapnel Cannon",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a cloud of shrapnel projectiles, dealing between 100 to 200 damage while applying a Damaged Sail stack. Each stack slows the afflicted ship/creature by 5% for 20 seconds. Stacks up to 3 times. New stacks do not refresh this duration.",
+		name = "Small Shrapnel Cannon"
 	},
 	[5779] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Triples the effectiveness of the Repair ability.",
-		type = "cabin",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Maintenance Unit",
-		weight = 100
+		packcapacity = 0,
+		weight = 100,
+		speed = 0,
+		type = "cabin",
+		health = 0,
+		description = "Triples the effectiveness of the Repair ability.",
+		name = "Medium Maintenance Unit"
 	},
 	[1805] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Doubles the effectiveness of the Repair ability.",
-		type = "cabin",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Maintenance Unit",
-		weight = 50
+		packcapacity = 0,
+		weight = 50,
+		speed = 0,
+		type = "cabin",
+		health = 0,
+		description = "Doubles the effectiveness of the Repair ability.",
+		name = "Small Maintenance Unit"
 	},
 	[5805] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "This skill increases your ships speed by 250 for 5 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Superior Water Pumps",
-		weight = 250
+		packcapacity = 0,
+		weight = 250,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "This skill increases your ships speed by 250 for 5 seconds.",
+		name = "Superior Water Pumps"
 	},
 	[5483] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a barrage of cannon shots on both sides of the ship, dealing 250-300 damage. This ability has 3 charges.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Broadside Artillery",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a barrage of cannon shots on both sides of the ship, dealing 250-300 damage. This ability has 3 charges.",
+		name = "Small Broadside Artillery"
 	},
 	[1822] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "This skill increases your ships speed by 100 for 5 seconds.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Basic Water Pumps",
-		weight = 100
+		packcapacity = 0,
+		weight = 100,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "This skill increases your ships speed by 100 for 5 seconds.",
+		name = "Basic Water Pumps"
 	},
 	[1819] = {
-		speed = 50,
-		health = 0,
-		packcapacity = 0,
-		description = "Increases the movement speed of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Simple Ship Emblems",
-		weight = 100
+		packcapacity = 0,
+		weight = 100,
+		speed = 50,
+		type = "auxiliary",
+		health = 0,
+		description = "Increases the movement speed of your ship.",
+		name = "Simple Ship Emblems"
 	},
 	[2848] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Fires a heavy cannon ball that deals between 150 to 300 damage.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Siege Cannon",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Fires a heavy cannon ball that deals between 150 to 300 damage.",
+		name = "Small Siege Cannon"
 	},
 	[1816] = {
-		speed = 0,
-		health = 250,
-		packcapacity = 0,
-		description = "The added plating increases the health of your ship.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Minor Plating",
-		weight = 100
+		packcapacity = 0,
+		weight = 100,
+		speed = 0,
+		type = "auxiliary",
+		health = 250,
+		description = "The added plating increases the health of your ship.",
+		name = "Minor Plating"
 	},
 	[2855] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Significantly reduces the time it takes for a fish to bite..",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Fish Nets",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Significantly reduces the time it takes for a fish to bite..",
+		name = "Large Fish Nets"
 	},
 	[2854] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "Moderately reduces the time it takes for a fish to bite.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Medium Fish Nets",
-		weight = 150
+		packcapacity = 0,
+		weight = 150,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "Moderately reduces the time it takes for a fish to bite.",
+		name = "Medium Fish Nets"
 	},
 	[5124] = {
-		speed = 25,
-		health = 0,
-		packcapacity = 0,
-		description = "Basic sail that gets you going.",
-		type = "sail",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Basic Sail",
-		weight = 50
+		packcapacity = 0,
+		weight = 50,
+		speed = 25,
+		type = "sail",
+		health = 0,
+		description = "Basic sail that gets you going.",
+		name = "Basic Sail"
 	},
 	[1815] = {
-		speed = 150,
-		health = 0,
-		packcapacity = 0,
-		description = "Significantly increases ship speed.",
-		type = "sail",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Large Sail",
-		weight = 200
+		packcapacity = 0,
+		weight = 200,
+		speed = 150,
+		type = "sail",
+		health = 0,
+		description = "Significantly increases ship speed.",
+		name = "Large Sail"
 	},
 	[1803] = {
-		speed = 250,
-		health = 2100,
-		packcapacity = 0,
-		description = "Significantly reduces the cooldown of your cannons.",
-		type = "hull",
 		cargoslots = 3,
 		fishcapacity = 0,
-		name = "Large Galleon",
-		weight = 600
+		packcapacity = 0,
+		weight = 600,
+		speed = 250,
+		type = "hull",
+		health = 2100,
+		description = "Significantly reduces the cooldown of your cannons.",
+		name = "Large Galleon"
 	},
 	[1802] = {
-		speed = 250,
-		health = 1800,
-		packcapacity = 0,
-		description = "Moderately reduces the cooldown of your cannons.",
-		type = "hull",
 		cargoslots = 2,
 		fishcapacity = 0,
-		name = "Medium Galleon",
-		weight = 550
+		packcapacity = 0,
+		weight = 550,
+		speed = 250,
+		type = "hull",
+		health = 1800,
+		description = "Moderately reduces the cooldown of your cannons.",
+		name = "Medium Galleon"
 	},
 	[1799] = {
-		speed = 250,
-		health = 1250,
-		packcapacity = 3,
-		description = "Moderately increases your capacity to carry tradepacks.",
-		type = "hull",
 		cargoslots = 2,
 		fishcapacity = 0,
-		name = "Medium Merchant Ship",
-		weight = 550
+		packcapacity = 2,
+		weight = 550,
+		speed = 250,
+		type = "hull",
+		health = 1250,
+		description = "Moderately increases your capacity to carry tradepacks.",
+		name = "Medium Merchant Ship"
 	},
 	[5782] = {
-		speed = 0,
-		health = 0,
-		packcapacity = 0,
-		description = "After telegraphing for 1.5 seconds, fires an explosive projectile, dealing between 400 to 600 damage in the area.",
-		type = "auxiliary",
 		cargoslots = 0,
 		fishcapacity = 0,
-		name = "Small Mortar Cannon",
-		weight = 300
+		packcapacity = 0,
+		weight = 300,
+		speed = 0,
+		type = "auxiliary",
+		health = 0,
+		description = "After telegraphing for 1.5 seconds, fires an explosive projectile, dealing between 400 to 600 damage in the area.",
+		name = "Small Mortar Cannon"
 	}
 }
 OutfitAddons = {
@@ -13243,86 +13284,86 @@ OutfitAddons = {
 }
 WagonParts = {
 	[3012] = {
-		health = 2100,
-		tier = 1,
-		capacity = 1,
 		name = "Old Wagon",
-		weight = 100
+		tier = 1,
+		weight = 100,
+		capacity = 1,
+		health = 2100
 	},
 	[5304] = {
-		health = 2800,
-		tier = 2,
-		capacity = 2,
 		name = "Small Wagon",
-		weight = 110
+		tier = 2,
+		weight = 110,
+		capacity = 2,
+		health = 2800
 	},
 	[3015] = {
-		health = 3500,
-		tier = 3,
-		capacity = 3,
 		name = "Common Wagon",
-		weight = 120
+		tier = 3,
+		weight = 120,
+		capacity = 3,
+		health = 3500
 	},
 	[5301] = {
-		health = 4500,
-		tier = 4,
-		capacity = 4,
 		name = "Medium Wagon",
-		weight = 130
+		tier = 4,
+		weight = 130,
+		capacity = 4,
+		health = 4500
 	},
 	[3018] = {
-		health = 6000,
-		tier = 5,
-		capacity = 5,
 		name = "Deluxe Wagon",
-		weight = 140
+		tier = 5,
+		weight = 140,
+		capacity = 5,
+		health = 6000
 	}
 }
 MoaEquipment = {
 	[5565] = {
+		name = "Basic Barding",
 		type = "moa equipment",
-		description = "Uncomplicated yet dependable, crafted for comfort and control, ensuring a smooth ride for both rider and Moa. No additional effect.",
-		name = "Basic Barding"
+		description = "Uncomplicated yet dependable, crafted for comfort and control, ensuring a smooth ride for both rider and Moa. No additional effect."
 	},
 	[5520] = {
+		name = "Simple Barding",
 		type = "moa equipment",
-		description = "A humble moa gear which concedes minor protection and mobility to the wearer. Increases moa speed by 4, moa strength by 5 and reduces the chance of being dismounted by 5%.",
-		name = "Simple Barding"
+		description = "A humble moa gear which concedes minor protection and mobility to the wearer. Increases moa speed by 4, moa strength by 5 and reduces the chance of being dismounted by 5%."
 	},
 	[5522] = {
+		name = "Composed Barding",
 		type = "moa equipment",
-		description = "Moa gear which gives regular benefits despite its ordinary design. Increases moa speed by 7, moa strength by 8 and reduces the chance of being dismounted by 10%.",
-		name = "Composed Barding"
+		description = "Moa gear which gives regular benefits despite its ordinary design. Increases moa speed by 7, moa strength by 8 and reduces the chance of being dismounted by 10%."
 	},
 	[5527] = {
+		name = "Advanced Barding",
 		type = "moa equipment",
-		description = "Though not extraordinary, this moa gear was clearly crafted by skilled hands. Increases moa speed by 10, moa strength by 12 and reduces the chance of being dismounted by 15%.",
-		name = "Advanced Barding"
+		description = "Though not extraordinary, this moa gear was clearly crafted by skilled hands. Increases moa speed by 10, moa strength by 12 and reduces the chance of being dismounted by 15%."
 	},
 	[5532] = {
+		name = "Artisan Barding",
 		type = "moa equipment",
-		description = "Clearly designed by very capable hands, this moa gear provides balanced benefits to its wearer. Increases moa speed by 14, moa strength by 18 and reduces the chance of being dismounted by 20%.",
-		name = "Artisan Barding"
+		description = "Clearly designed by very capable hands, this moa gear provides balanced benefits to its wearer. Increases moa speed by 14, moa strength by 18 and reduces the chance of being dismounted by 20%."
 	},
 	[5537] = {
+		name = "Superior Barding",
 		type = "moa equipment",
-		description = "Top-notch moa gear crafted by a sound professional using high quality materials. Increases moa speed by 20, moa strength by 23 and reduces the chance of being dismounted by 25%.",
-		name = "Superior Barding"
+		description = "Top-notch moa gear crafted by a sound professional using high quality materials. Increases moa speed by 20, moa strength by 23 and reduces the chance of being dismounted by 25%."
 	},
 	[6076] = {
+		name = "War Barding",
 		type = "moa equipment",
-		description = "Giving enough protection and mobility for the most extreme situations, this gear could easily be used by someone riding straight to the battlefield. Increases moa speed by 26, moa strength by 28 and reduces the chance of being dismounted by 40%.",
-		name = "War Barding"
+		description = "Giving enough protection and mobility for the most extreme situations, this gear could easily be used by someone riding straight to the battlefield. Increases moa speed by 26, moa strength by 28 and reduces the chance of being dismounted by 40%."
 	},
 	[6074] = {
+		name = "Explorer Barding",
 		type = "moa equipment",
-		description = "Ideal for anyone venturing into uncharted territory, this gear will never leave the mounter helpless while still providing superb mobility. Increases moa speed by 35 moa strength by 26 and reduces the chance of being dismounted by 28%.",
-		name = "Explorer Barding"
+		description = "Ideal for anyone venturing into uncharted territory, this gear will never leave the mounter helpless while still providing superb mobility. Increases moa speed by 35 moa strength by 26 and reduces the chance of being dismounted by 28%."
 	},
 	[6075] = {
+		name = "Professional Barding",
 		type = "moa equipment",
-		description = "An indispensable asset for anyone carrying out trading duties, this gear enhances the moa's weight carrying capabilities. Increases moa speed by 28, moa strength by 37 and reduces the chance of being dismounted by 31%.",
-		name = "Professional Barding"
+		description = "An indispensable asset for anyone carrying out trading duties, this gear enhances the moa's weight carrying capabilities. Increases moa speed by 28, moa strength by 37 and reduces the chance of being dismounted by 31%."
 	}
 }
 MoaTraits = {
@@ -13392,54 +13433,54 @@ FishToSlice = {
 }
 FishSlices = {
 	[40832] = {
+		name = "Orange Scales",
 		id = 40832,
-		description = "Vibrant orange scales with a subtle oceanic aroma, perfect for adding a unique zest to any dish.",
-		name = "Orange Scales"
+		description = "Vibrant orange scales with a subtle oceanic aroma, perfect for adding a unique zest to any dish."
 	},
 	[40829] = {
+		name = "Fish Roe",
 		id = 40829,
-		description = "Small, soft, and bursting with a salty, oceanic flavor. Often used as a garnish or added to sauces.",
-		name = "Fish Roe"
+		description = "Small, soft, and bursting with a salty, oceanic flavor. Often used as a garnish or added to sauces."
 	},
 	[40830] = {
+		name = "Fish Skin",
 		id = 40830,
-		description = "This tough, leathery skin is covered in small, iridescent scales and has a slimy texture.",
-		name = "Fish Skin"
+		description = "This tough, leathery skin is covered in small, iridescent scales and has a slimy texture."
 	},
 	[40834] = {
+		name = "Yellow Fish Roe",
 		id = 40834,
-		description = "Delicate, buttery eggs with a mild flavor, perfect for enhancing the taste of seafood.",
-		name = "Yellow Fish Roe"
+		description = "Delicate, buttery eggs with a mild flavor, perfect for enhancing the taste of seafood."
 	},
 	[40826] = {
+		name = "Fish Eye",
 		id = 40826,
-		description = "These eerie orbs can be used in divination, or ground into a fine powder for use in potions and elixirs.",
-		name = "Fish Eye"
+		description = "These eerie orbs can be used in divination, or ground into a fine powder for use in potions and elixirs."
 	},
 	[40833] = {
+		name = "Red Fish Roe",
 		id = 40833,
-		description = "A rare delicacy prized for its brilliant red hue and subtle oceanic flavor. A must-have for any upscale dining",
-		name = "Red Fish Roe"
+		description = "A rare delicacy prized for its brilliant red hue and subtle oceanic flavor. A must-have for any upscale dining"
 	},
 	[40827] = {
+		name = "Fish Liver",
 		id = 40827,
-		description = "A slimy and pungent organ that can be used in alchemical preparations. It is said to have powerful effects on the mind and body.",
-		name = "Fish Liver"
+		description = "A slimy and pungent organ that can be used in alchemical preparations. It is said to have powerful effects on the mind and body."
 	},
 	[40828] = {
+		name = "Fish Oil",
 		id = 40828,
-		description = "Rich in nutrients, fish liver can be distilled into a potent oil for medicinal purposes.",
-		name = "Fish Oil"
+		description = "Rich in nutrients, fish liver can be distilled into a potent oil for medicinal purposes."
 	},
 	[40831] = {
+		name = "Luminous Sack",
 		id = 40831,
-		description = "This bioluminescent organ can be used as a light source or crushed into a fine powder for magical effects.",
-		name = "Luminous Sack"
+		description = "This bioluminescent organ can be used as a light source or crushed into a fine powder for magical effects."
 	},
 	[40825] = {
+		name = "Black Fish Roe",
 		id = 40825,
-		description = "Plump, glossy eggs bursting with umami flavor and a velvety texture, prized by chefs for their exceptional quality.",
-		name = "Black Fish Roe"
+		description = "Plump, glossy eggs bursting with umami flavor and a velvety texture, prized by chefs for their exceptional quality."
 	}
 }
 CompassSize = {
@@ -13456,198 +13497,198 @@ CompassSize = {
 CompassDefaultSize = CompassSize[5]
 Waypoints = {
 	{
-		level = 0,
 		name = "Firslight",
+		level = 0,
 		offset = {
 			x = 497,
 			y = 260
 		},
 		position = {
-			x = 6032,
 			z = 4,
-			y = 4999
+			y = 4999,
+			x = 6032
 		}
 	},
 	{
-		level = 0,
 		name = "Saint Alsek",
+		level = 0,
 		offset = {
 			x = 90,
 			y = 108
 		},
 		position = {
-			x = 4132,
 			z = 6,
-			y = 4185
+			y = 4185,
+			x = 4132
 		}
 	},
 	{
-		level = 0,
 		name = "Ravencrest",
+		level = 0,
 		offset = {
 			x = 310,
 			y = 285
 		},
 		position = {
-			x = 5132,
 			z = 6,
-			y = 5092
+			y = 5092,
+			x = 5132
 		}
 	},
 	{
-		level = 8,
 		name = "North Glademire",
+		level = 8,
 		offset = {
 			x = 335,
 			y = 233
 		},
 		position = {
-			x = 5239,
 			z = 5,
-			y = 4853
+			y = 4853,
+			x = 5239
 		}
 	},
 	{
-		level = 10,
 		name = "Rohna Woods",
+		level = 10,
 		offset = {
 			x = 270,
 			y = 235
 		},
 		position = {
-			x = 4953,
 			z = 7,
-			y = 4880
+			y = 4880,
+			x = 4953
 		}
 	},
 	{
-		level = 45,
 		name = "Forsaken Mountains",
+		level = 45,
 		offset = {
 			x = 390,
 			y = 225
 		},
 		position = {
-			x = 5473,
 			z = 6,
-			y = 4851
+			y = 4851,
+			x = 5473
 		}
 	},
 	{
-		level = 20,
 		name = "Sajecho Island",
+		level = 20,
 		offset = {
 			x = 225,
 			y = 275
 		},
 		position = {
-			x = 4737,
 			z = 6,
-			y = 5064
+			y = 5064,
+			x = 4737
 		}
 	},
 	{
-		level = 30,
 		name = "Harbor Island",
+		level = 30,
 		offset = {
 			x = 50,
 			y = 290
 		},
 		position = {
-			x = 3962,
 			z = 4,
-			y = 5116
+			y = 5116,
+			x = 3962
 		}
 	},
 	{
-		level = 35,
 		name = "Hadarak Desert",
+		level = 35,
 		offset = {
 			x = 410,
 			y = 420
 		},
 		position = {
-			x = 5567,
 			z = 5,
-			y = 5701
+			y = 5701,
+			x = 5567
 		}
 	},
 	{
-		level = 45,
 		name = "Gilead Island",
+		level = 45,
 		offset = {
 			x = 135,
 			y = 455
 		},
 		position = {
-			x = 4356,
 			z = 7,
-			y = 5865
+			y = 5865,
+			x = 4356
 		}
 	},
 	{
-		level = 45,
 		name = "Glaceforde",
+		level = 45,
 		offset = {
 			x = 193,
 			y = 110
 		},
 		position = {
-			x = 4604,
 			z = 6,
-			y = 4381
+			y = 4381,
+			x = 4604
 		}
 	},
 	{
-		level = 30,
 		name = "Zephyr Vale",
+		level = 30,
 		offset = {
 			x = 475,
 			y = 310
 		},
 		position = {
-			x = 5845,
 			z = 6,
-			y = 5236
+			y = 5236,
+			x = 5845
 		}
 	},
 	{
-		level = 45,
 		name = "Crowhollow Bog",
+		level = 45,
 		offset = {
 			x = 440,
 			y = 250
 		},
 		position = {
-			x = 5718,
 			z = 6,
-			y = 4947
+			y = 4947,
+			x = 5718
 		}
 	},
 	{
-		level = 55,
 		name = "Fields of Despair",
+		level = 55,
 		offset = {
 			x = 495,
 			y = 158
 		},
 		position = {
-			x = 6000,
 			z = 10,
-			y = 4612
+			y = 4612,
+			x = 6000
 		}
 	},
 	{
-		level = 74,
 		name = "The Blotch",
+		level = 74,
 		offset = {
 			x = 500,
 			y = 188
 		},
 		position = {
-			x = 5998,
 			z = 7,
-			y = 4695
+			y = 4695,
+			x = 5998
 		}
 	}
 }

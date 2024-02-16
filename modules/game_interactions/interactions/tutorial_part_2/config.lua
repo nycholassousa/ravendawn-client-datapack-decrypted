@@ -309,9 +309,9 @@ tasks = {
 						}
 					},
 					tilePos = {
-						z = 7,
 						y = 4846,
-						x = 3216
+						x = 3216,
+						z = 7
 					},
 					callbackOnClose = function()
 						GameInteractions:advanceInteraction(__env, potionToActionBar, 1)
@@ -344,9 +344,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
-						bandit = true,
 						preferSide = "top",
 						text = "Press I or Left-Click to open your Inventory",
+						bandit = true,
 						keys = {
 							"I",
 							MouseLeftButton
@@ -408,9 +408,9 @@ tasks = {
 						parentWidget.preventDragItem = true
 
 						GameInteractions:displayActionBox({
-							bandit = true,
 							preferSide = "top",
 							text = "Simply right-click the potions and choose to add them to your action bar",
+							bandit = true,
 							keys = {
 								MouseRightButton
 							},
@@ -550,9 +550,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("skill_tree")
 
 					GameInteractions:displayActionBox({
-						bandit = true,
 						preferSide = "top",
 						text = "Press K or Left-Click to open your Skill Tree",
+						bandit = true,
 						keys = {
 							"K",
 							MouseLeftButton
@@ -620,8 +620,8 @@ tasks = {
 
 					if learnedSpell and nextSpell then
 						GameInteractions:displayDescriptionBox({
-							bandit = true,
 							preferSide = "right",
+							bandit = true,
 							pages = {
 								{
 									text = "The skill you already have generates aether. A source of energy that powers up other skills!",
@@ -701,9 +701,9 @@ tasks = {
 
 					if learnedSpell and nextSpell then
 						GameInteractions:displayActionBox({
-							bandit = true,
 							preferSide = "right",
 							text = "Left-click the highlighted skill to learn it",
+							bandit = true,
 							keys = {
 								MouseLeftButton
 							},
@@ -747,8 +747,8 @@ tasks = {
 				if skillTreeWindow:isVisible() then
 					GameInteractions:displayActionBox({
 						preferSide = "left",
-						bandit = true,
 						text = "Now press K to close your Skill Tree",
+						bandit = true,
 						keys = {
 							MouseLeftButton,
 							"K",
@@ -848,8 +848,8 @@ tasks = {
 
 				if target then
 					GameInteractions:displayDescriptionBox({
-						bandit = true,
 						preferSide = "top",
+						bandit = true,
 						pages = {
 							{
 								text = "I can hardly believe we're on our way to Ravendawn together!"

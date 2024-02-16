@@ -1,12 +1,12 @@
 ﻿-- chunkname: @/modules/game_rangerscompany/rangers_company.lua
 
 GameRangersCompany = {
-	rangers_window_view = "middle_panel",
+	leaderboard_page = 1,
 	cacheExpirationTime = 0,
+	rangers_window_view = "middle_panel",
 	leaderboard_total_entries = 0,
 	leaderboard_total_pages = 1,
 	leaderboard_page_size = 11,
-	leaderboard_page = 1,
 	leaderboard_pages = {}
 }
 
@@ -297,15 +297,15 @@ function GameRangersCompany:configureBountyWindow(data)
 				if data.refreshTimeleft <= 0 then
 					refresh_button:onStyleApply("PrimaryButton", {
 						["&iconAlign"] = "left",
-						["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll",
 						["&iconOffset"] = "20 0",
-						["&textMarginLeft"] = "30"
+						["&textMarginLeft"] = "30",
+						["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll"
 					})
 					refresh_button:setStyle("PrimaryButton")
 					refresh_button:setWidth(120)
 					refresh_button:setTextOffset({
-						x = 30,
-						y = 0
+						y = 0,
+						x = 30
 					})
 					refresh_button:setText("Reroll")
 					removeEvent(self.reroll_refresh_event)
@@ -328,15 +328,15 @@ function GameRangersCompany:configureBountyWindow(data)
 		else
 			refresh_button:onStyleApply("PrimaryButton", {
 				["&iconAlign"] = "left",
-				["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll",
 				["&iconOffset"] = "20 0",
-				["&textMarginLeft"] = "30"
+				["&textMarginLeft"] = "30",
+				["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll"
 			})
 			refresh_button:setStyle("PrimaryButton")
 			refresh_button:setWidth(120)
 			refresh_button:setTextOffset({
-				x = 30,
-				y = 0
+				y = 0,
+				x = 30
 			})
 			refresh_button:setText("Reroll")
 		end

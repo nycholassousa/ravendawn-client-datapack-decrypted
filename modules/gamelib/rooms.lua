@@ -12,9 +12,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38571
@@ -24,9 +24,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38685
@@ -38,9 +38,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38572
@@ -50,9 +50,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38686
@@ -64,9 +64,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38573
@@ -76,9 +76,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38687
@@ -90,9 +90,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38574
@@ -102,9 +102,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38688
@@ -116,9 +116,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38575
@@ -128,9 +128,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					38689
@@ -142,9 +142,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -154,9 +154,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -164,9 +164,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -175,9 +175,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -185,9 +185,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -195,9 +195,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -205,9 +205,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -217,9 +217,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -228,9 +228,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -240,9 +240,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -250,9 +250,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -261,9 +261,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -272,9 +272,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -282,9 +282,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -292,9 +292,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -302,9 +302,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -312,9 +312,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -322,9 +322,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -335,9 +335,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -347,9 +347,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -357,9 +357,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -368,9 +368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -378,9 +378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -389,9 +389,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -399,9 +399,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -410,9 +410,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -420,9 +420,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -430,9 +430,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -440,9 +440,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -453,9 +453,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -464,9 +464,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -476,9 +476,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -486,9 +486,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -497,9 +497,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -508,9 +508,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -518,9 +518,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -528,9 +528,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -538,9 +538,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -548,9 +548,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -558,9 +558,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -573,9 +573,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -584,9 +584,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -595,9 +595,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -605,9 +605,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -615,9 +615,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -625,9 +625,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -635,9 +635,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -645,9 +645,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305
@@ -655,9 +655,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -665,9 +665,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -676,9 +676,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34305
@@ -686,9 +686,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34305
@@ -696,9 +696,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -706,9 +706,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -717,9 +717,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -727,9 +727,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -737,9 +737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -747,9 +747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -757,9 +757,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -767,9 +767,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -777,9 +777,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34305
@@ -787,9 +787,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34305,
@@ -800,9 +800,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -811,9 +811,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305
@@ -821,9 +821,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -831,9 +831,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -841,9 +841,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -851,9 +851,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -861,9 +861,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -871,9 +871,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -882,9 +882,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -893,9 +893,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -903,9 +903,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -913,9 +913,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305
@@ -923,9 +923,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -934,9 +934,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -944,9 +944,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -954,9 +954,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34305
@@ -964,9 +964,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -974,9 +974,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -984,9 +984,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34305
@@ -994,9 +994,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -1004,9 +1004,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -1014,9 +1014,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -1027,9 +1027,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -1038,9 +1038,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -1049,9 +1049,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -1059,9 +1059,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -1069,9 +1069,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1079,9 +1079,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -1089,9 +1089,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -1099,9 +1099,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305
@@ -1109,9 +1109,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -1119,9 +1119,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -1130,9 +1130,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34305
@@ -1140,9 +1140,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34305
@@ -1150,9 +1150,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -1160,9 +1160,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -1171,9 +1171,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -1181,9 +1181,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1191,9 +1191,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -1201,9 +1201,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -1211,9 +1211,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -1221,9 +1221,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -1231,9 +1231,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34305
@@ -1241,9 +1241,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34305,
@@ -1254,9 +1254,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -1265,9 +1265,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305
@@ -1275,9 +1275,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -1285,9 +1285,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -1295,9 +1295,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1305,9 +1305,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -1315,9 +1315,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -1325,9 +1325,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -1336,9 +1336,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -1347,9 +1347,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -1357,9 +1357,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -1367,9 +1367,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305
@@ -1377,9 +1377,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -1388,9 +1388,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -1398,9 +1398,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1408,9 +1408,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34305
@@ -1418,9 +1418,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -1428,9 +1428,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -1438,9 +1438,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34305
@@ -1448,9 +1448,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -1458,9 +1458,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -1468,9 +1468,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -1483,9 +1483,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -1494,9 +1494,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -1505,9 +1505,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -1515,9 +1515,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1525,9 +1525,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -1535,9 +1535,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -1546,9 +1546,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -1556,9 +1556,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -1567,9 +1567,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -1577,9 +1577,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -1587,9 +1587,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305
@@ -1597,9 +1597,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1607,9 +1607,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -1617,9 +1617,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -1630,9 +1630,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -1641,9 +1641,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305,
@@ -1652,9 +1652,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1662,9 +1662,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -1672,9 +1672,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -1682,9 +1682,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -1693,9 +1693,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305
@@ -1703,9 +1703,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -1713,9 +1713,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -1723,9 +1723,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -1734,9 +1734,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -1744,9 +1744,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -1754,9 +1754,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -1764,9 +1764,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -1777,9 +1777,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -1788,9 +1788,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -1799,9 +1799,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -1809,9 +1809,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1819,9 +1819,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -1829,9 +1829,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -1840,9 +1840,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -1850,9 +1850,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -1861,9 +1861,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -1871,9 +1871,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -1881,9 +1881,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305
@@ -1891,9 +1891,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1901,9 +1901,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -1911,9 +1911,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -1924,9 +1924,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -1935,9 +1935,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305,
@@ -1946,9 +1946,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -1956,9 +1956,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -1966,9 +1966,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -1976,9 +1976,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -1987,9 +1987,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305
@@ -1997,9 +1997,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -2007,9 +2007,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -2017,9 +2017,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -2028,9 +2028,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -2038,9 +2038,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -2048,9 +2048,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -2058,9 +2058,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -2073,9 +2073,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -2084,9 +2084,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -2095,9 +2095,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2106,9 +2106,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -2116,9 +2116,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -2126,9 +2126,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2137,9 +2137,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -2147,9 +2147,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -2157,9 +2157,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -2167,9 +2167,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -2177,9 +2177,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -2187,9 +2187,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -2198,9 +2198,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -2209,9 +2209,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -2219,9 +2219,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -2230,9 +2230,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -2240,9 +2240,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -2250,9 +2250,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -2260,9 +2260,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34305,
@@ -2271,9 +2271,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34305
@@ -2281,9 +2281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34305
@@ -2291,9 +2291,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34305,
@@ -2305,9 +2305,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -2316,9 +2316,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2327,9 +2327,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2338,9 +2338,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -2348,9 +2348,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305
@@ -2358,9 +2358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -2368,9 +2368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -2378,9 +2378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -2388,9 +2388,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -2398,9 +2398,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -2408,9 +2408,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -2418,9 +2418,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -2429,9 +2429,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -2439,9 +2439,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -2450,9 +2450,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -2460,9 +2460,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -2470,9 +2470,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -2480,9 +2480,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -2491,9 +2491,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2502,9 +2502,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34305
@@ -2512,9 +2512,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34305
@@ -2522,9 +2522,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -2536,9 +2536,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -2547,9 +2547,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -2558,9 +2558,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2569,9 +2569,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -2579,9 +2579,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -2589,9 +2589,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2600,9 +2600,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -2610,9 +2610,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -2620,9 +2620,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -2630,9 +2630,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -2640,9 +2640,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -2650,9 +2650,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -2661,9 +2661,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -2672,9 +2672,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -2682,9 +2682,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -2693,9 +2693,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -2703,9 +2703,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -2713,9 +2713,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -2723,9 +2723,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34305,
@@ -2734,9 +2734,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34305
@@ -2744,9 +2744,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34305
@@ -2754,9 +2754,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34305,
@@ -2768,9 +2768,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -2779,9 +2779,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2790,9 +2790,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2801,9 +2801,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -2811,9 +2811,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305
@@ -2821,9 +2821,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -2831,9 +2831,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -2841,9 +2841,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -2851,9 +2851,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -2861,9 +2861,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -2871,9 +2871,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -2881,9 +2881,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -2892,9 +2892,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -2902,9 +2902,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -2913,9 +2913,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -2923,9 +2923,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -2933,9 +2933,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -2943,9 +2943,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -2954,9 +2954,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -2965,9 +2965,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34305
@@ -2975,9 +2975,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34305
@@ -2985,9 +2985,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -3001,9 +3001,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					33942,
@@ -3012,9 +3012,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -3024,9 +3024,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -3034,9 +3034,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -3046,9 +3046,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -3056,9 +3056,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -3066,9 +3066,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -3077,9 +3077,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -3087,9 +3087,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -3097,9 +3097,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -3108,9 +3108,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3119,9 +3119,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3130,9 +3130,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3143,9 +3143,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -3154,9 +3154,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -3164,9 +3164,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -3175,9 +3175,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -3185,9 +3185,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -3197,9 +3197,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -3207,9 +3207,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -3218,9 +3218,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -3228,9 +3228,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -3238,9 +3238,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3250,9 +3250,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3262,9 +3262,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -3272,9 +3272,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3285,9 +3285,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					33942,
@@ -3296,9 +3296,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -3308,9 +3308,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -3318,9 +3318,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -3330,9 +3330,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -3340,9 +3340,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -3350,9 +3350,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -3361,9 +3361,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -3371,9 +3371,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -3381,9 +3381,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -3392,9 +3392,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3403,9 +3403,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3414,9 +3414,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3427,9 +3427,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -3438,9 +3438,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -3448,9 +3448,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -3459,9 +3459,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -3469,9 +3469,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -3481,9 +3481,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -3491,9 +3491,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -3502,9 +3502,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -3512,9 +3512,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -3522,9 +3522,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3534,9 +3534,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3546,9 +3546,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -3556,9 +3556,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -3571,9 +3571,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -3582,9 +3582,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -3593,9 +3593,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -3603,9 +3603,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -3613,9 +3613,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -3623,9 +3623,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -3634,9 +3634,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -3644,9 +3644,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -3654,9 +3654,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -3665,9 +3665,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -3675,9 +3675,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -3687,9 +3687,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -3698,9 +3698,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -3708,9 +3708,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -3718,9 +3718,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -3728,9 +3728,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -3738,9 +3738,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -3749,9 +3749,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -3760,9 +3760,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -3770,9 +3770,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -3781,9 +3781,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -3791,9 +3791,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -3803,9 +3803,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -3814,9 +3814,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -3825,9 +3825,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -3835,9 +3835,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -3845,9 +3845,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -3855,9 +3855,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -3866,9 +3866,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -3876,9 +3876,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -3886,9 +3886,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -3897,9 +3897,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -3907,9 +3907,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -3919,9 +3919,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -3930,9 +3930,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -3940,9 +3940,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -3950,9 +3950,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -3960,9 +3960,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -3970,9 +3970,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -3981,9 +3981,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -3992,9 +3992,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -4002,9 +4002,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -4013,9 +4013,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -4023,9 +4023,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -4037,9 +4037,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -4048,9 +4048,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -4058,9 +4058,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -4068,9 +4068,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -4079,9 +4079,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -4089,9 +4089,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -4099,9 +4099,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -4109,9 +4109,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -4119,9 +4119,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -4129,9 +4129,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -4139,9 +4139,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300
@@ -4149,9 +4149,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -4159,9 +4159,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -4169,9 +4169,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -4180,9 +4180,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34300,
@@ -4191,9 +4191,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34300
@@ -4201,9 +4201,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34300
@@ -4211,9 +4211,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -4223,9 +4223,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -4233,9 +4233,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -4243,9 +4243,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -4253,9 +4253,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34300,
@@ -4266,9 +4266,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -4277,9 +4277,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -4288,9 +4288,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -4298,9 +4298,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -4308,9 +4308,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -4318,9 +4318,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -4328,9 +4328,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -4338,9 +4338,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -4348,9 +4348,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -4358,9 +4358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -4368,9 +4368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -4379,9 +4379,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -4390,9 +4390,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -4400,9 +4400,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -4410,9 +4410,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300
@@ -4420,9 +4420,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -4432,9 +4432,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -4442,9 +4442,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34300
@@ -4452,9 +4452,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -4462,9 +4462,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34300
@@ -4472,9 +4472,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -4482,9 +4482,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -4495,9 +4495,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -4506,9 +4506,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -4516,9 +4516,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -4526,9 +4526,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -4537,9 +4537,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -4547,9 +4547,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -4557,9 +4557,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -4567,9 +4567,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -4577,9 +4577,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -4587,9 +4587,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -4597,9 +4597,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300
@@ -4607,9 +4607,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -4617,9 +4617,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -4627,9 +4627,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -4638,9 +4638,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34300,
@@ -4649,9 +4649,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34300
@@ -4659,9 +4659,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34300
@@ -4669,9 +4669,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -4681,9 +4681,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -4691,9 +4691,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -4701,9 +4701,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -4711,9 +4711,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34300,
@@ -4724,9 +4724,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -4735,9 +4735,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -4746,9 +4746,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -4756,9 +4756,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -4766,9 +4766,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -4776,9 +4776,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -4786,9 +4786,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -4796,9 +4796,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -4806,9 +4806,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -4816,9 +4816,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -4826,9 +4826,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -4837,9 +4837,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -4848,9 +4848,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -4858,9 +4858,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -4868,9 +4868,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300
@@ -4878,9 +4878,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -4890,9 +4890,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -4900,9 +4900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34300
@@ -4910,9 +4910,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -4920,9 +4920,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34300
@@ -4930,9 +4930,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -4940,9 +4940,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -4955,9 +4955,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -4966,9 +4966,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -4977,9 +4977,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270
@@ -4987,9 +4987,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -4998,9 +4998,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -5008,9 +5008,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -5019,9 +5019,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -5030,9 +5030,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -5040,9 +5040,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -5050,9 +5050,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -5061,9 +5061,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -5071,9 +5071,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -5081,9 +5081,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -5091,9 +5091,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270,
@@ -5102,9 +5102,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -5112,9 +5112,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -5122,9 +5122,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -5132,9 +5132,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -5143,9 +5143,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -5155,9 +5155,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -5165,9 +5165,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -5175,9 +5175,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -5190,9 +5190,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -5201,9 +5201,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -5212,9 +5212,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270
@@ -5222,9 +5222,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -5233,9 +5233,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -5243,9 +5243,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -5254,9 +5254,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -5265,9 +5265,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -5275,9 +5275,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -5285,9 +5285,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -5296,9 +5296,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -5306,9 +5306,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -5316,9 +5316,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -5326,9 +5326,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270,
@@ -5337,9 +5337,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -5347,9 +5347,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -5357,9 +5357,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -5367,9 +5367,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -5378,9 +5378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -5390,9 +5390,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -5400,9 +5400,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -5410,9 +5410,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -5424,9 +5424,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					33942,
@@ -5435,9 +5435,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -5446,9 +5446,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270
@@ -5456,9 +5456,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -5467,9 +5467,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -5477,9 +5477,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -5487,9 +5487,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -5498,9 +5498,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -5508,9 +5508,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -5518,9 +5518,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -5528,9 +5528,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -5538,9 +5538,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -5548,9 +5548,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -5558,9 +5558,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -5568,9 +5568,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -5579,9 +5579,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -5590,9 +5590,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270,
@@ -5601,9 +5601,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -5612,9 +5612,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -5624,9 +5624,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -5634,9 +5634,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -5644,9 +5644,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -5660,9 +5660,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -5671,9 +5671,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -5681,9 +5681,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -5691,9 +5691,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -5703,9 +5703,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -5713,9 +5713,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -5723,9 +5723,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -5733,9 +5733,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -5743,9 +5743,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -5753,9 +5753,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -5763,9 +5763,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -5774,9 +5774,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -5785,9 +5785,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -5795,9 +5795,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -5808,9 +5808,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -5819,9 +5819,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300,
@@ -5830,9 +5830,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -5840,9 +5840,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -5850,9 +5850,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -5860,9 +5860,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -5870,9 +5870,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -5880,9 +5880,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -5891,9 +5891,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -5902,9 +5902,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -5912,9 +5912,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -5922,9 +5922,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -5934,9 +5934,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -5944,9 +5944,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -5957,9 +5957,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -5968,9 +5968,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -5978,9 +5978,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -5988,9 +5988,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -6000,9 +6000,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -6010,9 +6010,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -6020,9 +6020,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -6030,9 +6030,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -6040,9 +6040,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -6050,9 +6050,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -6060,9 +6060,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -6071,9 +6071,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -6082,9 +6082,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -6092,9 +6092,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -6105,9 +6105,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -6116,9 +6116,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300,
@@ -6127,9 +6127,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -6137,9 +6137,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -6147,9 +6147,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -6157,9 +6157,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -6167,9 +6167,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -6177,9 +6177,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -6188,9 +6188,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -6199,9 +6199,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -6209,9 +6209,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -6219,9 +6219,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -6231,9 +6231,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -6241,9 +6241,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -6256,9 +6256,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -6267,9 +6267,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6279,9 +6279,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -6290,9 +6290,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6301,9 +6301,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304,
@@ -6312,9 +6312,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304
@@ -6322,9 +6322,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -6333,9 +6333,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -6344,9 +6344,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6355,9 +6355,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6366,9 +6366,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6377,9 +6377,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6388,9 +6388,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6399,9 +6399,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6410,9 +6410,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -6421,9 +6421,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -6432,9 +6432,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -6442,9 +6442,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -6452,9 +6452,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304
@@ -6462,9 +6462,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -6472,9 +6472,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304
@@ -6482,9 +6482,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -6492,9 +6492,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -6505,9 +6505,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -6516,9 +6516,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -6527,9 +6527,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6538,9 +6538,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6549,9 +6549,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304,
@@ -6560,9 +6560,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -6572,9 +6572,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -6583,9 +6583,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6594,9 +6594,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -6604,9 +6604,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -6614,9 +6614,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6625,9 +6625,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6636,9 +6636,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6647,9 +6647,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -6657,9 +6657,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -6667,9 +6667,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -6678,9 +6678,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -6689,9 +6689,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -6699,9 +6699,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -6709,9 +6709,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -6720,9 +6720,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -6731,9 +6731,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -6741,9 +6741,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -6754,9 +6754,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -6765,9 +6765,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6777,9 +6777,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -6788,9 +6788,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6799,9 +6799,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304,
@@ -6810,9 +6810,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304
@@ -6820,9 +6820,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -6831,9 +6831,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -6842,9 +6842,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6853,9 +6853,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6864,9 +6864,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -6875,9 +6875,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6886,9 +6886,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6897,9 +6897,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -6908,9 +6908,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -6919,9 +6919,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -6930,9 +6930,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -6940,9 +6940,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -6950,9 +6950,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304
@@ -6960,9 +6960,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -6970,9 +6970,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304
@@ -6980,9 +6980,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -6990,9 +6990,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -7003,9 +7003,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -7014,9 +7014,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -7025,9 +7025,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -7036,9 +7036,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -7047,9 +7047,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304,
@@ -7058,9 +7058,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -7070,9 +7070,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -7081,9 +7081,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -7092,9 +7092,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -7102,9 +7102,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -7112,9 +7112,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -7123,9 +7123,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -7134,9 +7134,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304,
@@ -7145,9 +7145,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -7155,9 +7155,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -7165,9 +7165,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -7176,9 +7176,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -7187,9 +7187,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -7197,9 +7197,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -7207,9 +7207,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -7218,9 +7218,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -7229,9 +7229,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -7239,9 +7239,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -7254,9 +7254,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -7265,9 +7265,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -7276,9 +7276,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -7286,9 +7286,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -7296,9 +7296,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -7307,9 +7307,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -7318,9 +7318,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -7328,9 +7328,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -7338,9 +7338,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -7348,9 +7348,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -7358,9 +7358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -7368,9 +7368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -7378,9 +7378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310,
@@ -7389,9 +7389,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -7401,9 +7401,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -7412,9 +7412,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -7422,9 +7422,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -7432,9 +7432,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -7443,9 +7443,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -7454,9 +7454,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -7464,9 +7464,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -7474,9 +7474,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -7485,9 +7485,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -7495,9 +7495,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -7505,9 +7505,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -7516,9 +7516,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -7526,9 +7526,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -7536,9 +7536,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -7548,9 +7548,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -7559,9 +7559,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -7570,9 +7570,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -7580,9 +7580,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -7590,9 +7590,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -7601,9 +7601,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -7612,9 +7612,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -7622,9 +7622,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -7632,9 +7632,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -7642,9 +7642,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -7652,9 +7652,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -7662,9 +7662,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -7672,9 +7672,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310,
@@ -7683,9 +7683,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -7695,9 +7695,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -7706,9 +7706,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -7716,9 +7716,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -7726,9 +7726,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -7737,9 +7737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -7748,9 +7748,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -7758,9 +7758,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -7768,9 +7768,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -7779,9 +7779,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -7789,9 +7789,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -7799,9 +7799,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -7810,9 +7810,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -7820,9 +7820,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -7830,9 +7830,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -7844,9 +7844,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -7855,9 +7855,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34309,
@@ -7866,9 +7866,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34309
@@ -7876,9 +7876,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34309,
@@ -7888,9 +7888,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34309
@@ -7898,9 +7898,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34309
@@ -7908,9 +7908,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34309
@@ -7918,9 +7918,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34309
@@ -7928,9 +7928,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34309
@@ -7938,9 +7938,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34309
@@ -7948,9 +7948,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -7960,9 +7960,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34309,
@@ -7972,9 +7972,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -7986,9 +7986,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -7997,9 +7997,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34309
@@ -8007,9 +8007,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -8019,9 +8019,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34309
@@ -8029,9 +8029,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -8042,9 +8042,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34309
@@ -8052,9 +8052,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34309,
@@ -8064,9 +8064,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34309
@@ -8074,9 +8074,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34309
@@ -8084,9 +8084,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34309,
@@ -8096,9 +8096,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34309
@@ -8106,9 +8106,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34309
@@ -8116,9 +8116,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -8129,9 +8129,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -8140,9 +8140,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34309,
@@ -8151,9 +8151,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34309
@@ -8161,9 +8161,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34309,
@@ -8173,9 +8173,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34309
@@ -8183,9 +8183,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34309
@@ -8193,9 +8193,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34309
@@ -8203,9 +8203,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34309
@@ -8213,9 +8213,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34309
@@ -8223,9 +8223,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34309
@@ -8233,9 +8233,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -8245,9 +8245,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34309,
@@ -8257,9 +8257,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -8271,9 +8271,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -8282,9 +8282,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34309
@@ -8292,9 +8292,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -8304,9 +8304,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34309
@@ -8314,9 +8314,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -8327,9 +8327,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34309
@@ -8337,9 +8337,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34309,
@@ -8349,9 +8349,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34309
@@ -8359,9 +8359,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34309
@@ -8369,9 +8369,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34309,
@@ -8381,9 +8381,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34309
@@ -8391,9 +8391,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34309
@@ -8401,9 +8401,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -8416,9 +8416,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -8427,9 +8427,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -8438,9 +8438,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -8449,9 +8449,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -8459,9 +8459,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -8469,9 +8469,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -8480,9 +8480,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -8490,9 +8490,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -8500,9 +8500,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -8510,9 +8510,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -8520,9 +8520,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -8530,9 +8530,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -8540,9 +8540,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -8550,9 +8550,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -8560,9 +8560,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -8571,9 +8571,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -8581,9 +8581,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -8591,9 +8591,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -8602,9 +8602,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34300,
@@ -8613,9 +8613,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34300
@@ -8623,9 +8623,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34300
@@ -8633,9 +8633,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34300,
@@ -8646,9 +8646,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -8657,9 +8657,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -8668,9 +8668,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -8679,9 +8679,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -8689,9 +8689,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300
@@ -8699,9 +8699,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -8709,9 +8709,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -8719,9 +8719,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -8729,9 +8729,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -8739,9 +8739,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -8749,9 +8749,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -8759,9 +8759,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -8769,9 +8769,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -8779,9 +8779,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -8790,9 +8790,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -8801,9 +8801,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -8811,9 +8811,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -8821,9 +8821,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -8832,9 +8832,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -8843,9 +8843,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34300
@@ -8853,9 +8853,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34300
@@ -8863,9 +8863,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -8876,9 +8876,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -8887,9 +8887,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -8898,9 +8898,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -8909,9 +8909,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -8919,9 +8919,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -8929,9 +8929,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -8940,9 +8940,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -8950,9 +8950,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -8960,9 +8960,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -8970,9 +8970,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -8980,9 +8980,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -8990,9 +8990,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9000,9 +9000,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -9010,9 +9010,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9020,9 +9020,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9031,9 +9031,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -9041,9 +9041,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -9051,9 +9051,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9062,9 +9062,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34300,
@@ -9073,9 +9073,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34300
@@ -9083,9 +9083,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34300
@@ -9093,9 +9093,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34300,
@@ -9106,9 +9106,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -9117,9 +9117,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -9128,9 +9128,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -9139,9 +9139,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -9149,9 +9149,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300
@@ -9159,9 +9159,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -9169,9 +9169,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -9179,9 +9179,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -9189,9 +9189,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -9199,9 +9199,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -9209,9 +9209,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9219,9 +9219,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -9229,9 +9229,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9239,9 +9239,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9250,9 +9250,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9261,9 +9261,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -9271,9 +9271,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -9281,9 +9281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -9292,9 +9292,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -9303,9 +9303,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34300
@@ -9313,9 +9313,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34300
@@ -9323,9 +9323,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9338,9 +9338,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -9349,9 +9349,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -9359,9 +9359,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -9369,9 +9369,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -9381,9 +9381,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9391,9 +9391,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -9401,9 +9401,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9411,9 +9411,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -9422,9 +9422,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9433,9 +9433,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -9443,9 +9443,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9456,9 +9456,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -9467,9 +9467,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -9477,9 +9477,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -9487,9 +9487,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -9499,9 +9499,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9509,9 +9509,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -9519,9 +9519,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9529,9 +9529,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -9540,9 +9540,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9551,9 +9551,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -9561,9 +9561,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9574,9 +9574,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -9585,9 +9585,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -9595,9 +9595,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -9605,9 +9605,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -9617,9 +9617,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9627,9 +9627,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -9637,9 +9637,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9647,9 +9647,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -9658,9 +9658,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9669,9 +9669,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -9679,9 +9679,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9692,9 +9692,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -9703,9 +9703,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -9713,9 +9713,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -9723,9 +9723,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -9735,9 +9735,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9745,9 +9745,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -9755,9 +9755,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -9765,9 +9765,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -9776,9 +9776,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9787,9 +9787,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -9797,9 +9797,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -9812,9 +9812,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -9823,9 +9823,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -9834,9 +9834,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -9845,9 +9845,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -9855,9 +9855,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -9867,9 +9867,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -9877,9 +9877,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -9887,9 +9887,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -9897,9 +9897,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -9908,9 +9908,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -9919,9 +9919,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -9930,9 +9930,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -9941,9 +9941,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -9951,9 +9951,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -9963,9 +9963,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -9974,9 +9974,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -9985,9 +9985,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305,
@@ -9996,9 +9996,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -10007,9 +10007,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -10017,9 +10017,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -10028,9 +10028,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -10038,9 +10038,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -10049,9 +10049,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -10060,9 +10060,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -10070,9 +10070,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -10081,9 +10081,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -10091,9 +10091,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -10101,9 +10101,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -10115,9 +10115,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -10126,9 +10126,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -10137,9 +10137,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -10148,9 +10148,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -10158,9 +10158,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -10170,9 +10170,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -10180,9 +10180,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -10190,9 +10190,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -10200,9 +10200,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -10211,9 +10211,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -10222,9 +10222,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -10233,9 +10233,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -10244,9 +10244,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -10254,9 +10254,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -10266,9 +10266,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -10277,9 +10277,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -10288,9 +10288,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305,
@@ -10299,9 +10299,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -10310,9 +10310,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -10320,9 +10320,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -10331,9 +10331,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -10341,9 +10341,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -10352,9 +10352,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -10363,9 +10363,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -10373,9 +10373,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -10384,9 +10384,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -10394,9 +10394,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -10404,9 +10404,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -10420,9 +10420,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -10431,9 +10431,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -10441,9 +10441,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -10451,9 +10451,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -10461,9 +10461,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -10471,9 +10471,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -10482,9 +10482,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -10494,9 +10494,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -10504,9 +10504,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -10515,9 +10515,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -10525,9 +10525,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -10538,9 +10538,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -10549,9 +10549,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -10561,9 +10561,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -10571,9 +10571,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -10581,9 +10581,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -10591,9 +10591,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -10602,9 +10602,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -10612,9 +10612,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -10623,9 +10623,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -10633,9 +10633,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -10643,9 +10643,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -10656,9 +10656,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -10667,9 +10667,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -10677,9 +10677,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -10687,9 +10687,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -10697,9 +10697,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -10707,9 +10707,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -10718,9 +10718,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -10730,9 +10730,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -10740,9 +10740,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -10751,9 +10751,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -10761,9 +10761,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -10774,9 +10774,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -10785,9 +10785,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -10797,9 +10797,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -10807,9 +10807,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -10817,9 +10817,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -10827,9 +10827,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -10838,9 +10838,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -10848,9 +10848,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -10859,9 +10859,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -10869,9 +10869,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -10879,9 +10879,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -10894,9 +10894,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34270
@@ -10904,9 +10904,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -10915,9 +10915,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -10925,9 +10925,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34270,
@@ -10936,9 +10936,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -10946,9 +10946,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -10956,9 +10956,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34270
@@ -10966,9 +10966,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -10976,9 +10976,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -10986,9 +10986,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34270
@@ -10996,9 +10996,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -11006,9 +11006,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -11016,9 +11016,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -11026,9 +11026,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -11038,9 +11038,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -11050,9 +11050,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -11060,9 +11060,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -11070,9 +11070,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -11080,9 +11080,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270,
@@ -11091,9 +11091,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -11101,9 +11101,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -11111,9 +11111,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -11121,9 +11121,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -11131,9 +11131,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270
@@ -11141,9 +11141,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -11152,9 +11152,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34270,
@@ -11163,9 +11163,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -11174,9 +11174,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -11184,9 +11184,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -11194,9 +11194,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270
@@ -11204,9 +11204,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -11217,9 +11217,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34270,
@@ -11229,9 +11229,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34270,
@@ -11240,9 +11240,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -11252,9 +11252,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -11262,9 +11262,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -11272,9 +11272,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -11282,9 +11282,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -11292,9 +11292,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -11302,9 +11302,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -11312,9 +11312,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -11322,9 +11322,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -11333,9 +11333,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -11343,9 +11343,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -11354,9 +11354,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34270
@@ -11364,9 +11364,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34270
@@ -11374,9 +11374,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34270,
@@ -11385,9 +11385,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -11395,9 +11395,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -11405,9 +11405,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -11416,9 +11416,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -11426,9 +11426,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -11436,9 +11436,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -11446,9 +11446,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270,
@@ -11457,9 +11457,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -11467,9 +11467,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -11477,9 +11477,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -11487,9 +11487,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -11497,9 +11497,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270
@@ -11507,9 +11507,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -11517,9 +11517,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270
@@ -11527,9 +11527,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -11540,9 +11540,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34270
@@ -11550,9 +11550,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -11561,9 +11561,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -11571,9 +11571,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34270,
@@ -11582,9 +11582,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -11592,9 +11592,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -11602,9 +11602,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34270
@@ -11612,9 +11612,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -11622,9 +11622,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -11632,9 +11632,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34270
@@ -11642,9 +11642,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -11652,9 +11652,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -11662,9 +11662,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -11672,9 +11672,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -11684,9 +11684,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -11696,9 +11696,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -11706,9 +11706,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -11716,9 +11716,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -11726,9 +11726,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270,
@@ -11737,9 +11737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -11747,9 +11747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -11757,9 +11757,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -11767,9 +11767,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -11777,9 +11777,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270
@@ -11787,9 +11787,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -11798,9 +11798,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34270,
@@ -11809,9 +11809,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -11820,9 +11820,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -11830,9 +11830,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -11840,9 +11840,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270
@@ -11850,9 +11850,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -11863,9 +11863,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34270,
@@ -11875,9 +11875,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34270,
@@ -11886,9 +11886,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -11898,9 +11898,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -11908,9 +11908,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -11918,9 +11918,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -11928,9 +11928,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -11938,9 +11938,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -11948,9 +11948,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -11958,9 +11958,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -11968,9 +11968,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -11979,9 +11979,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -11989,9 +11989,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -12000,9 +12000,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34270
@@ -12010,9 +12010,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34270
@@ -12020,9 +12020,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34270,
@@ -12031,9 +12031,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -12041,9 +12041,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -12051,9 +12051,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -12062,9 +12062,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -12072,9 +12072,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -12082,9 +12082,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -12092,9 +12092,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270,
@@ -12103,9 +12103,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -12113,9 +12113,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -12123,9 +12123,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -12133,9 +12133,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -12143,9 +12143,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270
@@ -12153,9 +12153,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -12163,9 +12163,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270
@@ -12173,9 +12173,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -12188,9 +12188,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -12199,9 +12199,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -12209,9 +12209,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -12219,9 +12219,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -12229,9 +12229,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -12240,9 +12240,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -12251,9 +12251,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -12261,9 +12261,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -12272,9 +12272,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -12282,9 +12282,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -12294,9 +12294,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -12305,9 +12305,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -12316,9 +12316,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -12326,9 +12326,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -12336,9 +12336,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -12346,9 +12346,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -12357,9 +12357,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -12367,9 +12367,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -12378,9 +12378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -12388,9 +12388,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -12400,9 +12400,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -12411,9 +12411,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -12421,9 +12421,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -12431,9 +12431,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -12441,9 +12441,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -12452,9 +12452,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -12463,9 +12463,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -12473,9 +12473,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -12484,9 +12484,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -12494,9 +12494,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -12506,9 +12506,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -12517,9 +12517,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -12528,9 +12528,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -12538,9 +12538,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -12548,9 +12548,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -12558,9 +12558,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -12569,9 +12569,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -12579,9 +12579,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -12590,9 +12590,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -12600,9 +12600,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -12614,9 +12614,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34299
@@ -12624,9 +12624,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -12635,9 +12635,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -12646,9 +12646,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34299,
@@ -12657,9 +12657,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -12667,9 +12667,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -12677,9 +12677,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34299
@@ -12687,9 +12687,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -12697,9 +12697,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -12707,9 +12707,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34299
@@ -12717,9 +12717,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -12727,9 +12727,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -12737,9 +12737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -12748,9 +12748,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -12758,9 +12758,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -12768,9 +12768,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -12780,9 +12780,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -12790,9 +12790,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -12800,9 +12800,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -12811,9 +12811,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -12822,9 +12822,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -12832,9 +12832,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -12842,9 +12842,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299,
@@ -12853,9 +12853,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -12863,9 +12863,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299
@@ -12873,9 +12873,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -12884,9 +12884,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34299,
@@ -12897,9 +12897,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -12908,9 +12908,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -12918,9 +12918,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -12928,9 +12928,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -12940,9 +12940,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -12953,9 +12953,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34299
@@ -12963,9 +12963,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34299,
@@ -12974,9 +12974,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -12985,9 +12985,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -12997,9 +12997,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -13008,9 +13008,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -13019,9 +13019,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -13029,9 +13029,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -13039,9 +13039,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -13049,9 +13049,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -13059,9 +13059,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -13069,9 +13069,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -13080,9 +13080,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -13090,9 +13090,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -13101,9 +13101,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34299
@@ -13111,9 +13111,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34299
@@ -13121,9 +13121,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34299,
@@ -13134,9 +13134,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -13144,9 +13144,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -13154,9 +13154,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -13165,9 +13165,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -13175,9 +13175,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -13185,9 +13185,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -13195,9 +13195,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -13206,9 +13206,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -13217,9 +13217,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -13227,9 +13227,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -13237,9 +13237,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -13247,9 +13247,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -13259,9 +13259,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -13269,9 +13269,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299
@@ -13279,9 +13279,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -13292,9 +13292,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34299
@@ -13302,9 +13302,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -13313,9 +13313,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -13324,9 +13324,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34299,
@@ -13335,9 +13335,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -13345,9 +13345,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -13355,9 +13355,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34299
@@ -13365,9 +13365,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -13375,9 +13375,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -13385,9 +13385,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34299
@@ -13395,9 +13395,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -13405,9 +13405,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -13415,9 +13415,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -13426,9 +13426,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -13436,9 +13436,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -13446,9 +13446,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -13458,9 +13458,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -13468,9 +13468,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -13478,9 +13478,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -13489,9 +13489,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -13500,9 +13500,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -13510,9 +13510,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -13520,9 +13520,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299,
@@ -13531,9 +13531,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -13541,9 +13541,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299
@@ -13551,9 +13551,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -13562,9 +13562,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34299,
@@ -13575,9 +13575,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -13586,9 +13586,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -13596,9 +13596,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -13606,9 +13606,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -13618,9 +13618,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -13631,9 +13631,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34299
@@ -13641,9 +13641,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34299,
@@ -13652,9 +13652,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -13663,9 +13663,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -13675,9 +13675,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -13686,9 +13686,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -13697,9 +13697,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -13707,9 +13707,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -13717,9 +13717,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -13727,9 +13727,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -13737,9 +13737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -13747,9 +13747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -13758,9 +13758,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -13768,9 +13768,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -13779,9 +13779,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34299
@@ -13789,9 +13789,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34299
@@ -13799,9 +13799,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34299,
@@ -13812,9 +13812,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -13822,9 +13822,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -13832,9 +13832,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -13843,9 +13843,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -13853,9 +13853,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -13863,9 +13863,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -13873,9 +13873,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -13884,9 +13884,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -13895,9 +13895,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -13905,9 +13905,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -13915,9 +13915,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -13925,9 +13925,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -13937,9 +13937,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -13947,9 +13947,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299
@@ -13957,9 +13957,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -13972,9 +13972,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -13983,9 +13983,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -13994,9 +13994,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					33942,
@@ -14005,9 +14005,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14017,9 +14017,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -14028,9 +14028,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14039,9 +14039,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -14049,9 +14049,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -14060,9 +14060,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14071,9 +14071,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -14081,9 +14081,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14092,9 +14092,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14103,9 +14103,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14114,9 +14114,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14127,9 +14127,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14139,9 +14139,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14150,9 +14150,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -14161,9 +14161,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14173,9 +14173,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -14184,9 +14184,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14196,9 +14196,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14207,9 +14207,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14218,9 +14218,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14229,9 +14229,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14240,9 +14240,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -14250,9 +14250,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14261,9 +14261,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14272,9 +14272,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14285,9 +14285,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -14296,9 +14296,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14307,9 +14307,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					33942,
@@ -14318,9 +14318,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14330,9 +14330,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -14341,9 +14341,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14352,9 +14352,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -14362,9 +14362,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -14373,9 +14373,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14384,9 +14384,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -14394,9 +14394,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14405,9 +14405,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14416,9 +14416,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14427,9 +14427,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14440,9 +14440,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14452,9 +14452,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14463,9 +14463,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -14474,9 +14474,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14486,9 +14486,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -14497,9 +14497,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14509,9 +14509,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14520,9 +14520,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304,
@@ -14531,9 +14531,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14542,9 +14542,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -14553,9 +14553,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -14563,9 +14563,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14574,9 +14574,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14585,9 +14585,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304,
@@ -14600,9 +14600,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34299,
@@ -14611,9 +14611,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -14622,9 +14622,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -14632,9 +14632,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = -1
 				},
 				items = {
 					33942,
@@ -14643,9 +14643,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34299,
@@ -14654,9 +14654,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -14664,9 +14664,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -14674,9 +14674,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34299
@@ -14684,9 +14684,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -14694,9 +14694,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -14704,9 +14704,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34299
@@ -14714,9 +14714,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -14724,9 +14724,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -14734,9 +14734,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299,
@@ -14745,9 +14745,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -14755,9 +14755,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -14766,9 +14766,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -14776,9 +14776,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -14786,9 +14786,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -14796,9 +14796,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -14806,9 +14806,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -14816,9 +14816,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -14826,9 +14826,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -14836,9 +14836,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -14846,9 +14846,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299
@@ -14856,9 +14856,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -14867,9 +14867,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34299,
@@ -14878,9 +14878,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299
@@ -14888,9 +14888,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -14898,9 +14898,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -14908,9 +14908,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -14919,9 +14919,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -14932,9 +14932,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34299
@@ -14942,9 +14942,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34299,
@@ -14953,9 +14953,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -14964,9 +14964,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -14975,9 +14975,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -14985,9 +14985,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -14995,9 +14995,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -15005,9 +15005,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -15015,9 +15015,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -15025,9 +15025,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -15036,9 +15036,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -15046,9 +15046,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -15057,9 +15057,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -15067,9 +15067,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -15078,9 +15078,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34299
@@ -15088,9 +15088,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34299
@@ -15098,9 +15098,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34299,
@@ -15109,9 +15109,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -15119,9 +15119,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -15129,9 +15129,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -15140,9 +15140,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -15150,9 +15150,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -15160,9 +15160,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -15170,9 +15170,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -15180,9 +15180,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -15190,9 +15190,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -15200,9 +15200,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -15210,9 +15210,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -15220,9 +15220,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -15231,9 +15231,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -15241,9 +15241,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299
@@ -15251,9 +15251,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -15264,9 +15264,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34299,
@@ -15275,9 +15275,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -15286,9 +15286,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -15296,9 +15296,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = -1
 				},
 				items = {
 					33942,
@@ -15307,9 +15307,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34299,
@@ -15318,9 +15318,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -15328,9 +15328,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -15338,9 +15338,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34299
@@ -15348,9 +15348,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -15358,9 +15358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -15368,9 +15368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34299
@@ -15378,9 +15378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -15388,9 +15388,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -15398,9 +15398,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299,
@@ -15409,9 +15409,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -15419,9 +15419,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -15430,9 +15430,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -15440,9 +15440,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -15450,9 +15450,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -15460,9 +15460,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -15470,9 +15470,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -15480,9 +15480,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -15490,9 +15490,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -15500,9 +15500,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -15510,9 +15510,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299
@@ -15520,9 +15520,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -15531,9 +15531,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34299,
@@ -15542,9 +15542,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299
@@ -15552,9 +15552,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -15562,9 +15562,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -15572,9 +15572,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -15583,9 +15583,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -15596,9 +15596,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34299
@@ -15606,9 +15606,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34299,
@@ -15617,9 +15617,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -15628,9 +15628,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -15639,9 +15639,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -15649,9 +15649,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -15659,9 +15659,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -15669,9 +15669,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -15679,9 +15679,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -15689,9 +15689,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -15700,9 +15700,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -15710,9 +15710,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -15721,9 +15721,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -15731,9 +15731,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -15742,9 +15742,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34299
@@ -15752,9 +15752,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34299
@@ -15762,9 +15762,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34299,
@@ -15773,9 +15773,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -15783,9 +15783,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -15793,9 +15793,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -15804,9 +15804,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -15814,9 +15814,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -15824,9 +15824,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -15834,9 +15834,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -15844,9 +15844,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -15854,9 +15854,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -15864,9 +15864,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -15874,9 +15874,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -15884,9 +15884,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -15895,9 +15895,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -15905,9 +15905,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299
@@ -15915,9 +15915,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -15930,9 +15930,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -15940,9 +15940,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -15951,9 +15951,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -15961,9 +15961,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -15971,9 +15971,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -15982,9 +15982,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -15994,9 +15994,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -16004,9 +16004,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -16014,9 +16014,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -16025,9 +16025,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -16035,9 +16035,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -16045,9 +16045,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -16056,9 +16056,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -16066,9 +16066,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -16076,9 +16076,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -16086,9 +16086,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -16096,9 +16096,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -16106,9 +16106,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -16116,9 +16116,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -16126,9 +16126,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -16136,9 +16136,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -16149,9 +16149,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -16160,9 +16160,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -16170,9 +16170,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -16180,9 +16180,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -16190,9 +16190,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -16201,9 +16201,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -16212,9 +16212,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -16222,9 +16222,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -16232,9 +16232,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -16243,9 +16243,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -16253,9 +16253,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -16263,9 +16263,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -16273,9 +16273,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -16283,9 +16283,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -16293,9 +16293,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -16303,9 +16303,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -16313,9 +16313,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -16323,9 +16323,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -16334,9 +16334,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -16344,9 +16344,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -16354,9 +16354,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -16367,9 +16367,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -16377,9 +16377,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -16388,9 +16388,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -16398,9 +16398,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -16408,9 +16408,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -16419,9 +16419,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -16431,9 +16431,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -16441,9 +16441,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -16451,9 +16451,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -16462,9 +16462,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -16472,9 +16472,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -16482,9 +16482,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -16493,9 +16493,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -16503,9 +16503,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -16513,9 +16513,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -16523,9 +16523,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -16533,9 +16533,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -16543,9 +16543,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -16553,9 +16553,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -16563,9 +16563,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -16573,9 +16573,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -16586,9 +16586,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -16597,9 +16597,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -16607,9 +16607,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -16617,9 +16617,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -16627,9 +16627,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -16638,9 +16638,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -16649,9 +16649,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -16659,9 +16659,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -16669,9 +16669,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -16680,9 +16680,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -16690,9 +16690,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -16700,9 +16700,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -16710,9 +16710,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -16720,9 +16720,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -16730,9 +16730,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -16740,9 +16740,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -16750,9 +16750,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -16760,9 +16760,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -16771,9 +16771,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -16781,9 +16781,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -16791,9 +16791,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -16806,9 +16806,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -16817,9 +16817,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -16827,9 +16827,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -16837,9 +16837,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -16849,9 +16849,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -16859,9 +16859,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -16869,9 +16869,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -16879,9 +16879,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -16889,9 +16889,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -16899,9 +16899,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -16909,9 +16909,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -16923,9 +16923,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -16933,9 +16933,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -16946,9 +16946,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331,
@@ -16959,9 +16959,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -16969,9 +16969,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -16979,9 +16979,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -16989,9 +16989,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -16999,9 +16999,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -17009,9 +17009,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -17020,9 +17020,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -17030,9 +17030,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -17040,9 +17040,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -17050,9 +17050,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -17062,9 +17062,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -17072,9 +17072,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -17085,9 +17085,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -17096,9 +17096,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -17106,9 +17106,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -17116,9 +17116,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -17128,9 +17128,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -17138,9 +17138,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -17148,9 +17148,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -17158,9 +17158,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -17168,9 +17168,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -17178,9 +17178,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -17188,9 +17188,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -17202,9 +17202,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -17212,9 +17212,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -17225,9 +17225,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331,
@@ -17238,9 +17238,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -17248,9 +17248,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -17258,9 +17258,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -17268,9 +17268,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -17278,9 +17278,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -17288,9 +17288,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -17299,9 +17299,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -17309,9 +17309,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -17319,9 +17319,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -17329,9 +17329,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -17341,9 +17341,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -17351,9 +17351,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -17366,9 +17366,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34270
@@ -17376,9 +17376,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -17387,9 +17387,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -17397,9 +17397,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34270,
@@ -17408,9 +17408,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -17418,9 +17418,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -17428,9 +17428,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34270
@@ -17438,9 +17438,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -17448,9 +17448,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -17458,9 +17458,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34270
@@ -17468,9 +17468,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -17478,9 +17478,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -17488,9 +17488,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -17498,9 +17498,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -17510,9 +17510,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -17522,9 +17522,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -17532,9 +17532,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -17542,9 +17542,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -17552,9 +17552,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270,
@@ -17563,9 +17563,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -17573,9 +17573,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -17583,9 +17583,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -17593,9 +17593,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -17603,9 +17603,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270
@@ -17613,9 +17613,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -17624,9 +17624,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34270,
@@ -17635,9 +17635,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -17646,9 +17646,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -17656,9 +17656,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -17666,9 +17666,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270
@@ -17676,9 +17676,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -17689,9 +17689,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34270,
@@ -17701,9 +17701,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34270,
@@ -17712,9 +17712,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -17724,9 +17724,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -17734,9 +17734,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -17744,9 +17744,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -17754,9 +17754,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -17764,9 +17764,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -17774,9 +17774,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -17784,9 +17784,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -17794,9 +17794,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -17805,9 +17805,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -17815,9 +17815,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -17826,9 +17826,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34270
@@ -17836,9 +17836,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34270
@@ -17846,9 +17846,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34270,
@@ -17857,9 +17857,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -17867,9 +17867,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -17877,9 +17877,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -17888,9 +17888,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -17898,9 +17898,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -17908,9 +17908,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -17918,9 +17918,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270,
@@ -17929,9 +17929,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -17939,9 +17939,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -17949,9 +17949,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -17959,9 +17959,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -17969,9 +17969,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270
@@ -17979,9 +17979,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -17989,9 +17989,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270
@@ -17999,9 +17999,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -18012,9 +18012,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34270
@@ -18022,9 +18022,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -18033,9 +18033,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -18043,9 +18043,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34270,
@@ -18054,9 +18054,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -18064,9 +18064,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -18074,9 +18074,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34270
@@ -18084,9 +18084,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -18094,9 +18094,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -18104,9 +18104,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34270
@@ -18114,9 +18114,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -18124,9 +18124,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -18134,9 +18134,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -18144,9 +18144,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -18156,9 +18156,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -18168,9 +18168,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -18178,9 +18178,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -18188,9 +18188,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -18198,9 +18198,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270,
@@ -18209,9 +18209,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -18219,9 +18219,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -18229,9 +18229,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -18239,9 +18239,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -18249,9 +18249,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270
@@ -18259,9 +18259,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -18270,9 +18270,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34270,
@@ -18281,9 +18281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -18292,9 +18292,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -18302,9 +18302,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -18312,9 +18312,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270
@@ -18322,9 +18322,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -18335,9 +18335,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34270,
@@ -18347,9 +18347,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34270,
@@ -18358,9 +18358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -18370,9 +18370,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -18380,9 +18380,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -18390,9 +18390,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -18400,9 +18400,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -18410,9 +18410,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -18420,9 +18420,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -18430,9 +18430,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -18440,9 +18440,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -18451,9 +18451,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -18461,9 +18461,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -18472,9 +18472,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34270
@@ -18482,9 +18482,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34270
@@ -18492,9 +18492,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34270,
@@ -18503,9 +18503,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -18513,9 +18513,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -18523,9 +18523,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -18534,9 +18534,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -18544,9 +18544,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -18554,9 +18554,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -18564,9 +18564,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270,
@@ -18575,9 +18575,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -18585,9 +18585,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -18595,9 +18595,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -18605,9 +18605,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -18615,9 +18615,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270
@@ -18625,9 +18625,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -18635,9 +18635,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270
@@ -18645,9 +18645,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -18660,9 +18660,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331
@@ -18670,9 +18670,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -18681,9 +18681,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -18691,9 +18691,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -18702,9 +18702,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -18712,9 +18712,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -18723,9 +18723,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -18733,9 +18733,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -18743,9 +18743,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -18753,9 +18753,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -18763,9 +18763,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -18773,9 +18773,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -18783,9 +18783,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -18793,9 +18793,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -3
 				},
 				items = {
 					33942,
@@ -18804,9 +18804,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -18815,9 +18815,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -18826,9 +18826,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 3
+					y = 3,
+					x = -2
 				},
 				items = {
 					32331,
@@ -18837,9 +18837,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -18847,9 +18847,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -18857,9 +18857,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -1
 				},
 				items = {
 					32331,
@@ -18868,9 +18868,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -18879,9 +18879,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331,
@@ -18890,9 +18890,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 0
 				},
 				items = {
 					32331
@@ -18900,9 +18900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -18910,9 +18910,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331
@@ -18920,9 +18920,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 1
 				},
 				items = {
 					32331
@@ -18930,9 +18930,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -18941,9 +18941,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331
@@ -18951,9 +18951,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -18961,9 +18961,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331
@@ -18971,9 +18971,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -18982,9 +18982,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 2
 				},
 				items = {
 					32331,
@@ -18995,9 +18995,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					32331,
@@ -19006,9 +19006,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					32331
@@ -19016,9 +19016,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -19027,9 +19027,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -19037,9 +19037,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -19048,9 +19048,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -19058,9 +19058,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -19068,9 +19068,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -19078,9 +19078,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -19088,9 +19088,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -19098,9 +19098,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -19108,9 +19108,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19119,9 +19119,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19130,9 +19130,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -4
 				},
 				items = {
 					33942,
@@ -19141,9 +19141,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					32331
@@ -19151,9 +19151,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					32331,
@@ -19162,9 +19162,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					32331,
@@ -19173,9 +19173,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -19183,9 +19183,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -19193,9 +19193,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -19204,9 +19204,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331,
@@ -19215,9 +19215,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -19226,9 +19226,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -19236,9 +19236,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -19246,9 +19246,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -19256,9 +19256,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -19266,9 +19266,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -19276,9 +19276,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -19286,9 +19286,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331
@@ -19296,9 +19296,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -19306,9 +19306,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19317,9 +19317,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19330,9 +19330,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331
@@ -19340,9 +19340,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -19351,9 +19351,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -19361,9 +19361,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -19372,9 +19372,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -19382,9 +19382,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -19393,9 +19393,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -19403,9 +19403,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -19413,9 +19413,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -19423,9 +19423,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -19433,9 +19433,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -19443,9 +19443,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -19453,9 +19453,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -19463,9 +19463,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -3
 				},
 				items = {
 					33942,
@@ -19474,9 +19474,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -19485,9 +19485,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -19496,9 +19496,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 3
+					y = 3,
+					x = -2
 				},
 				items = {
 					32331,
@@ -19507,9 +19507,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -19517,9 +19517,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -19527,9 +19527,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -1
 				},
 				items = {
 					32331,
@@ -19538,9 +19538,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -19549,9 +19549,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331,
@@ -19560,9 +19560,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 0
 				},
 				items = {
 					32331
@@ -19570,9 +19570,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -19580,9 +19580,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331
@@ -19590,9 +19590,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 1
 				},
 				items = {
 					32331
@@ -19600,9 +19600,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19611,9 +19611,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331
@@ -19621,9 +19621,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -19631,9 +19631,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331
@@ -19641,9 +19641,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19652,9 +19652,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19665,9 +19665,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					32331,
@@ -19676,9 +19676,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					32331
@@ -19686,9 +19686,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -19697,9 +19697,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -19707,9 +19707,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -19718,9 +19718,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -19728,9 +19728,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -19738,9 +19738,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -19748,9 +19748,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -19758,9 +19758,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -19768,9 +19768,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -19778,9 +19778,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19789,9 +19789,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19800,9 +19800,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -4
 				},
 				items = {
 					33942,
@@ -19811,9 +19811,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					32331
@@ -19821,9 +19821,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					32331,
@@ -19832,9 +19832,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					32331,
@@ -19843,9 +19843,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -19853,9 +19853,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -19863,9 +19863,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -19874,9 +19874,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331,
@@ -19885,9 +19885,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -19896,9 +19896,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -19906,9 +19906,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -19916,9 +19916,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -19926,9 +19926,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -19936,9 +19936,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -19946,9 +19946,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -19956,9 +19956,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331
@@ -19966,9 +19966,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -19976,9 +19976,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -19987,9 +19987,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -20002,9 +20002,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -20013,9 +20013,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -20024,9 +20024,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -20034,9 +20034,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -20044,9 +20044,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -20054,9 +20054,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -20065,9 +20065,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -20075,9 +20075,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -20087,9 +20087,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -20097,9 +20097,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -20107,9 +20107,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -20117,9 +20117,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -20127,9 +20127,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -20140,9 +20140,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331,
@@ -20152,9 +20152,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -20163,9 +20163,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -20173,9 +20173,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -20183,9 +20183,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -20194,9 +20194,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -20205,9 +20205,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -20215,9 +20215,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -20225,9 +20225,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -20236,9 +20236,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -20246,9 +20246,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -20256,9 +20256,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -20266,9 +20266,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -20278,9 +20278,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -20289,9 +20289,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -20300,9 +20300,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -20310,9 +20310,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -20320,9 +20320,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -20330,9 +20330,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -20341,9 +20341,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -20351,9 +20351,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -20363,9 +20363,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -20373,9 +20373,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -20383,9 +20383,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -20393,9 +20393,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -20403,9 +20403,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -20416,9 +20416,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331,
@@ -20428,9 +20428,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -20439,9 +20439,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -20449,9 +20449,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -20459,9 +20459,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -20470,9 +20470,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -20481,9 +20481,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -20491,9 +20491,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -20501,9 +20501,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -20512,9 +20512,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -20522,9 +20522,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -20532,9 +20532,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -20542,9 +20542,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -20556,9 +20556,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -20567,9 +20567,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34309
@@ -20577,9 +20577,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34309
@@ -20587,9 +20587,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34309
@@ -20597,9 +20597,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34309,
@@ -20610,9 +20610,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34309,
@@ -20621,9 +20621,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -20632,9 +20632,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34309
@@ -20642,9 +20642,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -20653,9 +20653,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34309,
@@ -20665,9 +20665,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34309
@@ -20675,9 +20675,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34309
@@ -20685,9 +20685,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34309
@@ -20695,9 +20695,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34309
@@ -20705,9 +20705,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34309
@@ -20715,9 +20715,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34309
@@ -20725,9 +20725,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -20737,9 +20737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34309,
@@ -20749,9 +20749,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34309,
@@ -20761,9 +20761,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34309
@@ -20771,9 +20771,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34309,
@@ -20784,9 +20784,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -20795,9 +20795,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34309
@@ -20805,9 +20805,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34309,
@@ -20816,9 +20816,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34309,
@@ -20828,9 +20828,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34309
@@ -20838,9 +20838,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34309
@@ -20848,9 +20848,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -20859,9 +20859,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34309
@@ -20869,9 +20869,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34309
@@ -20879,9 +20879,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34309
@@ -20889,9 +20889,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34309
@@ -20899,9 +20899,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34309
@@ -20909,9 +20909,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34309
@@ -20919,9 +20919,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34309,
@@ -20932,9 +20932,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -20943,9 +20943,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34309
@@ -20953,9 +20953,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -20965,9 +20965,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34309,
@@ -20977,9 +20977,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34309,
@@ -20989,9 +20989,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34309
@@ -20999,9 +20999,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34309,
@@ -21012,9 +21012,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -21023,9 +21023,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34309
@@ -21033,9 +21033,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34309
@@ -21043,9 +21043,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34309
@@ -21053,9 +21053,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34309,
@@ -21066,9 +21066,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34309,
@@ -21077,9 +21077,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -21088,9 +21088,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34309
@@ -21098,9 +21098,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -21109,9 +21109,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34309,
@@ -21121,9 +21121,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34309
@@ -21131,9 +21131,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34309
@@ -21141,9 +21141,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34309
@@ -21151,9 +21151,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34309
@@ -21161,9 +21161,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34309
@@ -21171,9 +21171,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34309
@@ -21181,9 +21181,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -21193,9 +21193,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34309,
@@ -21205,9 +21205,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34309,
@@ -21217,9 +21217,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34309
@@ -21227,9 +21227,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34309,
@@ -21240,9 +21240,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -21251,9 +21251,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34309
@@ -21261,9 +21261,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34309,
@@ -21272,9 +21272,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34309,
@@ -21284,9 +21284,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34309
@@ -21294,9 +21294,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34309
@@ -21304,9 +21304,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34309,
@@ -21315,9 +21315,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34309
@@ -21325,9 +21325,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34309
@@ -21335,9 +21335,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34309
@@ -21345,9 +21345,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34309
@@ -21355,9 +21355,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34309
@@ -21365,9 +21365,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34309
@@ -21375,9 +21375,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34309,
@@ -21388,9 +21388,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -21399,9 +21399,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34309
@@ -21409,9 +21409,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34309,
@@ -21421,9 +21421,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34309,
@@ -21433,9 +21433,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34309,
@@ -21445,9 +21445,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34309
@@ -21455,9 +21455,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34309,
@@ -21470,9 +21470,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -21481,9 +21481,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -21492,9 +21492,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -21503,9 +21503,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -21513,9 +21513,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -21524,9 +21524,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -21534,9 +21534,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -21544,9 +21544,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -21554,9 +21554,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -21564,9 +21564,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -21574,9 +21574,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270,
@@ -21585,9 +21585,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -21597,9 +21597,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -21607,9 +21607,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -21621,9 +21621,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -21632,9 +21632,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -21643,9 +21643,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -21653,9 +21653,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -21665,9 +21665,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -21675,9 +21675,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -21686,9 +21686,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -21696,9 +21696,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -21706,9 +21706,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -21716,9 +21716,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -21726,9 +21726,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -21738,9 +21738,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -21749,9 +21749,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -21759,9 +21759,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -21772,9 +21772,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -21783,9 +21783,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -21794,9 +21794,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -21805,9 +21805,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -21815,9 +21815,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -21826,9 +21826,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -21836,9 +21836,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -21846,9 +21846,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -21856,9 +21856,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -21866,9 +21866,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -21876,9 +21876,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270,
@@ -21887,9 +21887,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -21899,9 +21899,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -21909,9 +21909,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -21923,9 +21923,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -21934,9 +21934,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -21945,9 +21945,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -21955,9 +21955,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -21967,9 +21967,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -21977,9 +21977,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -21988,9 +21988,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -21998,9 +21998,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -22008,9 +22008,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -22018,9 +22018,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -22028,9 +22028,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -22040,9 +22040,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -22051,9 +22051,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -22061,9 +22061,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -22076,9 +22076,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -22087,9 +22087,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -22097,9 +22097,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -22107,9 +22107,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -22117,9 +22117,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -22127,9 +22127,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -22138,9 +22138,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -22150,9 +22150,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -22160,9 +22160,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -22172,9 +22172,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -22182,9 +22182,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -22196,9 +22196,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -22207,9 +22207,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -22219,9 +22219,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -22229,9 +22229,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -22239,9 +22239,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -22249,9 +22249,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -22260,9 +22260,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -22272,9 +22272,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -22282,9 +22282,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -22294,9 +22294,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -22304,9 +22304,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -22316,9 +22316,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -22327,9 +22327,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -22337,9 +22337,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -22347,9 +22347,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -22357,9 +22357,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -22367,9 +22367,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -22378,9 +22378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -22390,9 +22390,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -22400,9 +22400,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -22412,9 +22412,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -22422,9 +22422,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -22436,9 +22436,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -22447,9 +22447,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -22459,9 +22459,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -22469,9 +22469,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -22479,9 +22479,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -22489,9 +22489,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -22500,9 +22500,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -22512,9 +22512,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -22522,9 +22522,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -22534,9 +22534,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -22544,9 +22544,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -22558,9 +22558,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -22569,9 +22569,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					33942,
@@ -22580,9 +22580,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -22590,9 +22590,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -22601,9 +22601,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -22611,9 +22611,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -22622,9 +22622,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -22634,9 +22634,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -22644,9 +22644,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -22654,9 +22654,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -22664,9 +22664,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -22674,9 +22674,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -22685,9 +22685,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304
@@ -22695,9 +22695,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -22705,9 +22705,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304
@@ -22715,9 +22715,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -22726,9 +22726,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -22737,9 +22737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304
@@ -22747,9 +22747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -22757,9 +22757,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -22767,9 +22767,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304
@@ -22777,9 +22777,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -2
 				},
 				items = {
 					34304,
@@ -22788,9 +22788,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -22798,9 +22798,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -22808,9 +22808,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -1
 				},
 				items = {
 					34304,
@@ -22819,9 +22819,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -22829,9 +22829,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -22839,9 +22839,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 0
 				},
 				items = {
 					34304
@@ -22849,9 +22849,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -22859,9 +22859,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304
@@ -22869,9 +22869,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 1
 				},
 				items = {
 					34304
@@ -22879,9 +22879,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304
@@ -22889,9 +22889,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -22900,9 +22900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 2
 				},
 				items = {
 					34304,
@@ -22914,9 +22914,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -4
 				},
 				items = {
 					33942,
@@ -22925,9 +22925,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -22936,9 +22936,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34304,
@@ -22947,9 +22947,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34304
@@ -22957,9 +22957,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -22967,9 +22967,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304
@@ -22977,9 +22977,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -22988,9 +22988,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -22998,9 +22998,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -23008,9 +23008,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -23018,9 +23018,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -23029,9 +23029,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -23041,9 +23041,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -23051,9 +23051,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304
@@ -23061,9 +23061,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -23072,9 +23072,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -23083,9 +23083,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34304
@@ -23093,9 +23093,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34304
@@ -23103,9 +23103,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34304,
@@ -23115,9 +23115,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -23125,9 +23125,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -23135,9 +23135,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -23146,9 +23146,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -23156,9 +23156,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -23166,9 +23166,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -23176,9 +23176,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304
@@ -23186,9 +23186,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -23196,9 +23196,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -23206,9 +23206,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -23217,9 +23217,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -23227,9 +23227,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304
@@ -23237,9 +23237,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -23247,9 +23247,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304
@@ -23257,9 +23257,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -23270,9 +23270,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -23281,9 +23281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					33942,
@@ -23292,9 +23292,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -23302,9 +23302,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -23313,9 +23313,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -23323,9 +23323,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -23334,9 +23334,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -23346,9 +23346,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -23356,9 +23356,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -23366,9 +23366,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -23376,9 +23376,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -23386,9 +23386,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -23397,9 +23397,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304
@@ -23407,9 +23407,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -23417,9 +23417,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304
@@ -23427,9 +23427,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -23438,9 +23438,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -23449,9 +23449,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304
@@ -23459,9 +23459,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -23469,9 +23469,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -23479,9 +23479,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304
@@ -23489,9 +23489,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -2
 				},
 				items = {
 					34304,
@@ -23500,9 +23500,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -23510,9 +23510,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -23520,9 +23520,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -1
 				},
 				items = {
 					34304,
@@ -23531,9 +23531,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -23541,9 +23541,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -23551,9 +23551,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 0
 				},
 				items = {
 					34304
@@ -23561,9 +23561,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -23571,9 +23571,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304
@@ -23581,9 +23581,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 1
 				},
 				items = {
 					34304
@@ -23591,9 +23591,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304
@@ -23601,9 +23601,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -23612,9 +23612,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 2
 				},
 				items = {
 					34304,
@@ -23626,9 +23626,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -4
 				},
 				items = {
 					33942,
@@ -23637,9 +23637,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -23648,9 +23648,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34304,
@@ -23659,9 +23659,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34304
@@ -23669,9 +23669,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -23679,9 +23679,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304
@@ -23689,9 +23689,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -23700,9 +23700,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -23710,9 +23710,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -23720,9 +23720,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -23730,9 +23730,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -23741,9 +23741,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -23753,9 +23753,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -23763,9 +23763,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304
@@ -23773,9 +23773,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -23784,9 +23784,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -23795,9 +23795,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34304
@@ -23805,9 +23805,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34304
@@ -23815,9 +23815,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34304,
@@ -23827,9 +23827,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -23837,9 +23837,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -23847,9 +23847,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -23858,9 +23858,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -23868,9 +23868,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -23878,9 +23878,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -23888,9 +23888,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304
@@ -23898,9 +23898,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -23908,9 +23908,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -23918,9 +23918,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -23929,9 +23929,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -23939,9 +23939,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304
@@ -23949,9 +23949,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -23959,9 +23959,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304
@@ -23969,9 +23969,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -23984,9 +23984,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -23995,9 +23995,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -24005,9 +24005,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -24015,9 +24015,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -24025,9 +24025,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -24035,9 +24035,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -24045,9 +24045,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -24055,9 +24055,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -24066,9 +24066,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -24078,9 +24078,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -24088,9 +24088,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -24100,9 +24100,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -24110,9 +24110,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -24120,9 +24120,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -24134,9 +24134,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -24145,9 +24145,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310,
@@ -24157,9 +24157,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -24167,9 +24167,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -24177,9 +24177,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -24187,9 +24187,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -24198,9 +24198,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -24210,9 +24210,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -24220,9 +24220,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -24230,9 +24230,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -24242,9 +24242,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -24252,9 +24252,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -24262,9 +24262,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -24272,9 +24272,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -24284,9 +24284,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -24295,9 +24295,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -24305,9 +24305,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -24315,9 +24315,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -24325,9 +24325,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -24335,9 +24335,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -24345,9 +24345,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -24355,9 +24355,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -24366,9 +24366,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -24378,9 +24378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -24388,9 +24388,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -24400,9 +24400,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -24410,9 +24410,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -24420,9 +24420,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -24434,9 +24434,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -24445,9 +24445,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310,
@@ -24457,9 +24457,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -24467,9 +24467,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -24477,9 +24477,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -24487,9 +24487,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -24498,9 +24498,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -24510,9 +24510,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -24520,9 +24520,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -24530,9 +24530,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -24542,9 +24542,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -24552,9 +24552,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -24562,9 +24562,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -24572,9 +24572,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -24586,9 +24586,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -24598,9 +24598,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -24608,9 +24608,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -24618,9 +24618,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -24628,9 +24628,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -24639,9 +24639,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270
@@ -24649,9 +24649,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -24660,9 +24660,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -24670,9 +24670,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -24680,9 +24680,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -24691,9 +24691,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -24701,9 +24701,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -24711,9 +24711,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -24721,9 +24721,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -24731,9 +24731,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -24741,9 +24741,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -24751,9 +24751,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -24761,9 +24761,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -24771,9 +24771,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -24781,9 +24781,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -24791,9 +24791,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -24801,9 +24801,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -24814,9 +24814,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -24825,9 +24825,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -24837,9 +24837,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -24847,9 +24847,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -24857,9 +24857,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -24868,9 +24868,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -24879,9 +24879,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -24889,9 +24889,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -24899,9 +24899,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -24909,9 +24909,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270
@@ -24919,9 +24919,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -24929,9 +24929,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -24939,9 +24939,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -24949,9 +24949,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -24959,9 +24959,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -24969,9 +24969,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -24979,9 +24979,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -24989,9 +24989,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -24999,9 +24999,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -25009,9 +25009,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -25019,9 +25019,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -25029,9 +25029,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -25042,9 +25042,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -25054,9 +25054,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -25064,9 +25064,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -25074,9 +25074,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -25084,9 +25084,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -25095,9 +25095,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270
@@ -25105,9 +25105,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -25116,9 +25116,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -25126,9 +25126,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -25136,9 +25136,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -25147,9 +25147,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -25157,9 +25157,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -25167,9 +25167,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -25177,9 +25177,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -25187,9 +25187,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -25197,9 +25197,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -25207,9 +25207,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -25217,9 +25217,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -25227,9 +25227,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -25237,9 +25237,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -25247,9 +25247,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -25257,9 +25257,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -25270,9 +25270,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -25281,9 +25281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -25293,9 +25293,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -25303,9 +25303,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -25313,9 +25313,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -25324,9 +25324,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -25335,9 +25335,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -25345,9 +25345,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -25355,9 +25355,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -25365,9 +25365,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270
@@ -25375,9 +25375,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -25385,9 +25385,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -25395,9 +25395,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -25405,9 +25405,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -25415,9 +25415,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -25425,9 +25425,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -25435,9 +25435,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -25445,9 +25445,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -25455,9 +25455,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -25465,9 +25465,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -25475,9 +25475,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -25485,9 +25485,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -25500,9 +25500,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -25511,9 +25511,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -25523,9 +25523,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310,
@@ -25535,9 +25535,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -25547,9 +25547,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -25557,9 +25557,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -25567,9 +25567,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -25577,9 +25577,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -25587,9 +25587,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -25597,9 +25597,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -25608,9 +25608,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -25619,9 +25619,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -25631,9 +25631,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -25641,9 +25641,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -25655,9 +25655,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -25666,9 +25666,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -25676,9 +25676,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -25688,9 +25688,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -25698,9 +25698,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -25708,9 +25708,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -25718,9 +25718,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -25728,9 +25728,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -25741,9 +25741,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -25752,9 +25752,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -25762,9 +25762,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -25773,9 +25773,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -25785,9 +25785,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -25797,9 +25797,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -25810,9 +25810,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -25821,9 +25821,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -25833,9 +25833,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310,
@@ -25845,9 +25845,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -25857,9 +25857,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -25867,9 +25867,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -25877,9 +25877,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -25887,9 +25887,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -25897,9 +25897,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -25907,9 +25907,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -25918,9 +25918,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -25929,9 +25929,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -25941,9 +25941,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -25951,9 +25951,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -25965,9 +25965,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -25976,9 +25976,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -25986,9 +25986,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -25998,9 +25998,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -26008,9 +26008,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -26018,9 +26018,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -26028,9 +26028,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -26038,9 +26038,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -26051,9 +26051,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -26062,9 +26062,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -26072,9 +26072,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -26083,9 +26083,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -26095,9 +26095,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -26107,9 +26107,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -26122,9 +26122,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26133,9 +26133,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26144,9 +26144,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -26155,9 +26155,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -26165,9 +26165,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -26175,9 +26175,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -26185,9 +26185,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -26195,9 +26195,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -26207,9 +26207,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -26217,9 +26217,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -26228,9 +26228,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331
@@ -26238,9 +26238,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -26248,9 +26248,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26259,9 +26259,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -26269,9 +26269,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -26279,9 +26279,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -26289,9 +26289,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -26299,9 +26299,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -26309,9 +26309,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -26319,9 +26319,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -26329,9 +26329,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -26342,9 +26342,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26353,9 +26353,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26365,9 +26365,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -26375,9 +26375,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -26385,9 +26385,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -26395,9 +26395,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -26405,9 +26405,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -26416,9 +26416,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -26426,9 +26426,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -26437,9 +26437,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -26447,9 +26447,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -26457,9 +26457,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26468,9 +26468,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -26478,9 +26478,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -26488,9 +26488,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -26498,9 +26498,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -26508,9 +26508,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -26518,9 +26518,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -26528,9 +26528,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -26538,9 +26538,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -26548,9 +26548,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -26561,9 +26561,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26572,9 +26572,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26583,9 +26583,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -26594,9 +26594,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -26604,9 +26604,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -26614,9 +26614,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -26624,9 +26624,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -26634,9 +26634,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -26646,9 +26646,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -26656,9 +26656,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -26667,9 +26667,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331
@@ -26677,9 +26677,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -26687,9 +26687,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26698,9 +26698,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -26708,9 +26708,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -26718,9 +26718,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -26728,9 +26728,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -26738,9 +26738,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -26748,9 +26748,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -26758,9 +26758,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -26768,9 +26768,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -26781,9 +26781,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26792,9 +26792,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26804,9 +26804,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -26814,9 +26814,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -26824,9 +26824,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -26834,9 +26834,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -26844,9 +26844,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -26855,9 +26855,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -26865,9 +26865,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -26876,9 +26876,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -26886,9 +26886,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -26896,9 +26896,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -26907,9 +26907,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -26917,9 +26917,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -26927,9 +26927,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -26937,9 +26937,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -26947,9 +26947,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -26957,9 +26957,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -26967,9 +26967,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -26977,9 +26977,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -26987,9 +26987,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -27002,9 +27002,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -27013,9 +27013,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -27023,9 +27023,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -27034,9 +27034,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -27046,9 +27046,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299,
@@ -27057,9 +27057,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -27067,9 +27067,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -27078,9 +27078,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27090,9 +27090,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27101,9 +27101,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27114,9 +27114,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -27124,9 +27124,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -27134,9 +27134,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -27145,9 +27145,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -27155,9 +27155,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -27165,9 +27165,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -27175,9 +27175,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -27185,9 +27185,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -27195,9 +27195,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -27205,9 +27205,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -27215,9 +27215,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -27225,9 +27225,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -27238,9 +27238,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27249,9 +27249,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -27260,9 +27260,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -27270,9 +27270,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -27281,9 +27281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -27294,9 +27294,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -27305,9 +27305,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27316,9 +27316,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -27326,9 +27326,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -27336,9 +27336,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27348,9 +27348,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -27358,9 +27358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -27368,9 +27368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -27378,9 +27378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -27389,9 +27389,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -27399,9 +27399,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -27409,9 +27409,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -27419,9 +27419,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -27429,9 +27429,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -27440,9 +27440,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -27450,9 +27450,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -27460,9 +27460,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -27473,9 +27473,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -27484,9 +27484,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -27494,9 +27494,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -27505,9 +27505,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -27517,9 +27517,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299,
@@ -27528,9 +27528,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -27538,9 +27538,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -27549,9 +27549,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27561,9 +27561,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27572,9 +27572,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27585,9 +27585,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -27595,9 +27595,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -27605,9 +27605,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -27616,9 +27616,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -27626,9 +27626,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -27636,9 +27636,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -27646,9 +27646,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -27656,9 +27656,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -27666,9 +27666,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -27676,9 +27676,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -27686,9 +27686,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -27696,9 +27696,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -27709,9 +27709,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27720,9 +27720,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -27731,9 +27731,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -27741,9 +27741,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -27752,9 +27752,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -27765,9 +27765,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -27776,9 +27776,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27787,9 +27787,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -27797,9 +27797,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -27807,9 +27807,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -27819,9 +27819,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -27829,9 +27829,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -27839,9 +27839,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -27849,9 +27849,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -27860,9 +27860,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -27870,9 +27870,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -27880,9 +27880,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -27890,9 +27890,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -27900,9 +27900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -27911,9 +27911,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -27921,9 +27921,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -27931,9 +27931,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -27946,9 +27946,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -27957,9 +27957,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -27968,9 +27968,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -27978,9 +27978,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -27988,9 +27988,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -27999,9 +27999,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -28009,9 +28009,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305,
@@ -28020,9 +28020,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -28030,9 +28030,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -28041,9 +28041,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -28051,9 +28051,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -28061,9 +28061,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -28071,9 +28071,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -28081,9 +28081,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -28094,9 +28094,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -28105,9 +28105,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -28116,9 +28116,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305,
@@ -28127,9 +28127,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -28137,9 +28137,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -28147,9 +28147,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -28157,9 +28157,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -28167,9 +28167,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -28178,9 +28178,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -28189,9 +28189,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -28200,9 +28200,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -28210,9 +28210,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -28220,9 +28220,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -28231,9 +28231,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -28241,9 +28241,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -28253,9 +28253,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -28264,9 +28264,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -28275,9 +28275,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -28285,9 +28285,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -28295,9 +28295,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -28306,9 +28306,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -28316,9 +28316,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305,
@@ -28327,9 +28327,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -28337,9 +28337,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305,
@@ -28348,9 +28348,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -28358,9 +28358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -28368,9 +28368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -28378,9 +28378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -28388,9 +28388,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -28401,9 +28401,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -28412,9 +28412,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -28423,9 +28423,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305,
@@ -28434,9 +28434,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -28444,9 +28444,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -28454,9 +28454,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -28464,9 +28464,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -28474,9 +28474,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -28485,9 +28485,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -28496,9 +28496,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -28507,9 +28507,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -28517,9 +28517,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -28527,9 +28527,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -28538,9 +28538,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -28548,9 +28548,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -28562,9 +28562,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -28573,9 +28573,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -28584,9 +28584,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -28594,9 +28594,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -28604,9 +28604,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -28614,9 +28614,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -28624,9 +28624,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -28634,9 +28634,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -28644,9 +28644,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -28654,9 +28654,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -28664,9 +28664,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -28675,9 +28675,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -28685,9 +28685,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -28695,9 +28695,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -28709,9 +28709,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331
@@ -28719,9 +28719,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -28729,9 +28729,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -28741,9 +28741,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -28751,9 +28751,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -28761,9 +28761,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -28771,9 +28771,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -28784,9 +28784,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -28797,9 +28797,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -28808,9 +28808,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -28818,9 +28818,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -28828,9 +28828,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -28838,9 +28838,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -28848,9 +28848,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -28858,9 +28858,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -28868,9 +28868,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -28878,9 +28878,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -28889,9 +28889,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -28900,9 +28900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -28910,9 +28910,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -28920,9 +28920,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -28930,9 +28930,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -28942,9 +28942,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -28952,9 +28952,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -28962,9 +28962,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -28972,9 +28972,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -28982,9 +28982,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -28992,9 +28992,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -29005,9 +29005,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -29016,9 +29016,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -29027,9 +29027,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -29037,9 +29037,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -29047,9 +29047,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -29057,9 +29057,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -29067,9 +29067,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -29077,9 +29077,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -29087,9 +29087,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -29097,9 +29097,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -29107,9 +29107,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -29118,9 +29118,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -29128,9 +29128,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -29138,9 +29138,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -29152,9 +29152,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331
@@ -29162,9 +29162,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -29172,9 +29172,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -29184,9 +29184,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -29194,9 +29194,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -29204,9 +29204,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -29214,9 +29214,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -29227,9 +29227,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -29240,9 +29240,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -29251,9 +29251,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -29261,9 +29261,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -29271,9 +29271,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -29281,9 +29281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -29291,9 +29291,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -29301,9 +29301,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -29311,9 +29311,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -29321,9 +29321,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -29332,9 +29332,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -29343,9 +29343,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -29353,9 +29353,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -29363,9 +29363,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -29373,9 +29373,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -29385,9 +29385,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -29395,9 +29395,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -29405,9 +29405,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -29415,9 +29415,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -29425,9 +29425,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -29435,9 +29435,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -29450,9 +29450,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -29461,9 +29461,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -29472,9 +29472,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -29483,9 +29483,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -29493,9 +29493,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -29503,9 +29503,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310
@@ -29513,9 +29513,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34310,
@@ -29524,9 +29524,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -29534,9 +29534,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -29544,9 +29544,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -29554,9 +29554,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -29564,9 +29564,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -29574,9 +29574,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -29584,9 +29584,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -29594,9 +29594,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -29604,9 +29604,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -29614,9 +29614,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -29624,9 +29624,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -29634,9 +29634,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -29644,9 +29644,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34310,
@@ -29655,9 +29655,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34310
@@ -29665,9 +29665,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34310
@@ -29677,9 +29677,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -29688,9 +29688,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310
@@ -29698,9 +29698,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -29708,9 +29708,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -29718,9 +29718,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -29729,9 +29729,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -29740,9 +29740,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -29750,9 +29750,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -29760,9 +29760,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -29770,9 +29770,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -29781,9 +29781,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -29791,9 +29791,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -29801,9 +29801,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -29811,9 +29811,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34310,
@@ -29822,9 +29822,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -29832,9 +29832,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -29842,9 +29842,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -29852,9 +29852,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34310
@@ -29862,9 +29862,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -29872,9 +29872,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -29882,9 +29882,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -29892,9 +29892,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34310
@@ -29904,9 +29904,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -29915,9 +29915,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -29926,9 +29926,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -29937,9 +29937,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -29947,9 +29947,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -29957,9 +29957,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310
@@ -29967,9 +29967,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34310,
@@ -29978,9 +29978,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -29988,9 +29988,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -29998,9 +29998,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -30008,9 +30008,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -30018,9 +30018,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -30028,9 +30028,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -30038,9 +30038,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -30048,9 +30048,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -30058,9 +30058,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -30068,9 +30068,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -30078,9 +30078,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -30088,9 +30088,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -30098,9 +30098,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34310,
@@ -30109,9 +30109,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34310
@@ -30119,9 +30119,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34310
@@ -30131,9 +30131,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -30142,9 +30142,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310
@@ -30152,9 +30152,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -30162,9 +30162,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -30172,9 +30172,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -30183,9 +30183,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -30194,9 +30194,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -30204,9 +30204,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -30214,9 +30214,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -30224,9 +30224,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -30235,9 +30235,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -30245,9 +30245,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -30255,9 +30255,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -30265,9 +30265,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34310,
@@ -30276,9 +30276,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -30286,9 +30286,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -30296,9 +30296,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -30306,9 +30306,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34310
@@ -30316,9 +30316,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -30326,9 +30326,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -30336,9 +30336,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -30346,9 +30346,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34310
@@ -30360,9 +30360,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -30371,9 +30371,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -30383,9 +30383,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -30395,9 +30395,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -30406,9 +30406,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -30416,9 +30416,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -30427,9 +30427,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -30437,9 +30437,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -30447,9 +30447,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -30457,9 +30457,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -30467,9 +30467,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -30478,9 +30478,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -30489,9 +30489,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -30499,9 +30499,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -30510,9 +30510,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -30520,9 +30520,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -30530,9 +30530,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -30540,9 +30540,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -30550,9 +30550,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -30560,9 +30560,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -30571,9 +30571,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -30581,9 +30581,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -30594,9 +30594,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331
@@ -30604,9 +30604,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -30615,9 +30615,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -30626,9 +30626,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -30636,9 +30636,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -30647,9 +30647,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -30657,9 +30657,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -30667,9 +30667,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -30678,9 +30678,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -30688,9 +30688,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -30699,9 +30699,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -30709,9 +30709,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -30721,9 +30721,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -30733,9 +30733,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -30743,9 +30743,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -30753,9 +30753,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -30763,9 +30763,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -30773,9 +30773,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -30783,9 +30783,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -30793,9 +30793,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -30803,9 +30803,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -30814,9 +30814,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -30827,9 +30827,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -30838,9 +30838,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -30850,9 +30850,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -30862,9 +30862,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -30873,9 +30873,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -30883,9 +30883,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -30894,9 +30894,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -30904,9 +30904,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -30914,9 +30914,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -30924,9 +30924,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -30934,9 +30934,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -30945,9 +30945,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -30956,9 +30956,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -30966,9 +30966,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -30977,9 +30977,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -30987,9 +30987,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -30997,9 +30997,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -31007,9 +31007,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -31017,9 +31017,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -31027,9 +31027,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -31038,9 +31038,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -31048,9 +31048,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -31061,9 +31061,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331
@@ -31071,9 +31071,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -31082,9 +31082,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -31093,9 +31093,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -31103,9 +31103,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -31114,9 +31114,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -31124,9 +31124,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -31134,9 +31134,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -31145,9 +31145,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -31155,9 +31155,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -31166,9 +31166,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -31176,9 +31176,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -31188,9 +31188,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -31200,9 +31200,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -31210,9 +31210,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -31220,9 +31220,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -31230,9 +31230,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -31240,9 +31240,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -31250,9 +31250,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -31260,9 +31260,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -31270,9 +31270,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -31281,9 +31281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -31296,9 +31296,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -31308,9 +31308,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -31318,9 +31318,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -31328,9 +31328,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -31339,9 +31339,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -31349,9 +31349,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -31360,9 +31360,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -31370,9 +31370,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -31381,9 +31381,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -31391,9 +31391,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -31401,9 +31401,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -31411,9 +31411,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -31421,9 +31421,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -31431,9 +31431,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -31444,9 +31444,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -31455,9 +31455,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -31467,9 +31467,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -31477,9 +31477,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -31488,9 +31488,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -31499,9 +31499,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -31509,9 +31509,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -31519,9 +31519,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -31529,9 +31529,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -31539,9 +31539,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -31549,9 +31549,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -31559,9 +31559,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -31569,9 +31569,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -31579,9 +31579,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -31592,9 +31592,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -31604,9 +31604,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -31614,9 +31614,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -31624,9 +31624,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -31635,9 +31635,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -31645,9 +31645,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -31656,9 +31656,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -31666,9 +31666,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -31677,9 +31677,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -31687,9 +31687,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -31697,9 +31697,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -31707,9 +31707,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -31717,9 +31717,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -31727,9 +31727,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -31740,9 +31740,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -31751,9 +31751,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -31763,9 +31763,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -31773,9 +31773,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -31784,9 +31784,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -31795,9 +31795,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -31805,9 +31805,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -31815,9 +31815,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -31825,9 +31825,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -31835,9 +31835,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -31845,9 +31845,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -31855,9 +31855,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -31865,9 +31865,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -31875,9 +31875,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -31890,9 +31890,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331
@@ -31900,9 +31900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -31911,9 +31911,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -31921,9 +31921,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -31932,9 +31932,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -31942,9 +31942,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -31953,9 +31953,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -31963,9 +31963,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -31973,9 +31973,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -31983,9 +31983,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -31993,9 +31993,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -32003,9 +32003,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -32013,9 +32013,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -32023,9 +32023,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -3
 				},
 				items = {
 					33942,
@@ -32034,9 +32034,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32045,9 +32045,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32056,9 +32056,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 3
+					y = 3,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32067,9 +32067,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -32077,9 +32077,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -32087,9 +32087,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -1
 				},
 				items = {
 					32331,
@@ -32098,9 +32098,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -32109,9 +32109,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331,
@@ -32120,9 +32120,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 0
 				},
 				items = {
 					32331
@@ -32130,9 +32130,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -32140,9 +32140,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331
@@ -32150,9 +32150,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 1
 				},
 				items = {
 					32331
@@ -32160,9 +32160,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32171,9 +32171,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331
@@ -32181,9 +32181,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -32191,9 +32191,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331
@@ -32201,9 +32201,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32212,9 +32212,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32225,9 +32225,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					32331,
@@ -32236,9 +32236,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					32331
@@ -32246,9 +32246,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32257,9 +32257,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -32267,9 +32267,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -32278,9 +32278,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -32288,9 +32288,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -32298,9 +32298,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -32308,9 +32308,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -32318,9 +32318,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -32328,9 +32328,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -32338,9 +32338,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32349,9 +32349,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32360,9 +32360,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -4
 				},
 				items = {
 					33942,
@@ -32371,9 +32371,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					32331
@@ -32381,9 +32381,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					32331,
@@ -32392,9 +32392,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					32331,
@@ -32403,9 +32403,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -32413,9 +32413,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -32423,9 +32423,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32434,9 +32434,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331,
@@ -32445,9 +32445,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -32456,9 +32456,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -32466,9 +32466,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -32476,9 +32476,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -32486,9 +32486,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -32496,9 +32496,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -32506,9 +32506,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -32516,9 +32516,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331
@@ -32526,9 +32526,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -32536,9 +32536,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32547,9 +32547,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32560,9 +32560,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331
@@ -32570,9 +32570,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32581,9 +32581,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -32591,9 +32591,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -32602,9 +32602,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -32612,9 +32612,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -32623,9 +32623,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -32633,9 +32633,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -32643,9 +32643,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -32653,9 +32653,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -32663,9 +32663,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -32673,9 +32673,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -32683,9 +32683,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -32693,9 +32693,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -3
 				},
 				items = {
 					33942,
@@ -32704,9 +32704,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32715,9 +32715,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32726,9 +32726,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 3
+					y = 3,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32737,9 +32737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -32747,9 +32747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -32757,9 +32757,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -1
 				},
 				items = {
 					32331,
@@ -32768,9 +32768,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -32779,9 +32779,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331,
@@ -32790,9 +32790,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 0
 				},
 				items = {
 					32331
@@ -32800,9 +32800,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -32810,9 +32810,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331
@@ -32820,9 +32820,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 1
 				},
 				items = {
 					32331
@@ -32830,9 +32830,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32841,9 +32841,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331
@@ -32851,9 +32851,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -32861,9 +32861,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331
@@ -32871,9 +32871,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32882,9 +32882,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 2
 				},
 				items = {
 					32331,
@@ -32895,9 +32895,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					32331,
@@ -32906,9 +32906,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					32331
@@ -32916,9 +32916,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -32927,9 +32927,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -32937,9 +32937,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -32948,9 +32948,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -32958,9 +32958,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -32968,9 +32968,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -32978,9 +32978,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -32988,9 +32988,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -32998,9 +32998,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -33008,9 +33008,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -33019,9 +33019,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -33030,9 +33030,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -4
 				},
 				items = {
 					33942,
@@ -33041,9 +33041,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					32331
@@ -33051,9 +33051,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					32331,
@@ -33062,9 +33062,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					32331,
@@ -33073,9 +33073,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -33083,9 +33083,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -33093,9 +33093,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -33104,9 +33104,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331,
@@ -33115,9 +33115,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -33126,9 +33126,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -33136,9 +33136,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -33146,9 +33146,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -33156,9 +33156,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -33166,9 +33166,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -33176,9 +33176,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -33186,9 +33186,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331
@@ -33196,9 +33196,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -33206,9 +33206,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -33217,9 +33217,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -33232,9 +33232,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34299
@@ -33242,9 +33242,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -33253,9 +33253,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -33264,9 +33264,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34299,
@@ -33275,9 +33275,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -33285,9 +33285,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -33295,9 +33295,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34299
@@ -33305,9 +33305,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -33315,9 +33315,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -33325,9 +33325,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34299
@@ -33335,9 +33335,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -33345,9 +33345,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -33355,9 +33355,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -33366,9 +33366,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -33376,9 +33376,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -33386,9 +33386,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -33398,9 +33398,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -33408,9 +33408,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -33418,9 +33418,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -33429,9 +33429,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -33440,9 +33440,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -33450,9 +33450,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -33460,9 +33460,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299,
@@ -33471,9 +33471,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -33481,9 +33481,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299
@@ -33491,9 +33491,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -33502,9 +33502,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34299,
@@ -33515,9 +33515,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -33526,9 +33526,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -33536,9 +33536,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -33546,9 +33546,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -33558,9 +33558,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -33571,9 +33571,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34299
@@ -33581,9 +33581,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34299,
@@ -33592,9 +33592,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -33603,9 +33603,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -33615,9 +33615,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -33626,9 +33626,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -33637,9 +33637,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -33647,9 +33647,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -33657,9 +33657,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -33667,9 +33667,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -33677,9 +33677,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -33687,9 +33687,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -33698,9 +33698,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -33708,9 +33708,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -33719,9 +33719,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34299
@@ -33729,9 +33729,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34299
@@ -33739,9 +33739,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34299,
@@ -33752,9 +33752,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -33762,9 +33762,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -33772,9 +33772,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -33783,9 +33783,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -33793,9 +33793,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -33803,9 +33803,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -33813,9 +33813,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -33824,9 +33824,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -33835,9 +33835,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -33845,9 +33845,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -33855,9 +33855,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -33865,9 +33865,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -33877,9 +33877,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -33887,9 +33887,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299
@@ -33897,9 +33897,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -33910,9 +33910,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34299
@@ -33920,9 +33920,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -33931,9 +33931,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -33942,9 +33942,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34299,
@@ -33953,9 +33953,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -33963,9 +33963,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -33973,9 +33973,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34299
@@ -33983,9 +33983,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -33993,9 +33993,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -34003,9 +34003,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34299
@@ -34013,9 +34013,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -34023,9 +34023,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -34033,9 +34033,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -34044,9 +34044,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -34054,9 +34054,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -34064,9 +34064,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -34076,9 +34076,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -34086,9 +34086,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -34096,9 +34096,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -34107,9 +34107,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -34118,9 +34118,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -34128,9 +34128,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -34138,9 +34138,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299,
@@ -34149,9 +34149,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -34159,9 +34159,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299
@@ -34169,9 +34169,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -34180,9 +34180,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34299,
@@ -34193,9 +34193,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -34204,9 +34204,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -34214,9 +34214,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -34224,9 +34224,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -34236,9 +34236,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -34249,9 +34249,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34299
@@ -34259,9 +34259,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34299,
@@ -34270,9 +34270,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -34281,9 +34281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -34293,9 +34293,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -34304,9 +34304,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -34315,9 +34315,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -34325,9 +34325,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -34335,9 +34335,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -34345,9 +34345,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -34355,9 +34355,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -34365,9 +34365,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -34376,9 +34376,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -34386,9 +34386,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -34397,9 +34397,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34299
@@ -34407,9 +34407,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34299
@@ -34417,9 +34417,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34299,
@@ -34430,9 +34430,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -34440,9 +34440,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -34450,9 +34450,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -34461,9 +34461,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -34471,9 +34471,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -34481,9 +34481,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -34491,9 +34491,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -34502,9 +34502,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -34513,9 +34513,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -34523,9 +34523,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -34533,9 +34533,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -34543,9 +34543,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -34555,9 +34555,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -34565,9 +34565,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299
@@ -34575,9 +34575,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -34590,9 +34590,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -34601,9 +34601,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					33942,
@@ -34612,9 +34612,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -34623,9 +34623,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -34633,9 +34633,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -34644,9 +34644,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -34654,9 +34654,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -34664,9 +34664,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -34674,9 +34674,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300,
@@ -34685,9 +34685,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -34695,9 +34695,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300,
@@ -34706,9 +34706,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -34717,9 +34717,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -34727,9 +34727,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -34740,9 +34740,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -34751,9 +34751,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -34762,9 +34762,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300,
@@ -34773,9 +34773,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -34784,9 +34784,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -34794,9 +34794,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -34805,9 +34805,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -34815,9 +34815,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -34825,9 +34825,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -34835,9 +34835,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -34845,9 +34845,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -34856,9 +34856,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -34867,9 +34867,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -34877,9 +34877,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -34890,9 +34890,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -34901,9 +34901,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					33942,
@@ -34912,9 +34912,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -34923,9 +34923,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -34933,9 +34933,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -34944,9 +34944,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -34954,9 +34954,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -34964,9 +34964,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -34974,9 +34974,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300,
@@ -34985,9 +34985,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -34995,9 +34995,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300,
@@ -35006,9 +35006,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -35017,9 +35017,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -35027,9 +35027,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -35040,9 +35040,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -35051,9 +35051,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -35062,9 +35062,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300,
@@ -35073,9 +35073,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -35084,9 +35084,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -35094,9 +35094,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -35105,9 +35105,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -35115,9 +35115,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -35125,9 +35125,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -35135,9 +35135,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -35145,9 +35145,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -35156,9 +35156,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -35167,9 +35167,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -35177,9 +35177,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -35192,9 +35192,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270
@@ -35202,9 +35202,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -35212,9 +35212,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -35223,9 +35223,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -35233,9 +35233,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -35243,9 +35243,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -35253,9 +35253,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -35263,9 +35263,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -35273,9 +35273,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -35283,9 +35283,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -35294,9 +35294,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -35306,9 +35306,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -35316,9 +35316,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -35326,9 +35326,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -35337,9 +35337,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -35347,9 +35347,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -35357,9 +35357,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -35367,9 +35367,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -35377,9 +35377,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -35387,9 +35387,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -35397,9 +35397,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -35407,9 +35407,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -35420,9 +35420,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -35431,9 +35431,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -35443,9 +35443,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -35453,9 +35453,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -35463,9 +35463,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -35473,9 +35473,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -35483,9 +35483,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -35493,9 +35493,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -35504,9 +35504,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -35514,9 +35514,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -35525,9 +35525,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -35535,9 +35535,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -35545,9 +35545,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270
@@ -35555,9 +35555,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -35565,9 +35565,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -35575,9 +35575,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -35585,9 +35585,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -35595,9 +35595,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -35605,9 +35605,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -35615,9 +35615,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -35625,9 +35625,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -35635,9 +35635,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -35648,9 +35648,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270
@@ -35658,9 +35658,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -35668,9 +35668,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -35679,9 +35679,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -35689,9 +35689,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -35699,9 +35699,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -35709,9 +35709,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -35719,9 +35719,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -35729,9 +35729,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -35739,9 +35739,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -35750,9 +35750,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -35762,9 +35762,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -35772,9 +35772,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -35782,9 +35782,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -35793,9 +35793,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -35803,9 +35803,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -35813,9 +35813,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -35823,9 +35823,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -35833,9 +35833,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -35843,9 +35843,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -35853,9 +35853,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -35863,9 +35863,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -35876,9 +35876,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -35887,9 +35887,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -35899,9 +35899,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -35909,9 +35909,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -35919,9 +35919,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -35929,9 +35929,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -35939,9 +35939,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -35949,9 +35949,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -35960,9 +35960,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -35970,9 +35970,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -35981,9 +35981,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -35991,9 +35991,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -36001,9 +36001,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270
@@ -36011,9 +36011,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -36021,9 +36021,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -36031,9 +36031,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -36041,9 +36041,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -36051,9 +36051,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -36061,9 +36061,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -36071,9 +36071,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -36081,9 +36081,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -36091,9 +36091,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -36106,9 +36106,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -36117,9 +36117,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -36127,9 +36127,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -36138,9 +36138,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -36148,9 +36148,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -36158,9 +36158,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -36168,9 +36168,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -36178,9 +36178,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300
@@ -36188,9 +36188,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -36198,9 +36198,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -36209,9 +36209,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34300,
@@ -36220,9 +36220,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34300
@@ -36230,9 +36230,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -36240,9 +36240,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -36252,9 +36252,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -36262,9 +36262,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -36273,9 +36273,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -36283,9 +36283,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -36293,9 +36293,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -36303,9 +36303,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -36313,9 +36313,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34300
@@ -36323,9 +36323,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34300
@@ -36335,9 +36335,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -36346,9 +36346,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -36356,9 +36356,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -36366,9 +36366,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -36376,9 +36376,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -36386,9 +36386,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -36396,9 +36396,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -36407,9 +36407,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -36418,9 +36418,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -36428,9 +36428,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -36439,9 +36439,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -36449,9 +36449,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300
@@ -36459,9 +36459,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -36471,9 +36471,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -36481,9 +36481,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -36491,9 +36491,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34300,
@@ -36502,9 +36502,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -36512,9 +36512,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -36522,9 +36522,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34300
@@ -36532,9 +36532,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -36542,9 +36542,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -36552,9 +36552,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34300
@@ -36564,9 +36564,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -36575,9 +36575,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -36585,9 +36585,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -36596,9 +36596,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -36606,9 +36606,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -36616,9 +36616,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -36626,9 +36626,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -36636,9 +36636,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300
@@ -36646,9 +36646,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -36656,9 +36656,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -36667,9 +36667,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34300,
@@ -36678,9 +36678,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34300
@@ -36688,9 +36688,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -36698,9 +36698,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -36710,9 +36710,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -36720,9 +36720,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -36731,9 +36731,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -36741,9 +36741,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -36751,9 +36751,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -36761,9 +36761,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -36771,9 +36771,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34300
@@ -36781,9 +36781,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34300
@@ -36793,9 +36793,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -36804,9 +36804,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300
@@ -36814,9 +36814,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300
@@ -36824,9 +36824,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -36834,9 +36834,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -36844,9 +36844,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -36854,9 +36854,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -36865,9 +36865,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -36876,9 +36876,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -36886,9 +36886,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -36897,9 +36897,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -36907,9 +36907,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300
@@ -36917,9 +36917,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34300,
@@ -36929,9 +36929,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -36939,9 +36939,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -36949,9 +36949,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34300,
@@ -36960,9 +36960,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -36970,9 +36970,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -36980,9 +36980,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34300
@@ -36990,9 +36990,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -37000,9 +37000,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -37010,9 +37010,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34300
@@ -37024,9 +37024,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37035,9 +37035,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -37046,9 +37046,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -37056,9 +37056,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -37066,9 +37066,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -37077,9 +37077,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -37088,9 +37088,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37099,9 +37099,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -37109,9 +37109,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37120,9 +37120,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -37130,9 +37130,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -37140,9 +37140,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -37151,9 +37151,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -37161,9 +37161,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -37171,9 +37171,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -37181,9 +37181,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -37191,9 +37191,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -37201,9 +37201,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -37211,9 +37211,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -37221,9 +37221,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -37231,9 +37231,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -37244,9 +37244,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270
@@ -37254,9 +37254,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -37265,9 +37265,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -37275,9 +37275,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -37285,9 +37285,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -37296,9 +37296,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37307,9 +37307,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -37317,9 +37317,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37328,9 +37328,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37339,9 +37339,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -37349,9 +37349,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -37359,9 +37359,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -37369,9 +37369,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -37380,9 +37380,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -37390,9 +37390,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -37400,9 +37400,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -37410,9 +37410,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -37420,9 +37420,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -37431,9 +37431,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -37441,9 +37441,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -37451,9 +37451,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -37464,9 +37464,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37475,9 +37475,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -37486,9 +37486,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -37496,9 +37496,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -37506,9 +37506,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -37517,9 +37517,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -37528,9 +37528,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37539,9 +37539,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -37549,9 +37549,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37560,9 +37560,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -37570,9 +37570,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -37580,9 +37580,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -37591,9 +37591,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -37601,9 +37601,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -37611,9 +37611,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -37621,9 +37621,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -37631,9 +37631,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -37641,9 +37641,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -37651,9 +37651,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -37661,9 +37661,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -37671,9 +37671,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -37684,9 +37684,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270
@@ -37694,9 +37694,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -37705,9 +37705,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -37715,9 +37715,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -37725,9 +37725,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -37736,9 +37736,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37747,9 +37747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -37757,9 +37757,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37768,9 +37768,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -37779,9 +37779,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -37789,9 +37789,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -37799,9 +37799,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -37809,9 +37809,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -37820,9 +37820,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -37830,9 +37830,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -37840,9 +37840,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -37850,9 +37850,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -37860,9 +37860,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -37871,9 +37871,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -37881,9 +37881,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -37891,9 +37891,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -37906,9 +37906,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -37917,9 +37917,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					33942,
@@ -37928,9 +37928,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -37938,9 +37938,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -37949,9 +37949,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -37959,9 +37959,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -37970,9 +37970,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -37982,9 +37982,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -37992,9 +37992,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -38002,9 +38002,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -38012,9 +38012,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -38022,9 +38022,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -38033,9 +38033,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304
@@ -38043,9 +38043,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -38053,9 +38053,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304
@@ -38063,9 +38063,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -38074,9 +38074,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -38085,9 +38085,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304
@@ -38095,9 +38095,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -38105,9 +38105,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -38115,9 +38115,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304
@@ -38125,9 +38125,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -2
 				},
 				items = {
 					34304,
@@ -38136,9 +38136,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -38146,9 +38146,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -38156,9 +38156,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -1
 				},
 				items = {
 					34304,
@@ -38167,9 +38167,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -38177,9 +38177,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -38187,9 +38187,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 0
 				},
 				items = {
 					34304
@@ -38197,9 +38197,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -38207,9 +38207,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304
@@ -38217,9 +38217,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 1
 				},
 				items = {
 					34304
@@ -38227,9 +38227,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304
@@ -38237,9 +38237,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -38248,9 +38248,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 2
 				},
 				items = {
 					34304,
@@ -38262,9 +38262,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -4
 				},
 				items = {
 					33942,
@@ -38273,9 +38273,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -38284,9 +38284,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34304,
@@ -38295,9 +38295,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34304
@@ -38305,9 +38305,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -38315,9 +38315,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304
@@ -38325,9 +38325,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -38336,9 +38336,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -38346,9 +38346,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -38356,9 +38356,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -38366,9 +38366,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -38377,9 +38377,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -38389,9 +38389,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -38399,9 +38399,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304
@@ -38409,9 +38409,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -38420,9 +38420,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -38431,9 +38431,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34304
@@ -38441,9 +38441,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34304
@@ -38451,9 +38451,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34304,
@@ -38463,9 +38463,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -38473,9 +38473,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -38483,9 +38483,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -38494,9 +38494,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -38504,9 +38504,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -38514,9 +38514,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -38524,9 +38524,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304
@@ -38534,9 +38534,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -38544,9 +38544,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -38554,9 +38554,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -38565,9 +38565,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -38575,9 +38575,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304
@@ -38585,9 +38585,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -38595,9 +38595,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304
@@ -38605,9 +38605,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -38618,9 +38618,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -38629,9 +38629,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					33942,
@@ -38640,9 +38640,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -38650,9 +38650,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -38661,9 +38661,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -38671,9 +38671,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -38682,9 +38682,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -38694,9 +38694,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -38704,9 +38704,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -38714,9 +38714,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -38724,9 +38724,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -38734,9 +38734,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -38745,9 +38745,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304
@@ -38755,9 +38755,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -38765,9 +38765,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304
@@ -38775,9 +38775,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -38786,9 +38786,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -38797,9 +38797,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304
@@ -38807,9 +38807,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -38817,9 +38817,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -38827,9 +38827,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304
@@ -38837,9 +38837,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -2
 				},
 				items = {
 					34304,
@@ -38848,9 +38848,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -38858,9 +38858,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -38868,9 +38868,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = -1
 				},
 				items = {
 					34304,
@@ -38879,9 +38879,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -38889,9 +38889,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -38899,9 +38899,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 0
 				},
 				items = {
 					34304
@@ -38909,9 +38909,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -38919,9 +38919,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304
@@ -38929,9 +38929,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 1
 				},
 				items = {
 					34304
@@ -38939,9 +38939,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304
@@ -38949,9 +38949,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -38960,9 +38960,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 3
+					y = 3,
+					x = 2
 				},
 				items = {
 					34304,
@@ -38974,9 +38974,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -4
 				},
 				items = {
 					33942,
@@ -38985,9 +38985,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -38996,9 +38996,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34304,
@@ -39007,9 +39007,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34304
@@ -39017,9 +39017,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -39027,9 +39027,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304
@@ -39037,9 +39037,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -39048,9 +39048,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -39058,9 +39058,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -39068,9 +39068,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -39078,9 +39078,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -39089,9 +39089,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -39101,9 +39101,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -39111,9 +39111,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304
@@ -39121,9 +39121,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -39132,9 +39132,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -39143,9 +39143,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34304
@@ -39153,9 +39153,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34304
@@ -39163,9 +39163,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34304,
@@ -39175,9 +39175,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -39185,9 +39185,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -39195,9 +39195,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -39206,9 +39206,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -39216,9 +39216,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -39226,9 +39226,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -39236,9 +39236,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304
@@ -39246,9 +39246,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -39256,9 +39256,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -39266,9 +39266,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -39277,9 +39277,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -39287,9 +39287,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304
@@ -39297,9 +39297,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -39307,9 +39307,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304
@@ -39317,9 +39317,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34304,
@@ -39332,9 +39332,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34299,
@@ -39343,9 +39343,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -39354,9 +39354,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -39364,9 +39364,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = -1
 				},
 				items = {
 					33942,
@@ -39375,9 +39375,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34299,
@@ -39386,9 +39386,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -39396,9 +39396,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -39406,9 +39406,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34299
@@ -39416,9 +39416,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -39426,9 +39426,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -39436,9 +39436,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34299
@@ -39446,9 +39446,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -39456,9 +39456,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -39466,9 +39466,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299,
@@ -39477,9 +39477,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -39487,9 +39487,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -39498,9 +39498,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -39508,9 +39508,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -39518,9 +39518,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -39528,9 +39528,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -39538,9 +39538,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -39548,9 +39548,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -39558,9 +39558,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -39568,9 +39568,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -39578,9 +39578,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299
@@ -39588,9 +39588,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -39599,9 +39599,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34299,
@@ -39610,9 +39610,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299
@@ -39620,9 +39620,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -39630,9 +39630,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -39640,9 +39640,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -39651,9 +39651,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -39664,9 +39664,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34299
@@ -39674,9 +39674,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34299,
@@ -39685,9 +39685,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -39696,9 +39696,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -39707,9 +39707,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -39717,9 +39717,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -39727,9 +39727,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -39737,9 +39737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -39747,9 +39747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -39757,9 +39757,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -39768,9 +39768,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -39778,9 +39778,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -39789,9 +39789,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -39799,9 +39799,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -39810,9 +39810,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34299
@@ -39820,9 +39820,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34299
@@ -39830,9 +39830,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34299,
@@ -39841,9 +39841,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -39851,9 +39851,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -39861,9 +39861,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -39872,9 +39872,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -39882,9 +39882,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -39892,9 +39892,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -39902,9 +39902,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -39912,9 +39912,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -39922,9 +39922,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -39932,9 +39932,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -39942,9 +39942,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -39952,9 +39952,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -39963,9 +39963,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -39973,9 +39973,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299
@@ -39983,9 +39983,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -39996,9 +39996,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					34299,
@@ -40007,9 +40007,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -40018,9 +40018,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -40028,9 +40028,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = -1
 				},
 				items = {
 					33942,
@@ -40039,9 +40039,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					34299,
@@ -40050,9 +40050,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -40060,9 +40060,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -40070,9 +40070,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					34299
@@ -40080,9 +40080,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -40090,9 +40090,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -40100,9 +40100,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					34299
@@ -40110,9 +40110,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299
@@ -40120,9 +40120,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -40130,9 +40130,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299,
@@ -40141,9 +40141,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -40151,9 +40151,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -40162,9 +40162,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -40172,9 +40172,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -40182,9 +40182,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -40192,9 +40192,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -40202,9 +40202,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -40212,9 +40212,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -40222,9 +40222,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -40232,9 +40232,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -40242,9 +40242,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299
@@ -40252,9 +40252,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -4
+					y = -4,
+					x = 2
 				},
 				items = {
 					33942,
@@ -40263,9 +40263,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					34299,
@@ -40274,9 +40274,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299
@@ -40284,9 +40284,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -40294,9 +40294,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -40304,9 +40304,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -40315,9 +40315,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -40328,9 +40328,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					34299
@@ -40338,9 +40338,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					34299,
@@ -40349,9 +40349,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -40360,9 +40360,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -40371,9 +40371,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299
@@ -40381,9 +40381,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299
@@ -40391,9 +40391,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -40401,9 +40401,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -40411,9 +40411,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -40421,9 +40421,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -40432,9 +40432,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -40442,9 +40442,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -40453,9 +40453,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -40463,9 +40463,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -4,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -4
 				},
 				items = {
 					33942,
@@ -40474,9 +40474,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					34299
@@ -40484,9 +40484,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					34299
@@ -40494,9 +40494,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					34299,
@@ -40505,9 +40505,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -40515,9 +40515,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -40525,9 +40525,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -40536,9 +40536,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -40546,9 +40546,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -40556,9 +40556,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299
@@ -40566,9 +40566,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -40576,9 +40576,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -40586,9 +40586,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -40596,9 +40596,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -40606,9 +40606,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299
@@ -40616,9 +40616,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -40627,9 +40627,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -40637,9 +40637,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299
@@ -40647,9 +40647,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -40662,9 +40662,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -40673,9 +40673,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -40683,9 +40683,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -40693,9 +40693,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -40703,9 +40703,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -40713,9 +40713,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -40723,9 +40723,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -40733,9 +40733,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -40744,9 +40744,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -40756,9 +40756,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -40766,9 +40766,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -40777,9 +40777,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -40787,9 +40787,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -40797,9 +40797,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -40810,9 +40810,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -40821,9 +40821,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -40833,9 +40833,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -40843,9 +40843,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -40853,9 +40853,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -40863,9 +40863,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -40874,9 +40874,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -40884,9 +40884,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -40895,9 +40895,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -40905,9 +40905,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -40915,9 +40915,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -40925,9 +40925,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -40935,9 +40935,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -40945,9 +40945,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -40958,9 +40958,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -40969,9 +40969,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -40979,9 +40979,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -40989,9 +40989,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -40999,9 +40999,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -41009,9 +41009,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -41019,9 +41019,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -41029,9 +41029,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -41040,9 +41040,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -41052,9 +41052,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -41062,9 +41062,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -41073,9 +41073,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -41083,9 +41083,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -41093,9 +41093,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -41106,9 +41106,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -41117,9 +41117,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270,
@@ -41129,9 +41129,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -41139,9 +41139,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -41149,9 +41149,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -41159,9 +41159,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -41170,9 +41170,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -41180,9 +41180,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -41191,9 +41191,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -41201,9 +41201,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -41211,9 +41211,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -41221,9 +41221,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -41231,9 +41231,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -41241,9 +41241,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -41256,9 +41256,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -41267,9 +41267,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -41278,9 +41278,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -41289,9 +41289,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -41299,9 +41299,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -41310,9 +41310,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -41320,9 +41320,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -41330,9 +41330,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -41340,9 +41340,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -41351,9 +41351,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -41362,9 +41362,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -41372,9 +41372,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -41384,9 +41384,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -41395,9 +41395,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -41406,9 +41406,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -41417,9 +41417,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -41427,9 +41427,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -41438,9 +41438,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -41448,9 +41448,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -41458,9 +41458,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -41468,9 +41468,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -41479,9 +41479,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -41490,9 +41490,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -41500,9 +41500,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -41512,9 +41512,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -41523,9 +41523,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -41534,9 +41534,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -41545,9 +41545,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -41555,9 +41555,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -41566,9 +41566,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -41576,9 +41576,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -41586,9 +41586,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -41596,9 +41596,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -41607,9 +41607,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -41618,9 +41618,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -41628,9 +41628,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -41640,9 +41640,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -41651,9 +41651,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -41662,9 +41662,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -41673,9 +41673,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -41683,9 +41683,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305,
@@ -41694,9 +41694,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -41704,9 +41704,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -41714,9 +41714,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -41724,9 +41724,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -41735,9 +41735,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305,
@@ -41746,9 +41746,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -41756,9 +41756,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -41770,9 +41770,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -41781,9 +41781,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -41793,9 +41793,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331,
@@ -41807,9 +41807,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -41817,9 +41817,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -41827,9 +41827,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -41839,9 +41839,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -41849,9 +41849,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -41859,9 +41859,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -41873,9 +41873,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -41883,9 +41883,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -41893,9 +41893,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -41904,9 +41904,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -41914,9 +41914,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -41924,9 +41924,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -41934,9 +41934,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -41944,9 +41944,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -41954,9 +41954,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -41965,9 +41965,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -41976,9 +41976,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -41986,9 +41986,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -41999,9 +41999,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -42012,9 +42012,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -42022,9 +42022,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					33942,
@@ -42033,9 +42033,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -42043,9 +42043,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -42056,9 +42056,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -42068,9 +42068,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -42078,9 +42078,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -42088,9 +42088,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -42100,9 +42100,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -42110,9 +42110,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -42120,9 +42120,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -42131,9 +42131,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -42141,9 +42141,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -42151,9 +42151,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -42161,9 +42161,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -42171,9 +42171,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -42181,9 +42181,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -42192,9 +42192,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -42202,9 +42202,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -42213,9 +42213,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -42226,9 +42226,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -42237,9 +42237,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -42249,9 +42249,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331,
@@ -42263,9 +42263,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -42273,9 +42273,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -42283,9 +42283,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -42295,9 +42295,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -42305,9 +42305,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -42315,9 +42315,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -42329,9 +42329,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -42339,9 +42339,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -42349,9 +42349,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -42360,9 +42360,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -42370,9 +42370,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -42380,9 +42380,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -42390,9 +42390,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -42400,9 +42400,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -42410,9 +42410,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -42421,9 +42421,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -42432,9 +42432,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -42442,9 +42442,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -42455,9 +42455,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -42468,9 +42468,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -42478,9 +42478,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					33942,
@@ -42489,9 +42489,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -42499,9 +42499,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -42512,9 +42512,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -42524,9 +42524,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -42534,9 +42534,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -42544,9 +42544,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -42556,9 +42556,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -42566,9 +42566,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -42576,9 +42576,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -42587,9 +42587,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -42597,9 +42597,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -42607,9 +42607,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -42617,9 +42617,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -42627,9 +42627,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -42637,9 +42637,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -42648,9 +42648,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -42658,9 +42658,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -42669,9 +42669,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -42684,9 +42684,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -42695,9 +42695,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -42706,9 +42706,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -42716,9 +42716,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -42726,9 +42726,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -42737,9 +42737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -42747,9 +42747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -42758,9 +42758,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -42768,9 +42768,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -42778,9 +42778,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -42788,9 +42788,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -42799,9 +42799,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -42809,9 +42809,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -42822,9 +42822,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -42833,9 +42833,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -42843,9 +42843,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -42854,9 +42854,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -42865,9 +42865,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -42875,9 +42875,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -42885,9 +42885,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -42896,9 +42896,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -42906,9 +42906,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -42916,9 +42916,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -42926,9 +42926,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -42937,9 +42937,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -42947,9 +42947,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -42960,9 +42960,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -42971,9 +42971,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -42982,9 +42982,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -42992,9 +42992,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -43002,9 +43002,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -43013,9 +43013,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -43023,9 +43023,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -43034,9 +43034,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -43044,9 +43044,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299
@@ -43054,9 +43054,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -43064,9 +43064,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -43075,9 +43075,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -43085,9 +43085,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -43098,9 +43098,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -43109,9 +43109,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -43119,9 +43119,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -43130,9 +43130,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -43141,9 +43141,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299
@@ -43151,9 +43151,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299
@@ -43161,9 +43161,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -43172,9 +43172,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299
@@ -43182,9 +43182,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299
@@ -43192,9 +43192,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -43202,9 +43202,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -43213,9 +43213,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -43223,9 +43223,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -43238,9 +43238,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -43249,9 +43249,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -43261,9 +43261,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -43271,9 +43271,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -43281,9 +43281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -43293,9 +43293,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -43303,9 +43303,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -43313,9 +43313,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -43323,9 +43323,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -43334,9 +43334,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -43344,9 +43344,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -43354,9 +43354,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -43364,9 +43364,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -43374,9 +43374,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -43384,9 +43384,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -43394,9 +43394,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -43404,9 +43404,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -43415,9 +43415,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -43426,9 +43426,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -43437,9 +43437,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -43447,9 +43447,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -43460,9 +43460,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -43471,9 +43471,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331
@@ -43481,9 +43481,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -43492,9 +43492,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -43502,9 +43502,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -43512,9 +43512,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -43522,9 +43522,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -43533,9 +43533,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -43543,9 +43543,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -43553,9 +43553,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -43563,9 +43563,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -43573,9 +43573,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -43583,9 +43583,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -43593,9 +43593,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -43605,9 +43605,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -43617,9 +43617,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -43627,9 +43627,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -43637,9 +43637,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -43649,9 +43649,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -43659,9 +43659,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -43669,9 +43669,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -43682,9 +43682,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -43693,9 +43693,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -43705,9 +43705,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331
@@ -43715,9 +43715,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -43725,9 +43725,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -43737,9 +43737,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -43747,9 +43747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -43757,9 +43757,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -43767,9 +43767,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -43778,9 +43778,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -43788,9 +43788,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -43798,9 +43798,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -43808,9 +43808,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -43818,9 +43818,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331
@@ -43828,9 +43828,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -43838,9 +43838,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -43848,9 +43848,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -43859,9 +43859,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					32331,
@@ -43870,9 +43870,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -43881,9 +43881,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					32331
@@ -43891,9 +43891,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					32331,
@@ -43904,9 +43904,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -43915,9 +43915,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					32331
@@ -43925,9 +43925,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -43936,9 +43936,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -43946,9 +43946,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331
@@ -43956,9 +43956,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331
@@ -43966,9 +43966,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -43977,9 +43977,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -43987,9 +43987,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -43997,9 +43997,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331
@@ -44007,9 +44007,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -44017,9 +44017,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -44027,9 +44027,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -44037,9 +44037,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44049,9 +44049,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44061,9 +44061,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -44071,9 +44071,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -44081,9 +44081,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					32331,
@@ -44093,9 +44093,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					32331
@@ -44103,9 +44103,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					32331
@@ -44113,9 +44113,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44128,9 +44128,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -44139,9 +44139,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -44151,9 +44151,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -44161,9 +44161,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -44171,9 +44171,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44183,9 +44183,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -44193,9 +44193,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -44205,9 +44205,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -44215,9 +44215,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -44226,9 +44226,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -44236,9 +44236,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -44247,9 +44247,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44258,9 +44258,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44271,9 +44271,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331,
@@ -44282,9 +44282,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331,
@@ -44293,9 +44293,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -44304,9 +44304,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44316,9 +44316,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -44328,9 +44328,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -44338,9 +44338,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -44350,9 +44350,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -44360,9 +44360,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -44370,9 +44370,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -44380,9 +44380,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44391,9 +44391,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -44401,9 +44401,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44414,9 +44414,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -44425,9 +44425,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -44437,9 +44437,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -44447,9 +44447,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -44457,9 +44457,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44469,9 +44469,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					32331
@@ -44479,9 +44479,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					32331,
@@ -44491,9 +44491,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -44501,9 +44501,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -44512,9 +44512,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -44522,9 +44522,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331,
@@ -44533,9 +44533,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44544,9 +44544,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44557,9 +44557,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					32331,
@@ -44568,9 +44568,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					32331,
@@ -44579,9 +44579,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -44590,9 +44590,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44602,9 +44602,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -44614,9 +44614,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -44624,9 +44624,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -44636,9 +44636,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -44646,9 +44646,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -44656,9 +44656,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -44666,9 +44666,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44677,9 +44677,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -44687,9 +44687,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -44702,9 +44702,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -44713,9 +44713,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -44724,9 +44724,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -44734,9 +44734,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -44745,9 +44745,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -44755,9 +44755,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -44765,9 +44765,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -44776,9 +44776,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -44786,9 +44786,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -44797,9 +44797,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -44807,9 +44807,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -44819,9 +44819,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -44830,9 +44830,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -44840,9 +44840,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -44850,9 +44850,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -44861,9 +44861,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -44872,9 +44872,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -44882,9 +44882,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -44893,9 +44893,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -44903,9 +44903,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -44914,9 +44914,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -44924,9 +44924,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -44936,9 +44936,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -44947,9 +44947,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -44958,9 +44958,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -44968,9 +44968,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -44979,9 +44979,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -44989,9 +44989,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -44999,9 +44999,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -45010,9 +45010,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -45020,9 +45020,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -45031,9 +45031,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -45041,9 +45041,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -45053,9 +45053,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -45064,9 +45064,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -45074,9 +45074,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -45084,9 +45084,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -45095,9 +45095,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -45106,9 +45106,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -45116,9 +45116,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310,
@@ -45127,9 +45127,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -45137,9 +45137,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310,
@@ -45148,9 +45148,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -45158,9 +45158,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -45172,9 +45172,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -45183,9 +45183,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -45193,9 +45193,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -45203,9 +45203,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -45215,9 +45215,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -45225,9 +45225,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -45235,9 +45235,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -45245,9 +45245,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -45259,9 +45259,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -45269,9 +45269,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -45282,9 +45282,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -45295,9 +45295,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -45305,9 +45305,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -45317,9 +45317,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -45327,9 +45327,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -45337,9 +45337,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -45347,9 +45347,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -45358,9 +45358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -45368,9 +45368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -45378,9 +45378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -45391,9 +45391,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -45402,9 +45402,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331
@@ -45412,9 +45412,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -45422,9 +45422,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -45434,9 +45434,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -45444,9 +45444,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -45454,9 +45454,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -45464,9 +45464,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -45478,9 +45478,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -45488,9 +45488,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -45501,9 +45501,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -45514,9 +45514,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -45524,9 +45524,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -45536,9 +45536,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -45546,9 +45546,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -45556,9 +45556,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -45566,9 +45566,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -45577,9 +45577,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331
@@ -45587,9 +45587,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -45597,9 +45597,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -45612,9 +45612,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -45622,9 +45622,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -45633,9 +45633,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -45644,9 +45644,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -45655,9 +45655,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -45666,9 +45666,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -45676,9 +45676,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -45687,9 +45687,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -45698,9 +45698,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -45709,9 +45709,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -45720,9 +45720,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -45730,9 +45730,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -45741,9 +45741,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -45751,9 +45751,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -45762,9 +45762,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299,
@@ -45773,9 +45773,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -45784,9 +45784,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -45795,9 +45795,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -45805,9 +45805,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299,
@@ -45816,9 +45816,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -45827,9 +45827,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -45837,9 +45837,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -45850,9 +45850,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -45860,9 +45860,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -45871,9 +45871,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -45882,9 +45882,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -45893,9 +45893,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -45904,9 +45904,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299,
@@ -45915,9 +45915,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -45926,9 +45926,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -45937,9 +45937,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -45948,9 +45948,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -45958,9 +45958,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -45968,9 +45968,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -45978,9 +45978,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -45989,9 +45989,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46000,9 +46000,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46011,9 +46011,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46022,9 +46022,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -46033,9 +46033,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -46044,9 +46044,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -46054,9 +46054,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -46064,9 +46064,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -46075,9 +46075,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -46088,9 +46088,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -46098,9 +46098,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -46109,9 +46109,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -46120,9 +46120,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46131,9 +46131,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46142,9 +46142,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299
@@ -46152,9 +46152,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -46163,9 +46163,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -46174,9 +46174,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -46185,9 +46185,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34299,
@@ -46196,9 +46196,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34299
@@ -46206,9 +46206,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -46217,9 +46217,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -46227,9 +46227,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -46238,9 +46238,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46249,9 +46249,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46260,9 +46260,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -46271,9 +46271,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299
@@ -46281,9 +46281,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299,
@@ -46292,9 +46292,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -46303,9 +46303,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34299
@@ -46313,9 +46313,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34299,
@@ -46326,9 +46326,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34299
@@ -46336,9 +46336,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34299,
@@ -46347,9 +46347,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -46358,9 +46358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46369,9 +46369,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46380,9 +46380,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34299,
@@ -46391,9 +46391,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -46402,9 +46402,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -46413,9 +46413,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -46424,9 +46424,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34299
@@ -46434,9 +46434,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34299
@@ -46444,9 +46444,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34299
@@ -46454,9 +46454,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34299,
@@ -46465,9 +46465,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46476,9 +46476,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46487,9 +46487,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34299,
@@ -46498,9 +46498,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34299,
@@ -46509,9 +46509,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34299,
@@ -46520,9 +46520,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34299
@@ -46530,9 +46530,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34299
@@ -46540,9 +46540,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34299,
@@ -46551,9 +46551,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34299,
@@ -46566,9 +46566,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -46577,9 +46577,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -46588,9 +46588,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -46598,9 +46598,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -46609,9 +46609,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -46619,9 +46619,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -46629,9 +46629,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -46639,9 +46639,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -46649,9 +46649,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -46659,9 +46659,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270,
@@ -46670,9 +46670,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -46681,9 +46681,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -46693,9 +46693,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -46703,9 +46703,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -46717,9 +46717,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -46728,9 +46728,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -46738,9 +46738,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -46750,9 +46750,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -46760,9 +46760,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -46770,9 +46770,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -46780,9 +46780,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -46790,9 +46790,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -46802,9 +46802,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -46813,9 +46813,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -46823,9 +46823,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -46834,9 +46834,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -46845,9 +46845,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -46855,9 +46855,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -46868,9 +46868,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -46879,9 +46879,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -46890,9 +46890,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -46900,9 +46900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -46911,9 +46911,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -46921,9 +46921,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -46931,9 +46931,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -46941,9 +46941,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -46951,9 +46951,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -46961,9 +46961,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270,
@@ -46972,9 +46972,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -46983,9 +46983,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -46995,9 +46995,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -47005,9 +47005,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -47019,9 +47019,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -47030,9 +47030,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -47040,9 +47040,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -47052,9 +47052,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -47062,9 +47062,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -47072,9 +47072,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -47082,9 +47082,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -47092,9 +47092,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -47104,9 +47104,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -47115,9 +47115,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -47125,9 +47125,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -47136,9 +47136,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270,
@@ -47147,9 +47147,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -47157,9 +47157,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -47172,9 +47172,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -47182,9 +47182,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -47193,9 +47193,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -47204,9 +47204,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304
@@ -47214,9 +47214,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -47224,9 +47224,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -47234,9 +47234,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -47244,9 +47244,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -47255,9 +47255,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -47266,9 +47266,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -47276,9 +47276,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304
@@ -47286,9 +47286,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -47297,9 +47297,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					33942,
@@ -47308,9 +47308,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -47319,9 +47319,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -47329,9 +47329,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -47340,9 +47340,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -47350,9 +47350,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -47360,9 +47360,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304
@@ -47370,9 +47370,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -47380,9 +47380,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -47391,9 +47391,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -47401,9 +47401,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -47411,9 +47411,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -47424,9 +47424,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -47435,9 +47435,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -47445,9 +47445,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -47456,9 +47456,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -47467,9 +47467,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -47478,9 +47478,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -47488,9 +47488,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					33942,
@@ -47499,9 +47499,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -47509,9 +47509,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -47519,9 +47519,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -47530,9 +47530,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -47541,9 +47541,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -47551,9 +47551,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -47561,9 +47561,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -47571,9 +47571,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -47582,9 +47582,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -47592,9 +47592,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -47602,9 +47602,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -47612,9 +47612,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -47623,9 +47623,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -47633,9 +47633,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -47643,9 +47643,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304
@@ -47653,9 +47653,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -47663,9 +47663,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -47676,9 +47676,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -47686,9 +47686,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -47697,9 +47697,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -47708,9 +47708,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304
@@ -47718,9 +47718,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -47728,9 +47728,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -47738,9 +47738,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -47748,9 +47748,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -47759,9 +47759,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -47770,9 +47770,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -47780,9 +47780,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34304
@@ -47790,9 +47790,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -47801,9 +47801,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 0
+					y = 0,
+					x = -3
 				},
 				items = {
 					33942,
@@ -47812,9 +47812,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -47823,9 +47823,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -47833,9 +47833,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -47844,9 +47844,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -47854,9 +47854,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -47864,9 +47864,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304
@@ -47874,9 +47874,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -47884,9 +47884,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304,
@@ -47895,9 +47895,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -47905,9 +47905,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34304
@@ -47915,9 +47915,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34304,
@@ -47928,9 +47928,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -47939,9 +47939,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34304
@@ -47949,9 +47949,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34304,
@@ -47960,9 +47960,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -47971,9 +47971,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34304,
@@ -47982,9 +47982,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34304
@@ -47992,9 +47992,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 0
 				},
 				items = {
 					33942,
@@ -48003,9 +48003,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34304
@@ -48013,9 +48013,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34304
@@ -48023,9 +48023,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -48034,9 +48034,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -48045,9 +48045,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34304
@@ -48055,9 +48055,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34304
@@ -48065,9 +48065,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34304
@@ -48075,9 +48075,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34304,
@@ -48086,9 +48086,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34304
@@ -48096,9 +48096,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34304
@@ -48106,9 +48106,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34304
@@ -48116,9 +48116,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34304,
@@ -48127,9 +48127,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34304
@@ -48137,9 +48137,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34304
@@ -48147,9 +48147,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34304
@@ -48157,9 +48157,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34304
@@ -48167,9 +48167,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34304,
@@ -48182,9 +48182,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -48193,9 +48193,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -48204,9 +48204,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -48215,9 +48215,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -48225,9 +48225,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -48236,9 +48236,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -48246,9 +48246,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -48256,9 +48256,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -48266,9 +48266,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -48276,9 +48276,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -48286,9 +48286,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -48297,9 +48297,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305
@@ -48307,9 +48307,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -48317,9 +48317,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -48327,9 +48327,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -48338,9 +48338,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34305
@@ -48348,9 +48348,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34305
@@ -48358,9 +48358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34305
@@ -48368,9 +48368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -48379,9 +48379,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -48389,9 +48389,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -48399,9 +48399,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -48409,9 +48409,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34305
@@ -48421,9 +48421,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -48432,9 +48432,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -48443,9 +48443,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305
@@ -48453,9 +48453,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -48463,9 +48463,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -48473,9 +48473,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -48483,9 +48483,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -48493,9 +48493,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305,
@@ -48504,9 +48504,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305,
@@ -48515,9 +48515,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -48525,9 +48525,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -48535,9 +48535,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -48546,9 +48546,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -48556,9 +48556,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -48566,9 +48566,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -48577,9 +48577,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305
@@ -48587,9 +48587,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34305
@@ -48597,9 +48597,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -48607,9 +48607,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34305
@@ -48617,9 +48617,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -48627,9 +48627,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34305
@@ -48637,9 +48637,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -48647,9 +48647,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -48660,9 +48660,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -48671,9 +48671,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305,
@@ -48682,9 +48682,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -48693,9 +48693,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -48703,9 +48703,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -48714,9 +48714,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -48724,9 +48724,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -48734,9 +48734,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305
@@ -48744,9 +48744,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305
@@ -48754,9 +48754,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -48764,9 +48764,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305,
@@ -48775,9 +48775,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305
@@ -48785,9 +48785,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -48795,9 +48795,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -48805,9 +48805,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -48816,9 +48816,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34305
@@ -48826,9 +48826,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34305
@@ -48836,9 +48836,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34305
@@ -48846,9 +48846,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305,
@@ -48857,9 +48857,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -48867,9 +48867,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -48877,9 +48877,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -48887,9 +48887,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34305
@@ -48899,9 +48899,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -48910,9 +48910,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -2
 				},
 				items = {
 					33942,
@@ -48921,9 +48921,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34305
@@ -48931,9 +48931,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34305
@@ -48941,9 +48941,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34305
@@ -48951,9 +48951,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34305
@@ -48961,9 +48961,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34305
@@ -48971,9 +48971,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34305,
@@ -48982,9 +48982,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34305,
@@ -48993,9 +48993,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34305
@@ -49003,9 +49003,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34305
@@ -49013,9 +49013,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -49024,9 +49024,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34305
@@ -49034,9 +49034,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34305
@@ -49044,9 +49044,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -49055,9 +49055,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34305
@@ -49065,9 +49065,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34305
@@ -49075,9 +49075,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34305
@@ -49085,9 +49085,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34305
@@ -49095,9 +49095,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34305
@@ -49105,9 +49105,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34305
@@ -49115,9 +49115,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34305
@@ -49125,9 +49125,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34305,
@@ -49140,9 +49140,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -49151,9 +49151,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -49162,9 +49162,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -49172,9 +49172,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -49182,9 +49182,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -49192,9 +49192,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -49204,9 +49204,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -49214,9 +49214,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -49224,9 +49224,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -49234,9 +49234,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -49247,9 +49247,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -49259,9 +49259,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -49269,9 +49269,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -49279,9 +49279,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -49289,9 +49289,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -49300,9 +49300,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -49311,9 +49311,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -49321,9 +49321,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -49332,9 +49332,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -49342,9 +49342,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -49354,9 +49354,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					33942,
@@ -49365,9 +49365,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -49376,9 +49376,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -49386,9 +49386,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -49396,9 +49396,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -49406,9 +49406,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -49418,9 +49418,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -49428,9 +49428,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331
@@ -49438,9 +49438,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -49448,9 +49448,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -49461,9 +49461,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -49473,9 +49473,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					32331
@@ -49483,9 +49483,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					32331
@@ -49493,9 +49493,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					32331
@@ -49503,9 +49503,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -49514,9 +49514,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					32331,
@@ -49525,9 +49525,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					32331
@@ -49535,9 +49535,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					32331,
@@ -49546,9 +49546,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					32331
@@ -49556,9 +49556,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					32331
@@ -49570,9 +49570,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -49582,9 +49582,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -49594,9 +49594,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -49604,9 +49604,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -49615,9 +49615,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -49625,9 +49625,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -49635,9 +49635,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -49645,9 +49645,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -49655,9 +49655,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -49665,9 +49665,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -49675,9 +49675,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310
@@ -49685,9 +49685,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -49695,9 +49695,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -49705,9 +49705,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -49716,9 +49716,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34310,
@@ -49728,9 +49728,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34310
@@ -49738,9 +49738,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34310
@@ -49748,9 +49748,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -49760,9 +49760,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -49770,9 +49770,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -49780,9 +49780,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -49791,9 +49791,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34310,
@@ -49805,9 +49805,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -49816,9 +49816,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310
@@ -49826,9 +49826,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -49838,9 +49838,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -49848,9 +49848,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -49858,9 +49858,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -49868,9 +49868,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -49878,9 +49878,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -49888,9 +49888,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -49898,9 +49898,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -49908,9 +49908,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -49921,9 +49921,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -49932,9 +49932,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -49942,9 +49942,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -49953,9 +49953,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -49963,9 +49963,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -49975,9 +49975,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -49985,9 +49985,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34310,
@@ -49997,9 +49997,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -50007,9 +50007,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34310
@@ -50017,9 +50017,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -50027,9 +50027,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -50040,9 +50040,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -50052,9 +50052,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -50064,9 +50064,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -50074,9 +50074,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -50085,9 +50085,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -50095,9 +50095,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -50105,9 +50105,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -50115,9 +50115,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -50125,9 +50125,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -50135,9 +50135,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -50145,9 +50145,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310
@@ -50155,9 +50155,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -50165,9 +50165,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -50175,9 +50175,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -50186,9 +50186,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34310,
@@ -50198,9 +50198,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34310
@@ -50208,9 +50208,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34310
@@ -50218,9 +50218,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -50230,9 +50230,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -50240,9 +50240,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -50250,9 +50250,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -50261,9 +50261,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34310,
@@ -50275,9 +50275,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -50286,9 +50286,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310
@@ -50296,9 +50296,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310,
@@ -50308,9 +50308,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -50318,9 +50318,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -50328,9 +50328,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -50338,9 +50338,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -50348,9 +50348,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -50358,9 +50358,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -50368,9 +50368,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -50378,9 +50378,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -50391,9 +50391,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -50402,9 +50402,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -50412,9 +50412,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -50423,9 +50423,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -50433,9 +50433,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -50445,9 +50445,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -50455,9 +50455,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34310,
@@ -50467,9 +50467,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -50477,9 +50477,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34310
@@ -50487,9 +50487,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310
@@ -50497,9 +50497,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -50512,9 +50512,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -50523,9 +50523,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -50533,9 +50533,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -50543,9 +50543,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -50553,9 +50553,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -50563,9 +50563,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -50573,9 +50573,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -50583,9 +50583,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -50593,9 +50593,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -50603,9 +50603,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -50613,9 +50613,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -50623,9 +50623,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -50633,9 +50633,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -50644,9 +50644,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -50656,9 +50656,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -50666,9 +50666,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -50676,9 +50676,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -50687,9 +50687,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -50698,9 +50698,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -50708,9 +50708,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -50718,9 +50718,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -50729,9 +50729,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -50743,9 +50743,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -50754,9 +50754,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270
@@ -50764,9 +50764,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -50776,9 +50776,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -50786,9 +50786,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -50796,9 +50796,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -50806,9 +50806,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -50816,9 +50816,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -50826,9 +50826,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -50836,9 +50836,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -50846,9 +50846,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -50858,9 +50858,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -50869,9 +50869,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -50879,9 +50879,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -50890,9 +50890,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -50900,9 +50900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -50911,9 +50911,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -50921,9 +50921,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -50931,9 +50931,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -50941,9 +50941,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -50951,9 +50951,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -50961,9 +50961,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -50974,9 +50974,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -50985,9 +50985,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270
@@ -50995,9 +50995,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -51005,9 +51005,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -51015,9 +51015,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -51025,9 +51025,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -51035,9 +51035,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -51045,9 +51045,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -51055,9 +51055,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -51065,9 +51065,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270
@@ -51075,9 +51075,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270
@@ -51085,9 +51085,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -51095,9 +51095,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -51106,9 +51106,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34270,
@@ -51118,9 +51118,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34270
@@ -51128,9 +51128,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34270
@@ -51138,9 +51138,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -51149,9 +51149,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -51160,9 +51160,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -51170,9 +51170,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -51180,9 +51180,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -51191,9 +51191,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34270,
@@ -51205,9 +51205,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -1
+					y = -1,
+					x = -3
 				},
 				items = {
 					33942,
@@ -51216,9 +51216,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34270
@@ -51226,9 +51226,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34270,
@@ -51238,9 +51238,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34270
@@ -51248,9 +51248,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34270
@@ -51258,9 +51258,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34270
@@ -51268,9 +51268,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34270
@@ -51278,9 +51278,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34270
@@ -51288,9 +51288,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34270
@@ -51298,9 +51298,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34270
@@ -51308,9 +51308,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -51320,9 +51320,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34270,
@@ -51331,9 +51331,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34270
@@ -51341,9 +51341,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = 2
+					y = 2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -51352,9 +51352,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34270
@@ -51362,9 +51362,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34270,
@@ -51373,9 +51373,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34270
@@ -51383,9 +51383,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34270
@@ -51393,9 +51393,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34270
@@ -51403,9 +51403,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34270
@@ -51413,9 +51413,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34270
@@ -51423,9 +51423,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34270,
@@ -51438,9 +51438,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -51449,9 +51449,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -51460,9 +51460,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -51470,9 +51470,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -51480,9 +51480,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -51490,9 +51490,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -51500,9 +51500,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -51510,9 +51510,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -51521,9 +51521,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -51532,9 +51532,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -51542,9 +51542,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -51553,9 +51553,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -51563,9 +51563,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -51573,9 +51573,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -51585,9 +51585,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300,
@@ -51596,9 +51596,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -51606,9 +51606,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -51616,9 +51616,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -51626,9 +51626,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -51637,9 +51637,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -51648,9 +51648,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -51658,9 +51658,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -51669,9 +51669,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -51679,9 +51679,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -51690,9 +51690,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -51700,9 +51700,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -51710,9 +51710,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -51720,9 +51720,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -51732,9 +51732,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					33942,
@@ -51743,9 +51743,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -51754,9 +51754,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34300
@@ -51764,9 +51764,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -51774,9 +51774,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -51784,9 +51784,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -51794,9 +51794,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -51804,9 +51804,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					33942,
@@ -51815,9 +51815,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300,
@@ -51826,9 +51826,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -51836,9 +51836,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34300,
@@ -51847,9 +51847,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300
@@ -51857,9 +51857,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -51867,9 +51867,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -51879,9 +51879,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34300,
@@ -51890,9 +51890,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34300
@@ -51900,9 +51900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34300
@@ -51910,9 +51910,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34300
@@ -51920,9 +51920,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -51931,9 +51931,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34300,
@@ -51942,9 +51942,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34300
@@ -51952,9 +51952,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = false,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					33942,
@@ -51963,9 +51963,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34300
@@ -51973,9 +51973,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34300,
@@ -51984,9 +51984,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34300
@@ -51994,9 +51994,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34300
@@ -52004,9 +52004,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34300
@@ -52014,9 +52014,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34300
@@ -52028,9 +52028,9 @@ ROOM_MODELS = {
 		[0] = {
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -52040,9 +52040,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -52050,9 +52050,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -52061,9 +52061,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -52071,9 +52071,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -52081,9 +52081,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -52091,9 +52091,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -52101,9 +52101,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310
@@ -52111,9 +52111,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -52121,9 +52121,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -52132,9 +52132,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34310,
@@ -52144,9 +52144,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34310
@@ -52154,9 +52154,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -52164,9 +52164,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -52174,9 +52174,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -52184,9 +52184,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -52194,9 +52194,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -52204,9 +52204,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -52214,9 +52214,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -52224,9 +52224,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -52236,9 +52236,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34310
@@ -52246,9 +52246,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34310,
@@ -52260,9 +52260,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -52271,9 +52271,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -52283,9 +52283,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -52293,9 +52293,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -52303,9 +52303,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -52313,9 +52313,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -52323,9 +52323,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -52333,9 +52333,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -52344,9 +52344,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310
@@ -52354,9 +52354,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -52364,9 +52364,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -52374,9 +52374,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -52384,9 +52384,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -52396,9 +52396,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -52406,9 +52406,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -52416,9 +52416,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34310
@@ -52426,9 +52426,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -52436,9 +52436,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -52446,9 +52446,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34310
@@ -52456,9 +52456,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -52466,9 +52466,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -52478,9 +52478,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34310,
@@ -52492,9 +52492,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -52504,9 +52504,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -52514,9 +52514,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = -1
 				},
 				items = {
 					33942,
@@ -52525,9 +52525,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -52535,9 +52535,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -52545,9 +52545,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -52555,9 +52555,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -52565,9 +52565,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310
@@ -52575,9 +52575,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -52585,9 +52585,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 2
 				},
 				items = {
 					33942,
@@ -52596,9 +52596,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 2
 				},
 				items = {
 					34310,
@@ -52608,9 +52608,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 2
 				},
 				items = {
 					34310
@@ -52618,9 +52618,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -52628,9 +52628,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -52638,9 +52638,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -52648,9 +52648,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -52658,9 +52658,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -52668,9 +52668,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -52678,9 +52678,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -52688,9 +52688,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -52700,9 +52700,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 2
 				},
 				items = {
 					34310
@@ -52710,9 +52710,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 2
 				},
 				items = {
 					34310,
@@ -52724,9 +52724,9 @@ ROOM_MODELS = {
 		{
 			{
 				position = {
-					x = -3,
 					isRoomTile = false,
-					y = -2
+					y = -2,
+					x = -3
 				},
 				items = {
 					33942,
@@ -52735,9 +52735,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -52747,9 +52747,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -2
 				},
 				items = {
 					34310
@@ -52757,9 +52757,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = -1
 				},
 				items = {
 					34310
@@ -52767,9 +52767,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = -1
 				},
 				items = {
 					34310
@@ -52777,9 +52777,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 0
 				},
 				items = {
 					34310
@@ -52787,9 +52787,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 0
 				},
 				items = {
 					34310
@@ -52797,9 +52797,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = false,
-					y = -3
+					y = -3,
+					x = 1
 				},
 				items = {
 					33942,
@@ -52808,9 +52808,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -2
+					y = -2,
+					x = 1
 				},
 				items = {
 					34310
@@ -52818,9 +52818,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = -1
+					y = -1,
+					x = 1
 				},
 				items = {
 					34310
@@ -52828,9 +52828,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -2
 				},
 				items = {
 					34310
@@ -52838,9 +52838,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -2
 				},
 				items = {
 					34310
@@ -52848,9 +52848,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -2,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -2
 				},
 				items = {
 					34310,
@@ -52860,9 +52860,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = -1
 				},
 				items = {
 					34310
@@ -52870,9 +52870,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = -1
 				},
 				items = {
 					34310
@@ -52880,9 +52880,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = -1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = -1
 				},
 				items = {
 					34310
@@ -52890,9 +52890,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 0
 				},
 				items = {
 					34310
@@ -52900,9 +52900,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 0
 				},
 				items = {
 					34310
@@ -52910,9 +52910,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 0,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 0
 				},
 				items = {
 					34310
@@ -52920,9 +52920,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 0
+					y = 0,
+					x = 1
 				},
 				items = {
 					34310
@@ -52930,9 +52930,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 1
+					y = 1,
+					x = 1
 				},
 				items = {
 					34310,
@@ -52942,9 +52942,9 @@ ROOM_MODELS = {
 			},
 			{
 				position = {
-					x = 1,
 					isRoomTile = true,
-					y = 2
+					y = 2,
+					x = 1
 				},
 				items = {
 					34310,

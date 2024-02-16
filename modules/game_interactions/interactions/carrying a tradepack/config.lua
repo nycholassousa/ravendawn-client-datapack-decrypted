@@ -31,9 +31,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("tradepack")
 
 					GameInteractions:displayActionBox({
-						bandit = true,
 						preferSide = "top",
 						text = "Press T or Left-Click to open your Tradepacks menu",
+						bandit = true,
 						keys = {
 							"T",
 							MouseLeftButton
@@ -107,9 +107,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					bandit = true,
 					preferSide = "right",
 					text = "Select any Tradepack from the list and have a look!",
+					bandit = true,
 					keys = {
 						MouseLeftButton
 					},
@@ -211,9 +211,9 @@ tasks = {
 				local tradepacksWindow = modules.game_tradepacks.GameTradepacks.window
 
 				GameInteractions:displayActionBox({
-					bandit = true,
 					preferSide = "top",
 					text = "Now open your Tradepack Bags",
+					bandit = true,
 					keys = {
 						MouseLeftButton
 					},

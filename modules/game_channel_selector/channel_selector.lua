@@ -186,12 +186,17 @@ function onExtendedOpcode(protocol, opcode, buffer)
 		return
 	end
 
-	table.sort(data.channels, function(a, b)
-		if a.id < b.id then
-			return true
-		end
+	local function padnum(d)
+		local dec, n = string.match(d, "(%.?)0*(.+)")
 
-		return false
+		return #dec > 0 and ("%.4f"):format(d) or ("%s%03d%s"):format(dec, #n, n)
+	end
+
+	table.sort(data.channels, function(a, b)
+		a = a.name
+		b = b.name
+
+		return tostring(a):gsub("%.?%d+", padnum) .. ("%3d"):format(#b) < tostring(b):gsub("%.?%d+", padnum) .. ("%3d"):format(#a)
 	end)
 
 	if data.action == "open_channel_selection_window" then

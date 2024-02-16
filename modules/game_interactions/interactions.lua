@@ -125,11 +125,11 @@ function GameInteractions:init()
 	})
 
 	self.border_animation = Animation.create({
-		loop = -1,
-		framesCount = 49,
 		duration = 2500,
 		imageSource = "/images/ui/windows/interactions/animations/bandit_border/border_highlight_%02d",
 		pauseWhenHidden = true,
+		loop = -1,
+		framesCount = 49,
 		canvas = self.bandit_avatar.border_highlight,
 		frames = FramesDataset.border_highlight,
 		onResume = function(self)
@@ -140,10 +140,10 @@ function GameInteractions:init()
 	self.border_animation:start()
 
 	self.exclamation_animation = Animation.create({
-		loop = -1,
-		framesCount = 49,
 		pauseWhenHidden = true,
 		duration = 2500,
+		loop = -1,
+		framesCount = 49,
 		canvas = self.bandit_avatar.exclamation,
 		onResume = function(self)
 			return
@@ -1777,8 +1777,8 @@ function GameInteractions:banditShake()
 		intensity, n = intensity or 2, n or 10
 
 		self:setImageOffset({
-			x = 0,
-			y = 0
+			y = 0,
+			x = 0
 		})
 
 		if n > 0 then

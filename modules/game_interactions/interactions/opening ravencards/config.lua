@@ -73,9 +73,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("ravencards")
 
 					GameInteractions:displayActionBox({
+						preferSide = "top",
 						text = "Press G or Left-Click to open your RavenCards menu",
 						bandit = true,
-						preferSide = "top",
 						keys = {
 							"G",
 							MouseLeftButton
@@ -119,9 +119,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
+					preferSide = "top",
 					text = "We need to open up a pack of cards before anything else, so click on the Packs tab!",
 					bandit = true,
-					preferSide = "top",
 					keys = {
 						MouseLeftButton
 					},
@@ -164,9 +164,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
+					preferSide = "top",
 					text = "Since a Standard Pack is already selected, all you have to do now is open it!",
 					bandit = true,
-					preferSide = "top",
 					keys = {
 						MouseLeftButton
 					},
@@ -249,9 +249,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
+					preferSide = "left",
 					text = "Now press ESC or left mouse button to close this window",
 					bandit = true,
-					preferSide = "left",
 					keys = {
 						"ESC",
 						MouseLeftButton
@@ -287,9 +287,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("ravencards")
 
 					GameInteractions:displayActionBox({
+						preferSide = "top",
 						text = "Press G or Left-Click to open your RavenCards menu",
 						bandit = true,
-						preferSide = "top",
 						keys = {
 							"G",
 							MouseLeftButton

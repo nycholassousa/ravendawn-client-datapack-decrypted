@@ -85,16 +85,16 @@ local function getBaseMoaStats(sex)
 		3535
 	}
 	local info = {
-		stamina = 1000,
-		bondExperience = 0,
-		bondLevel = 1,
-		breedLimit = 2,
 		weight = 50,
 		height = 130,
 		strength = 40,
 		speed = 310,
 		trait = 0,
 		tier = 1,
+		stamina = 1000,
+		bondExperience = 0,
+		bondLevel = 1,
+		breedLimit = 2,
 		sex = sex,
 		abilities = {},
 		outfit = {
@@ -1142,8 +1142,8 @@ function g_gameTooltip.displayCreature(outfit, outfitId, extraData, disappearOnM
 	local trait = {}
 	local abilities = {}
 	local breedLimit = {
-		current = 0,
-		total = 0
+		total = 0,
+		current = 0
 	}
 	local ship = ShipParts[outfitId]
 
@@ -1349,27 +1349,27 @@ function g_gameTooltip.displayReputationPoints(widget, disappearOnMove)
 	local criminalPoints = tooltip.points and tooltip.points[REPUTATION_CRIMINAL] or 0
 	local attributes = {
 		{
+			condition = true,
 			format = "%s",
 			style = "GameTooltipAttributeReputationCriminal",
-			condition = true,
 			list = body.reputation.list,
 			values = {
 				criminalPoints
 			}
 		},
 		{
+			condition = true,
 			format = "%s",
 			style = "GameTooltipAttributeReputationMercenary",
-			condition = true,
 			list = body.reputation.list,
 			values = {
 				mercenaryPoints
 			}
 		},
 		{
+			condition = true,
 			format = "%s",
 			style = "GameTooltipAttributeReputationOrder",
-			condition = true,
 			list = body.reputation.list,
 			values = {
 				orderPoints
@@ -1457,15 +1457,15 @@ function g_gameTooltip.displayAttributesPoints(widget, disappearOnMove)
 	local totalInactivePoints = 0
 	local attributes = {
 		{
-			font = "poppins-14",
 			condition = true,
 			format = "Current: {+%s points, #77D463}",
+			font = "poppins-14",
 			list = body.activeArcheypesPoints.list
 		},
 		{
-			font = "poppins-14",
 			condition = true,
 			format = "Inactive: {+%s points, #77D463}",
+			font = "poppins-14",
 			list = body.inactiveArcheypesPoints.list
 		},
 		{
@@ -1481,9 +1481,9 @@ function g_gameTooltip.displayAttributesPoints(widget, disappearOnMove)
 		if not archetypeData.active then
 			local points = getArchetypeExtraPoints(archetypeData.level)
 			local attribute = {
+				condition = true,
 				format = "{[%d] %s, #CED2D9} {+%d point%s, white}",
 				style = "GameTooltipArchetype",
-				condition = true,
 				list = body.inactiveArcheypes.list,
 				values = {
 					archetypeData.level,
@@ -1504,9 +1504,9 @@ function g_gameTooltip.displayAttributesPoints(widget, disappearOnMove)
 		else
 			local points = getArchetypeExtraPoints(archetypeData.level)
 			local attribute = {
+				condition = true,
 				format = "{[%d] %s, #CED2D9} {+%d point%s, white}",
 				style = "GameTooltipArchetype",
-				condition = true,
 				list = body.activeArcheypes.list,
 				values = {
 					archetypeData.level,
@@ -1536,8 +1536,8 @@ function g_gameTooltip.displayAttributesPoints(widget, disappearOnMove)
 
 	table.insert(attributes, {
 		condition = true,
-		font = "poppins-16",
 		format = "Total: {+%d points, #77D463}",
+		font = "poppins-16",
 		list = bottom.description.list,
 		values = {
 			totalActivePoints + totalInactivePoints
@@ -1586,8 +1586,8 @@ function g_gameTooltip.displayRangersCompanyPremiumTooltip(widget, disappearOnMo
 	if not isPremium then
 		attributes = {
 			{
-				format = "{%s, #36F991}",
 				condition = true,
+				format = "{%s, #36F991}",
 				list = body.description.list,
 				values = {
 					"Unlock a Reduced Cooldown with Patron!"
@@ -1644,9 +1644,9 @@ function g_gameTooltip.displayEffortPremiumTooltip(widget, disappearOnMove)
 	if not isPremium then
 		attributes = {
 			{
+				condition = true,
 				format = "{%s, %s}",
 				style = "GameTooltipPremiumFeature",
-				condition = true,
 				list = body.premiumFeatures.list,
 				values = {
 					"3x Faster Effort Regen for Land",
@@ -1658,8 +1658,8 @@ function g_gameTooltip.displayEffortPremiumTooltip(widget, disappearOnMove)
 			},
 			{
 				condition = true,
-				font = "poppins-16",
 				format = "{%s, #36F991}",
+				font = "poppins-16",
 				list = bottom.description.list,
 				values = {
 					"Unlock Faster Effort Regen with Premium!"
@@ -1672,9 +1672,9 @@ function g_gameTooltip.displayEffortPremiumTooltip(widget, disappearOnMove)
 	else
 		attributes = {
 			{
+				condition = true,
 				format = "{%s, %s}",
 				style = "GameTooltipPremiumFeature",
-				condition = true,
 				list = body.premiumFeatures.list,
 				values = {
 					"3x Faster Effort Regen for Land",
@@ -1721,9 +1721,9 @@ function g_gameTooltip.displayExperienceTooltip(widget, disappearOnMove)
 	local isPremium = player:isPremium()
 	local attributes = {
 		{
+			condition = true,
 			format = "{%s: %d%%/100%%, %s}",
 			style = "GameTooltipPremiumFeature",
-			condition = true,
 			list = body.premiumFeatures.list,
 			values = {
 				"Rested Experience Pool",
@@ -1739,8 +1739,8 @@ function g_gameTooltip.displayExperienceTooltip(widget, disappearOnMove)
 			end
 		},
 		{
-			format = "%s",
 			condition = true,
+			format = "%s",
 			list = body.description.list,
 			values = {
 				"Unlocks at Legacy Level 20. Rested Experience is passively earned when you're out of combat or while offline. The amount of Rested Experience earned is based on your Legacy Level. Experience gains are doubled until the Rested Experience bonus is depleted."
@@ -1754,8 +1754,8 @@ function g_gameTooltip.displayExperienceTooltip(widget, disappearOnMove)
 	if not isPremium then
 		table.insert(attributes, {
 			condition = true,
-			font = "poppins-16",
 			format = "{%s, #36F991}",
+			font = "poppins-16",
 			list = bottom.description.list,
 			values = {
 				"Unlock Rested Experience with Patron!"

@@ -1269,5 +1269,21 @@ conditions = {
 	[30128] = {
 		name = "Frostbite",
 		description = "Your Frost Lances ignore 25% of the Spell Defense of the target."
+	},
+	[33014] = {
+		name = "Dawns Apotheosis",
+		description = ""
+	},
+	[33015] = {
+		name = "Witch's Call",
+		description = ""
+	},
+	[33016] = {
+		name = "Eye of the Storm",
+		description = ""
+	},
+	[30131] = {
+		name = "Crow's Corruption",
+		description = ""
 	}
 }

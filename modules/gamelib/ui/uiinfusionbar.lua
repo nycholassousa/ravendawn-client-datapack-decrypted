@@ -17,8 +17,8 @@ function UIInfusionBar:setPercentage(value, maxValue)
 	local width = math.ceil((widget:getWidth() + (maxValue ~= nil and 13 or 0)) * percentage / 100)
 
 	widget:setImageRect({
-		x = 0,
 		y = 0,
+		x = 0,
 		width = width,
 		height = widget:getHeight()
 	})

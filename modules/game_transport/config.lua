@@ -1,12 +1,12 @@
 ﻿-- chunkname: @/modules/game_transport/config.lua
 
 subCategoryToOutfitField = {
-	equipment = "mountArmor",
 	ship_cosmetic = "shipBodyCosmetic",
 	cargo = "shipCargo",
 	sail = "shipSail",
 	cabin = "shipCabin",
 	hull = "shipBody",
+	equipment = "mountArmor",
 	mount = {
 		"mountBody",
 		"mountLightEffect",

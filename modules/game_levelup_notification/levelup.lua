@@ -2,8 +2,8 @@
 
 GameLevelUpNotification = {
 	soundEffects = {
-		legacy = 3700752057,
-		effective = 4260963001
+		effective = 4260963001,
+		legacy = 3700752057
 	},
 	windows = {},
 	queue = {}

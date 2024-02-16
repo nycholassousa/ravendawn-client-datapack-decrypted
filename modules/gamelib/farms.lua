@@ -16,9 +16,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -27,9 +27,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -38,9 +38,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -49,9 +49,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -75,9 +75,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -86,9 +86,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -97,9 +97,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = -1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -108,9 +108,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -119,9 +119,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -130,9 +130,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 0,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -141,9 +141,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -152,9 +152,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -163,9 +163,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -189,9 +189,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -200,9 +200,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -211,9 +211,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -222,9 +222,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -248,9 +248,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -259,9 +259,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -270,9 +270,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = -1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -281,9 +281,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -292,9 +292,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -303,9 +303,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 0,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -314,9 +314,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -325,9 +325,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -336,9 +336,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -362,9 +362,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -373,9 +373,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -384,9 +384,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -395,9 +395,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -421,9 +421,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -432,9 +432,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -443,9 +443,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = -1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -454,9 +454,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -465,9 +465,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -476,9 +476,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 0,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -487,9 +487,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -498,9 +498,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -509,9 +509,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -535,9 +535,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -546,9 +546,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -557,9 +557,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -568,9 +568,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -594,9 +594,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -605,9 +605,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -616,9 +616,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = -1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -627,9 +627,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -638,9 +638,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -649,9 +649,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 0,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -660,9 +660,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -671,9 +671,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -682,9 +682,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -708,9 +708,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -719,9 +719,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -730,9 +730,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -741,9 +741,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -767,9 +767,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -778,9 +778,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -789,9 +789,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -800,9 +800,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -811,9 +811,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = -1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -822,9 +822,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -833,9 +833,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 0,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -844,9 +844,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -855,9 +855,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -881,9 +881,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -892,9 +892,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -903,9 +903,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -914,9 +914,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -940,9 +940,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -951,9 +951,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -962,9 +962,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -973,9 +973,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -984,9 +984,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = -1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -995,9 +995,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1006,9 +1006,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 0,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1017,9 +1017,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1028,9 +1028,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1054,9 +1054,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1065,9 +1065,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1076,9 +1076,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1087,9 +1087,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1113,9 +1113,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = -1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1124,9 +1124,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = -1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1135,9 +1135,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 0,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1146,9 +1146,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1157,9 +1157,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = -1,
 				x = 1,
-				isRoomTile = false,
-				y = -1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1168,9 +1168,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 1,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1179,9 +1179,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = -1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1190,9 +1190,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 0,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1201,9 +1201,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 1,
 				x = 1,
-				isRoomTile = false,
-				y = 1
+				isRoomTile = false
 			},
 			items = {
 				33942,
@@ -1227,9 +1227,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				37440
@@ -1252,9 +1252,9 @@ FARM_MODELS = {
 		},
 		{
 			position = {
+				y = 0,
 				x = 0,
-				isRoomTile = false,
-				y = 0
+				isRoomTile = false
 			},
 			items = {
 				44230

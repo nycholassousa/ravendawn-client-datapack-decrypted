@@ -2,8 +2,8 @@
 
 GameSpellTree.tree = {
 	cfg = {
-		numRows = 5,
 		numColumns = 5,
+		numRows = 5,
 		archetypes = {
 			[ArchetypeWizardry] = {
 				0,
@@ -225,28 +225,28 @@ GameSpellTree.tree = {
 		connections = {
 			[ArchetypeWarfare] = {
 				{
-					from = 4,
-					to = 11
+					to = 11,
+					from = 4
 				}
 			},
 			[ArchetypeWitchcraft] = {
 				{
-					from = 1,
-					to = 3
+					to = 3,
+					from = 1
 				},
 				{
-					from = 2,
-					to = 11
+					to = 11,
+					from = 2
 				}
 			},
 			[ArchetypeSpiritual] = {
 				{
-					from = 1,
-					to = 3
+					to = 3,
+					from = 1
 				},
 				{
-					from = 8,
-					to = 11
+					to = 11,
+					from = 8
 				}
 			},
 			[ArchetypeWizardry] = {
@@ -254,12 +254,12 @@ GameSpellTree.tree = {
 					from = 11,
 					to = {
 						{
-							link = 3,
-							rotation = 0
+							rotation = 0,
+							link = 3
 						},
 						{
-							link = 7,
-							rotation = 90
+							rotation = 90,
+							link = 7
 						}
 					}
 				},
@@ -268,47 +268,47 @@ GameSpellTree.tree = {
 					to = {
 						{
 							rotation = 90,
-							link = 4,
-							reverseAnchors = true
+							reverseAnchors = true,
+							link = 4
 						},
 						{
 							rotation = 0,
-							link = 8,
-							reverseAnchors = true
+							reverseAnchors = true,
+							link = 8
 						}
 					}
 				},
 				{
-					from = 1,
-					to = 3
+					to = 3,
+					from = 1
 				},
 				{
-					from = 3,
-					to = 5
+					to = 5,
+					from = 3
 				},
 				{
-					from = 5,
-					to = 7
+					to = 7,
+					from = 5
 				},
 				{
-					from = 7,
-					to = 9
+					to = 9,
+					from = 7
 				},
 				{
-					from = 2,
-					to = 4
+					to = 4,
+					from = 2
 				},
 				{
-					from = 4,
-					to = 6
+					to = 6,
+					from = 4
 				},
 				{
-					from = 6,
-					to = 8
+					to = 8,
+					from = 6
 				},
 				{
-					from = 8,
-					to = 10
+					to = 10,
+					from = 8
 				}
 			}
 		}

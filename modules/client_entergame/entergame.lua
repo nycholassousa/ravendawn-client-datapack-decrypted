@@ -6,10 +6,10 @@ local window, logo, loginButton, regionsPanel, loadingRegionsPanel, loadBox, mot
 local motdEnabled = true
 local infoMessage, accountNameTextEdit, accountPasswordTextEdit, authTokenTextEdit, currentLoginService, rememberPasswordBox, _onRefreshWorldsList, localePanel, localeSelectConfirmBox
 local WorldsShortName = {
-	["North America"] = "NA",
 	Europe = "EU",
-	["South America"] = "SA",
-	Asia = "SEA"
+	["North America"] = "NA",
+	Asia = "SEA",
+	["South America"] = "SA"
 }
 
 local function onError(protocol, message, errorCode)

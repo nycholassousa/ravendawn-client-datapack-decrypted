@@ -193,18 +193,18 @@ function g_ships.createWindIcon(windDirection)
 	widget:setFocusable(false)
 	widget:setImageSource(iconNames[windDirection])
 	widget:setSize({
-		height = 32,
-		width = 32
+		width = 32,
+		height = 32
 	})
 	widget:setImageSize({
-		height = 32,
-		width = 32
+		width = 32,
+		height = 32
 	})
 	widget:setImageRect({
+		y = -32,
 		x = 0,
 		width = 32,
-		height = 32,
-		y = -32
+		height = 32
 	})
 
 	return widget

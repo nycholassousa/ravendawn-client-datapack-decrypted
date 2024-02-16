@@ -134,8 +134,8 @@ lastSortButton = nil
 local sortedRecipes = {}
 local searchRecipes = {}
 local sort = {
-	type = "",
-	direction = "descending"
+	direction = "descending",
+	type = ""
 }
 local tradepostPanel, regionInfoPanel, houseInfoPanel, dynamicEventInfoPanel
 local tradepackWidgets = {}
@@ -145,7 +145,6 @@ local lastEventId = 0
 local regionConflictTimerEvent, houseTimerEvent, playerCurrentFloor
 local regionConflictDuration = 3600
 local regionConflictDescription = {
-	warzone_peace = "This region is a warzone, but transitioning into a state of peace. Players can engage in combat and commit murder until the timer reaches 0. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
 	peace_warzone = "This region is in a state of peace, but soon transitioning into a warzone. Players cannot commit murder until the timer reaches zero. Once the region becomes a warzone, players will be able to engage in combat. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
 	warzone = "This region is a warzone. Players can freely engage in combat and commit murder without consequences. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
 	conflict_peace_warmode = "This region is currently in conflict, but going into peace soon. Murder can be committed by players until the timer goes to 0.",
@@ -155,15 +154,16 @@ local regionConflictDescription = {
 	conflict_warmode = "This region is currently in conflict. Murder can be committed by players during this time.",
 	conflict = "This region is currently in conflict. Murder can be committed by players during this time.",
 	peace_warmode = "This region is currently in peace. No murder can be committed by players during this time.",
-	peace = "This region is currently in peace. No murder can be committed by players during this time."
+	peace = "This region is currently in peace. No murder can be committed by players during this time.",
+	warzone_peace = "This region is a warzone, but transitioning into a state of peace. Players can engage in combat and commit murder until the timer reaches 0. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed."
 }
 local regionConflictBottomText = {
-	peace_conflict = "Monsters will provide 5% increased experience and silver when the conflict starts.",
 	warzone_peace = "Monsters will cease to provide the additional 5% experience and silver.",
 	warzone = "Monsters provide 5% increased experience and silver during the conflict in this region.",
 	conflict = "Monsters provide 5% increased experience and silver during the conflict in this region.",
 	conflict_peace = "Monsters will cease to provide the additional 5% experience and silver.",
-	peace_warzone = "Monsters will provide 5% increased experience and silver when the conflict starts."
+	peace_warzone = "Monsters will provide 5% increased experience and silver when the conflict starts.",
+	peace_conflict = "Monsters will provide 5% increased experience and silver when the conflict starts."
 }
 local landSizeToIcon = {
 	[10] = MAPMARK_SMALL_LAND,
@@ -181,28 +181,28 @@ local landIconToWidgetSize = {
 }
 local compassSizeToImage = {
 	{
-		name = "/images/ui/icons/compass_highlight_1",
-		size = 55
+		size = 55,
+		name = "/images/ui/icons/compass_highlight_1"
 	},
 	{
-		name = "/images/ui/icons/compass_highlight_2",
-		size = 85
+		size = 85,
+		name = "/images/ui/icons/compass_highlight_2"
 	},
 	{
-		name = "/images/ui/icons/compass_highlight_3",
-		size = 125
+		size = 125,
+		name = "/images/ui/icons/compass_highlight_3"
 	},
 	{
-		name = "/images/ui/icons/compass_highlight_4",
-		size = 200
+		size = 200,
+		name = "/images/ui/icons/compass_highlight_4"
 	},
 	{
-		name = "/images/ui/icons/compass_highlight_5",
-		size = 300
+		size = 300,
+		name = "/images/ui/icons/compass_highlight_5"
 	},
 	{
-		name = "/images/ui/icons/compass_highlight_6",
-		size = 450
+		size = 450,
+		name = "/images/ui/icons/compass_highlight_6"
 	},
 	{
 		name = "/images/ui/icons/compass_highlight_7"
@@ -226,10 +226,10 @@ local mapImageSource = {
 			}
 		},
 		area = {
-			fromY = 4543,
 			toX = 3426,
-			toY = 4723,
-			fromX = 3097
+			fromY = 4543,
+			fromX = 3097,
+			toY = 4723
 		},
 		minimapZoom = {
 			min = 300,
@@ -257,10 +257,10 @@ local mapImageSource = {
 			}
 		},
 		area = {
-			fromY = 4740,
 			toX = 3420,
-			toY = 4920,
-			fromX = 3093
+			fromY = 4740,
+			fromX = 3093,
+			toY = 4920
 		},
 		minimapZoom = {
 			min = 300,
@@ -272,14 +272,14 @@ local mapImageSource = {
 		end
 	},
 	{
-		displayCurrentFloorFlags = true,
 		name = "floor%i_%s.jpg",
 		displayFlags = true,
+		displayCurrentFloorFlags = true,
 		area = {
-			fromY = 3800,
 			toX = 7174,
-			toY = 6122,
-			fromX = 3046
+			fromY = 3800,
+			fromX = 3046,
+			toY = 6122
 		},
 		minimapZoom = {
 			min = 100,
@@ -299,13 +299,13 @@ local mapImageSource = {
 	},
 	{
 		name = "minimap_%s.jpg",
-		displayFlags = true,
 		main = true,
+		displayFlags = true,
 		area = {
-			fromY = 3800,
 			toX = 7174,
-			toY = 6122,
-			fromX = 3046
+			fromY = 3800,
+			fromX = 3046,
+			toY = 6122
 		},
 		minimapZoom = {
 			min = 100,
@@ -323,18 +323,18 @@ local mapImageSource = {
 }
 
 g_worldMap = {
-	zoom = 1,
 	globalFont = "myriad-pro-semibold-",
+	zoom = 1,
+	fullmapView = false,
 	maxZoom = 10,
 	minZoom = 1,
-	fullmapView = false,
 	startPos = {
-		x = 0,
-		y = 0
+		y = 0,
+		x = 0
 	},
 	centerPos = {
-		x = 0.5,
-		y = 0.5
+		y = 0.5,
+		x = 0.5
 	},
 	flags = {},
 	landFlags = {},
@@ -346,20 +346,25 @@ g_worldMap = {
 	area = {},
 	compassHighlights = {},
 	zoneCfg = {
-		fullmapViewExtraFontSize = 6,
 		fontMaxSize = 24,
 		fontMinSize = 12,
 		font = "vollkorn-sc-bold-bordered-",
-		minZoom = 5
+		minZoom = 5,
+		fullmapViewExtraFontSize = 6
 	},
 	regionCfg = {
-		font = "vollkorn-sc-bold-bordered-",
-		fullmapViewExtraFontSize = 4,
 		fontMaxSize = 22,
 		fontMinSize = 10,
-		maxZoom = 5
+		font = "vollkorn-sc-bold-bordered-",
+		maxZoom = 5,
+		fullmapViewExtraFontSize = 4
 	},
 	iconSettings = {
+		showCollectors = true,
+		showVendors = true,
+		showMoaMerchant = true,
+		showMarket = true,
+		showRespawnShrine = true,
 		showWarehouse = true,
 		showBuilders = true,
 		showFishpost = true,
@@ -374,19 +379,14 @@ g_worldMap = {
 		showLevelBrackets = true,
 		showZoneNames = true,
 		showMissionAvailable = true,
-		showMissionComplete = true,
-		showCollectors = true,
-		showVendors = true,
-		showMoaMerchant = true,
-		showMarket = true,
-		showRespawnShrine = true
+		showMissionComplete = true
 	},
 	landViewerSettings = {
-		showMediumEstate = true,
-		showSmallEstate = true,
 		showFort = true,
 		showStronghold = true,
-		showLargeEstate = true
+		showLargeEstate = true,
+		showMediumEstate = true,
+		showSmallEstate = true
 	},
 	iconAssets = {
 		[MAPMARK_MISSION_COMPLETE] = "mission_complete",
@@ -608,6 +608,11 @@ function g_worldMap.updateVisibleMarks(updatePosition)
 end
 
 local checkBoxIdToName = {
+	showCollectors = "Collector",
+	showVendors = "Vendor",
+	showMoaMerchant = "Moa Merchant",
+	showMarket = "Market",
+	showRespawnShrine = "Respawn Shrine",
 	showWarehouse = "Warehouses",
 	showBuilders = "Builders",
 	showFishpost = "Fishposts",
@@ -622,12 +627,7 @@ local checkBoxIdToName = {
 	showLevelBrackets = "Level Bracket",
 	showZoneNames = "Zone Name",
 	showMissionAvailable = "Mission available",
-	showMissionComplete = "Mission complete",
-	showCollectors = "Collector",
-	showVendors = "Vendor",
-	showMoaMerchant = "Moa Merchant",
-	showMarket = "Market",
-	showRespawnShrine = "Respawn Shrine"
+	showMissionComplete = "Mission complete"
 }
 
 function getCheckBoxName(key)
@@ -676,8 +676,8 @@ function g_worldMap.init()
 	g_worldMap.image = g_worldMap.window:recursiveGetChildById("image")
 	g_worldMap.cross = g_worldMap.window:recursiveGetChildById("cross")
 	g_worldMap.cross.pos = {
-		x = 0,
-		y = 0
+		y = 0,
+		x = 0
 	}
 	g_worldMap.infoPanel = g_worldMap.window:recursiveGetChildById("infoPanel")
 	iconFilterPanel = g_worldMap.window:recursiveGetChildById("iconFilterPanel")
@@ -1789,8 +1789,8 @@ function onMenuToggle()
 			action = "request_region_conflicts"
 		})
 		modules.game_interface.sendOpcode(ExtendedIds.Quest, {
-			type = "dynamic_event",
-			action = "request_events_info"
+			action = "request_events_info",
+			type = "dynamic_event"
 		})
 	end
 end

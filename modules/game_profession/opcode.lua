@@ -219,14 +219,14 @@ function onExtendedOpcode(protocol, opcode, buffer)
 		end
 
 		local offset = {
-			y = 0,
-			x = 0
+			x = 0,
+			y = 0
 		}
 
 		if data.options.name and string.find(data.options.name:lower(), "medium") then
 			offset = {
-				y = -58,
-				x = -44
+				x = -44,
+				y = -58
 			}
 		end
 
@@ -381,16 +381,16 @@ end
 
 function sendMinigameAbility(abilityId)
 	sendCraftingOpcode({
-		subaction = "input",
 		action = "craft",
+		subaction = "input",
 		ability = abilityId
 	})
 end
 
 function sendCancelCraft()
 	sendCraftingOpcode({
-		subaction = "cancel",
-		action = "craft"
+		action = "craft",
+		subaction = "cancel"
 	})
 end
 

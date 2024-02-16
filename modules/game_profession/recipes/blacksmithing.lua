@@ -3,5458 +3,5458 @@
 recipes = recipes or {}
 recipes[ProfessionBlacksmithing] = {
 	{
-		amount = 1,
-		experience = 200,
-		category = "ingots",
 		clientId = 28726,
+		amount = 1,
 		index = 1,
-		durability = 4,
-		name = "copper ingot",
-		profession = 5,
+		category = "ingots",
 		progress = 25,
-		quality = 75,
 		itemId = 32158,
-		description = "Used in various recipes. Symbolizes malleability and conductivity.",
+		quality = 75,
 		slotName = "",
+		name = "copper ingot",
+		experience = 200,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. Symbolizes malleability and conductivity.",
+		durability = 4,
 		level = {
-			single = 1,
-			mass = 6
+			mass = 6,
+			single = 1
 		},
 		materials = {
 			{
+				name = "copper ore",
 				clientId = 28944,
 				amount = 5,
-				itemId = 32376,
-				name = "copper ore"
+				itemId = 32376
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 240,
-		category = "ingots",
 		clientId = 28723,
+		amount = 1,
 		index = 2,
-		durability = 7,
-		name = "iron ingot",
-		profession = 5,
+		category = "ingots",
 		progress = 150,
-		quality = 150,
 		itemId = 32155,
-		description = "Used in various recipes. A versatile metallic ingot.",
+		quality = 150,
 		slotName = "",
+		name = "iron ingot",
+		experience = 240,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. A versatile metallic ingot.",
+		durability = 7,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "iron ore",
 				clientId = 28943,
 				amount = 5,
-				itemId = 32375,
-				name = "iron ore"
+				itemId = 32375
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 320,
-		category = "ingots",
 		clientId = 28724,
+		amount = 1,
 		index = 3,
-		durability = 7,
-		name = "steel ingot",
-		profession = 5,
+		category = "ingots",
 		progress = 225,
-		quality = 200,
 		itemId = 32156,
-		description = "Used in various recipes. Forged from a mix of metals.",
+		quality = 200,
 		slotName = "",
+		name = "steel ingot",
+		experience = 320,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. Forged from a mix of metals.",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "iron ore",
 				clientId = 28943,
 				amount = 5,
-				itemId = 32375,
-				name = "iron ore"
+				itemId = 32375
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 2,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 460,
-		category = "ingots",
 		clientId = 28725,
+		amount = 1,
 		index = 4,
-		durability = 8,
-		name = "cobalt ingot",
-		profession = 5,
+		category = "ingots",
 		progress = 450,
-		quality = 450,
 		itemId = 32157,
-		description = "Used in various recipes. A rare blue-hued metal.",
+		quality = 450,
 		slotName = "",
+		name = "cobalt ingot",
+		experience = 460,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. A rare blue-hued metal.",
+		durability = 8,
 		level = {
-			single = 50,
-			mass = 55
+			mass = 55,
+			single = 50
 		},
 		materials = {
 			{
+				name = "cobalt ore",
 				clientId = 28942,
 				amount = 5,
-				itemId = 32374,
-				name = "cobalt ore"
+				itemId = 32374
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 3,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 640,
-		category = "ingots",
 		clientId = 28727,
+		amount = 1,
 		index = 5,
-		durability = 9,
-		name = "titanium ingot",
-		profession = 5,
+		category = "ingots",
 		progress = 550,
-		quality = 550,
 		itemId = 32159,
-		description = "Used in various recipes. Lightweight yet sturdy, resilient and versatile.",
+		quality = 550,
 		slotName = "",
+		name = "titanium ingot",
+		experience = 640,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. Lightweight yet sturdy, resilient and versatile.",
+		durability = 9,
 		level = {
-			single = 70,
-			mass = 75
+			mass = 75,
+			single = 70
 		},
 		materials = {
 			{
+				name = "titanium ore",
 				clientId = 28947,
 				amount = 5,
-				itemId = 32379,
-				name = "titanium ore"
+				itemId = 32379
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 4,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 2160,
-		category = "weapons",
 		clientId = 29060,
+		amount = 1,
 		index = 6,
-		durability = 4,
-		name = "Warden's Sword",
-		profession = 5,
+		category = "weapons",
 		progress = 100,
-		quality = 100,
 		itemId = 32492,
-		description = "",
+		quality = 100,
 		slotName = "sword",
+		name = "Warden's Sword",
+		experience = 2160,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 4,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 2,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Rough Sword",
 				clientId = 29059,
 				amount = 1,
-				itemId = 32491,
-				name = "Rough Sword"
+				itemId = 32491
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 2160,
-		category = "weapons",
 		clientId = 28993,
+		amount = 1,
 		index = 7,
-		durability = 4,
-		name = "Marauder's Axe",
-		profession = 5,
+		category = "weapons",
 		progress = 100,
-		quality = 100,
 		itemId = 32425,
-		description = "",
+		quality = 100,
 		slotName = "axe",
+		name = "Marauder's Axe",
+		experience = 2160,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 3,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Wicked Axe",
 				clientId = 28992,
 				amount = 1,
-				itemId = 32424,
-				name = "Wicked Axe"
+				itemId = 32424
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 2160,
-		category = "weapons",
 		clientId = 29005,
+		amount = 1,
 		index = 8,
-		durability = 4,
-		name = "Studded Flail",
-		profession = 5,
+		category = "weapons",
 		progress = 100,
-		quality = 100,
 		itemId = 32437,
-		description = "",
+		quality = 100,
 		slotName = "club",
+		name = "Studded Flail",
+		experience = 2160,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 3,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Solid Mace",
 				clientId = 29004,
 				amount = 1,
-				itemId = 32436,
-				name = "Solid Mace"
+				itemId = 32436
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 2160,
-		category = "weapons",
 		clientId = 29011,
+		amount = 1,
 		index = 9,
-		durability = 4,
-		name = "Noble Dagger",
-		profession = 5,
+		category = "weapons",
 		progress = 100,
-		quality = 100,
 		itemId = 32443,
-		description = "",
+		quality = 100,
 		slotName = "dagger",
+		name = "Noble Dagger",
+		experience = 2160,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 4,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 2,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Serrated Dagger",
 				clientId = 29010,
 				amount = 1,
-				itemId = 32442,
-				name = "Serrated Dagger"
+				itemId = 32442
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 4320,
-		category = "weapons",
 		clientId = 28980,
+		amount = 1,
 		index = 11,
-		durability = 4,
-		name = "Warrior's Greataxe",
-		profession = 5,
+		category = "weapons",
 		progress = 100,
-		quality = 100,
 		itemId = 32412,
-		description = "",
+		quality = 100,
 		slotName = "greataxe",
+		name = "Warrior's Greataxe",
+		experience = 4320,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 8,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 4,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Rough Greataxe",
 				clientId = 28978,
 				amount = 1,
-				itemId = 32410,
-				name = "Rough Greataxe"
+				itemId = 32410
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 4320,
-		category = "weapons",
 		clientId = 28986,
+		amount = 1,
 		index = 12,
-		durability = 4,
-		name = "Valiant Greatsword",
-		profession = 5,
+		category = "weapons",
 		progress = 100,
-		quality = 100,
 		itemId = 32418,
-		description = "",
+		quality = 100,
 		slotName = "greatsword",
+		name = "Valiant Greatsword",
+		experience = 4320,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 6,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 6,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Burnished Greatsword",
 				clientId = 28985,
 				amount = 1,
-				itemId = 32417,
-				name = "Burnished Greatsword"
+				itemId = 32417
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 4320,
-		category = "weapons",
 		clientId = 29017,
+		amount = 1,
 		index = 13,
-		durability = 4,
-		name = "Crushing Hammer",
-		profession = 5,
+		category = "weapons",
 		progress = 100,
-		quality = 100,
 		itemId = 32449,
-		description = "",
+		quality = 100,
 		slotName = "hammer",
+		name = "Crushing Hammer",
+		experience = 4320,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 8,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 4,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Shipbuilding Mallet",
 				clientId = 29016,
 				amount = 1,
-				itemId = 32448,
-				name = "Shipbuilding Mallet"
+				itemId = 32448
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 7200,
-		category = "weapons",
 		clientId = 29061,
+		amount = 1,
 		index = 14,
-		durability = 6,
-		name = "Lawbreaker's Sword",
-		profession = 5,
+		category = "weapons",
 		progress = 200,
-		quality = 100,
 		itemId = 32493,
-		description = "",
+		quality = 100,
 		slotName = "sword",
+		name = "Lawbreaker's Sword",
+		experience = 7200,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 6,
 		level = {
-			single = 25,
-			mass = 30
+			mass = 30,
+			single = 25
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 5,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 5,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Warden's Sword",
 				clientId = 29060,
 				amount = 1,
-				itemId = 32492,
-				name = "Warden's Sword"
+				itemId = 32492
 			},
 			{
+				name = "Troll Fang",
 				clientId = 37478,
 				amount = 6,
-				itemId = 40930,
-				name = "Troll Fang"
+				itemId = 40930
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 7200,
-		category = "weapons",
 		clientId = 28994,
+		amount = 1,
 		index = 15,
-		durability = 6,
-		name = "Dread Axe",
-		profession = 5,
+		category = "weapons",
 		progress = 200,
-		quality = 100,
 		itemId = 32426,
-		description = "",
+		quality = 100,
 		slotName = "axe",
+		name = "Dread Axe",
+		experience = 7200,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 6,
 		level = {
-			single = 25,
-			mass = 30
+			mass = 30,
+			single = 25
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 4,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Marauder's Axe",
 				clientId = 28993,
 				amount = 1,
-				itemId = 32425,
-				name = "Marauder's Axe"
+				itemId = 32425
 			},
 			{
+				name = "Sea Cured Leather",
 				clientId = 43212,
 				amount = 6,
-				itemId = 46664,
-				name = "Sea Cured Leather"
+				itemId = 46664
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 7200,
-		category = "weapons",
 		clientId = 29006,
+		amount = 1,
 		index = 16,
-		durability = 6,
-		name = "Shieldbreaker's Flail",
-		profession = 5,
+		category = "weapons",
 		progress = 200,
-		quality = 100,
 		itemId = 32438,
-		description = "",
+		quality = 100,
 		slotName = "club",
+		name = "Shieldbreaker's Flail",
+		experience = 7200,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 6,
 		level = {
-			single = 25,
-			mass = 30
+			mass = 30,
+			single = 25
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 4,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Studded Flail",
 				clientId = 29005,
 				amount = 1,
-				itemId = 32437,
-				name = "Studded Flail"
+				itemId = 32437
 			},
 			{
+				name = "Sea Cured Leather",
 				clientId = 43212,
 				amount = 6,
-				itemId = 46664,
-				name = "Sea Cured Leather"
+				itemId = 46664
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 7200,
-		category = "weapons",
 		clientId = 29012,
+		amount = 1,
 		index = 17,
-		durability = 6,
-		name = "Ice Dagger",
-		profession = 5,
+		category = "weapons",
 		progress = 200,
-		quality = 100,
 		itemId = 32444,
-		description = "",
+		quality = 100,
 		slotName = "dagger",
+		name = "Ice Dagger",
+		experience = 7200,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 6,
 		level = {
-			single = 25,
-			mass = 30
+			mass = 30,
+			single = 25
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 5,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 5,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Noble Dagger",
 				clientId = 29011,
 				amount = 1,
-				itemId = 32443,
-				name = "Noble Dagger"
+				itemId = 32443
 			},
 			{
+				name = "Troll Fang",
 				clientId = 37478,
 				amount = 6,
-				itemId = 40930,
-				name = "Troll Fang"
+				itemId = 40930
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 14400,
-		category = "weapons",
 		clientId = 28981,
+		amount = 1,
 		index = 19,
-		durability = 6,
-		name = "Savage Battle Axe",
-		profession = 5,
+		category = "weapons",
 		progress = 200,
-		quality = 100,
 		itemId = 32413,
-		description = "",
+		quality = 100,
 		slotName = "greataxe",
+		name = "Savage Battle Axe",
+		experience = 14400,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 6,
 		level = {
-			single = 25,
-			mass = 30
+			mass = 30,
+			single = 25
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 20,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 8,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Warrior's Greataxe",
 				clientId = 28980,
 				amount = 1,
-				itemId = 32412,
-				name = "Warrior's Greataxe"
+				itemId = 32412
 			},
 			{
+				name = "Sea Cured Leather",
 				clientId = 43212,
 				amount = 12,
-				itemId = 46664,
-				name = "Sea Cured Leather"
+				itemId = 46664
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 14400,
-		category = "weapons",
 		clientId = 28987,
+		amount = 1,
 		index = 20,
-		durability = 6,
-		name = "Heroic Greatsword",
-		profession = 5,
+		category = "weapons",
 		progress = 200,
-		quality = 100,
 		itemId = 32419,
-		description = "",
+		quality = 100,
 		slotName = "greatsword",
+		name = "Heroic Greatsword",
+		experience = 14400,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 6,
 		level = {
-			single = 25,
-			mass = 30
+			mass = 30,
+			single = 25
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 10,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Valiant Greatsword",
 				clientId = 28986,
 				amount = 1,
-				itemId = 32418,
-				name = "Valiant Greatsword"
+				itemId = 32418
 			},
 			{
+				name = "Troll Fang",
 				clientId = 37478,
 				amount = 12,
-				itemId = 40930,
-				name = "Troll Fang"
+				itemId = 40930
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 14400,
-		category = "weapons",
 		clientId = 29018,
+		amount = 1,
 		index = 21,
-		durability = 6,
-		name = "Punisher's Gavel",
-		profession = 5,
+		category = "weapons",
 		progress = 200,
-		quality = 100,
 		itemId = 32450,
-		description = "",
+		quality = 100,
 		slotName = "hammer",
+		name = "Punisher's Gavel",
+		experience = 14400,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 6,
 		level = {
-			single = 25,
-			mass = 30
+			mass = 30,
+			single = 25
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 20,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 8,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Crushing Hammer",
 				clientId = 29017,
 				amount = 1,
-				itemId = 32449,
-				name = "Crushing Hammer"
+				itemId = 32449
 			},
 			{
+				name = "Sea Cured Leather",
 				clientId = 43212,
 				amount = 12,
-				itemId = 46664,
-				name = "Sea Cured Leather"
+				itemId = 46664
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 20000,
-		category = "weapons",
 		clientId = 29062,
+		amount = 1,
 		index = 22,
-		durability = 7,
-		name = "Guardian's Longsword",
-		profession = 5,
+		category = "weapons",
 		progress = 350,
-		quality = 100,
 		itemId = 32494,
-		description = "",
+		quality = 100,
 		slotName = "sword",
+		name = "Guardian's Longsword",
+		experience = 20000,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 40,
-			mass = 45
+			mass = 45,
+			single = 40
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 7,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 10,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Lawbreaker's Sword",
 				clientId = 29061,
 				amount = 1,
-				itemId = 32493,
-				name = "Lawbreaker's Sword"
+				itemId = 32493
 			},
 			{
+				name = "Thin Blade",
 				clientId = 38268,
 				amount = 10,
-				itemId = 41720,
-				name = "Thin Blade"
+				itemId = 41720
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 20000,
-		category = "weapons",
 		clientId = 28995,
+		amount = 1,
 		index = 23,
-		durability = 7,
-		name = "Stormcarver Axe",
-		profession = 5,
+		category = "weapons",
 		progress = 350,
-		quality = 100,
 		itemId = 32427,
-		description = "",
+		quality = 100,
 		slotName = "axe",
+		name = "Stormcarver Axe",
+		experience = 20000,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 40,
-			mass = 45
+			mass = 45,
+			single = 40
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 16,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 8,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Dread Axe",
 				clientId = 28994,
 				amount = 1,
-				itemId = 32426,
-				name = "Dread Axe"
+				itemId = 32426
 			},
 			{
+				name = "Metallic Core",
 				clientId = 38272,
 				amount = 10,
-				itemId = 41724,
-				name = "Metallic Core"
+				itemId = 41724
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 20000,
-		category = "weapons",
 		clientId = 29007,
+		amount = 1,
 		index = 24,
-		durability = 7,
-		name = "Ravenguard Morningstar",
-		profession = 5,
+		category = "weapons",
 		progress = 350,
-		quality = 100,
 		itemId = 32439,
-		description = "",
+		quality = 100,
 		slotName = "club",
+		name = "Ravenguard Morningstar",
+		experience = 20000,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 40,
-			mass = 45
+			mass = 45,
+			single = 40
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 16,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 8,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Shieldbreaker's Flail",
 				clientId = 29006,
 				amount = 1,
-				itemId = 32438,
-				name = "Shieldbreaker's Flail"
+				itemId = 32438
 			},
 			{
+				name = "Rough Steel Plate",
 				clientId = 37483,
 				amount = 10,
-				itemId = 40935,
-				name = "Rough Steel Plate"
+				itemId = 40935
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 20000,
-		category = "weapons",
 		clientId = 29013,
+		amount = 1,
 		index = 25,
-		durability = 7,
-		name = "Heartstopper Dagger",
-		profession = 5,
+		category = "weapons",
 		progress = 350,
-		quality = 100,
 		itemId = 32445,
-		description = "",
+		quality = 100,
 		slotName = "dagger",
+		name = "Heartstopper Dagger",
+		experience = 20000,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 40,
-			mass = 45
+			mass = 45,
+			single = 40
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 7,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 10,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Ice Dagger",
 				clientId = 29012,
 				amount = 1,
-				itemId = 32444,
-				name = "Ice Dagger"
+				itemId = 32444
 			},
 			{
+				name = "Cunning Handle",
 				clientId = 38265,
 				amount = 10,
-				itemId = 41717,
-				name = "Cunning Handle"
+				itemId = 41717
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 40000,
-		category = "weapons",
 		clientId = 28982,
+		amount = 1,
 		index = 27,
-		durability = 7,
-		name = "Hangman's Greataxe",
-		profession = 5,
+		category = "weapons",
 		progress = 350,
-		quality = 100,
 		itemId = 32414,
-		description = "",
+		quality = 100,
 		slotName = "greataxe",
+		name = "Hangman's Greataxe",
+		experience = 40000,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 40,
-			mass = 45
+			mass = 45,
+			single = 40
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 25,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 17,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Savage Battle Axe",
 				clientId = 28981,
 				amount = 1,
-				itemId = 32413,
-				name = "Savage Battle Axe"
+				itemId = 32413
 			},
 			{
+				name = "Metallic Core",
 				clientId = 38272,
 				amount = 20,
-				itemId = 41724,
-				name = "Metallic Core"
+				itemId = 41724
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 40000,
-		category = "weapons",
 		clientId = 28988,
+		amount = 1,
 		index = 28,
-		durability = 7,
-		name = "Bonebiter Greatsword",
-		profession = 5,
+		category = "weapons",
 		progress = 350,
-		quality = 100,
 		itemId = 32420,
-		description = "",
+		quality = 100,
 		slotName = "greatsword",
+		name = "Bonebiter Greatsword",
+		experience = 40000,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 40,
-			mass = 45
+			mass = 45,
+			single = 40
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 12,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 20,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Heroic Greatsword",
 				clientId = 28987,
 				amount = 1,
-				itemId = 32419,
-				name = "Heroic Greatsword"
+				itemId = 32419
 			},
 			{
+				name = "Thin Blade",
 				clientId = 38268,
 				amount = 20,
-				itemId = 41720,
-				name = "Thin Blade"
+				itemId = 41720
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 40000,
-		category = "weapons",
 		clientId = 29019,
+		amount = 1,
 		index = 29,
-		durability = 7,
-		name = "Lawgiver's Warhammer",
-		profession = 5,
+		category = "weapons",
 		progress = 350,
-		quality = 100,
 		itemId = 32451,
-		description = "",
+		quality = 100,
 		slotName = "hammer",
+		name = "Lawgiver's Warhammer",
+		experience = 40000,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 40,
-			mass = 45
+			mass = 45,
+			single = 40
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 25,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 17,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Punisher's Gavel",
 				clientId = 29018,
 				amount = 1,
-				itemId = 32450,
-				name = "Punisher's Gavel"
+				itemId = 32450
 			},
 			{
+				name = "Rough Steel Plate",
 				clientId = 37483,
 				amount = 20,
-				itemId = 40935,
-				name = "Rough Steel Plate"
+				itemId = 40935
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 40000,
-		category = "weapons",
 		clientId = 29063,
+		amount = 1,
 		index = 30,
-		durability = 8,
-		name = "Crusader's Longsword",
-		profession = 5,
+		category = "weapons",
 		progress = 525,
-		quality = 100,
 		itemId = 32495,
-		description = "",
+		quality = 100,
 		slotName = "sword",
+		name = "Crusader's Longsword",
+		experience = 40000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 8,
 		level = {
-			single = 55,
-			mass = 60
+			mass = 60,
+			single = 55
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 10,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 15,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Guardian's Longsword",
 				clientId = 29062,
 				amount = 1,
-				itemId = 32494,
-				name = "Guardian's Longsword"
+				itemId = 32494
 			},
 			{
+				name = "Ancient Metallic Scrap",
 				clientId = 40265,
 				amount = 12,
-				itemId = 43717,
-				name = "Ancient Metallic Scrap"
+				itemId = 43717
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 40000,
-		category = "weapons",
 		clientId = 28996,
+		amount = 1,
 		index = 31,
-		durability = 8,
-		name = "Hellblade Axe",
-		profession = 5,
+		category = "weapons",
 		progress = 525,
-		quality = 100,
 		itemId = 32428,
-		description = "",
+		quality = 100,
 		slotName = "axe",
+		name = "Hellblade Axe",
+		experience = 40000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 8,
 		level = {
-			single = 55,
-			mass = 60
+			mass = 60,
+			single = 55
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 30,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 11,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Stormcarver Axe",
 				clientId = 28995,
 				amount = 1,
-				itemId = 32427,
-				name = "Stormcarver Axe"
+				itemId = 32427
 			},
 			{
+				name = "Cutting Edge Scrap",
 				clientId = 40268,
 				amount = 12,
-				itemId = 43720,
-				name = "Cutting Edge Scrap"
+				itemId = 43720
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 40000,
-		category = "weapons",
 		clientId = 29008,
+		amount = 1,
 		index = 32,
-		durability = 8,
-		name = "Enforcer's Mace",
-		profession = 5,
+		category = "weapons",
 		progress = 525,
-		quality = 100,
 		itemId = 32440,
-		description = "",
+		quality = 100,
 		slotName = "club",
+		name = "Enforcer's Mace",
+		experience = 40000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 8,
 		level = {
-			single = 55,
-			mass = 60
+			mass = 60,
+			single = 55
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 30,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 11,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Ravenguard Morningstar",
 				clientId = 29007,
 				amount = 1,
-				itemId = 32439,
-				name = "Ravenguard Morningstar"
+				itemId = 32439
 			},
 			{
+				name = "Heavy Metal Chunks",
 				clientId = 40274,
 				amount = 12,
-				itemId = 43726,
-				name = "Heavy Metal Chunks"
+				itemId = 43726
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 40000,
-		category = "weapons",
 		clientId = 29014,
+		amount = 1,
 		index = 33,
-		durability = 8,
-		name = "Assassin's Dagger",
-		profession = 5,
+		category = "weapons",
 		progress = 525,
-		quality = 100,
 		itemId = 32446,
-		description = "",
+		quality = 100,
 		slotName = "dagger",
+		name = "Assassin's Dagger",
+		experience = 40000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 8,
 		level = {
-			single = 55,
-			mass = 60
+			mass = 60,
+			single = 55
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 10,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 15,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Heartstopper Dagger",
 				clientId = 29013,
 				amount = 1,
-				itemId = 32445,
-				name = "Heartstopper Dagger"
+				itemId = 32445
 			},
 			{
+				name = "Twisted Blades",
 				clientId = 40280,
 				amount = 12,
-				itemId = 43732,
-				name = "Twisted Blades"
+				itemId = 43732
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 80000,
-		category = "weapons",
 		clientId = 28983,
+		amount = 1,
 		index = 35,
-		durability = 8,
-		name = "Orcish Battle Axe",
-		profession = 5,
+		category = "weapons",
 		progress = 525,
-		quality = 100,
 		itemId = 32415,
-		description = "",
+		quality = 100,
 		slotName = "greataxe",
+		name = "Orcish Battle Axe",
+		experience = 80000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 8,
 		level = {
-			single = 55,
-			mass = 60
+			mass = 60,
+			single = 55
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 60,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 22,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Hangman's Greataxe",
 				clientId = 28982,
 				amount = 1,
-				itemId = 32414,
-				name = "Hangman's Greataxe"
+				itemId = 32414
 			},
 			{
+				name = "Cutting Edge Scrap",
 				clientId = 40268,
 				amount = 24,
-				itemId = 43720,
-				name = "Cutting Edge Scrap"
+				itemId = 43720
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 80000,
-		category = "weapons",
 		clientId = 28989,
+		amount = 1,
 		index = 36,
-		durability = 8,
-		name = "Samurai's Daikatana",
-		profession = 5,
+		category = "weapons",
 		progress = 525,
-		quality = 100,
 		itemId = 32421,
-		description = "",
+		quality = 100,
 		slotName = "greatsword",
+		name = "Samurai's Daikatana",
+		experience = 80000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 8,
 		level = {
-			single = 55,
-			mass = 60
+			mass = 60,
+			single = 55
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 20,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 30,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Bonebiter Greatsword",
 				clientId = 28988,
 				amount = 1,
-				itemId = 32420,
-				name = "Bonebiter Greatsword"
+				itemId = 32420
 			},
 			{
+				name = "Ancient Metallic Scrap",
 				clientId = 40265,
 				amount = 24,
-				itemId = 43717,
-				name = "Ancient Metallic Scrap"
+				itemId = 43717
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 80000,
-		category = "weapons",
 		clientId = 29020,
+		amount = 1,
 		index = 37,
-		durability = 8,
-		name = "Dwarven Warhammer",
-		profession = 5,
+		category = "weapons",
 		progress = 525,
-		quality = 100,
 		itemId = 32452,
-		description = "",
+		quality = 100,
 		slotName = "hammer",
+		name = "Dwarven Warhammer",
+		experience = 80000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 8,
 		level = {
-			single = 55,
-			mass = 60
+			mass = 60,
+			single = 55
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 60,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 22,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Lawgiver's Warhammer",
 				clientId = 29019,
 				amount = 1,
-				itemId = 32451,
-				name = "Lawgiver's Warhammer"
+				itemId = 32451
 			},
 			{
+				name = "Heavy Metal Chunks",
 				clientId = 40274,
 				amount = 24,
-				itemId = 43726,
-				name = "Heavy Metal Chunks"
+				itemId = 43726
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 1200,
-		category = "armors",
 		clientId = 28687,
+		amount = 1,
 		index = 38,
-		durability = 4,
-		name = "Crescent Armor",
-		profession = 5,
+		category = "armors",
 		progress = 100,
-		quality = 100,
 		itemId = 32119,
-		description = "",
+		quality = 100,
 		slotName = "plate armor",
+		name = "Crescent Armor",
+		experience = 1200,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 13,
-			mass = 18
+			mass = 18,
+			single = 13
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Pliant Armor",
 				clientId = 28678,
 				amount = 1,
-				itemId = 32110,
-				name = "Pliant Armor"
+				itemId = 32110
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 1200,
-		category = "armors",
 		clientId = 28688,
+		amount = 1,
 		index = 39,
-		durability = 4,
-		name = "Crescent Helmet",
-		profession = 5,
+		category = "armors",
 		progress = 100,
-		quality = 100,
 		itemId = 32120,
-		description = "",
+		quality = 100,
 		slotName = "plate helmet",
+		name = "Crescent Helmet",
+		experience = 1200,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 16,
-			mass = 21
+			mass = 21,
+			single = 16
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Pliant Helmet",
 				clientId = 28684,
 				amount = 1,
-				itemId = 32116,
-				name = "Pliant Helmet"
+				itemId = 32116
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 1200,
-		category = "armors",
 		clientId = 28691,
+		amount = 1,
 		index = 40,
-		durability = 4,
-		name = "Crescent Legs",
-		profession = 5,
+		category = "armors",
 		progress = 100,
-		quality = 100,
 		itemId = 32123,
-		description = "",
+		quality = 100,
 		slotName = "plate legs",
+		name = "Crescent Legs",
+		experience = 1200,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 19,
-			mass = 24
+			mass = 24,
+			single = 19
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Pliant Legs",
 				clientId = 28685,
 				amount = 1,
-				itemId = 32117,
-				name = "Pliant Legs"
+				itemId = 32117
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 1200,
-		category = "armors",
 		clientId = 28695,
+		amount = 1,
 		index = 41,
-		durability = 4,
-		name = "Crescent Boots",
-		profession = 5,
+		category = "armors",
 		progress = 100,
-		quality = 100,
 		itemId = 32127,
-		description = "",
+		quality = 100,
 		slotName = "plate boots",
+		name = "Crescent Boots",
+		experience = 1200,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 22,
-			mass = 27
+			mass = 27,
+			single = 22
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Pliant Boots",
 				clientId = 28681,
 				amount = 1,
-				itemId = 32113,
-				name = "Pliant Boots"
+				itemId = 32113
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 6000,
-		category = "armors",
 		clientId = 28696,
+		amount = 1,
 		index = 42,
-		durability = 7,
-		name = "Harbinger Armor",
-		profession = 5,
+		category = "armors",
 		progress = 200,
-		quality = 100,
 		itemId = 32128,
-		description = "",
+		quality = 100,
 		slotName = "plate armor",
+		name = "Harbinger Armor",
+		experience = 6000,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 7,
 		level = {
-			single = 28,
-			mass = 33
+			mass = 33,
+			single = 28
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 3,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Crescent Armor",
 				clientId = 28687,
 				amount = 1,
-				itemId = 32119,
-				name = "Crescent Armor"
+				itemId = 32119
 			},
 			{
+				name = "Shell Fragment",
 				clientId = 37479,
 				amount = 3,
-				itemId = 40931,
-				name = "Shell Fragment"
+				itemId = 40931
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 6000,
-		category = "armors",
 		clientId = 28702,
+		amount = 1,
 		index = 43,
-		durability = 7,
-		name = "Harbinger Helmet",
-		profession = 5,
+		category = "armors",
 		progress = 200,
-		quality = 100,
 		itemId = 32134,
-		description = "",
+		quality = 100,
 		slotName = "plate helmet",
+		name = "Harbinger Helmet",
+		experience = 6000,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 7,
 		level = {
-			single = 31,
-			mass = 36
+			mass = 36,
+			single = 31
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 3,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Crescent Helmet",
 				clientId = 28688,
 				amount = 1,
-				itemId = 32120,
-				name = "Crescent Helmet"
+				itemId = 32120
 			},
 			{
+				name = "Shell Fragment",
 				clientId = 37479,
 				amount = 3,
-				itemId = 40931,
-				name = "Shell Fragment"
+				itemId = 40931
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 6000,
-		category = "armors",
 		clientId = 28703,
+		amount = 1,
 		index = 44,
-		durability = 7,
-		name = "Harbinger Legs",
-		profession = 5,
+		category = "armors",
 		progress = 200,
-		quality = 100,
 		itemId = 32135,
-		description = "",
+		quality = 100,
 		slotName = "plate legs",
+		name = "Harbinger Legs",
+		experience = 6000,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 7,
 		level = {
-			single = 34,
-			mass = 39
+			mass = 39,
+			single = 34
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 3,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Crescent Legs",
 				clientId = 28691,
 				amount = 1,
-				itemId = 32123,
-				name = "Crescent Legs"
+				itemId = 32123
 			},
 			{
+				name = "Shell Fragment",
 				clientId = 37479,
 				amount = 3,
-				itemId = 40931,
-				name = "Shell Fragment"
+				itemId = 40931
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 6000,
-		category = "armors",
 		clientId = 28699,
+		amount = 1,
 		index = 45,
-		durability = 7,
-		name = "Harbinger Boots",
-		profession = 5,
+		category = "armors",
 		progress = 200,
-		quality = 100,
 		itemId = 32131,
-		description = "",
+		quality = 100,
 		slotName = "plate boots",
+		name = "Harbinger Boots",
+		experience = 6000,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 7,
 		level = {
-			single = 37,
-			mass = 42
+			mass = 42,
+			single = 37
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 3,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Crescent Boots",
 				clientId = 28695,
 				amount = 1,
-				itemId = 32127,
-				name = "Crescent Boots"
+				itemId = 32127
 			},
 			{
+				name = "Shell Fragment",
 				clientId = 37479,
 				amount = 3,
-				itemId = 40931,
-				name = "Shell Fragment"
+				itemId = 40931
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 11300,
-		category = "armors",
 		clientId = 28705,
+		amount = 1,
 		index = 46,
-		durability = 7,
-		name = "Enforcer Armor",
-		profession = 5,
+		category = "armors",
 		progress = 350,
-		quality = 100,
 		itemId = 32137,
-		description = "",
+		quality = 100,
 		slotName = "plate armor",
+		name = "Enforcer Armor",
+		experience = 11300,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 43,
-			mass = 48
+			mass = 48,
+			single = 43
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 18,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 3,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Harbinger Armor",
 				clientId = 28696,
 				amount = 1,
-				itemId = 32128,
-				name = "Harbinger Armor"
+				itemId = 32128
 			},
 			{
+				name = "Internal Padding",
 				clientId = 38267,
 				amount = 5,
-				itemId = 41719,
-				name = "Internal Padding"
+				itemId = 41719
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 11300,
-		category = "armors",
 		clientId = 28711,
+		amount = 1,
 		index = 47,
-		durability = 7,
-		name = "Enforcer Helmet",
-		profession = 5,
+		category = "armors",
 		progress = 350,
-		quality = 100,
 		itemId = 32143,
-		description = "",
+		quality = 100,
 		slotName = "plate helmet",
+		name = "Enforcer Helmet",
+		experience = 11300,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 46,
-			mass = 51
+			mass = 51,
+			single = 46
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 18,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 3,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Harbinger Helmet",
 				clientId = 28702,
 				amount = 1,
-				itemId = 32134,
-				name = "Harbinger Helmet"
+				itemId = 32134
 			},
 			{
+				name = "Internal Padding",
 				clientId = 38267,
 				amount = 5,
-				itemId = 41719,
-				name = "Internal Padding"
+				itemId = 41719
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 11300,
-		category = "armors",
 		clientId = 28712,
+		amount = 1,
 		index = 48,
-		durability = 7,
-		name = "Enforcer Legs",
-		profession = 5,
+		category = "armors",
 		progress = 350,
-		quality = 100,
 		itemId = 32144,
-		description = "",
+		quality = 100,
 		slotName = "plate legs",
+		name = "Enforcer Legs",
+		experience = 11300,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 49,
-			mass = 54
+			mass = 54,
+			single = 49
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 18,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 3,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Harbinger Legs",
 				clientId = 28703,
 				amount = 1,
-				itemId = 32135,
-				name = "Harbinger Legs"
+				itemId = 32135
 			},
 			{
+				name = "Internal Padding",
 				clientId = 38267,
 				amount = 5,
-				itemId = 41719,
-				name = "Internal Padding"
+				itemId = 41719
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 11300,
-		category = "armors",
 		clientId = 28708,
+		amount = 1,
 		index = 49,
-		durability = 7,
-		name = "Enforcer Boots",
-		profession = 5,
+		category = "armors",
 		progress = 350,
-		quality = 100,
 		itemId = 32140,
-		description = "",
+		quality = 100,
 		slotName = "plate boots",
+		name = "Enforcer Boots",
+		experience = 11300,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 52,
-			mass = 57
+			mass = 57,
+			single = 52
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 18,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 3,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Harbinger Boots",
 				clientId = 28699,
 				amount = 1,
-				itemId = 32131,
-				name = "Harbinger Boots"
+				itemId = 32131
 			},
 			{
+				name = "Internal Padding",
 				clientId = 38267,
 				amount = 5,
-				itemId = 41719,
-				name = "Internal Padding"
+				itemId = 41719
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 24000,
-		category = "armors",
 		clientId = 28714,
+		amount = 1,
 		index = 50,
-		durability = 9,
-		name = "Protector's Armor",
-		profession = 5,
+		category = "armors",
 		progress = 525,
-		quality = 100,
 		itemId = 32146,
-		description = "",
+		quality = 100,
 		slotName = "plate armor",
+		name = "Protector's Armor",
+		experience = 24000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 9,
 		level = {
-			single = 58,
-			mass = 63
+			mass = 63,
+			single = 58
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 26,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 5,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Enforcer Armor",
 				clientId = 28705,
 				amount = 1,
-				itemId = 32137,
-				name = "Enforcer Armor"
+				itemId = 32137
 			},
 			{
+				name = "Ancient Ingot",
 				clientId = 37507,
 				amount = 6,
-				itemId = 40959,
-				name = "Ancient Ingot"
+				itemId = 40959
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 24000,
-		category = "armors",
 		clientId = 28720,
+		amount = 1,
 		index = 51,
-		durability = 9,
-		name = "Protector's Helmet",
-		profession = 5,
+		category = "armors",
 		progress = 525,
-		quality = 100,
 		itemId = 32152,
-		description = "",
+		quality = 100,
 		slotName = "plate helmet",
+		name = "Protector's Helmet",
+		experience = 24000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 9,
 		level = {
-			single = 61,
-			mass = 66
+			mass = 66,
+			single = 61
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 26,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 5,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Enforcer Helmet",
 				clientId = 28711,
 				amount = 1,
-				itemId = 32143,
-				name = "Enforcer Helmet"
+				itemId = 32143
 			},
 			{
+				name = "Ancient Ingot",
 				clientId = 37507,
 				amount = 6,
-				itemId = 40959,
-				name = "Ancient Ingot"
+				itemId = 40959
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 24000,
-		category = "armors",
 		clientId = 28721,
+		amount = 1,
 		index = 52,
-		durability = 9,
-		name = "Protector's Legs",
-		profession = 5,
+		category = "armors",
 		progress = 525,
-		quality = 100,
 		itemId = 32153,
-		description = "",
+		quality = 100,
 		slotName = "plate legs",
+		name = "Protector's Legs",
+		experience = 24000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 9,
 		level = {
-			single = 64,
-			mass = 69
+			mass = 69,
+			single = 64
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 26,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 5,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Enforcer Legs",
 				clientId = 28712,
 				amount = 1,
-				itemId = 32144,
-				name = "Enforcer Legs"
+				itemId = 32144
 			},
 			{
+				name = "Ancient Ingot",
 				clientId = 37507,
 				amount = 6,
-				itemId = 40959,
-				name = "Ancient Ingot"
+				itemId = 40959
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 24000,
-		category = "armors",
 		clientId = 28717,
+		amount = 1,
 		index = 53,
-		durability = 9,
-		name = "Protector's Boots",
-		profession = 5,
+		category = "armors",
 		progress = 525,
-		quality = 100,
 		itemId = 32149,
-		description = "",
+		quality = 100,
 		slotName = "plate boots",
+		name = "Protector's Boots",
+		experience = 24000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 9,
 		level = {
-			single = 67,
-			mass = 72
+			mass = 72,
+			single = 67
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 26,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 5,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Enforcer Boots",
 				clientId = 28708,
 				amount = 1,
-				itemId = 32140,
-				name = "Enforcer Boots"
+				itemId = 32140
 			},
 			{
+				name = "Ancient Ingot",
 				clientId = 37507,
 				amount = 6,
-				itemId = 40959,
-				name = "Ancient Ingot"
+				itemId = 40959
 			}
 		}
 	},
 	{
-		amount = 1,
-		slotName = "",
-		quality = 50,
-		progress = 75,
-		experience = 180,
-		profession = 5,
-		durability = 4,
-		formatDescription = "quality",
-		itemId = 31858,
-		description = "Increases Attack Power of your equipped weapon by {1} for 30 minutes. This effect is doubled for two-handed weapons.",
-		tier = -1,
-		category = "whetstones",
-		clientId = 28426,
-		index = 54,
 		name = "whetstone",
+		quality = 50,
+		tier = -1,
+		profession = 5,
+		clientId = 28426,
+		itemId = 31858,
+		slotName = "",
+		experience = 180,
+		progress = 75,
+		durability = 4,
+		amount = 1,
+		index = 54,
+		category = "whetstones",
+		formatDescription = "quality",
+		description = "Increases Attack Power of your equipped weapon by {1} for 30 minutes. This effect is doubled for two-handed weapons.",
 		level = {
-			single = 3,
-			mass = 8
+			mass = 8,
+			single = 3
 		},
 		materials = {
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 3,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			}
 		}
 	},
 	{
-		amount = 1,
-		slotName = "",
-		quality = 150,
-		progress = 175,
-		experience = 480,
-		profession = 5,
-		durability = 6,
-		formatDescription = "quality",
-		itemId = 31859,
-		description = "Increases Attack Power of your equipped weapon by {3} for 30 minutes. This effect is doubled for two-handed weapons.",
-		tier = -1,
-		category = "whetstones",
-		clientId = 28427,
-		index = 55,
 		name = "coarse whetstone",
+		quality = 150,
+		tier = -1,
+		profession = 5,
+		clientId = 28427,
+		itemId = 31859,
+		slotName = "",
+		experience = 480,
+		progress = 175,
+		durability = 6,
+		amount = 1,
+		index = 55,
+		category = "whetstones",
+		formatDescription = "quality",
+		description = "Increases Attack Power of your equipped weapon by {3} for 30 minutes. This effect is doubled for two-handed weapons.",
 		level = {
-			single = 18,
-			mass = 23
+			mass = 23,
+			single = 18
 		},
 		materials = {
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 6,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 1,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		slotName = "",
-		quality = 200,
-		progress = 225,
-		experience = 800,
-		profession = 5,
-		durability = 7,
-		formatDescription = "quality",
-		itemId = 38869,
-		description = "Increases Attack Power of your equipped weapon by {5} for 30 minutes. This effect is doubled for two-handed weapons.",
-		tier = -1,
-		category = "whetstones",
-		clientId = 35437,
-		index = 56,
 		name = "Heavy Whetstone",
+		quality = 200,
+		tier = -1,
+		profession = 5,
+		clientId = 35437,
+		itemId = 38869,
+		slotName = "",
+		experience = 800,
+		progress = 225,
+		durability = 7,
+		amount = 1,
+		index = 56,
+		category = "whetstones",
+		formatDescription = "quality",
+		description = "Increases Attack Power of your equipped weapon by {5} for 30 minutes. This effect is doubled for two-handed weapons.",
 		level = {
-			single = 33,
-			mass = 38
+			mass = 38,
+			single = 33
 		},
 		materials = {
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 10,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 2,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		slotName = "",
-		quality = 325,
-		progress = 350,
-		experience = 1200,
-		profession = 5,
-		durability = 8,
-		formatDescription = "quality",
-		itemId = 38870,
-		description = "Increases Attack Power of your equipped weapon by {7} for 30 minutes. This effect is doubled for two-handed weapons.",
-		tier = -1,
-		category = "whetstones",
-		clientId = 35438,
-		index = 57,
 		name = "Solid Whetstone",
+		quality = 325,
+		tier = -1,
+		profession = 5,
+		clientId = 35438,
+		itemId = 38870,
+		slotName = "",
+		experience = 1200,
+		progress = 350,
+		durability = 8,
+		amount = 1,
+		index = 57,
+		category = "whetstones",
+		formatDescription = "quality",
+		description = "Increases Attack Power of your equipped weapon by {7} for 30 minutes. This effect is doubled for two-handed weapons.",
 		level = {
-			single = 48,
-			mass = 53
+			mass = 53,
+			single = 48
 		},
 		materials = {
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 15,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 3,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		slotName = "",
-		quality = 450,
-		progress = 500,
-		experience = 2080,
-		specialization = "Craftsman",
-		durability = 9,
-		profession = 5,
-		formatDescription = "quality",
-		itemId = 31860,
-		description = "Increases Attack Power of your equipped weapon by {10} for 30 minutes. This effect is doubled for two-handed weapons.",
-		tier = -1,
-		category = "whetstones",
-		clientId = 28428,
-		index = 58,
 		name = "dense whetstone",
+		quality = 450,
+		tier = -1,
+		specialization = "Craftsman",
+		clientId = 28428,
+		profession = 5,
+		itemId = 31860,
+		slotName = "",
+		experience = 2080,
+		progress = 500,
+		durability = 9,
+		amount = 1,
+		index = 58,
+		category = "whetstones",
+		formatDescription = "quality",
+		description = "Increases Attack Power of your equipped weapon by {10} for 30 minutes. This effect is doubled for two-handed weapons.",
 		level = {
-			single = 68,
-			mass = 73
+			mass = 73,
+			single = 68
 		},
 		materials = {
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 25,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 5,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 800,
-		category = "fishing",
 		clientId = 28888,
+		amount = 1,
 		index = 59,
-		durability = 4,
-		name = "copper fishing hook",
-		profession = 5,
+		category = "fishing",
 		progress = 100,
-		quality = 0,
 		itemId = 32320,
-		description = "",
+		quality = 0,
 		slotName = "fishing hook",
+		name = "copper fishing hook",
+		experience = 800,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 4,
 		level = {
-			single = 7,
-			mass = 12
+			mass = 12,
+			single = 7
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 4,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 1680,
-		category = "fishing",
 		clientId = 28886,
+		amount = 1,
 		index = 60,
-		durability = 7,
-		name = "complex fishing hook",
-		profession = 5,
+		category = "fishing",
 		progress = 200,
-		quality = 0,
 		itemId = 32318,
-		description = "",
+		quality = 0,
 		slotName = "fishing hook",
+		name = "complex fishing hook",
+		experience = 1680,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 7,
 		level = {
-			single = 22,
-			mass = 27
+			mass = 27,
+			single = 22
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 7,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "copper fishing hook",
 				clientId = 28888,
 				amount = 1,
-				itemId = 32320,
-				name = "copper fishing hook"
+				itemId = 32320
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 4800,
-		category = "fishing",
 		clientId = 28884,
+		amount = 1,
 		index = 61,
-		durability = 7,
-		name = "steel fishing hook",
-		profession = 5,
+		category = "fishing",
 		progress = 350,
-		quality = 0,
 		itemId = 32316,
-		description = "",
+		quality = 0,
 		slotName = "fishing hook",
+		name = "steel fishing hook",
+		experience = 4800,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 7,
 		level = {
-			single = 37,
-			mass = 42
+			mass = 42,
+			single = 37
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 15,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "complex fishing hook",
 				clientId = 28886,
 				amount = 1,
-				itemId = 32318,
-				name = "complex fishing hook"
+				itemId = 32318
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 11500,
-		category = "fishing",
 		clientId = 28887,
+		amount = 1,
 		index = 62,
-		durability = 8,
-		name = "cobalt fishing hook",
-		profession = 5,
+		category = "fishing",
 		progress = 475,
-		quality = 0,
 		itemId = 32319,
-		description = "",
+		quality = 0,
 		slotName = "fishing hook",
+		name = "cobalt fishing hook",
+		experience = 11500,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 8,
 		level = {
-			single = 52,
-			mass = 57
+			mass = 57,
+			single = 52
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 25,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "steel fishing hook",
 				clientId = 28884,
 				amount = 1,
-				itemId = 32316,
-				name = "steel fishing hook"
+				itemId = 32316
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "fishing hook",
 		quality = 0,
-		progress = 600,
-		experience = 38400,
-		specialization = "Craftsman",
-		durability = 9,
-		profession = 5,
-		itemId = 32317,
-		description = "",
 		tier = 5,
-		category = "fishing",
+		progress = 600,
 		clientId = 28885,
-		index = 63,
+		itemId = 32317,
+		specialization = "Craftsman",
 		name = "titanium fishing hook",
+		experience = 38400,
+		profession = 5,
+		durability = 9,
+		amount = 1,
+		index = 63,
+		category = "fishing",
+		description = "",
 		level = {
-			single = 72,
-			mass = 77
+			mass = 77,
+			single = 72
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 60,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "cobalt fishing hook",
 				clientId = 28887,
 				amount = 1,
-				itemId = 32319,
-				name = "cobalt fishing hook"
+				itemId = 32319
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 4320,
-		category = "weapons",
 		clientId = 37108,
+		amount = 1,
 		index = 64,
-		durability = 4,
-		name = "Swashbuckler's Blade",
-		profession = 5,
+		category = "weapons",
 		progress = 100,
-		quality = 100,
 		itemId = 40560,
-		description = "",
+		quality = 100,
 		slotName = "light blade",
+		name = "Swashbuckler's Blade",
+		experience = 4320,
+		profession = 5,
 		tier = 2,
+		description = "",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 6,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 6,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			},
 			{
+				name = "Skirmisher's Blade",
 				clientId = 37107,
 				amount = 1,
-				itemId = 40559,
-				name = "Skirmisher's Blade"
+				itemId = 40559
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 14400,
-		category = "weapons",
 		clientId = 37109,
+		amount = 1,
 		index = 65,
-		durability = 6,
-		name = "Serpentine Blade",
-		profession = 5,
+		category = "weapons",
 		progress = 200,
-		quality = 100,
 		itemId = 40561,
-		description = "",
+		quality = 100,
 		slotName = "light blade",
+		name = "Serpentine Blade",
+		experience = 14400,
+		profession = 5,
 		tier = 3,
+		description = "",
+		durability = 6,
 		level = {
-			single = 25,
-			mass = 30
+			mass = 30,
+			single = 25
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 10,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			},
 			{
+				name = "Swashbuckler's Blade",
 				clientId = 37108,
 				amount = 1,
-				itemId = 40560,
-				name = "Swashbuckler's Blade"
+				itemId = 40560
 			},
 			{
+				name = "Troll Fang",
 				clientId = 37478,
 				amount = 12,
-				itemId = 40930,
-				name = "Troll Fang"
+				itemId = 40930
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 40000,
-		category = "weapons",
 		clientId = 37110,
+		amount = 1,
 		index = 66,
-		durability = 7,
-		name = "Duelist's Companion",
-		profession = 5,
+		category = "weapons",
 		progress = 350,
-		quality = 100,
 		itemId = 40562,
-		description = "",
+		quality = 100,
 		slotName = "light blade",
+		name = "Duelist's Companion",
+		experience = 40000,
+		profession = 5,
 		tier = 4,
+		description = "",
+		durability = 7,
 		level = {
-			single = 40,
-			mass = 45
+			mass = 45,
+			single = 40
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 12,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 20,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			},
 			{
+				name = "Serpentine Blade",
 				clientId = 37109,
 				amount = 1,
-				itemId = 40561,
-				name = "Serpentine Blade"
+				itemId = 40561
 			},
 			{
+				name = "Cunning Handle",
 				clientId = 38265,
 				amount = 20,
-				itemId = 41717,
-				name = "Cunning Handle"
+				itemId = 41717
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 80000,
-		category = "weapons",
 		clientId = 37111,
+		amount = 1,
 		index = 67,
-		durability = 8,
-		name = "Ornamented Saber",
-		profession = 5,
+		category = "weapons",
 		progress = 525,
-		quality = 100,
 		itemId = 40563,
-		description = "",
+		quality = 100,
 		slotName = "light blade",
+		name = "Ornamented Saber",
+		experience = 80000,
+		profession = 5,
 		tier = 5,
+		description = "",
+		durability = 8,
 		level = {
-			single = 55,
-			mass = 60
+			mass = 60,
+			single = 55
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 20,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 30,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			},
 			{
+				name = "Duelist's Companion",
 				clientId = 37110,
 				amount = 1,
-				itemId = 40562,
-				name = "Duelist's Companion"
+				itemId = 40562
 			},
 			{
+				name = "Twisted Blades",
 				clientId = 40280,
 				amount = 24,
-				itemId = 43732,
-				name = "Twisted Blades"
+				itemId = 43732
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "sword",
 		quality = 100,
-		progress = 700,
-		experience = 62000,
-		specialization = "Dwarven Weaponsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40610,
-		description = "",
 		tier = 6,
-		category = "weapons",
+		progress = 700,
 		clientId = 37158,
-		index = 68,
+		itemId = 40610,
+		specialization = "Dwarven Weaponsmith",
 		name = "Champion's Longsword",
+		experience = 62000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 68,
+		category = "weapons",
+		description = "",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 12,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 18,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Crusader's Longsword",
 				clientId = 29063,
 				amount = 1,
-				itemId = 32495,
-				name = "Crusader's Longsword"
+				itemId = 32495
 			},
 			{
+				name = "Crude Runed Tip",
 				clientId = 40267,
 				amount = 16,
-				itemId = 43719,
-				name = "Crude Runed Tip"
+				itemId = 43719
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "axe",
 		quality = 100,
-		progress = 700,
-		experience = 62000,
-		specialization = "Dwarven Weaponsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40606,
-		description = "",
 		tier = 6,
-		category = "weapons",
+		progress = 700,
 		clientId = 37154,
-		index = 69,
+		itemId = 40606,
+		specialization = "Dwarven Weaponsmith",
 		name = "Dragonbane Axe",
+		experience = 62000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 69,
+		category = "weapons",
+		description = "",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 30,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 14,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Hellblade Axe",
 				clientId = 28996,
 				amount = 1,
-				itemId = 32428,
-				name = "Hellblade Axe"
+				itemId = 32428
 			},
 			{
+				name = "Sturdy Joint",
 				clientId = 40278,
 				amount = 16,
-				itemId = 43730,
-				name = "Sturdy Joint"
+				itemId = 43730
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "club",
 		quality = 100,
-		progress = 700,
-		experience = 62000,
-		specialization = "Dwarven Weaponsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40608,
-		description = "",
 		tier = 6,
-		category = "weapons",
+		progress = 700,
 		clientId = 37156,
-		index = 70,
+		itemId = 40608,
+		specialization = "Dwarven Weaponsmith",
 		name = "Skullbasher Mace",
+		experience = 62000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 70,
+		category = "weapons",
+		description = "",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 30,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 14,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Enforcer's Mace",
 				clientId = 29008,
 				amount = 1,
-				itemId = 32440,
-				name = "Enforcer's Mace"
+				itemId = 32440
 			},
 			{
+				name = "Polished Plate Scraps",
 				clientId = 40275,
 				amount = 16,
-				itemId = 43727,
-				name = "Polished Plate Scraps"
+				itemId = 43727
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "dagger",
 		quality = 100,
-		progress = 700,
-		experience = 62000,
-		specialization = "Dwarven Weaponsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40603,
-		description = "",
 		tier = 6,
-		category = "weapons",
+		progress = 700,
 		clientId = 37151,
-		index = 71,
+		itemId = 40603,
+		specialization = "Dwarven Weaponsmith",
 		name = "Ritual Dagger",
+		experience = 62000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 71,
+		category = "weapons",
+		description = "",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 12,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 18,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Assassin's Dagger",
 				clientId = 29014,
 				amount = 1,
-				itemId = 32446,
-				name = "Assassin's Dagger"
+				itemId = 32446
 			},
 			{
+				name = "Sharp Edges",
 				clientId = 40277,
 				amount = 16,
-				itemId = 43729,
-				name = "Sharp Edges"
+				itemId = 43729
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "light blade",
 		quality = 100,
-		progress = 700,
-		experience = 124000,
-		specialization = "Dwarven Weaponsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40564,
-		description = "",
 		tier = 6,
-		category = "weapons",
+		progress = 700,
 		clientId = 37112,
-		index = 73,
+		itemId = 40564,
+		specialization = "Dwarven Weaponsmith",
 		name = "Scarlet Thorn",
+		experience = 124000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 73,
+		category = "weapons",
+		description = "",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 24,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 36,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Ornamented Saber",
 				clientId = 37111,
 				amount = 1,
-				itemId = 40563,
-				name = "Ornamented Saber"
+				itemId = 40563
 			},
 			{
+				name = "Sharp Edges",
 				clientId = 40277,
 				amount = 32,
-				itemId = 43729,
-				name = "Sharp Edges"
+				itemId = 43729
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "greataxe",
 		quality = 100,
-		progress = 700,
-		experience = 124000,
-		specialization = "Dwarven Weaponsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40600,
-		description = "",
 		tier = 6,
-		category = "weapons",
+		progress = 700,
 		clientId = 37148,
-		index = 74,
+		itemId = 40600,
+		specialization = "Dwarven Weaponsmith",
 		name = "Nocturnal Greataxe",
+		experience = 124000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 74,
+		category = "weapons",
+		description = "",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 60,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 28,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Orcish Battle Axe",
 				clientId = 28983,
 				amount = 1,
-				itemId = 32415,
-				name = "Orcish Battle Axe"
+				itemId = 32415
 			},
 			{
+				name = "Sturdy Joint",
 				clientId = 40278,
 				amount = 32,
-				itemId = 43730,
-				name = "Sturdy Joint"
+				itemId = 43730
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "greatsword",
 		quality = 100,
-		progress = 700,
-		experience = 124000,
-		specialization = "Dwarven Weaponsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40605,
-		description = "",
 		tier = 6,
-		category = "weapons",
+		progress = 700,
 		clientId = 37153,
-		index = 75,
+		itemId = 40605,
+		specialization = "Dwarven Weaponsmith",
 		name = "Magister's Greatsword",
+		experience = 124000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 75,
+		category = "weapons",
+		description = "",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 24,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 36,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Samurai's Daikatana",
 				clientId = 28989,
 				amount = 1,
-				itemId = 32421,
-				name = "Samurai's Daikatana"
+				itemId = 32421
 			},
 			{
+				name = "Crude Runed Tip",
 				clientId = 40267,
 				amount = 32,
-				itemId = 43719,
-				name = "Crude Runed Tip"
+				itemId = 43719
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "hammer",
 		quality = 100,
-		progress = 700,
-		experience = 124000,
-		specialization = "Dwarven Weaponsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40604,
-		description = "",
 		tier = 6,
-		category = "weapons",
+		progress = 700,
 		clientId = 37152,
-		index = 76,
+		itemId = 40604,
+		specialization = "Dwarven Weaponsmith",
 		name = "Soulwarden's Hammer",
+		experience = 124000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 76,
+		category = "weapons",
+		description = "",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 60,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 28,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Dwarven Warhammer",
 				clientId = 29020,
 				amount = 1,
-				itemId = 32452,
-				name = "Dwarven Warhammer"
+				itemId = 32452
 			},
 			{
+				name = "Polished Plate Scraps",
 				clientId = 40275,
 				amount = 32,
-				itemId = 43727,
-				name = "Polished Plate Scraps"
+				itemId = 43727
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "plate armor",
 		quality = 100,
-		progress = 700,
-		experience = 33000,
-		specialization = "Dwarven Armorsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40595,
-		description = "",
 		tier = 6,
-		category = "armors",
+		progress = 700,
 		clientId = 37143,
-		index = 77,
+		itemId = 40595,
+		specialization = "Dwarven Armorsmith",
 		name = "Chivalry Armor",
+		experience = 33000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 77,
+		category = "armors",
+		description = "",
 		level = {
-			single = 78,
-			mass = 83
+			mass = 83,
+			single = 78
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 23,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 6,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Protector's Armor",
 				clientId = 28714,
 				amount = 1,
-				itemId = 32146,
-				name = "Protector's Armor"
+				itemId = 32146
 			},
 			{
+				name = "Reflective Husk",
 				clientId = 40276,
 				amount = 8,
-				itemId = 43728,
-				name = "Reflective Husk"
+				itemId = 43728
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "plate helmet",
 		quality = 100,
-		progress = 700,
-		experience = 33000,
-		specialization = "Dwarven Armorsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40598,
-		description = "",
 		tier = 6,
-		category = "armors",
+		progress = 700,
 		clientId = 37146,
-		index = 78,
+		itemId = 40598,
+		specialization = "Dwarven Armorsmith",
 		name = "Chivalry Helmet",
+		experience = 33000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 78,
+		category = "armors",
+		description = "",
 		level = {
-			single = 81,
-			mass = 86
+			mass = 86,
+			single = 81
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 23,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 6,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Protector's Helmet",
 				clientId = 28720,
 				amount = 1,
-				itemId = 32152,
-				name = "Protector's Helmet"
+				itemId = 32152
 			},
 			{
+				name = "Reflective Husk",
 				clientId = 40276,
 				amount = 8,
-				itemId = 43728,
-				name = "Reflective Husk"
+				itemId = 43728
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "plate legs",
 		quality = 100,
-		progress = 700,
-		experience = 33000,
-		specialization = "Dwarven Armorsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40597,
-		description = "",
 		tier = 6,
-		category = "armors",
+		progress = 700,
 		clientId = 37145,
-		index = 79,
+		itemId = 40597,
+		specialization = "Dwarven Armorsmith",
 		name = "Chivalry Legs",
+		experience = 33000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 79,
+		category = "armors",
+		description = "",
 		level = {
-			single = 84,
-			mass = 89
+			mass = 89,
+			single = 84
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 23,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 6,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Protector's Legs",
 				clientId = 28721,
 				amount = 1,
-				itemId = 32153,
-				name = "Protector's Legs"
+				itemId = 32153
 			},
 			{
+				name = "Reflective Husk",
 				clientId = 40276,
 				amount = 8,
-				itemId = 43728,
-				name = "Reflective Husk"
+				itemId = 43728
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "plate boots",
 		quality = 100,
-		progress = 700,
-		experience = 33000,
-		specialization = "Dwarven Armorsmith",
-		durability = 12,
-		profession = 5,
-		itemId = 40596,
-		description = "",
 		tier = 6,
-		category = "armors",
+		progress = 700,
 		clientId = 37144,
-		index = 80,
+		itemId = 40596,
+		specialization = "Dwarven Armorsmith",
 		name = "Chivalry Boots",
+		experience = 33000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 80,
+		category = "armors",
+		description = "",
 		level = {
-			single = 87,
-			mass = 92
+			mass = 92,
+			single = 87
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 23,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 6,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "Protector's Boots",
 				clientId = 28717,
 				amount = 1,
-				itemId = 32149,
-				name = "Protector's Boots"
+				itemId = 32149
 			},
 			{
+				name = "Reflective Husk",
 				clientId = 40276,
 				amount = 8,
-				itemId = 43728,
-				name = "Reflective Husk"
+				itemId = 43728
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 54400,
-		category = "Housing Craft",
 		clientId = 37234,
+		amount = 1,
 		index = 81,
-		durability = 7,
-		name = "Forging Tools",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 350,
-		quality = 0,
 		itemId = 40686,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Forging Tools",
+		experience = 54400,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 100,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 50,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 20,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 10,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 80000,
-		category = "Housing Craft",
 		clientId = 37285,
+		amount = 1,
 		index = 82,
-		durability = 8,
-		name = "Superior Forging Tools",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 525,
-		quality = 0,
 		itemId = 40737,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Superior Forging Tools",
+		experience = 80000,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 8,
 		level = {
-			single = 50,
-			mass = 55
+			mass = 55,
+			single = 50
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 80,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 70,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 30,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 15,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 116000,
-		category = "Housing Craft",
 		clientId = 37220,
+		amount = 1,
 		index = 83,
-		durability = 12,
-		name = "Artisan Forging Tools",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 700,
-		quality = 0,
 		itemId = 40672,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Artisan Forging Tools",
+		experience = 116000,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 12,
 		level = {
-			single = 70,
-			mass = 75
+			mass = 75,
+			single = 70
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 80,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 70,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 40,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 25,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 30400,
-		category = "Housing Craft",
 		clientId = 37289,
+		amount = 1,
 		index = 84,
-		durability = 7,
-		name = "Woodwork Tools",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 350,
-		quality = 0,
 		itemId = 40741,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Woodwork Tools",
+		experience = 30400,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 80,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 35,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 72000,
-		category = "Housing Craft",
 		clientId = 37236,
+		amount = 1,
 		index = 85,
-		durability = 12,
-		name = "Improved Woodwork Tools",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 700,
-		quality = 0,
 		itemId = 40688,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Improved Woodwork Tools",
+		experience = 72000,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 12,
 		level = {
-			single = 70,
-			mass = 75
+			mass = 75,
+			single = 70
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 100,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 40,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 28000,
-		category = "Housing Craft",
 		clientId = 37217,
+		amount = 1,
 		index = 86,
-		durability = 7,
-		name = "Anvil",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 350,
-		quality = 0,
 		itemId = 40669,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Anvil",
+		experience = 28000,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 70,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 35,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 66000,
-		category = "Housing Craft",
 		clientId = 37233,
+		amount = 1,
 		index = 87,
-		durability = 12,
-		name = "Forgemaster Anvil",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 700,
-		quality = 0,
 		itemId = 40685,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Forgemaster Anvil",
+		experience = 66000,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 12,
 		level = {
-			single = 70,
-			mass = 75
+			mass = 75,
+			single = 70
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 80,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 45,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 10000,
-		category = "Housing Craft",
 		clientId = 37235,
+		amount = 1,
 		index = 88,
-		durability = 7,
-		name = "Furnace",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 350,
-		quality = 0,
 		itemId = 40687,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Furnace",
+		experience = 10000,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 20,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "iron bar",
 				clientId = 28737,
 				amount = 5,
-				itemId = 32169,
-				name = "iron bar"
+				itemId = 32169
 			},
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 20,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 10,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 28800,
-		category = "Housing Craft",
 		clientId = 37232,
+		amount = 1,
 		index = 89,
-		durability = 12,
-		name = "Forge",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 700,
-		quality = 0,
 		itemId = 40684,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Forge",
+		experience = 28800,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 12,
 		level = {
-			single = 70,
-			mass = 75
+			mass = 75,
+			single = 70
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 40,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 10,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "iron bar",
 				clientId = 28737,
 				amount = 5,
-				itemId = 32169,
-				name = "iron bar"
+				itemId = 32169
 			},
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 20,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 10,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 24000,
-		category = "Housing Craft",
 		clientId = 37281,
+		amount = 1,
 		index = 90,
-		durability = 7,
-		name = "Stove",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 350,
-		quality = 0,
 		itemId = 40733,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Stove",
+		experience = 24000,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 50,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 20,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "iron bar",
 				clientId = 28737,
 				amount = 15,
-				itemId = 32169,
-				name = "iron bar"
+				itemId = 32169
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 10,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 10,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 6000,
-		category = "Misc",
 		clientId = 28740,
+		amount = 1,
 		index = 91,
-		durability = 7,
-		name = "reinforced plate",
-		profession = 5,
+		category = "Misc",
 		progress = 200,
-		quality = 0,
 		itemId = 32172,
-		description = "Used in various recipes. The backbone of many structures in Ravendawn.",
+		quality = 0,
 		slotName = "",
+		name = "reinforced plate",
+		experience = 6000,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. The backbone of many structures in Ravendawn.",
+		durability = 7,
 		level = {
-			single = 20,
-			mass = 25
+			mass = 25,
+			single = 20
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 15,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "refined plank",
 				clientId = 28743,
 				amount = 15,
-				itemId = 32175,
-				name = "refined plank"
+				itemId = 32175
 			},
 			{
+				name = "Bolt",
 				clientId = 40282,
 				amount = 15,
-				itemId = 43734,
-				name = "Bolt"
+				itemId = 43734
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 117000,
-		category = "Housing Craft",
 		clientId = 37286,
+		amount = 1,
 		index = 92,
-		durability = 8,
-		name = "Superior Stove",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 525,
-		quality = 0,
 		itemId = 40738,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Superior Stove",
+		experience = 117000,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 8,
 		level = {
-			single = 50,
-			mass = 55
+			mass = 55,
+			single = 50
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 100,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 50,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "iron bar",
 				clientId = 28737,
 				amount = 30,
-				itemId = 32169,
-				name = "iron bar"
+				itemId = 32169
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 20,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "Sturdy Plank",
 				clientId = 45506,
 				amount = 35,
-				itemId = 48958,
-				name = "Sturdy Plank"
+				itemId = 48958
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 163000,
-		category = "Housing Craft",
 		clientId = 37221,
+		amount = 1,
 		index = 93,
-		durability = 12,
-		name = "Artisan Stove",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 700,
-		quality = 0,
 		itemId = 40673,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Artisan Stove",
+		experience = 163000,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 12,
 		level = {
-			single = 70,
-			mass = 75
+			mass = 75,
+			single = 70
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 100,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 80,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "iron bar",
 				clientId = 28737,
 				amount = 40,
-				itemId = 32169,
-				name = "iron bar"
+				itemId = 32169
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 30,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "Sturdy Plank",
 				clientId = 45506,
 				amount = 35,
-				itemId = 48958,
-				name = "Sturdy Plank"
+				itemId = 48958
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 88000,
-		category = "Ship Module",
 		clientId = 37260,
+		amount = 1,
 		index = 94,
-		durability = 7,
-		name = "Minor Shielding Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 350,
-		quality = 0,
 		itemId = 40712,
-		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		quality = 0,
 		slotName = "",
+		name = "Minor Shielding Kit",
+		experience = 88000,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 220,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 110,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 332000,
-		category = "Ship Module",
 		clientId = 37282,
+		amount = 1,
 		index = 95,
-		durability = 7,
-		name = "Sturdy Shielding Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 500,
-		quality = 0,
 		itemId = 40734,
-		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		quality = 0,
 		slotName = "",
+		name = "Sturdy Shielding Kit",
+		experience = 332000,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		durability = 7,
 		level = {
-			single = 45,
-			mass = 50
+			mass = 50,
+			single = 45
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 600,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 300,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 705600,
-		category = "Ship Module",
 		clientId = 37263,
+		amount = 1,
 		index = 96,
-		durability = 12,
-		name = "Reinforced Shielding Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 700,
-		quality = 0,
 		itemId = 40715,
-		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		quality = 0,
 		slotName = "",
+		name = "Reinforced Shielding Kit",
+		experience = 705600,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		durability = 12,
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 900,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 450,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 32800,
-		category = "Ship Module",
 		clientId = 37266,
+		amount = 1,
 		index = 97,
-		durability = 7,
-		name = "Small Cannon Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 350,
-		quality = 0,
 		itemId = 40718,
-		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		quality = 0,
 		slotName = "",
+		name = "Small Cannon Kit",
+		experience = 32800,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 40,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 15,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "treated plank",
 				clientId = 28745,
 				amount = 10,
-				itemId = 32177,
-				name = "treated plank"
+				itemId = 32177
 			},
 			{
+				name = "Common Wheel",
 				clientId = 37229,
 				amount = 2,
-				itemId = 40681,
-				name = "Common Wheel"
+				itemId = 40681
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 65840,
-		category = "Ship Module",
 		clientId = 37268,
+		amount = 1,
 		index = 98,
-		durability = 6,
-		name = "Simple Ship Emblems Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 225,
-		quality = 0,
 		itemId = 40720,
-		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		quality = 0,
 		slotName = "",
+		name = "Simple Ship Emblems Kit",
+		experience = 65840,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		durability = 6,
 		level = {
-			single = 20,
-			mass = 25
+			mass = 25,
+			single = 20
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 220,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 50,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "Common Wheel",
 				clientId = 37229,
 				amount = 2,
-				itemId = 40681,
-				name = "Common Wheel"
+				itemId = 40681
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 134400,
-		category = "Ship Module",
 		clientId = 37265,
+		amount = 1,
 		index = 99,
-		durability = 7,
-		name = "Compound Ship Emblems Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 500,
-		quality = 0,
 		itemId = 40717,
-		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		quality = 0,
 		slotName = "",
+		name = "Compound Ship Emblems Kit",
+		experience = 134400,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		durability = 7,
 		level = {
-			single = 45,
-			mass = 50
+			mass = 50,
+			single = 45
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 220,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 110,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Swift Wheel",
 				clientId = 40492,
 				amount = 2,
-				itemId = 43944,
-				name = "Swift Wheel"
+				itemId = 43944
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 228000,
-		category = "Ship Module",
 		clientId = 37218,
+		amount = 1,
 		index = 100,
-		durability = 12,
-		name = "Complex Ship Emblems Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 700,
-		quality = 0,
 		itemId = 40670,
-		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		quality = 0,
 		slotName = "",
+		name = "Complex Ship Emblems Kit",
+		experience = 228000,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		durability = 12,
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 220,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 110,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Reinforced Wheel",
 				clientId = 37264,
 				amount = 2,
-				itemId = 40716,
-				name = "Reinforced Wheel"
+				itemId = 40716
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 37600,
-		category = "Ship Module",
 		clientId = 37223,
+		amount = 1,
 		index = 101,
-		durability = 7,
-		name = "Basic Water Pumps Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 350,
-		quality = 0,
 		itemId = 40675,
-		description = "Used for crafting ship modules for your ship at the Ship Builder.",
+		quality = 0,
 		slotName = "",
+		name = "Basic Water Pumps Kit",
+		experience = 37600,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder.",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 80,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 50,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 20,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 56000,
-		category = "Ship Module",
 		clientId = 37230,
+		amount = 1,
 		index = 102,
-		durability = 7,
-		name = "Enhanced Water Pumps Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 500,
-		quality = 0,
 		itemId = 40682,
-		description = "Used for crafting ship modules for your ship at the Ship Builder.",
+		quality = 0,
 		slotName = "",
+		name = "Enhanced Water Pumps Kit",
+		experience = 56000,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder.",
+		durability = 7,
 		level = {
-			single = 45,
-			mass = 50
+			mass = 50,
+			single = 45
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 220,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 110,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 40,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 180000,
-		category = "Ship Module",
 		clientId = 37261,
+		amount = 1,
 		index = 103,
-		durability = 12,
-		name = "Pressurized Water Pumps Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 700,
-		quality = 0,
 		itemId = 40713,
-		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		quality = 0,
 		slotName = "",
+		name = "Pressurized Water Pumps Kit",
+		experience = 180000,
+		profession = 5,
 		tier = -1,
+		description = "Used for crafting ship modules for your ship at the Ship Builder",
+		durability = 12,
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 220,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 110,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 60,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 64,
-		category = "Misc",
 		clientId = 28734,
+		amount = 1,
 		index = 104,
-		durability = 4,
-		name = "nail",
-		profession = 5,
+		category = "Misc",
 		progress = 50,
-		quality = 75,
 		itemId = 32166,
+		quality = 75,
+		slotName = "",
+		name = "nail",
+		experience = 64,
+		profession = 5,
+		tier = -1,
 		description = "Used in various recipes. A basic yet crucial component for construction.",
-		slotName = "",
-		tier = -1,
+		durability = 4,
 		level = {
-			single = 2,
-			mass = 7
+			mass = 7,
+			single = 2
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 1,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 240,
-		category = "Misc",
 		clientId = 28737,
+		amount = 1,
 		index = 105,
-		durability = 7,
-		name = "iron bar",
-		profession = 5,
+		category = "Misc",
 		progress = 200,
-		quality = 225,
 		itemId = 32169,
-		description = "Used in various recipes. Forged with strength and versatility in mind.",
-		slotName = "",
-		tier = -1,
-		level = {
-			single = 20,
-			mass = 25
-		},
-		materials = {
-			{
-				clientId = 28723,
-				amount = 1,
-				itemId = 32155,
-				name = "iron ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 800,
-		category = "weapons",
-		clientId = 29004,
-		index = 106,
-		durability = 3,
-		name = "Solid Mace",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32436,
-		description = "",
-		slotName = "club",
-		tier = 1,
-		level = {
-			single = 1,
-			mass = 6
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 4,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 800,
-		category = "weapons",
-		clientId = 29059,
-		index = 107,
-		durability = 3,
-		name = "Rough Sword",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32491,
-		description = "",
-		slotName = "sword",
-		tier = 1,
-		level = {
-			single = 1,
-			mass = 6
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 4,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 800,
-		category = "weapons",
-		clientId = 28992,
-		index = 108,
-		durability = 3,
-		name = "Wicked Axe",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32424,
-		description = "",
-		slotName = "axe",
-		tier = 1,
-		level = {
-			single = 1,
-			mass = 6
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 4,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 800,
-		category = "weapons",
-		clientId = 29010,
-		index = 109,
-		durability = 3,
-		name = "Serrated Dagger",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32442,
-		description = "",
-		slotName = "dagger",
-		tier = 1,
-		level = {
-			single = 1,
-			mass = 6
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 4,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 1600,
-		category = "weapons",
-		clientId = 28978,
-		index = 111,
-		durability = 3,
-		name = "Rough Greataxe",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32410,
-		description = "",
-		slotName = "greataxe",
-		tier = 1,
-		level = {
-			single = 1,
-			mass = 6
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 8,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 1600,
-		category = "weapons",
-		clientId = 28985,
-		index = 112,
-		durability = 3,
-		name = "Burnished Greatsword",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32417,
-		description = "",
-		slotName = "greatsword",
-		tier = 1,
-		level = {
-			single = 1,
-			mass = 6
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 8,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 1600,
-		category = "weapons",
-		clientId = 37107,
-		index = 113,
-		durability = 3,
-		name = "Skirmisher's Blade",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 40559,
-		description = "",
-		slotName = "light blade",
-		tier = 1,
-		level = {
-			single = 1,
-			mass = 6
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 8,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 1600,
-		category = "weapons",
-		clientId = 29016,
-		index = 114,
-		durability = 3,
-		name = "Shipbuilding Mallet",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32448,
-		description = "",
-		slotName = "hammer",
-		tier = 1,
-		level = {
-			single = 1,
-			mass = 6
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 8,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 600,
-		category = "armors",
-		clientId = 28678,
-		index = 115,
-		durability = 3,
-		name = "Pliant Armor",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32110,
-		description = "",
-		slotName = "plate armor",
-		tier = 1,
-		level = {
-			single = 3,
-			mass = 8
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 600,
-		category = "armors",
-		clientId = 28684,
-		index = 116,
-		durability = 3,
-		name = "Pliant Helmet",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32116,
-		description = "",
-		slotName = "plate helmet",
-		tier = 1,
-		level = {
-			single = 5,
-			mass = 10
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 600,
-		category = "armors",
-		clientId = 28685,
-		index = 117,
-		durability = 3,
-		name = "Pliant Legs",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32117,
-		description = "",
-		slotName = "plate legs",
-		tier = 1,
-		level = {
-			single = 7,
-			mass = 12
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 600,
-		category = "armors",
-		clientId = 28681,
-		index = 118,
-		durability = 3,
-		name = "Pliant Boots",
-		profession = 5,
-		progress = 50,
-		quality = 100,
-		itemId = 32113,
-		description = "",
-		slotName = "plate boots",
-		tier = 1,
-		level = {
-			single = 9,
-			mass = 14
-		},
-		materials = {
-			{
-				clientId = 28726,
-				amount = 3,
-				itemId = 32158,
-				name = "copper ingot"
-			}
-		}
-	},
-	{
-		amount = 1,
-		experience = 80,
-		category = "Misc",
-		clientId = 40282,
-		index = 119,
-		durability = 6,
-		name = "Bolt",
-		profession = 5,
-		progress = 200,
 		quality = 225,
-		itemId = 43734,
-		description = "Used in various recipes. A small piece, integral in connecting larger ones.",
 		slotName = "",
+		name = "iron bar",
+		experience = 240,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. Forged with strength and versatility in mind.",
+		durability = 7,
 		level = {
-			single = 20,
-			mass = 25
+			mass = 25,
+			single = 20
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 1,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			}
 		}
 	},
 	{
+		clientId = 29004,
 		amount = 1,
-		experience = 215,
-		category = "Misc",
-		clientId = 40284,
-		index = 120,
-		durability = 7,
-		name = "Steel Bar",
+		index = 106,
+		category = "weapons",
+		progress = 50,
+		itemId = 32436,
+		quality = 100,
+		slotName = "club",
+		name = "Solid Mace",
+		experience = 800,
 		profession = 5,
-		progress = 350,
-		quality = 400,
-		itemId = 43736,
-		description = "Used in various recipes. Cold, hard, and unyielding - the essence of strength.",
-		slotName = "",
-		tier = -1,
+		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
-			single = 45,
-			mass = 50
+			mass = 6,
+			single = 1
 		},
 		materials = {
 			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 4,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 29059,
+		amount = 1,
+		index = 107,
+		category = "weapons",
+		progress = 50,
+		itemId = 32491,
+		quality = 100,
+		slotName = "sword",
+		name = "Rough Sword",
+		experience = 800,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 6,
+			single = 1
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 4,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 28992,
+		amount = 1,
+		index = 108,
+		category = "weapons",
+		progress = 50,
+		itemId = 32424,
+		quality = 100,
+		slotName = "axe",
+		name = "Wicked Axe",
+		experience = 800,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 6,
+			single = 1
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 4,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 29010,
+		amount = 1,
+		index = 109,
+		category = "weapons",
+		progress = 50,
+		itemId = 32442,
+		quality = 100,
+		slotName = "dagger",
+		name = "Serrated Dagger",
+		experience = 800,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 6,
+			single = 1
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 4,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 28978,
+		amount = 1,
+		index = 111,
+		category = "weapons",
+		progress = 50,
+		itemId = 32410,
+		quality = 100,
+		slotName = "greataxe",
+		name = "Rough Greataxe",
+		experience = 1600,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 6,
+			single = 1
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 8,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 28985,
+		amount = 1,
+		index = 112,
+		category = "weapons",
+		progress = 50,
+		itemId = 32417,
+		quality = 100,
+		slotName = "greatsword",
+		name = "Burnished Greatsword",
+		experience = 1600,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 6,
+			single = 1
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 8,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 37107,
+		amount = 1,
+		index = 113,
+		category = "weapons",
+		progress = 50,
+		itemId = 40559,
+		quality = 100,
+		slotName = "light blade",
+		name = "Skirmisher's Blade",
+		experience = 1600,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 6,
+			single = 1
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 8,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 29016,
+		amount = 1,
+		index = 114,
+		category = "weapons",
+		progress = 50,
+		itemId = 32448,
+		quality = 100,
+		slotName = "hammer",
+		name = "Shipbuilding Mallet",
+		experience = 1600,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 6,
+			single = 1
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 8,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 28678,
+		amount = 1,
+		index = 115,
+		category = "armors",
+		progress = 50,
+		itemId = 32110,
+		quality = 100,
+		slotName = "plate armor",
+		name = "Pliant Armor",
+		experience = 600,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 8,
+			single = 3
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 3,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 28684,
+		amount = 1,
+		index = 116,
+		category = "armors",
+		progress = 50,
+		itemId = 32116,
+		quality = 100,
+		slotName = "plate helmet",
+		name = "Pliant Helmet",
+		experience = 600,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 10,
+			single = 5
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 3,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 28685,
+		amount = 1,
+		index = 117,
+		category = "armors",
+		progress = 50,
+		itemId = 32117,
+		quality = 100,
+		slotName = "plate legs",
+		name = "Pliant Legs",
+		experience = 600,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 12,
+			single = 7
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 3,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 28681,
+		amount = 1,
+		index = 118,
+		category = "armors",
+		progress = 50,
+		itemId = 32113,
+		quality = 100,
+		slotName = "plate boots",
+		name = "Pliant Boots",
+		experience = 600,
+		profession = 5,
+		tier = 1,
+		description = "",
+		durability = 3,
+		level = {
+			mass = 14,
+			single = 9
+		},
+		materials = {
+			{
+				name = "copper ingot",
+				clientId = 28726,
+				amount = 3,
+				itemId = 32158
+			}
+		}
+	},
+	{
+		clientId = 40282,
+		amount = 1,
+		index = 119,
+		category = "Misc",
+		progress = 200,
+		itemId = 43734,
+		quality = 225,
+		slotName = "",
+		name = "Bolt",
+		experience = 80,
+		profession = 5,
+		tier = -1,
+		description = "Used in various recipes. A small piece, integral in connecting larger ones.",
+		durability = 6,
+		level = {
+			mass = 25,
+			single = 20
+		},
+		materials = {
+			{
+				name = "iron ingot",
+				clientId = 28723,
+				amount = 1,
+				itemId = 32155
+			}
+		}
+	},
+	{
+		clientId = 40284,
+		amount = 1,
+		index = 120,
+		category = "Misc",
+		progress = 350,
+		itemId = 43736,
+		quality = 400,
+		slotName = "",
+		name = "Steel Bar",
+		experience = 215,
+		profession = 5,
+		tier = -1,
+		description = "Used in various recipes. Cold, hard, and unyielding - the essence of strength.",
+		durability = 7,
+		level = {
+			mass = 50,
+			single = 45
+		},
+		materials = {
+			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 2,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 2400,
-		category = "Misc",
 		clientId = 40283,
+		amount = 1,
 		index = 121,
-		durability = 3,
-		name = "Common Plate",
-		profession = 5,
+		category = "Misc",
 		progress = 50,
-		quality = 0,
 		itemId = 43735,
-		description = "Used in various recipes. A humble slab of metal, awaiting purpose.",
+		quality = 0,
 		slotName = "",
+		name = "Common Plate",
+		experience = 2400,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. A humble slab of metal, awaiting purpose.",
+		durability = 3,
 		level = {
-			single = 4,
-			mass = 9
+			mass = 9,
+			single = 4
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 10,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "rough plank",
 				clientId = 28744,
 				amount = 10,
-				itemId = 32176,
-				name = "rough plank"
+				itemId = 32176
 			},
 			{
+				name = "nail",
 				clientId = 28734,
 				amount = 10,
-				itemId = 32166,
-				name = "nail"
+				itemId = 32166
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 400,
-		category = "Housing Craft",
 		clientId = 41850,
+		amount = 1,
 		index = 122,
-		durability = 4,
-		name = "Stone Block",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 100,
-		quality = 0,
 		itemId = 45302,
-		description = "Used in various recipes. Solid building material, ideal for constructing robust houses.",
+		quality = 0,
 		slotName = "",
+		name = "Stone Block",
+		experience = 400,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. Solid building material, ideal for constructing robust houses.",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 20,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 880,
-		category = "Housing Craft",
 		clientId = 41846,
+		amount = 1,
 		index = 123,
-		durability = 7,
-		name = "Dense Block",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 225,
-		quality = 0,
 		itemId = 45298,
-		description = "Used in various recipes. Massive construction material painstakingly hewn from solid stone.",
+		quality = 0,
 		slotName = "",
+		name = "Dense Block",
+		experience = 880,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. Massive construction material painstakingly hewn from solid stone.",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "stone",
 				clientId = 28946,
 				amount = 40,
-				itemId = 32378,
-				name = "stone"
+				itemId = 32378
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 2,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 24000,
-		category = "Housing Craft",
 		clientId = 41849,
+		amount = 1,
 		index = 124,
-		durability = 8,
-		name = "Royal Ornaments",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 450,
-		quality = 0,
 		itemId = 45301,
-		description = "Used in various recipes. Formed by skillfully combining an array of precious gems, radiating elegance.",
+		quality = 0,
 		slotName = "",
+		name = "Royal Ornaments",
+		experience = 24000,
+		profession = 5,
 		tier = -1,
+		description = "Used in various recipes. Formed by skillfully combining an array of precious gems, radiating elegance.",
+		durability = 8,
 		level = {
-			single = 50,
-			mass = 55
+			mass = 55,
+			single = 50
 		},
 		materials = {
 			{
+				name = "amethyst",
 				clientId = 28948,
 				amount = 1,
-				itemId = 32380,
-				name = "amethyst"
+				itemId = 32380
 			},
 			{
+				name = "citrine",
 				clientId = 28949,
 				amount = 1,
-				itemId = 32381,
-				name = "citrine"
+				itemId = 32381
 			},
 			{
+				name = "sapphire",
 				clientId = 28952,
 				amount = 1,
-				itemId = 32384,
-				name = "sapphire"
+				itemId = 32384
 			},
 			{
+				name = "emerald",
 				clientId = 28950,
 				amount = 1,
-				itemId = 32382,
-				name = "emerald"
+				itemId = 32382
 			},
 			{
+				name = "ruby",
 				clientId = 28951,
 				amount = 1,
-				itemId = 32383,
-				name = "ruby"
+				itemId = 32383
 			},
 			{
+				name = "topaz",
 				clientId = 28953,
 				amount = 1,
-				itemId = 32385,
-				name = "topaz"
+				itemId = 32385
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 8500,
-		category = "Housing Craft",
 		clientId = 42778,
+		amount = 1,
 		index = 125,
-		durability = 4,
-		name = "Copper Anvil",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 75,
-		quality = 0,
 		itemId = 46230,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Copper Anvil",
+		experience = 8500,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 30,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 4300,
-		category = "Housing Craft",
 		clientId = 42784,
+		amount = 1,
 		index = 126,
-		durability = 3,
-		name = "Basic Tools",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 50,
-		quality = 0,
 		itemId = 46236,
-		description = "Used in housing upgrades.",
+		quality = 0,
 		slotName = "",
+		name = "Basic Tools",
+		experience = 4300,
+		profession = 5,
 		tier = -1,
+		description = "Used in housing upgrades.",
+		durability = 3,
 		level = {
-			single = 3,
-			mass = 8
+			mass = 8,
+			single = 3
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 10,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "rough plank",
 				clientId = 28744,
 				amount = 4,
-				itemId = 32176,
-				name = "rough plank"
+				itemId = 32176
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 4400,
-		category = "Moa Equipment",
 		clientId = 43238,
+		amount = 1,
 		index = 127,
-		durability = 7,
-		name = "Simple Headgear",
-		profession = 5,
+		category = "Moa Equipment",
 		progress = 200,
-		quality = 0,
 		itemId = 46690,
-		description = "Together with 'Simple Saddle' can be crafted into a 'Simple Barding'.",
+		quality = 0,
 		slotName = "",
+		name = "Simple Headgear",
+		experience = 4400,
+		profession = 5,
 		tier = -1,
+		description = "Together with 'Simple Saddle' can be crafted into a 'Simple Barding'.",
+		durability = 7,
 		level = {
-			single = 12,
-			mass = 17
+			mass = 17,
+			single = 12
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 10,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 4,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 7520,
-		category = "Moa Equipment",
 		clientId = 43239,
+		amount = 1,
 		index = 128,
-		durability = 7,
-		name = "Composed Headgear",
-		profession = 5,
+		category = "Moa Equipment",
 		progress = 200,
-		quality = 0,
 		itemId = 46691,
-		description = "Together with 'Composed Saddle' can be crafted into a 'Composed Barding'.",
+		quality = 0,
 		slotName = "",
+		name = "Composed Headgear",
+		experience = 7520,
+		profession = 5,
 		tier = -1,
+		description = "Together with 'Composed Saddle' can be crafted into a 'Composed Barding'.",
+		durability = 7,
 		level = {
-			single = 24,
-			mass = 29
+			mass = 29,
+			single = 24
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 11,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 8,
-				itemId = 38864,
-				name = "Coarse Leather"
+				itemId = 38864
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 13200,
-		category = "Moa Equipment",
 		clientId = 43240,
+		amount = 1,
 		index = 129,
-		durability = 7,
-		name = "Advanced Headgear",
-		profession = 5,
+		category = "Moa Equipment",
 		progress = 350,
-		quality = 0,
 		itemId = 46692,
-		description = "Together with 'Advanced Saddle' can be crafted into a 'Advanced Barding'.",
+		quality = 0,
 		slotName = "",
+		name = "Advanced Headgear",
+		experience = 13200,
+		profession = 5,
 		tier = -1,
+		description = "Together with 'Advanced Saddle' can be crafted into a 'Advanced Barding'.",
+		durability = 7,
 		level = {
-			single = 36,
-			mass = 41
+			mass = 41,
+			single = 36
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 20,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 7,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 40000,
-		category = "Moa Equipment",
 		clientId = 43241,
+		amount = 1,
 		index = 130,
-		durability = 8,
-		name = "Artisan Headgear",
-		profession = 5,
+		category = "Moa Equipment",
 		progress = 525,
-		quality = 0,
 		itemId = 46693,
-		description = "Together with 'Artisan Saddle' can be crafted into a 'Artisan Barding'.",
+		quality = 0,
 		slotName = "",
+		name = "Artisan Headgear",
+		experience = 40000,
+		profession = 5,
 		tier = -1,
+		description = "Together with 'Artisan Saddle' can be crafted into a 'Artisan Barding'.",
+		durability = 8,
 		level = {
-			single = 48,
-			mass = 53
+			mass = 53,
+			single = 48
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 25,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Tanned Leather",
 				clientId = 35434,
 				amount = 17,
-				itemId = 38866,
-				name = "Tanned Leather"
+				itemId = 38866
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 52000,
-		category = "Moa Equipment",
 		clientId = 43242,
+		amount = 1,
 		index = 131,
-		durability = 9,
-		name = "Superior Headgear",
-		profession = 5,
+		category = "Moa Equipment",
 		progress = 650,
-		quality = 0,
 		itemId = 46694,
-		description = "Together with 'Superior Saddle' can be crafted into a 'Superior Barding'.",
+		quality = 0,
 		slotName = "",
+		name = "Superior Headgear",
+		experience = 52000,
+		profession = 5,
 		tier = -1,
+		description = "Together with 'Superior Saddle' can be crafted into a 'Superior Barding'.",
+		durability = 9,
 		level = {
-			single = 60,
-			mass = 65
+			mass = 65,
+			single = 60
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 25,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Merchant's Leather",
 				clientId = 35435,
 				amount = 17,
-				itemId = 38867,
-				name = "Merchant's Leather"
+				itemId = 38867
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "",
 		quality = 0,
-		progress = 750,
-		experience = 172000,
-		specialization = "Craftsman",
-		durability = 12,
-		profession = 5,
-		itemId = 46695,
-		description = "Together with 'War Saddle' can be crafted into a 'War Barding'.",
 		tier = -1,
-		category = "Moa Equipment",
+		progress = 750,
 		clientId = 43243,
-		index = 132,
+		itemId = 46695,
+		specialization = "Craftsman",
 		name = "War Headgear",
+		experience = 172000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 132,
+		category = "Moa Equipment",
+		description = "Together with 'War Saddle' can be crafted into a 'War Barding'.",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 22,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 12,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "ruby",
 				clientId = 28951,
 				amount = 10,
-				itemId = 32383,
-				name = "ruby"
+				itemId = 32383
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "",
 		quality = 0,
-		progress = 750,
-		experience = 172000,
-		specialization = "Craftsman",
-		durability = 12,
-		profession = 5,
-		itemId = 46696,
-		description = "Together with 'Explorer Saddle' can be crafted into a 'Explorer Barding'.",
 		tier = -1,
-		category = "Moa Equipment",
+		progress = 750,
 		clientId = 43244,
-		index = 133,
+		itemId = 46696,
+		specialization = "Craftsman",
 		name = "Explorer Headgear",
+		experience = 172000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 133,
+		category = "Moa Equipment",
+		description = "Together with 'Explorer Saddle' can be crafted into a 'Explorer Barding'.",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 22,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 12,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "sapphire",
 				clientId = 28952,
 				amount = 10,
-				itemId = 32384,
-				name = "sapphire"
+				itemId = 32384
 			}
 		}
 	},
 	{
-		amount = 1,
 		slotName = "",
 		quality = 0,
-		progress = 750,
-		experience = 172000,
-		specialization = "Craftsman",
-		durability = 12,
-		profession = 5,
-		itemId = 46697,
-		description = "Together with 'Professional Saddle' can be crafted into a 'Professional Barding'.",
 		tier = -1,
-		category = "Moa Equipment",
+		progress = 750,
 		clientId = 43245,
-		index = 134,
+		itemId = 46697,
+		specialization = "Craftsman",
 		name = "Professional Headgear",
+		experience = 172000,
+		profession = 5,
+		durability = 12,
+		amount = 1,
+		index = 134,
+		category = "Moa Equipment",
+		description = "Together with 'Professional Saddle' can be crafted into a 'Professional Barding'.",
 		level = {
-			single = 75,
-			mass = 80
+			mass = 80,
+			single = 75
 		},
 		materials = {
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 22,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "Artisan Leather",
 				clientId = 35436,
 				amount = 12,
-				itemId = 38868,
-				name = "Artisan Leather"
+				itemId = 38868
 			},
 			{
+				name = "topaz",
 				clientId = 28953,
 				amount = 10,
-				itemId = 32385,
-				name = "topaz"
+				itemId = 32385
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 73600,
-		category = "Ship Module",
 		clientId = 43637,
+		amount = 1,
 		index = 135,
-		durability = 7,
-		name = "Medium Cannon Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 500,
-		quality = 0,
 		itemId = 47089,
-		description = "",
+		quality = 0,
 		slotName = "",
+		name = "Medium Cannon Kit",
+		experience = 73600,
+		profession = 5,
 		tier = -1,
+		description = "",
+		durability = 7,
 		level = {
-			single = 45,
-			mass = 50
+			mass = 50,
+			single = 45
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 150,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 100,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "Steel Bar",
 				clientId = 40284,
 				amount = 2,
-				itemId = 43736,
-				name = "Steel Bar"
+				itemId = 43736
 			},
 			{
+				name = "Common Wheel",
 				clientId = 37229,
 				amount = 2,
-				itemId = 40681,
-				name = "Common Wheel"
+				itemId = 40681
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 100000,
-		category = "Ship Module",
 		clientId = 43636,
+		amount = 1,
 		index = 136,
-		durability = 9,
-		name = "Large Cannon Kit",
-		profession = 5,
+		category = "Ship Module",
 		progress = 650,
-		quality = 0,
 		itemId = 47088,
-		description = "",
+		quality = 0,
 		slotName = "",
+		name = "Large Cannon Kit",
+		experience = 100000,
+		profession = 5,
 		tier = -1,
+		description = "",
+		durability = 9,
 		level = {
-			single = 60,
-			mass = 65
+			mass = 65,
+			single = 60
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 150,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 100,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "Steel Bar",
 				clientId = 40284,
 				amount = 2,
-				itemId = 43736,
-				name = "Steel Bar"
+				itemId = 43736
 			},
 			{
+				name = "Common Wheel",
 				clientId = 37229,
 				amount = 2,
-				itemId = 40681,
-				name = "Common Wheel"
+				itemId = 40681
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 28000,
-		category = "Housing Craft",
 		clientId = 47288,
+		amount = 1,
 		index = 137,
-		durability = 4,
-		name = "Weak Racks",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 75,
-		quality = 0,
 		itemId = 50741,
-		description = "Used for housing craft.",
+		quality = 0,
 		slotName = "",
+		name = "Weak Racks",
+		experience = 28000,
+		profession = 5,
 		tier = -1,
+		description = "Used for housing craft.",
+		durability = 4,
 		level = {
-			single = 10,
-			mass = 15
+			mass = 15,
+			single = 10
 		},
 		materials = {
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 70,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			},
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 35,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 66000,
-		category = "Housing Craft",
 		clientId = 47276,
+		amount = 1,
 		index = 138,
-		durability = 7,
-		name = "Armory Racks",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 350,
-		quality = 0,
 		itemId = 50729,
-		description = "Used for housing craft.",
+		quality = 0,
 		slotName = "",
+		name = "Armory Racks",
+		experience = 66000,
+		profession = 5,
 		tier = -1,
+		description = "Used for housing craft.",
+		durability = 7,
 		level = {
-			single = 30,
-			mass = 35
+			mass = 35,
+			single = 30
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 80,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 45,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 8500,
-		category = "Housing Craft",
 		clientId = 47281,
+		amount = 1,
 		index = 139,
-		durability = 12,
-		name = "Reinforced Racks",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 700,
-		quality = 0,
 		itemId = 50734,
-		description = "Used for housing craft.",
+		quality = 0,
 		slotName = "",
+		name = "Reinforced Racks",
+		experience = 8500,
+		profession = 5,
 		tier = -1,
+		description = "Used for housing craft.",
+		durability = 12,
 		level = {
-			single = 70,
-			mass = 75
+			mass = 75,
+			single = 70
 		},
 		materials = {
 			{
+				name = "copper ingot",
 				clientId = 28726,
 				amount = 30,
-				itemId = 32158,
-				name = "copper ingot"
+				itemId = 32158
 			},
 			{
+				name = "iron ingot",
 				clientId = 28723,
 				amount = 10,
-				itemId = 32155,
-				name = "iron ingot"
+				itemId = 32155
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 80000,
-		category = "Housing Craft",
 		clientId = 47279,
+		amount = 1,
 		index = 140,
-		durability = 8,
-		name = "Gear Maintenance Tools",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 525,
-		quality = 0,
 		itemId = 50732,
-		description = "Used for housing craft.",
+		quality = 0,
 		slotName = "",
+		name = "Gear Maintenance Tools",
+		experience = 80000,
+		profession = 5,
 		tier = -1,
+		description = "Used for housing craft.",
+		durability = 8,
 		level = {
-			single = 50,
-			mass = 55
+			mass = 55,
+			single = 50
 		},
 		materials = {
 			{
+				name = "steel ingot",
 				clientId = 28724,
 				amount = 80,
-				itemId = 32156,
-				name = "steel ingot"
+				itemId = 32156
 			},
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 70,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 30,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 15,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 116000,
-		category = "Housing Craft",
 		clientId = 47283,
+		amount = 1,
 		index = 141,
-		durability = 12,
-		name = "Thief Tools",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 700,
-		quality = 0,
 		itemId = 50736,
-		description = "Used for housing craft.",
+		quality = 0,
 		slotName = "",
+		name = "Thief Tools",
+		experience = 116000,
+		profession = 5,
 		tier = -1,
+		description = "Used for housing craft.",
+		durability = 12,
 		level = {
-			single = 70,
-			mass = 75
+			mass = 75,
+			single = 70
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 80,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 70,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 40,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 25,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 116000,
-		category = "Housing Craft",
 		clientId = 47287,
+		amount = 1,
 		index = 142,
-		durability = 12,
-		name = "Warmonger Tools",
-		profession = 5,
+		category = "Housing Craft",
 		progress = 700,
-		quality = 0,
 		itemId = 50740,
-		description = "Used for housing craft.",
+		quality = 0,
 		slotName = "",
+		name = "Warmonger Tools",
+		experience = 116000,
+		profession = 5,
 		tier = -1,
+		description = "Used for housing craft.",
+		durability = 12,
 		level = {
-			single = 70,
-			mass = 75
+			mass = 75,
+			single = 70
 		},
 		materials = {
 			{
+				name = "cobalt ingot",
 				clientId = 28725,
 				amount = 80,
-				itemId = 32157,
-				name = "cobalt ingot"
+				itemId = 32157
 			},
 			{
+				name = "titanium ingot",
 				clientId = 28727,
 				amount = 70,
-				itemId = 32159,
-				name = "titanium ingot"
+				itemId = 32159
 			},
 			{
+				name = "coal",
 				clientId = 28941,
 				amount = 40,
-				itemId = 32373,
-				name = "coal"
+				itemId = 32373
 			},
 			{
+				name = "Craftman's Leather",
 				clientId = 35433,
 				amount = 25,
-				itemId = 38865,
-				name = "Craftman's Leather"
+				itemId = 38865
 			}
 		}
 	}
@@ -5462,398 +5462,398 @@ recipes[ProfessionBlacksmithing] = {
 questRecipes = questRecipes or {}
 questRecipes[ProfessionBlacksmithing] = {
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 28985,
+		amount = 1,
 		index = 1,
-		durability = 3,
-		name = "Burnished Greatsword",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32417,
-		description = "",
+		quality = 50,
 		slotName = "greatsword",
+		name = "Burnished Greatsword",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 4,
-				itemId = 38874,
-				name = "Copper Ingot"
+				itemId = 38874
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 4,
-				itemId = 38875,
-				name = "Coarse Leather"
+				itemId = 38875
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 29059,
+		amount = 1,
 		index = 2,
-		durability = 3,
-		name = "Rough Sword",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32491,
-		description = "",
+		quality = 50,
 		slotName = "sword",
+		name = "Rough Sword",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 2,
-				itemId = 38874,
-				name = "Copper Ingot"
+				itemId = 38874
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 2,
-				itemId = 38875,
-				name = "Coarse Leather"
+				itemId = 38875
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 28992,
+		amount = 1,
 		index = 3,
-		durability = 3,
-		name = "Wicked Axe",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32424,
-		description = "",
+		quality = 50,
 		slotName = "axe",
+		name = "Wicked Axe",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 3,
-				itemId = 38874,
-				name = "Copper Ingot"
+				itemId = 38874
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38875,
-				name = "Coarse Leather"
+				itemId = 38875
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 29004,
+		amount = 1,
 		index = 4,
-		durability = 3,
-		name = "Solid Mace",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32436,
-		description = "",
+		quality = 50,
 		slotName = "club",
+		name = "Solid Mace",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 3,
-				itemId = 38874,
-				name = "Copper Ingot"
+				itemId = 38874
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38875,
-				name = "Coarse Leather"
+				itemId = 38875
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 29010,
+		amount = 1,
 		index = 5,
-		durability = 3,
-		name = "Serrated Dagger",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32442,
-		description = "",
+		quality = 50,
 		slotName = "dagger",
+		name = "Serrated Dagger",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 2,
-				itemId = 38874,
-				name = "Copper Ingot"
+				itemId = 38874
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 2,
-				itemId = 38875,
-				name = "Coarse Leather"
+				itemId = 38875
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 28978,
+		amount = 1,
 		index = 7,
-		durability = 3,
-		name = "Rough Greataxe",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32410,
-		description = "",
+		quality = 50,
 		slotName = "greataxe",
+		name = "Rough Greataxe",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 6,
-				itemId = 38874,
-				name = "Copper Ingot"
+				itemId = 38874
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 2,
-				itemId = 38875,
-				name = "Coarse Leather"
+				itemId = 38875
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 29016,
+		amount = 1,
 		index = 8,
-		durability = 3,
-		name = "Shipbuilding Mallet",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32448,
-		description = "",
+		quality = 50,
 		slotName = "hammer",
+		name = "Shipbuilding Mallet",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 6,
-				itemId = 38874,
-				name = "Copper Ingot"
+				itemId = 38874
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 2,
-				itemId = 38875,
-				name = "Coarse Leather"
+				itemId = 38875
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 28678,
+		amount = 1,
 		index = 9,
-		durability = 3,
-		name = "Pliant Armor",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32110,
-		description = "",
+		quality = 50,
 		slotName = "plate armor",
+		name = "Pliant Armor",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 1,
-				itemId = 38878,
-				name = "Copper Ingot"
+				itemId = 38878
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38879,
-				name = "Coarse Leather"
+				itemId = 38879
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 28684,
+		amount = 1,
 		index = 10,
-		durability = 3,
-		name = "Pliant Helmet",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32116,
-		description = "",
+		quality = 50,
 		slotName = "plate helmet",
+		name = "Pliant Helmet",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 1,
-				itemId = 38882,
-				name = "Copper Ingot"
+				itemId = 38882
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38883,
-				name = "Coarse Leather"
+				itemId = 38883
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 28685,
+		amount = 1,
 		index = 11,
-		durability = 3,
-		name = "Pliant Legs",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32117,
-		description = "",
+		quality = 50,
 		slotName = "plate legs",
+		name = "Pliant Legs",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 1,
-				itemId = 38886,
-				name = "Copper Ingot"
+				itemId = 38886
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38887,
-				name = "Coarse Leather"
+				itemId = 38887
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 28681,
+		amount = 1,
 		index = 12,
-		durability = 3,
-		name = "Pliant Boots",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 32113,
-		description = "",
+		quality = 50,
 		slotName = "plate boots",
+		name = "Pliant Boots",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 1,
-				itemId = 38890,
-				name = "Copper Ingot"
+				itemId = 38890
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 1,
-				itemId = 38891,
-				name = "Coarse Leather"
+				itemId = 38891
 			}
 		}
 	},
 	{
-		amount = 1,
-		experience = 0,
-		category = "quest",
 		clientId = 37107,
+		amount = 1,
 		index = 13,
-		durability = 3,
-		name = "Skirmisher's Blade",
-		profession = 5,
+		category = "quest",
 		progress = 50,
-		quality = 50,
 		itemId = 40559,
-		description = "",
+		quality = 50,
 		slotName = "light blade",
+		name = "Skirmisher's Blade",
+		experience = 0,
+		profession = 5,
 		tier = 1,
+		description = "",
+		durability = 3,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
+				name = "Copper Ingot",
 				clientId = 28726,
 				amount = 4,
-				itemId = 38874,
-				name = "Copper Ingot"
+				itemId = 38874
 			},
 			{
+				name = "Coarse Leather",
 				clientId = 35432,
 				amount = 4,
-				itemId = 38875,
-				name = "Coarse Leather"
+				itemId = 38875
 			}
 		}
 	}

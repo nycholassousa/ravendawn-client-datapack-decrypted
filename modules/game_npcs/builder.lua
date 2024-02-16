@@ -30,32 +30,32 @@ BuilderShop = {
 		}
 	},
 	windowIconName = {
-		["moa equipment"] = "icon_moa_equipment_builder",
 		wagon = "icon_wagon_builder",
+		["moa equipment"] = "icon_moa_equipment_builder",
 		ship = "icon_ship_builder"
 	}
 }
 
 local wagonSets = {
 	[3012] = {
-		rightWheel = 3013,
-		leftWheel = 3014
+		leftWheel = 3014,
+		rightWheel = 3013
 	},
 	[5304] = {
-		rightWheel = 5302,
-		leftWheel = 5303
+		leftWheel = 5303,
+		rightWheel = 5302
 	},
 	[3015] = {
-		rightWheel = 3016,
-		leftWheel = 3017
+		leftWheel = 3017,
+		rightWheel = 3016
 	},
 	[5301] = {
-		rightWheel = 5299,
-		leftWheel = 5300
+		leftWheel = 5300,
+		rightWheel = 5299
 	},
 	[3018] = {
-		rightWheel = 3019,
-		leftWheel = 3020
+		leftWheel = 3020,
+		rightWheel = 3019
 	}
 }
 
@@ -333,9 +333,9 @@ function BuilderShop:show(data)
 			elseif item.category == "Moa Equipment" then
 				entryWidget.icon.outfitId = item.lookType
 				outfit = {
+					category = 1,
 					mount = 3540,
 					mountBody = 3540,
-					category = 1,
 					mountArmor = item.lookType
 				}
 			else

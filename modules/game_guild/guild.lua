@@ -5,11 +5,11 @@ GameGuild = {
 	panels = {},
 	createOptions = {
 		language = "",
+		focus = 0,
 		name = "",
-		tag = "",
 		listed = true,
 		description = "",
-		focus = 0,
+		tag = "",
 		icon = {
 			foreground = 0,
 			background = 0
@@ -152,8 +152,8 @@ function GameGuild:init()
 	for _ = 1, 30 do
 		table.insert(frames, {
 			size = {
-				height = 200,
-				width = 200
+				width = 200,
+				height = 200
 			},
 			offset = {
 				x = self.window.loading_icon:getWidth() / 2 - 115,
@@ -163,10 +163,10 @@ function GameGuild:init()
 	end
 
 	self.loadingAnimation = Animation.create({
+		imageSource = "/images/ui/loading/frame-%d",
 		pauseWhenHidden = true,
 		loop = -1,
 		duration = 1000,
-		imageSource = "/images/ui/loading/frame-%d",
 		canvas = self.window.loading_icon,
 		frames = frames,
 		onStart = function(self, canvas)

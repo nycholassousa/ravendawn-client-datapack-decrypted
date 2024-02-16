@@ -468,7 +468,7 @@ GameGuildOverviewPanelStrongholdPanel < UIWidget
       anchors.horizontalCenter: parent.horizontalCenter
       anchors.bottom: parent.verticalCenter
       font: poppins-semibold-26
-      text: Open in Patch 1.0.5
+      text: Coming in an Upcoming Patch
       text-auto-resize: true
       margin-bottom: 25
 
@@ -537,7 +537,7 @@ GameGuildOverviewPanelZoneWarPanel < UIWidget
       anchors.horizontalCenter: parent.horizontalCenter
       anchors.bottom: parent.verticalCenter
       font: poppins-semibold-26
-      text: Open in Patch 1.0.5
+      text: Coming in an Upcoming Patch
       text-auto-resize: true
       margin-bottom: 25
 

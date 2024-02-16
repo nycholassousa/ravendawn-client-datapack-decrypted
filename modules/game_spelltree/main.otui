@@ -1,6 +1,6 @@
 SpellTreeWindow < MainWindow
   id: spellTreeWindow
-  size: 1160 783
+  size: 1160 883
   anchors.centerIn: parent
   visible: false
   &title: 'Skill Tree'
@@ -26,6 +26,8 @@ SpellTreeWindow < MainWindow
 
     PointsPanel
       id: pointsPanel
+    PointsInfoIcon
+      id: pointsInfoIcon
 
     NeutralButton
       id: resetArchetypes

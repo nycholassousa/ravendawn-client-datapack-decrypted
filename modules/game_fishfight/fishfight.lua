@@ -24,24 +24,24 @@ local fishBehaviour = {
 		icon = "/images/ui/windows/fishfight/fish_state_tired"
 	},
 	[FISHFIGHT_STATE_TIRED_2] = {
-		text = "2",
+		description = "Increases the damage done to the fish by 100%.",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		description = "Increases the damage done to the fish by 100%."
+		text = "2"
 	},
 	[FISHFIGHT_STATE_TIRED_3] = {
-		text = "3",
+		description = "Increases the damage done to the fish by 150%.",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		description = "Increases the damage done to the fish by 150%."
+		text = "3"
 	},
 	[FISHFIGHT_STATE_TIRED_4] = {
-		text = "4",
+		description = "Increases the damage done to the fish by 200%.",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		description = "Increases the damage done to the fish by 200%."
+		text = "4"
 	},
 	[FISHFIGHT_STATE_TIRED_5] = {
-		text = "5",
+		description = "Increases the damage done to the fish by 250%.",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		description = "Increases the damage done to the fish by 250%."
+		text = "5"
 	}
 }
 

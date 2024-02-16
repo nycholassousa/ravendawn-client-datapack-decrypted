@@ -214,8 +214,8 @@ function GamePremiumStore:setupRavenpacksPanel(items)
 			elseif item.currency == "ravencoins" then
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
-					["&textMarginLeft"] = "45",
 					["&textAlign"] = "left",
+					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
 					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
@@ -238,8 +238,8 @@ function GamePremiumStore:setupRavenpacksPanel(items)
 		if item.additionalCurrency then
 			purchase_button2.icon:setChecked(true)
 			purchase_button2:onStyleApply(purchase_button2:getStyleName(), {
-				["&textMarginLeft"] = "45",
 				["&textAlign"] = "left",
+				["&textMarginLeft"] = "45",
 				["&iconOffset"] = "20 0",
 				["&iconAlign"] = "left",
 				["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.additionalCurrency)
@@ -351,8 +351,8 @@ function GamePremiumStore:setupLimitedEditionBundles(items)
 			else
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
-					["&textMarginLeft"] = "45",
 					["&textAlign"] = "left",
+					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
 					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
@@ -473,8 +473,8 @@ function GamePremiumStore:setupPremiumPanel(items)
 		else
 			purchase_button.icon:setChecked(true)
 			purchase_button:onStyleApply(purchase_button:getStyleName(), {
-				["&textMarginLeft"] = "45",
 				["&textAlign"] = "left",
+				["&textMarginLeft"] = "45",
 				["&iconOffset"] = "20 0",
 				["&iconAlign"] = "left",
 				["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
@@ -612,8 +612,8 @@ function GamePremiumStore:setupServicesPanel(items)
 			else
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
-					["&textMarginLeft"] = "45",
 					["&textAlign"] = "left",
+					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
 					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
@@ -656,8 +656,8 @@ function GamePremiumStore:setupCosmeticsPanel(items)
 			else
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
-					["&textMarginLeft"] = "45",
 					["&textAlign"] = "left",
+					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
 					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)

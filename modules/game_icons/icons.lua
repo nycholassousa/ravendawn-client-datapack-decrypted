@@ -178,14 +178,14 @@ function g_icons.onSetupItemIcon(widget)
 			end
 
 			imageWidget:setSize({
-				width = 96,
-				height = 96
+				height = 96,
+				width = 96
 			})
 			imageWidget:setMarginLeft(32)
 			imageWidget:setMarginTop(32)
 			imageWidget:setImageSize({
-				width = 48,
-				height = 48
+				height = 48,
+				width = 48
 			})
 			imageWidget:setImageOffset({
 				y = 8,

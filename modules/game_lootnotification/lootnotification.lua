@@ -120,10 +120,10 @@ end
 function GameLootNotification:testAddEntry(type)
 	if type == cfg.LOOT_TYPE_ITEM then
 		local data = {
-			itemName = "Black Ash Bow",
-			clientId = 29000,
 			grade = 1,
 			amount = 1,
+			itemName = "Black Ash Bow",
+			clientId = 29000,
 			type = type
 		}
 

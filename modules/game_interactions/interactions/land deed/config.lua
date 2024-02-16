@@ -48,9 +48,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
+						preferSide = "top",
 						text = "Press I or Left-Click to open your Inventory menu",
 						bandit = true,
-						preferSide = "top",
 						keys = {
 							"I",
 							MouseLeftButton

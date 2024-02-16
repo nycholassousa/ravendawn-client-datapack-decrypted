@@ -15,19 +15,19 @@ local displayingDownloadProgress = false
 local function initAppWindow()
 	if g_resources.getLayout() == "mobile" then
 		g_window.setMinimumSize({
-			height = 360,
-			width = 640
+			width = 640,
+			height = 360
 		})
 	else
 		g_window.setMinimumSize({
-			height = 720,
-			width = 1280
+			width = 1280,
+			height = 720
 		})
 	end
 
 	local size = {
-		height = 720,
-		width = 1280
+		width = 1280,
+		height = 720
 	}
 
 	size = g_settings.getSize("window-size", size)

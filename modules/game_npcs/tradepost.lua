@@ -1,9 +1,9 @@
 ﻿-- chunkname: @/modules/game_npcs/tradepost.lua
 
 Tradepost = {
-	sortOption = "demand",
-	sortDirection = "desc",
 	primingTradepack = false,
+	sortDirection = "desc",
+	sortOption = "demand",
 	sort_buttons = {},
 	sortedRecipes = {},
 	indexedRecipes = {}
@@ -108,7 +108,7 @@ function Tradepost:onOpenCraft(data)
 
 	self.quest = data.quest
 
-	self:onSearchTextChanged()
+	self:onSearchTextChanged(self.search_panel:getText())
 
 	if self.bottom_panel.recipe then
 		local recipe = self.bottom_panel.recipe

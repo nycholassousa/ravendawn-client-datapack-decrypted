@@ -8,9 +8,11 @@ Separator < UIWidget
 AbilityTooltipWindow < UIWidget
   size: 370 200
   focusable: false
+  phantom: true
 
   UIWidget
     id: topPoints
+    phantom: true
     anchors.top: parent.top
     anchors.horizontalCenter: parent.horizontalCenter
     image-source: /images/ui/windows/tooltip/points
@@ -20,111 +22,130 @@ AbilityTooltipWindow < UIWidget
     font: poppins-semibold-14
     color: #000000
 
+
   UIWidget
     id: content
+    phantom: true
     image-source: /images/ui/windows/tooltip/window
     image-border: 10
-    anchors.fill: parent
     padding: 20 15 14 14
+    anchors.left: parent.left
+    anchors.right: parent.right
+    @onGeometryChange: |
+      g_abilityTooltip.onResizeTooltip(self:getParent())
+    layout:
+      type: verticalBox
+      fit-children: true
+      spacing: 3
 
-    UIWidget
-      id: border
-      anchors.top: parent.top
-      anchors.left: parent.left
-      size: 60 60
-      image-source: /images/ui/icons/circle_blue
-      margin-left: 20
-      visible: false
+    Panel
+      id: topPanel
+      height: 65
+      UIWidget
+        id: border
+        anchors.top: parent.top
+        anchors.left: parent.left
+        size: 60 60
+        image-source: /images/ui/icons/circle_blue
+        margin-left: 20
+        visible: false
 
-    UIWidget
-      id: icon
-      anchors.top: parent.top
-      anchors.left: prev.left
-      size: 60 60
-      margin-top: 7
-      image-source: /images/ui/icons/abilitybar/bash
+      UIWidget
+        id: icon
+        anchors.top: parent.top
+        anchors.left: prev.left
+        size: 60 60
+        margin-top: 7
+        image-source: /images/ui/icons/abilitybar/bash
 
-    Ravencard
-      id: card
-      anchors.top: icon.top
-      anchors.left: icon.left
-      size: 36 48
-      margin-left: 6
-      margin-top: 6
-      visible: false
+      Ravencard
+        id: card
+        anchors.top: icon.top
+        anchors.left: icon.left
+        size: 36 48
+        margin-left: 6
+        margin-top: 6
+        visible: false
 
-    UIWidget
-      id: hotkey
-      anchors.top: parent.top
-      anchors.left: icon.right
-      margin-left: 10
-      margin-top: 5
-      font: poppins-semibold-16
-      !text: tr('[1]')
-      text-color: #131416
-      visible: false
-      text-auto-resize: true
+      UIWidget
+        id: hotkey
+        anchors.top: parent.top
+        anchors.left: icon.right
+        margin-left: 10
+        margin-top: 5
+        font: poppins-semibold-16
+        !text: tr('[1]')
+        text-color: #131416
+        visible: false
+        text-auto-resize: true
 
-    UIWidget
-      id: name
-      anchors.top: parent.top
-      anchors.left: icon.right
-      margin-left: 20
-      margin-top: 6
-      font: poppins-semibold-16
-      text: Bash
-      text-color: #CED2D9
-      text-auto-resize: true
+      UIWidget
+        id: name
+        anchors.top: parent.top
+        anchors.left: icon.right
+        margin-left: 20
+        margin-top: 6
+        font: poppins-semibold-16
+        text: Bash
+        text-color: #CED2D9
+        text-auto-resize: true
 
-    UIWidget
-      id: useType
-      anchors.top: name.bottom
-      anchors.left: name.left
-      margin-top: 2
-      text-auto-resize: true
-      font: poppins-12
-      text: Single target ability
-      text-color: #A6AAB2
-      text-auto-resize: true
+      UIWidget
+        id: useType
+        anchors.top: name.bottom
+        anchors.left: name.left
+        margin-top: 2
+        text-auto-resize: true
+        font: poppins-12
+        text: Single target ability
+        text-color: #A6AAB2
+        text-auto-resize: true
 
-    UIWidget
-      id: castType
-      anchors.top: useType.bottom
-      anchors.left: name.left
-      margin-top: 2
-      text-auto-resize: true
-      font: poppins-12
-      text: Instant
-      text-color: #36F991
+      UIWidget
+        id: castType
+        anchors.top: useType.bottom
+        anchors.left: name.left
+        margin-top: 2
+        text-auto-resize: true
+        font: poppins-12
+        text: Instant
+        text-color: #36F991
 
-    UIWidget
-      id: descBackground
+    Panel
+      id: description_panel
       background-color: #181A1D
-      anchors.fill: description
-      margin: -20
+      padding: 20
+      layout:
+        type: verticalBox
+        fit-children: true
+        spacing: 10
+      UIWidget
+        id: description
+        text-auto-resize: true
+        text-wrap: true
+        text-align: left
+        font: poppins-15-special
+        text-color: #abb2bf
 
-    UIWidget
-      id: description
-      anchors.top: icon.bottom
-      anchors.left: parent.left
-      anchors.right: parent.right
-      text-vertical-auto-resize: true
-      text-wrap: true
-      text-align: left
-      margin-top: 35
-      margin-right: 20
-      margin-left: 20
-      font: poppins-15-special
-      text-color: #abb2bf
+      UIWidget
+        id: tier_description_separator    
+        visible: false
+        image-source: /images/ui/windows/tooltip/separator_tier_tooltip
+
+      UIWidget
+        id: tier_description
+        visible: false
+        text-auto-resize: true
+        text-wrap: true
+        text-align: left
+        font: poppins-15-special
+        text-color: #abb2bf
 
     Panel
       id: bottomPanel
       height: 40
       padding-right: 20
       padding-left: 20
-      anchors.bottom: parent.bottom
-      anchors.left: parent.left
-      anchors.right: parent.right
 
       Panel
         id: constantsPanel

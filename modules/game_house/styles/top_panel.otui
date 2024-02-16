@@ -96,7 +96,7 @@ GameHouseMainTopPanelButtonPanel < UIWidget
     function(self)
       local width = 0
       for _, child in ipairs(self:getChildren()) do
-        if child:isVisible() then
+        if child:isExplicitlyVisible() then
           width = width + child:getWidth() + self:getLayout():getSpacing()
         end
       end

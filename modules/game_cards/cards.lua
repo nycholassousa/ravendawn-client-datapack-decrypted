@@ -2,10 +2,10 @@
 
 GameCards = {
 	display_type = "list",
-	unlocked_card_count = 0,
+	shards = 0,
 	cards_per_page = 9,
 	page = 1,
-	shards = 0,
+	unlocked_card_count = 0,
 	filter = {},
 	cards = {},
 	listCardWidgets = {},
@@ -67,9 +67,9 @@ function GameCards:init()
 	local upgrade_button = self.upgrade_panel.upgrade_bottom.upgrade_button
 
 	self.upgrade_animation = Animation.create({
-		duration = 2500,
 		restoreInitialStateOnEnd = true,
 		pauseWhenHidden = true,
+		duration = 2500,
 		imageSource = "/images/ui/windows/ravencards/animation/upgrade/upgrade_%02d",
 		canvas = self.upgrade_panel.upgrade_card.card.canvas,
 		frames = FramesDataset.upgrade,
@@ -94,8 +94,8 @@ function GameCards:init()
 	})
 
 	self.upgrade_animation:fadeIn({
-		opacity = 1,
 		finish = 12,
+		opacity = 1,
 		start = 1
 	})
 	g_keyboard.bindKeyDown("G", self.toggleCollectionWindow)
@@ -755,8 +755,8 @@ function GameCards:openPack(packId, amount)
 	end
 
 	self:sendExtendedOpcode({
-		packId = 1,
 		action = "open_pack",
+		packId = 1,
 		amount = amount
 	})
 end

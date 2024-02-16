@@ -31,12 +31,12 @@ function GameGuild:displayJoinGuildPage(guilds, totalResults)
 		logoWidget:setImageSource("/images/ui/windows/guild/logo_background/" .. string.format(cfg.logoImageFileFormat, guild.logo.background) .. ".png")
 		logoWidget:setIcon("/images/ui/windows/guild/logo_icons/" .. string.format(cfg.logoImageFileFormat, guild.logo.icon) .. ".png")
 		logoWidget:setImageSize({
-			height = 50,
-			width = 50
+			width = 50,
+			height = 50
 		})
 		logoWidget:setIconSize({
-			height = 46,
-			width = 46
+			width = 46,
+			height = 46
 		})
 		logoWidget:setImageOffset({
 			x = 15,

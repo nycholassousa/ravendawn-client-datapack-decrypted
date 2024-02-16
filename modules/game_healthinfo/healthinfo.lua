@@ -23,8 +23,8 @@ archetypes = {
 	active = {},
 	slots = {
 		{
-			active = false,
-			id = 0
+			id = 0,
+			active = false
 		}
 	}
 }

@@ -4960,3 +4960,29 @@ creatures
   5305
     creature-offset: 32 32
     name-displacement: 65 74
+
+  // Eye of the Storm Cyclone
+  6285
+    animated-from-start: true
+    creature-offset: 96 96
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    additional-draw-things:
+      0: 6282
+      1: 6283
+      2: 6284
+
+  // Eye of the Storm Cyclone Leaves
+  6282
+    animated-from-start: true
+    direction-draw-order: 1 1 1 1
+  // Eye of the Storm Cyclone Thunder Above
+  6283
+    direction-draw-order: 1 1 1 1
+    animated-from-start: true
+  // Eye of the Storm Cyclone Thunder Under
+  6284
+    direction-draw-order: 0 0 0 0
+    animated-from-start: true

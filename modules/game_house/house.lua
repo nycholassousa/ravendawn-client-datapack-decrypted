@@ -8,7 +8,8 @@ GameHouse = {
 		submenu = {}
 	},
 	player_houses = {},
-	landPlotsCenterPositions = {}
+	landPlotsCenterPositions = {},
+	communityHousesCenterPositions = {}
 }
 
 function GameHouse:loadConfig()
@@ -338,6 +339,14 @@ function GameHouse:parseLandPlots()
 		for _, landData in pairs(regionData) do
 			if landData.pos then
 				self.landPlotsCenterPositions[Position.generateHash(landData.pos)] = landData
+			end
+		end
+	end
+
+	if CommunityLandHouses then
+		for _, communityHouseData in pairs(CommunityLandHouses) do
+			if communityHouseData.pos then
+				self.communityHousesCenterPositions[Position.generateHash(communityHouseData.pos)] = communityHouseData
 			end
 		end
 	end
@@ -1128,7 +1137,7 @@ function GameHouse:canPlaceType(position, from1, to1, placeType)
 	local plotFrom, plotTo
 
 	for _, house in ipairs(self.player_houses) do
-		if isInArea(position, house.from, house.to) then
+		if house.from and house.to and isInArea(position, house.from, house.to) then
 			plotFrom = house.from
 			plotTo = house.to
 
@@ -1451,7 +1460,7 @@ function GameHouse.onEffortChange(player, balance)
 	}
 	local landSize = self:getSelectedLandSize()
 
-	if landSize then
+	if landSize and not self:selectedLandIsCommunity() then
 		premiumEffortTooltip.header.complement = cfg.getLandEffortTooltip(landSize, true)
 	end
 
@@ -1773,6 +1782,12 @@ function GameHouse:setupTopMenuBar(landId)
 	end
 
 	if not data or #data == 0 then
+		self.current_selected_land = nil
+	else
+		self.current_selected_land = self:getLandDataById(landId) or self:getClosestLandData()
+	end
+
+	if not self.current_selected_land then
 		panel.button_panel.claim_button:show()
 		panel.button_panel.invite_button:hide()
 		panel.button_panel.upgrade_button:hide()
@@ -1781,17 +1796,12 @@ function GameHouse:setupTopMenuBar(landId)
 		panel.selection_button:hide()
 		panel.button_panel:resize()
 		panel:setWidth(panel.button_panel:getWidth() + 15)
-
-		self.current_selected_land = nil
 	else
 		panel.button_panel.claim_button:setVisible(g_game.getLocalPlayer():isGamemaster() or g_game.isRavenQuest())
-		panel.button_panel.invite_button:show()
+		panel.button_panel.invite_button:setVisible(not self.current_selected_land.info.isCommunityHouse)
 		panel.button_panel.upgrade_button:show()
 		panel.house_title:show()
 		panel.house_icon:show()
-
-		self.current_selected_land = self:getLandDataById(landId) or self:getClosestLandData()
-
 		panel.house_title.size_description:setText(self.current_selected_land.info.name)
 		panel.house_title.house_description:setText(string.format("%s", self.current_selected_land.info.region))
 		panel.button_panel:resize()
@@ -1802,9 +1812,7 @@ function GameHouse:setupTopMenuBar(landId)
 			panel:setWidth(panel:getWidth() + panel.button_panel.claim_button:getWidth() + panel.button_panel.claim_button:getMarginLeft())
 		end
 
-		if #data > 1 then
-			panel.selection_button:setVisible(#data > 1)
-		end
+		panel.selection_button:setVisible(#data > 1)
 	end
 
 	panel:setImageSize(string.format("%s %s", panel:getWidth() - 8, 90))
@@ -2114,6 +2122,10 @@ function GameHouse:getSelectedLandSize()
 	return self.current_selected_land and self.current_selected_land.info.land_size or nil
 end
 
+function GameHouse:selectedLandIsCommunity()
+	return self.current_selected_land and self.current_selected_land.info.isCommunityHouse or false
+end
+
 function GameHouse:getProductionTilesMultiplier()
 	return g_game.isRavenQuest() and (cfg.productionTiles[self:getSelectedLandSize() or 0] or 1) or 1
 end
@@ -2126,7 +2138,8 @@ function GameHouse.onUpdateLandPlotTileDescription(tile)
 		return
 	end
 
-	local data = self.landPlotsCenterPositions[Position.generateHash(pos)]
+	local hash = Position.generateHash(pos)
+	local data = self.landPlotsCenterPositions[hash] or self.communityHousesCenterPositions[hash]
 
 	if not data then
 		return
@@ -2167,8 +2180,17 @@ function GameHouse.onUpdateLandPlotTileDescription(tile)
 	tile:setInteractionWidget(window, 1)
 end
 
-function GameHouse:getLandCenterTile(tile)
-	if not tile:isLandPlot() then
+function GameHouse:getLandCenterTile(tile, range)
+	local centerPositions, isCommunityHouse
+
+	if tile:isLandPlot() then
+		centerPositions = self.landPlotsCenterPositions
+	elseif tile:isHousePlot() then
+		centerPositions = self.communityHousesCenterPositions
+		isCommunityHouse = true
+	end
+
+	if not centerPositions then
 		return nil
 	end
 
@@ -2184,8 +2206,8 @@ function GameHouse:getLandCenterTile(tile)
 			}
 			local hash = Position.generateHash(checkPos)
 
-			if self.landPlotsCenterPositions[hash] then
-				return g_map.getTile(checkPos)
+			if centerPositions[hash] then
+				return g_map.getTile(checkPos), isCommunityHouse
 			end
 		end
 	end
@@ -2206,7 +2228,7 @@ function GameHouse:checkLandPlotTileDescriptionClick(tile, mousePosition)
 		return false
 	end
 
-	local centerTile = self:getLandCenterTile(tile)
+	local centerTile, isCommunityHouse = self:getLandCenterTile(tile, 4)
 
 	if not centerTile then
 		return false
@@ -2222,7 +2244,19 @@ function GameHouse:checkLandPlotTileDescriptionClick(tile, mousePosition)
 		return false
 	end
 
-	modules.game_interface.startLandModify(true)
+	if isCommunityHouse then
+		GameHouse:sendOpcode({
+			action = "house_claim_land",
+			isCommunityHouse = true,
+			landPos = {
+				x = centerTile:getPosition().x,
+				y = centerTile:getPosition().y,
+				z = centerTile:getPosition().z
+			}
+		})
+	else
+		modules.game_interface.startLandModify(true)
+	end
 
 	return true
 end
@@ -2321,8 +2355,8 @@ function GameHouse:populateLandTrackerList()
 				widget.item:setMarginLeft(7)
 				widget.item:setMarginBottom(10)
 				widget.item:setSize({
-					width = 48,
-					height = 48
+					height = 48,
+					width = 48
 				})
 				widget.item:setItemId(crop.clientId[1])
 				widget.stable_right:setItemId(crop.clientId[2])

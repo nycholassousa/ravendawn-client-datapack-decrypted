@@ -4,8 +4,8 @@ recipes = recipes or {}
 recipes[ProfessionBreeding] = {
 	{
 		tier = 1,
-		skillRequired = 1,
 		name = "Moa Tier 1",
+		skillRequired = 1,
 		attributes = {
 			{
 				strength = {
@@ -46,56 +46,56 @@ recipes[ProfessionBreeding] = {
 		},
 		outfits = {
 			{
+				color = "yellow",
 				chance = 37.5,
-				looktype = 3541,
-				color = "yellow"
+				looktype = 3541
 			},
 			{
+				color = "brown",
 				chance = 37.5,
-				looktype = 3535,
-				color = "brown"
+				looktype = 3535
 			},
 			{
+				color = "green",
 				chance = 15,
-				looktype = 3536,
-				color = "green"
+				looktype = 3536
 			},
 			{
+				color = "purple",
 				chance = 5,
-				looktype = 3534,
-				color = "purple"
+				looktype = 3534
 			},
 			{
+				color = "blue",
 				chance = 3,
-				looktype = 3533,
-				color = "blue"
+				looktype = 3533
 			},
 			{
+				color = "violet",
 				chance = 1,
-				looktype = 3538,
-				color = "violet"
+				looktype = 3538
 			},
 			{
+				color = "white",
 				chance = 0.6,
-				looktype = 3540,
-				color = "white"
+				looktype = 3540
 			},
 			{
+				color = "red",
 				chance = 0.3,
-				looktype = 3539,
-				color = "red"
+				looktype = 3539
 			},
 			{
+				color = "black",
 				chance = 0.1,
-				looktype = 3532,
-				color = "black"
+				looktype = 3532
 			}
 		}
 	},
 	{
 		tier = 2,
-		skillRequired = 1,
 		name = "Moa Tier 2",
+		skillRequired = 1,
 		attributes = {
 			{
 				strength = {
@@ -136,56 +136,56 @@ recipes[ProfessionBreeding] = {
 		},
 		outfits = {
 			{
+				color = "yellow",
 				chance = 37.5,
-				looktype = 3541,
-				color = "yellow"
+				looktype = 3541
 			},
 			{
+				color = "brown",
 				chance = 37.5,
-				looktype = 3535,
-				color = "brown"
+				looktype = 3535
 			},
 			{
+				color = "green",
 				chance = 15,
-				looktype = 3536,
-				color = "green"
+				looktype = 3536
 			},
 			{
+				color = "purple",
 				chance = 5,
-				looktype = 3534,
-				color = "purple"
+				looktype = 3534
 			},
 			{
+				color = "blue",
 				chance = 3,
-				looktype = 3533,
-				color = "blue"
+				looktype = 3533
 			},
 			{
+				color = "violet",
 				chance = 1,
-				looktype = 3538,
-				color = "violet"
+				looktype = 3538
 			},
 			{
+				color = "white",
 				chance = 0.6,
-				looktype = 3540,
-				color = "white"
+				looktype = 3540
 			},
 			{
+				color = "red",
 				chance = 0.3,
-				looktype = 3539,
-				color = "red"
+				looktype = 3539
 			},
 			{
+				color = "black",
 				chance = 0.1,
-				looktype = 3532,
-				color = "black"
+				looktype = 3532
 			}
 		}
 	},
 	{
 		tier = 3,
-		skillRequired = 1,
 		name = "Moa Tier 3",
+		skillRequired = 1,
 		attributes = {
 			{
 				strength = {
@@ -226,56 +226,56 @@ recipes[ProfessionBreeding] = {
 		},
 		outfits = {
 			{
+				color = "yellow",
 				chance = 37.5,
-				looktype = 3541,
-				color = "yellow"
+				looktype = 3541
 			},
 			{
+				color = "brown",
 				chance = 37.5,
-				looktype = 3535,
-				color = "brown"
+				looktype = 3535
 			},
 			{
+				color = "green",
 				chance = 15,
-				looktype = 3536,
-				color = "green"
+				looktype = 3536
 			},
 			{
+				color = "purple",
 				chance = 5,
-				looktype = 3534,
-				color = "purple"
+				looktype = 3534
 			},
 			{
+				color = "blue",
 				chance = 3,
-				looktype = 3533,
-				color = "blue"
+				looktype = 3533
 			},
 			{
+				color = "violet",
 				chance = 1,
-				looktype = 3538,
-				color = "violet"
+				looktype = 3538
 			},
 			{
+				color = "white",
 				chance = 0.6,
-				looktype = 3540,
-				color = "white"
+				looktype = 3540
 			},
 			{
+				color = "red",
 				chance = 0.3,
-				looktype = 3539,
-				color = "red"
+				looktype = 3539
 			},
 			{
+				color = "black",
 				chance = 0.1,
-				looktype = 3532,
-				color = "black"
+				looktype = 3532
 			}
 		}
 	},
 	{
 		tier = 4,
-		skillRequired = 1,
 		name = "Moa Tier 4",
+		skillRequired = 1,
 		attributes = {
 			{
 				strength = {
@@ -316,56 +316,56 @@ recipes[ProfessionBreeding] = {
 		},
 		outfits = {
 			{
+				color = "yellow",
 				chance = 37.5,
-				looktype = 3541,
-				color = "yellow"
+				looktype = 3541
 			},
 			{
+				color = "brown",
 				chance = 37.5,
-				looktype = 3535,
-				color = "brown"
+				looktype = 3535
 			},
 			{
+				color = "green",
 				chance = 15,
-				looktype = 3536,
-				color = "green"
+				looktype = 3536
 			},
 			{
+				color = "purple",
 				chance = 5,
-				looktype = 3534,
-				color = "purple"
+				looktype = 3534
 			},
 			{
+				color = "blue",
 				chance = 3,
-				looktype = 3533,
-				color = "blue"
+				looktype = 3533
 			},
 			{
+				color = "violet",
 				chance = 1,
-				looktype = 3538,
-				color = "violet"
+				looktype = 3538
 			},
 			{
+				color = "white",
 				chance = 0.6,
-				looktype = 3540,
-				color = "white"
+				looktype = 3540
 			},
 			{
+				color = "red",
 				chance = 0.3,
-				looktype = 3539,
-				color = "red"
+				looktype = 3539
 			},
 			{
+				color = "black",
 				chance = 0.1,
-				looktype = 3532,
-				color = "black"
+				looktype = 3532
 			}
 		}
 	},
 	{
 		tier = 5,
-		skillRequired = 1,
 		name = "Moa Tier 5",
+		skillRequired = 1,
 		attributes = {
 			{
 				strength = {
@@ -406,56 +406,56 @@ recipes[ProfessionBreeding] = {
 		},
 		outfits = {
 			{
+				color = "yellow",
 				chance = 37.5,
-				looktype = 3541,
-				color = "yellow"
+				looktype = 3541
 			},
 			{
+				color = "brown",
 				chance = 37.5,
-				looktype = 3535,
-				color = "brown"
+				looktype = 3535
 			},
 			{
+				color = "green",
 				chance = 15,
-				looktype = 3536,
-				color = "green"
+				looktype = 3536
 			},
 			{
+				color = "purple",
 				chance = 5,
-				looktype = 3534,
-				color = "purple"
+				looktype = 3534
 			},
 			{
+				color = "blue",
 				chance = 3,
-				looktype = 3533,
-				color = "blue"
+				looktype = 3533
 			},
 			{
+				color = "violet",
 				chance = 1,
-				looktype = 3538,
-				color = "violet"
+				looktype = 3538
 			},
 			{
+				color = "white",
 				chance = 0.6,
-				looktype = 3540,
-				color = "white"
+				looktype = 3540
 			},
 			{
+				color = "red",
 				chance = 0.3,
-				looktype = 3539,
-				color = "red"
+				looktype = 3539
 			},
 			{
+				color = "black",
 				chance = 0.1,
-				looktype = 3532,
-				color = "black"
+				looktype = 3532
 			}
 		}
 	},
 	{
 		tier = 6,
-		skillRequired = 1,
 		name = "Moa Tier 6",
+		skillRequired = 1,
 		attributes = {
 			{
 				strength = {
@@ -496,56 +496,56 @@ recipes[ProfessionBreeding] = {
 		},
 		outfits = {
 			{
+				color = "yellow",
 				chance = 37.5,
-				looktype = 3541,
-				color = "yellow"
+				looktype = 3541
 			},
 			{
+				color = "brown",
 				chance = 37.5,
-				looktype = 3535,
-				color = "brown"
+				looktype = 3535
 			},
 			{
+				color = "green",
 				chance = 15,
-				looktype = 3536,
-				color = "green"
+				looktype = 3536
 			},
 			{
+				color = "purple",
 				chance = 5,
-				looktype = 3534,
-				color = "purple"
+				looktype = 3534
 			},
 			{
+				color = "blue",
 				chance = 3,
-				looktype = 3533,
-				color = "blue"
+				looktype = 3533
 			},
 			{
+				color = "violet",
 				chance = 1,
-				looktype = 3538,
-				color = "violet"
+				looktype = 3538
 			},
 			{
+				color = "white",
 				chance = 0.6,
-				looktype = 3540,
-				color = "white"
+				looktype = 3540
 			},
 			{
+				color = "red",
 				chance = 0.3,
-				looktype = 3539,
-				color = "red"
+				looktype = 3539
 			},
 			{
+				color = "black",
 				chance = 0.1,
-				looktype = 3532,
-				color = "black"
+				looktype = 3532
 			}
 		}
 	},
 	{
 		tier = 7,
-		skillRequired = 1,
 		name = "Moa Tier 7",
+		skillRequired = 1,
 		attributes = {
 			{
 				strength = {
@@ -586,49 +586,49 @@ recipes[ProfessionBreeding] = {
 		},
 		outfits = {
 			{
+				color = "yellow",
 				chance = 37.5,
-				looktype = 3541,
-				color = "yellow"
+				looktype = 3541
 			},
 			{
+				color = "brown",
 				chance = 37.5,
-				looktype = 3535,
-				color = "brown"
+				looktype = 3535
 			},
 			{
+				color = "green",
 				chance = 15,
-				looktype = 3536,
-				color = "green"
+				looktype = 3536
 			},
 			{
+				color = "purple",
 				chance = 5,
-				looktype = 3534,
-				color = "purple"
+				looktype = 3534
 			},
 			{
+				color = "blue",
 				chance = 3,
-				looktype = 3533,
-				color = "blue"
+				looktype = 3533
 			},
 			{
+				color = "violet",
 				chance = 1,
-				looktype = 3538,
-				color = "violet"
+				looktype = 3538
 			},
 			{
+				color = "white",
 				chance = 0.6,
-				looktype = 3540,
-				color = "white"
+				looktype = 3540
 			},
 			{
+				color = "red",
 				chance = 0.3,
-				looktype = 3539,
-				color = "red"
+				looktype = 3539
 			},
 			{
+				color = "black",
 				chance = 0.1,
-				looktype = 3532,
-				color = "black"
+				looktype = 3532
 			}
 		}
 	}

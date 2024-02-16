@@ -21,30 +21,30 @@ professionIdToSound = {
 	[ProfessionWeaving] = 122785042
 }
 professionToOrder = {
+	husbandry = 4,
+	farming = 3,
+	woodcutting = 2,
+	mining = 1,
 	breeding = 10,
 	cooking = 9,
 	weaving = 8,
 	carpentry = 7,
 	blacksmithing = 6,
-	fishing = 5,
-	husbandry = 4,
-	farming = 3,
-	woodcutting = 2,
-	mining = 1
+	fishing = 5
 }
 professionToTitle = {
+	breeding = "Attribute Ranges",
+	cooking = "Materials",
 	weaving = "Materials",
 	carpentry = "Materials",
 	blacksmithing = "Materials",
-	fishing = "Slices",
-	breeding = "Attribute Ranges",
-	cooking = "Materials"
+	fishing = "Slices"
 }
 traitToFormat = {
-	weight = "kg",
+	height = "cm",
 	abilityChancePercent = "%",
-	traitChancePercent = "%",
-	height = "cm"
+	weight = "kg",
+	traitChancePercent = "%"
 }
 breedingAttributes = {
 	strength = {
@@ -451,48 +451,48 @@ passiveTypeName = {
 	"specialization"
 }
 passiveNameType = {
-	rarity = 4,
-	experience = 1,
 	resources = 3,
 	speed = 2,
+	experience = 1,
 	specialization = 6,
-	unique = 5
+	unique = 5,
+	rarity = 4
 }
 categoryIndexes = {
 	cooking = {
-		moa = 5,
 		meals = 4,
-		drinks = 3,
+		ingredients = 1,
 		["baked goods"] = 2,
-		ingredients = 1
+		moa = 5,
+		drinks = 3
 	},
 	weaving = {
-		leather = 2,
-		cloth = 1,
 		["ship attachments"] = 7,
 		housing = 6,
 		["crafting garments"] = 5,
 		armor = 4,
-		threads = 3
+		threads = 3,
+		leather = 2,
+		cloth = 1
 	},
 	carpentry = {
+		["ship attachments"] = 7,
+		fishing = 3,
+		["ship components"] = 6,
+		["wagon components"] = 5,
 		["housing components"] = 4,
 		weapons = 2,
-		planks = 1,
-		fishing = 3,
-		["ship attachments"] = 7,
-		["ship components"] = 6,
-		["wagon components"] = 5
+		planks = 1
 	},
 	blacksmithing = {
-		["housing components"] = 7,
-		weapons = 2,
-		materials = 5,
 		whetstones = 4,
 		armors = 3,
 		ingots = 1,
 		fishing = 6,
-		["ship attachments"] = 8
+		["ship attachments"] = 8,
+		["housing components"] = 7,
+		weapons = 2,
+		materials = 5
 	}
 }
 chanceNameType = {

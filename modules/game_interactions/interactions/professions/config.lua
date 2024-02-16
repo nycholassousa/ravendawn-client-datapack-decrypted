@@ -53,9 +53,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("professions")
 
 					GameInteractions:displayActionBox({
+						preferSide = "top",
 						text = "Press P or Left-Click to open your Professions menu",
 						bandit = true,
-						preferSide = "top",
 						keys = {
 							"P",
 							MouseLeftButton
@@ -106,9 +106,9 @@ tasks = {
 					end
 
 					GameInteractions:displayActionBox({
+						preferSide = "top",
 						text = "Now access the Farming tab",
 						bandit = true,
-						preferSide = "top",
 						keys = {
 							MouseLeftButton
 						},
@@ -147,8 +147,8 @@ tasks = {
 
 				if professionsWindow:isVisible() then
 					GameInteractions:displayDescriptionBox({
-						bandit = true,
 						preferSide = "top",
+						bandit = true,
 						pages = {
 							{
 								text = "Here you can see your Profession level and current experience",

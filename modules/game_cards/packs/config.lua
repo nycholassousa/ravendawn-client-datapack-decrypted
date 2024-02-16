@@ -2,8 +2,8 @@
 
 VFX = {
 	appear = {
-		name = "appear_%s",
 		count = 32,
+		name = "appear_%s",
 		rarities = {
 			[CARD_RARITY_UNCOMMON] = {
 				{
@@ -1940,8 +1940,8 @@ VFX = {
 		}
 	},
 	flip = {
-		name = "flip_%s",
 		count = 32,
+		name = "flip_%s",
 		rarities = {
 			[CARD_RARITY_UNCOMMON] = {
 				{
@@ -3878,8 +3878,8 @@ VFX = {
 		}
 	},
 	loop = {
-		name = "loop_%s",
 		count = 32,
+		name = "loop_%s",
 		rarities = {
 			[CARD_RARITY_UNCOMMON] = {
 				{
@@ -5818,8 +5818,8 @@ VFX = {
 }
 card = {
 	appear = {
-		name = "appear_%s",
 		count = 32,
+		name = "appear_%s",
 		frames = {
 			{
 				size = {
@@ -6144,8 +6144,8 @@ card = {
 		}
 	},
 	flip = {
-		name = "flip_%s",
 		count = 32,
+		name = "flip_%s",
 		frames = {
 			{
 				size = {
@@ -6470,8 +6470,8 @@ card = {
 		}
 	},
 	disenchant = {
-		name = "disenchant_%s",
 		count = 84,
+		name = "disenchant_%s",
 		frames = {
 			{
 				size = {
@@ -7316,8 +7316,8 @@ card = {
 		}
 	},
 	shard_extraction = {
-		name = "shard_extraction_%s",
 		count = 36,
+		name = "shard_extraction_%s",
 		frames = {
 			{
 				size = {
@@ -7687,8 +7687,8 @@ card = {
 }
 boom = {
 	appear = {
-		name = "appear_%s",
 		count = 26,
+		name = "appear_%s",
 		frames = {
 			{
 				size = {

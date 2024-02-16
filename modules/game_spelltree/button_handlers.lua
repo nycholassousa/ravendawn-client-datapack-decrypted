@@ -89,6 +89,28 @@ function spellClicked(button)
 	end
 end
 
+function legacySpellClicked(button)
+	if not button:isOn() then
+		local spellId = tonumber((button:getId():gsub("legacySpell", "")))
+		local archetypeId = button.archetypeId
+
+		GameSpellTree:sendOpcode({
+			action = "learn_legacy_skill",
+			archetype = archetypeId,
+			spell = spellId
+		})
+	elseif button.spellInfo and button.spellInfo.tier and button.spellInfo.tier < 3 then
+		local spellId = tonumber((button:getId():gsub("legacySpell", "")))
+		local archetypeId = button.archetypeId
+
+		GameSpellTree:sendOpcode({
+			action = "upgrade_legacy_skill",
+			archetype = archetypeId,
+			spell = spellId
+		})
+	end
+end
+
 function learnNewArchetype(button)
 	GameSpellTree:destroyPopups()
 
@@ -151,6 +173,18 @@ function spellDoubleClicked(button)
 
 	if button:isOn() then
 		AbilityBar.addSpell(archetypeId, spellId)
+	end
+end
+
+function legacySpellDoubleClicked(button)
+	local spellId = button:getId():gsub("legacySpell", "")
+
+	spellId = tonumber(spellId)
+
+	local archetypeId = button.archetypeId
+
+	if button:isOn() then
+		AbilityBar.addSpell(archetypeId, spellId, nil, true)
 	end
 end
 

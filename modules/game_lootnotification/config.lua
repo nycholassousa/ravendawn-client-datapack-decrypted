@@ -9,9 +9,9 @@ LOOT_TYPE_PROFESSION = 3
 ItemQualityColors = table.copy(ItemQualityColors)
 ItemQualityColors[0] = "#000000"
 allowedSourceIcon = {
-	rangers_company = true,
 	artifacts = true,
-	dynamic_event = true
+	dynamic_event = true,
+	rangers_company = true
 }
 soundEvents = {
 	[1699745885] = 2,

@@ -2728,15 +2728,19 @@ effects
   1947
     offset-x: 320
     offset-y: 96
+    all-phases-duration: 50
   1948
     offset-x: 96
     offset-y: 32
+    all-phases-duration: 50
   1949
     offset-x: 96
     offset-y: 320
+    all-phases-duration: 50
   1950
     offset-x: 76
     offset-y: 96
+    all-phases-duration: 50
 
   // default cannon explosion
   2020

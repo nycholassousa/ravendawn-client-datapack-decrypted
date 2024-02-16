@@ -295,58 +295,58 @@ maxStatsTooltip = "Your stats have reached the maximum allowed."
 maxInfamyPoints = 5000
 pvpReduction = {
 	{
-		reduction = 50,
-		points = 4000
+		points = 4000,
+		reduction = 50
 	},
 	{
-		reduction = 40,
-		points = 3000
+		points = 3000,
+		reduction = 40
 	},
 	{
-		reduction = 30,
-		points = 2000
+		points = 2000,
+		reduction = 30
 	},
 	{
-		reduction = 20,
-		points = 1000
+		points = 1000,
+		reduction = 20
 	}
 }
 experienceDebt = {
 	{
-		debt = 250,
-		points = 4000
+		points = 4000,
+		debt = 250
 	},
 	{
-		debt = 150,
-		points = 3000
+		points = 3000,
+		debt = 150
 	},
 	{
-		debt = 100,
-		points = 2000
+		points = 2000,
+		debt = 100
 	},
 	{
-		debt = 50,
-		points = 1000
+		points = 1000,
+		debt = 50
 	}
 }
 messages = {
-	experience = "- Increase the Experience debt on death by %d%%.",
-	murder = "Because you've killed a murder your infamy has been decreased by %d points.",
-	helper = "Because you've helped on a murder of a innocent your infamy has been increased by %d points.",
-	damage = "- You deal %d%% less damage to players.",
 	killer = "Because you've murdered a innocent your infamy has been increased by %d points.",
+	damage = "- You deal %d%% less damage to players.",
+	default = "You've killed %s!",
 	block = "- You can no longer attack an innocent player your level or lower.\n- You can still attack someone who attacks you however.",
-	default = "You've killed %s!"
+	murder = "Because you've killed a murder your infamy has been decreased by %d points.",
+	experience = "- Increase the Experience debt on death by %d%%.",
+	helper = "Because you've helped on a murder of a innocent your infamy has been increased by %d points."
 }
 highlights = {
 	[2280] = {
 		description = "Deliver items to Boris The Barber.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5097,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -354,10 +354,10 @@ highlights = {
 		description = "Deliver items to Boris The Barber.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5097,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -365,10 +365,10 @@ highlights = {
 		description = "Deliver items to Jordan for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5128,
-				x = 5134
+				x = 5134,
+				size = 7
 			}
 		}
 	},
@@ -376,10 +376,10 @@ highlights = {
 		description = "Deliver items to Jordan for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5128,
-				x = 5134
+				x = 5134,
+				size = 7
 			}
 		}
 	},
@@ -387,10 +387,10 @@ highlights = {
 		description = "Deliver items to Faverin for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 4365,
-				x = 4611
+				x = 4611,
+				size = 7
 			}
 		}
 	},
@@ -398,10 +398,10 @@ highlights = {
 		description = "Deliver items to Faverin for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 4365,
-				x = 4611
+				x = 4611,
+				size = 7
 			}
 		}
 	},
@@ -409,10 +409,10 @@ highlights = {
 		description = "Deliver items to Varfesh for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4943,
-				x = 6017
+				x = 6017,
+				size = 7
 			}
 		}
 	},
@@ -420,10 +420,10 @@ highlights = {
 		description = "Deliver items to Varfesh for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4943,
-				x = 6017
+				x = 6017,
+				size = 7
 			}
 		}
 	},
@@ -431,10 +431,10 @@ highlights = {
 		description = "Deliver items to Alahad for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5132,
-				x = 3958
+				x = 3958,
+				size = 7
 			}
 		}
 	},
@@ -442,10 +442,10 @@ highlights = {
 		description = "Deliver items to Alahad for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5132,
-				x = 3958
+				x = 3958,
+				size = 7
 			}
 		}
 	},
@@ -453,10 +453,10 @@ highlights = {
 		description = "Deliver items to Jordan for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5128,
-				x = 5134
+				x = 5134,
+				size = 7
 			}
 		}
 	},
@@ -464,10 +464,10 @@ highlights = {
 		description = "Deliver items to Jordan for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5128,
-				x = 5134
+				x = 5134,
+				size = 7
 			}
 		}
 	},
@@ -475,10 +475,10 @@ highlights = {
 		description = "Deliver items to Jordan for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5128,
-				x = 5134
+				x = 5134,
+				size = 7
 			}
 		}
 	},
@@ -486,10 +486,10 @@ highlights = {
 		description = "Deliver items to Jordan for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5128,
-				x = 5134
+				x = 5134,
+				size = 7
 			}
 		}
 	},
@@ -497,10 +497,10 @@ highlights = {
 		description = "Deliver items to Faverin for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 4365,
-				x = 4611
+				x = 4611,
+				size = 7
 			}
 		}
 	},
@@ -508,10 +508,10 @@ highlights = {
 		description = "Deliver items to Faverin for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 4365,
-				x = 4611
+				x = 4611,
+				size = 7
 			}
 		}
 	},
@@ -519,10 +519,10 @@ highlights = {
 		description = "Deliver items to Almithera for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 4365,
-				x = 4611
+				x = 4611,
+				size = 7
 			}
 		}
 	},
@@ -530,10 +530,10 @@ highlights = {
 		description = "Deliver items to Almithera for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 4365,
-				x = 4611
+				x = 4611,
+				size = 7
 			}
 		}
 	},
@@ -541,10 +541,10 @@ highlights = {
 		description = "Deliver items to Varfesh for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4943,
-				x = 6017
+				x = 6017,
+				size = 7
 			}
 		}
 	},
@@ -552,10 +552,10 @@ highlights = {
 		description = "Deliver items to Varfesh for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4943,
-				x = 6017
+				x = 6017,
+				size = 7
 			}
 		}
 	},
@@ -563,10 +563,10 @@ highlights = {
 		description = "Deliver items to Boris The Barber for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5097,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -574,10 +574,10 @@ highlights = {
 		description = "Deliver items to Boris The Barber for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5097,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -585,10 +585,10 @@ highlights = {
 		description = "Deliver items to Gunter for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5119,
-				x = 5069
+				x = 5069,
+				size = 7
 			}
 		}
 	},
@@ -596,10 +596,10 @@ highlights = {
 		description = "Deliver items to Gunter for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5119,
-				x = 5069
+				x = 5069,
+				size = 7
 			}
 		}
 	},
@@ -607,10 +607,10 @@ highlights = {
 		description = "Deliver items to Anandine for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5173,
-				x = 5163
+				x = 5163,
+				size = 7
 			}
 		}
 	},
@@ -618,10 +618,10 @@ highlights = {
 		description = "Deliver items to Anandine for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5173,
-				x = 5163
+				x = 5163,
+				size = 7
 			}
 		}
 	},
@@ -629,10 +629,10 @@ highlights = {
 		description = "Deliver items to Mother Fabri for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4453,
-				x = 5371
+				x = 5371,
+				size = 7
 			}
 		}
 	},
@@ -640,10 +640,10 @@ highlights = {
 		description = "Deliver items to Mother Fabri for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4453,
-				x = 5371
+				x = 5371,
+				size = 7
 			}
 		}
 	},
@@ -651,10 +651,10 @@ highlights = {
 		description = "Deliver items to Mother Fabri for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4453,
-				x = 5371
+				x = 5371,
+				size = 7
 			}
 		}
 	},
@@ -662,10 +662,10 @@ highlights = {
 		description = "Deliver items to Mother Fabri for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4453,
-				x = 5371
+				x = 5371,
+				size = 7
 			}
 		}
 	},
@@ -673,10 +673,10 @@ highlights = {
 		description = "Deliver items to Bryce for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5112,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -684,10 +684,10 @@ highlights = {
 		description = "Deliver items to Bryce for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5112,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -695,10 +695,10 @@ highlights = {
 		description = "Deliver items to Bryce for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5112,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -706,10 +706,10 @@ highlights = {
 		description = "Deliver items to Bryce for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5112,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -717,10 +717,10 @@ highlights = {
 		description = "Deliver items to Corin for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5854,
-				x = 4329
+				x = 4329,
+				size = 7
 			}
 		}
 	},
@@ -728,10 +728,10 @@ highlights = {
 		description = "Deliver items to Corin for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5854,
-				x = 4329
+				x = 4329,
+				size = 7
 			}
 		}
 	},
@@ -739,10 +739,10 @@ highlights = {
 		description = "Deliver items to Mother Fabri for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4453,
-				x = 5371
+				x = 5371,
+				size = 7
 			}
 		}
 	},
@@ -750,10 +750,10 @@ highlights = {
 		description = "Deliver items to Mother Fabri for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4453,
-				x = 5371
+				x = 5371,
+				size = 7
 			}
 		}
 	},
@@ -761,10 +761,10 @@ highlights = {
 		description = "Deliver items to Mother Fabri for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4453,
-				x = 5371
+				x = 5371,
+				size = 7
 			}
 		}
 	},
@@ -772,10 +772,10 @@ highlights = {
 		description = "Deliver items to Mother Fabri for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4453,
-				x = 5371
+				x = 5371,
+				size = 7
 			}
 		}
 	},
@@ -783,10 +783,10 @@ highlights = {
 		description = "Deliver items to Elena for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5075,
-				x = 5140
+				x = 5140,
+				size = 7
 			}
 		}
 	},
@@ -794,10 +794,10 @@ highlights = {
 		description = "Deliver items to Elena for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5075,
-				x = 5140
+				x = 5140,
+				size = 7
 			}
 		}
 	},
@@ -805,10 +805,10 @@ highlights = {
 		description = "Deliver items to Sir Alexander for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5180,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -816,10 +816,10 @@ highlights = {
 		description = "Deliver items to Sir Alexander for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5180,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -827,10 +827,10 @@ highlights = {
 		description = "Deliver items to Brokrok the Wise for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4259,
-				x = 4173
+				x = 4173,
+				size = 7
 			}
 		}
 	},
@@ -838,10 +838,10 @@ highlights = {
 		description = "Deliver items to Brokrok the Wise for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 4259,
-				x = 4173
+				x = 4173,
+				size = 7
 			}
 		}
 	},
@@ -849,10 +849,10 @@ highlights = {
 		description = "Deliver items to Skaldrog for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 14,
 				y = 4526,
-				x = 5411
+				x = 5411,
+				size = 7
 			}
 		}
 	},
@@ -860,10 +860,10 @@ highlights = {
 		description = "Deliver items to Skaldrog for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 14,
 				y = 4526,
-				x = 5411
+				x = 5411,
+				size = 7
 			}
 		}
 	},
@@ -871,10 +871,10 @@ highlights = {
 		description = "Deliver items to Lord Malroth for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 11,
 				y = 4463,
-				x = 5368
+				x = 5368,
+				size = 7
 			}
 		}
 	},
@@ -882,10 +882,10 @@ highlights = {
 		description = "Deliver items to Lord Malroth for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 11,
 				y = 4463,
-				x = 5368
+				x = 5368,
+				size = 7
 			}
 		}
 	},
@@ -893,10 +893,10 @@ highlights = {
 		description = "Deliver items to Sister Sopiha for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5154,
-				x = 5163
+				x = 5163,
+				size = 7
 			}
 		}
 	},
@@ -904,10 +904,10 @@ highlights = {
 		description = "Deliver items to Sister Sophia for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5154,
-				x = 5163
+				x = 5163,
+				size = 7
 			}
 		}
 	},
@@ -915,10 +915,10 @@ highlights = {
 		description = "Deliver items to Sir Alexander for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5180,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -926,10 +926,10 @@ highlights = {
 		description = "Deliver items to Sir Alexander for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5180,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -937,10 +937,10 @@ highlights = {
 		description = "Deliver items to Bryce for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5112,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -948,10 +948,10 @@ highlights = {
 		description = "Deliver items to Bryce for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5112,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -959,10 +959,10 @@ highlights = {
 		description = "Deliver items to Grundwig for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 11,
 				y = 4482,
-				x = 5404
+				x = 5404,
+				size = 7
 			}
 		}
 	},
@@ -970,10 +970,10 @@ highlights = {
 		description = "Deliver items to Grundwig for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 11,
 				y = 4482,
-				x = 5404
+				x = 5404,
+				size = 7
 			}
 		}
 	},
@@ -981,10 +981,10 @@ highlights = {
 		description = "Deliver items to Dunreg for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 10,
 				y = 4493,
-				x = 5427
+				x = 5427,
+				size = 7
 			}
 		}
 	},
@@ -992,10 +992,10 @@ highlights = {
 		description = "Deliver items to Dunreg for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 10,
 				y = 4493,
-				x = 5427
+				x = 5427,
+				size = 7
 			}
 		}
 	},
@@ -1003,10 +1003,10 @@ highlights = {
 		description = "Deliver items to Garamond for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5127,
-				x = 5104
+				x = 5104,
+				size = 7
 			}
 		}
 	},
@@ -1014,10 +1014,10 @@ highlights = {
 		description = "Deliver items to Garamond for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5127,
-				x = 5104
+				x = 5104,
+				size = 7
 			}
 		}
 	},
@@ -1025,10 +1025,10 @@ highlights = {
 		description = "Deliver items to Nirolo for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5125,
-				x = 5135
+				x = 5135,
+				size = 7
 			}
 		}
 	},
@@ -1036,10 +1036,10 @@ highlights = {
 		description = "Deliver items to Nirolo for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5125,
-				x = 5135
+				x = 5135,
+				size = 7
 			}
 		}
 	},
@@ -1047,10 +1047,10 @@ highlights = {
 		description = "Deliver items to Garamond for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5127,
-				x = 5104
+				x = 5104,
+				size = 7
 			}
 		}
 	},
@@ -1058,10 +1058,10 @@ highlights = {
 		description = "Deliver items to Garamond for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5127,
-				x = 5104
+				x = 5104,
+				size = 7
 			}
 		}
 	},
@@ -1069,10 +1069,10 @@ highlights = {
 		description = "Deliver items to Anandine for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5173,
-				x = 5163
+				x = 5163,
+				size = 7
 			}
 		}
 	},
@@ -1080,10 +1080,10 @@ highlights = {
 		description = "Deliver items to Anandine for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5173,
-				x = 5163
+				x = 5163,
+				size = 7
 			}
 		}
 	},
@@ -1091,10 +1091,10 @@ highlights = {
 		description = "Deliver items to Grand Magus Taura for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5191,
-				x = 5079
+				x = 5079,
+				size = 7
 			}
 		}
 	},
@@ -1102,10 +1102,10 @@ highlights = {
 		description = "Deliver items to Grand Magus Taura for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5191,
-				x = 5079
+				x = 5079,
+				size = 7
 			}
 		}
 	},
@@ -1113,10 +1113,10 @@ highlights = {
 		description = "Deliver items to Lordkeeper Soreth for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5129,
-				x = 5107
+				x = 5107,
+				size = 7
 			}
 		}
 	},
@@ -1124,10 +1124,10 @@ highlights = {
 		description = "Deliver items to Lordkeeper Soreth for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5129,
-				x = 5107
+				x = 5107,
+				size = 7
 			}
 		}
 	},
@@ -1135,10 +1135,10 @@ highlights = {
 		description = "Deliver items to Lordkeeper Soreth for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5129,
-				x = 5107
+				x = 5107,
+				size = 7
 			}
 		}
 	},
@@ -1146,10 +1146,10 @@ highlights = {
 		description = "Deliver items to Lordkeeper Soreth for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5129,
-				x = 5107
+				x = 5107,
+				size = 7
 			}
 		}
 	},
@@ -1157,10 +1157,10 @@ highlights = {
 		description = "Deliver items to Leagros for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 11,
 				y = 4482,
-				x = 5404
+				x = 5404,
+				size = 7
 			}
 		}
 	},
@@ -1168,10 +1168,10 @@ highlights = {
 		description = "Deliver items to Leagros for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 11,
 				y = 4482,
-				x = 5404
+				x = 5404,
+				size = 7
 			}
 		}
 	},
@@ -1179,10 +1179,10 @@ highlights = {
 		description = "Deliver items to Grand Magus Taura for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5191,
-				x = 5079
+				x = 5079,
+				size = 7
 			}
 		}
 	},
@@ -1190,10 +1190,10 @@ highlights = {
 		description = "Deliver items to Grand Magus Taura for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5191,
-				x = 5079
+				x = 5079,
+				size = 7
 			}
 		}
 	},
@@ -1201,10 +1201,10 @@ highlights = {
 		description = "Deliver items to Tullius for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4538,
-				x = 6174
+				x = 6174,
+				size = 7
 			}
 		}
 	},
@@ -1212,10 +1212,10 @@ highlights = {
 		description = "Deliver items to Tullius for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4538,
-				x = 6174
+				x = 6174,
+				size = 7
 			}
 		}
 	},
@@ -1223,10 +1223,10 @@ highlights = {
 		description = "Deliver items to Anashi for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5860,
-				x = 4330
+				x = 4330,
+				size = 7
 			}
 		}
 	},
@@ -1234,10 +1234,10 @@ highlights = {
 		description = "Deliver items to Anashi for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5860,
-				x = 4330
+				x = 4330,
+				size = 7
 			}
 		}
 	},
@@ -1245,10 +1245,10 @@ highlights = {
 		description = "Deliver items to Dendeor for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5223,
-				x = 5840
+				x = 5840,
+				size = 7
 			}
 		}
 	},
@@ -1256,10 +1256,10 @@ highlights = {
 		description = "Deliver items to Dendeor for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5223,
-				x = 5840
+				x = 5840,
+				size = 7
 			}
 		}
 	},
@@ -1267,10 +1267,10 @@ highlights = {
 		description = "Deliver items to Komuram and Brutebeard for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5235,
-				x = 5662
+				x = 5662,
+				size = 7
 			}
 		}
 	},
@@ -1278,10 +1278,10 @@ highlights = {
 		description = "Deliver items to Komuram and Brutebeard for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5235,
-				x = 5662
+				x = 5662,
+				size = 7
 			}
 		}
 	},
@@ -1289,10 +1289,10 @@ highlights = {
 		description = "Deliver items to Cael for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5036,
-				x = 5139
+				x = 5139,
+				size = 7
 			}
 		}
 	},
@@ -1300,10 +1300,10 @@ highlights = {
 		description = "Deliver items to Cael for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5036,
-				x = 5139
+				x = 5139,
+				size = 7
 			}
 		}
 	},
@@ -1311,10 +1311,10 @@ highlights = {
 		description = "Deliver items to Phillipe Agrave for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 4836,
-				x = 5498
+				x = 5498,
+				size = 7
 			}
 		}
 	},
@@ -1322,10 +1322,10 @@ highlights = {
 		description = "Deliver items to Phillipe Agrave for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 4836,
-				x = 5498
+				x = 5498,
+				size = 7
 			}
 		}
 	},
@@ -1333,10 +1333,10 @@ highlights = {
 		description = "Deliver items to Kaden for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1344,10 +1344,10 @@ highlights = {
 		description = "Deliver items to Kaden for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1355,10 +1355,10 @@ highlights = {
 		description = "Deliver items to Stabface for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5064,
-				x = 5164
+				x = 5164,
+				size = 7
 			}
 		}
 	},
@@ -1366,10 +1366,10 @@ highlights = {
 		description = "Deliver items to Stabface for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5064,
-				x = 5164
+				x = 5164,
+				size = 7
 			}
 		}
 	},
@@ -1377,10 +1377,10 @@ highlights = {
 		description = "Deliver items to Lawton for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5712,
-				x = 5563
+				x = 5563,
+				size = 7
 			}
 		}
 	},
@@ -1388,10 +1388,10 @@ highlights = {
 		description = "Deliver items to Lawton for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5712,
-				x = 5563
+				x = 5563,
+				size = 7
 			}
 		}
 	},
@@ -1399,10 +1399,10 @@ highlights = {
 		description = "Deliver items to Kaden for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1410,10 +1410,10 @@ highlights = {
 		description = "Deliver items to Kaden for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1421,10 +1421,10 @@ highlights = {
 		description = "Deliver items to Marilyn Ordell for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5329,
-				x = 4675
+				x = 4675,
+				size = 7
 			}
 		}
 	},
@@ -1432,10 +1432,10 @@ highlights = {
 		description = "Deliver items to Marilyn Ordell for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5329,
-				x = 4675
+				x = 4675,
+				size = 7
 			}
 		}
 	},
@@ -1443,10 +1443,10 @@ highlights = {
 		description = "Deliver items to Gunter for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5119,
-				x = 5069
+				x = 5069,
+				size = 7
 			}
 		}
 	},
@@ -1454,10 +1454,10 @@ highlights = {
 		description = "Deliver items to Gunter for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5119,
-				x = 5069
+				x = 5069,
+				size = 7
 			}
 		}
 	},
@@ -1465,10 +1465,10 @@ highlights = {
 		description = "Deliver items to Lorekeeper Soreth for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5129,
-				x = 5107
+				x = 5107,
+				size = 7
 			}
 		}
 	},
@@ -1476,10 +1476,10 @@ highlights = {
 		description = "Deliver items to Lorekeeper Soreth for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5129,
-				x = 5107
+				x = 5107,
+				size = 7
 			}
 		}
 	},
@@ -1487,10 +1487,10 @@ highlights = {
 		description = "Deliver items to Verona Corvo for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5097,
-				x = 5100
+				x = 5100,
+				size = 7
 			}
 		}
 	},
@@ -1498,10 +1498,10 @@ highlights = {
 		description = "Deliver items to Verona Corvo for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5097,
-				x = 5100
+				x = 5100,
+				size = 7
 			}
 		}
 	},
@@ -1509,10 +1509,10 @@ highlights = {
 		description = "Deliver items to Gerald Quincy for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1520,10 +1520,10 @@ highlights = {
 		description = "Deliver items to Gerald Quincy for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1531,10 +1531,10 @@ highlights = {
 		description = "Deliver items to Katarina for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5712,
-				x = 5563
+				x = 5563,
+				size = 7
 			}
 		}
 	},
@@ -1542,10 +1542,10 @@ highlights = {
 		description = "Deliver items to Katarina for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5712,
-				x = 5563
+				x = 5563,
+				size = 7
 			}
 		}
 	},
@@ -1553,10 +1553,10 @@ highlights = {
 		description = "Deliver items to Deckarde for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5096,
-				x = 5155
+				x = 5155,
+				size = 7
 			}
 		}
 	},
@@ -1564,10 +1564,10 @@ highlights = {
 		description = "Deliver items to Deckarde for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5096,
-				x = 5155
+				x = 5155,
+				size = 7
 			}
 		}
 	},
@@ -1575,10 +1575,10 @@ highlights = {
 		description = "Deliver items to Kizzie for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5142,
-				x = 3967
+				x = 3967,
+				size = 7
 			}
 		}
 	},
@@ -1586,10 +1586,10 @@ highlights = {
 		description = "Deliver items to Kizzie for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5142,
-				x = 3967
+				x = 3967,
+				size = 7
 			}
 		}
 	},
@@ -1597,10 +1597,10 @@ highlights = {
 		description = "Deliver items to Leagros for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1608,10 +1608,10 @@ highlights = {
 		description = "Deliver items to Leagros for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1619,10 +1619,10 @@ highlights = {
 		description = "Deliver items to Grundwig for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 11,
 				y = 4482,
-				x = 5404
+				x = 5404,
+				size = 7
 			}
 		}
 	},
@@ -1630,10 +1630,10 @@ highlights = {
 		description = "Deliver items to Grundwig for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 11,
 				y = 4482,
-				x = 5404
+				x = 5404,
+				size = 7
 			}
 		}
 	},
@@ -1641,10 +1641,10 @@ highlights = {
 		description = "Deliver items to Phillipe Agrave for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 4836,
-				x = 5498
+				x = 5498,
+				size = 7
 			}
 		}
 	},
@@ -1652,10 +1652,10 @@ highlights = {
 		description = "Deliver items to Phillipe Agrave for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 4836,
-				x = 5498
+				x = 5498,
+				size = 7
 			}
 		}
 	},
@@ -1663,10 +1663,10 @@ highlights = {
 		description = "Deliver items to Boris the Barber for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5097,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1674,10 +1674,10 @@ highlights = {
 		description = "Deliver items to Boris the Barber for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5097,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1685,10 +1685,10 @@ highlights = {
 		description = "Deliver items to Dealer Jack for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5155,
-				x = 5476
+				x = 5476,
+				size = 7
 			}
 		}
 	},
@@ -1696,10 +1696,10 @@ highlights = {
 		description = "Deliver items to Dealer Jack for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5155,
-				x = 5476
+				x = 5476,
+				size = 7
 			}
 		}
 	},
@@ -1707,10 +1707,10 @@ highlights = {
 		description = "Deliver items to Bryce for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5112,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -1718,10 +1718,10 @@ highlights = {
 		description = "Deliver items to Bryce for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5112,
-				x = 5103
+				x = 5103,
+				size = 7
 			}
 		}
 	},
@@ -1729,10 +1729,10 @@ highlights = {
 		description = "Deliver items to Leagros for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1740,10 +1740,10 @@ highlights = {
 		description = "Deliver items to Leagros for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1751,10 +1751,10 @@ highlights = {
 		description = "Deliver items to Jerault of Trivia for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5039,
-				x = 5326
+				x = 5326,
+				size = 7
 			}
 		}
 	},
@@ -1762,10 +1762,10 @@ highlights = {
 		description = "Deliver items to Jerault of Trivia for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 5039,
-				x = 5326
+				x = 5326,
+				size = 7
 			}
 		}
 	},
@@ -1773,10 +1773,10 @@ highlights = {
 		description = "Deliver items to Kaden for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1784,10 +1784,10 @@ highlights = {
 		description = "Deliver items to Kaden for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1795,10 +1795,10 @@ highlights = {
 		description = "Deliver items to Dealer Jack for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5155,
-				x = 5476
+				x = 5476,
+				size = 7
 			}
 		}
 	},
@@ -1806,10 +1806,10 @@ highlights = {
 		description = "Deliver items to Dealer Jack for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 5,
 				y = 5155,
-				x = 5476
+				x = 5476,
+				size = 7
 			}
 		}
 	},
@@ -1817,10 +1817,10 @@ highlights = {
 		description = "Deliver items to Kaden for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1828,10 +1828,10 @@ highlights = {
 		description = "Deliver items to Kaden for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1839,10 +1839,10 @@ highlights = {
 		description = "Deliver items to Aknadin for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 5534,
-				x = 5364
+				x = 5364,
+				size = 7
 			}
 		}
 	},
@@ -1850,10 +1850,10 @@ highlights = {
 		description = "Deliver items to Aknadin for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 9,
 				y = 5534,
-				x = 5364
+				x = 5364,
+				size = 7
 			}
 		}
 	},
@@ -1861,10 +1861,10 @@ highlights = {
 		description = "Deliver items to Hector for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1872,10 +1872,10 @@ highlights = {
 		description = "Deliver items to Hector for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5114,
-				x = 5101
+				x = 5101,
+				size = 7
 			}
 		}
 	},
@@ -1883,10 +1883,10 @@ highlights = {
 		description = "Deliver items to Thymeria for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5034,
-				x = 5343
+				x = 5343,
+				size = 7
 			}
 		}
 	},
@@ -1894,10 +1894,10 @@ highlights = {
 		description = "Deliver items to Thymeria for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5034,
-				x = 5343
+				x = 5343,
+				size = 7
 			}
 		}
 	},
@@ -1905,10 +1905,10 @@ highlights = {
 		description = "Deliver items to Thymeria for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5034,
-				x = 5343
+				x = 5343,
+				size = 7
 			}
 		}
 	},
@@ -1916,10 +1916,10 @@ highlights = {
 		description = "Deliver items to Thymeria for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5034,
-				x = 5343
+				x = 5343,
+				size = 7
 			}
 		}
 	},
@@ -1927,10 +1927,10 @@ highlights = {
 		description = "Deliver items to Vulas for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4829,
-				x = 5223
+				x = 5223,
+				size = 7
 			}
 		}
 	},
@@ -1938,10 +1938,10 @@ highlights = {
 		description = "Deliver items to Vulas for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4829,
-				x = 5223
+				x = 5223,
+				size = 7
 			}
 		}
 	},
@@ -1949,10 +1949,10 @@ highlights = {
 		description = "Deliver items to Gylana for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4965,
-				x = 5697
+				x = 5697,
+				size = 7
 			}
 		}
 	},
@@ -1960,10 +1960,10 @@ highlights = {
 		description = "Deliver items to Gylana for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4965,
-				x = 5697
+				x = 5697,
+				size = 7
 			}
 		}
 	},
@@ -1971,10 +1971,10 @@ highlights = {
 		description = "Deliver items to Lornas for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5230,
-				x = 5631
+				x = 5631,
+				size = 7
 			}
 		}
 	},
@@ -1982,10 +1982,10 @@ highlights = {
 		description = "Deliver items to Lornas for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 4,
 				y = 5230,
-				x = 5631
+				x = 5631,
+				size = 7
 			}
 		}
 	},
@@ -1993,10 +1993,10 @@ highlights = {
 		description = "Deliver items to Thymeria for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5034,
-				x = 5343
+				x = 5343,
+				size = 7
 			}
 		}
 	},
@@ -2004,10 +2004,10 @@ highlights = {
 		description = "Deliver items to Thymeria for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 5034,
-				x = 5343
+				x = 5343,
+				size = 7
 			}
 		}
 	},
@@ -2015,10 +2015,10 @@ highlights = {
 		description = "Deliver items to Dawn for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4829,
-				x = 5180
+				x = 5180,
+				size = 7
 			}
 		}
 	},
@@ -2026,10 +2026,10 @@ highlights = {
 		description = "Deliver items to Dawn for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4829,
-				x = 5180
+				x = 5180,
+				size = 7
 			}
 		}
 	},
@@ -2037,10 +2037,10 @@ highlights = {
 		description = "Deliver items to Vulas for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4829,
-				x = 5223
+				x = 5223,
+				size = 7
 			}
 		}
 	},
@@ -2048,10 +2048,10 @@ highlights = {
 		description = "Deliver items to Vulas for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4829,
-				x = 5223
+				x = 5223,
+				size = 7
 			}
 		}
 	},
@@ -2059,10 +2059,10 @@ highlights = {
 		description = "Deliver items to Vulas for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4829,
-				x = 5223
+				x = 5223,
+				size = 7
 			}
 		}
 	},
@@ -2070,10 +2070,10 @@ highlights = {
 		description = "Deliver items to Vulas for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 6,
 				y = 4829,
-				x = 5223
+				x = 5223,
+				size = 7
 			}
 		}
 	},
@@ -2081,10 +2081,10 @@ highlights = {
 		description = "Deliver items to Oswald Wyte for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 4965,
-				x = 5702
+				x = 5702,
+				size = 7
 			}
 		}
 	},
@@ -2092,10 +2092,10 @@ highlights = {
 		description = "Deliver items to Oswald Wyte for Addon.",
 		positions = {
 			{
-				size = 7,
 				z = 7,
 				y = 4965,
-				x = 5702
+				x = 5702,
+				size = 7
 			}
 		}
 	}

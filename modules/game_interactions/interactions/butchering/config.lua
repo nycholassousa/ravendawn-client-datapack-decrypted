@@ -165,9 +165,9 @@ tasks = {
 
 				if minigameWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						bandit = true,
 						preferSide = "top",
 						text = "But in order to get meat, you'll need to butcher the pig like the farmer said",
+						bandit = true,
 						keys = {
 							"F"
 						},

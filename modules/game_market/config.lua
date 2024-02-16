@@ -61,8 +61,8 @@ orderType = {
 	"price"
 }
 offerType = {
-	sell_offers = 0,
-	buy_offers = 1
+	buy_offers = 1,
+	sell_offers = 0
 }
 activeOffersOrderType = {
 	"transaction",
@@ -119,246 +119,246 @@ OFFER_TYPE_BUY = 1
 categories = {
 	weapons = {
 		axes = {
-			index = 1,
-			id = 1
+			id = 1,
+			index = 1
 		},
 		swords = {
-			index = 2,
-			id = 2
+			id = 2,
+			index = 2
 		},
 		clubs = {
-			index = 3,
-			id = 3
+			id = 3,
+			index = 3
 		},
 		daggers = {
-			index = 4,
-			id = 4
+			id = 4,
+			index = 4
 		},
 		greataxes = {
-			index = 5,
-			id = 5
+			id = 5,
+			index = 5
 		},
 		greatswords = {
-			index = 6,
-			id = 6
+			id = 6,
+			index = 6
 		},
 		hammers = {
-			index = 7,
-			id = 7
+			id = 7,
+			index = 7
 		},
 		["light blades"] = {
-			index = 8,
-			id = 8
+			id = 8,
+			index = 8
 		},
 		["buckler shields"] = {
-			index = 9,
-			id = 9
+			id = 9,
+			index = 9
 		},
 		["tower shields"] = {
-			index = 10,
-			id = 54
+			id = 54,
+			index = 10
 		},
 		sceptres = {
-			index = 11,
-			id = 10
+			id = 10,
+			index = 11
 		},
 		staves = {
-			index = 12,
-			id = 11
+			id = 11,
+			index = 12
 		},
 		bows = {
-			index = 13,
-			id = 12
+			id = 12,
+			index = 13
 		}
 	},
 	equipment = {
 		helmets = {
-			index = 1,
-			id = 13
+			id = 13,
+			index = 1
 		},
 		armors = {
-			index = 2,
-			id = 14
+			id = 14,
+			index = 2
 		},
 		legs = {
-			index = 3,
-			id = 15
+			id = 15,
+			index = 3
 		},
 		boots = {
-			index = 4,
-			id = 16
+			id = 16,
+			index = 4
 		},
 		amulets = {
-			index = 5,
-			id = 17
+			id = 17,
+			index = 5
 		},
 		trinkets = {
-			index = 6,
-			id = 18
+			id = 18,
+			index = 6
 		},
 		rings = {
-			index = 7,
-			id = 19
+			id = 19,
+			index = 7
 		}
 	},
 	["profession equipment"] = {
 		fishing = {
-			index = 1,
-			id = 20
+			id = 20,
+			index = 1
 		},
 		blacksmithing = {
-			index = 2,
-			id = 21
+			id = 21,
+			index = 2
 		},
 		carpentry = {
-			index = 3,
-			id = 22
+			id = 22,
+			index = 3
 		},
 		weaving = {
-			index = 4,
-			id = 23
+			id = 23,
+			index = 4
 		},
 		cooking = {
-			index = 5,
-			id = 24
+			id = 24,
+			index = 5
 		}
 	},
 	enchantments = {
 		weapons = {
-			index = 1,
-			id = 25
+			id = 25,
+			index = 1
 		},
 		helmets = {
-			index = 2,
-			id = 26
+			id = 26,
+			index = 2
 		},
 		armors = {
-			index = 3,
-			id = 27
+			id = 27,
+			index = 3
 		},
 		legs = {
-			index = 4,
-			id = 28
+			id = 28,
+			index = 4
 		},
 		boots = {
-			index = 5,
-			id = 29
+			id = 29,
+			index = 5
 		}
 	},
 	consumables = {
 		["baked goods"] = {
-			index = 1,
-			id = 30
+			id = 30,
+			index = 1
 		},
 		drinks = {
-			index = 2,
-			id = 31
+			id = 31,
+			index = 2
 		},
 		meals = {
-			index = 3,
-			id = 32
+			id = 32,
+			index = 3
 		},
 		potions = {
-			index = 4,
-			id = 33
+			id = 33,
+			index = 4
 		},
 		elixirs = {
-			index = 5,
-			id = 34
+			id = 34,
+			index = 5
 		},
 		poisons = {
-			index = 6,
-			id = 35
+			id = 35,
+			index = 6
 		},
 		whetstones = {
-			index = 7,
-			id = 36
+			id = 36,
+			index = 7
 		},
 		breeding = {
-			index = 8,
-			id = 37
+			id = 37,
+			index = 8
 		}
 	},
 	["raw gathering materials"] = {
 		mining = {
-			index = 1,
-			id = 38
+			id = 38,
+			index = 1
 		},
 		woodcutting = {
-			index = 2,
-			id = 39
+			id = 39,
+			index = 2
 		},
 		farming = {
-			index = 3,
-			id = 40
+			id = 40,
+			index = 3
 		},
 		husbandry = {
-			index = 4,
-			id = 41
+			id = 41,
+			index = 4
 		},
 		fishing = {
-			index = 5,
-			id = 42
+			id = 42,
+			index = 5
 		}
 	},
 	["refined crafting materials"] = {
 		blacksmithing = {
-			index = 1,
-			id = 43
+			id = 43,
+			index = 1
 		},
 		carpentry = {
-			index = 2,
-			id = 44
+			id = 44,
+			index = 2
 		},
 		weaving = {
-			index = 3,
-			id = 45
+			id = 45,
+			index = 3
 		},
 		cooking = {
-			index = 4,
-			id = 46
+			id = 46,
+			index = 4
 		}
 	},
 	transports = {
 		["ship parts"] = {
-			index = 1,
-			id = 47
+			id = 47,
+			index = 1
 		},
 		["wagon parts"] = {
-			index = 2,
-			id = 48
+			id = 48,
+			index = 2
 		},
 		moa = {
-			index = 3,
-			id = 55
+			id = 55,
+			index = 3
 		},
 		["moa equipment"] = {
-			index = 4,
-			id = 52
+			id = 52,
+			index = 4
 		}
 	},
 	["cosmetic materials"] = {
 		["outfit cosmetics"] = {
-			index = 1,
-			id = 53
+			id = 53,
+			index = 1
 		}
 	},
 	others = {
 		infusions = {
-			index = 1,
-			id = 49
+			id = 49,
+			index = 1
 		},
 		["creature products"] = {
-			index = 2,
-			id = 50
+			id = 50,
+			index = 2
 		},
 		["creature trophies"] = {
-			index = 3,
-			id = 56
+			id = 56,
+			index = 3
 		},
 		["housing rooms"] = {
-			index = 4,
-			id = 51
+			id = 51,
+			index = 4
 		}
 	}
 }

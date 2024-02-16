@@ -56,8 +56,8 @@ tasks = {
 				self.displayingCompassInteraction = false
 
 				GameInteractions:displayActionBox({
-					preferSide = "top",
 					text = "Press F to open the bounty board",
+					preferSide = "top",
 					bandit = true,
 					keys = {
 						"F"
@@ -235,9 +235,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
+					preferSide = "top",
 					text = "Select one of the available tasks and give your first step as a member of the Rangers Company!",
 					bandit = true,
-					preferSide = "top",
 					keys = {
 						MouseLeftButton
 					},

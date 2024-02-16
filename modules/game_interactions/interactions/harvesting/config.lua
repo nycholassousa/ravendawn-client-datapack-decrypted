@@ -165,9 +165,9 @@ tasks = {
 
 				if minigameWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						bandit = true,
 						preferSide = "top",
 						text = "If you want to speed up the process, press F whenever the moving bar gets inside the green area",
+						bandit = true,
 						keys = {
 							"F"
 						},

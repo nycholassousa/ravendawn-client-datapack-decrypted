@@ -48,9 +48,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("infusion")
 
 					GameInteractions:displayActionBox({
+						preferSide = "top",
 						text = "Press U or Left-Click to open your Infusion menu",
 						bandit = true,
-						preferSide = "top",
 						keys = {
 							"U",
 							MouseLeftButton

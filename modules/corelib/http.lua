@@ -32,8 +32,8 @@ function HTTP.getJSON(url, callback)
 	local operation = g_http.get(url, HTTP.timeout)
 
 	HTTP.operations[operation] = {
-		json = true,
 		type = "get",
+		json = true,
 		url = url,
 		callback = callback
 	}
@@ -73,8 +73,8 @@ function HTTP.postJSON(url, data, callback)
 	local operation = g_http.post(url, data, HTTP.timeout)
 
 	HTTP.operations[operation] = {
-		json = true,
 		type = "post",
+		json = true,
 		url = url,
 		callback = callback
 	}

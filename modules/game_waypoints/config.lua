@@ -4,32 +4,32 @@ distanceMultiplier = 0.025
 
 local levelMultiplier = {
 	{
-		level = 10,
-		multiplier = 0.5
+		multiplier = 0.5,
+		level = 10
 	},
 	{
-		level = 20,
-		multiplier = 1
+		multiplier = 1,
+		level = 20
 	},
 	{
-		level = 30,
-		multiplier = 1.5
+		multiplier = 1.5,
+		level = 30
 	},
 	{
-		level = 40,
-		multiplier = 2.7
+		multiplier = 2.7,
+		level = 40
 	},
 	{
-		level = 50,
-		multiplier = 4.5
+		multiplier = 4.5,
+		level = 50
 	},
 	{
-		level = 60,
-		multiplier = 9.6
+		multiplier = 9.6,
+		level = 60
 	},
 	{
-		level = 70,
-		multiplier = 16
+		multiplier = 16,
+		level = 70
 	},
 	{
 		multiplier = 37,

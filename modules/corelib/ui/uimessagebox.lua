@@ -24,8 +24,8 @@ function UIMessageBox.display(title, message, buttons, onEnterCallback, onEscape
 		messageBox.focusPanel = g_ui.createWidget("UIWidget", rootWidget)
 
 		messageBox.focusPanel:setSize({
-			height = 10000,
-			width = 10000
+			width = 10000,
+			height = 10000
 		})
 		messageBox.focusPanel:centerIn("parent")
 		messageBox.focusPanel:raise()

@@ -16,6 +16,42 @@ ArchetypeSpell < UIWidget
   @onClick: modules.game_spelltree.spellClicked(self)
   @onDoubleClick: modules.game_spelltree.spellDoubleClicked(self)
 
+ArchetypeLegacySpell < UIWidget
+  size: 61 61
+  image-color: #555555
+  opacity: 0.9
+
+  $hover !on:
+    opacity: 1.0
+    image-color: #ffffff
+  $pressed !on:
+    opacity: 0.9
+    image-color: #ffffff
+
+  $on:
+    image-color: #ffffff
+
+  @onClick: modules.game_spelltree.legacySpellClicked(self)
+  @onDoubleClick: modules.game_spelltree.legacySpellDoubleClicked(self)
+
+ArchetypeLegacySpellOverlay < UIWidget
+  size: 70 70
+  phantom: true
+
+  UIWidget
+    id: border
+    anchors.fill: parent
+    image-source: /images/ui/windows/spelltree/legacy_spell_border
+    phantom: true
+  
+  UIWidget
+    id: bottom_points
+    anchors.bottom: parent.bottom
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-bottom: -2
+    image-source: /images/ui/windows/spelltree/legacy_spell_bottom_points_0
+    phantom: true
+
 ArchetypePassive < ArchetypeSpell
   @onClick: modules.game_spelltree.passiveClicked(self)
   UIWidget

@@ -3,11 +3,11 @@
 TextureSharedCounter = {}
 Animation = {
 	const = {
+		FadeOut = 2,
 		FadeIn = 1,
 		ReasonFrame = 3,
 		ReasonDestroy = 2,
-		ReasonVisibility = 1,
-		FadeOut = 2
+		ReasonVisibility = 1
 	}
 }
 

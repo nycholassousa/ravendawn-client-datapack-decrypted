@@ -42,8 +42,8 @@ tasks = {
 
 					if not npcWindow:isVisible() then
 						GameInteractions:displayActionBox({
-							text = "Let's find the nearest Tradepost at once! Don't forget you can always check your compass for directions",
 							bandit = true,
+							text = "Let's find the nearest Tradepost at once! Don't forget you can always check your compass for directions",
 							keys = {
 								MouseLeftButton
 							},
@@ -100,8 +100,8 @@ tasks = {
 
 					if widget then
 						GameInteractions:displayActionBox({
-							text = "Now tell him you have a tradepack to sell",
 							bandit = true,
+							text = "Now tell him you have a tradepack to sell",
 							keys = {
 								MouseLeftButton
 							},
@@ -177,8 +177,8 @@ tasks = {
 				if sell_button and sell_button:isVisible() then
 					GameInteractions:displayActionBox({
 						preferSide = "top",
-						text = "Let's sell this tradepack before the merchant changes his mind!",
 						bandit = true,
+						text = "Let's sell this tradepack before the merchant changes his mind!",
 						keys = {
 							MouseLeftButton
 						},

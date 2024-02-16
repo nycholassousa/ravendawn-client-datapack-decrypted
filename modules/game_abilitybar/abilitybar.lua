@@ -36,12 +36,12 @@ local freeRecastAbilities = {
 }
 
 AbilityBar = {
+	mountKeysIndex = 7,
 	spellBatchTime = 500,
 	numSlots = 36,
 	numSlotsPerBar = 6,
 	mountSkillKey = "Ctrl+R",
 	weaponSkillKey = "R",
-	mountKeysIndex = 7,
 	spellCharges = {},
 	customGlobalCooldownAbilities = {},
 	bars = {},
@@ -239,8 +239,8 @@ AbilityBar = {
 			[1037] = "Sinister Sigil",
 			[1034] = "Emergencial Campfire",
 			[1033] = "Bear Trap",
-			[1015] = "Javelin Quiver",
-			[1009] = "Iron Blood Potion",
+			[2500] = "Dawns Apotheosis",
+			[2504] = "Celestial Barrage",
 			[1011] = "Coal Goblin Gadget",
 			[1013] = "Phosphorescent Shell",
 			[1003] = "Health Potion",
@@ -257,6 +257,8 @@ AbilityBar = {
 			[1029] = "Dawn Bomb",
 			[1030] = "Bloody Binding Stone",
 			[1066] = "Golden Fleece",
+			[1015] = "Javelin Quiver",
+			[1009] = "Iron Blood Potion",
 			[1055] = "Toadish Cloak",
 			[1051] = "Hypnotizing Stone",
 			[1047] = "Eldritch Crow Mask",
@@ -264,9 +266,14 @@ AbilityBar = {
 			[1039] = "Goblin Bombs",
 			[1035] = "Icedrop Solution",
 			[1031] = "Iron Handcuffs",
+			[2505] = "Chaos Chains",
+			[2507] = "Eye of the Storm",
+			[2503] = "Eternal Retribution",
 			[1065] = "Saint Alsek's Cloak",
 			[1063] = "Arrowcaller Horn",
 			[1059] = "Bracelet of Skorn",
+			[2502] = "Cataclysm",
+			[2506] = "Witch's Call",
 			[1004] = "Vial Of Poison",
 			[1007] = "Bag of Surprises",
 			[1000] = "Friendship Amulet",
@@ -286,6 +293,7 @@ AbilityBar = {
 			[1036] = "Mysticap Fetish",
 			[1032] = "Living Branches",
 			[1024] = "Goblin Contraption",
+			[2501] = "Reaper's Eclipse",
 			[1064] = "Withered Demon Hand",
 			[1062] = "Golden Maw",
 			[1058] = "Reflective Carapace"
@@ -1097,6 +1105,7 @@ function AbilityBar.onExtendedOpcode(protocol, opcode, buffer)
 			clientBar[i].category = data.category
 			clientBar[i].index = i
 			clientBar[i].abilityId = slot.abilityId
+			clientBar[i].abilityTier = slot.abilityTier
 			clientBar[i].name = slot.name
 			clientBar[i].card = slot.card
 			clientBar[i].clientId = slot.clientId
@@ -1153,6 +1162,7 @@ function AbilityBar.setupIcon(slot)
 
 	if slot.category == AbilityBarCategorySpell or slot.category == AbilityBarCategoryMount then
 		icon.abilityId = slot.clientId or slot.abilityId
+		icon.abilityTier = slot.abilityTier
 	else
 		icon.abilityId = slot.name:lower()
 	end
@@ -1235,7 +1245,7 @@ function AbilityBar.addAbility(category, abilityId, position)
 	})
 end
 
-function AbilityBar.addSpell(archetype, abilityId, position)
+function AbilityBar.addSpell(archetype, abilityId, position, isLegacy)
 	local index
 
 	if position then
@@ -1253,7 +1263,8 @@ function AbilityBar.addSpell(archetype, abilityId, position)
 		category = AbilityBarCategorySpell,
 		abilityId = abilityId,
 		archetype = archetype,
-		index = index
+		index = index,
+		isLegacy = isLegacy
 	})
 end
 
@@ -1458,7 +1469,7 @@ function AbilityBar.onSpellHighlight(spellId, mapIcon, highlight)
 
 	if spellId >= 1500 and spellId < 1600 then
 		state = AbilityBarCategoryWeaponSkill
-	elseif spellId >= 1600 then
+	elseif spellId >= 1600 and spellId < 2500 then
 		state = AbilityBarCategoryMount
 	end
 
@@ -1483,7 +1494,7 @@ function AbilityBar.onSpellCooldown(spellId, cooldown, castedSpellId, chargeId)
 
 	if spellId >= 1500 and spellId < 1600 then
 		state = AbilityBarCategoryWeaponSkill
-	elseif spellId >= 1600 and spellId <= 2500 then
+	elseif spellId >= 1600 and spellId < 2500 then
 		state = AbilityBarCategoryMount
 	end
 

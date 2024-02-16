@@ -1,11 +1,11 @@
 ﻿-- chunkname: @/modules/game_social/social.lua
 
 GameSocial = {
-	mailUnreadCount = -1,
 	partyRequestCount = -1,
 	friendsRequestCount = -1,
 	allowedLevelGap = 10,
 	maxPartyMembers = 6,
+	mailUnreadCount = -1,
 	ignoredPlayers = {}
 }
 STATUS_OFFLINE = 1
@@ -408,8 +408,8 @@ function GameSocial:updatePartyInvitationsPanel(data)
 
 			function widget.request_panel.accept_button.onClick()
 				GameSocial:sendPartyOpcode({
-					action = "execute_action",
 					subAction = "acceptInvitation",
+					action = "execute_action",
 					partyId = invitation.partyId
 				})
 				destroyRequestModalDialog(invitation)
@@ -417,8 +417,8 @@ function GameSocial:updatePartyInvitationsPanel(data)
 
 			function widget.request_panel.reject_button.onClick()
 				GameSocial:sendPartyOpcode({
-					action = "execute_action",
 					subAction = "declineInvitation",
+					action = "execute_action",
 					partyId = invitation.partyId
 				})
 				destroyRequestModalDialog(invitation)
@@ -526,8 +526,8 @@ function GameSocial:onPassPartyLeadershipButtonClicked(widget)
 			text = tr("Yes"),
 			callback = function()
 				GameSocial:sendPartyOpcode({
-					action = "execute_action",
 					subAction = "passLeadership",
+					action = "execute_action",
 					playerGuid = widget.data.guid
 				})
 				self.popupBox:destroy()
@@ -561,8 +561,8 @@ function GameSocial:onRemovePartyMemberButtonClicked(widget, isLeave)
 				text = tr("Yes"),
 				callback = function()
 					GameSocial:sendPartyOpcode({
-						action = "execute_action",
 						subAction = "kickPlayer",
+						action = "execute_action",
 						playerGuid = widget.data.guid
 					})
 					self.popupBox:destroy()

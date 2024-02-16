@@ -1,8 +1,8 @@
 ﻿-- chunkname: @/modules/game_waypoints/waypoints.lua
 
 GameWaypoints = {
-	maxDistanceFromShrine = 1,
-	lastTravelTime = 0
+	lastTravelTime = 0,
+	maxDistanceFromShrine = 1
 }
 
 function GameWaypoints:show()
@@ -186,10 +186,10 @@ function GameWaypoints:setupLocations()
 
 	local waypointArrow = g_ui.createWidget("WaypointArrow", self.map)
 	local arrowAnimation = Animation.create({
-		framesCount = 36,
 		pauseWhenHidden = true,
 		loop = -1,
 		duration = 1500,
+		framesCount = 36,
 		canvas = waypointArrow
 	})
 

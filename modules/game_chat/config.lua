@@ -2,79 +2,79 @@
 
 buttonList = {
 	{
-		tooltip = "General Chat",
 		splitter = true,
+		isTab = true,
 		name = "general",
-		isTab = true
+		tooltip = "General Chat"
 	},
 	{
 		name = "global",
 		selection = {
 			english = {
-				channelId = 8,
-				isTab = true,
-				name = "english",
-				hasSelection = true,
 				tooltip = "English Global Chat",
-				buffer = "global_en"
+				hasSelection = true,
+				name = "english",
+				isTab = true,
+				buffer = "global_en",
+				channelId = 8
 			},
 			portuguese = {
-				channelId = 9,
-				isTab = true,
-				name = "portuguese",
-				hasSelection = true,
 				tooltip = "Portuguese Global Chat",
-				buffer = "global_br"
+				hasSelection = true,
+				name = "portuguese",
+				isTab = true,
+				buffer = "global_br",
+				channelId = 9
 			},
 			polish = {
-				channelId = 10,
-				isTab = true,
-				name = "polish",
-				hasSelection = true,
 				tooltip = "Polish Global Chat",
-				buffer = "global_pl"
+				hasSelection = true,
+				name = "polish",
+				isTab = true,
+				buffer = "global_pl",
+				channelId = 10
 			},
 			spanish = {
-				channelId = 11,
-				isTab = true,
-				name = "spanish",
-				hasSelection = true,
 				tooltip = "Spanish Global Chat",
-				buffer = "global_spa"
+				hasSelection = true,
+				name = "spanish",
+				isTab = true,
+				buffer = "global_spa",
+				channelId = 11
 			}
 		}
 	},
 	{
-		tooltip = "Server Log",
-		isTab = true,
 		name = "server_log",
 		internal = true,
-		bufferSize = 50
+		bufferSize = 50,
+		isTab = true,
+		tooltip = "Server Log"
 	},
 	{
-		tooltip = "Action Log",
-		isTab = true,
 		name = "action_log",
 		internal = true,
-		bufferSize = 50
+		bufferSize = 50,
+		isTab = true,
+		tooltip = "Action Log"
 	},
 	{
-		channelId = 1,
-		isTab = true,
 		name = "party",
-		tooltip = "Party Chat"
+		tooltip = "Party Chat",
+		isTab = true,
+		channelId = 1
 	},
 	{
-		channelId = 2,
-		isTab = true,
 		name = "guild",
-		tooltip = "Guild Chat"
+		tooltip = "Guild Chat",
+		isTab = true,
+		channelId = 2
 	},
 	{
-		channelId = 12,
-		isTab = true,
 		name = "looking_for_group",
-		tooltip = "Looking for Group"
+		tooltip = "Looking for Group",
+		isTab = true,
+		channelId = 12
 	}
 }
 indexedButtonList = {}
@@ -103,16 +103,16 @@ end
 
 textModeSettings = {
 	[TextTypes.TextTypeConsoleBlue] = {
-		tab = "server_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "server_log"
 	},
 	[TextTypes.TextTypeConsoleRed] = {
-		tab = "server_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "server_log"
 	},
 	[TextTypes.TextTypeDefault] = {
-		tab = "server_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "server_log"
 	},
 	[TextTypes.TextTypeWarning] = {
 		tab = "server_log",
@@ -125,8 +125,8 @@ textModeSettings = {
 		type = NOTIFICATION_INFO
 	},
 	[TextTypes.TextTypeSmall] = {
-		tab = "server_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "server_log"
 	},
 	[TextTypes.TextTypeInfoDescription] = {
 		tab = "server_log",
@@ -134,56 +134,56 @@ textModeSettings = {
 		type = NOTIFICATION_WARNING
 	},
 	[TextTypes.TextTypeDamageDealt] = {
-		tab = "action_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "action_log"
 	},
 	[TextTypes.TextTypeDamageOthers] = {
-		tab = "action_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "action_log"
 	},
 	[TextTypes.TextTypeDamageReceived] = {
-		tab = "action_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "action_log"
 	},
 	[TextTypes.TextTypeHeal] = {
-		tab = "action_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "action_log"
 	},
 	[TextTypes.TextTypeHealOthers] = {
-		tab = "action_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "action_log"
 	},
 	[TextTypes.TextTypeExp] = {
-		tab = "action_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "action_log"
 	},
 	[TextTypes.TextTypeExpOthers] = {
-		tab = "action_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "action_log"
 	},
 	[TextTypes.TextTypeEventDefault] = {
-		tab = "action_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "action_log"
 	},
 	[TextTypes.TextTypeLoot] = {
-		tab = "server_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "server_log"
 	},
 	[TextTypes.TextTypeConsoleOrange] = {
-		tab = "server_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "server_log"
 	},
 	[TextTypes.TextTypeConsoleWhite] = {
-		tab = "server_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "server_log"
 	},
 	[TextTypes.TextTypeEventOrange] = {
-		tab = "server_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "server_log"
 	},
 	[TextTypes.TextTypeLook] = {
-		tab = "server_log",
-		color = "#FCBE7F"
+		color = "#FCBE7F",
+		tab = "server_log"
 	},
 	[TextTypes.TextTypeProgress] = {
 		tab = "server_log",
@@ -196,8 +196,8 @@ textModeSettings = {
 		type = NOTIFICATION_STAFF
 	},
 	[TextTypes.TextTypeSpeechBubble] = {
-		tab = "general",
-		color = "#CED2D9"
+		color = "#CED2D9",
+		tab = "general"
 	},
 	[TextTypes.TextTypeError] = {
 		tab = "server_log",
@@ -218,112 +218,112 @@ talkModeSettings = {
 	[TalkTypes.TalkTypeSay] = {
 		tab = "general",
 		color = {
-			send = "#FFFFFF",
-			receive = "#CED2D9"
+			receive = "#CED2D9",
+			send = "#FFFFFF"
 		}
 	},
 	[TalkTypes.TalkTypePrivateFrom] = {
 		ignoreSelf = true,
 		private = true,
 		color = {
-			send = "#A556FF",
-			receive = "#A556FF"
+			receive = "#A556FF",
+			send = "#A556FF"
 		}
 	},
 	[TalkTypes.TalkTypePrivateTo] = {
 		private = true,
 		color = {
-			send = "#D3ACFF",
-			receive = "#D3ACFF"
+			receive = "#D3ACFF",
+			send = "#D3ACFF"
 		}
 	},
 	[TalkTypes.TalkTypeChannelWhite] = {
 		tab = "global",
 		color = {
-			send = "#FFFFFF",
-			receive = "#CED2D9"
+			receive = "#CED2D9",
+			send = "#FFFFFF"
 		}
 	},
 	[TalkTypes.TalkTypeChannelYellow] = {
 		tab = "global",
 		color = {
-			send = "#FFFFFF",
-			receive = "#CED2D9"
+			receive = "#CED2D9",
+			send = "#FFFFFF"
 		}
 	},
 	[TalkTypes.TalkTypeChannelOrange] = {
 		tab = "global",
 		color = {
-			send = "#FFFFFF",
-			receive = "#CED2D9"
+			receive = "#CED2D9",
+			send = "#FFFFFF"
 		}
 	},
 	[TalkTypes.TalkTypeGamemasterBroadcast] = {
 		tab = "general",
 		color = {
-			send = "#FF5151",
-			receive = "#FF5151"
+			receive = "#FF5151",
+			send = "#FF5151"
 		}
 	},
 	[TalkTypes.TalkTypeGameMasterPrivateFrom] = {
 		ignoreSelf = true,
 		private = true,
 		color = {
-			send = "#FF5151",
-			receive = "#FF5151"
+			receive = "#FF5151",
+			send = "#FF5151"
 		}
 	},
 	[TalkTypes.TalkTypeGameMasterPrivateTo] = {
 		private = true,
 		color = {
-			send = "#A2CAFB",
-			receive = "#A2CAFB"
+			receive = "#A2CAFB",
+			send = "#A2CAFB"
 		}
 	},
 	[TalkTypes.TalkTypeChannelGold] = {
 		tab = "global",
 		color = {
-			send = "#FFFFFF",
-			receive = "#CED2D9"
+			receive = "#CED2D9",
+			send = "#FFFFFF"
 		}
 	},
 	[TalkTypes.TalkTypeChannelGreen] = {
 		tab = "global",
 		color = {
-			send = "#FFFFFF",
-			receive = "#CED2D9"
+			receive = "#CED2D9",
+			send = "#FFFFFF"
 		}
 	}
 }
 chatMessageTitlePrefix = {
-	private = "[Whisper]",
 	global_spa = "[Global-SPA]",
-	global_pl = "[Global-PL]",
-	global_br = "[Global-BR]",
 	global_en = "[Global-EN]",
-	general = "[Local]",
 	looking_for_group = "[LFG]",
 	guild = "[Guild]",
-	party = "[Party]"
+	party = "[Party]",
+	general = "[Local]",
+	global_pl = "[Global-PL]",
+	global_br = "[Global-BR]",
+	private = "[Whisper]"
 }
 messageHistorySize = 50
 messageBufferSize = 50
 npcTextColor = "#FEFEC6"
 partyTextColor = {
-	send = "#A2CAFB",
-	receive = "#5DA4FB"
+	receive = "#5DA4FB",
+	send = "#A2CAFB"
 }
 guildTextColor = {
-	send = "#ADD2A5",
-	receive = "#77D463"
+	receive = "#77D463",
+	send = "#ADD2A5"
 }
 premiumTextColor = {
-	send = "#F8D97F",
-	receive = "#F7B900"
+	receive = "#F7B900",
+	send = "#F8D97F"
 }
 LFGTextColor = {
-	send = "#FFFFFF",
-	receive = "#CED2D9"
+	receive = "#CED2D9",
+	send = "#FFFFFF"
 }
 LuaChannelId = 7
 PartyChannelId = 1

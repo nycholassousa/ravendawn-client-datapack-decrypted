@@ -56,8 +56,8 @@ tasks = {
 
 				if not houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						text = "To start managing your Farmland, click on that house button next to the minimap",
 						bandit = true,
+						text = "To start managing your Farmland, click on that house button next to the minimap",
 						keys = {
 							MouseLeftButton
 						},
@@ -108,8 +108,8 @@ tasks = {
 					GameInteractions:advanceInteraction(__env, __env.current_task, 1)
 				else
 					GameInteractions:displayDescriptionBox({
-						bandit = true,
 						preferSide = "top",
+						bandit = true,
 						pages = {
 							{
 								text = "Placing crops and animal pens is really easy!"
@@ -184,8 +184,8 @@ tasks = {
 					GameInteractions:advanceInteraction(__env, __env.current_task, 1)
 				else
 					GameInteractions:displayDescriptionBox({
-						bandit = true,
 						preferSide = "top",
+						bandit = true,
 						pages = {
 							{
 								text = "This icon on top of the frame is the amount of Effort required to place such item in the Community Land",
@@ -261,8 +261,8 @@ tasks = {
 
 				if not houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						text = "To start managing your Farmland, click on that house button next to the minimap",
 						bandit = true,
+						text = "To start managing your Farmland, click on that house button next to the minimap",
 						keys = {
 							MouseLeftButton
 						},
@@ -328,9 +328,9 @@ tasks = {
 				if houseWindow:isVisible() then
 					if parentWidget then
 						GameInteractions:displayActionBox({
-							bandit = true,
 							preferSide = "top",
 							text = "Now, since the farmer asked for potatoes, you should start by selecting them in the list",
+							bandit = true,
 							keys = {
 								MouseLeftButton
 							},
@@ -399,9 +399,9 @@ tasks = {
 
 				if houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						bandit = true,
 						preferSide = "right",
 						text = "Oh! I guess the munk ain't charging us a thing this time. Let's not waste the opportunity!",
+						bandit = true,
 						keys = {
 							MouseLeftButton
 						},

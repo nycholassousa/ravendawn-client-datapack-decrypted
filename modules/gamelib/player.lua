@@ -1,6 +1,14 @@
 ﻿-- chunkname: @/modules/gamelib/player.lua
 
 PlayerStates = {
+	None = 0,
+	Hungry = 65536,
+	Bleeding = 32768,
+	Pz = 16384,
+	PzBlock = 8192,
+	PartyBuff = 4096,
+	Cursed = 2048,
+	Dazzled = 1024,
 	Freezing = 512,
 	Drowning = 256,
 	Swords = 128,
@@ -10,15 +18,7 @@ PlayerStates = {
 	Drunk = 8,
 	Energy = 4,
 	Burn = 2,
-	Poison = 1,
-	None = 0,
-	Hungry = 65536,
-	Bleeding = 32768,
-	Pz = 16384,
-	PzBlock = 8192,
-	PartyBuff = 4096,
-	Cursed = 2048,
-	Dazzled = 1024
+	Poison = 1
 }
 InventorySlotOther = 0
 InventorySlotHead = 1
@@ -358,13 +358,13 @@ function Player:isInCommunityFarm()
 	local pos = self:getPosition()
 
 	return Position.isInArea(pos, {
-		x = 5163,
 		z = 7,
-		y = 5123
+		y = 5123,
+		x = 5163
 	}, {
-		x = 5180,
 		z = 7,
-		y = 5139
+		y = 5139,
+		x = 5180
 	})
 end
 

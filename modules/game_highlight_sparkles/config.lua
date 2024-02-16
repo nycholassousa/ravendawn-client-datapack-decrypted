@@ -526,16 +526,16 @@ actionIds = {
 		quest = "Green Sabbath"
 	},
 	[10562] = {
-		taskId = 26,
-		event = "Green Sabbath"
+		event = "Green Sabbath",
+		taskId = 26
 	},
 	[10563] = {
-		taskId = 26,
-		event = "Green Sabbath"
+		event = "Green Sabbath",
+		taskId = 26
 	},
 	[10694] = {
-		taskId = 26,
-		event = "Green Sabbath"
+		event = "Green Sabbath",
+		taskId = 26
 	},
 	[10602] = {
 		taskId = 5,

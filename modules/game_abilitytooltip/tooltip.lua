@@ -29,6 +29,11 @@ function g_abilityTooltip.move(first)
 
 	local tooltipSize = g_abilityTooltip.window:getSize()
 	local parentWidget = g_abilityTooltip.customParentWidget or g_abilityTooltip.currentWidget
+
+	if not parentWidget then
+		return
+	end
+
 	local pos = {
 		x = parentWidget:getX() + parentWidget:getWidth() / 2 - tooltipSize.width / 2,
 		y = parentWidget:getY() - tooltipSize.height
@@ -46,6 +51,20 @@ function g_abilityTooltip.move(first)
 	end
 
 	g_abilityTooltip.window:setPosition(pos)
+end
+
+function g_abilityTooltip.onResizeTooltip(widget)
+	if not widget then
+		return
+	end
+
+	widget:setHeight(widget.content:getHeight())
+
+	if not g_abilityTooltip.window or widget ~= g_abilityTooltip.window then
+		return
+	end
+
+	g_abilityTooltip.move(true)
 end
 
 function g_abilityTooltip.onHover(widget, hovered)
@@ -71,7 +90,7 @@ function g_abilityTooltip.onHover(widget, hovered)
 		if widget.ravenCardAbilityInfo then
 			g_abilityTooltip.displayCardAbility(widget.ravenCardAbilityInfo)
 		else
-			g_abilityTooltip.display(widget.abilityId, false, widget)
+			g_abilityTooltip.display(widget.abilityId, widget.abilityTier, false, widget)
 		end
 	end
 end
@@ -107,7 +126,7 @@ function g_abilityTooltip.terminate()
 	end
 end
 
-function g_abilityTooltip.display(abilityId, disappearOnMove, widget)
+function g_abilityTooltip.display(abilityId, abilityTier, disappearOnMove, widget)
 	local window = g_abilityTooltip.window
 
 	if not window then
@@ -143,21 +162,24 @@ function g_abilityTooltip.display(abilityId, disappearOnMove, widget)
 	content.bottomPanel:showAllChildren()
 
 	content.abilityId = abilityId
+	content.abilityTier = abilityTier
 
-	content.icon:show()
-	content.card:hide()
-	content.name:setText(spell.name)
-	content.icon:setImageSource(string.format("/images/ui/icons/abilitybar/%s", spell.name:lower()))
-	content.icon:setTextureRadius(100)
-	content.icon:setSize({
+	content.topPanel.icon:show()
+	content.topPanel.card:hide()
+	content.topPanel.name:setText(spell.name)
+	content.topPanel.icon:setImageSource(string.format("/images/ui/icons/abilitybar/%s", spell.name:lower()))
+	content.topPanel.icon:setTextureRadius(100)
+	content.topPanel.icon:setSize({
 		width = isCraftingAbility and 44 or 50,
 		height = isCraftingAbility and 44 or 50
 	})
-	content.icon:setImageOffset({
+	content.topPanel.icon:setImageOffset({
 		x = isCraftingAbility and 5 or 0,
 		y = isCraftingAbility and 5 or 0
 	})
-	content.castType:setText(g_spells:getType(spell.name:lower()))
+	content.topPanel.castType:setText(g_spells:getType(spell.name:lower()))
+	content.description_panel.tier_description_separator:setVisible(false)
+	content.description_panel.tier_description:setVisible(false)
 
 	if spell.points then
 		window.topPoints:show()
@@ -204,9 +226,9 @@ function g_abilityTooltip.display(abilityId, disappearOnMove, widget)
 	content.bottomPanel.constantsPanel.aether:setVisible(showResource)
 
 	if isCraftingAbility then
-		content.useType:setText("Crafting ability")
+		content.topPanel.useType:setText("Crafting ability")
 	elseif g_game.isInShip() then
-		content.useType:setText("Ship ability")
+		content.topPanel.useType:setText("Ship ability")
 	end
 
 	if isCraftingAbility or not spell.resource or spell.resource.none then
@@ -229,7 +251,7 @@ function g_abilityTooltip.display(abilityId, disappearOnMove, widget)
 		end
 	end
 
-	content.useType:setText(spell.crosshair and "Crosshair ability" or spell.needTarget and "Single target ability" or spell.selfTarget and not spell.needTarget and "Self target ability" or not spell.selfTarget and not spell.needTarget and "Self target ability")
+	content.topPanel.useType:setText(spell.crosshair and "Crosshair ability" or spell.needTarget and "Single target ability" or spell.selfTarget and not spell.needTarget and "Self target ability" or not spell.selfTarget and not spell.needTarget and "Self target ability")
 	content.bottomPanel:setHeight(40)
 
 	local constantsPanel = content.bottomPanel.constantsPanel
@@ -253,56 +275,45 @@ function g_abilityTooltip.display(abilityId, disappearOnMove, widget)
 		constantsPanel.horizontalSeparator2:show()
 	end
 
-	local function resize()
-		local height = 30
-		local children = {
-			"icon",
-			"description",
-			"descBackground",
-			"bottomPanel"
-		}
-
-		for _, child in ipairs(children) do
-			child = content:getChildById(child)
-
-			if child and child:getId() ~= "description" then
-				height = height + (child:isVisible() and child:getHeight() + math.abs(child:getMarginTop()) or 0)
-			end
-		end
-
-		window:show()
-		window:setHeight(height)
-		g_abilityTooltip.move(true)
-
-		g_abilityTooltip.disappearOnMove = disappearOnMove
-	end
-
-	local function shiftCheck(abilityId)
+	local function shiftCheck(abilityId, abilityTier)
 		if lastShiftState ~= g_keyboard.isShiftPressed() and content:isVisible() and abilityId == content.abilityId then
 			lastShiftState = g_keyboard.isShiftPressed()
 
-			local description = g_spells:getSpellDescription(abilityId)
+			local description = g_spells:getSpellDescription(abilityId, abilityTier)
 
-			if description and content.description:getText() ~= description then
-				content.description:setColoredText(GetHighlightedText(description, "#cac2b0"))
-				addEvent(resize)
+			if description and content.description_panel.description:getText() ~= description then
+				content.description_panel.description:setColoredText(GetHighlightedText(description, "#cac2b0"))
 			end
 		end
 
 		shiftCheckEvent = scheduleEvent(function()
-			shiftCheck(abilityId)
+			shiftCheck(abilityId, abilityTier)
 		end, 100)
 	end
 
 	lastShiftState = g_keyboard.isShiftPressed()
 
-	local description = g_spells:getSpellDescription(abilityId)
+	local description = g_spells:getSpellDescription(abilityId, abilityTier)
 
 	if description then
-		content.description:setColoredText(GetHighlightedText(description, "#cac2b0"))
-		addEvent(resize)
-		shiftCheck(abilityId)
+		content.description_panel.description:setColoredText(GetHighlightedText(description, "#cac2b0"))
+
+		if widget.abilityTooltipTierDetails then
+			local tierDescription = g_spells:getSpellTierDescription(abilityId, abilityTier)
+
+			if tierDescription then
+				content.description_panel.tier_description_separator:setVisible(true)
+				content.description_panel.tier_description:setVisible(true)
+				content.description_panel.tier_description:setColoredText(GetHighlightedText(tierDescription, "#cac2b0"))
+			end
+		end
+
 		g_layout.onOpenWindow(window, 200, true)
+		g_abilityTooltip.move(true)
+
+		g_abilityTooltip.disappearOnMove = disappearOnMove
+
+		shiftCheck(abilityId, abilityTier)
 	end
 end
 
@@ -320,18 +331,19 @@ function g_abilityTooltip.displayCardAbility(info, disappearOnMove)
 		return
 	end
 
-	content.name:setText(info.name:titleCase())
-	content.name:setTextColor(CardRarityToColor[info.rarity])
-	content.icon:hide()
-	content.card:show()
+	content.topPanel.name:setText(info.name:titleCase())
+	content.topPanel.name:setTextColor(CardRarityToColor[info.rarity])
+	content.topPanel.icon:hide()
+	content.topPanel.card:show()
 	window.topPoints:hide()
-	content.card:setData({
+	content.description_panel.tier_description_separator:setVisible(false)
+	content.description_panel.tier_description:setVisible(false)
+	content.topPanel.card:setData({
 		name = info.name,
 		rarity = info.rarity
 	})
-	content.useType:setText("RavenCard")
-	content.castType:setText(CardRarityToName[info.rarity])
-	content.descBackground:setMarginBottom(-20)
+	content.topPanel.useType:setText("RavenCard")
+	content.topPanel.castType:setText(CardRarityToName[info.rarity])
 	content.bottomPanel:hideAllChildren()
 	content.bottomPanel:setHeight(5)
 
@@ -351,40 +363,19 @@ function g_abilityTooltip.displayCardAbility(info, disappearOnMove)
 		end
 	end
 
-	local function resize()
-		local height = 30
-		local children = {
-			"icon",
-			"description",
-			"descBackground",
-			"bottomPanel"
-		}
+	lastShiftState = g_keyboard.isShiftPressed()
 
-		for _, child in ipairs(children) do
-			child = content:getChildById(child)
+	local description = info.description
 
-			if child and child:getId() ~= "description" then
-				height = height + (child:getHeight() + math.abs(child:getMarginTop()))
-			end
-		end
-
-		window:setHeight(height)
+	if description then
+		content.description_panel.description:setColoredText(GetHighlightedText(description, "#cac2b0"))
+		g_layout.onOpenWindow(window, 200, true)
 
 		g_abilityTooltip.customParentWidget = info.parentWidget
 
 		g_abilityTooltip.move(true)
 
 		g_abilityTooltip.disappearOnMove = disappearOnMove
-	end
-
-	lastShiftState = g_keyboard.isShiftPressed()
-
-	local description = info.description
-
-	if description then
-		content.description:setColoredText(GetHighlightedText(description, "#cac2b0"))
-		addEvent(resize)
-		g_layout.onOpenWindow(window, 200, true)
 	end
 end
 

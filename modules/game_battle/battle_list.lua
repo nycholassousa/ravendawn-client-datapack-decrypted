@@ -1,20 +1,20 @@
 ﻿-- chunkname: @/modules/game_battle/battle_list.lua
 
 BattleList = {
-	isHoveringTheBattleList = false,
+	sortingType = 1,
 	monsterFilter = 0,
 	playerFilter = 0,
 	sortingOrder = 1,
-	sortingType = 1,
 	updateInterval = 500,
+	isHoveringTheBattleList = false,
 	DEBUG_MODE = false,
 	creatures = {},
 	widgetsByCreatureId = {},
 	activeFilters = {},
 	states = {
+		healing = 2,
 		attacking = 1,
-		none = 0,
-		healing = 2
+		none = 0
 	},
 	filtersCategories = {
 		"Players",
@@ -73,27 +73,27 @@ BattleList = {
 		}
 	},
 	SORTING_TYPE = {
-		NAME = 3,
 		LEVEL = 2,
 		HEALTH = 1,
-		DISTANCE = 4
+		DISTANCE = 4,
+		NAME = 3
 	},
 	SORTING_ORDER = {
-		DESCENDING = 2,
-		ASCENDING = 1
+		ASCENDING = 1,
+		DESCENDING = 2
 	},
 	FILTERS = {
 		PLAYERS = {
-			PARTY_MEMBERS = 2,
-			GUILD_MEMBERS = 1,
-			OTHER_PLAYERS = 32,
 			PLAYER_WITH_PK = 16,
 			PLAYER_WITH_WAGON = 8,
-			PLAYER_WITH_TRADEPACK = 4
+			PLAYER_WITH_TRADEPACK = 4,
+			PARTY_MEMBERS = 2,
+			GUILD_MEMBERS = 1,
+			OTHER_PLAYERS = 32
 		},
 		MONSTERS = {
-			BOSSES = 2,
-			NON_BOSSES = 4
+			NON_BOSSES = 4,
+			BOSSES = 2
 		}
 	}
 }

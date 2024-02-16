@@ -45,6 +45,7 @@ function GameSpellTree:init()
 	self.archetypesPanel = self.window:recursiveGetChildById("archetypesPanel")
 	self.resetArchetypes = self.window:recursiveGetChildById("resetArchetypes")
 	self.skillPointsLabel = self.contentPanel:getChildById("pointsPanel"):getChildById("skillPointsLabel")
+	self.legacySkillPointsLabel = self.contentPanel:getChildById("pointsPanel"):getChildById("legacySkillPointsLabel")
 	self.effectiveLevel = self.contentPanel:recursiveGetChildById("effectiveLevel")
 	self.infoIcon = self.contentPanel:recursiveGetChildById("infoIcon")
 	self.cardSelectionWindow = g_ui.createWidget("CardSelectionWindow", self.window)
@@ -286,7 +287,7 @@ function GameSpellTree.onExtendedOpcode(protocol, opcode, buffer)
 	end
 
 	if data.action == "fetch_skills" then
-		GameSpellTree:enableDisableArchetypeSpells(data.archetype, data.skills)
+		GameSpellTree:enableDisableArchetypeSpells(data.archetype, data.skills, data.legacySkills)
 		GameSpellTree:updateArchetypeIcon(data.archetype, data.level, data.percentage)
 		GameSpellTree:updateResetAbilitiesEnabled()
 		GameSpellTree:refreshPassivesHighlight(data.archetype)
@@ -304,6 +305,10 @@ function GameSpellTree.onExtendedOpcode(protocol, opcode, buffer)
 
 	if data.skillPoints then
 		GameSpellTree:setSkillPoints(data.skillPoints)
+	end
+
+	if data.legacySkillPoints then
+		GameSpellTree:setLegacySkillPoints(data.legacySkillPoints)
 	end
 end
 
@@ -486,7 +491,12 @@ function GameSpellTree:updateArchetypeIcon(archetype, level, percent)
 
 	local logo = slotContent:getChildById("header"):getChildById("archetypeIcon")
 
-	logo:setTooltip(string.format("%s\nLevel: %i (%i%%)", ArchetypeNames[archetype], level, percent))
+	if level >= SOFT_CAP_LEVEL then
+		logo:setTooltip(string.format("%s\nLevel: %i (Max)", ArchetypeNames[archetype], level))
+	else
+		logo:setTooltip(string.format("%s\nLevel: %i (%i%%)", ArchetypeNames[archetype], level, percent))
+	end
+
 	slotContent:getChildById("header"):recursiveGetChildById("archetypeLevel"):setText(level)
 	slotContent:getChildById("header"):getChildById("archetypeName"):setText(ArchetypeNames[archetype])
 
@@ -555,7 +565,7 @@ function GameSpellTree:updateInactiveArchetypesIcon(archetypes)
 	end
 end
 
-function GameSpellTree:enableDisableArchetypeSpells(archetype, spells)
+function GameSpellTree:enableDisableArchetypeSpells(archetype, spells, legacySpells)
 	self:toggleCards(false)
 
 	local tree = self:getSpellTreeWidgetByArchetype(archetype)
@@ -572,6 +582,12 @@ function GameSpellTree:enableDisableArchetypeSpells(archetype, spells)
 
 	for _, spell in ipairs(spells) do
 		self:configureSpell(tree, spell)
+	end
+
+	if legacySpells then
+		for _, spell in ipairs(legacySpells) do
+			self:configureLegacySpell(tree, spell, archetype)
+		end
 	end
 
 	signalcall(self.onArchetypeSpellsChange, archetype, spells)
@@ -718,6 +734,10 @@ function GameSpellTree:setSkillPoints(skillPoints, effectiveLevel)
 
 	self.skillPointsLabel:setText(skillPoints or self.skillPointsLabel.skillPoints or 0)
 	self.effectiveLevel:setText(effectiveLevel or g_game.getLocalPlayer():getEffectiveLevel())
+end
+
+function GameSpellTree:setLegacySkillPoints(legacySkillPoints)
+	self.legacySkillPointsLabel:setText(legacySkillPoints or 0)
 end
 
 function GameSpellTree:setPlayerClass(className)
@@ -928,6 +948,36 @@ function GameSpellTree:configureSpell(tree, spell)
 			self:configureCard(spell, widget)
 		end
 	end)
+end
+
+function GameSpellTree:configureLegacySpell(tree, spell, archetype)
+	local widget = tree:recursiveGetChildById("legacySpell" .. spell.index)
+
+	widget.archetypeId = archetype
+
+	widget:setEnabled(true)
+	widget:setOn(spell.enabled)
+
+	widget.spellInfo = spell
+
+	widget:setImageSource(assetPathAbilityIcon .. spell.name:lower())
+
+	local overlayWidget = tree:recursiveGetChildById("legacySpellOverlay" .. spell.index)
+
+	if not spell.enabled then
+		overlayWidget.bottom_points:setImageSource("/images/ui/windows/spelltree/legacy_spell_bottom_points_0")
+	else
+		overlayWidget.bottom_points:setImageSource("/images/ui/windows/spelltree/legacy_spell_bottom_points_" .. (spell.tier or 0))
+	end
+
+	local ability = g_spells:getSpell(spell.name:lower())
+
+	if ability then
+		widget.abilityTooltip = true
+		widget.abilityTooltipTierDetails = true
+		widget.abilityId = ability.id
+		widget.abilityTier = spell.tier
+	end
 end
 
 function GameSpellTree:configureCard(spell, widget)
