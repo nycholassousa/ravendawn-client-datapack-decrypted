@@ -30,7 +30,7 @@ Pra ser sincero, olhei pouco ainda sobre isso, mas pelo que olhei, é possível:
 - Abrir o market em qualquer local do mapa (adicionando ele ao menu embaixo, inclusive)
 - Burlar o minigame de colheita (minério, madeira, fazenda) para dar sucesso, independente da posição do marcador (aperte F em qualquer momento que é sucesso)
 - Adicionar o cavebot do otcv8 (esse aqui requer muito trabalho)
-- Adicionar um termino ao client para "debug" no lua (usando o print do lua)
+- Adicionar um terminal ao client para "debug" no lua (usando o print do lua)
 - Verificar status do client (uso de ram, cpu, rede, etc)
 
 Existem outras coisas que ainda não olhei/tentei, mas creio eu que seja possível:
