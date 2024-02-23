@@ -1,17 +1,17 @@
 ﻿-- chunkname: @/modules/client_locale/locales/pt-BR/ui_character.lua
 
 translation = {
-	Customization = "Customiza\xE7\xE3o",
 	Reset = "Redistribuir",
-	Stats = "Status",
-	None = "Nenhum",
-	Equipment = "Equipamento",
-	Attributes = "Atributos",
-	Wisdom = "Sabedoria",
-	Save = "Salvar",
 	Dexterity = "Destreza",
-	["You have %i point%s available"] = "Voc\xEA tem %i pontos dispon\xEDveis.",
+	None = "Nenhum",
 	Intelligence = "Intelig\xEAncia",
+	Attributes = "Atributos",
 	Might = "For\xE7a",
-	Vitality = "Vitalidade"
+	Save = "Salvar",
+	Vitality = "Vitalidade",
+	["You have %i point%s available"] = "Voc\xEA tem %i pontos dispon\xEDveis.",
+	Customization = "Customiza\xE7\xE3o",
+	Stats = "Status",
+	Equipment = "Equipamento",
+	Wisdom = "Sabedoria"
 }

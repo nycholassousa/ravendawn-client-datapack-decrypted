@@ -330,13 +330,13 @@ experienceDebt = {
 	}
 }
 messages = {
-	killer = "Because you've murdered a innocent your infamy has been increased by %d points.",
-	damage = "- You deal %d%% less damage to players.",
-	default = "You've killed %s!",
-	block = "- You can no longer attack an innocent player your level or lower.\n- You can still attack someone who attacks you however.",
-	murder = "Because you've killed a murder your infamy has been decreased by %d points.",
+	helper = "Because you've helped on a murder of a innocent your infamy has been increased by %d points.",
 	experience = "- Increase the Experience debt on death by %d%%.",
-	helper = "Because you've helped on a murder of a innocent your infamy has been increased by %d points."
+	killer = "Because you've murdered a innocent your infamy has been increased by %d points.",
+	default = "You've killed %s!",
+	damage = "- You deal %d%% less damage to players.",
+	murder = "Because you've killed a murder your infamy has been decreased by %d points.",
+	block = "- You can no longer attack an innocent player your level or lower.\n- You can still attack someone who attacks you however."
 }
 highlights = {
 	[2280] = {
@@ -345,8 +345,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5097,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -356,8 +356,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5097,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -367,8 +367,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5128,
-				x = 5134,
-				size = 7
+				size = 7,
+				x = 5134
 			}
 		}
 	},
@@ -378,8 +378,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5128,
-				x = 5134,
-				size = 7
+				size = 7,
+				x = 5134
 			}
 		}
 	},
@@ -389,8 +389,8 @@ highlights = {
 			{
 				z = 7,
 				y = 4365,
-				x = 4611,
-				size = 7
+				size = 7,
+				x = 4611
 			}
 		}
 	},
@@ -400,8 +400,8 @@ highlights = {
 			{
 				z = 7,
 				y = 4365,
-				x = 4611,
-				size = 7
+				size = 7,
+				x = 4611
 			}
 		}
 	},
@@ -411,8 +411,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4943,
-				x = 6017,
-				size = 7
+				size = 7,
+				x = 6017
 			}
 		}
 	},
@@ -422,8 +422,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4943,
-				x = 6017,
-				size = 7
+				size = 7,
+				x = 6017
 			}
 		}
 	},
@@ -433,8 +433,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5132,
-				x = 3958,
-				size = 7
+				size = 7,
+				x = 3958
 			}
 		}
 	},
@@ -444,8 +444,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5132,
-				x = 3958,
-				size = 7
+				size = 7,
+				x = 3958
 			}
 		}
 	},
@@ -455,8 +455,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5128,
-				x = 5134,
-				size = 7
+				size = 7,
+				x = 5134
 			}
 		}
 	},
@@ -466,8 +466,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5128,
-				x = 5134,
-				size = 7
+				size = 7,
+				x = 5134
 			}
 		}
 	},
@@ -477,8 +477,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5128,
-				x = 5134,
-				size = 7
+				size = 7,
+				x = 5134
 			}
 		}
 	},
@@ -488,8 +488,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5128,
-				x = 5134,
-				size = 7
+				size = 7,
+				x = 5134
 			}
 		}
 	},
@@ -499,8 +499,8 @@ highlights = {
 			{
 				z = 7,
 				y = 4365,
-				x = 4611,
-				size = 7
+				size = 7,
+				x = 4611
 			}
 		}
 	},
@@ -510,8 +510,8 @@ highlights = {
 			{
 				z = 7,
 				y = 4365,
-				x = 4611,
-				size = 7
+				size = 7,
+				x = 4611
 			}
 		}
 	},
@@ -521,8 +521,8 @@ highlights = {
 			{
 				z = 7,
 				y = 4365,
-				x = 4611,
-				size = 7
+				size = 7,
+				x = 4611
 			}
 		}
 	},
@@ -532,8 +532,8 @@ highlights = {
 			{
 				z = 7,
 				y = 4365,
-				x = 4611,
-				size = 7
+				size = 7,
+				x = 4611
 			}
 		}
 	},
@@ -543,8 +543,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4943,
-				x = 6017,
-				size = 7
+				size = 7,
+				x = 6017
 			}
 		}
 	},
@@ -554,8 +554,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4943,
-				x = 6017,
-				size = 7
+				size = 7,
+				x = 6017
 			}
 		}
 	},
@@ -565,8 +565,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5097,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -576,8 +576,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5097,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -587,8 +587,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5119,
-				x = 5069,
-				size = 7
+				size = 7,
+				x = 5069
 			}
 		}
 	},
@@ -598,8 +598,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5119,
-				x = 5069,
-				size = 7
+				size = 7,
+				x = 5069
 			}
 		}
 	},
@@ -609,8 +609,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5173,
-				x = 5163,
-				size = 7
+				size = 7,
+				x = 5163
 			}
 		}
 	},
@@ -620,8 +620,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5173,
-				x = 5163,
-				size = 7
+				size = 7,
+				x = 5163
 			}
 		}
 	},
@@ -631,8 +631,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4453,
-				x = 5371,
-				size = 7
+				size = 7,
+				x = 5371
 			}
 		}
 	},
@@ -642,8 +642,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4453,
-				x = 5371,
-				size = 7
+				size = 7,
+				x = 5371
 			}
 		}
 	},
@@ -653,8 +653,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4453,
-				x = 5371,
-				size = 7
+				size = 7,
+				x = 5371
 			}
 		}
 	},
@@ -664,8 +664,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4453,
-				x = 5371,
-				size = 7
+				size = 7,
+				x = 5371
 			}
 		}
 	},
@@ -675,8 +675,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5112,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -686,8 +686,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5112,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -697,8 +697,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5112,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -708,8 +708,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5112,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -719,8 +719,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5854,
-				x = 4329,
-				size = 7
+				size = 7,
+				x = 4329
 			}
 		}
 	},
@@ -730,8 +730,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5854,
-				x = 4329,
-				size = 7
+				size = 7,
+				x = 4329
 			}
 		}
 	},
@@ -741,8 +741,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4453,
-				x = 5371,
-				size = 7
+				size = 7,
+				x = 5371
 			}
 		}
 	},
@@ -752,8 +752,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4453,
-				x = 5371,
-				size = 7
+				size = 7,
+				x = 5371
 			}
 		}
 	},
@@ -763,8 +763,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4453,
-				x = 5371,
-				size = 7
+				size = 7,
+				x = 5371
 			}
 		}
 	},
@@ -774,8 +774,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4453,
-				x = 5371,
-				size = 7
+				size = 7,
+				x = 5371
 			}
 		}
 	},
@@ -785,8 +785,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5075,
-				x = 5140,
-				size = 7
+				size = 7,
+				x = 5140
 			}
 		}
 	},
@@ -796,8 +796,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5075,
-				x = 5140,
-				size = 7
+				size = 7,
+				x = 5140
 			}
 		}
 	},
@@ -807,8 +807,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5180,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -818,8 +818,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5180,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -829,8 +829,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4259,
-				x = 4173,
-				size = 7
+				size = 7,
+				x = 4173
 			}
 		}
 	},
@@ -840,8 +840,8 @@ highlights = {
 			{
 				z = 9,
 				y = 4259,
-				x = 4173,
-				size = 7
+				size = 7,
+				x = 4173
 			}
 		}
 	},
@@ -851,8 +851,8 @@ highlights = {
 			{
 				z = 14,
 				y = 4526,
-				x = 5411,
-				size = 7
+				size = 7,
+				x = 5411
 			}
 		}
 	},
@@ -862,8 +862,8 @@ highlights = {
 			{
 				z = 14,
 				y = 4526,
-				x = 5411,
-				size = 7
+				size = 7,
+				x = 5411
 			}
 		}
 	},
@@ -873,8 +873,8 @@ highlights = {
 			{
 				z = 11,
 				y = 4463,
-				x = 5368,
-				size = 7
+				size = 7,
+				x = 5368
 			}
 		}
 	},
@@ -884,8 +884,8 @@ highlights = {
 			{
 				z = 11,
 				y = 4463,
-				x = 5368,
-				size = 7
+				size = 7,
+				x = 5368
 			}
 		}
 	},
@@ -895,8 +895,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5154,
-				x = 5163,
-				size = 7
+				size = 7,
+				x = 5163
 			}
 		}
 	},
@@ -906,8 +906,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5154,
-				x = 5163,
-				size = 7
+				size = 7,
+				x = 5163
 			}
 		}
 	},
@@ -917,8 +917,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5180,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -928,8 +928,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5180,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -939,8 +939,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5112,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -950,8 +950,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5112,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -961,8 +961,8 @@ highlights = {
 			{
 				z = 11,
 				y = 4482,
-				x = 5404,
-				size = 7
+				size = 7,
+				x = 5404
 			}
 		}
 	},
@@ -972,8 +972,8 @@ highlights = {
 			{
 				z = 11,
 				y = 4482,
-				x = 5404,
-				size = 7
+				size = 7,
+				x = 5404
 			}
 		}
 	},
@@ -983,8 +983,8 @@ highlights = {
 			{
 				z = 10,
 				y = 4493,
-				x = 5427,
-				size = 7
+				size = 7,
+				x = 5427
 			}
 		}
 	},
@@ -994,8 +994,8 @@ highlights = {
 			{
 				z = 10,
 				y = 4493,
-				x = 5427,
-				size = 7
+				size = 7,
+				x = 5427
 			}
 		}
 	},
@@ -1005,8 +1005,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5127,
-				x = 5104,
-				size = 7
+				size = 7,
+				x = 5104
 			}
 		}
 	},
@@ -1016,8 +1016,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5127,
-				x = 5104,
-				size = 7
+				size = 7,
+				x = 5104
 			}
 		}
 	},
@@ -1027,8 +1027,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5125,
-				x = 5135,
-				size = 7
+				size = 7,
+				x = 5135
 			}
 		}
 	},
@@ -1038,8 +1038,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5125,
-				x = 5135,
-				size = 7
+				size = 7,
+				x = 5135
 			}
 		}
 	},
@@ -1049,8 +1049,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5127,
-				x = 5104,
-				size = 7
+				size = 7,
+				x = 5104
 			}
 		}
 	},
@@ -1060,8 +1060,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5127,
-				x = 5104,
-				size = 7
+				size = 7,
+				x = 5104
 			}
 		}
 	},
@@ -1071,8 +1071,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5173,
-				x = 5163,
-				size = 7
+				size = 7,
+				x = 5163
 			}
 		}
 	},
@@ -1082,8 +1082,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5173,
-				x = 5163,
-				size = 7
+				size = 7,
+				x = 5163
 			}
 		}
 	},
@@ -1093,8 +1093,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5191,
-				x = 5079,
-				size = 7
+				size = 7,
+				x = 5079
 			}
 		}
 	},
@@ -1104,8 +1104,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5191,
-				x = 5079,
-				size = 7
+				size = 7,
+				x = 5079
 			}
 		}
 	},
@@ -1115,8 +1115,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5129,
-				x = 5107,
-				size = 7
+				size = 7,
+				x = 5107
 			}
 		}
 	},
@@ -1126,8 +1126,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5129,
-				x = 5107,
-				size = 7
+				size = 7,
+				x = 5107
 			}
 		}
 	},
@@ -1137,8 +1137,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5129,
-				x = 5107,
-				size = 7
+				size = 7,
+				x = 5107
 			}
 		}
 	},
@@ -1148,8 +1148,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5129,
-				x = 5107,
-				size = 7
+				size = 7,
+				x = 5107
 			}
 		}
 	},
@@ -1159,8 +1159,8 @@ highlights = {
 			{
 				z = 11,
 				y = 4482,
-				x = 5404,
-				size = 7
+				size = 7,
+				x = 5404
 			}
 		}
 	},
@@ -1170,8 +1170,8 @@ highlights = {
 			{
 				z = 11,
 				y = 4482,
-				x = 5404,
-				size = 7
+				size = 7,
+				x = 5404
 			}
 		}
 	},
@@ -1181,8 +1181,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5191,
-				x = 5079,
-				size = 7
+				size = 7,
+				x = 5079
 			}
 		}
 	},
@@ -1192,8 +1192,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5191,
-				x = 5079,
-				size = 7
+				size = 7,
+				x = 5079
 			}
 		}
 	},
@@ -1203,8 +1203,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4538,
-				x = 6174,
-				size = 7
+				size = 7,
+				x = 6174
 			}
 		}
 	},
@@ -1214,8 +1214,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4538,
-				x = 6174,
-				size = 7
+				size = 7,
+				x = 6174
 			}
 		}
 	},
@@ -1225,8 +1225,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5860,
-				x = 4330,
-				size = 7
+				size = 7,
+				x = 4330
 			}
 		}
 	},
@@ -1236,8 +1236,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5860,
-				x = 4330,
-				size = 7
+				size = 7,
+				x = 4330
 			}
 		}
 	},
@@ -1247,8 +1247,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5223,
-				x = 5840,
-				size = 7
+				size = 7,
+				x = 5840
 			}
 		}
 	},
@@ -1258,8 +1258,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5223,
-				x = 5840,
-				size = 7
+				size = 7,
+				x = 5840
 			}
 		}
 	},
@@ -1269,8 +1269,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5235,
-				x = 5662,
-				size = 7
+				size = 7,
+				x = 5662
 			}
 		}
 	},
@@ -1280,8 +1280,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5235,
-				x = 5662,
-				size = 7
+				size = 7,
+				x = 5662
 			}
 		}
 	},
@@ -1291,8 +1291,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5036,
-				x = 5139,
-				size = 7
+				size = 7,
+				x = 5139
 			}
 		}
 	},
@@ -1302,8 +1302,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5036,
-				x = 5139,
-				size = 7
+				size = 7,
+				x = 5139
 			}
 		}
 	},
@@ -1313,8 +1313,8 @@ highlights = {
 			{
 				z = 5,
 				y = 4836,
-				x = 5498,
-				size = 7
+				size = 7,
+				x = 5498
 			}
 		}
 	},
@@ -1324,8 +1324,8 @@ highlights = {
 			{
 				z = 5,
 				y = 4836,
-				x = 5498,
-				size = 7
+				size = 7,
+				x = 5498
 			}
 		}
 	},
@@ -1335,8 +1335,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1346,8 +1346,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1357,8 +1357,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5064,
-				x = 5164,
-				size = 7
+				size = 7,
+				x = 5164
 			}
 		}
 	},
@@ -1368,8 +1368,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5064,
-				x = 5164,
-				size = 7
+				size = 7,
+				x = 5164
 			}
 		}
 	},
@@ -1379,8 +1379,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5712,
-				x = 5563,
-				size = 7
+				size = 7,
+				x = 5563
 			}
 		}
 	},
@@ -1390,8 +1390,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5712,
-				x = 5563,
-				size = 7
+				size = 7,
+				x = 5563
 			}
 		}
 	},
@@ -1401,8 +1401,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1412,8 +1412,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1423,8 +1423,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5329,
-				x = 4675,
-				size = 7
+				size = 7,
+				x = 4675
 			}
 		}
 	},
@@ -1434,8 +1434,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5329,
-				x = 4675,
-				size = 7
+				size = 7,
+				x = 4675
 			}
 		}
 	},
@@ -1445,8 +1445,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5119,
-				x = 5069,
-				size = 7
+				size = 7,
+				x = 5069
 			}
 		}
 	},
@@ -1456,8 +1456,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5119,
-				x = 5069,
-				size = 7
+				size = 7,
+				x = 5069
 			}
 		}
 	},
@@ -1467,8 +1467,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5129,
-				x = 5107,
-				size = 7
+				size = 7,
+				x = 5107
 			}
 		}
 	},
@@ -1478,8 +1478,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5129,
-				x = 5107,
-				size = 7
+				size = 7,
+				x = 5107
 			}
 		}
 	},
@@ -1489,8 +1489,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5097,
-				x = 5100,
-				size = 7
+				size = 7,
+				x = 5100
 			}
 		}
 	},
@@ -1500,8 +1500,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5097,
-				x = 5100,
-				size = 7
+				size = 7,
+				x = 5100
 			}
 		}
 	},
@@ -1511,8 +1511,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1522,8 +1522,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1533,8 +1533,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5712,
-				x = 5563,
-				size = 7
+				size = 7,
+				x = 5563
 			}
 		}
 	},
@@ -1544,8 +1544,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5712,
-				x = 5563,
-				size = 7
+				size = 7,
+				x = 5563
 			}
 		}
 	},
@@ -1555,8 +1555,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5096,
-				x = 5155,
-				size = 7
+				size = 7,
+				x = 5155
 			}
 		}
 	},
@@ -1566,8 +1566,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5096,
-				x = 5155,
-				size = 7
+				size = 7,
+				x = 5155
 			}
 		}
 	},
@@ -1577,8 +1577,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5142,
-				x = 3967,
-				size = 7
+				size = 7,
+				x = 3967
 			}
 		}
 	},
@@ -1588,8 +1588,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5142,
-				x = 3967,
-				size = 7
+				size = 7,
+				x = 3967
 			}
 		}
 	},
@@ -1599,8 +1599,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1610,8 +1610,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1621,8 +1621,8 @@ highlights = {
 			{
 				z = 11,
 				y = 4482,
-				x = 5404,
-				size = 7
+				size = 7,
+				x = 5404
 			}
 		}
 	},
@@ -1632,8 +1632,8 @@ highlights = {
 			{
 				z = 11,
 				y = 4482,
-				x = 5404,
-				size = 7
+				size = 7,
+				x = 5404
 			}
 		}
 	},
@@ -1643,8 +1643,8 @@ highlights = {
 			{
 				z = 5,
 				y = 4836,
-				x = 5498,
-				size = 7
+				size = 7,
+				x = 5498
 			}
 		}
 	},
@@ -1654,8 +1654,8 @@ highlights = {
 			{
 				z = 5,
 				y = 4836,
-				x = 5498,
-				size = 7
+				size = 7,
+				x = 5498
 			}
 		}
 	},
@@ -1665,8 +1665,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5097,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1676,8 +1676,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5097,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1687,8 +1687,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5155,
-				x = 5476,
-				size = 7
+				size = 7,
+				x = 5476
 			}
 		}
 	},
@@ -1698,8 +1698,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5155,
-				x = 5476,
-				size = 7
+				size = 7,
+				x = 5476
 			}
 		}
 	},
@@ -1709,8 +1709,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5112,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -1720,8 +1720,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5112,
-				x = 5103,
-				size = 7
+				size = 7,
+				x = 5103
 			}
 		}
 	},
@@ -1731,8 +1731,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1742,8 +1742,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1753,8 +1753,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5039,
-				x = 5326,
-				size = 7
+				size = 7,
+				x = 5326
 			}
 		}
 	},
@@ -1764,8 +1764,8 @@ highlights = {
 			{
 				z = 7,
 				y = 5039,
-				x = 5326,
-				size = 7
+				size = 7,
+				x = 5326
 			}
 		}
 	},
@@ -1775,8 +1775,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1786,8 +1786,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1797,8 +1797,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5155,
-				x = 5476,
-				size = 7
+				size = 7,
+				x = 5476
 			}
 		}
 	},
@@ -1808,8 +1808,8 @@ highlights = {
 			{
 				z = 5,
 				y = 5155,
-				x = 5476,
-				size = 7
+				size = 7,
+				x = 5476
 			}
 		}
 	},
@@ -1819,8 +1819,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1830,8 +1830,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1841,8 +1841,8 @@ highlights = {
 			{
 				z = 9,
 				y = 5534,
-				x = 5364,
-				size = 7
+				size = 7,
+				x = 5364
 			}
 		}
 	},
@@ -1852,8 +1852,8 @@ highlights = {
 			{
 				z = 9,
 				y = 5534,
-				x = 5364,
-				size = 7
+				size = 7,
+				x = 5364
 			}
 		}
 	},
@@ -1863,8 +1863,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1874,8 +1874,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5114,
-				x = 5101,
-				size = 7
+				size = 7,
+				x = 5101
 			}
 		}
 	},
@@ -1885,8 +1885,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5034,
-				x = 5343,
-				size = 7
+				size = 7,
+				x = 5343
 			}
 		}
 	},
@@ -1896,8 +1896,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5034,
-				x = 5343,
-				size = 7
+				size = 7,
+				x = 5343
 			}
 		}
 	},
@@ -1907,8 +1907,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5034,
-				x = 5343,
-				size = 7
+				size = 7,
+				x = 5343
 			}
 		}
 	},
@@ -1918,8 +1918,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5034,
-				x = 5343,
-				size = 7
+				size = 7,
+				x = 5343
 			}
 		}
 	},
@@ -1929,8 +1929,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4829,
-				x = 5223,
-				size = 7
+				size = 7,
+				x = 5223
 			}
 		}
 	},
@@ -1940,8 +1940,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4829,
-				x = 5223,
-				size = 7
+				size = 7,
+				x = 5223
 			}
 		}
 	},
@@ -1951,8 +1951,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4965,
-				x = 5697,
-				size = 7
+				size = 7,
+				x = 5697
 			}
 		}
 	},
@@ -1962,8 +1962,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4965,
-				x = 5697,
-				size = 7
+				size = 7,
+				x = 5697
 			}
 		}
 	},
@@ -1973,8 +1973,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5230,
-				x = 5631,
-				size = 7
+				size = 7,
+				x = 5631
 			}
 		}
 	},
@@ -1984,8 +1984,8 @@ highlights = {
 			{
 				z = 4,
 				y = 5230,
-				x = 5631,
-				size = 7
+				size = 7,
+				x = 5631
 			}
 		}
 	},
@@ -1995,8 +1995,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5034,
-				x = 5343,
-				size = 7
+				size = 7,
+				x = 5343
 			}
 		}
 	},
@@ -2006,8 +2006,8 @@ highlights = {
 			{
 				z = 6,
 				y = 5034,
-				x = 5343,
-				size = 7
+				size = 7,
+				x = 5343
 			}
 		}
 	},
@@ -2017,8 +2017,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4829,
-				x = 5180,
-				size = 7
+				size = 7,
+				x = 5180
 			}
 		}
 	},
@@ -2028,8 +2028,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4829,
-				x = 5180,
-				size = 7
+				size = 7,
+				x = 5180
 			}
 		}
 	},
@@ -2039,8 +2039,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4829,
-				x = 5223,
-				size = 7
+				size = 7,
+				x = 5223
 			}
 		}
 	},
@@ -2050,8 +2050,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4829,
-				x = 5223,
-				size = 7
+				size = 7,
+				x = 5223
 			}
 		}
 	},
@@ -2061,8 +2061,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4829,
-				x = 5223,
-				size = 7
+				size = 7,
+				x = 5223
 			}
 		}
 	},
@@ -2072,8 +2072,8 @@ highlights = {
 			{
 				z = 6,
 				y = 4829,
-				x = 5223,
-				size = 7
+				size = 7,
+				x = 5223
 			}
 		}
 	},
@@ -2083,8 +2083,8 @@ highlights = {
 			{
 				z = 7,
 				y = 4965,
-				x = 5702,
-				size = 7
+				size = 7,
+				x = 5702
 			}
 		}
 	},
@@ -2094,8 +2094,8 @@ highlights = {
 			{
 				z = 7,
 				y = 4965,
-				x = 5702,
-				size = 7
+				size = 7,
+				x = 5702
 			}
 		}
 	}
@@ -2315,24 +2315,24 @@ titles = {
 		name = "Raven"
 	},
 	[TITLE_BETA_EXPLORER] = {
-		name = "Beta Explorer",
-		description = "Reach Level 25 (Betas)"
+		description = "Reach Level 25 (Betas)",
+		name = "Beta Explorer"
 	},
 	[TITLE_BETA_CONQUEROR] = {
-		name = "Beta Conqueror",
-		description = "Reach Level 50 (Betas)"
+		description = "Reach Level 50 (Betas)",
+		name = "Beta Conqueror"
 	},
 	[TITLE_LAGBANE] = {
-		name = "Lagbane",
-		description = "Participate in Open Beta Stress Test for at least 1 hour"
+		description = "Participate in Open Beta Stress Test for at least 1 hour",
+		name = "Lagbane"
 	},
 	[TITLE_VERY_IMPORTANT_VAMPIRE] = {
-		name = "Very Important Vampire",
-		description = "Participate in the Halloween Event"
+		description = "Participate in the Halloween Event",
+		name = "Very Important Vampire"
 	},
 	[TITLE_HONORARY_VAMPIRE] = {
-		name = "Honorary Vampire",
-		description = "Participate in the Halloween Event"
+		description = "Participate in the Halloween Event",
+		name = "Honorary Vampire"
 	},
 	[TITLE_COMMUNITY_MANAGER] = {
 		name = "Community Manager"
@@ -2341,11 +2341,11 @@ titles = {
 		name = "Game Master"
 	},
 	[TITLE_EARLY_BIRD] = {
-		name = "Early Bird",
-		description = "Become a Patron before the game's release"
+		description = "Become a Patron before the game's release",
+		name = "Early Bird"
 	},
 	[TITLE_I_WAS_THERE] = {
-		name = "I was there!",
-		description = "Create a character on the first day of the game"
+		description = "Create a character on the first day of the game",
+		name = "I was there!"
 	}
 }

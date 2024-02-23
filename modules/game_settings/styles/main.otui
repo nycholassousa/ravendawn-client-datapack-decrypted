@@ -27,7 +27,7 @@ GameSettingsResetButton < Button
 
 GameSettingsWindow < MainWindow
   id: gameSettingsWindow
-  size: 850 704
+  size: 880 704
   anchors.centerIn: parent
   &title: 'Settings'
   &shortcut: 'O'

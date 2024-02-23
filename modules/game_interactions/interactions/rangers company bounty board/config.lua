@@ -57,8 +57,8 @@ tasks = {
 
 				GameInteractions:displayActionBox({
 					text = "Press F to open the bounty board",
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					keys = {
 						"F"
 					},
@@ -73,8 +73,8 @@ tasks = {
 
 				if parent and parent.compass then
 					GameInteractions:displayActionBox({
-						text = "We need to find the nearest Rangers Company Outpost at once! Don't forget you can always check your compass for directions",
 						bandit = true,
+						text = "We need to find the nearest Rangers Company Outpost at once! Don't forget you can always check your compass for directions",
 						keys = {
 							MouseLeftButton
 						},
@@ -235,9 +235,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "top",
-					text = "Select one of the available tasks and give your first step as a member of the Rangers Company!",
 					bandit = true,
+					text = "Select one of the available tasks and give your first step as a member of the Rangers Company!",
+					preferSide = "top",
 					keys = {
 						MouseLeftButton
 					},

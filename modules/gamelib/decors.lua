@@ -4,8 +4,8 @@ DECOR_MODELS = {
 	[8] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				30268
@@ -15,8 +15,8 @@ DECOR_MODELS = {
 	[9] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				30269
@@ -26,8 +26,8 @@ DECOR_MODELS = {
 	[10] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34915
@@ -37,8 +37,8 @@ DECOR_MODELS = {
 	[11] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34916
@@ -48,8 +48,8 @@ DECOR_MODELS = {
 	[12] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34908
@@ -59,8 +59,8 @@ DECOR_MODELS = {
 	[13] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34909
@@ -70,8 +70,8 @@ DECOR_MODELS = {
 	[14] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				35086
@@ -81,8 +81,8 @@ DECOR_MODELS = {
 	[15] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				35087
@@ -92,8 +92,8 @@ DECOR_MODELS = {
 	[16] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				35088
@@ -103,8 +103,8 @@ DECOR_MODELS = {
 	[17] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				35089
@@ -114,8 +114,8 @@ DECOR_MODELS = {
 	[18] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				35090
@@ -125,8 +125,8 @@ DECOR_MODELS = {
 	[19] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				35091
@@ -136,8 +136,8 @@ DECOR_MODELS = {
 	[20] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				35092
@@ -147,8 +147,8 @@ DECOR_MODELS = {
 	[21] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				35097,
@@ -164,8 +164,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34839
@@ -175,8 +175,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34840
@@ -186,8 +186,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34841
@@ -197,8 +197,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34842
@@ -212,8 +212,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34843
@@ -223,8 +223,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34844
@@ -234,8 +234,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34845
@@ -245,8 +245,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34846
@@ -258,8 +258,8 @@ DECOR_MODELS = {
 	[24] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34787
@@ -269,8 +269,8 @@ DECOR_MODELS = {
 	[25] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34788
@@ -280,8 +280,8 @@ DECOR_MODELS = {
 	[26] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34789
@@ -291,8 +291,8 @@ DECOR_MODELS = {
 	[27] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34790
@@ -302,8 +302,8 @@ DECOR_MODELS = {
 	[28] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34917
@@ -313,8 +313,8 @@ DECOR_MODELS = {
 	[29] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				37368
@@ -324,8 +324,8 @@ DECOR_MODELS = {
 	[30] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				37371
@@ -335,8 +335,8 @@ DECOR_MODELS = {
 	[31] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				37367
@@ -346,8 +346,8 @@ DECOR_MODELS = {
 	[32] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				37370
@@ -357,8 +357,8 @@ DECOR_MODELS = {
 	[33] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				37368
@@ -368,8 +368,8 @@ DECOR_MODELS = {
 	[34] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				38403
@@ -379,8 +379,8 @@ DECOR_MODELS = {
 	[35] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				38401
@@ -390,8 +390,8 @@ DECOR_MODELS = {
 	[36] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				38402
@@ -401,8 +401,8 @@ DECOR_MODELS = {
 	[37] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				38677
@@ -414,8 +414,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38702
@@ -425,8 +425,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38706
@@ -436,8 +436,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38706
@@ -447,8 +447,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38702
@@ -462,8 +462,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38703
@@ -473,8 +473,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38707
@@ -484,8 +484,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38707
@@ -495,8 +495,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38703
@@ -510,8 +510,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38704
@@ -521,8 +521,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38708
@@ -532,8 +532,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38708
@@ -543,8 +543,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38704
@@ -558,8 +558,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38705
@@ -569,8 +569,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38709
@@ -580,8 +580,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38709
@@ -591,8 +591,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38705
@@ -606,8 +606,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46921
@@ -617,8 +617,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46920
@@ -628,8 +628,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46920
@@ -639,8 +639,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46921
@@ -654,8 +654,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38623
@@ -665,8 +665,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38624
@@ -676,8 +676,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38624
@@ -687,8 +687,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38623
@@ -700,8 +700,8 @@ DECOR_MODELS = {
 	[44] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				38680
@@ -713,8 +713,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38909
@@ -724,8 +724,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38910
@@ -735,8 +735,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38910
@@ -746,8 +746,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38909
@@ -761,8 +761,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38861
@@ -772,8 +772,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38862
@@ -783,8 +783,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38862
@@ -794,8 +794,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38861
@@ -809,8 +809,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32456
@@ -820,8 +820,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32457
@@ -831,8 +831,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32457
@@ -842,8 +842,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32456
@@ -857,8 +857,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32458
@@ -868,8 +868,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32459
@@ -879,8 +879,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32459
@@ -890,8 +890,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32458
@@ -905,8 +905,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32460
@@ -916,8 +916,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32461
@@ -927,8 +927,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32461
@@ -938,8 +938,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32460
@@ -953,8 +953,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						5787
@@ -964,8 +964,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						5788
@@ -975,8 +975,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						5788
@@ -986,8 +986,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						5787
@@ -1001,8 +1001,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						5777
@@ -1012,8 +1012,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						5778
@@ -1023,8 +1023,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						5778
@@ -1034,8 +1034,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						5777
@@ -1049,8 +1049,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32462
@@ -1060,8 +1060,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32463
@@ -1071,8 +1071,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32463
@@ -1082,8 +1082,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						32462
@@ -1097,8 +1097,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34512
@@ -1108,8 +1108,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34513
@@ -1119,8 +1119,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34513
@@ -1130,8 +1130,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34512
@@ -1145,8 +1145,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46933
@@ -1156,8 +1156,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46919
@@ -1167,8 +1167,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46919
@@ -1178,8 +1178,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46933
@@ -1193,8 +1193,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46922
@@ -1204,8 +1204,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46923
@@ -1215,8 +1215,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46923
@@ -1226,8 +1226,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46922
@@ -1241,8 +1241,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39475
@@ -1252,8 +1252,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39472
@@ -1263,8 +1263,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39472
@@ -1274,8 +1274,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39475
@@ -1289,8 +1289,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39476
@@ -1300,8 +1300,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39473
@@ -1311,8 +1311,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39473
@@ -1322,8 +1322,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39476
@@ -1337,8 +1337,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39474
@@ -1348,8 +1348,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39471
@@ -1359,8 +1359,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39471
@@ -1370,8 +1370,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						39474
@@ -1385,8 +1385,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38912
@@ -1396,8 +1396,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38911
@@ -1407,8 +1407,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38911
@@ -1418,8 +1418,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38912
@@ -1433,8 +1433,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38914
@@ -1444,8 +1444,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38913
@@ -1455,8 +1455,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38913
@@ -1466,8 +1466,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38914
@@ -1481,8 +1481,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38916
@@ -1492,8 +1492,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38915
@@ -1503,8 +1503,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38915
@@ -1514,8 +1514,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38916
@@ -1529,8 +1529,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						35571
@@ -1540,8 +1540,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						35570
@@ -1551,8 +1551,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						35570
@@ -1562,8 +1562,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						35571
@@ -1577,8 +1577,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34519
@@ -1588,8 +1588,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34518
@@ -1599,8 +1599,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34518
@@ -1610,8 +1610,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34519
@@ -1625,8 +1625,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						33762
@@ -1636,8 +1636,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						33761
@@ -1647,8 +1647,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						33761
@@ -1658,8 +1658,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						33762
@@ -1673,8 +1673,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38759
@@ -1684,8 +1684,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38758
@@ -1695,8 +1695,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38758
@@ -1706,8 +1706,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38759
@@ -1721,8 +1721,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38754
@@ -1732,8 +1732,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38753
@@ -1743,8 +1743,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38753
@@ -1754,8 +1754,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38754
@@ -1769,8 +1769,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38855
@@ -1780,8 +1780,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38856
@@ -1791,8 +1791,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38856
@@ -1802,8 +1802,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38855
@@ -1817,8 +1817,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38857
@@ -1828,8 +1828,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38858
@@ -1839,8 +1839,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38858
@@ -1850,8 +1850,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38857
@@ -1865,8 +1865,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38853
@@ -1876,8 +1876,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38854
@@ -1887,8 +1887,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38854
@@ -1898,8 +1898,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38853
@@ -1913,8 +1913,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38859
@@ -1924,8 +1924,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38860
@@ -1935,8 +1935,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38860
@@ -1946,8 +1946,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38859
@@ -1961,8 +1961,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38421
@@ -1972,8 +1972,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38421
@@ -1983,8 +1983,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38421
@@ -1994,8 +1994,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38421
@@ -2009,8 +2009,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38863
@@ -2020,8 +2020,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38864
@@ -2031,8 +2031,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38864
@@ -2042,8 +2042,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38863
@@ -2057,8 +2057,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						36259
@@ -2068,8 +2068,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						36258
@@ -2079,8 +2079,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						36258
@@ -2090,8 +2090,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						36259
@@ -2103,8 +2103,8 @@ DECOR_MODELS = {
 	[77] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				39547
@@ -2114,8 +2114,8 @@ DECOR_MODELS = {
 	[78] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				39506
@@ -2125,8 +2125,8 @@ DECOR_MODELS = {
 	[79] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				39505
@@ -2136,8 +2136,8 @@ DECOR_MODELS = {
 	[80] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				39507
@@ -2147,8 +2147,8 @@ DECOR_MODELS = {
 	[81] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				42779
@@ -2158,8 +2158,8 @@ DECOR_MODELS = {
 	[82] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				42771
@@ -2169,8 +2169,8 @@ DECOR_MODELS = {
 	[83] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				42769
@@ -2180,8 +2180,8 @@ DECOR_MODELS = {
 	[84] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				42770
@@ -2193,8 +2193,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						42744
@@ -2204,8 +2204,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						42745
@@ -2215,8 +2215,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						42745
@@ -2226,8 +2226,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						42744
@@ -2241,8 +2241,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46278
@@ -2252,8 +2252,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46279
@@ -2263,8 +2263,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46277
@@ -2274,8 +2274,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46280
@@ -2289,8 +2289,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46282
@@ -2300,8 +2300,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46281
@@ -2311,8 +2311,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46281
@@ -2322,8 +2322,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46282
@@ -2337,8 +2337,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38759
@@ -2348,8 +2348,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38758
@@ -2359,8 +2359,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38758
@@ -2370,8 +2370,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38759
@@ -2383,8 +2383,8 @@ DECOR_MODELS = {
 	[89] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				41963
@@ -2396,8 +2396,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46256
@@ -2407,8 +2407,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46255
@@ -2418,8 +2418,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46255
@@ -2429,8 +2429,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46256
@@ -2444,8 +2444,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46470
@@ -2455,8 +2455,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46469
@@ -2466,8 +2466,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46469
@@ -2477,8 +2477,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46470
@@ -2492,8 +2492,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38912
@@ -2503,8 +2503,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38911
@@ -2514,8 +2514,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38911
@@ -2525,8 +2525,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38912
@@ -2538,8 +2538,8 @@ DECOR_MODELS = {
 	[93] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				45512
@@ -2551,8 +2551,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46258
@@ -2562,8 +2562,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46257
@@ -2573,8 +2573,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46257
@@ -2584,8 +2584,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46258
@@ -2599,8 +2599,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46271
@@ -2610,8 +2610,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46272
@@ -2621,8 +2621,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46272
@@ -2632,8 +2632,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46271
@@ -2647,8 +2647,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46263
@@ -2658,8 +2658,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46264
@@ -2669,8 +2669,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46264
@@ -2680,8 +2680,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46263
@@ -2695,8 +2695,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46252
@@ -2706,8 +2706,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46251
@@ -2717,8 +2717,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46251
@@ -2728,8 +2728,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46252
@@ -2743,8 +2743,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45908
@@ -2754,8 +2754,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45909
@@ -2765,8 +2765,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45909
@@ -2776,8 +2776,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45908
@@ -2791,8 +2791,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45513
@@ -2802,8 +2802,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45514
@@ -2813,8 +2813,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45514
@@ -2824,8 +2824,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45513
@@ -2839,8 +2839,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45906
@@ -2850,8 +2850,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45907
@@ -2861,8 +2861,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45907
@@ -2872,8 +2872,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45906
@@ -2887,8 +2887,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45905
@@ -2898,8 +2898,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45904
@@ -2909,8 +2909,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45904
@@ -2920,8 +2920,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45905
@@ -2935,8 +2935,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38914
@@ -2946,8 +2946,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38913
@@ -2957,8 +2957,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38913
@@ -2968,8 +2968,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38914
@@ -2983,8 +2983,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46926
@@ -2994,8 +2994,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46927
@@ -3005,8 +3005,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46927
@@ -3016,8 +3016,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46926
@@ -3031,8 +3031,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45899
@@ -3042,8 +3042,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45898
@@ -3053,8 +3053,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45898
@@ -3064,8 +3064,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45899
@@ -3079,8 +3079,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						40317
@@ -3090,8 +3090,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						40316
@@ -3101,8 +3101,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						40316
@@ -3112,8 +3112,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						40317
@@ -3127,8 +3127,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46247
@@ -3138,8 +3138,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46248
@@ -3149,8 +3149,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46248
@@ -3160,8 +3160,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46247
@@ -3175,8 +3175,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45510
@@ -3186,8 +3186,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45511
@@ -3197,8 +3197,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45511
@@ -3208,8 +3208,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45510
@@ -3223,8 +3223,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46907
@@ -3234,8 +3234,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46908
@@ -3245,8 +3245,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46908
@@ -3256,8 +3256,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46907
@@ -3271,8 +3271,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46431
@@ -3282,8 +3282,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46430
@@ -3293,8 +3293,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46430
@@ -3304,8 +3304,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46431
@@ -3317,8 +3317,8 @@ DECOR_MODELS = {
 	[110] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				34813
@@ -3328,8 +3328,8 @@ DECOR_MODELS = {
 	[111] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				46468
@@ -3341,8 +3341,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46267
@@ -3352,8 +3352,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46268
@@ -3363,8 +3363,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46268
@@ -3374,8 +3374,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46267
@@ -3389,8 +3389,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46463
@@ -3400,8 +3400,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46464
@@ -3411,8 +3411,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46464
@@ -3422,8 +3422,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46463
@@ -3437,8 +3437,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46928
@@ -3448,8 +3448,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46929
@@ -3459,8 +3459,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46929
@@ -3470,8 +3470,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46928
@@ -3485,8 +3485,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38754
@@ -3496,8 +3496,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38753
@@ -3507,8 +3507,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38753
@@ -3518,8 +3518,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38754
@@ -3533,8 +3533,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						35504
@@ -3544,8 +3544,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						35503
@@ -3555,8 +3555,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						35503
@@ -3566,8 +3566,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						35504
@@ -3581,8 +3581,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46924
@@ -3592,8 +3592,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46925
@@ -3603,8 +3603,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46925
@@ -3614,8 +3614,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46924
@@ -3629,8 +3629,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46932
@@ -3640,8 +3640,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46918
@@ -3651,8 +3651,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46918
@@ -3662,8 +3662,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46932
@@ -3677,8 +3677,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34519
@@ -3688,8 +3688,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34518
@@ -3699,8 +3699,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34518
@@ -3710,8 +3710,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						34519
@@ -3725,8 +3725,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46260
@@ -3736,8 +3736,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46259
@@ -3747,8 +3747,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46259
@@ -3758,8 +3758,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46260
@@ -3773,8 +3773,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45896
@@ -3784,8 +3784,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45897
@@ -3795,8 +3795,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45897
@@ -3806,8 +3806,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45896
@@ -3821,8 +3821,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46249
@@ -3832,8 +3832,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46250
@@ -3843,8 +3843,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46250
@@ -3854,8 +3854,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46249
@@ -3869,8 +3869,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45903
@@ -3880,8 +3880,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45902
@@ -3891,8 +3891,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45902
@@ -3902,8 +3902,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45903
@@ -3917,8 +3917,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46265
@@ -3928,8 +3928,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46266
@@ -3939,8 +3939,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46266
@@ -3950,8 +3950,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46265
@@ -3965,8 +3965,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45894
@@ -3976,8 +3976,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45893
@@ -3987,8 +3987,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45892
@@ -3998,8 +3998,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45895
@@ -4013,8 +4013,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46930
@@ -4024,8 +4024,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46931
@@ -4035,8 +4035,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46931
@@ -4046,8 +4046,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46930
@@ -4061,8 +4061,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46254
@@ -4072,8 +4072,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46253
@@ -4083,8 +4083,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46253
@@ -4094,8 +4094,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46254
@@ -4109,8 +4109,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38916
@@ -4120,8 +4120,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38915
@@ -4131,8 +4131,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38915
@@ -4142,8 +4142,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						38916
@@ -4157,8 +4157,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45900
@@ -4168,8 +4168,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45901
@@ -4179,8 +4179,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45901
@@ -4190,8 +4190,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45900
@@ -4205,8 +4205,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46269
@@ -4216,8 +4216,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46270
@@ -4227,8 +4227,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46270
@@ -4238,8 +4238,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46269
@@ -4251,8 +4251,8 @@ DECOR_MODELS = {
 	[131] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				42752
@@ -4264,8 +4264,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45886
@@ -4275,8 +4275,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45887
@@ -4286,8 +4286,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45887
@@ -4297,8 +4297,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45886
@@ -4312,8 +4312,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46851
@@ -4323,8 +4323,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46852
@@ -4334,8 +4334,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46852
@@ -4345,8 +4345,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46851
@@ -4360,8 +4360,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46853
@@ -4371,8 +4371,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46854
@@ -4382,8 +4382,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46854
@@ -4393,8 +4393,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46853
@@ -4408,8 +4408,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46855
@@ -4419,8 +4419,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46856
@@ -4430,8 +4430,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46856
@@ -4441,8 +4441,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46855
@@ -4456,8 +4456,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46911
@@ -4467,8 +4467,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46912
@@ -4478,8 +4478,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46912
@@ -4489,8 +4489,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46911
@@ -4504,8 +4504,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46959
@@ -4515,8 +4515,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46960
@@ -4526,8 +4526,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46960
@@ -4537,8 +4537,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46959
@@ -4552,8 +4552,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46967
@@ -4563,8 +4563,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46968
@@ -4574,8 +4574,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46968
@@ -4585,8 +4585,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46967
@@ -4600,8 +4600,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46013
@@ -4611,8 +4611,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46014
@@ -4622,8 +4622,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46014
@@ -4633,8 +4633,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46013
@@ -4648,8 +4648,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46019
@@ -4659,8 +4659,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46020
@@ -4670,8 +4670,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46020
@@ -4681,8 +4681,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46019
@@ -4696,8 +4696,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46025
@@ -4707,8 +4707,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46026
@@ -4718,8 +4718,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46026
@@ -4729,8 +4729,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46025
@@ -4742,8 +4742,8 @@ DECOR_MODELS = {
 	[142] = {
 		{
 			position = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			},
 			items = {
 				45877
@@ -4755,8 +4755,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45884
@@ -4766,8 +4766,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45885
@@ -4777,8 +4777,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45885
@@ -4788,8 +4788,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45884
@@ -4803,8 +4803,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46859
@@ -4814,8 +4814,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46860
@@ -4825,8 +4825,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46860
@@ -4836,8 +4836,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46859
@@ -4851,8 +4851,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						44288
@@ -4862,8 +4862,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						44289
@@ -4873,8 +4873,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						44290
@@ -4884,8 +4884,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						44291
@@ -4899,8 +4899,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45880
@@ -4910,8 +4910,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45881
@@ -4921,8 +4921,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45881
@@ -4932,8 +4932,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						45880
@@ -4947,8 +4947,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47576
@@ -4958,8 +4958,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47575
@@ -4969,8 +4969,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47575
@@ -4980,8 +4980,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47576
@@ -4995,8 +4995,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47569
@@ -5006,8 +5006,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47568
@@ -5017,8 +5017,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47568
@@ -5028,8 +5028,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47569
@@ -5043,8 +5043,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47580
@@ -5054,8 +5054,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47579
@@ -5065,8 +5065,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47579
@@ -5076,8 +5076,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47580
@@ -5091,8 +5091,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46862
@@ -5102,8 +5102,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46863
@@ -5113,8 +5113,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46863
@@ -5124,8 +5124,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						46862
@@ -5139,8 +5139,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47743
@@ -5150,8 +5150,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47744
@@ -5161,8 +5161,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47744
@@ -5172,8 +5172,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47743
@@ -5187,8 +5187,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47620
@@ -5198,8 +5198,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47621
@@ -5209,8 +5209,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47621
@@ -5220,8 +5220,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47620
@@ -5235,8 +5235,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47864
@@ -5246,8 +5246,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47865
@@ -5257,8 +5257,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47865
@@ -5268,8 +5268,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47864
@@ -5283,8 +5283,8 @@ DECOR_MODELS = {
 			[East] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47866
@@ -5294,8 +5294,8 @@ DECOR_MODELS = {
 			[North] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47867
@@ -5305,8 +5305,8 @@ DECOR_MODELS = {
 			[South] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47867
@@ -5316,8 +5316,8 @@ DECOR_MODELS = {
 			[West] = {
 				{
 					position = {
-						y = 0,
-						x = 0
+						x = 0,
+						y = 0
 					},
 					items = {
 						47866

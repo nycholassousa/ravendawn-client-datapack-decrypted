@@ -335,149 +335,149 @@ AbilityBar = {
 			[50000] = "Basic Reel"
 		},
 		[1822] = {
-			id = 93,
 			description = "",
-			name = "Basic Water Pumps"
+			name = "Basic Water Pumps",
+			id = 93
 		},
 		[1823] = {
-			id = 94,
 			description = "",
-			name = "Efficient Water Pumps"
+			name = "Efficient Water Pumps",
+			id = 94
 		},
 		[1824] = {
-			id = 95,
 			description = "",
-			name = "Advanced Water Pumps"
+			name = "Advanced Water Pumps",
+			id = 95
 		},
 		[5805] = {
-			id = 117,
 			description = "",
-			name = "Superior Water Pumps"
+			name = "Superior Water Pumps",
+			id = 117
 		},
 		[5806] = {
-			id = 118,
 			description = "",
-			name = "Royal Water Pumps"
+			name = "Royal Water Pumps",
+			id = 118
 		},
 		[2848] = {
-			id = 92,
 			description = "",
-			name = "Small Siege Cannon"
+			name = "Small Siege Cannon",
+			id = 92
 		},
 		[5781] = {
-			id = 139,
 			description = "",
-			name = "Small Shrapnel Cannon"
+			name = "Small Shrapnel Cannon",
+			id = 139
 		},
 		[5780] = {
-			id = 115,
 			description = "",
-			name = "Small Hullbreaker Cannon"
+			name = "Small Hullbreaker Cannon",
+			id = 115
 		},
 		[5477] = {
-			id = 116,
 			description = "",
-			name = "Small Drake Head"
+			name = "Small Drake Head",
+			id = 116
 		},
 		[5782] = {
-			id = 138,
 			description = "",
-			name = "Small Mortar Cannon"
+			name = "Small Mortar Cannon",
+			id = 138
 		},
 		[5483] = {
-			id = 129,
 			description = "",
-			name = "Small Broadside Artillery"
+			name = "Small Broadside Artillery",
+			id = 129
 		},
 		[5815] = {
-			id = 119,
 			description = "",
-			name = "Medium Siege Cannon"
+			name = "Medium Siege Cannon",
+			id = 119
 		},
 		[5797] = {
-			id = 120,
 			description = "",
-			name = "Medium Shrapnel Cannon"
+			name = "Medium Shrapnel Cannon",
+			id = 120
 		},
 		[5795] = {
-			id = 121,
 			description = "",
-			name = "Medium Hullbreaker Cannon"
+			name = "Medium Hullbreaker Cannon",
+			id = 121
 		},
 		[5817] = {
-			id = 122,
 			description = "",
-			name = "Medium Drake Head"
+			name = "Medium Drake Head",
+			id = 122
 		},
 		[5799] = {
-			id = 123,
 			description = "",
-			name = "Medium Mortar Cannon"
+			name = "Medium Mortar Cannon",
+			id = 123
 		},
 		[5819] = {
-			id = 130,
 			description = "",
-			name = "Medium Broadside Artillery"
+			name = "Medium Broadside Artillery",
+			id = 130
 		},
 		[5816] = {
-			id = 124,
 			description = "",
-			name = "Large Siege Cannon"
+			name = "Large Siege Cannon",
+			id = 124
 		},
 		[5798] = {
-			id = 125,
 			description = "",
-			name = "Large Shrapnel Cannon"
+			name = "Large Shrapnel Cannon",
+			id = 125
 		},
 		[5796] = {
-			id = 126,
 			description = "",
-			name = "Large Hullbreaker Cannon"
+			name = "Large Hullbreaker Cannon",
+			id = 126
 		},
 		[5818] = {
-			id = 127,
 			description = "",
-			name = "Large Drake Head"
+			name = "Large Drake Head",
+			id = 127
 		},
 		[5800] = {
-			id = 128,
 			description = "",
-			name = "Large Mortar Cannon"
+			name = "Large Mortar Cannon",
+			id = 128
 		},
 		[5820] = {
-			id = 131,
 			description = "",
-			name = "Large Broadside Artillery"
+			name = "Large Broadside Artillery",
+			id = 131
 		},
 		[5480] = {
-			id = 135,
 			description = "",
-			name = "Small Floating Mines"
+			name = "Small Floating Mines",
+			id = 135
 		},
 		[5481] = {
-			id = 132,
 			description = "",
-			name = "Small Grappling Hooks"
+			name = "Small Grappling Hooks",
+			id = 132
 		},
 		[5801] = {
-			id = 136,
 			description = "",
-			name = "Medium Floating Mines"
+			name = "Medium Floating Mines",
+			id = 136
 		},
 		[5803] = {
-			id = 133,
 			description = "",
-			name = "Medium Grappling Hooks"
+			name = "Medium Grappling Hooks",
+			id = 133
 		},
 		[5802] = {
-			id = 137,
 			description = "",
-			name = "Large Floating Mines"
+			name = "Large Floating Mines",
+			id = 137
 		},
 		[5804] = {
-			id = 134,
 			description = "",
-			name = "Large Grappling Hooks"
+			name = "Large Grappling Hooks",
+			id = 134
 		},
 		[AbilityBarCategoryShip] = {
 			[96] = "Repair",

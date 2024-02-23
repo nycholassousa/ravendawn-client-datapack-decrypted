@@ -4,10 +4,10 @@ recipes = recipes or {}
 recipes[ProfessionFishing] = {
 	{
 		skillRequired = 20,
-		id = 28919,
-		name = "Sun Fish",
-		index = 13,
 		water = "Salt Water",
+		id = 28919,
+		index = 13,
+		name = "Sun Fish",
 		items = {
 			{
 				id = 40833,
@@ -21,10 +21,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 30,
-		id = 28918,
-		name = "Sky Fish",
-		index = 14,
 		water = "Salt Water",
+		id = 28918,
+		index = 14,
+		name = "Sky Fish",
 		items = {
 			{
 				id = 40827,
@@ -38,10 +38,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 30,
-		id = 28915,
-		name = "Angel Fish",
-		index = 15,
 		water = "Salt Water",
+		id = 28915,
+		index = 15,
+		name = "Angel Fish",
 		items = {
 			{
 				id = 40827,
@@ -55,10 +55,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 40,
-		id = 28922,
-		name = "Star Fish",
-		index = 16,
 		water = "Salt Water",
+		id = 28922,
+		index = 16,
+		name = "Star Fish",
 		items = {
 			{
 				id = 40828,
@@ -72,10 +72,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 40,
-		id = 28920,
-		name = "Bigmouth Flounder",
-		index = 17,
 		water = "Salt Water",
+		id = 28920,
+		index = 17,
+		name = "Bigmouth Flounder",
 		items = {
 			{
 				id = 40828,
@@ -89,10 +89,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 50,
-		id = 28921,
-		name = "Rainbow Flounder",
-		index = 18,
 		water = "Salt Water",
+		id = 28921,
+		index = 18,
+		name = "Rainbow Flounder",
 		items = {
 			{
 				id = 40831,
@@ -106,10 +106,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 50,
-		id = 28924,
-		name = "Gromper",
-		index = 19,
 		water = "Salt Water",
+		id = 28924,
+		index = 19,
+		name = "Gromper",
 		items = {
 			{
 				id = 40831,
@@ -123,10 +123,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 65,
-		id = 28926,
-		name = "Tiger Shark",
-		index = 20,
 		water = "Salt Water",
+		id = 28926,
+		index = 20,
+		name = "Tiger Shark",
 		items = {
 			{
 				id = 40825,
@@ -140,10 +140,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 65,
-		id = 28925,
-		name = "Stingray",
-		index = 21,
 		water = "Salt Water",
+		id = 28925,
+		index = 21,
+		name = "Stingray",
 		items = {
 			{
 				id = 40825,
@@ -157,10 +157,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 1,
-		id = 28906,
-		name = "Shrimp",
-		index = 1,
 		water = "Ocean Shore",
+		id = 28906,
+		index = 1,
+		name = "Shrimp",
 		items = {
 			{
 				id = 40832,
@@ -174,10 +174,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 3,
-		id = 28907,
-		name = "Tangerine Fish",
-		index = 2,
 		water = "Ocean Shore",
+		id = 28907,
+		index = 2,
+		name = "Tangerine Fish",
 		items = {
 			{
 				id = 40832,
@@ -191,10 +191,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 5,
-		id = 28904,
-		name = "Catfish",
-		index = 3,
 		water = "Ocean Shore",
+		id = 28904,
+		index = 3,
+		name = "Catfish",
 		items = {
 			{
 				id = 40829,
@@ -208,10 +208,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 5,
-		id = 28905,
-		name = "Mino",
-		index = 4,
 		water = "Ocean Shore",
+		id = 28905,
+		index = 4,
+		name = "Mino",
 		items = {
 			{
 				id = 40829,
@@ -225,10 +225,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 7,
-		id = 28908,
-		name = "Tench Fish",
-		index = 5,
 		water = "Ocean Shore",
+		id = 28908,
+		index = 5,
+		name = "Tench Fish",
 		items = {
 			{
 				id = 40830,
@@ -242,10 +242,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 7,
-		id = 28911,
-		name = "Oversized Mino",
-		index = 6,
 		water = "Ocean Shore",
+		id = 28911,
+		index = 6,
+		name = "Oversized Mino",
 		items = {
 			{
 				id = 40830,
@@ -259,10 +259,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 10,
-		id = 28917,
-		name = "Rainbow Fish",
-		index = 7,
 		water = "Ocean Shore",
+		id = 28917,
+		index = 7,
+		name = "Rainbow Fish",
 		items = {
 			{
 				id = 40834,
@@ -276,10 +276,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 10,
-		id = 28913,
-		name = "Sand Fish",
-		index = 8,
 		water = "Ocean Shore",
+		id = 28913,
+		index = 8,
+		name = "Sand Fish",
 		items = {
 			{
 				id = 40834,
@@ -293,10 +293,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 15,
-		id = 28914,
-		name = "Scale Fish",
-		index = 9,
 		water = "Ocean Shore",
+		id = 28914,
+		index = 9,
+		name = "Scale Fish",
 		items = {
 			{
 				id = 40826,
@@ -310,10 +310,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 15,
-		id = 28910,
-		name = "Juniper Fish",
-		index = 10,
 		water = "Ocean Shore",
+		id = 28910,
+		index = 10,
+		name = "Juniper Fish",
 		items = {
 			{
 				id = 40826,
@@ -327,10 +327,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 20,
-		id = 28912,
-		name = "Princess Fish",
-		index = 11,
 		water = "Ocean Shore",
+		id = 28912,
+		index = 11,
+		name = "Princess Fish",
 		items = {
 			{
 				id = 40833,
@@ -344,10 +344,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 20,
-		id = 28916,
-		name = "Lobster",
-		index = 12,
 		water = "Ocean Shore",
+		id = 28916,
+		index = 12,
+		name = "Lobster",
 		items = {
 			{
 				id = 40833,
@@ -361,10 +361,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 1,
-		id = 35411,
-		name = "Lillypad Trout",
-		index = 22,
 		water = "nil",
+		id = 35411,
+		index = 22,
+		name = "Lillypad Trout",
 		items = {
 			{
 				id = 33588,
@@ -378,10 +378,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 45,
-		id = 38528,
-		name = "Frost Sturgeon",
-		index = 23,
 		water = "nil",
+		id = 38528,
+		index = 23,
+		name = "Frost Sturgeon",
 		items = {
 			{
 				id = 33588,
@@ -395,10 +395,10 @@ recipes[ProfessionFishing] = {
 	},
 	{
 		skillRequired = 50,
-		id = 39281,
-		name = "Bog Prowler",
-		index = 24,
 		water = "nil",
+		id = 39281,
+		index = 24,
+		name = "Bog Prowler",
 		items = {
 			{
 				id = 33588,

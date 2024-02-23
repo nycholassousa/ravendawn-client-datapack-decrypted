@@ -940,9 +940,7 @@ creatures
       6: 100
 // -- spiritual male end -- \\
 
-// -- two-handed sword start -- \\
-  // sword
-
+// -- two-handed sword male start -- \\
   // body
   5589
     enemy-circle-size: 32 32
@@ -954,15 +952,16 @@ creatures
     main-body: true
 
   // head
-  5588
+  5588;6107;6107;6108;6109;6110;6111
     direction-draw-order: 1 1 1 1
 
-  5590
+  // swords
+  5590;6113;6114;6115;6116;6117
     direction-draw-order: 1 0 0 1
-  5591
+  5591;6148;6149;6150;6151;6152
     direction-draw-order: 0 0 0 0
 
-  5588;5589;5590;5591
+  5589;5588;6107;6107;6108;6109;6110;6111;5590;5591;6113;6114;6115;6116;6117;6148;6149;6150;6151;6152
     animate-from-start: true
     phase-durations:
       0: 100
@@ -975,7 +974,43 @@ creatures
       7: 100
       8: 100
 
-// -- two-handed sword end -- \\
+// -- two-handed sword male end -- \\
+
+// -- two-handed sword female start -- \\
+  // body
+  6170
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 64 64
+    name-displacement: 0 0
+    main-body: true
+
+  // head
+  6175;6176;6177;6178;6179;6180
+    direction-draw-order: 1 1 1 1
+
+  // swords
+  6205;6206;6207;6208;6209;6210
+    direction-draw-order: 1 0 0 1
+  6287;6288;6289;6290;6291;6292
+    direction-draw-order: 0 0 0 0
+
+  6170;6175;6176;6177;6178;6179;6180;6205;6206;6207;6208;6209;6210;6287;6288;6289;6290;6291;6292
+    animate-from-start: true
+    phase-durations:
+      0: 100
+      1: 100
+      2: 100
+      3: 100
+      4: 100
+      5: 100
+      6: 100
+      7: 100
+      8: 100
+
+// -- two-handed sword female end -- \\
 
 // -- shadow male start -- \\
   3395

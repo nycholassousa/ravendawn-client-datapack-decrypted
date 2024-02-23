@@ -7,12 +7,12 @@ function UISprite.create()
 
 	widget.anim = {
 		count = 0,
-		path = "",
+		speed = 0,
+		prefix = "",
 		defaultIndex = 1,
 		startIndex = 1,
 		currentIndex = 0,
-		prefix = "",
-		speed = 0
+		path = ""
 	}
 	widget.event = nil
 	widget.playing = false

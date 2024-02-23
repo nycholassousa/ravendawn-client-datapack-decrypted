@@ -548,7 +548,7 @@ creatures
         2: -10 -10
         3: -6 -13
 
-// two handed male
+// two-handed sword male
   5602
     enemy-circle-size: 32 32
     enemy-circle-offset: 8 8
@@ -576,6 +576,38 @@ creatures
         3: -28 -35
   // mount
   5599
+    draw-after-reins: true
+    direction-draw-order: 1 1 1 1
+
+// two-handed sword female
+  6174
+    enemy-circle-size: 32 32
+    enemy-circle-offset: 8 8
+    friend-circle-size: 32 32
+    friend-circle-offset: 8 8
+    creature-offset: 32 32
+    main-body: true
+    impact-time: 300
+    attack-animation-spell-ids: 57;55;52;51;61;65;105;68;64
+    attack-animation-type: 0
+    attack-animation:
+      0: 6170
+    channeling-animation:
+      init: 6172
+      loop: 6172
+      release: 6171
+      instant-release: 6171
+      attack-release: 6171
+      attack-instant-release: 6171
+      aura-fade-duration: 500
+      aura-offsets:
+        0: -32 -32
+        1: -30 -35
+        2: -32 -33
+        3: -28 -35
+  // mount
+  6173
+    draw-after-reins: true
     direction-draw-order: 1 1 1 1
 
 // archery female
@@ -3143,6 +3175,62 @@ creatures
       instant-release: 5592
       attack-release: 5592
       attack-instant-release: 5592
+  6153
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6107
+    channeling-animation:
+      init: 6128
+      loop: 6128
+      release: 6118
+      instant-release: 6118
+      attack-release: 6118
+      attack-instant-release: 6118
+  6154
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6108
+    channeling-animation:
+      init: 6129
+      loop: 6129
+      release: 6119
+      instant-release: 6119
+      attack-release: 6119
+      attack-instant-release: 6119
+  6155
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6109
+    channeling-animation:
+      init: 6130
+      loop: 6130
+      release: 6120
+      instant-release: 6120
+      attack-release: 6120
+      attack-instant-release: 6120
+  6156
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6110
+    channeling-animation:
+      init: 6131
+      loop: 6131
+      release: 6121
+      instant-release: 6121
+      attack-release: 6121
+      attack-instant-release: 6121
+  6157
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6111
+    channeling-animation:
+      init: 6132
+      loop: 6132
+      release: 6122
+      instant-release: 6122
+      attack-release: 6122
+      attack-instant-release: 6122
+
   //swords
   5603
     direction-draw-order: 1 0 0 1
@@ -3156,9 +3244,223 @@ creatures
       instant-release: 5594
       attack-release: 5594
       attack-instant-release: 5594
+  6158
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6113
+      1: 6148
+    channeling-animation:
+      init: 6133
+      loop: 6133
+      release: 6123
+      instant-release: 6123
+      attack-release: 6123
+      attack-instant-release: 6123
+  6159
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6114
+      1: 6149
+    channeling-animation:
+      init: 6134
+      loop: 6134
+      release: 6124
+      instant-release: 6124
+      attack-release: 6124
+      attack-instant-release: 6124
+  6160
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6115
+      1: 6150
+    channeling-animation:
+      init: 6135
+      loop: 6135
+      release: 6125
+      instant-release: 6125
+      attack-release: 6125
+      attack-instant-release: 6125
+  6161
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6116
+      1: 6151
+    channeling-animation:
+      init: 6136
+      loop: 6136
+      release: 6126
+      instant-release: 6126
+      attack-release: 6126
+      attack-instant-release: 6126
+  6162
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6117
+      1: 6152
+    channeling-animation:
+      init: 6137
+      loop: 6137
+      release: 6127
+      instant-release: 6127
+      attack-release: 6127
+      attack-instant-release: 6127
+
   //mount
-  5598
+  5598;6138;6139;6140;6141;6142
     direction-draw-order: 1 1 1 1
+
+  5600;6143;6144;6145;6146;6147
+    mount-draw-order: 1 0 0 1
+
+// two-handed sword female
+  //heads
+  6199
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6175
+    channeling-animation:
+      init: 6187
+      loop: 6187
+      release: 6181
+      instant-release: 6181
+      attack-release: 6181
+      attack-instant-release: 6181
+  6200
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6176
+    channeling-animation:
+      init: 6188
+      loop: 6188
+      release: 6182
+      instant-release: 6182
+      attack-release: 6182
+      attack-instant-release: 6182
+  6201
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6177
+    channeling-animation:
+      init: 6189
+      loop: 6189
+      release: 6183
+      instant-release: 6183
+      attack-release: 6183
+      attack-instant-release: 6183
+  6202
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6178
+    channeling-animation:
+      init: 6190
+      loop: 6190
+      release: 6184
+      instant-release: 6184
+      attack-release: 6184
+      attack-instant-release: 6184
+  6203
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6179
+    channeling-animation:
+      init: 6191
+      loop: 6191
+      release: 6185
+      instant-release: 6185
+      attack-release: 6185
+      attack-instant-release: 6185
+  6204
+    direction-draw-order: 1 1 1 1
+    attack-animation:
+      0: 6180
+    channeling-animation:
+      init: 6192
+      loop: 6192
+      release: 6186
+      instant-release: 6186
+      attack-release: 6186
+      attack-instant-release: 6186
+
+  //swords
+  6229
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6205
+      1: 6287
+    channeling-animation:
+      init: 6217
+      loop: 6217
+      release: 6211
+      instant-release: 6211
+      attack-release: 6211
+      attack-instant-release: 6211
+  6230
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6206
+      1: 6288
+    channeling-animation:
+      init: 6218
+      loop: 6218
+      release: 6212
+      instant-release: 6212
+      attack-release: 6212
+      attack-instant-release: 6212
+  6231
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6207
+      1: 6289
+    channeling-animation:
+      init: 6219
+      loop: 6219
+      release: 6213
+      instant-release: 6213
+      attack-release: 6213
+      attack-instant-release: 6213
+  6232
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6208
+      1: 6290
+    channeling-animation:
+      init: 6220
+      loop: 6220
+      release: 6214
+      instant-release: 6214
+      attack-release: 6214
+      attack-instant-release: 6214
+  6233
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6209
+      1: 6291
+    channeling-animation:
+      init: 6221
+      loop: 6221
+      release: 6215
+      instant-release: 6215
+      attack-release: 6215
+      attack-instant-release: 6215
+  6234
+    direction-draw-order: 1 0 0 1
+    attack-animation:
+      0: 6210
+      1: 6292
+    channeling-animation:
+      init: 6222
+      loop: 6222
+      release: 6216
+      instant-release: 6216
+      attack-release: 6216
+      attack-instant-release: 6216
+
+  //mounts
+  6193;6194;6195;6196;6197;6198
+    direction-draw-order: 1 1 1 1
+
+  6223;6224;6225;6226;6227;6228
+    mount-draw-order: 1 0 0 1
 
 // Wizardry female
   // heads

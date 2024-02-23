@@ -54,8 +54,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 
 		local config = {
 			{
-				text = "You can gather to collect material.",
 				title = "Gathering",
+				text = "You can gather to collect material.",
 				info = {
 					{
 						text = "Material to collect: ",
@@ -67,8 +67,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.gathering
 			},
 			{
-				text = "You can butcher to collect material.",
 				title = "Butchering",
+				text = "You can butcher to collect material.",
 				info = {
 					{
 						text = "Material to collect: ",
@@ -80,8 +80,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.butchering
 			},
 			{
-				text = "You can interact to increase the fertilizer drop rate.",
 				title = "Affection",
+				text = "You can interact to increase the fertilizer drop rate.",
 				info = {
 					{
 						text = "Current affection bonus: ",
@@ -93,8 +93,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.affection
 			},
 			{
-				text = "This will be implemented on next alpha phase.",
 				disabled = true,
+				text = "This will be implemented on next alpha phase.",
 				title = "Feeding",
 				info = {
 					{
@@ -107,8 +107,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.feeding
 			},
 			{
-				text = "You can fertilize to increase the collected material.",
 				title = "Fertilizer",
+				text = "You can fertilize to increase the collected material.",
 				info = {
 					{
 						text = "Current fertilize bonus: ",
@@ -120,8 +120,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.fertilizer
 			},
 			{
-				text = "You can water to increase the four leaf clover drop rate.",
 				title = "Watering",
+				text = "You can water to increase the four leaf clover drop rate.",
 				info = {
 					{
 						text = "Current water bonus: ",
@@ -133,8 +133,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.watering
 			},
 			{
-				text = "You can prune to increase the dense log drop rate.",
 				title = "Pruning",
+				text = "You can prune to increase the dense log drop rate.",
 				info = {
 					{
 						text = "Current pruning bonus: ",
@@ -381,16 +381,16 @@ end
 
 function sendMinigameAbility(abilityId)
 	sendCraftingOpcode({
-		action = "craft",
 		subaction = "input",
+		action = "craft",
 		ability = abilityId
 	})
 end
 
 function sendCancelCraft()
 	sendCraftingOpcode({
-		action = "craft",
-		subaction = "cancel"
+		subaction = "cancel",
+		action = "craft"
 	})
 end
 

@@ -77,6 +77,10 @@ itemTypes = {
 		["leather boots"] = 1
 	},
 	weapon = {
+		axe = 1,
+		sword = 1,
+		dagger = 1,
+		staff = 1,
 		["light blade"] = 1,
 		hammer = 1,
 		greatsword = 1,
@@ -85,11 +89,7 @@ itemTypes = {
 		club = 1,
 		["tower shield"] = 1,
 		["buckler shield"] = 1,
-		sceptre = 1,
-		axe = 1,
-		sword = 1,
-		dagger = 1,
-		staff = 1
+		sceptre = 1
 	}
 }
 filter = {

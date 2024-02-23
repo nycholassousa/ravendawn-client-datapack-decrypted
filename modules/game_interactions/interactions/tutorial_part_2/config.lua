@@ -309,9 +309,9 @@ tasks = {
 						}
 					},
 					tilePos = {
-						y = 4846,
 						x = 3216,
-						z = 7
+						z = 7,
+						y = 4846
 					},
 					callbackOnClose = function()
 						GameInteractions:advanceInteraction(__env, potionToActionBar, 1)
@@ -344,9 +344,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press I or Left-Click to open your Inventory",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							"I",
 							MouseLeftButton
@@ -408,9 +408,9 @@ tasks = {
 						parentWidget.preventDragItem = true
 
 						GameInteractions:displayActionBox({
-							preferSide = "top",
 							text = "Simply right-click the potions and choose to add them to your action bar",
 							bandit = true,
+							preferSide = "top",
 							keys = {
 								MouseRightButton
 							},
@@ -467,8 +467,8 @@ tasks = {
 			},
 			displayInteraction = function()
 				GameInteractions:displayActionBox({
-					text = "Press I or Esc to close your Inventory",
 					bandit = true,
+					text = "Press I or Esc to close your Inventory",
 					keys = {
 						"I",
 						"Esc"
@@ -507,8 +507,8 @@ tasks = {
 
 				if target then
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "Hey... you seem different. Kind of like you were on your birthday, all those years ago!"
@@ -550,9 +550,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("skill_tree")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press K or Left-Click to open your Skill Tree",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							"K",
 							MouseLeftButton
@@ -701,9 +701,9 @@ tasks = {
 
 					if learnedSpell and nextSpell then
 						GameInteractions:displayActionBox({
-							preferSide = "right",
 							text = "Left-click the highlighted skill to learn it",
 							bandit = true,
+							preferSide = "right",
 							keys = {
 								MouseLeftButton
 							},
@@ -746,9 +746,9 @@ tasks = {
 
 				if skillTreeWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "left",
 						text = "Now press K to close your Skill Tree",
 						bandit = true,
+						preferSide = "left",
 						keys = {
 							MouseLeftButton,
 							"K",
@@ -886,8 +886,8 @@ tasks = {
 			callbacks = {},
 			onStartInteraction = function(self)
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "Simply hover your mouse over the weapon skill to see what it does"

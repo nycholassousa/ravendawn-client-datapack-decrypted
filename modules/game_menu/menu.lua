@@ -15,8 +15,8 @@ function Menu.init()
 	local menuIcon = g_ui.createWidget("MenuNotificationIcon", Menu.icon)
 
 	menuIcon:setImageOffset({
-		y = 16,
-		x = -16
+		x = -16,
+		y = 16
 	})
 	menuIcon:setVisible(false)
 	connect(g_game, {
@@ -81,194 +81,194 @@ end
 function Menu.setup()
 	Menu.modules = {
 		{
-			name = "Character (X)",
-			icon = "character",
 			unlockLevel = 1,
+			icon = "character",
+			name = "Character (X)",
 			callback = modules.game_character.GameCharacter.toggle,
 			window = modules.game_character.GameCharacter.window
 		},
 		{
-			name = "Inventory (I)",
-			icon = "inventory",
 			unlockLevel = 1,
+			icon = "inventory",
+			name = "Inventory (I)",
 			callback = modules.game_inventory.GameInventory.toggle,
 			window = modules.game_inventory.GameInventory.window
 		},
 		{
-			name = "Infusion (U)",
-			icon = "infusion",
 			unlockLevel = 7,
+			icon = "infusion",
 			separator = true,
+			name = "Infusion (U)",
 			callback = modules.game_infusion.GameInfusion.toggle,
 			window = modules.game_infusion.GameInfusion.window
 		},
 		{
-			name = "RavenCards (G)",
-			icon = "ravencards",
 			unlockLevel = 10,
+			icon = "ravencards",
+			name = "RavenCards (G)",
 			callback = modules.game_cards.GameCards.toggleCollectionWindow,
 			window = modules.game_cards.GameCards.collection_window
 		},
 		{
-			name = "Archetypes (K)",
-			icon = "skill_tree",
 			unlockLevel = 1,
+			icon = "skill_tree",
+			name = "Archetypes (K)",
 			callback = modules.game_spelltree.GameSpellTree.toggle,
 			window = modules.game_spelltree.GameSpellTree.window
 		},
 		{
-			name = "Professions (P)",
-			icon = "professions",
 			unlockLevel = 5,
+			icon = "professions",
+			name = "Professions (P)",
 			callback = modules.game_professions.GameProfessions.toggle,
 			window = modules.game_professions.GameProfessions.window
 		},
 		{
-			name = "Reputation (H)",
-			icon = "reputation",
 			unlockLevel = 5,
+			icon = "reputation",
 			separator = true,
+			name = "Reputation (H)",
 			callback = modules.game_reputation.GameReputation.toggle,
 			window = modules.game_reputation.GameReputation.window
 		},
 		{
-			name = "Transport (Y)",
-			icon = "transports",
 			unlockLevel = 9,
+			icon = "transports",
+			name = "Transport (Y)",
 			callback = modules.game_transport.GameTransport.toggle,
 			window = modules.game_transport.GameTransport.window
 		},
 		{
-			name = "Map (M)",
-			icon = "map",
 			unlockLevel = 1,
+			icon = "map",
+			name = "Map (M)",
 			callback = g_worldMap.toggle,
 			window = g_worldMap.window
 		},
 		{
-			name = "Quest (L)",
-			icon = "quests",
 			unlockLevel = 1,
+			icon = "quests",
+			name = "Quest (L)",
 			callback = modules.game_questlog.GameQuestLog.toggle,
 			window = modules.game_questlog.GameQuestLog.window
 		},
 		{
-			name = "Rangers Company (B)",
 			icon = "rangers_company",
 			unlockLevel = 15,
+			name = "Rangers Company (B)",
 			callback = function()
 				modules.game_rangerscompany.GameRangersCompany.toggleRangersWindow()
 			end,
 			window = modules.game_rangerscompany.GameRangersCompany.rangers_window
 		},
 		{
-			name = "Tradepack (T)",
-			icon = "tradepack",
 			unlockLevel = 6,
+			icon = "tradepack",
+			name = "Tradepack (T)",
 			callback = modules.game_tradepacks.GameTradepacks.toggle,
 			window = modules.game_tradepacks.GameTradepacks.window
 		},
 		{
-			name = "Journal (J)",
-			icon = "journal",
 			unlockLevel = 18,
+			icon = "journal",
 			separator = true,
+			name = "Journal (J)",
 			callback = modules.game_journal.GameJournal.toggle,
 			window = modules.game_journal.GameJournal.window
 		},
 		{
-			name = "Guild (V)",
-			icon = "guild",
 			unlockLevel = 15,
+			icon = "guild",
+			name = "Guild (V)",
 			callback = modules.game_guild.GameGuild.toggle,
 			window = modules.game_guild.GameGuild.window
 		},
 		{
-			name = "Social (N)",
-			icon = "social",
 			unlockLevel = 5,
+			icon = "social",
+			name = "Social (N)",
 			callback = modules.game_social.GameSocial.toggle,
 			window = modules.game_social.GameSocial.window
 		},
 		{
-			name = "Tutorial",
-			icon = "tutorial",
 			unlockLevel = 5,
+			icon = "tutorial",
+			name = "Tutorial",
 			callback = modules.game_interactions.GameInteractions.toggleListWindow,
 			window = modules.game_interactions.GameInteractions.list_window
 		},
 		{
-			name = "RavenStore",
-			icon = "ravenstore",
 			unlockLevel = 5,
+			icon = "ravenstore",
+			name = "RavenStore",
 			callback = function()
 				modules.game_premium_store.GamePremiumStore:toggle()
 			end,
 			window = modules.game_premium_store.GamePremiumStore.window
 		},
 		{
-			name = "Settings (O)",
-			icon = "settings",
 			unlockLevel = 1,
+			icon = "settings",
+			name = "Settings (O)",
 			callback = modules.game_settings.GameSettings.toggle,
 			window = modules.game_settings.GameSettings.window
 		},
 		{
-			name = "Feedback",
-			ignore = true,
 			unlockLevel = 1,
+			ignore = true,
+			name = "Feedback",
 			callback = modules.game_feedback.toggle,
 			window = modules.game_feedback.feedbackWindow
 		},
 		{
-			name = "House",
-			ignore = true,
 			unlockLevel = 1,
+			ignore = true,
+			name = "House",
 			callback = function()
 				modules.game_house.GameHouse:toggleHouseMode()
 			end,
 			window = modules.game_house.GameHouse.top_panel
 		},
 		{
-			name = "CraftingWindow",
-			ignore = true,
 			unlockLevel = 1,
+			ignore = true,
+			name = "CraftingWindow",
 			callback = function()
 				modules.game_professions.GameProfessions:hideCraftingWindow()
 			end,
 			window = modules.game_professions.GameProfessions.crafting_window.window
 		},
 		{
-			name = "NPCWindow",
-			ignore = true,
 			unlockLevel = 1,
+			ignore = true,
+			name = "NPCWindow",
 			callback = function()
 				modules.game_npcs.GameNpc:onClose()
 			end,
 			window = modules.game_npcs.GameNpc.window
 		},
 		{
-			name = "BountyWindow",
-			ignore = true,
 			unlockLevel = 1,
+			ignore = true,
+			name = "BountyWindow",
 			callback = function()
 				modules.game_rangerscompany.GameRangersCompany:closeBountyWindow()
 			end,
 			window = modules.game_rangerscompany.GameRangersCompany.bounty_window
 		},
 		{
-			name = "CardOpeningWindow",
-			ignore = true,
 			unlockLevel = 1,
+			ignore = true,
+			name = "CardOpeningWindow",
 			callback = function()
 				modules.game_cards.GameCards:hideAnimationPanel()
 			end,
 			window = modules.game_cards.GameCards.animation_panel
 		},
 		{
-			name = "Report Player",
-			ignore = true,
 			unlockLevel = 1,
+			ignore = true,
+			name = "Report Player",
 			callback = function()
 				modules.game_player_report.GamePlayerReport:hide()
 			end,
@@ -394,23 +394,23 @@ function Menu.setupNotifications()
 		{
 			notifications = {
 				["character stats"] = {
-					name = "character stats",
 					rootIndex = 1,
+					name = "character stats",
 					unlockLevel = 1,
 					remove = modules.game_character.GameCharacter.window.content.stats_panel,
 					icons = {
 						{
 							widget = "character",
 							offset = {
-								y = -2,
-								x = 4
+								x = 4,
+								y = -2
 							}
 						},
 						{
 							widget = modules.game_character.GameCharacter.window.panel_top.selection_panel.stats,
 							offset = {
-								y = 8,
-								x = -25
+								x = -25,
+								y = 8
 							}
 						}
 					}
@@ -429,23 +429,23 @@ function Menu.setupNotifications()
 		{
 			notifications = {
 				["ravencard packs"] = {
-					name = "ravencard packs",
 					rootIndex = 2,
+					name = "ravencard packs",
 					unlockLevel = 10,
 					remove = modules.game_character.GameCards.animation_panel.packs_panel,
 					icons = {
 						{
 							widget = "ravencards",
 							offset = {
-								y = -2,
-								x = 4
+								x = 4,
+								y = -2
 							}
 						},
 						{
 							widget = modules.game_character.GameCards.header_panel.packs.holder.count_box,
 							offset = {
-								y = -12,
-								x = 12
+								x = 12,
+								y = -12
 							}
 						}
 					}
@@ -464,16 +464,16 @@ function Menu.setupNotifications()
 		{
 			notifications = {
 				archetypes = {
-					name = "archetypes",
 					rootIndex = 3,
+					name = "archetypes",
 					unlockLevel = 1,
 					remove = modules.game_spelltree.GameSpellTree.archetypesPanel,
 					icons = {
 						{
 							widget = "skill_tree",
 							offset = {
-								y = -2,
-								x = 4
+								x = 4,
+								y = -2
 							}
 						}
 					}
@@ -507,22 +507,22 @@ function Menu.setupNotifications()
 								{
 									widget = "professions",
 									offset = {
-										y = -2,
-										x = 4
+										x = 4,
+										y = -2
 									}
 								},
 								{
 									widget = professionModule:getProfessionButton(professionId),
 									offset = {
-										y = -2,
-										x = 4
+										x = 4,
+										y = -2
 									}
 								},
 								{
 									widget = professionModule.window.content[ProfessionNames[professionId]:lower()].right_panel.bottom_panel.passive_button,
 									offset = {
-										y = -2,
-										x = 4
+										x = 4,
+										y = -2
 									}
 								}
 							}
@@ -545,67 +545,67 @@ function Menu.setupNotifications()
 		{
 			notifications = {
 				["friends request"] = {
-					name = "friends request",
 					rootIndex = 5,
+					name = "friends request",
 					unlockLevel = 1,
 					remove = modules.game_social.GameSocial.window.content.friends_panel.content.request_panel,
 					icons = {
 						{
 							widget = "social",
 							offset = {
-								y = -2,
-								x = 4
+								x = 4,
+								y = -2
 							}
 						},
 						{
 							widget = modules.game_social.GameSocial.window.selection_panel.friends,
 							offset = {
-								y = 4,
-								x = -12
+								x = -12,
+								y = 4
 							}
 						}
 					}
 				},
 				["party request"] = {
-					name = "party request",
 					rootIndex = 5,
+					name = "party request",
 					unlockLevel = 1,
 					remove = modules.game_social.GameSocial.window.content.party_panel.content.request_panel.list,
 					icons = {
 						{
 							widget = "social",
 							offset = {
-								y = -2,
-								x = 4
+								x = 4,
+								y = -2
 							}
 						},
 						{
 							widget = modules.game_social.GameSocial.window.selection_panel.party,
 							offset = {
-								y = 4,
-								x = -10
+								x = -10,
+								y = 4
 							}
 						}
 					}
 				},
 				["mail receive"] = {
-					name = "mail receive",
 					rootIndex = 5,
+					name = "mail receive",
 					unlockLevel = 1,
 					remove = modules.game_social.GameSocial.window.content.mail_panel.content.messages_panel,
 					icons = {
 						{
 							widget = "social",
 							offset = {
-								y = -2,
-								x = 4
+								x = 4,
+								y = -2
 							}
 						},
 						{
 							widget = modules.game_social.GameSocial.window.selection_panel.mail,
 							offset = {
-								y = 4,
-								x = -12
+								x = -12,
+								y = 4
 							}
 						}
 					}
@@ -634,16 +634,16 @@ function Menu.setupNotifications()
 		{
 			notifications = {
 				transport = {
-					name = "transport",
 					rootIndex = 6,
+					name = "transport",
 					unlockLevel = 1,
 					remove = modules.game_transport.GameTransport.window,
 					icons = {
 						{
 							widget = "transports",
 							offset = {
-								y = -2,
-								x = 4
+								x = 4,
+								y = -2
 							}
 						}
 					}
@@ -660,16 +660,16 @@ function Menu.setupNotifications()
 		{
 			notifications = {
 				reputation = {
-					name = "reputation",
 					rootIndex = 7,
+					name = "reputation",
 					unlockLevel = 5,
 					remove = modules.game_reputation.GameReputation.window,
 					icons = {
 						{
 							widget = "reputation",
 							offset = {
-								y = -2,
-								x = 4
+								x = 4,
+								y = -2
 							}
 						}
 					}

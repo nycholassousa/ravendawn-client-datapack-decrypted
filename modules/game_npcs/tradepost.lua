@@ -1,9 +1,9 @@
 ﻿-- chunkname: @/modules/game_npcs/tradepost.lua
 
 Tradepost = {
-	primingTradepack = false,
-	sortDirection = "desc",
 	sortOption = "demand",
+	sortDirection = "desc",
+	primingTradepack = false,
 	sort_buttons = {},
 	sortedRecipes = {},
 	indexedRecipes = {}
@@ -534,8 +534,8 @@ function Tradepost:requestCraftTradepack(useCertificate)
 
 	local function yesCallback()
 		GameNpc:sendOpcode({
-			action = "dialogue",
 			option = "tradepost_craft_pack",
+			action = "dialogue",
 			dialogueId = GameNpc.dialogueId,
 			npcName = GameNpc.npcName,
 			pack = Tradepost:getCurrentPack(),

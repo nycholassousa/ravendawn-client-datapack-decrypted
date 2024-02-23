@@ -6,8 +6,8 @@ local ID = 0
 
 function Animator.create(widget, args)
 	args = args or {
-		frameDuration = 10,
-		loopCount = 1
+		loopCount = 1,
+		frameDuration = 10
 	}
 
 	local anim = Animator.internalCreate()

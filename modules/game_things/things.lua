@@ -68,6 +68,7 @@ local otmls = {
 	"/things/otml/monsters/crowmaidens.otml",
 	"/things/otml/monsters/morningstars.otml",
 	"/things/otml/monsters/jackals.otml",
+	"/things/otml/monsters/stonelings.otml",
 	"/things/otml/npcs/ravenguards.otml",
 	"/things/otml/npcs/tradeposts.otml",
 	"/things/otml/npcs/general.otml",

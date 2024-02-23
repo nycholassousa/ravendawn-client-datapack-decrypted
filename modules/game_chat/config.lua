@@ -2,77 +2,77 @@
 
 buttonList = {
 	{
-		splitter = true,
-		isTab = true,
+		tooltip = "General Chat",
 		name = "general",
-		tooltip = "General Chat"
+		isTab = true,
+		splitter = true
 	},
 	{
 		name = "global",
 		selection = {
 			english = {
 				tooltip = "English Global Chat",
-				hasSelection = true,
 				name = "english",
-				isTab = true,
+				hasSelection = true,
 				buffer = "global_en",
+				isTab = true,
 				channelId = 8
 			},
 			portuguese = {
 				tooltip = "Portuguese Global Chat",
-				hasSelection = true,
 				name = "portuguese",
-				isTab = true,
+				hasSelection = true,
 				buffer = "global_br",
+				isTab = true,
 				channelId = 9
 			},
 			polish = {
 				tooltip = "Polish Global Chat",
-				hasSelection = true,
 				name = "polish",
-				isTab = true,
+				hasSelection = true,
 				buffer = "global_pl",
+				isTab = true,
 				channelId = 10
 			},
 			spanish = {
 				tooltip = "Spanish Global Chat",
-				hasSelection = true,
 				name = "spanish",
-				isTab = true,
+				hasSelection = true,
 				buffer = "global_spa",
+				isTab = true,
 				channelId = 11
 			}
 		}
 	},
 	{
+		tooltip = "Server Log",
+		bufferSize = 50,
+		internal = true,
 		name = "server_log",
-		internal = true,
-		bufferSize = 50,
-		isTab = true,
-		tooltip = "Server Log"
+		isTab = true
 	},
 	{
+		tooltip = "Action Log",
+		bufferSize = 50,
+		internal = true,
 		name = "action_log",
-		internal = true,
-		bufferSize = 50,
-		isTab = true,
-		tooltip = "Action Log"
+		isTab = true
 	},
 	{
-		name = "party",
 		tooltip = "Party Chat",
+		name = "party",
 		isTab = true,
 		channelId = 1
 	},
 	{
-		name = "guild",
 		tooltip = "Guild Chat",
+		name = "guild",
 		isTab = true,
 		channelId = 2
 	},
 	{
-		name = "looking_for_group",
 		tooltip = "Looking for Group",
+		name = "looking_for_group",
 		isTab = true,
 		channelId = 12
 	}
@@ -115,13 +115,13 @@ textModeSettings = {
 		tab = "server_log"
 	},
 	[TextTypes.TextTypeWarning] = {
-		tab = "server_log",
 		color = "#FCBE7F",
+		tab = "server_log",
 		type = NOTIFICATION_WARNING
 	},
 	[TextTypes.TextTypeEventAdvance] = {
-		tab = "server_log",
 		color = "#FCBE7F",
+		tab = "server_log",
 		type = NOTIFICATION_INFO
 	},
 	[TextTypes.TextTypeSmall] = {
@@ -129,8 +129,8 @@ textModeSettings = {
 		tab = "server_log"
 	},
 	[TextTypes.TextTypeInfoDescription] = {
-		tab = "server_log",
 		color = "#FCBE7F",
+		tab = "server_log",
 		type = NOTIFICATION_WARNING
 	},
 	[TextTypes.TextTypeDamageDealt] = {
@@ -186,13 +186,13 @@ textModeSettings = {
 		tab = "server_log"
 	},
 	[TextTypes.TextTypeProgress] = {
-		tab = "server_log",
 		color = "#FCBE7F",
+		tab = "server_log",
 		type = NOTIFICATION_SUCCESS
 	},
 	[TextTypes.TextTypeBroadcast] = {
-		tab = "general",
 		color = "#FF5151",
+		tab = "general",
 		type = NOTIFICATION_STAFF
 	},
 	[TextTypes.TextTypeSpeechBubble] = {
@@ -200,8 +200,8 @@ textModeSettings = {
 		tab = "general"
 	},
 	[TextTypes.TextTypeError] = {
-		tab = "server_log",
 		color = "#FCBE7F",
+		tab = "server_log",
 		type = NOTIFICATION_ERROR
 	},
 	[TextTypes.TextTypeScreenBox] = {
@@ -296,14 +296,14 @@ talkModeSettings = {
 	}
 }
 chatMessageTitlePrefix = {
-	global_spa = "[Global-SPA]",
-	global_en = "[Global-EN]",
 	looking_for_group = "[LFG]",
 	guild = "[Guild]",
 	party = "[Party]",
-	general = "[Local]",
+	global_spa = "[Global-SPA]",
 	global_pl = "[Global-PL]",
 	global_br = "[Global-BR]",
+	global_en = "[Global-EN]",
+	general = "[Local]",
 	private = "[Whisper]"
 }
 messageHistorySize = 50
@@ -331,28 +331,28 @@ GuildChannelId = 2
 LFGChannelId = 12
 talkTypes = {
 	{
-		name = "Say",
-		color = "#CED2D9"
+		color = "#CED2D9",
+		name = "Say"
 	},
 	{
-		name = "Whisper",
-		color = "#A556FF"
+		color = "#A556FF",
+		name = "Whisper"
 	},
 	{
-		name = "Party",
-		color = "#5DA4FB"
+		color = "#5DA4FB",
+		name = "Party"
 	},
 	{
-		name = "Guild",
-		color = "#77D463"
+		color = "#77D463",
+		name = "Guild"
 	},
 	{
-		name = "Global",
-		color = "#CED2D9"
+		color = "#CED2D9",
+		name = "Global"
 	},
 	{
-		name = "Looking for Group",
-		color = "#CED2D9"
+		color = "#CED2D9",
+		name = "Looking for Group"
 	}
 }
 talkTypesColor = {}

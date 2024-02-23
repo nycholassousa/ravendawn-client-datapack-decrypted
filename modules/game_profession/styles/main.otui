@@ -1,9 +1,8 @@
 GameProfessionsPassiveWindow < AttachedWindow
   id: gameProfessionsPassiveWindow
-  size: 350 578
+  size: 350 650
   anchors.verticalCenter: gameProfessionsWindow.verticalCenter
   anchors.left: gameProfessionsWindow.right
-  margin-top: 68
   side: right
   GameProfessionTree
     id: mining

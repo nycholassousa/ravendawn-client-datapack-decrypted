@@ -73,9 +73,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("ravencards")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press G or Left-Click to open your RavenCards menu",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							"G",
 							MouseLeftButton
@@ -119,9 +119,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "top",
-					text = "We need to open up a pack of cards before anything else, so click on the Packs tab!",
 					bandit = true,
+					text = "We need to open up a pack of cards before anything else, so click on the Packs tab!",
+					preferSide = "top",
 					keys = {
 						MouseLeftButton
 					},
@@ -164,9 +164,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "top",
-					text = "Since a Standard Pack is already selected, all you have to do now is open it!",
 					bandit = true,
+					text = "Since a Standard Pack is already selected, all you have to do now is open it!",
+					preferSide = "top",
 					keys = {
 						MouseLeftButton
 					},
@@ -211,8 +211,8 @@ tasks = {
 				end
 
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "Every pack comes with five RavenCards. And don't mistake them for simple collectable tokens!"
@@ -249,9 +249,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "left",
-					text = "Now press ESC or left mouse button to close this window",
 					bandit = true,
+					text = "Now press ESC or left mouse button to close this window",
+					preferSide = "left",
 					keys = {
 						"ESC",
 						MouseLeftButton
@@ -287,9 +287,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("ravencards")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press G or Left-Click to open your RavenCards menu",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							"G",
 							MouseLeftButton
@@ -325,8 +325,8 @@ tasks = {
 				end
 
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "Inside of this list you will find your whole collection of cards!",

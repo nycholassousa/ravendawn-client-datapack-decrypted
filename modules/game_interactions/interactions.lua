@@ -125,9 +125,9 @@ function GameInteractions:init()
 	})
 
 	self.border_animation = Animation.create({
-		duration = 2500,
 		imageSource = "/images/ui/windows/interactions/animations/bandit_border/border_highlight_%02d",
 		pauseWhenHidden = true,
+		duration = 2500,
 		loop = -1,
 		framesCount = 49,
 		canvas = self.bandit_avatar.border_highlight,
@@ -1777,8 +1777,8 @@ function GameInteractions:banditShake()
 		intensity, n = intensity or 2, n or 10
 
 		self:setImageOffset({
-			y = 0,
-			x = 0
+			x = 0,
+			y = 0
 		})
 
 		if n > 0 then

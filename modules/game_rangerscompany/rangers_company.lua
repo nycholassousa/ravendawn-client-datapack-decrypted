@@ -1,12 +1,12 @@
 ﻿-- chunkname: @/modules/game_rangerscompany/rangers_company.lua
 
 GameRangersCompany = {
-	leaderboard_page = 1,
-	cacheExpirationTime = 0,
-	rangers_window_view = "middle_panel",
 	leaderboard_total_entries = 0,
 	leaderboard_total_pages = 1,
 	leaderboard_page_size = 11,
+	leaderboard_page = 1,
+	cacheExpirationTime = 0,
+	rangers_window_view = "middle_panel",
 	leaderboard_pages = {}
 }
 
@@ -236,11 +236,6 @@ function GameRangersCompany:configureBountyWindow(data)
 
 	if data.outpost then
 		self.outpost = data.outpost
-
-		local location_panel = window.content.top_panel.location_panel
-
-		location_panel.name:setText(cfg.outpostNameToDisplayName[data.outpost.name] or data.outpost.name)
-		location_panel.icon:update(string.format("/images/ui/windows/rangers_company/%s", cfg.outpostToIcon[cfg.outpostNameToDisplayName[data.outpost.name] or data.outpost.name]))
 	end
 
 	if data.refreshTimeleft then
@@ -296,10 +291,10 @@ function GameRangersCompany:configureBountyWindow(data)
 			local function timerWork()
 				if data.refreshTimeleft <= 0 then
 					refresh_button:onStyleApply("PrimaryButton", {
-						["&iconAlign"] = "left",
-						["&iconOffset"] = "20 0",
 						["&textMarginLeft"] = "30",
-						["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll"
+						["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll",
+						["&iconOffset"] = "20 0",
+						["&iconAlign"] = "left"
 					})
 					refresh_button:setStyle("PrimaryButton")
 					refresh_button:setWidth(120)
@@ -327,10 +322,10 @@ function GameRangersCompany:configureBountyWindow(data)
 			timerWork()
 		else
 			refresh_button:onStyleApply("PrimaryButton", {
-				["&iconAlign"] = "left",
-				["&iconOffset"] = "20 0",
 				["&textMarginLeft"] = "30",
-				["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll"
+				["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll",
+				["&iconOffset"] = "20 0",
+				["&iconAlign"] = "left"
 			})
 			refresh_button:setStyle("PrimaryButton")
 			refresh_button:setWidth(120)

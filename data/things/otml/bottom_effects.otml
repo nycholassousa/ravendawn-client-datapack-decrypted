@@ -371,3 +371,7 @@ effects
   //Chaos Chains
   1921;1923
     bottom-effect: true
+
+  //Lava Ground
+  2037;2038;2040
+    bottom-effect: true

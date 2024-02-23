@@ -53,8 +53,8 @@ function GearBreakdownShop:onTradeItem(widget)
 
 		function sell_button.onClick()
 			GameNpc:sendOpcode({
-				action = "dialogue",
 				option = "npc_gear_breakdown_sell",
+				action = "dialogue",
 				dialogueId = GameNpc.dialogueId,
 				npcName = GameNpc.npcName,
 				itemUUID = widget.item:getItem():getUUID()

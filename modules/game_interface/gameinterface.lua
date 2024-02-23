@@ -40,58 +40,58 @@ local fadeEvent
 
 cachedShader = 0
 spellCursor = {
+	isDirectional = false,
 	currentType = "circle",
 	size = 1,
-	isDirectional = false,
 	direction = Directions.Invalid,
 	circle = {
 		originalOffset = {
-			y = 175,
-			x = 175
+			x = 175,
+			y = 175
 		},
 		originalSize = {
-			height = 320,
 			width = 320,
+			height = 320,
 			border = {
-				y = 40,
-				x = 40
+				x = 40,
+				y = 40
 			}
 		},
 		offset = {
-			y = 175,
-			x = 175
+			x = 175,
+			y = 175
 		},
 		size = {
-			height = 320,
-			width = 320
+			width = 320,
+			height = 320
 		}
 	},
 	rect = {
 		originalOffset = {
-			y = 0,
-			x = 0
+			x = 0,
+			y = 0
 		},
 		originalSize = {
-			height = 96,
 			width = 96,
+			height = 96,
 			border = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			}
 		},
 		offset = {
-			y = 0,
-			x = 0
+			x = 0,
+			y = 0
 		},
 		size = {
-			height = 96,
-			width = 96
+			width = 96,
+			height = 96
 		}
 	}
 }
 chatPanelSize = {
-	height = 200,
-	width = 200
+	width = 200,
+	height = 200
 }
 keys = {
 	walk = {
@@ -176,8 +176,8 @@ escMenuButtons = {
 		end
 	},
 	{
-		style = "GameEscMenuButton",
 		icon = "icon_settings",
+		style = "GameEscMenuButton",
 		name = "Settings",
 		callback = function()
 			modules.game_settings.GameSettings:show()
@@ -186,8 +186,8 @@ escMenuButtons = {
 		end
 	},
 	{
-		style = "GameEscMenuButton",
 		icon = "icon_graphics",
+		style = "GameEscMenuButton",
 		name = "Graphics",
 		callback = function()
 			modules.game_settings.GameSettings:show()
@@ -197,8 +197,8 @@ escMenuButtons = {
 		end
 	},
 	{
-		style = "GameEscMenuButton",
 		icon = "icon_audio",
+		style = "GameEscMenuButton",
 		name = "Audio / Language",
 		callback = function()
 			modules.game_settings.GameSettings:show()
@@ -208,8 +208,8 @@ escMenuButtons = {
 		end
 	},
 	{
-		style = "GameEscMenuButton",
 		icon = "icon_windows",
+		style = "GameEscMenuButton",
 		name = "Windows",
 		callback = function()
 			modules.game_settings.GameSettings:show()
@@ -219,8 +219,8 @@ escMenuButtons = {
 		end
 	},
 	{
-		style = "GameEscMenuButton",
 		icon = "icon_misc",
+		style = "GameEscMenuButton",
 		name = "Misc",
 		callback = function()
 			modules.game_settings.GameSettings:show()
@@ -233,9 +233,9 @@ escMenuButtons = {
 		style = "GameEscMenuSeparator"
 	},
 	{
-		style = "GameEscMenuButton",
 		icon = "icon_feedback",
-		name = "Feedback",
+		style = "GameEscMenuButton",
+		name = "Bug Report",
 		callback = function()
 			modules.game_feedback.show()
 
@@ -246,8 +246,8 @@ escMenuButtons = {
 		style = "GameEscMenuSeparator"
 	},
 	{
-		style = "GameEscMenuButton",
 		icon = "icon_logout",
+		style = "GameEscMenuButton",
 		name = "Logout",
 		callback = function()
 			modules.game_interface.tryLogout(true)
@@ -256,8 +256,8 @@ escMenuButtons = {
 		end
 	},
 	{
-		style = "GameEscMenuButton",
 		icon = "icon_close",
+		style = "GameEscMenuButton",
 		name = "Exit Game",
 		callback = function()
 			modules.game_interface.tryExit()
@@ -641,8 +641,8 @@ function init()
 
 	houseModeWidget:setImageSource("/images/crosshair/circle/1")
 	houseModeWidget:setImageOffset({
-		y = 16,
-		x = 16
+		x = 16,
+		y = 16
 	})
 	houseModeWidget:setWidth(32)
 	houseModeWidget:setHeight(32)
@@ -1047,9 +1047,9 @@ function onGameStart()
 	getMapPanel():setShader(currentShader)
 
 	currentRegion = {
+		timer = 0,
 		aboutToPvp = false,
 		pvp = false,
-		timer = 0,
 		name = ""
 	}
 
@@ -1798,8 +1798,8 @@ function addWagonMenu(menu, creatureThing)
 			end)
 			menu:addOption(tr("Move Packs"), function()
 				sendOpcode(ExtendedIds.Trading, {
-					action = "move",
-					type = "wagon"
+					type = "wagon",
+					action = "move"
 				})
 			end)
 		elseif creatureType == CreatureTypeWagonOther then
@@ -1947,40 +1947,40 @@ function getMouseAttackCandidate()
 	local mousePosition = g_window.getMousePosition()
 	local offsets = {
 		{
-			y = 0,
-			x = 0
+			x = 0,
+			y = 0
 		},
 		{
-			y = -1,
-			x = -1
+			x = -1,
+			y = -1
 		},
 		{
-			y = -1,
-			x = 0
+			x = 0,
+			y = -1
 		},
 		{
-			y = -1,
-			x = 1
+			x = 1,
+			y = -1
 		},
 		{
-			y = 0,
-			x = -1
+			x = -1,
+			y = 0
 		},
 		{
-			y = 0,
-			x = 1
+			x = 1,
+			y = 0
 		},
 		{
-			y = 1,
-			x = -1
+			x = -1,
+			y = 1
 		},
 		{
-			y = 1,
-			x = 0
+			x = 0,
+			y = 1
 		},
 		{
-			y = 1,
-			x = 1
+			x = 1,
+			y = 1
 		}
 	}
 	local pos = gameMapPanel:getPosition(mousePosition)
@@ -2629,23 +2629,23 @@ function refreshViewMode()
 
 	if mode == ViewModePlayer then
 		gameMapPanel:setVisibleDimension({
-			height = 13,
-			width = 25
+			width = 25,
+			height = 13
 		})
 	elseif mode == ViewModeShip then
 		gameMapPanel:setVisibleDimension({
-			height = 19,
-			width = 37
+			width = 37,
+			height = 19
 		})
 	elseif mode == ViewModeAnchor then
 		gameMapPanel:setVisibleDimension({
-			height = 17,
-			width = 31
+			width = 31,
+			height = 17
 		})
 	elseif mode == ViewModeHouse then
 		gameMapPanel:setVisibleDimension({
-			height = 19,
-			width = 37
+			width = 37,
+			height = 19
 		})
 	end
 

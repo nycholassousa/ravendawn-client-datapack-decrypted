@@ -46,12 +46,12 @@ conditions = {
 		name = "Revenge"
 	},
 	[13005] = {
-		name = "Spirit Shield",
-		description = "Reflects a portion of the damage taken."
+		description = "Reflects a portion of the damage taken.",
+		name = "Spirit Shield"
 	},
 	[13006] = {
-		name = "Spirit Shield",
-		description = "Increases healing on the caster."
+		description = "Increases healing on the caster.",
+		name = "Spirit Shield"
 	},
 	[13007] = {
 		name = "Provoke"
@@ -69,8 +69,8 @@ conditions = {
 		name = "Unchained"
 	},
 	[13012] = {
-		name = "Unbreakable",
-		description = "Target is unable to receive healing from Unbreakable nor any other source. Deals spell damage in a small area after the duration of Unbreakable ends."
+		description = "Target is unable to receive healing from Unbreakable nor any other source. Deals spell damage in a small area after the duration of Unbreakable ends.",
+		name = "Unbreakable"
 	},
 	[13013] = {
 		name = "Unbreakable"
@@ -94,20 +94,20 @@ conditions = {
 		name = "Venomous Weapons"
 	},
 	[13020] = {
-		name = "Blessed Earth",
-		description = "While inside the area affected by Blessed Earth, the caster and their party members receive increased healing."
+		description = "While inside the area affected by Blessed Earth, the caster and their party members receive increased healing.",
+		name = "Blessed Earth"
 	},
 	[13021] = {
-		name = "Safeguard",
-		description = "Caster and target shares healing received."
+		description = "Caster and target shares healing received.",
+		name = "Safeguard"
 	},
 	[13022] = {
-		name = "Venomous Weapons",
-		description = "Increases your base critical chance per stack."
+		description = "Increases your base critical chance per stack.",
+		name = "Venomous Weapons"
 	},
 	[13023] = {
-		name = "Crippling Dagger",
-		description = "You take increased damage from the caster of Crippling Dagger."
+		description = "You take increased damage from the caster of Crippling Dagger.",
+		name = "Crippling Dagger"
 	},
 	[13024] = {
 		name = "Death Blossom"
@@ -119,29 +119,29 @@ conditions = {
 		name = "Siniter Plot"
 	},
 	[13027] = {
-		name = "Illusive",
-		description = "You have a chance to dodge any type of damage dealt against you."
+		description = "You have a chance to dodge any type of damage dealt against you.",
+		name = "Illusive"
 	},
 	[13028] = {
 		name = "Shadow Kick"
 	},
 	[13029] = {
-		name = "Brutal Strike",
-		description = "Increase the damage of your next Guillotine."
+		description = "Increase the damage of your next Guillotine.",
+		name = "Brutal Strike"
 	},
 	[13030] = {
 		name = "Guillotine"
 	},
 	[13031] = {
-		name = "Shieldbreak",
-		description = "Basic attacks deal more damage to the target."
+		description = "Basic attacks deal more damage to the target.",
+		name = "Shieldbreak"
 	},
 	[13032] = {
 		name = "Pummel"
 	},
 	[13033] = {
-		name = "Feasting Strike",
-		description = "You have Weapon Leech."
+		description = "You have Weapon Leech.",
+		name = "Feasting Strike"
 	},
 	[13034] = {
 		name = "Bladestorm"
@@ -156,8 +156,8 @@ conditions = {
 		name = "Fierce Leap"
 	},
 	[13038] = {
-		name = "Berserk",
-		description = "Berserk duration is doubled, increasing caster's AP but making them unable to receive healing for the duration of Berserk."
+		description = "Berserk duration is doubled, increasing caster's AP but making them unable to receive healing for the duration of Berserk.",
+		name = "Berserk"
 	},
 	[13039] = {
 		name = "Dire Bear"
@@ -172,20 +172,20 @@ conditions = {
 		name = "Spiked Chains"
 	},
 	[13043] = {
-		name = "Skorn Deathblade",
-		description = "You take increased critical damage."
+		description = "You take increased critical damage.",
+		name = "Skorn Deathblade"
 	},
 	[13044] = {
-		name = "Frostrisen Shards",
-		description = "The critical chance of your next Precision Shot or Quick Fire is increased."
+		description = "The critical chance of your next Precision Shot or Quick Fire is increased.",
+		name = "Frostrisen Shards"
 	},
 	[13045] = {
-		name = "Snaring Shot",
-		description = "Increases the damage of a target that is already affected by Viper Arrow."
+		description = "Increases the damage of a target that is already affected by Viper Arrow.",
+		name = "Snaring Shot"
 	},
 	[13046] = {
-		name = "Dawn Arrow",
-		description = "Caster's next 8 basic attacks will deal additional spell damage."
+		description = "Caster's next 8 basic attacks will deal additional spell damage.",
+		name = "Dawn Arrow"
 	},
 	[13047] = {
 		name = "Dragons Arrow"
@@ -194,24 +194,24 @@ conditions = {
 		name = "Spirit Rangers"
 	},
 	[13049] = {
-		name = "Venom Grenade",
-		description = "Increases target mana cost of skills."
+		description = "Increases target mana cost of skills.",
+		name = "Venom Grenade"
 	},
 	[13050] = {
-		name = "Flash Heal",
-		description = "Increases the caster's next Smite, Holy Shackles or Holy Force damage."
+		description = "Increases the caster's next Smite, Holy Shackles or Holy Force damage.",
+		name = "Flash Heal"
 	},
 	[13051] = {
-		name = "Smite",
-		description = "Increases the caster's critical chance of the next healing skill."
+		description = "Increases the caster's critical chance of the next healing skill.",
+		name = "Smite"
 	},
 	[13052] = {
-		name = "Mend",
-		description = "Mend heals have a chance to reduce Dawn's Light to zero and reduce its mana cost."
+		description = "Mend heals have a chance to reduce Dawn's Light to zero and reduce its mana cost.",
+		name = "Mend"
 	},
 	[13053] = {
-		name = "Dawn's Light",
-		description = ""
+		description = "",
+		name = "Dawn's Light"
 	},
 	[13054] = {
 		name = "Healing Channel"
@@ -220,16 +220,16 @@ conditions = {
 		name = "Healing Channel"
 	},
 	[13056] = {
-		name = "Fireball",
-		description = "Increases the caster's next fireball critical chance."
+		description = "Increases the caster's next fireball critical chance.",
+		name = "Fireball"
 	},
 	[13057] = {
-		name = "Devotion",
-		description = "Increases the caster's next healing skill critical chance"
+		description = "Increases the caster's next healing skill critical chance",
+		name = "Devotion"
 	},
 	[13058] = {
-		name = "Erupt",
-		description = "Damage skills have a chance to set the target aflame, dealing additional spell damage to the target and adjacent creatures."
+		description = "Damage skills have a chance to set the target aflame, dealing additional spell damage to the target and adjacent creatures.",
+		name = "Erupt"
 	},
 	[13059] = {
 		name = "Erupt"
@@ -241,8 +241,8 @@ conditions = {
 		name = "Fissure"
 	},
 	[13063] = {
-		name = "Holy Shackles",
-		description = "Target receives more damage from Smite and Holy Force"
+		description = "Target receives more damage from Smite and Holy Force",
+		name = "Holy Shackles"
 	},
 	[13064] = {
 		name = "Quick Fire"
@@ -257,26 +257,26 @@ conditions = {
 		name = "Flame Tornardo"
 	},
 	[13068] = {
-		name = "Healing Channel",
-		description = "This target cannot receive increased Defense Power from Healing Channel."
+		description = "This target cannot receive increased Defense Power from Healing Channel.",
+		name = "Healing Channel"
 	},
 	[13069] = {
 		name = "Windstrike Spirit"
 	},
 	[13071] = {
-		name = "Combustion",
-		description = "Deals spell damage to adjacent targets after 3 seconds."
+		description = "Deals spell damage to adjacent targets after 3 seconds.",
+		name = "Combustion"
 	},
 	[13072] = {
-		name = "Regenerate",
-		description = "Target healing skill costs less mana."
+		description = "Target healing skill costs less mana.",
+		name = "Regenerate"
 	},
 	[13073] = {
 		name = "Force Push"
 	},
 	[13074] = {
-		name = "Whirlwind",
-		description = "Target is Disarmed, its AP is reduced by the same amount of its weapon. If it is not a player, its AP is reduced by 50%."
+		description = "Target is Disarmed, its AP is reduced by the same amount of its weapon. If it is not a player, its AP is reduced by 50%.",
+		name = "Whirlwind"
 	},
 	[13075] = {
 		name = "Whirlwind"
@@ -294,28 +294,28 @@ conditions = {
 		name = "Shadow Kick"
 	},
 	[13080] = {
-		name = "Haste",
-		description = "Skills and basic attacks made by you deal additional weapon damage."
+		description = "Skills and basic attacks made by you deal additional weapon damage.",
+		name = "Haste"
 	},
 	[13083] = {
-		name = "Siphon",
-		description = "Target is affected by barrier and its haste is increased."
+		description = "Target is affected by barrier and its haste is increased.",
+		name = "Siphon"
 	},
 	[13084] = {
-		name = "Yornish Frostbearer",
-		description = "Your haste is decreased."
+		description = "Your haste is decreased.",
+		name = "Yornish Frostbearer"
 	},
 	[13085] = {
-		name = "Yornish Frostbearer",
-		description = "Your haste is increased."
+		description = "Your haste is increased.",
+		name = "Yornish Frostbearer"
 	},
 	[13086] = {
-		name = "Saltdusk Ritualist",
-		description = "Your AP is decreased"
+		description = "Your AP is decreased",
+		name = "Saltdusk Ritualist"
 	},
 	[13087] = {
-		name = "Saltdusk Ritualist",
-		description = "Your AP is increased."
+		description = "Your AP is increased.",
+		name = "Saltdusk Ritualist"
 	},
 	[13088] = {
 		name = "Eternal Worms"
@@ -339,45 +339,45 @@ conditions = {
 		name = "Healing Air Sphere"
 	},
 	[13095] = {
-		name = "Venom Grenade",
-		description = "Increases target mana cost of skills."
+		description = "Increases target mana cost of skills.",
+		name = "Venom Grenade"
 	},
 	[13096] = {
-		name = "Arcane Pulse",
-		description = "The critical chance of your next Precision Shot or Quick Fire is increased."
+		description = "The critical chance of your next Precision Shot or Quick Fire is increased.",
+		name = "Arcane Pulse"
 	},
 	[13097] = {
 		name = "Flame Tornardo"
 	},
 	[13098] = {
-		name = "Skeleton",
-		description = "If the target is slain while affected by Curse, gain additional Aether."
+		description = "If the target is slain while affected by Curse, gain additional Aether.",
+		name = "Skeleton"
 	},
 	[13099] = {
-		name = "Generous Influence",
-		description = "Sharing healing received."
+		description = "Sharing healing received.",
+		name = "Generous Influence"
 	},
 	[13100] = {
-		name = "Generous Influence",
-		description = "Sharing healing received."
+		description = "Sharing healing received.",
+		name = "Generous Influence"
 	},
 	[13101] = {
 		name = "Wind Wall"
 	},
 	[13102] = {
-		name = "Magic Rupture",
-		description = "The effectiveness of Leech, Curse and Siphon is increased."
+		description = "The effectiveness of Leech, Curse and Siphon is increased.",
+		name = "Magic Rupture"
 	},
 	[13103] = {
-		name = "Magic Rupture",
-		description = "Arcane Pulse and Arcane Torrent deal increased damage."
+		description = "Arcane Pulse and Arcane Torrent deal increased damage.",
+		name = "Magic Rupture"
 	},
 	[13104] = {
 		name = "Venomous Weapons"
 	},
 	[13105] = {
-		name = "Air Aura",
-		description = "Next incoming targeted skill will be reflected back to the caster."
+		description = "Next incoming targeted skill will be reflected back to the caster.",
+		name = "Air Aura"
 	},
 	[13106] = {
 		name = "Purify"
@@ -389,19 +389,19 @@ conditions = {
 		name = "Smite"
 	},
 	[13109] = {
-		name = "Party Recovery",
-		description = "Effectiveness of all healing overtime is increased on the target."
+		description = "Effectiveness of all healing overtime is increased on the target.",
+		name = "Party Recovery"
 	},
 	[13110] = {
 		name = "Terrorize"
 	},
 	[13111] = {
-		name = "Shackles of Pain",
-		description = "If the target is healed, it will heal the caster as well."
+		description = "If the target is healed, it will heal the caster as well.",
+		name = "Shackles of Pain"
 	},
 	[13112] = {
-		name = "Smiting Smash",
-		description = "Caster's next Blessed Earth damage is increased."
+		description = "Caster's next Blessed Earth damage is increased.",
+		name = "Smiting Smash"
 	},
 	[13113] = {
 		name = "Bash"
@@ -419,15 +419,15 @@ conditions = {
 		name = "Walders Bow"
 	},
 	[16004] = {
-		name = "Silver into Gold",
-		description = "Increases silver drop from creatures by 1."
+		description = "Increases silver drop from creatures by 1.",
+		name = "Silver into Gold"
 	},
 	[16005] = {
 		name = "Vial of Poison"
 	},
 	[16006] = {
-		name = "Merlot",
-		description = "Increases your in-combat regeneration by 1% "
+		description = "Increases your in-combat regeneration by 1% ",
+		name = "Merlot"
 	},
 	[16007] = {
 		name = "Codex Glasses"
@@ -520,15 +520,15 @@ conditions = {
 		name = "Emergency Blockage"
 	},
 	[16039] = {
-		name = "Aegis Rune",
-		description = "Gain a shield that absorb 600 damage. Increase Attack Power by 15 while the shield is active."
+		description = "Gain a shield that absorb 600 damage. Increase Attack Power by 15 while the shield is active.",
+		name = "Aegis Rune"
 	},
 	[16040] = {
 		name = "Bag of Caltrops"
 	},
 	[16041] = {
-		name = "Stepping Fuel",
-		description = "Increases your Movement Speed by 15% and leave behind a trail of fire for 5 seconds, dealing 80 to 155 damage per second to enemies that step on it."
+		description = "Increases your Movement Speed by 15% and leave behind a trail of fire for 5 seconds, dealing 80 to 155 damage per second to enemies that step on it.",
+		name = "Stepping Fuel"
 	},
 	[16042] = {
 		name = "Hobgoblin's Tooth Amulet"
@@ -543,16 +543,16 @@ conditions = {
 		name = "Musty Liquid"
 	},
 	[16046] = {
-		name = "Pompous Neck Protection",
-		description = "Increases Defense Power by 8. Protect you from 1 damage over time effect, 2 minute cooldown."
+		description = "Increases Defense Power by 8. Protect you from 1 damage over time effect, 2 minute cooldown.",
+		name = "Pompous Neck Protection"
 	},
 	[16047] = {
-		name = "Dwarven Mining Helmet",
-		description = "When struck by a creature while mining, become immune untill you are finish mining. 5 minute cooldown."
+		description = "When struck by a creature while mining, become immune untill you are finish mining. 5 minute cooldown.",
+		name = "Dwarven Mining Helmet"
 	},
 	[16048] = {
-		name = "Ice Spikes",
-		description = "Increases Vitality by 25. You ignore the slow from the \"Chilled\" effect, but still marked by the effect."
+		description = "Increases Vitality by 25. You ignore the slow from the \"Chilled\" effect, but still marked by the effect.",
+		name = "Ice Spikes"
 	},
 	[16049] = {
 		name = "Emergencial Campfire"
@@ -567,15 +567,15 @@ conditions = {
 		name = "Cloak of Chivalry"
 	},
 	[16053] = {
-		name = "Torment Configuration",
-		description = "Redirects half of all damage suffered back to the source."
+		description = "Redirects half of all damage suffered back to the source.",
+		name = "Torment Configuration"
 	},
 	[16054] = {
 		name = "Omega Stone"
 	},
 	[16055] = {
-		name = "Omega Stone",
-		description = "User gets 20% reduced movement speed and 10% reduced stats."
+		description = "User gets 20% reduced movement speed and 10% reduced stats.",
+		name = "Omega Stone"
 	},
 	[16056] = {
 		name = "Ratoxin Bomb"
@@ -584,12 +584,12 @@ conditions = {
 		name = "Shamanic Brooch"
 	},
 	[16058] = {
-		name = "Idol of Gluttony",
-		description = "Convert 20% of all damage dealt by basic attacks and skills to Health."
+		description = "Convert 20% of all damage dealt by basic attacks and skills to Health.",
+		name = "Idol of Gluttony"
 	},
 	[16059] = {
-		name = "The Grim Smile",
-		description = "restore 600 Health everytime you slay an enemy."
+		description = "restore 600 Health everytime you slay an enemy.",
+		name = "The Grim Smile"
 	},
 	[16060] = {
 		name = "Eldritch Crow Mask"
@@ -625,8 +625,8 @@ conditions = {
 		name = "Dunewalker Cloak"
 	},
 	[16071] = {
-		name = "Toadish Cloak",
-		description = "Reduce spell damage taken from damage over time effects by 10."
+		description = "Reduce spell damage taken from damage over time effects by 10.",
+		name = "Toadish Cloak"
 	},
 	[16072] = {
 		name = "Frost Ward"
@@ -638,8 +638,8 @@ conditions = {
 		name = "Ghostwalker Shoes"
 	},
 	[16075] = {
-		name = "Reflective Carapace",
-		description = "Increases user Defense Power by 15 and redirects 5% of all damage suffered back to the source."
+		description = "Increases user Defense Power by 15 and redirects 5% of all damage suffered back to the source.",
+		name = "Reflective Carapace"
 	},
 	[16076] = {
 		name = "Garment of Skorn"
@@ -672,35 +672,35 @@ conditions = {
 		name = "Magic Ward"
 	},
 	[16502] = {
-		name = "Mana Overcharge",
-		description = "Increases the damage of skills of the caster by 10%, also increases the mana cost by 15%}."
+		description = "Increases the damage of skills of the caster by 10%, also increases the mana cost by 15%}.",
+		name = "Mana Overcharge"
 	},
 	[16503] = {
 		name = "Steady Stance"
 	},
 	[16504] = {
-		name = "Hammer Bash",
-		description = ""
+		description = "",
+		name = "Hammer Bash"
 	},
 	[16505] = {
-		name = "Lethal Edge",
-		description = "Increase caster's critical chance by 10%"
+		description = "Increase caster's critical chance by 10%",
+		name = "Lethal Edge"
 	},
 	[16506] = {
-		name = "Fencer's Escape",
-		description = "Reduces the duration of movement impairing effects by 30%"
+		description = "Reduces the duration of movement impairing effects by 30%",
+		name = "Fencer's Escape"
 	},
 	[16507] = {
-		name = "Blade Warding",
-		description = "Caster is affected by a Barrier and movement impairment effects duration are reduced by "
+		description = "Caster is affected by a Barrier and movement impairment effects duration are reduced by ",
+		name = "Blade Warding"
 	},
 	[16508] = {
-		name = "Blade Warding Barrier",
-		description = ""
+		description = "",
+		name = "Blade Warding Barrier"
 	},
 	[16509] = {
-		name = "Power Surge",
-		description = "Increase the damage of skills and basic attacks by 12% but receive 5% more damage."
+		description = "Increase the damage of skills and basic attacks by 12% but receive 5% more damage.",
+		name = "Power Surge"
 	},
 	[16510] = {
 		name = "Rending Throw"
@@ -742,15 +742,15 @@ conditions = {
 		name = "Assault Tonic"
 	},
 	[23010] = {
-		name = "Weakening Poison",
-		description = "User's basic attacks reduce the DP of targets by 1 for 5 seconds every stack."
+		description = "User's basic attacks reduce the DP of targets by 1 for 5 seconds every stack.",
+		name = "Weakening Poison"
 	},
 	[23011] = {
 		name = "Weakening Poison"
 	},
 	[23012] = {
-		name = "Toxic Poison",
-		description = "User's basic attacks deals 2 damage per second per stack."
+		description = "User's basic attacks deals 2 damage per second per stack.",
+		name = "Toxic Poison"
 	},
 	[23013] = {
 		name = "Toxic Poison"
@@ -765,38 +765,38 @@ conditions = {
 		name = "Tonic of Blood"
 	},
 	[23017] = {
-		name = "Tonic of Running",
-		description = ""
+		description = "",
+		name = "Tonic of Running"
 	},
 	[23018] = {
 		name = "Drop of Grace"
 	},
 	[23019] = {
-		name = "Fatiguing Poison",
-		description = "Caster's basic attacks reduces target's Haste."
+		description = "Caster's basic attacks reduces target's Haste.",
+		name = "Fatiguing Poison"
 	},
 	[23020] = {
-		name = "Fatiguing Poison",
-		description = ""
+		description = "",
+		name = "Fatiguing Poison"
 	},
 	[23021] = {
 		name = "Tree of Life Sap"
 	},
 	[23023] = {
-		name = "Vampirism Venom",
-		description = "User's basic attacks apply Life poison, target's health is drained by 2 every second."
+		description = "User's basic attacks apply Life poison, target's health is drained by 2 every second.",
+		name = "Vampirism Venom"
 	},
 	[23024] = {
-		name = "Vampirism Venom",
-		description = "Target's health is drained every second."
+		description = "Target's health is drained every second.",
+		name = "Vampirism Venom"
 	},
 	[23025] = {
-		name = "Combat Panacea",
-		description = "Instantly removes 1 random harmful effect afflicting the user and increase Attack Power by 30."
+		description = "Instantly removes 1 random harmful effect afflicting the user and increase Attack Power by 30.",
+		name = "Combat Panacea"
 	},
 	[23026] = {
-		name = "Wild Pheromones",
-		description = "Instantly force creatures in a medium area to attack the user for 6 seconds. Increase Defense Power by 30."
+		description = "Instantly force creatures in a medium area to attack the user for 6 seconds. Increase Defense Power by 30.",
+		name = "Wild Pheromones"
 	},
 	[23027] = {
 		name = "Vigorous Draught"
@@ -817,8 +817,8 @@ conditions = {
 		name = "Resilience Mutagen"
 	},
 	[23033] = {
-		name = "Resilience Mutagen",
-		description = "For each harmful effect afflicting the user when he drinks this elixir, raises his Attack Power by 12 instead, up to a total of 60 Attack Power."
+		description = "For each harmful effect afflicting the user when he drinks this elixir, raises his Attack Power by 12 instead, up to a total of 60 Attack Power.",
+		name = "Resilience Mutagen"
 	},
 	[23034] = {
 		name = "Sage's Essence"
@@ -827,8 +827,8 @@ conditions = {
 		name = "Frenzy Potion"
 	},
 	[23036] = {
-		name = "Potent Pheromones",
-		description = "Instantly force creatures in a medium area to attack the user for 6 seconds. Increase Defense Power by 60."
+		description = "Instantly force creatures in a medium area to attack the user for 6 seconds. Increase Defense Power by 60.",
+		name = "Potent Pheromones"
 	},
 	[23037] = {
 		name = "Sumptuous Panacea"
@@ -843,26 +843,26 @@ conditions = {
 		name = "Quickening Concoction"
 	},
 	[23041] = {
-		name = "Slowing Poison",
-		description = "User's basic attacks reduces the target's Movement Speed by 1% per stack."
+		description = "User's basic attacks reduces the target's Movement Speed by 1% per stack.",
+		name = "Slowing Poison"
 	},
 	[23042] = {
 		name = "Slowing Poison"
 	},
 	[23043] = {
-		name = "Searing Poison",
-		description = "User's basic attacks apply a stack of Searing Poison, dealing 7 damage per second."
+		description = "User's basic attacks apply a stack of Searing Poison, dealing 7 damage per second.",
+		name = "Searing Poison"
 	},
 	[23044] = {
 		name = "Searing Poison"
 	},
 	[23045] = {
-		name = "Magic Leeching Venom",
-		description = "Basic attacks apply a stack of Mana Poison, draining 5 mana per second."
+		description = "Basic attacks apply a stack of Mana Poison, draining 5 mana per second.",
+		name = "Magic Leeching Venom"
 	},
 	[23046] = {
-		name = "Magic Leeching Venom",
-		description = "Mana is drained by 5 per stack every second."
+		description = "Mana is drained by 5 per stack every second.",
+		name = "Magic Leeching Venom"
 	},
 	[23047] = {
 		name = "Combat Panacea"
@@ -889,8 +889,8 @@ conditions = {
 		name = "Living Saint"
 	},
 	[30008] = {
-		name = "Windstrike Spirit",
-		description = "Basic attacks have 50% chance to deal additional damage"
+		description = "Basic attacks have 50% chance to deal additional damage",
+		name = "Windstrike Spirit"
 	},
 	[30009] = {
 		name = "Regenerate"
@@ -944,12 +944,12 @@ conditions = {
 		name = "Blessed Earth Heal"
 	},
 	[30026] = {
-		name = "Sinister Plot",
-		description = "Generate 20 Aether per second."
+		description = "Generate 20 Aether per second.",
+		name = "Sinister Plot"
 	},
 	[30027] = {
-		name = "Illusive",
-		description = "Dodges all incoming basic attacks and non-area ability damage, but your Weapon Power and Spell Power is reduced by 30%."
+		description = "Dodges all incoming basic attacks and non-area ability damage, but your Weapon Power and Spell Power is reduced by 30%.",
+		name = "Illusive"
 	},
 	[30028] = {
 		name = "Arcane Pulse"
@@ -958,15 +958,15 @@ conditions = {
 		name = "Stalk"
 	},
 	[30031] = {
-		name = "Wind Arrow",
-		description = "Decreases the caster's global cooldown."
+		description = "Decreases the caster's global cooldown.",
+		name = "Wind Arrow"
 	},
 	[30032] = {
 		name = "Demon Arrow"
 	},
 	[30033] = {
-		name = "Anti-Healing Venom",
-		description = "Reduces the healing received from skills by 50%."
+		description = "Reduces the healing received from skills by 50%.",
+		name = "Anti-Healing Venom"
 	},
 	[30034] = {
 		name = "Viper Arrow"
@@ -1008,8 +1008,8 @@ conditions = {
 		name = "Curse"
 	},
 	[30047] = {
-		name = "Unchained",
-		description = "Immune to any movement impairing effects."
+		description = "Immune to any movement impairing effects.",
+		name = "Unchained"
 	},
 	[30048] = {
 		name = "Banner of Virtue"
@@ -1054,19 +1054,19 @@ conditions = {
 		name = "Smiting Smash"
 	},
 	[30062] = {
-		name = "Unbreakable",
-		description = "Absorb 50% of all damage received. Heal all the damage absorbed at the end of Unbreakable"
+		description = "Absorb 50% of all damage received. Heal all the damage absorbed at the end of Unbreakable",
+		name = "Unbreakable"
 	},
 	[30063] = {
-		name = "Venomous Weapons",
-		description = "Caster's basic attacks reduces its target's DP."
+		description = "Caster's basic attacks reduces its target's DP.",
+		name = "Venomous Weapons"
 	},
 	[30064] = {
 		name = "Venomous Weapons"
 	},
 	[30065] = {
-		name = "Shadow Kick",
-		description = "Channeling is 30% slower."
+		description = "Channeling is 30% slower.",
+		name = "Shadow Kick"
 	},
 	[30066] = {
 		name = "Venom Grenade"
@@ -1081,15 +1081,15 @@ conditions = {
 		name = "Bow Mastery"
 	},
 	[30070] = {
-		name = "Bloodbath",
-		description = "Heals by a portion of the damage dealt."
+		description = "Heals by a portion of the damage dealt.",
+		name = "Bloodbath"
 	},
 	[30071] = {
 		name = "Giant's Blood"
 	},
 	[30072] = {
-		name = "Cheap Shot",
-		description = "Critical chance increased."
+		description = "Critical chance increased.",
+		name = "Cheap Shot"
 	},
 	[30073] = {
 		name = "Blitz"
@@ -1098,16 +1098,16 @@ conditions = {
 		name = "Bloodlust"
 	},
 	[30075] = {
-		name = "Clear Focus",
-		description = "Every 5th basic attack on the same target, restores 10 Aether."
+		description = "Every 5th basic attack on the same target, restores 10 Aether.",
+		name = "Clear Focus"
 	},
 	[30076] = {
-		name = "Trickster",
-		description = "Every hit the caster land on the target, will steal movement speed from it by 1%."
+		description = "Every hit the caster land on the target, will steal movement speed from it by 1%.",
+		name = "Trickster"
 	},
 	[30077] = {
-		name = "Trickster",
-		description = ""
+		description = "",
+		name = "Trickster"
 	},
 	[30078] = {
 		name = "Revenge"
@@ -1116,12 +1116,12 @@ conditions = {
 		name = "Air Aura Shield"
 	},
 	[30080] = {
-		name = "Shackles of Pain",
-		description = "The target receives 50% of the damage you take."
+		description = "The target receives 50% of the damage you take.",
+		name = "Shackles of Pain"
 	},
 	[30081] = {
-		name = "Safeguard",
-		description = "Redirect 50% of the damage taken to the caster."
+		description = "Redirect 50% of the damage taken to the caster.",
+		name = "Safeguard"
 	},
 	[30082] = {
 		name = "Undying Will"
@@ -1133,12 +1133,12 @@ conditions = {
 		name = "Concentrated Impact"
 	},
 	[30085] = {
-		name = "Bloodbath Frenzy",
-		description = "Heals by a portion of the damage dealt."
+		description = "Heals by a portion of the damage dealt.",
+		name = "Bloodbath Frenzy"
 	},
 	[30086] = {
-		name = "Exhausted",
-		description = "Unable to be affected by Haste again."
+		description = "Unable to be affected by Haste again.",
+		name = "Exhausted"
 	},
 	[30087] = {
 		name = "Wind Mastery"
@@ -1180,8 +1180,8 @@ conditions = {
 		name = "Frost Armor"
 	},
 	[30100] = {
-		name = "Guardian",
-		description = "Heals 1% of your total health per second."
+		description = "Heals 1% of your total health per second.",
+		name = "Guardian"
 	},
 	[30101] = {
 		name = "Healing Bond"
@@ -1199,91 +1199,91 @@ conditions = {
 		name = "Death Touch"
 	},
 	[30106] = {
-		name = "Deep Frozen",
-		description = "Frost Lances are a guaranteed critical hit."
+		description = "Frost Lances are a guaranteed critical hit.",
+		name = "Deep Frozen"
 	},
 	[30107] = {
-		name = "Arctic Piercing",
-		description = "Increases the caster's next Frost Shard or Ice Storm Spell Damage."
+		description = "Increases the caster's next Frost Shard or Ice Storm Spell Damage.",
+		name = "Arctic Piercing"
 	},
 	[30108] = {
-		name = "Shackles of Pain",
-		description = "You receive 50% of the damage taken by the caster."
+		description = "You receive 50% of the damage taken by the caster.",
+		name = "Shackles of Pain"
 	},
 	[30109] = {
-		name = "Healing Percent Modifier",
-		description = ""
+		description = "",
+		name = "Healing Percent Modifier"
 	},
 	[30110] = {
-		name = "Fear",
-		description = ""
+		description = "",
+		name = "Fear"
 	},
 	[30111] = {
-		name = "Frostshard Slow",
-		description = ""
+		description = "",
+		name = "Frostshard Slow"
 	},
 	[30112] = {
-		name = "Venom Grenade",
-		description = ""
+		description = "",
+		name = "Venom Grenade"
 	},
 	[30113] = {
-		name = "Erupt",
-		description = ""
+		description = "",
+		name = "Erupt"
 	},
 	[30114] = {
-		name = "Blind",
-		description = "You are unable to land basic attacks"
+		description = "You are unable to land basic attacks",
+		name = "Blind"
 	},
 	[30115] = {
-		name = "Default Snare",
-		description = ""
+		description = "",
+		name = "Default Snare"
 	},
 	[30116] = {
-		name = "Default Paralyze",
-		description = ""
+		description = "",
+		name = "Default Paralyze"
 	},
 	[30117] = {
-		name = "Cold Blast",
-		description = ""
+		description = "",
+		name = "Cold Blast"
 	},
 	[30118] = {
-		name = "Spirit Shield",
-		description = ""
+		description = "",
+		name = "Spirit Shield"
 	},
 	[30119] = {
-		name = "Shrapnel Cannon",
-		description = ""
+		description = "",
+		name = "Shrapnel Cannon"
 	},
 	[30120] = {
-		name = "Exploitation",
-		description = ""
+		description = "",
+		name = "Exploitation"
 	},
 	[30121] = {
-		name = "Default Confuse",
-		description = ""
+		description = "",
+		name = "Default Confuse"
 	},
 	[30122] = {
-		name = "Drake Head Cannon",
-		description = ""
+		description = "",
+		name = "Drake Head Cannon"
 	},
 	[30128] = {
-		name = "Frostbite",
-		description = "Your Frost Lances ignore 25% of the Spell Defense of the target."
+		description = "Your Frost Lances ignore 25% of the Spell Defense of the target.",
+		name = "Frostbite"
 	},
 	[33014] = {
-		name = "Dawns Apotheosis",
-		description = ""
+		description = "",
+		name = "Dawns Apotheosis"
 	},
 	[33015] = {
-		name = "Witch's Call",
-		description = ""
+		description = "",
+		name = "Witch's Call"
 	},
 	[33016] = {
-		name = "Eye of the Storm",
-		description = ""
+		description = "",
+		name = "Eye of the Storm"
 	},
 	[30131] = {
-		name = "Crow's Corruption",
-		description = ""
+		description = "",
+		name = "Crow's Corruption"
 	}
 }

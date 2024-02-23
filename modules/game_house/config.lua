@@ -58,16 +58,16 @@ effort = {
 		base = "This resource is spent when placing an item on Community Farmland.\nOpen World activities such as killing creatures and participating in quests will restore it.",
 		complement = {
 			{
-				level = 10,
-				text = "\nYour current maximum Effort is 1200, and this limit will increase by 1200 at level 10."
+				text = "\nYour current maximum Effort is 1200, and this limit will increase by 1200 at level 10.",
+				level = 10
 			},
 			{
-				level = 15,
-				text = "\nYour current maximum Effort is 2400, and this limit will increase by 1200 at level 15."
+				text = "\nYour current maximum Effort is 2400, and this limit will increase by 1200 at level 15.",
+				level = 15
 			},
 			{
-				level = 25,
-				text = "\nYour current maximum Effort is 3600, and this limit will increase by 1200 at level 25."
+				text = "\nYour current maximum Effort is 3600, and this limit will increase by 1200 at level 25.",
+				level = 25
 			},
 			{
 				text = "\nYour current maximum Effort is 4800."
@@ -311,66 +311,68 @@ productionTiles = {
 	[30] = 220,
 	[22] = 60
 }
-communityLandFarmPriceMultiplier = 1.25
+communityLandFarmPriceMultiplier = 1.05
 houseData = {
 	windows = {
 		{
 			window_id = "land",
 			window_data = {
 				{
-					house_model = 1,
+					floors = 1,
 					size = 10,
 					description = "Some description here",
 					depot = 60,
 					clientId = 37014,
-					price = 10000,
-					name = "Small Shack",
 					tier = 1,
+					name = "Small Shack",
+					price = 10000,
 					itemId = 40466,
 					house_upgrade = 2,
-					house_rooms = 1
+					house_rooms = 1,
+					house_model = 1
 				},
 				{
-					house_model = 4,
 					size = 12,
 					description = "Some description here",
 					depot = 60,
 					clientId = 37015,
-					price = 500000,
-					name = "Medium Shack",
 					tier = 1,
+					name = "Medium Shack",
+					price = 500000,
 					itemId = 40467,
 					house_upgrade = 5,
-					house_rooms = 1
+					house_rooms = 1,
+					house_model = 4
 				},
 				{
-					house_model = 8,
 					size = 15,
 					description = "Some description here",
 					depot = 60,
 					clientId = 37016,
-					price = 5000000,
-					name = "Large Shack",
 					tier = 1,
+					name = "Large Shack",
+					price = 5000000,
 					itemId = 40468,
 					house_upgrade = 9,
-					house_rooms = 1
+					house_rooms = 1,
+					house_model = 8
 				},
 				{
-					house_model = 2,
-					size = 10,
+					floors = 1,
 					description = "Some description here",
 					depot = 61,
 					clientId = 37014,
-					price = 0,
-					name = "Small Wooden Cabin",
+					size = 10,
 					tier = 2,
+					name = "Small Wooden Cabin",
+					price = 0,
 					house_upgrade = 3,
 					house_rooms = 1,
+					house_model = 2,
 					bonuses = {
 						{
-							tooltip = "Plenty Harvest grants 50% more materials on gather.",
-							text = "Chance of plenty harvest: 20%"
+							text = "Chance of plenty harvest: 20%",
+							tooltip = "Plenty Harvest grants 50% more materials on gather."
 						}
 					},
 					materials = {
@@ -401,20 +403,20 @@ houseData = {
 					}
 				},
 				{
-					house_model = 5,
 					size = 12,
 					description = "Some description here",
 					depot = 61,
 					clientId = 37015,
-					price = 0,
-					name = "Medium Wooden Cabin",
 					tier = 2,
+					name = "Medium Wooden Cabin",
+					price = 0,
 					house_upgrade = 6,
 					house_rooms = 1,
+					house_model = 5,
 					bonuses = {
 						{
-							tooltip = "Plenty Harvest grants 50% more materials on gather.",
-							text = "Chance of plenty harvest: 20%"
+							text = "Chance of plenty harvest: 20%",
+							tooltip = "Plenty Harvest grants 50% more materials on gather."
 						}
 					},
 					materials = {
@@ -445,20 +447,20 @@ houseData = {
 					}
 				},
 				{
-					house_model = 9,
 					size = 15,
 					description = "Some description here",
 					depot = 61,
 					clientId = 37016,
-					price = 0,
-					name = "Large Wooden Cabin",
 					tier = 2,
+					name = "Large Wooden Cabin",
+					price = 0,
 					house_upgrade = 10,
 					house_rooms = 1,
+					house_model = 9,
 					bonuses = {
 						{
-							tooltip = "Plenty Harvest grants 50% more materials on gather.",
-							text = "Chance of plenty harvest: 20%"
+							text = "Chance of plenty harvest: 20%",
+							tooltip = "Plenty Harvest grants 50% more materials on gather."
 						}
 					},
 					materials = {
@@ -489,15 +491,16 @@ houseData = {
 					}
 				},
 				{
-					house_model = 3,
-					size = 10,
+					floors = 2,
 					description = "Some description here",
 					depot = 62,
+					clientId = 37014,
+					size = 10,
+					tier = 3,
 					name = "Small Wooden House",
 					price = 0,
-					clientId = 37014,
-					tier = 3,
 					house_rooms = 2,
+					house_model = 3,
 					bonuses = {
 						{
 							text = "Increase Room Amount"
@@ -537,16 +540,16 @@ houseData = {
 					}
 				},
 				{
-					house_model = 6,
 					size = 12,
 					description = "Some description here",
 					depot = 62,
 					clientId = 37015,
-					price = 0,
-					name = "Medium Wooden House",
 					tier = 3,
+					name = "Medium Wooden House",
+					price = 0,
 					house_upgrade = 7,
 					house_rooms = 2,
+					house_model = 6,
 					bonuses = {
 						{
 							text = "Increase Room Amount"
@@ -586,16 +589,16 @@ houseData = {
 					}
 				},
 				{
-					house_model = 10,
 					size = 15,
 					description = "Some description here",
 					depot = 62,
 					clientId = 37016,
-					price = 0,
-					name = "Large Wooden House",
 					tier = 3,
+					name = "Large Wooden House",
+					price = 0,
 					house_upgrade = 11,
 					house_rooms = 2,
+					house_model = 10,
 					bonuses = {
 						{
 							text = "Increase Room Amount"
@@ -635,19 +638,19 @@ houseData = {
 					}
 				},
 				{
-					house_model = 7,
 					size = 12,
 					description = "Some description here",
 					depot = 63,
-					name = "Medium Stone House",
-					price = 0,
 					clientId = 37015,
 					tier = 4,
+					name = "Medium Stone House",
+					price = 0,
 					house_rooms = 2,
+					house_model = 7,
 					bonuses = {
 						{
-							tooltip = "Plenty Harvest grants 50% more materials on gather.",
-							text = "Chance of plenty harvest: 40%"
+							text = "Chance of plenty harvest: 40%",
+							tooltip = "Plenty Harvest grants 50% more materials on gather."
 						}
 					},
 					materials = {
@@ -684,20 +687,20 @@ houseData = {
 					}
 				},
 				{
-					house_model = 11,
 					size = 15,
 					description = "Some description here",
 					depot = 63,
 					clientId = 37016,
-					price = 0,
-					name = "Large Stone House",
 					tier = 4,
+					name = "Large Stone House",
+					price = 0,
 					house_upgrade = 12,
 					house_rooms = 2,
+					house_model = 11,
 					bonuses = {
 						{
-							tooltip = "Plenty Harvest grants 50% more materials on gather.",
-							text = "Chance of plenty harvest: 40%"
+							text = "Chance of plenty harvest: 40%",
+							tooltip = "Plenty Harvest grants 50% more materials on gather."
 						}
 					},
 					materials = {
@@ -734,15 +737,15 @@ houseData = {
 					}
 				},
 				{
-					house_model = 12,
 					size = 15,
 					description = "Some description here",
 					depot = 64,
-					name = "Large Stone Mansion",
-					price = 0,
 					clientId = 37016,
 					tier = 5,
+					name = "Large Stone Mansion",
+					price = 0,
 					house_rooms = 3,
+					house_model = 12,
 					bonuses = {
 						{
 							text = "Increase Room Amount"
@@ -782,89 +785,89 @@ houseData = {
 					}
 				},
 				{
-					house_model = 13,
-					size = 22,
 					description = "Shack Stronghold",
-					price = 200000,
+					size = 22,
 					clientId = 38522,
-					name = "Shack Stronghold",
 					tier = 1,
+					name = "Shack Stronghold",
+					price = 200000,
 					itemId = 41974,
 					house_upgrade = 14,
 					house_rooms = 3,
+					house_model = 13,
 					materials = {}
 				},
 				{
-					house_model = 14,
-					size = 22,
 					description = "Wood Stronghold",
-					price = 200000,
+					size = 22,
 					clientId = 38522,
-					name = "Wood Stronghold",
 					tier = 2,
+					name = "Wood Stronghold",
+					price = 200000,
 					itemId = 41974,
 					house_upgrade = 15,
 					house_rooms = 4,
+					house_model = 14,
 					materials = {}
 				},
 				{
-					house_model = 15,
-					size = 22,
-					price = 200000,
-					name = "Stone Stronghold",
-					clientId = 38522,
 					description = "Stone Stronghold",
+					size = 22,
+					clientId = 38522,
 					tier = 3,
+					name = "Stone Stronghold",
+					price = 200000,
 					itemId = 41974,
 					house_rooms = 4,
+					house_model = 15,
 					materials = {}
 				},
 				{
-					house_model = 16,
-					size = 30,
-					price = 200000,
-					name = "Stone Fort",
-					clientId = 38521,
 					description = "Stone Fort",
+					size = 30,
+					clientId = 38521,
 					tier = 1,
+					name = "Stone Fort",
+					price = 200000,
 					itemId = 41973,
 					house_rooms = 4,
+					house_model = 16,
 					materials = {}
 				},
 				{
-					house_model = 17,
-					size = 30,
-					price = 200000,
-					name = "Wooden Fort",
-					clientId = 38521,
 					description = "Wooden Fort",
+					size = 30,
+					clientId = 38521,
 					tier = 1,
+					name = "Wooden Fort",
+					price = 200000,
 					itemId = 41973,
 					house_rooms = 4,
+					house_model = 17,
 					materials = {}
 				},
 				{
-					house_model = 18,
-					size = 30,
-					price = 200000,
-					name = "Sandstone Fort",
-					clientId = 38521,
 					description = "Sandstone Fort",
+					size = 30,
+					clientId = 38521,
 					tier = 1,
+					name = "Sandstone Fort",
+					price = 200000,
 					itemId = 41973,
 					house_rooms = 4,
+					house_model = 18,
 					materials = {}
 				},
 				{
-					house_model = 19,
-					size = 30,
-					price = 200000,
-					name = "Darkwood Fort",
-					clientId = 38521,
 					description = "Darkwood Fort",
+					size = 30,
+					clientId = 38521,
 					tier = 1,
+					name = "Darkwood Fort",
+					price = 200000,
 					itemId = 41973,
 					house_rooms = 4,
+					house_model = 19,
 					materials = {}
 				}
 			}
@@ -873,13 +876,13 @@ houseData = {
 			window_id = "farming",
 			window_data = {
 				{
-					name = "Potato",
-					price = 68,
 					model = 25,
+					name = "Potato",
 					clientId = 25131,
-					effort = 2,
 					stackingType = 2,
+					price = 60,
 					itemId = 31847,
+					effort = 2,
 					gathering = {
 						timeToMature = "1 hour",
 						rewards = {
@@ -915,13 +918,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Carrot",
-					price = 136,
 					model = 26,
+					name = "Carrot",
 					clientId = 25133,
-					effort = 5,
 					stackingType = 2,
+					price = 140,
 					itemId = 31837,
+					effort = 5,
 					gathering = {
 						timeToMature = "2 hours",
 						rewards = {
@@ -957,13 +960,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Wheat",
-					price = 340,
 					model = 27,
+					name = "Wheat",
 					clientId = 30284,
-					effort = 15,
 					stackingType = 2,
+					price = 360,
 					itemId = 31851,
+					effort = 15,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -999,13 +1002,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Corn",
-					price = 840,
 					model = 28,
+					name = "Corn",
 					clientId = 25130,
-					effort = 37,
 					stackingType = 2,
+					price = 940,
 					itemId = 31839,
+					effort = 37,
 					gathering = {
 						timeToMature = "15 hours",
 						rewards = {
@@ -1041,13 +1044,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Cabbage",
-					price = 340,
 					model = 29,
+					name = "Cabbage",
 					clientId = 30225,
-					effort = 15,
 					stackingType = 2,
+					price = 360,
 					itemId = 31864,
+					effort = 15,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -1083,13 +1086,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Onion",
-					price = 500,
 					model = 30,
+					name = "Onion",
 					clientId = 25128,
-					effort = 22,
 					stackingType = 2,
+					price = 560,
 					itemId = 31862,
+					effort = 22,
 					gathering = {
 						timeToMature = "9 hours",
 						rewards = {
@@ -1125,13 +1128,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Beans",
-					price = 840,
 					model = 31,
+					name = "Beans",
 					clientId = 30219,
-					effort = 37,
 					stackingType = 2,
+					price = 940,
 					itemId = 31863,
+					effort = 37,
 					gathering = {
 						timeToMature = "15 hours",
 						rewards = {
@@ -1167,13 +1170,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Pumpkin",
-					price = 1320,
 					model = 32,
+					name = "Pumpkin",
 					clientId = 30234,
-					effort = 60,
 					stackingType = 2,
+					price = 1500,
 					itemId = 31848,
+					effort = 60,
 					gathering = {
 						timeToMature = "24 hours",
 						rewards = {
@@ -1209,13 +1212,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Pea",
-					price = 1080,
 					model = 33,
+					name = "Pea",
 					clientId = 30231,
-					effort = 48,
 					stackingType = 2,
+					price = 1200,
 					itemId = 31845,
+					effort = 48,
 					gathering = {
 						timeToMature = "19.5 hours",
 						rewards = {
@@ -1251,13 +1254,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Garlic",
-					price = 920,
 					model = 34,
+					name = "Garlic",
 					clientId = 30228,
-					effort = 41,
 					stackingType = 2,
+					price = 1000,
 					itemId = 31841,
+					effort = 41,
 					gathering = {
 						timeToMature = "16.5 hours",
 						rewards = {
@@ -1293,13 +1296,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Brocolli",
-					price = 840,
 					model = 35,
+					name = "Brocolli",
 					clientId = 30222,
-					effort = 37,
 					stackingType = 2,
+					price = 940,
 					itemId = 31836,
+					effort = 37,
 					gathering = {
 						timeToMature = "15 hours",
 						rewards = {
@@ -1335,13 +1338,13 @@ houseData = {
 					}
 				},
 				{
-					clientId = 25129,
 					model = 36,
-					price = 1580,
-					name = "Pepper",
-					effort = 71,
+					clientId = 25129,
 					stackingType = 2,
+					name = "Pepper",
+					price = 1800,
 					itemId = 31846,
+					effort = 71,
 					gathering = {
 						timeToMature = "28.5 hours",
 						rewards = {
@@ -1382,13 +1385,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Grape",
-					price = 340,
 					model = 37,
+					name = "Grape",
 					clientId = 30255,
-					effort = 15,
 					stackingType = 2,
+					price = 360,
 					itemId = 31842,
+					effort = 15,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -1424,13 +1427,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Apple",
-					price = 3300,
 					model = 38,
+					name = "Apple",
 					clientId = 34246,
-					effort = 150,
 					stackingType = 3,
+					price = 3700,
 					itemId = 31833,
+					effort = 150,
 					gathering = {
 						timeToMature = "7.5 hours",
 						rewards = {
@@ -1466,13 +1469,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Cotton",
-					price = 1980,
 					model = 39,
+					name = "Cotton",
 					clientId = 34249,
-					effort = 90,
 					stackingType = 3,
+					price = 2200,
 					itemId = 31840,
+					effort = 90,
 					gathering = {
 						timeToMature = "4.5 hours",
 						rewards = {
@@ -1508,13 +1511,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Blueberry",
-					price = 340,
 					model = 40,
+					name = "Blueberry",
 					clientId = 30246,
-					effort = 15,
 					stackingType = 2,
+					price = 360,
 					itemId = 31835,
+					effort = 15,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -1550,13 +1553,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Orange",
-					price = 6600,
 					model = 41,
+					name = "Orange",
 					clientId = 34250,
-					effort = 300,
 					stackingType = 3,
+					price = 7500,
 					itemId = 31844,
+					effort = 300,
 					gathering = {
 						timeToMature = "15 hours",
 						rewards = {
@@ -1592,13 +1595,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Strawberry",
-					price = 420,
 					model = 42,
+					name = "Strawberry",
 					clientId = 30261,
-					effort = 18,
 					stackingType = 2,
+					price = 480,
 					itemId = 31849,
+					effort = 18,
 					gathering = {
 						timeToMature = "7.5 hours",
 						rewards = {
@@ -1634,13 +1637,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Banana",
-					price = 10540,
 					model = 43,
+					name = "Banana",
 					clientId = 34247,
-					effort = 480,
 					stackingType = 3,
+					price = 12000,
 					itemId = 31834,
+					effort = 480,
 					gathering = {
 						timeToMature = "24 hours",
 						rewards = {
@@ -1676,13 +1679,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Watermelon",
-					price = 1640,
 					model = 44,
+					name = "Watermelon",
 					clientId = 30267,
-					effort = 75,
 					stackingType = 2,
+					price = 1800,
 					itemId = 31850,
+					effort = 75,
 					gathering = {
 						timeToMature = "30 hours",
 						rewards = {
@@ -1718,13 +1721,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Moonberry",
-					price = 1160,
 					model = 45,
+					name = "Moonberry",
 					clientId = 30281,
-					effort = 52,
 					stackingType = 2,
+					price = 1320,
 					itemId = 31843,
+					effort = 52,
 					gathering = {
 						timeToMature = "21 hours",
 						rewards = {
@@ -1760,13 +1763,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Acorn",
-					price = 21000,
 					model = 46,
+					name = "Acorn",
 					clientId = 34245,
-					effort = 960,
 					stackingType = 3,
+					price = 24000,
 					itemId = 31832,
+					effort = 960,
 					gathering = {
 						timeToMature = "48 hours",
 						rewards = {
@@ -1802,13 +1805,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Sunberry",
-					price = 1640,
 					model = 47,
+					name = "Sunberry",
 					clientId = 30264,
-					effort = 75,
 					stackingType = 2,
+					price = 1800,
 					itemId = 31865,
+					effort = 75,
 					gathering = {
 						timeToMature = "30 hours",
 						rewards = {
@@ -1844,13 +1847,13 @@ houseData = {
 					}
 				},
 				{
-					clientId = 34248,
 					model = 48,
-					price = 9200,
-					name = "Cherry",
-					effort = 420,
+					clientId = 34248,
 					stackingType = 3,
+					name = "Cherry",
+					price = 10500,
 					itemId = 31838,
+					effort = 420,
 					gathering = {
 						timeToMature = "21 hours",
 						rewards = {
@@ -1896,12 +1899,12 @@ houseData = {
 			window_id = "husbandry",
 			window_data = {
 				{
-					clientId = 34361,
 					model = 1,
-					price = 920,
-					name = "Small Chicken Pen",
-					effort = 100,
+					clientId = 34361,
 					stackingType = 1,
+					name = "Small Chicken Pen",
+					price = 1000,
+					effort = 100,
 					butchering = {
 						timeToMature = "5 hours",
 						rewards = {
@@ -1963,12 +1966,12 @@ houseData = {
 					}
 				},
 				{
-					clientId = 34461,
 					model = 9,
-					price = 920,
-					name = "Small Hare Pen",
-					effort = 100,
+					clientId = 34461,
 					stackingType = 1,
+					name = "Small Hare Pen",
+					price = 1000,
+					effort = 100,
 					butchering = {
 						timeToMature = "5 hours",
 						rewards = {
@@ -2031,11 +2034,11 @@ houseData = {
 				},
 				{
 					name = "Small Pig Pen",
-					price = 920,
 					model = 3,
 					clientId = 34365,
-					effort = 160,
 					stackingType = 1,
+					price = 1000,
+					effort = 160,
 					butchering = {
 						timeToMature = "8 hours",
 						rewards = {
@@ -2080,12 +2083,12 @@ houseData = {
 					}
 				},
 				{
-					clientId = 35083,
 					model = 11,
-					price = 1600,
-					name = "Small Goat Pen",
-					effort = 130,
+					clientId = 35083,
 					stackingType = 1,
+					name = "Small Goat Pen",
+					price = 1800,
+					effort = 130,
 					butchering = {
 						timeToMature = "6.5 hours",
 						rewards = {
@@ -2156,11 +2159,11 @@ houseData = {
 				},
 				{
 					name = "Small Turkey Pen",
-					price = 1160,
 					model = 13,
 					clientId = 35085,
-					effort = 190,
 					stackingType = 1,
+					price = 1300,
+					effort = 190,
 					butchering = {
 						timeToMature = "9.5 hours",
 						rewards = {
@@ -2205,12 +2208,12 @@ houseData = {
 					}
 				},
 				{
-					clientId = 34363,
 					model = 5,
-					price = 2300,
-					name = "Small Sheep Pen",
-					effort = 240,
+					clientId = 34363,
 					stackingType = 1,
+					name = "Small Sheep Pen",
+					price = 2600,
+					effort = 240,
 					butchering = {
 						timeToMature = "12 hours",
 						rewards = {
@@ -2272,12 +2275,12 @@ houseData = {
 					}
 				},
 				{
-					clientId = 34367,
 					model = 7,
-					price = 2300,
-					name = "Small Cow Pen",
-					effort = 400,
+					clientId = 34367,
 					stackingType = 1,
+					name = "Small Cow Pen",
+					price = 2600,
+					effort = 400,
 					butchering = {
 						timeToMature = "20 hours",
 						rewards = {
@@ -2347,12 +2350,12 @@ houseData = {
 					}
 				},
 				{
-					clientId = 34362,
 					model = 2,
-					price = 2300,
-					name = "Medium Chicken Pen",
-					effort = 224,
+					clientId = 34362,
 					stackingType = 1,
+					name = "Medium Chicken Pen",
+					price = 2600,
+					effort = 224,
 					butchering = {
 						timeToMature = "5 hours",
 						rewards = {
@@ -2414,12 +2417,12 @@ houseData = {
 					}
 				},
 				{
-					clientId = 34465,
 					model = 10,
-					price = 2300,
-					name = "Medium Hare Pen",
-					effort = 224,
+					clientId = 34465,
 					stackingType = 1,
+					name = "Medium Hare Pen",
+					price = 2600,
+					effort = 224,
 					butchering = {
 						timeToMature = "5 hours",
 						rewards = {
@@ -2482,11 +2485,11 @@ houseData = {
 				},
 				{
 					name = "Medium Pig Pen",
-					price = 2700,
 					model = 4,
 					clientId = 34366,
-					effort = 360,
 					stackingType = 1,
+					price = 3000,
+					effort = 360,
 					butchering = {
 						timeToMature = "8 hours",
 						rewards = {
@@ -2531,12 +2534,12 @@ houseData = {
 					}
 				},
 				{
-					clientId = 35082,
 					model = 12,
-					price = 3340,
-					name = "Medium Goat Pen",
-					effort = 292,
+					clientId = 35082,
 					stackingType = 1,
+					name = "Medium Goat Pen",
+					price = 3800,
+					effort = 292,
 					butchering = {
 						timeToMature = "6.5 hours",
 						rewards = {
@@ -2607,11 +2610,11 @@ houseData = {
 				},
 				{
 					name = "Medium Turkey Pen",
-					price = 3080,
 					model = 14,
 					clientId = 35084,
-					effort = 428,
 					stackingType = 1,
+					price = 3500,
+					effort = 428,
 					butchering = {
 						timeToMature = "9.5 hours",
 						rewards = {
@@ -2656,12 +2659,12 @@ houseData = {
 					}
 				},
 				{
-					clientId = 34364,
 					model = 6,
-					price = 5100,
-					name = "Medium Sheep Pen",
-					effort = 540,
+					clientId = 34364,
 					stackingType = 1,
+					name = "Medium Sheep Pen",
+					price = 5800,
+					effort = 540,
 					butchering = {
 						timeToMature = "12 hours",
 						rewards = {
@@ -2723,12 +2726,12 @@ houseData = {
 					}
 				},
 				{
-					clientId = 34368,
 					model = 8,
-					price = 5100,
-					name = "Medium Cow Pen",
-					effort = 900,
+					clientId = 34368,
 					stackingType = 1,
+					name = "Medium Cow Pen",
+					price = 5800,
+					effort = 900,
 					butchering = {
 						timeToMature = "20 hours",
 						rewards = {
@@ -2798,12 +2801,12 @@ houseData = {
 					}
 				},
 				{
-					name = "Cheese Barrel",
 					model = 15,
-					price = 2020,
 					clientId = 37440,
-					effort = 150,
 					stackingType = 6,
+					name = "Cheese Barrel",
+					price = 2300,
+					effort = 150,
 					gathering = {
 						timeToMature = "30 hours",
 						rewards = {
@@ -2845,12 +2848,12 @@ houseData = {
 					}
 				},
 				{
-					name = "Bee Hive",
 					model = 16,
-					price = 3080,
 					clientId = 44230,
-					effort = 224,
 					stackingType = 7,
+					name = "Bee Hive",
+					price = 3500,
+					effort = 224,
 					gathering = {
 						timeToMature = "45 hours",
 						rewards = {
@@ -2889,13 +2892,13 @@ houseData = {
 			window_id = "woodcutting",
 			window_data = {
 				{
-					name = "Juniper",
-					price = 440,
 					model = 49,
+					name = "Juniper",
 					clientId = 34228,
-					effort = 20,
 					stackingType = 3,
+					price = 500,
 					itemId = 37658,
+					effort = 20,
 					gathering = {
 						timeToMature = "2 hours",
 						rewards = {
@@ -2931,13 +2934,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Fir",
-					price = 1760,
 					model = 50,
+					name = "Fir",
 					clientId = 34237,
-					effort = 80,
 					stackingType = 3,
+					price = 2000,
 					itemId = 37667,
+					effort = 80,
 					gathering = {
 						timeToMature = "8 hours",
 						rewards = {
@@ -2973,13 +2976,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Palm",
-					price = 1320,
 					model = 51,
+					name = "Palm",
 					clientId = 34234,
-					effort = 60,
 					stackingType = 3,
+					price = 1500,
 					itemId = 37664,
+					effort = 60,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -3015,13 +3018,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Oak",
-					price = 5280,
 					model = 52,
+					name = "Oak",
 					clientId = 34231,
-					effort = 240,
 					stackingType = 3,
+					price = 6000,
 					itemId = 37661,
+					effort = 240,
 					gathering = {
 						timeToMature = "24 hours",
 						rewards = {
@@ -3057,13 +3060,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Wildleaf",
-					price = 3520,
 					model = 53,
+					name = "Wildleaf",
 					clientId = 34225,
-					effort = 160,
 					stackingType = 3,
+					price = 4000,
 					itemId = 37655,
+					effort = 160,
 					gathering = {
 						timeToMature = "16 hours",
 						rewards = {
@@ -3099,13 +3102,13 @@ houseData = {
 					}
 				},
 				{
-					name = "Willow",
-					price = 2640,
 					model = 54,
+					name = "Willow",
 					clientId = 34244,
-					effort = 120,
 					stackingType = 3,
+					price = 3000,
 					itemId = 37674,
+					effort = 120,
 					gathering = {
 						timeToMature = "12 hours",
 						rewards = {
@@ -3146,13 +3149,13 @@ houseData = {
 			window_id = "breeding",
 			window_data = {
 				{
-					itemId = 0,
-					price = 300,
 					name = "Moa Stable",
-					clientId = 38159,
 					model = 55,
 					stackingHorizontalyOnly = true,
+					clientId = 38159,
 					stackingType = 4,
+					price = 300,
+					itemId = 0,
 					size = {
 						y = 1,
 						x = 2
@@ -3168,13 +3171,13 @@ houseData = {
 			window_id = "rooms",
 			window_data = {
 				{
-					tier = 1,
-					price = 5000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 1,
 					name = "Small Bedroom",
 					category = "bedroom",
+					model = 1,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 1,
+					price = 5000,
 					upgrade = 6,
 					materials = {
 						{
@@ -3202,13 +3205,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 2,
 					name = "Small Kitchen",
 					category = "cooking",
+					model = 2,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 1,
+					price = 5000,
 					upgrade = 7,
 					materials = {
 						{
@@ -3236,13 +3239,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 3,
 					name = "Small Armory",
 					category = "blacksmithing",
+					model = 3,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 1,
+					price = 5000,
 					upgrade = 8,
 					materials = {
 						{
@@ -3270,13 +3273,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 4,
 					name = "Small Workshop",
 					category = "carpentry",
+					model = 4,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 1,
+					price = 5000,
 					upgrade = 9,
 					materials = {
 						{
@@ -3304,13 +3307,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 5,
 					name = "Small Weaving",
 					category = "weaving",
+					model = 5,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 1,
+					price = 5000,
 					upgrade = 10,
 					materials = {
 						{
@@ -3338,13 +3341,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 6,
 					name = "Medium Bedroom",
 					category = "bedroom",
+					model = 6,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 2,
+					price = 10000,
 					materials = {
 						{
 							clientId = 45501,
@@ -3377,13 +3380,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 7,
 					name = "Medium Kitchen",
 					category = "cooking",
+					model = 7,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 2,
+					price = 10000,
 					materials = {
 						{
 							clientId = 45501,
@@ -3416,13 +3419,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 8,
 					name = "Medium Armory",
 					category = "blacksmithing",
+					model = 8,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 2,
+					price = 10000,
 					materials = {
 						{
 							clientId = 45501,
@@ -3455,13 +3458,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 9,
 					name = "Medium Workshop",
 					category = "carpentry",
+					model = 9,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 2,
+					price = 10000,
 					materials = {
 						{
 							clientId = 45501,
@@ -3494,13 +3497,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 10,
 					name = "Medium Weaving",
 					category = "weaving",
+					model = 10,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 2,
+					price = 10000,
 					materials = {
 						{
 							clientId = 45501,
@@ -3533,13 +3536,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 11,
 					name = "Small Bedroom",
 					category = "bedroom",
+					model = 11,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 1,
+					price = 5000,
 					upgrade = 16,
 					materials = {
 						{
@@ -3567,13 +3570,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 12,
 					name = "Small Kitchen",
 					category = "cooking",
+					model = 12,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 1,
+					price = 5000,
 					upgrade = 17,
 					materials = {
 						{
@@ -3601,13 +3604,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 13,
 					name = "Small Armory",
 					category = "blacksmithing",
+					model = 13,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 1,
+					price = 5000,
 					upgrade = 18,
 					materials = {
 						{
@@ -3635,13 +3638,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 14,
 					name = "Small Workshop",
 					category = "carpentry",
+					model = 14,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 1,
+					price = 5000,
 					upgrade = 19,
 					materials = {
 						{
@@ -3669,13 +3672,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 15,
 					name = "Small Weaving",
 					category = "weaving",
+					model = 15,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 1,
+					price = 5000,
 					upgrade = 20,
 					materials = {
 						{
@@ -3703,13 +3706,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 16,
 					name = "Medium Bedroom",
 					category = "bedroom",
+					model = 16,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 2,
+					price = 10000,
 					upgrade = 21,
 					materials = {
 						{
@@ -3743,13 +3746,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 17,
 					name = "Medium Kitchen",
 					category = "cooking",
+					model = 17,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 2,
+					price = 10000,
 					upgrade = 22,
 					materials = {
 						{
@@ -3783,13 +3786,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 18,
 					name = "Medium Armory",
 					category = "blacksmithing",
+					model = 18,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 2,
+					price = 10000,
 					upgrade = 23,
 					materials = {
 						{
@@ -3823,13 +3826,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 19,
 					name = "Medium Workshop",
 					category = "carpentry",
+					model = 19,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 2,
+					price = 10000,
 					upgrade = 24,
 					materials = {
 						{
@@ -3863,13 +3866,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 20,
 					name = "Medium Weaving",
 					category = "weaving",
+					model = 20,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 2,
+					price = 10000,
 					upgrade = 25,
 					materials = {
 						{
@@ -3903,13 +3906,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 21,
 					name = "Large Bedroom",
 					category = "bedroom",
+					model = 21,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 3,
+					price = 50000,
 					upgrade = 26,
 					materials = {
 						{
@@ -3949,13 +3952,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 22,
 					name = "Large Kitchen",
 					category = "cooking",
+					model = 22,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 3,
+					price = 50000,
 					upgrade = 27,
 					materials = {
 						{
@@ -3995,13 +3998,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 23,
 					name = "Large Armory",
 					category = "blacksmithing",
+					model = 23,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 3,
+					price = 50000,
 					upgrade = 28,
 					materials = {
 						{
@@ -4041,13 +4044,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 24,
 					name = "Large Workshop",
 					category = "carpentry",
+					model = 24,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 3,
+					price = 50000,
 					upgrade = 29,
 					materials = {
 						{
@@ -4087,13 +4090,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 25,
 					name = "Large Weaving",
 					category = "weaving",
+					model = 25,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 3,
+					price = 50000,
 					upgrade = 30,
 					materials = {
 						{
@@ -4133,13 +4136,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 26,
 					name = "Grand Bedroom",
 					category = "bedroom",
+					model = 26,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 4,
+					price = 100000,
 					materials = {
 						{
 							clientId = 45501,
@@ -4184,13 +4187,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 27,
 					name = "Grand Kitchen",
 					category = "cooking",
+					model = 27,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 4,
+					price = 100000,
 					materials = {
 						{
 							clientId = 45501,
@@ -4235,13 +4238,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 28,
 					name = "Grand Armory",
 					category = "blacksmithing",
+					model = 28,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 4,
+					price = 100000,
 					materials = {
 						{
 							clientId = 45501,
@@ -4286,13 +4289,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 29,
 					name = "Grand Workshop",
 					category = "carpentry",
+					model = 29,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 4,
+					price = 100000,
 					materials = {
 						{
 							clientId = 45501,
@@ -4337,13 +4340,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 30,
 					name = "Grand Weaving",
 					category = "weaving",
+					model = 30,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 4,
+					price = 100000,
 					materials = {
 						{
 							clientId = 45501,
@@ -4388,13 +4391,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 31,
 					name = "Small Bedroom",
 					category = "bedroom",
+					model = 31,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 1,
+					price = 5000,
 					upgrade = 36,
 					materials = {
 						{
@@ -4422,13 +4425,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 32,
 					name = "Small Kitchen",
 					category = "cooking",
+					model = 32,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 1,
+					price = 5000,
 					upgrade = 37,
 					materials = {
 						{
@@ -4456,13 +4459,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 33,
 					name = "Small Armory",
 					category = "blacksmithing",
+					model = 33,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 1,
+					price = 5000,
 					upgrade = 38,
 					materials = {
 						{
@@ -4490,13 +4493,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 34,
 					name = "Small Workshop",
 					category = "carpentry",
+					model = 34,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 1,
+					price = 5000,
 					upgrade = 39,
 					materials = {
 						{
@@ -4524,13 +4527,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 35,
 					name = "Small Weaving",
 					category = "weaving",
+					model = 35,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 1,
+					price = 5000,
 					upgrade = 40,
 					materials = {
 						{
@@ -4558,13 +4561,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 36,
 					name = "Medium Bedroom",
 					category = "bedroom",
+					model = 36,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 2,
+					price = 10000,
 					upgrade = 41,
 					materials = {
 						{
@@ -4598,13 +4601,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 37,
 					name = "Medium Kitchen",
 					category = "cooking",
+					model = 37,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 2,
+					price = 10000,
 					upgrade = 42,
 					materials = {
 						{
@@ -4638,13 +4641,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 38,
 					name = "Medium Armory",
 					category = "blacksmithing",
+					model = 38,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 2,
+					price = 10000,
 					upgrade = 43,
 					materials = {
 						{
@@ -4678,13 +4681,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 39,
 					name = "Medium Workshop",
 					category = "carpentry",
+					model = 39,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 2,
+					price = 10000,
 					upgrade = 44,
 					materials = {
 						{
@@ -4718,13 +4721,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 2,
-					price = 10000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 40,
 					name = "Medium Weaving",
 					category = "weaving",
+					model = 40,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 2,
+					price = 10000,
 					upgrade = 45,
 					materials = {
 						{
@@ -4758,13 +4761,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 41,
 					name = "Large Bedroom",
 					category = "bedroom",
+					model = 41,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 3,
+					price = 50000,
 					upgrade = 46,
 					materials = {
 						{
@@ -4804,13 +4807,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 42,
 					name = "Large Kitchen",
 					category = "cooking",
+					model = 42,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 3,
+					price = 50000,
 					upgrade = 47,
 					materials = {
 						{
@@ -4850,13 +4853,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 43,
 					name = "Large Armory",
 					category = "blacksmithing",
+					model = 43,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 3,
+					price = 50000,
 					upgrade = 48,
 					materials = {
 						{
@@ -4896,13 +4899,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 44,
 					name = "Large Workshop",
 					category = "carpentry",
+					model = 44,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 3,
+					price = 50000,
 					upgrade = 49,
 					materials = {
 						{
@@ -4942,13 +4945,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 3,
-					price = 50000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 45,
 					name = "Large Weaving",
 					category = "weaving",
+					model = 45,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 3,
+					price = 50000,
 					upgrade = 50,
 					materials = {
 						{
@@ -4988,13 +4991,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 46,
 					name = "Grand Bedroom",
 					category = "bedroom",
+					model = 46,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 4,
+					price = 100000,
 					upgrade = 51,
 					materials = {
 						{
@@ -5040,13 +5043,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 47,
 					name = "Grand Kitchen",
 					category = "cooking",
+					model = 47,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 4,
+					price = 100000,
 					upgrade = 52,
 					materials = {
 						{
@@ -5092,13 +5095,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 48,
 					name = "Grand Armory",
 					category = "blacksmithing",
+					model = 48,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 4,
+					price = 100000,
 					upgrade = 53,
 					materials = {
 						{
@@ -5144,13 +5147,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 49,
 					name = "Grand Workshop",
 					category = "carpentry",
+					model = 49,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 4,
+					price = 100000,
 					upgrade = 54,
 					materials = {
 						{
@@ -5196,13 +5199,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 4,
-					price = 100000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 50,
 					name = "Grand Weaving",
 					category = "weaving",
+					model = 50,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 4,
+					price = 100000,
 					upgrade = 55,
 					materials = {
 						{
@@ -5248,13 +5251,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 5,
-					price = 250000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 51,
 					name = "Royal Bedroom",
 					category = "bedroom",
+					model = 51,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 5,
+					price = 250000,
 					materials = {
 						{
 							clientId = 45501,
@@ -5305,13 +5308,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 5,
-					price = 250000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 52,
 					name = "Royal Kitchen",
 					category = "cooking",
+					model = 52,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 5,
+					price = 250000,
 					materials = {
 						{
 							clientId = 45501,
@@ -5362,13 +5365,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 5,
-					price = 250000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 53,
 					name = "Royal Armory",
 					category = "blacksmithing",
+					model = 53,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 5,
+					price = 250000,
 					materials = {
 						{
 							clientId = 45501,
@@ -5419,13 +5422,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 5,
-					price = 250000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 54,
 					name = "Royal Workshop",
 					category = "carpentry",
+					model = 54,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 5,
+					price = 250000,
 					materials = {
 						{
 							clientId = 45501,
@@ -5476,13 +5479,13 @@ houseData = {
 					}
 				},
 				{
-					tier = 5,
-					price = 250000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 55,
 					name = "Royal Weaving",
 					category = "weaving",
+					model = 55,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 5,
+					price = 250000,
 					materials = {
 						{
 							clientId = 45501,
@@ -5533,13 +5536,13 @@ houseData = {
 					}
 				},
 				[60] = {
-					tier = 1,
-					price = 0,
-					description = "Allows you to store up to 21 objects inside it.",
-					clientId = 38571,
-					model = 60,
 					name = "Small Chest",
 					category = "storage",
+					model = 60,
+					clientId = 38571,
+					description = "Allows you to store up to 21 objects inside it.",
+					tier = 1,
+					price = 0,
 					materials = {},
 					size = {
 						y = 1,
@@ -5547,13 +5550,13 @@ houseData = {
 					}
 				},
 				[61] = {
-					tier = 1,
-					price = 0,
-					description = "Allows you to store up to 35 objects inside it.",
-					clientId = 38572,
-					model = 61,
 					name = "Medium Chest",
 					category = "storage",
+					model = 61,
+					clientId = 38572,
+					description = "Allows you to store up to 35 objects inside it.",
+					tier = 1,
+					price = 0,
 					materials = {},
 					size = {
 						y = 1,
@@ -5561,13 +5564,13 @@ houseData = {
 					}
 				},
 				[62] = {
-					tier = 1,
-					price = 0,
-					description = "Allows you to store up to 70 objects inside it.",
-					clientId = 38573,
-					model = 62,
 					name = "Large Chest",
 					category = "storage",
+					model = 62,
+					clientId = 38573,
+					description = "Allows you to store up to 70 objects inside it.",
+					tier = 1,
+					price = 0,
 					materials = {},
 					size = {
 						y = 1,
@@ -5575,13 +5578,13 @@ houseData = {
 					}
 				},
 				[63] = {
-					tier = 1,
-					price = 0,
-					description = "Allows you to store up to 105 objects inside it.",
-					clientId = 38574,
-					model = 63,
 					name = "Grand Chest",
 					category = "storage",
+					model = 63,
+					clientId = 38574,
+					description = "Allows you to store up to 105 objects inside it.",
+					tier = 1,
+					price = 0,
 					materials = {},
 					size = {
 						y = 1,
@@ -5589,13 +5592,13 @@ houseData = {
 					}
 				},
 				[64] = {
-					tier = 1,
-					price = 0,
-					description = "Allows you to store up to 210 objects inside it.",
-					clientId = 38575,
-					model = 64,
 					name = "Royal Chest",
 					category = "storage",
+					model = 64,
+					clientId = 38575,
+					description = "Allows you to store up to 210 objects inside it.",
+					tier = 1,
+					price = 0,
 					materials = {},
 					size = {
 						y = 1,
@@ -5603,13 +5606,13 @@ houseData = {
 					}
 				},
 				[65] = {
-					tier = 1,
-					price = 5000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 65,
 					name = "Small Bedroom",
 					category = "bedroom",
+					model = 65,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,
@@ -5617,13 +5620,13 @@ houseData = {
 					}
 				},
 				[66] = {
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 66,
 					name = "Small Kitchen",
 					category = "cooking",
+					model = 66,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,
@@ -5631,13 +5634,13 @@ houseData = {
 					}
 				},
 				[67] = {
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 67,
 					name = "Small Armory",
 					category = "blacksmithing",
+					model = 67,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,
@@ -5645,13 +5648,13 @@ houseData = {
 					}
 				},
 				[68] = {
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 68,
 					name = "Small Workshop",
 					category = "carpentry",
+					model = 68,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,
@@ -5659,13 +5662,13 @@ houseData = {
 					}
 				},
 				[69] = {
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 69,
 					name = "Small Weaving",
 					category = "weaving",
+					model = 69,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,
@@ -5673,13 +5676,13 @@ houseData = {
 					}
 				},
 				[70] = {
-					tier = 1,
-					price = 5000,
-					description = "Gain +%d%% additional experience from all sources.",
-					clientId = "chest",
-					model = 70,
 					name = "Small Bedroom",
 					category = "bedroom",
+					model = 70,
+					clientId = "chest",
+					description = "Gain +%d%% additional experience from all sources.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,
@@ -5687,13 +5690,13 @@ houseData = {
 					}
 				},
 				[71] = {
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when cooking.",
-					clientId = "cooking",
-					model = 71,
 					name = "Small Kitchen",
 					category = "cooking",
+					model = 71,
+					clientId = "cooking",
+					description = "Additional +%d labor when cooking.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,
@@ -5701,13 +5704,13 @@ houseData = {
 					}
 				},
 				[72] = {
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when blacksmithing.",
-					clientId = "blacksmithing",
-					model = 72,
 					name = "Small Armory",
 					category = "blacksmithing",
+					model = 72,
+					clientId = "blacksmithing",
+					description = "Additional +%d labor when blacksmithing.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,
@@ -5715,13 +5718,13 @@ houseData = {
 					}
 				},
 				[73] = {
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when carpenting.",
-					clientId = "carpentry",
-					model = 73,
 					name = "Small Workshop",
 					category = "carpentry",
+					model = 73,
+					clientId = "carpentry",
+					description = "Additional +%d labor when carpenting.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,
@@ -5729,13 +5732,13 @@ houseData = {
 					}
 				},
 				[74] = {
-					tier = 1,
-					price = 5000,
-					description = "Additional +%d labor when weaving.",
-					clientId = "weaving",
-					model = 74,
 					name = "Small Weaving",
 					category = "weaving",
+					model = 74,
+					clientId = "weaving",
+					description = "Additional +%d labor when weaving.",
+					tier = 1,
+					price = 5000,
 					materials = {},
 					size = {
 						y = 6,

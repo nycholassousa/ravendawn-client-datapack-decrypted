@@ -176,9 +176,9 @@ tasks = {
 
 				if sell_button and sell_button:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						bandit = true,
 						text = "Let's sell this tradepack before the merchant changes his mind!",
+						preferSide = "top",
 						keys = {
 							MouseLeftButton
 						},

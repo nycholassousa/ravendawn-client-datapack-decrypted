@@ -20,9 +20,10 @@ professionIdToSound = {
 	[ProfessionCooking] = 2339140365,
 	[ProfessionWeaving] = 122785042
 }
+resetCost = {
+	ravencoinsPerPoint = 50
+}
 professionToOrder = {
-	husbandry = 4,
-	farming = 3,
 	woodcutting = 2,
 	mining = 1,
 	breeding = 10,
@@ -30,21 +31,23 @@ professionToOrder = {
 	weaving = 8,
 	carpentry = 7,
 	blacksmithing = 6,
-	fishing = 5
+	fishing = 5,
+	husbandry = 4,
+	farming = 3
 }
 professionToTitle = {
+	blacksmithing = "Materials",
+	fishing = "Slices",
 	breeding = "Attribute Ranges",
 	cooking = "Materials",
 	weaving = "Materials",
-	carpentry = "Materials",
-	blacksmithing = "Materials",
-	fishing = "Slices"
+	carpentry = "Materials"
 }
 traitToFormat = {
-	height = "cm",
 	abilityChancePercent = "%",
+	traitChancePercent = "%",
 	weight = "kg",
-	traitChancePercent = "%"
+	height = "cm"
 }
 breedingAttributes = {
 	strength = {
@@ -451,20 +454,20 @@ passiveTypeName = {
 	"specialization"
 }
 passiveNameType = {
+	rarity = 4,
+	experience = 1,
 	resources = 3,
 	speed = 2,
-	experience = 1,
 	specialization = 6,
-	unique = 5,
-	rarity = 4
+	unique = 5
 }
 categoryIndexes = {
 	cooking = {
 		meals = 4,
-		ingredients = 1,
+		drinks = 3,
 		["baked goods"] = 2,
-		moa = 5,
-		drinks = 3
+		ingredients = 1,
+		moa = 5
 	},
 	weaving = {
 		["ship attachments"] = 7,

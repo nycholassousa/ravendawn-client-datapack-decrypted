@@ -2,11 +2,11 @@
 
 GameMarket = {
 	unlockTime = 0,
-	premiumOnly = false,
 	customSetOrder = false,
+	premiumOnly = false,
 	offerListWindow = {
-		totalOffers = 0,
 		page = 1,
+		totalOffers = 0,
 		offerType = 0,
 		categoryWidgets = {},
 		selectedCategory = {},
@@ -14,22 +14,22 @@ GameMarket = {
 		currentOfferList = {}
 	},
 	activeOffersWindow = {
-		totalOffers = 0,
 		page = 1,
+		totalOffers = 0,
 		filters = {},
 		currentOfferList = {}
 	},
 	createOfferWindow = {
-		totalOffers = 0,
 		page = 1,
+		totalOffers = 0,
 		currentOfferList = {},
 		categoryWidgets = {},
 		selectedCategory = {},
 		attributes = {}
 	},
 	completedOffersWindow = {
-		totalOffers = 0,
 		page = 1,
+		totalOffers = 0,
 		filters = {},
 		currentOfferList = {}
 	},

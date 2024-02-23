@@ -1,0 +1,72 @@
+// Stonelings
+creatures
+  // Mossolith
+  5358
+    creature-offset: 12 12
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    impact-time: 500
+    attack-animation:
+      0: 5357
+  5357
+    animate-from-start: true
+    creature-offset: 22 22
+
+  // Earthwarden
+  5360
+    creature-offset: 11 11
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 4
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 4
+    impact-time: 400
+    attack-animation:
+      0: 5359
+  5359
+    animate-from-start: true
+    creature-offset: 23 23
+
+  //Scorching Cragglehide
+  6057
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    creature-offset: 28 28
+    attack-animation:
+      0: 6058
+  6058
+    animate-from-start: true
+    creature-offset: 28 28
+
+  //Cragglehide
+  6059
+    enemy-circle-size: 48 48
+    enemy-circle-offset: 2 2
+    friend-circle-size: 48 48
+    friend-circle-offset: 2 2
+    creature-offset: 28 28
+    attack-animation:
+      0: 6060
+  6060
+    animate-from-start: true
+    creature-offset: 28 28
+
+  // Mossback Colossus
+  5825
+    creature-offset: 32 32
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 4
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 4
+    attack-animation:
+      0: 5824
+  5824
+    animate-from-start: true
+    creature-offset: 64 64
+    enemy-circle-size: 64 64
+    enemy-circle-offset: -2 4
+    friend-circle-size: 64 64
+    friend-circle-offset: -2 4

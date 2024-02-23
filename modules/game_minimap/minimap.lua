@@ -14,9 +14,9 @@ local lastPositionOffset = {
 }
 local clipPosition = {
 	y = 0,
+	height = 200,
 	x = 0,
-	width = 200,
-	height = 200
+	width = 200
 }
 local isDragging = g_clock.millis()
 
@@ -38,65 +38,65 @@ local pvpModes = {
 local pvpButtons = {
 	[PvpPeaceful] = {
 		{
-			id = "shield",
 			tooltip = "Peaceful",
 			color = "#A6AAB2",
+			background = "icon_border_off",
 			icon = "icon_shield",
-			background = "icon_border_off"
+			id = "shield"
 		},
 		{
-			icon = "icon_sword",
-			id = "sword",
 			tooltip = "Defensive",
-			color = "#A6AAB2"
+			id = "sword",
+			color = "#A6AAB2",
+			icon = "icon_sword"
 		},
 		{
-			icon = "icon_skull",
-			id = "skull",
 			tooltip = "Offensive",
-			color = "#A6AAB2"
+			id = "skull",
+			color = "#A6AAB2",
+			icon = "icon_skull"
 		}
 	},
 	[PvpDefensive] = {
 		{
-			id = "sword",
 			tooltip = "Defensive",
 			color = "#1F2124",
+			background = "icon_border_yellow",
 			icon = "icon_sword",
-			background = "icon_border_yellow"
+			id = "sword"
 		},
 		{
-			icon = "icon_shield",
-			id = "shield",
 			tooltip = "Peaceful",
-			color = "#A6AAB2"
+			id = "shield",
+			color = "#A6AAB2",
+			icon = "icon_shield"
 		},
 		{
-			icon = "icon_skull",
-			id = "skull",
 			tooltip = "Offensive",
-			color = "#A6AAB2"
+			id = "skull",
+			color = "#A6AAB2",
+			icon = "icon_skull"
 		}
 	},
 	[PvpOffensive] = {
 		{
-			id = "skull",
 			tooltip = "Offensive",
 			color = "#1F2124",
+			background = "icon_border_red",
 			icon = "icon_skull",
-			background = "icon_border_red"
+			id = "skull"
 		},
 		{
-			icon = "icon_shield",
-			id = "shield",
 			tooltip = "Peaceful",
-			color = "#A6AAB2"
+			id = "shield",
+			color = "#A6AAB2",
+			icon = "icon_shield"
 		},
 		{
-			icon = "icon_sword",
-			id = "sword",
 			tooltip = "Defensive",
-			color = "#A6AAB2"
+			id = "sword",
+			color = "#A6AAB2",
+			icon = "icon_sword"
 		}
 	}
 }

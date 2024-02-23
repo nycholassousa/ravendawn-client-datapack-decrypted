@@ -181,7 +181,7 @@ function UIMessageBox:addButton(text, callback)
 	local buttonHolder = self:getChildById("buttonHolder")
 	local button = g_ui.createWidget("PopupWindowButton", buttonHolder)
 
-	button:setText(text)
+	button.text:setText(text)
 	connect(button, {
 		onClick = callback
 	})

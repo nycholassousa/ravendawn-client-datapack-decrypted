@@ -98,6 +98,7 @@ GameRangersCompanyBountyWindowTopPanelLocationPanel < UIWidget
     anchors.top: parent.top
     margin-top: 10
     anchors.horizontalCenter: parent.horizontalCenter
+    visible: false
     &update: |
       function(self, path)
         self:setImageSource(path)
@@ -116,7 +117,7 @@ GameRangersCompanyBountyWindowTopPanelLocationPanel < UIWidget
     anchors.horizontalCenter: parent.horizontalCenter
     font: poppins-semibold-14
     margin-bottom: -5
-    text: Deadlands
+    visible: false
 
 GameRangersCompanyBountyWindowBottomPanel < UIWidget
   id: bottom_panel

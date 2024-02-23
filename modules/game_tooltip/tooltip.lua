@@ -32,20 +32,20 @@ local infusion = {
 	}
 }
 local enchantStats = {
-	["customDescription:"] = "",
-	criticalDamage = " Impact",
-	criticalChance = " Precision",
-	maxHealth = " Maximum Health",
-	maxMana = " Maximum Mana",
-	haste = " Haste",
-	wisdom = " Wisdom",
 	might = " Might",
 	dexterity = " Dexterity",
 	intelligence = " Intelligence",
 	vitality = " Vitality",
 	healingPower = " Healing Power",
 	defensePower = " Defense Power",
-	attackPower = " Attack Power"
+	attackPower = " Attack Power",
+	["customDescription:"] = "",
+	criticalDamage = " Impact",
+	criticalChance = " Precision",
+	maxHealth = " Maximum Health",
+	maxMana = " Maximum Mana",
+	haste = " Haste",
+	wisdom = " Wisdom"
 }
 local stats = {
 	[STAT_MAXHITPOINTS] = "Maximum Health",
@@ -85,9 +85,6 @@ local function getBaseMoaStats(sex)
 		3535
 	}
 	local info = {
-		weight = 50,
-		height = 130,
-		strength = 40,
 		speed = 310,
 		trait = 0,
 		tier = 1,
@@ -95,6 +92,9 @@ local function getBaseMoaStats(sex)
 		bondExperience = 0,
 		bondLevel = 1,
 		breedLimit = 2,
+		weight = 50,
+		height = 130,
+		strength = 40,
 		sex = sex,
 		abilities = {},
 		outfit = {
@@ -1142,8 +1142,8 @@ function g_gameTooltip.displayCreature(outfit, outfitId, extraData, disappearOnM
 	local trait = {}
 	local abilities = {}
 	local breedLimit = {
-		total = 0,
-		current = 0
+		current = 0,
+		total = 0
 	}
 	local ship = ShipParts[outfitId]
 
@@ -1349,8 +1349,8 @@ function g_gameTooltip.displayReputationPoints(widget, disappearOnMove)
 	local criminalPoints = tooltip.points and tooltip.points[REPUTATION_CRIMINAL] or 0
 	local attributes = {
 		{
-			condition = true,
 			format = "%s",
+			condition = true,
 			style = "GameTooltipAttributeReputationCriminal",
 			list = body.reputation.list,
 			values = {
@@ -1358,8 +1358,8 @@ function g_gameTooltip.displayReputationPoints(widget, disappearOnMove)
 			}
 		},
 		{
-			condition = true,
 			format = "%s",
+			condition = true,
 			style = "GameTooltipAttributeReputationMercenary",
 			list = body.reputation.list,
 			values = {
@@ -1367,8 +1367,8 @@ function g_gameTooltip.displayReputationPoints(widget, disappearOnMove)
 			}
 		},
 		{
-			condition = true,
 			format = "%s",
+			condition = true,
 			style = "GameTooltipAttributeReputationOrder",
 			list = body.reputation.list,
 			values = {
@@ -1457,15 +1457,15 @@ function g_gameTooltip.displayAttributesPoints(widget, disappearOnMove)
 	local totalInactivePoints = 0
 	local attributes = {
 		{
-			condition = true,
 			format = "Current: {+%s points, #77D463}",
 			font = "poppins-14",
+			condition = true,
 			list = body.activeArcheypesPoints.list
 		},
 		{
-			condition = true,
 			format = "Inactive: {+%s points, #77D463}",
 			font = "poppins-14",
+			condition = true,
 			list = body.inactiveArcheypesPoints.list
 		},
 		{
@@ -1481,8 +1481,8 @@ function g_gameTooltip.displayAttributesPoints(widget, disappearOnMove)
 		if not archetypeData.active then
 			local points = getArchetypeExtraPoints(archetypeData.level)
 			local attribute = {
-				condition = true,
 				format = "{[%d] %s, #CED2D9} {+%d point%s, white}",
+				condition = true,
 				style = "GameTooltipArchetype",
 				list = body.inactiveArcheypes.list,
 				values = {
@@ -1504,8 +1504,8 @@ function g_gameTooltip.displayAttributesPoints(widget, disappearOnMove)
 		else
 			local points = getArchetypeExtraPoints(archetypeData.level)
 			local attribute = {
-				condition = true,
 				format = "{[%d] %s, #CED2D9} {+%d point%s, white}",
+				condition = true,
 				style = "GameTooltipArchetype",
 				list = body.activeArcheypes.list,
 				values = {
@@ -1535,8 +1535,8 @@ function g_gameTooltip.displayAttributesPoints(widget, disappearOnMove)
 	}
 
 	table.insert(attributes, {
-		condition = true,
 		format = "Total: {+%d points, #77D463}",
+		condition = true,
 		font = "poppins-16",
 		list = bottom.description.list,
 		values = {
@@ -1586,8 +1586,8 @@ function g_gameTooltip.displayRangersCompanyPremiumTooltip(widget, disappearOnMo
 	if not isPremium then
 		attributes = {
 			{
-				condition = true,
 				format = "{%s, #36F991}",
+				condition = true,
 				list = body.description.list,
 				values = {
 					"Unlock a Reduced Cooldown with Patron!"
@@ -1644,8 +1644,8 @@ function g_gameTooltip.displayEffortPremiumTooltip(widget, disappearOnMove)
 	if not isPremium then
 		attributes = {
 			{
-				condition = true,
 				format = "{%s, %s}",
+				condition = true,
 				style = "GameTooltipPremiumFeature",
 				list = body.premiumFeatures.list,
 				values = {
@@ -1657,8 +1657,8 @@ function g_gameTooltip.displayEffortPremiumTooltip(widget, disappearOnMove)
 				end
 			},
 			{
-				condition = true,
 				format = "{%s, #36F991}",
+				condition = true,
 				font = "poppins-16",
 				list = bottom.description.list,
 				values = {
@@ -1672,8 +1672,8 @@ function g_gameTooltip.displayEffortPremiumTooltip(widget, disappearOnMove)
 	else
 		attributes = {
 			{
-				condition = true,
 				format = "{%s, %s}",
+				condition = true,
 				style = "GameTooltipPremiumFeature",
 				list = body.premiumFeatures.list,
 				values = {
@@ -1721,8 +1721,8 @@ function g_gameTooltip.displayExperienceTooltip(widget, disappearOnMove)
 	local isPremium = player:isPremium()
 	local attributes = {
 		{
-			condition = true,
 			format = "{%s: %d%%/100%%, %s}",
+			condition = true,
 			style = "GameTooltipPremiumFeature",
 			list = body.premiumFeatures.list,
 			values = {
@@ -1739,8 +1739,8 @@ function g_gameTooltip.displayExperienceTooltip(widget, disappearOnMove)
 			end
 		},
 		{
-			condition = true,
 			format = "%s",
+			condition = true,
 			list = body.description.list,
 			values = {
 				"Unlocks at Legacy Level 20. Rested Experience is passively earned when you're out of combat or while offline. The amount of Rested Experience earned is based on your Legacy Level. Experience gains are doubled until the Rested Experience bonus is depleted."
@@ -1753,8 +1753,8 @@ function g_gameTooltip.displayExperienceTooltip(widget, disappearOnMove)
 
 	if not isPremium then
 		table.insert(attributes, {
-			condition = true,
 			format = "{%s, #36F991}",
+			condition = true,
 			font = "poppins-16",
 			list = bottom.description.list,
 			values = {

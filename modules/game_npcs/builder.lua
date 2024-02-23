@@ -30,9 +30,9 @@ BuilderShop = {
 		}
 	},
 	windowIconName = {
-		wagon = "icon_wagon_builder",
+		ship = "icon_ship_builder",
 		["moa equipment"] = "icon_moa_equipment_builder",
-		ship = "icon_ship_builder"
+		wagon = "icon_wagon_builder"
 	}
 }
 
@@ -86,8 +86,8 @@ function BuilderShop.init()
 
 	function BuilderShop.craftButton.onClick()
 		GameNpc:sendOpcode({
-			action = "dialogue",
 			option = "npc_builder_build",
+			action = "dialogue",
 			dialogueId = GameNpc.dialogueId,
 			npcName = GameNpc.npcName,
 			name = BuilderShop.selectedItemName
@@ -183,8 +183,8 @@ function BuilderShop.updateMaterials()
 	if wagons then
 		for _, wagon in ipairs(wagons) do
 			local outfit = {
-				wagonActive = 1,
 				category = 1,
+				wagonActive = 1,
 				wagon = wagon.lookType,
 				wagonBody = wagon.lookType,
 				lookType = wagon.lookType,
@@ -322,8 +322,8 @@ function BuilderShop:show(data)
 
 			if item.category == "Wagons" then
 				outfit = {
-					wagonActive = 1,
 					category = 1,
+					wagonActive = 1,
 					wagon = item.lookType,
 					wagonBody = item.lookType,
 					lookType = item.lookType,

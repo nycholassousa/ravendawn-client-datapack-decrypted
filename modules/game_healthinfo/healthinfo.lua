@@ -23,8 +23,8 @@ archetypes = {
 	active = {},
 	slots = {
 		{
-			id = 0,
-			active = false
+			active = false,
+			id = 0
 		}
 	}
 }
@@ -466,8 +466,8 @@ function onPartyAddMember(name, isOnline, healthPercent, manaPercent, position, 
 
 	if isOnline then
 		local flag = g_worldMap.addFlag(position, MAPMARK_PARTY_MEMBER, name, true, nil, nil, nil, nil, nil, "WorldMapPartyIcon", {
-			left = 3,
-			top = -24
+			top = -24,
+			left = 3
 		})
 
 		if not flag then
@@ -769,8 +769,8 @@ function onExperienceDebtChange(localPlayer, experienceDebt)
 		local width = math.min(parent:getWidth() - expBar:getImageRect().width - 25, math.max(1, parent:getWidth() * (experienceDebt / nextLevelExp)))
 
 		bar:setImageRect({
-			y = 0,
 			x = 0,
+			y = 0,
 			height = 8,
 			width = math.max(1, width)
 		})
@@ -853,8 +853,8 @@ function updateRestedExperienceBar(displayPercent, percent)
 	local width = math.min(progressWidth, math.max(1, (parent:getWidth() - 25) * math.min(1, displayPercent / 100)))
 
 	bar:setImageRect({
-		y = 0,
 		x = 0,
+		y = 0,
 		height = 8,
 		width = math.floor(math.max(1, width))
 	})

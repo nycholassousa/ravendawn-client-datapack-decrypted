@@ -4,21 +4,21 @@ GameGuild = {
 	unlockTime = 0,
 	panels = {},
 	createOptions = {
-		language = "",
-		focus = 0,
 		name = "",
 		listed = true,
+		focus = 0,
+		language = "",
 		description = "",
 		tag = "",
 		icon = {
-			foreground = 0,
-			background = 0
+			background = 0,
+			foreground = 0
 		}
 	},
 	joinGuildWindow = {
+		totalGuilds = 0,
 		page = 1,
 		cacheIdentifier = 0,
-		totalGuilds = 0,
 		filters = {}
 	},
 	guildInfo = {
@@ -29,8 +29,8 @@ GameGuild = {
 		orderDirection = "desc"
 	},
 	membersPanel = {
-		orderDirection = "desc",
 		orderType = "rank",
+		orderDirection = "desc",
 		applications = {
 			orderType = "name",
 			orderDirection = "asc"
@@ -163,10 +163,10 @@ function GameGuild:init()
 	end
 
 	self.loadingAnimation = Animation.create({
-		imageSource = "/images/ui/loading/frame-%d",
-		pauseWhenHidden = true,
 		loop = -1,
 		duration = 1000,
+		pauseWhenHidden = true,
+		imageSource = "/images/ui/loading/frame-%d",
 		canvas = self.window.loading_icon,
 		frames = frames,
 		onStart = function(self, canvas)

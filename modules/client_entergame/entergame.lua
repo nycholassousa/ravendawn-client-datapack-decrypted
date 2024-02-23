@@ -6,10 +6,10 @@ local window, logo, loginButton, regionsPanel, loadingRegionsPanel, loadBox, mot
 local motdEnabled = true
 local infoMessage, accountNameTextEdit, accountPasswordTextEdit, authTokenTextEdit, currentLoginService, rememberPasswordBox, _onRefreshWorldsList, localePanel, localeSelectConfirmBox
 local WorldsShortName = {
+	["South America"] = "SA",
 	Europe = "EU",
 	["North America"] = "NA",
-	Asia = "SEA",
-	["South America"] = "SA"
+	Asia = "SEA"
 }
 
 local function onError(protocol, message, errorCode)
@@ -556,10 +556,10 @@ end
 
 function EnterGame.setLoginRegion(widget, region)
 	local ips = {
+		europe = "3.250.128.128",
 		usa = "44.234.32.107",
 		brazil = "18.230.198.212",
-		sea = "18.141.143.79",
-		europe = "3.250.128.128"
+		sea = "18.141.143.79"
 	}
 
 	APP_LOGIN_IP_ADDRESS = ips[region] or APP_LOGIN_IP_ADDRESS
@@ -654,11 +654,11 @@ function EnterGame.setLocale(locale)
 	signalcall(EnterGame.onLanguageChange, locale)
 end
 
-function EnterGame.confirmPTBRLocale(locale)
+function EnterGame.confirmPTBRLocale(locale, oldValue)
 	local function yesCallback()
+		localeSelectConfirmBox:destroy()
 		EnterGame.setLocale(locale, true)
 		localePanel:setOn(false)
-		localeSelectConfirmBox:destroy()
 
 		localeSelectConfirmBox = nil
 
@@ -670,10 +670,11 @@ function EnterGame.confirmPTBRLocale(locale)
 
 		localeSelectConfirmBox = nil
 
+		modules.game_settings.GameSettings:setOption("locale", table.find(modules.game_settings.LanguageAppearOrder, EnterGame.getLocale()), true)
 		modules.game_settings.GameSettings:setScreenOption("locale", table.find(modules.game_settings.LanguageAppearOrder, EnterGame.getLocale()), true)
 	end
 
-	localeSelectConfirmBox = displayGeneralBox(tr("Confirmar"), "Por enquanto, nossa tradu\xE7\xE3o para o Portugu\xEAs \xE9 um trabalho em andamento. Portanto, \xE9 poss\xEDvel que voc\xEA encontre conte\xFAdos ainda n\xE3o traduzidos enquanto trabalhamos para adicion\xE1-los. Obrigado pela compreens\xE3o.", {
+	localeSelectConfirmBox = displayGeneralBox(tr("Confirmar"), "Por enquanto, nossa tradu\xE7\xE3o para o portugu\xEAs est\xE1 em andamento. Portanto, \xE9 poss\xEDvel que voc\xEA encontre conte\xFAdos ainda n\xE3o traduzidos enquanto trabalhamos para adicion\xE1-los. Agradecemos pela compreens\xE3o.", {
 		{
 			text = tr("Confirmar"),
 			callback = yesCallback

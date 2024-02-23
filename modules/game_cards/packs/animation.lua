@@ -101,8 +101,8 @@ function GameCards:initCardAnimation()
 	self.animation_panel.pack:raise()
 
 	local animation = Animation.create({
-		restoreInitialState = true,
 		imageSource = "/images/ui/windows/ravencards/packs/shards_increasing_anim/small_shard_%02d",
+		restoreInitialState = true,
 		duration = 400,
 		framesCount = 18,
 		canvas = self.animation_panel.button_panel.shards.icon,
@@ -384,8 +384,8 @@ function GameCards:animate(type, cycle, position, animation_widget, cardData, re
 		else
 			animation_widget:setImageSize(animation_widget:getSize())
 			animation_widget:setImageOffset({
-				x = 0,
-				y = 0
+				y = 0,
+				x = 0
 			})
 		end
 
@@ -585,8 +585,8 @@ function GameCards:animate(type, cycle, position, animation_widget, cardData, re
 
 				animation:fadeIn({
 					finish = 6,
-					opacity = 1,
-					start = 1
+					start = 1,
+					opacity = 1
 				})
 				animation:move({
 					finish = 36,
@@ -597,8 +597,8 @@ function GameCards:animate(type, cycle, position, animation_widget, cardData, re
 				})
 				animation:fadeOut({
 					finish = 36,
-					opacity = 0,
-					start = 7
+					start = 7,
+					opacity = 0
 				})
 				animation:start()
 				self:displayCardWidget(self.animations[position].vfx, cardData, true)

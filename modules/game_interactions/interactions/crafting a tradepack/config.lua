@@ -31,9 +31,9 @@ tasks = {
 						local self = tasks[__env.current_task][__env.current_interaction]
 
 						if Position.isInRange(pos, {
-							y = 5108,
+							z = 6,
 							x = 5070,
-							z = 6
+							y = 5108
 						}, 6, 6) then
 							if not self.displayingNPCInteraction then
 								GameInteractions:closeActionBox()
@@ -61,8 +61,8 @@ tasks = {
 
 				if parent and parent.compass then
 					GameInteractions:displayActionBox({
-						text = "Let’s find the nearest Tradepost at once! Don’t forget you can always check your compass for directions",
 						bandit = true,
+						text = "Let’s find the nearest Tradepost at once! Don’t forget you can always check your compass for directions",
 						keys = {
 							MouseLeftButton
 						},
@@ -77,17 +77,17 @@ tasks = {
 				self.displayingCompassInteraction = false
 
 				GameInteractions:displayActionBox({
-					preferSide = "top",
 					text = "So talk with the Munk Merchant near the docks again!",
 					bandit = true,
+					preferSide = "top",
 					keys = {
 						"F",
 						MouseRightButton
 					},
 					tilePos = {
-						y = 5108,
+						z = 6,
 						x = 5070,
-						z = 6
+						y = 5108
 					}
 				})
 			end,
@@ -150,8 +150,8 @@ tasks = {
 
 					if widget then
 						GameInteractions:displayActionBox({
-							text = "A Tradepost works both for crafting and selling a tradepack. But keep in mind a tradepack can't be sold in the same place that it was crafted",
 							bandit = true,
+							text = "A Tradepost works both for crafting and selling a tradepack. But keep in mind a tradepack can't be sold in the same place that it was crafted",
 							keys = {
 								MouseLeftButton
 							},
@@ -226,9 +226,9 @@ tasks = {
 
 				if sell_button and sell_button:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "top",
-						text = "Now let's craft a Farmer's Basics so we dont leave Father Richard waiting!",
 						bandit = true,
+						text = "Now let's craft a Farmer's Basics so we dont leave Father Richard waiting!",
+						preferSide = "top",
 						keys = {
 							MouseLeftButton
 						},

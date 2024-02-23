@@ -5,18 +5,18 @@ quest_name = "Crafting"
 current_task = 0
 current_interaction = 0
 itemsToInteractionType = {
+	["Wicked Axe"] = "blacksmithing",
+	["Solid Mace"] = "blacksmithing",
+	["Serrated Dagger"] = "blacksmithing",
+	["Rough Greataxe"] = "blacksmithing",
+	["Rough Sword"] = "blacksmithing",
 	["Knotted Sceptre"] = "carpentry",
 	["Mystic Staff"] = "carpentry",
 	["Oakwood Bow"] = "carpentry",
 	["Wooden Buckler"] = "carpentry",
 	["Skirmisher's Blade"] = "blacksmithing",
 	["Shipbuilding Mallet"] = "blacksmithing",
-	["Burnished Greatsword"] = "blacksmithing",
-	["Wicked Axe"] = "blacksmithing",
-	["Solid Mace"] = "blacksmithing",
-	["Serrated Dagger"] = "blacksmithing",
-	["Rough Greataxe"] = "blacksmithing",
-	["Rough Sword"] = "blacksmithing"
+	["Burnished Greatsword"] = "blacksmithing"
 }
 
 local function carpentryOrBlacksmithing()
@@ -76,9 +76,9 @@ tasks = {
 						local self = tasks[__env.current_task][__env.current_interaction]
 
 						if Position.isInRange(pos, {
-							y = 5061,
+							z = 9,
 							x = 5290,
-							z = 9
+							y = 5061
 						}, 6, 6) then
 							GameInteractions:closeActionBox()
 							self:displayCraftingInteraction()
@@ -99,8 +99,8 @@ tasks = {
 
 				if parent and parent.compass then
 					GameInteractions:displayActionBox({
-						text = "We need to find the nearest Crafting Station at once! Don't forget you can always check your compass for directions",
 						bandit = true,
+						text = "We need to find the nearest Crafting Station at once! Don't forget you can always check your compass for directions",
 						keys = {
 							MouseLeftButton
 						},
@@ -130,13 +130,13 @@ tasks = {
 						}
 					},
 					tilePos = type == "carpentry" and {
-						y = 5061,
+						z = 9,
 						x = 5289,
-						z = 9
+						y = 5061
 					} or {
-						y = 5060,
+						z = 9,
 						x = 5292,
-						z = 9
+						y = 5060
 					},
 					callbackOnClose = function(self)
 						GameInteractions:advanceInteraction(__env, __env.current_task, __env.current_interaction)
@@ -153,13 +153,13 @@ tasks = {
 				end
 
 				local craftingStationPos = type == "carpentry" and {
-					y = 5061,
+					z = 9,
 					x = 5289,
-					z = 9
+					y = 5061
 				} or {
-					y = 5060,
+					z = 9,
 					x = 5292,
-					z = 9
+					y = 5060
 				}
 				local player = g_game.getLocalPlayer()
 
@@ -197,13 +197,13 @@ tasks = {
 				LocalPlayer = {
 					onPositionChange = function(player, pos)
 						local craftingStationPos = type == "carpentry" and {
-							y = 5061,
+							z = 9,
 							x = 5289,
-							z = 9
+							y = 5061
 						} or {
-							y = 5060,
+							z = 9,
 							x = 5292,
-							z = 9
+							y = 5060
 						}
 
 						if not Position.isInRange(pos, craftingStationPos, 6, 6) then
@@ -236,13 +236,13 @@ tasks = {
 
 				if not craftingWindow:isVisible() then
 					local craftingStationPos = type == "carpentry" and {
-						y = 5061,
+						z = 9,
 						x = 5289,
-						z = 9
+						y = 5061
 					} or {
-						y = 5060,
+						z = 9,
 						x = 5292,
-						z = 9
+						y = 5060
 					}
 					local isInRange = Position.isInRange(player:getPosition(), craftingStationPos, 2, 2)
 
@@ -291,13 +291,13 @@ tasks = {
 				end
 
 				local craftingStationPos = type == "carpentry" and {
-					y = 5061,
+					z = 9,
 					x = 5289,
-					z = 9
+					y = 5061
 				} or {
-					y = 5060,
+					z = 9,
 					x = 5292,
-					z = 9
+					y = 5060
 				}
 				local player = g_game.getLocalPlayer()
 
@@ -328,8 +328,8 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					text = "Now select the weapon you wish to craft from the list",
 					bandit = true,
+					text = "Now select the weapon you wish to craft from the list",
 					keys = {
 						MouseLeftButton
 					},
@@ -368,9 +368,9 @@ tasks = {
 
 				if craftingWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "top",
-						text = "Since you have all the required materials, you can start crafting by simply clicking the button",
 						bandit = true,
+						text = "Since you have all the required materials, you can start crafting by simply clicking the button",
+						preferSide = "top",
 						parent = craftingWindow.button_panel.craft_button,
 						keys = {
 							MouseLeftButton

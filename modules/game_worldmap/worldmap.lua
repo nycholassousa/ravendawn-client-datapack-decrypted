@@ -4,8 +4,8 @@ local defaultMarks = {}
 
 for _, port in pairs(Ports) do
 	table.insert(defaultMarks, {
-		maxZoom = 10,
 		minZoom = 3,
+		maxZoom = 10,
 		pos = port.pos,
 		type = MAPMARK_SEAPORT,
 		description = port.description
@@ -14,8 +14,8 @@ end
 
 for id, event in pairs(DynamicEvents) do
 	table.insert(defaultMarks, {
-		maxZoom = 10,
 		minZoom = 1,
+		maxZoom = 10,
 		pos = event.pos,
 		type = MAPMARK_DYNAMICEVENT,
 		description = event.name,
@@ -27,9 +27,9 @@ end
 
 for id, region in pairs(Regions) do
 	table.insert(defaultMarks, {
-		style = "WorldMapIconAndBottomText",
-		maxZoom = 10,
 		minZoom = 1,
+		maxZoom = 10,
+		style = "WorldMapIconAndBottomText",
 		pos = region.pos,
 		type = MAPMARK_REGION_CONFLICT,
 		description = region.name,
@@ -49,8 +49,8 @@ for profession, data in pairs(CraftingStations) do
 		}
 
 		table.insert(defaultMarks, {
-			maxZoom = 10,
 			minZoom = 3,
+			maxZoom = 10,
 			pos = pos,
 			type = MAPMARK_CRAFTING_STATION,
 			description = string.format("%s %s", ProfessionNames[profession], "Station"),
@@ -60,9 +60,9 @@ for profession, data in pairs(CraftingStations) do
 end
 
 table.insert(defaultMarks, {
-	maxZoom = 10,
 	minZoom = 3,
 	description = "Market",
+	maxZoom = 10,
 	pos = {
 		z = 6,
 		y = 5108,
@@ -71,9 +71,9 @@ table.insert(defaultMarks, {
 	type = MAPMARK_MARKET
 })
 table.insert(defaultMarks, {
-	maxZoom = 10,
 	minZoom = 3,
 	description = "Moa Merchant",
+	maxZoom = 10,
 	pos = {
 		z = 7,
 		y = 5201,
@@ -102,9 +102,9 @@ end
 
 for _, waypoint in ipairs(Waypoints) do
 	table.insert(defaultMarks, {
-		maxZoom = 10,
 		minZoom = 3,
 		description = "Respawn Shrine",
+		maxZoom = 10,
 		pos = waypoint.position,
 		type = MAPMARK_RESPAWN_SHRINE
 	})
@@ -232,9 +232,9 @@ local mapImageSource = {
 			toY = 4723
 		},
 		minimapZoom = {
-			min = 300,
 			default = 400,
-			max = 800
+			max = 800,
+			min = 300
 		},
 		callback = function(lastSource)
 			g_textures.unload(lastSource)
@@ -263,18 +263,18 @@ local mapImageSource = {
 			toY = 4920
 		},
 		minimapZoom = {
-			min = 300,
 			default = 400,
-			max = 800
+			max = 800,
+			min = 300
 		},
 		callback = function(lastSource)
 			g_textures.unload(lastSource)
 		end
 	},
 	{
-		name = "floor%i_%s.jpg",
 		displayFlags = true,
 		displayCurrentFloorFlags = true,
+		name = "floor%i_%s.jpg",
 		area = {
 			toX = 7174,
 			fromY = 3800,
@@ -282,9 +282,9 @@ local mapImageSource = {
 			toY = 6122
 		},
 		minimapZoom = {
-			min = 100,
 			default = 200,
-			max = 400
+			max = 400,
+			min = 100
 		},
 		displayCurrentFloorFlagsExceptions = {
 			[MAPMARK_COMPASS] = true
@@ -299,8 +299,8 @@ local mapImageSource = {
 	},
 	{
 		name = "minimap_%s.jpg",
-		main = true,
 		displayFlags = true,
+		main = true,
 		area = {
 			toX = 7174,
 			fromY = 3800,
@@ -308,9 +308,9 @@ local mapImageSource = {
 			toY = 6122
 		},
 		minimapZoom = {
-			min = 100,
 			default = 200,
-			max = 400
+			max = 400,
+			min = 100
 		},
 		callback = function(lastSource, quality)
 			for i = 8, 15 do
@@ -323,11 +323,11 @@ local mapImageSource = {
 }
 
 g_worldMap = {
+	maxZoom = 10,
+	minZoom = 1,
 	globalFont = "myriad-pro-semibold-",
 	zoom = 1,
 	fullmapView = false,
-	maxZoom = 10,
-	minZoom = 1,
 	startPos = {
 		y = 0,
 		x = 0
@@ -346,20 +346,29 @@ g_worldMap = {
 	area = {},
 	compassHighlights = {},
 	zoneCfg = {
+		minZoom = 5,
+		fullmapViewExtraFontSize = 6,
 		fontMaxSize = 24,
 		fontMinSize = 12,
-		font = "vollkorn-sc-bold-bordered-",
-		minZoom = 5,
-		fullmapViewExtraFontSize = 6
+		font = "vollkorn-sc-bold-bordered-"
 	},
 	regionCfg = {
+		maxZoom = 5,
+		fullmapViewExtraFontSize = 4,
 		fontMaxSize = 22,
 		fontMinSize = 10,
-		font = "vollkorn-sc-bold-bordered-",
-		maxZoom = 5,
-		fullmapViewExtraFontSize = 4
+		font = "vollkorn-sc-bold-bordered-"
 	},
 	iconSettings = {
+		showPvPArena = true,
+		showSeaport = true,
+		showHouse = true,
+		showTradepost = true,
+		showCraftingStation = true,
+		showLevelBrackets = true,
+		showZoneNames = true,
+		showMissionAvailable = true,
+		showMissionComplete = true,
 		showCollectors = true,
 		showVendors = true,
 		showMoaMerchant = true,
@@ -370,23 +379,14 @@ g_worldMap = {
 		showFishpost = true,
 		showBank = true,
 		showAutomaticHighlights = true,
-		showRangersCompanyOutpost = true,
-		showPvPArena = true,
-		showSeaport = true,
-		showHouse = true,
-		showTradepost = true,
-		showCraftingStation = true,
-		showLevelBrackets = true,
-		showZoneNames = true,
-		showMissionAvailable = true,
-		showMissionComplete = true
+		showRangersCompanyOutpost = true
 	},
 	landViewerSettings = {
-		showFort = true,
 		showStronghold = true,
 		showLargeEstate = true,
 		showMediumEstate = true,
-		showSmallEstate = true
+		showSmallEstate = true,
+		showFort = true
 	},
 	iconAssets = {
 		[MAPMARK_MISSION_COMPLETE] = "mission_complete",
@@ -608,6 +608,15 @@ function g_worldMap.updateVisibleMarks(updatePosition)
 end
 
 local checkBoxIdToName = {
+	showPvPArena = "PvP arena",
+	showSeaport = "Seaport",
+	showHouse = "House",
+	showTradepost = "Tradepost",
+	showCraftingStation = "Crafting station",
+	showLevelBrackets = "Level Bracket",
+	showZoneNames = "Zone Name",
+	showMissionAvailable = "Mission available",
+	showMissionComplete = "Mission complete",
 	showCollectors = "Collector",
 	showVendors = "Vendor",
 	showMoaMerchant = "Moa Merchant",
@@ -618,16 +627,7 @@ local checkBoxIdToName = {
 	showFishpost = "Fishposts",
 	showBank = "Banks",
 	showAutomaticHighlights = "Compass Highlights",
-	showRangersCompanyOutpost = "Rangers Company Outpost",
-	showPvPArena = "PvP arena",
-	showSeaport = "Seaport",
-	showHouse = "House",
-	showTradepost = "Tradepost",
-	showCraftingStation = "Crafting station",
-	showLevelBrackets = "Level Bracket",
-	showZoneNames = "Zone Name",
-	showMissionAvailable = "Mission available",
-	showMissionComplete = "Mission complete"
+	showRangersCompanyOutpost = "Rangers Company Outpost"
 }
 
 function getCheckBoxName(key)
@@ -3012,8 +3012,8 @@ function g_worldMap.addCompassHighlight(compass, questName, taskId, taskDescript
 	}
 	flag.position = compass.pos
 	flag.zoom = {
-		min = 0,
-		max = 20
+		max = 20,
+		min = 0
 	}
 	flag.questName = questName
 	flag.taskId = taskId
@@ -3142,8 +3142,8 @@ function g_worldMap.createQuestFlag(pos, icon, description, region, alwaysShow)
 	flag.region = region
 	flag.alwaysShow = alwaysShow
 	flag.zoom = {
-		min = 5,
-		max = 10
+		max = 10,
+		min = 5
 	}
 	flag.temporary = true
 

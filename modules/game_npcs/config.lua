@@ -57,14 +57,14 @@ callbacks = {
 	end
 }
 windowTypes = {
-	tradepost_craft = "GameTradepostCraftPanel",
 	dialogue = "GameDialoguePanel",
+	tradepost_craft = "GameTradepostCraftPanel",
+	bank = "GameBankPanel",
 	warehouse = "GameWarehousePanel",
 	itemshop = "GameItemShopPanel",
 	gear_breakdown_shop = "GameGearBreakdownShopPanel",
 	rangers_company_shop = "GameRangersCompanyShopPanel",
 	fishpost = "GameFishpostPanel",
-	bank = "GameBankPanel",
 	tradepost_sell = "GameTradepostSellPanel"
 }
 bank = {

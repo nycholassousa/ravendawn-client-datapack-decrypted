@@ -54,9 +54,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("transports")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press Y or Left-Click to open your Transport menu",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							"Y",
 							MouseLeftButton
@@ -91,8 +91,8 @@ tasks = {
 
 				if transportWindow:isVisible() then
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "This bar represents your Moa's Bond Level, which is how strong the relation between you two currently is."
@@ -142,9 +142,9 @@ tasks = {
 
 				if player:getOutfit().mount == 0 then
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press Ctrl+R or Left-Click to mount.",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							"Ctrl+R",
 							MouseLeftButton
@@ -182,8 +182,8 @@ tasks = {
 
 				if mountHud:isVisible() then
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "This gauge below your health and mana represents how much stamina your active Moa currently has."

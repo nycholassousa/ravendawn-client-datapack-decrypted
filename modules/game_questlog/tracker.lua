@@ -179,10 +179,10 @@ function parseQuestTrackerData(data)
 		quest.north_star = true
 		quest.tasks = quest.tasks or {
 			{
-				north_star = true,
 				state = 1,
-				taskId = 1,
 				compassUnlocked = false,
+				taskId = 1,
+				north_star = true,
 				name = quest.name,
 				finished = quest.finished
 			}
@@ -409,8 +409,8 @@ function addQuestEntry(questName, entry)
 
 	if entry.compassUnlocked then
 		compass:setSize({
-			height = 32,
-			width = 32
+			width = 32,
+			height = 32
 		})
 
 		if widget.compassData then
@@ -418,8 +418,8 @@ function addQuestEntry(questName, entry)
 		end
 	else
 		compass:setSize({
-			height = 32,
-			width = 0
+			width = 0,
+			height = 32
 		})
 	end
 

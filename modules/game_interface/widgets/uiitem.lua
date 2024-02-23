@@ -88,8 +88,8 @@ function UIItem:onDragEnter(mousePos)
 	itemCopy:setItem(self:getItem())
 	itemCopy:raise()
 	itemCopy:setSize({
-		height = 64,
-		width = 64
+		width = 64,
+		height = 64
 	})
 	itemCopy:setPhantom(true)
 

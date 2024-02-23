@@ -200,9 +200,9 @@ function g_mapView.camera.showPos(pos, ms, params)
 	local followingCreature = mapPanel:getFollowingCreature()
 	local cid = followingCreature:getId()
 	local params = params or {
-		intervalDuration = 500,
 		fadeOutDuration = 500,
-		fadeInDuration = 500
+		fadeInDuration = 500,
+		intervalDuration = 500
 	}
 
 	if ms then

@@ -24,24 +24,24 @@ local fishBehaviour = {
 		icon = "/images/ui/windows/fishfight/fish_state_tired"
 	},
 	[FISHFIGHT_STATE_TIRED_2] = {
-		description = "Increases the damage done to the fish by 100%.",
+		text = "2",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		text = "2"
+		description = "Increases the damage done to the fish by 100%."
 	},
 	[FISHFIGHT_STATE_TIRED_3] = {
-		description = "Increases the damage done to the fish by 150%.",
+		text = "3",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		text = "3"
+		description = "Increases the damage done to the fish by 150%."
 	},
 	[FISHFIGHT_STATE_TIRED_4] = {
-		description = "Increases the damage done to the fish by 200%.",
+		text = "4",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		text = "4"
+		description = "Increases the damage done to the fish by 200%."
 	},
 	[FISHFIGHT_STATE_TIRED_5] = {
-		description = "Increases the damage done to the fish by 250%.",
+		text = "5",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		text = "5"
+		description = "Increases the damage done to the fish by 250%."
 	}
 }
 
@@ -62,9 +62,9 @@ end
 
 local weightColors = {
 	large = "#87c72c",
-	medium = "white",
+	small = "#b3b3b3",
 	gargantuan = "#fc8c08",
-	small = "#b3b3b3"
+	medium = "white"
 }
 
 function FishFight.sendAbility(id)

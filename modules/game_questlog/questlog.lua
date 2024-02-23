@@ -28,7 +28,8 @@ function GameQuestLog:init()
 	ProtocolGame.registerExtendedOpcode(ExtendedIds.Quest, self.onQuestExtendedOpcode)
 	connect(g_game, {
 		onGameEnd = GameQuestLog.offline,
-		onGameStart = GameQuestLog.requestQuests
+		onGameStart = GameQuestLog.requestQuests,
+		onProtocolItem = GameQuestLog.onProtocolItem
 	})
 	initQuestTracker()
 
@@ -49,7 +50,8 @@ function GameQuestLog:terminate()
 	ProtocolGame.unregisterExtendedOpcode(ExtendedIds.Quest)
 	disconnect(g_game, {
 		onGameEnd = GameQuestLog.offline,
-		onGameStart = GameQuestLog.requestQuests
+		onGameStart = GameQuestLog.requestQuests,
+		onProtocolItem = GameQuestLog.onProtocolItem
 	})
 	saveHiddenActiveQuestsSettings()
 end
@@ -79,6 +81,8 @@ function GameQuestLog.offline()
 	GameQuestLog.window.content.completedquests_panel.panel:destroyChildren()
 	GameQuestLog.window.content.currentquests_panel.panel:destroyChildren()
 	GameQuestLog.window.gameQuestlogTopWidget.filterWidget.textEdit:setText("")
+
+	GameQuestLog.protocolItems = nil
 end
 
 function GameQuestLog.toggle(mouseClick)
@@ -481,6 +485,7 @@ function GameQuestLog.onQuests(data)
 end
 
 function GameQuestLog.onQuestDetails(data)
+	local localPlayer = g_game.getLocalPlayer()
 	local attachedWindow = GameQuestLog.expandedQuestInfoWindow
 	local content = attachedWindow.content
 
@@ -532,6 +537,8 @@ function GameQuestLog.onQuestDetails(data)
 		local hasNormalReward = false
 		local hasOnlyReward = false
 
+		GameQuestLog.protocolItems = {}
+
 		for _, reward in ipairs(data.rewards) do
 			local widget = g_ui.createWidget("RewardWidget", reward.only_one and content.rewardsOnlyListPanel or content.rewardsListPanel)
 
@@ -539,6 +546,8 @@ function GameQuestLog.onQuestDetails(data)
 				widget.item:setItemId(reward.id)
 				widget.itemName:setText(reward.name)
 				widget.itemCount:setText(reward.amount)
+
+				GameQuestLog.protocolItems[reward.uid] = widget
 			elseif reward.id == "silver" or reward.id == "experience" or reward.id == "reputation" then
 				widget.item:setImageSource("/images/ui/icons/" .. reward.id)
 				widget.itemName:setText(reward.name:titleCase())
@@ -588,6 +597,17 @@ function GameQuestLog.onQuestDetails(data)
 	attachedWindow.complete_north_star_quest:hide()
 	attachedWindow:show()
 	attachedWindow:followParent()
+end
+
+function GameQuestLog.onProtocolItem(item)
+	local uid = item and item:getUUID()
+	local widget = uid and GameQuestLog.protocolItems[uid]
+
+	if widget then
+		widget.item:setItem(item)
+
+		GameQuestLog.protocolItems[uid] = nil
+	end
 end
 
 function GameQuestLog.onQuestExtendedOpcode(protocol, opcode, buffer)
@@ -716,8 +736,8 @@ function GameQuestLog:onRangersCompanyQuestDetails()
 
 	content.npcOutfit:setImageSource(string.format("/images/ui/windows/rangers_company/icon_%s", category))
 	content.npcOutfit:setImageSize({
-		height = 45,
-		width = 45
+		width = 45,
+		height = 45
 	})
 
 	local x = (content.npcOutfit:getWidth() - content.npcOutfit:getImageSize().width) / 2
@@ -744,8 +764,8 @@ function GameQuestLog:onRangersCompanyQuestDetails()
 		widget.itemName:setText(name:titleCase())
 		widget.itemCount:setText(idx == 1 and data.rewards.prestige or data.rewards.marks)
 		widget.item:setSize({
-			height = 35,
-			width = 35
+			width = 35,
+			height = 35
 		})
 		widget.item:setMarginLeft(5)
 	end
@@ -792,8 +812,8 @@ function GameQuestLog:onNorthStarQuestDetails()
 	content.rangers_company_progress_panel:hide()
 	content.npcOutfit:setImageSource("/images/ui/windows/questlog/icon_north_star")
 	content.npcOutfit:setImageSize({
-		height = 45,
-		width = 45
+		width = 45,
+		height = 45
 	})
 
 	local x = (content.npcOutfit:getWidth() - content.npcOutfit:getImageSize().width) / 2
@@ -827,8 +847,8 @@ function GameQuestLog:onNorthStarQuestDetails()
 			widget.itemName:setText("RavenPacks")
 			widget.itemCount:setText(reward.ravencard_pack)
 			widget.item:setSize({
-				height = 35,
-				width = 24
+				width = 24,
+				height = 35
 			})
 			widget.item:setMarginLeft(10)
 		elseif reward.dawn_essence then
@@ -864,8 +884,8 @@ function GameQuestLog:onNorthStarQuestDetails()
 				widget.itemName:setText("RavenPacks")
 				widget.itemCount:setText(reward.ravencard_pack)
 				widget.item:setSize({
-					height = 35,
-					width = 24
+					width = 24,
+					height = 35
 				})
 				widget.item:setMarginLeft(10)
 			elseif reward.dawn_essence then

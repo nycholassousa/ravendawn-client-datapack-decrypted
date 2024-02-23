@@ -35,9 +35,9 @@ tasks = {
 				LocalPlayer = {
 					onPositionChange = function(player, pos)
 						if Position.equals(pos, {
-							y = 4647,
 							x = 3219,
-							z = 6
+							z = 6,
+							y = 4647
 						}) then
 							GameInteractions:advanceInteraction(__env, goDownstairs, 1)
 						end
@@ -71,9 +71,9 @@ tasks = {
 				LocalPlayer = {
 					onPositionChange = function(player, pos)
 						if Position.equals(pos, {
-							y = 4647,
 							x = 3218,
-							z = 6
+							z = 6,
+							y = 4647
 						}) then
 							GameInteractions:advanceInteraction(__env, goDownstairs, 2)
 						end
@@ -88,9 +88,9 @@ tasks = {
 						MouseRightButton
 					},
 					tilePos = {
-						y = 4647,
 						x = 3218,
-						z = 6
+						z = 6,
+						y = 4647
 					}
 				})
 				table.insert(self.disconnects, connect(Item, {
@@ -107,9 +107,9 @@ tasks = {
 				LocalPlayer = {
 					onPositionChange = function(player, pos)
 						if Position.equals(pos, {
-							y = 4647,
 							x = 3216,
-							z = 7
+							z = 7,
+							y = 4647
 						}) then
 							GameInteractions:advanceInteraction(__env, goDownstairs, 3)
 						end
@@ -124,9 +124,9 @@ tasks = {
 						"wasd"
 					},
 					tilePos = {
-						y = 4646,
 						x = 3216,
-						z = 6
+						z = 6,
+						y = 4646
 					}
 				})
 				table.insert(self.disconnects, connect(LocalPlayer, {
@@ -145,9 +145,9 @@ tasks = {
 						MouseRightButton
 					},
 					tilePos = {
-						y = 4646,
 						x = 3222,
-						z = 7
+						z = 7,
+						y = 4646
 					}
 				})
 			end
@@ -167,9 +167,9 @@ tasks = {
 				LocalPlayer = {
 					onPositionChange = function(player, pos)
 						if Position.equals(pos, {
-							y = 4650,
 							x = 3223,
-							z = 7
+							z = 7,
+							y = 4650
 						}) then
 							GameInteractions:advanceInteraction(__env, talkToNeighbor, 1)
 						end
@@ -184,9 +184,9 @@ tasks = {
 						MouseRightButton
 					},
 					tilePos = {
-						y = 4650,
 						x = 3223,
-						z = 7
+						z = 7,
+						y = 4650
 					}
 				})
 				table.insert(self.disconnects, connect(Item, {
@@ -409,9 +409,9 @@ tasks = {
 							MouseRightButton
 						},
 						tilePos = {
-							y = 4643,
 							x = 3226,
-							z = 7
+							z = 7,
+							y = 4643
 						}
 					})
 					table.insert(self.disconnects, connect(g_game, {
@@ -458,9 +458,9 @@ tasks = {
 						MouseRightButton
 					},
 					tilePos = {
-						y = 4654,
 						x = 3224,
-						z = 7
+						z = 7,
+						y = 4654
 					}
 				})
 			end
@@ -742,8 +742,8 @@ tasks = {
 						},
 						creatureId = target:getId(),
 						offset = {
-							y = -32,
-							x = -40
+							x = -40,
+							y = -32
 						}
 					})
 				end
@@ -989,9 +989,9 @@ tasks = {
 							MouseRightButton
 						},
 						tilePos = {
-							y = 4643,
 							x = 3226,
-							z = 7
+							z = 7,
+							y = 4643
 						}
 					})
 					table.insert(self.disconnects, connect(g_game, {

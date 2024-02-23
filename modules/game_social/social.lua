@@ -1,11 +1,11 @@
 ﻿-- chunkname: @/modules/game_social/social.lua
 
 GameSocial = {
+	mailUnreadCount = -1,
 	partyRequestCount = -1,
 	friendsRequestCount = -1,
 	allowedLevelGap = 10,
 	maxPartyMembers = 6,
-	mailUnreadCount = -1,
 	ignoredPlayers = {}
 }
 STATUS_OFFLINE = 1

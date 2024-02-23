@@ -59,12 +59,17 @@ function GameReputation:parseExperiencePoints(data)
 	self.window.contentPanel.info.tooltipEnabled = true
 	self.window.contentPanel.info.reputationPointsTooltip = reputationPointsTooltip
 
-	local oldPoints = self.window.contentPanel.avaliablePoints.total or -1
+	local oldPoints = self.window.contentPanel.availablePoints.total or -1
 
-	self.window.contentPanel.avaliablePoints.total = data.total
+	self.window.contentPanel.availablePoints.total = data.total
 
 	signalcall(self.onUpdateReputationPoints, oldPoints, data.total)
 	self.window.contentPanel.allPoints:setText(allPoints)
-	self.window.contentPanel.avaliablePoints:setText(data.total)
+	self.window.contentPanel.availablePoints:setText(data.total)
+
+	self.totalPoints = allPoints
+	self.availablePoints = data.total
+
+	self:updateResetPointsButtonAmount()
 	self:updateRows()
 end

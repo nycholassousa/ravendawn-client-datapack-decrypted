@@ -1,11 +1,12 @@
 ﻿-- chunkname: @/modules/game_premium_store/premium_store.lua
 
 GamePremiumStore = {
-	lastRequestTime = 0,
 	max_items_per_row = 4,
+	lastRequestTime = 0,
 	panels = {},
 	gridCategories = {
-		Cosmetics = true
+		Cosmetics = true,
+		Services = true
 	}
 }
 
@@ -215,9 +216,9 @@ function GamePremiumStore:setupRavenpacksPanel(items)
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
 					["&textAlign"] = "left",
+					["&iconAlign"] = "left",
 					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
-					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 				})
 				purchase_button:setText(item.price)
@@ -239,9 +240,9 @@ function GamePremiumStore:setupRavenpacksPanel(items)
 			purchase_button2.icon:setChecked(true)
 			purchase_button2:onStyleApply(purchase_button2:getStyleName(), {
 				["&textAlign"] = "left",
+				["&iconAlign"] = "left",
 				["&textMarginLeft"] = "45",
 				["&iconOffset"] = "20 0",
-				["&iconAlign"] = "left",
 				["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.additionalCurrency)
 			})
 			purchase_button2:setText(item.additionalPrice)
@@ -278,6 +279,7 @@ function GamePremiumStore:setupRavenpacksPanel(items)
 			end
 
 			bonusWidget:setText(item.bonus.text)
+			bonusWidget:setTooltip(tr(item.bonus.tooltip) or "")
 			bonusWidget:show()
 		end
 	end
@@ -315,6 +317,7 @@ function GamePremiumStore:setupRavencoinsPanel(items)
 			end
 
 			bonusWidget:setText(item.bonus.text)
+			bonusWidget:setTooltip(tr(item.bonus.tooltip) or "")
 			bonusWidget:show()
 		end
 
@@ -352,9 +355,9 @@ function GamePremiumStore:setupLimitedEditionBundles(items)
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
 					["&textAlign"] = "left",
+					["&iconAlign"] = "left",
 					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
-					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 				})
 				purchase_button:setText(item.price)
@@ -378,6 +381,7 @@ function GamePremiumStore:setupLimitedEditionBundles(items)
 				end
 
 				bonusWidget:setText(item.bonus.text)
+				bonusWidget:setTooltip(tr(item.bonus.tooltip) or "")
 				bonusWidget:show()
 			end
 
@@ -474,9 +478,9 @@ function GamePremiumStore:setupPremiumPanel(items)
 			purchase_button.icon:setChecked(true)
 			purchase_button:onStyleApply(purchase_button:getStyleName(), {
 				["&textAlign"] = "left",
+				["&iconAlign"] = "left",
 				["&textMarginLeft"] = "45",
 				["&iconOffset"] = "20 0",
-				["&iconAlign"] = "left",
 				["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 			})
 			purchase_button:setText(item.price)
@@ -506,6 +510,7 @@ function GamePremiumStore:setupPremiumPanel(items)
 			end
 
 			bonusWidget:setText(item.bonus.text)
+			bonusWidget:setTooltip(tr(item.bonus.tooltip) or "")
 			bonusWidget:show()
 		end
 
@@ -593,9 +598,12 @@ end
 
 function GamePremiumStore:setupServicesPanel(items)
 	local panel = self.panels.Services
+	local count = 0
 
 	for index, item in ipairs(items) do
 		if not item.hidden then
+			count = count + 1
+
 			local widget = g_ui.createWidget(string.format("GamePremiumStoreServicesItemWidget", category), panel.content.item_holder)
 
 			widget.box.title:setText(item.title)
@@ -613,9 +621,9 @@ function GamePremiumStore:setupServicesPanel(items)
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
 					["&textAlign"] = "left",
+					["&iconAlign"] = "left",
 					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
-					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 				})
 				purchase_button:setText(item.price)
@@ -628,6 +636,12 @@ function GamePremiumStore:setupServicesPanel(items)
 				self:requestPurchase("Services", item)
 			end
 		end
+	end
+
+	local numLines = math.ceil(count / self.max_items_per_row)
+
+	if numLines > 1 then
+		panel.content:setHeight(panel.content:getHeight() + 220)
 	end
 end
 
@@ -657,9 +671,9 @@ function GamePremiumStore:setupCosmeticsPanel(items)
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
 					["&textAlign"] = "left",
+					["&iconAlign"] = "left",
 					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
-					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 				})
 				purchase_button:setText(item.price)
@@ -679,6 +693,7 @@ function GamePremiumStore:setupCosmeticsPanel(items)
 				end
 
 				bonusWidget:setText(item.bonus.text)
+				bonusWidget:setTooltip(tr(item.bonus.tooltip) or "")
 				bonusWidget:show()
 			end
 
@@ -860,8 +875,8 @@ function GamePremiumStore:displayNameChangeBox(item)
 		self.confirm_box = nil
 
 		self:sendOpcode({
-			action = "name_change",
 			category = "services",
+			action = "name_change",
 			website_id = item.website_id,
 			name = inputText
 		})

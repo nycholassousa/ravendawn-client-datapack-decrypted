@@ -14,8 +14,8 @@ focusNameToIndex = {
 	["PvE/PvP"] = GUILD_FOCUS_PVPVE
 }
 miscNameToIndex = {
-	["Hide Full Guilds"] = 1,
-	["Applied Only"] = 2
+	["Applied Only"] = 2,
+	["Hide Full Guilds"] = 1
 }
 focusToIcon = {
 	[GUILD_FOCUS_PVE] = "focus_pve",
@@ -84,9 +84,9 @@ filters = {
 	}
 }
 createRequirements = {
-	silver = 100000,
 	premium = true,
-	level = 20
+	level = 20,
+	silver = 100000
 }
 minGuildNameLength = 3
 maxGuildNameLength = 20

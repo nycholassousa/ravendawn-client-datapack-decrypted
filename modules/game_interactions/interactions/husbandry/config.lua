@@ -110,9 +110,9 @@ tasks = {
 					GameInteractions:advanceInteraction(__env, __env.current_task, 1)
 				else
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "And travel to the Husbandry tab",
 						bandit = true,
+						preferSide = "top",
 						parent = houseWindow:recursiveGetChildById("husbandry"),
 						keys = {
 							MouseLeftButton
@@ -182,9 +182,9 @@ tasks = {
 				if houseWindow:isVisible() then
 					if parentWidget then
 						GameInteractions:displayActionBox({
-							preferSide = "top",
 							text = "Select the Small Pig Pen from the list...",
 							bandit = true,
+							preferSide = "top",
 							keys = {
 								MouseLeftButton
 							},
@@ -253,9 +253,9 @@ tasks = {
 
 				if houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "right",
-						text = "And place it just like you did with the potatoes!",
 						bandit = true,
+						text = "And place it just like you did with the potatoes!",
+						preferSide = "right",
 						keys = {
 							MouseLeftButton
 						},
@@ -305,9 +305,9 @@ tasks = {
 			},
 			onStartInteraction = function(self)
 				GameInteractions:displayActionBox({
-					preferSide = "top",
 					text = "Keep in mind you gotta leave at least one empty tile between different products",
 					bandit = true,
+					preferSide = "top",
 					keys = {
 						MouseLeftButton
 					},

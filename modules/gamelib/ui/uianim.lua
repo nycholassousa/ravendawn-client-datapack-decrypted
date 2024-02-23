@@ -8,19 +8,19 @@ function UIAnim.create()
 	widget.anim = {
 		opacity = {
 			delta = 0.1,
-			value = 1,
 			dir = 1,
+			value = 1,
 			speed = 0
 		},
 		sprite = {
-			index = 0,
-			path = "",
-			defaultIndex = 1,
+			speed = 0,
 			startIndex = 1,
 			count = 0,
+			defaultIndex = 1,
+			index = 0,
 			playing = true,
 			prefix = "",
-			speed = 0
+			path = ""
 		}
 	}
 	widget.events = {}

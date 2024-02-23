@@ -3,3937 +3,3937 @@
 recipes = recipes or {}
 recipes[ProfessionCarpentry] = {
 	{
+		category = "planks",
+		index = 1,
 		clientId = 28744,
 		amount = 1,
-		index = 1,
-		category = "planks",
-		progress = 25,
 		itemId = 32176,
 		quality = 75,
-		slotName = "",
 		name = "rough plank",
 		experience = 440,
-		profession = 4,
-		tier = -1,
-		description = "Used in various recipes. Unpolished and rugged.",
 		durability = 4,
+		profession = 4,
+		description = "Used in various recipes. Unpolished and rugged.",
+		progress = 25,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 6,
 			single = 1
 		},
 		materials = {
 			{
-				name = "Small Log",
-				clientId = 28977,
+				itemId = 32409,
 				amount = 5,
-				itemId = 32409
+				clientId = 28977,
+				name = "Small Log"
 			}
 		}
 	},
 	{
+		category = "planks",
+		index = 2,
 		clientId = 28743,
 		amount = 1,
-		index = 2,
-		category = "planks",
-		progress = 150,
 		itemId = 32175,
 		quality = 150,
-		slotName = "",
 		name = "refined plank",
 		experience = 880,
-		profession = 4,
-		tier = -1,
-		description = "Used in various recipes. Meticulously processed for smoothness and uniformity.",
 		durability = 7,
+		profession = 4,
+		description = "Used in various recipes. Meticulously processed for smoothness and uniformity.",
+		progress = 150,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "Heavy Log",
-				clientId = 45504,
+				itemId = 48956,
 				amount = 8,
-				itemId = 48956
+				clientId = 45504,
+				name = "Heavy Log"
 			}
 		}
 	},
 	{
+		category = "planks",
+		index = 3,
 		clientId = 28745,
 		amount = 1,
-		index = 3,
-		category = "planks",
-		progress = 225,
 		itemId = 32177,
 		quality = 200,
-		slotName = "",
 		name = "treated plank",
 		experience = 1360,
-		profession = 4,
-		tier = -1,
-		description = "Used in various recipes. Enhanced for durability and resistance.",
 		durability = 7,
+		profession = 4,
+		description = "Used in various recipes. Enhanced for durability and resistance.",
+		progress = 225,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "Heavy Log",
-				clientId = 45504,
+				itemId = 48956,
 				amount = 12,
-				itemId = 48956
+				clientId = 45504,
+				name = "Heavy Log"
 			},
 			{
-				name = "Oil",
-				clientId = 34899,
+				itemId = 38331,
 				amount = 2,
-				itemId = 38331
+				clientId = 34899,
+				name = "Oil"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 4,
 		clientId = 28999,
 		amount = 1,
-		index = 4,
-		category = "weapons",
-		progress = 100,
 		itemId = 32431,
 		quality = 100,
-		slotName = "bow",
 		name = "Viper's Bow",
 		experience = 3680,
-		profession = 4,
-		tier = 2,
-		description = "",
 		durability = 4,
+		profession = 4,
+		description = "",
+		progress = 100,
+		slotName = "bow",
+		tier = 2,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 6,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "coarse thread",
-				clientId = 28971,
+				itemId = 32403,
 				amount = 2,
-				itemId = 32403
+				clientId = 28971,
+				name = "coarse thread"
 			},
 			{
-				name = "Oakwood Bow",
-				clientId = 28998,
+				itemId = 32430,
 				amount = 1,
-				itemId = 32430
+				clientId = 28998,
+				name = "Oakwood Bow"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 5,
 		clientId = 29051,
 		amount = 1,
-		index = 5,
-		category = "weapons",
-		progress = 100,
 		itemId = 32483,
 		quality = 100,
-		slotName = "staff",
 		name = "Warlock Staff",
 		experience = 3680,
-		profession = 4,
-		tier = 2,
-		description = "",
 		durability = 4,
+		profession = 4,
+		description = "",
+		progress = 100,
+		slotName = "staff",
+		tier = 2,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 8,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "Mystic Staff",
-				clientId = 29050,
+				itemId = 32482,
 				amount = 1,
-				itemId = 32482
+				clientId = 29050,
+				name = "Mystic Staff"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 6,
 		clientId = 33991,
 		amount = 1,
-		index = 6,
-		category = "weapons",
-		progress = 100,
 		itemId = 37423,
 		quality = 100,
-		slotName = "sceptre",
 		name = "Tribal Sceptre",
 		experience = 1840,
-		profession = 4,
-		tier = 2,
-		description = "",
 		durability = 4,
+		profession = 4,
+		description = "",
+		progress = 100,
+		slotName = "sceptre",
+		tier = 2,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 4,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "Knotted Sceptre",
-				clientId = 33990,
+				itemId = 37422,
 				amount = 1,
-				itemId = 37422
+				clientId = 33990,
+				name = "Knotted Sceptre"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 7,
 		clientId = 29000,
 		amount = 1,
-		index = 7,
-		category = "weapons",
-		progress = 200,
 		itemId = 32432,
 		quality = 100,
-		slotName = "bow",
 		name = "Black Ash Bow",
 		experience = 14000,
-		profession = 4,
-		tier = 3,
-		description = "",
 		durability = 5,
+		profession = 4,
+		description = "",
+		progress = 200,
+		slotName = "bow",
+		tier = 3,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 10,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "craftman's thread",
-				clientId = 28972,
+				itemId = 32404,
 				amount = 5,
-				itemId = 32404
+				clientId = 28972,
+				name = "craftman's thread"
 			},
 			{
-				name = "Viper's Bow",
-				clientId = 28999,
+				itemId = 32431,
 				amount = 1,
-				itemId = 32431
+				clientId = 28999,
+				name = "Viper's Bow"
 			},
 			{
-				name = "Sea Cured Leather",
-				clientId = 43212,
+				itemId = 46664,
 				amount = 12,
-				itemId = 46664
+				clientId = 43212,
+				name = "Sea Cured Leather"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 8,
 		clientId = 29052,
 		amount = 1,
-		index = 8,
-		category = "weapons",
-		progress = 200,
 		itemId = 32484,
 		quality = 100,
-		slotName = "staff",
 		name = "Cultist Staff",
 		experience = 14000,
-		profession = 4,
-		tier = 3,
-		description = "",
 		durability = 5,
+		profession = 4,
+		description = "",
+		progress = 200,
+		slotName = "staff",
+		tier = 3,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 16,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "Warlock Staff",
-				clientId = 29051,
+				itemId = 32483,
 				amount = 1,
-				itemId = 32483
+				clientId = 29051,
+				name = "Warlock Staff"
 			},
 			{
-				name = "Troll Fang",
-				clientId = 37478,
+				itemId = 40930,
 				amount = 12,
-				itemId = 40930
+				clientId = 37478,
+				name = "Troll Fang"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 9,
 		clientId = 33992,
 		amount = 1,
-		index = 9,
-		category = "weapons",
-		progress = 200,
 		itemId = 37424,
 		quality = 100,
-		slotName = "sceptre",
 		name = "Serpent Sceptre",
 		experience = 7000,
-		profession = 4,
-		tier = 3,
-		description = "",
 		durability = 5,
+		profession = 4,
+		description = "",
+		progress = 200,
+		slotName = "sceptre",
+		tier = 3,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 10,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "Tribal Sceptre",
-				clientId = 33991,
+				itemId = 37423,
 				amount = 1,
-				itemId = 37423
+				clientId = 33991,
+				name = "Tribal Sceptre"
 			},
 			{
-				name = "Troll Fang",
-				clientId = 37478,
+				itemId = 40930,
 				amount = 6,
-				itemId = 40930
+				clientId = 37478,
+				name = "Troll Fang"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 10,
 		clientId = 29001,
 		amount = 1,
-		index = 10,
-		category = "weapons",
-		progress = 350,
 		itemId = 32433,
 		quality = 100,
-		slotName = "bow",
 		name = "Bullseye Bow",
 		experience = 38000,
-		profession = 4,
-		tier = 4,
-		description = "",
 		durability = 7,
+		profession = 4,
+		description = "",
+		progress = 350,
+		slotName = "bow",
+		tier = 4,
 		level = {
 			mass = 45,
 			single = 40
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 18,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "fine thread",
-				clientId = 28973,
+				itemId = 32405,
 				amount = 7,
-				itemId = 32405
+				clientId = 28973,
+				name = "fine thread"
 			},
 			{
-				name = "Black Ash Bow",
-				clientId = 29000,
+				itemId = 32432,
 				amount = 1,
-				itemId = 32432
+				clientId = 29000,
+				name = "Black Ash Bow"
 			},
 			{
-				name = "Sturdy String",
-				clientId = 38271,
+				itemId = 41723,
 				amount = 20,
-				itemId = 41723
+				clientId = 38271,
+				name = "Sturdy String"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 11,
 		clientId = 29053,
 		amount = 1,
-		index = 11,
-		category = "weapons",
-		progress = 350,
 		itemId = 32485,
 		quality = 100,
-		slotName = "staff",
 		name = "Celestial Staff",
 		experience = 38000,
-		profession = 4,
-		tier = 4,
-		description = "",
 		durability = 7,
+		profession = 4,
+		description = "",
+		progress = 350,
+		slotName = "staff",
+		tier = 4,
 		level = {
 			mass = 45,
 			single = 40
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 28,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Cultist Staff",
-				clientId = 29052,
+				itemId = 32484,
 				amount = 1,
-				itemId = 32484
+				clientId = 29052,
+				name = "Cultist Staff"
 			},
 			{
-				name = "Ambersprite Shard",
-				clientId = 40264,
+				itemId = 43716,
 				amount = 20,
-				itemId = 43716
+				clientId = 40264,
+				name = "Ambersprite Shard"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 12,
 		clientId = 33993,
 		amount = 1,
-		index = 12,
-		category = "weapons",
-		progress = 350,
 		itemId = 37425,
 		quality = 100,
-		slotName = "sceptre",
 		name = "Crystal Sceptre",
 		experience = 19000,
-		profession = 4,
-		tier = 4,
-		description = "",
 		durability = 7,
+		profession = 4,
+		description = "",
+		progress = 350,
+		slotName = "sceptre",
+		tier = 4,
 		level = {
 			mass = 45,
 			single = 40
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 15,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Serpent Sceptre",
-				clientId = 33992,
+				itemId = 37424,
 				amount = 1,
-				itemId = 37424
+				clientId = 33992,
+				name = "Serpent Sceptre"
 			},
 			{
-				name = "Ambersprite Shard",
-				clientId = 40264,
+				itemId = 43716,
 				amount = 10,
-				itemId = 43716
+				clientId = 40264,
+				name = "Ambersprite Shard"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 13,
 		clientId = 29002,
 		amount = 1,
-		index = 13,
-		category = "weapons",
-		progress = 525,
 		itemId = 32434,
 		quality = 100,
-		slotName = "bow",
 		name = "Predator Bow",
 		experience = 79000,
-		profession = 4,
-		tier = 5,
-		description = "",
 		durability = 9,
+		profession = 4,
+		description = "",
+		progress = 525,
+		slotName = "bow",
+		tier = 5,
 		level = {
 			mass = 60,
 			single = 55
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 32,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "merchant's thread",
-				clientId = 28969,
+				itemId = 32401,
 				amount = 14,
-				itemId = 32401
+				clientId = 28969,
+				name = "merchant's thread"
 			},
 			{
-				name = "Bullseye Bow",
-				clientId = 29001,
+				itemId = 32433,
 				amount = 1,
-				itemId = 32433
+				clientId = 29001,
+				name = "Bullseye Bow"
 			},
 			{
-				name = "Hardwood",
-				clientId = 40272,
+				itemId = 43724,
 				amount = 24,
-				itemId = 43724
+				clientId = 40272,
+				name = "Hardwood"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 14,
 		clientId = 29054,
 		amount = 1,
-		index = 14,
-		category = "weapons",
-		progress = 525,
 		itemId = 32486,
 		quality = 100,
-		slotName = "staff",
 		name = "Lightshard Staff",
 		experience = 79000,
-		profession = 4,
-		tier = 5,
-		description = "",
 		durability = 9,
+		profession = 4,
+		description = "",
+		progress = 525,
+		slotName = "staff",
+		tier = 5,
 		level = {
 			mass = 60,
 			single = 55
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 52,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Celestial Staff",
-				clientId = 29053,
+				itemId = 32485,
 				amount = 1,
-				itemId = 32485
+				clientId = 29053,
+				name = "Celestial Staff"
 			},
 			{
-				name = "Enervating Core",
-				clientId = 40270,
+				itemId = 43722,
 				amount = 24,
-				itemId = 43722
+				clientId = 40270,
+				name = "Enervating Core"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 15,
 		clientId = 33994,
 		amount = 1,
-		index = 15,
-		category = "weapons",
-		progress = 525,
 		itemId = 37426,
 		quality = 100,
-		slotName = "sceptre",
 		name = "Celestial Sceptre",
 		experience = 39500,
-		profession = 4,
-		tier = 5,
-		description = "",
 		durability = 9,
+		profession = 4,
+		description = "",
+		progress = 525,
+		slotName = "sceptre",
+		tier = 5,
 		level = {
 			mass = 60,
 			single = 55
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 26,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Crystal Sceptre",
-				clientId = 33993,
+				itemId = 37425,
 				amount = 1,
-				itemId = 37425
+				clientId = 33993,
+				name = "Crystal Sceptre"
 			},
 			{
-				name = "Enervating Core",
-				clientId = 40270,
+				itemId = 43722,
 				amount = 12,
-				itemId = 43722
+				clientId = 40270,
+				name = "Enervating Core"
 			}
 		}
 	},
 	{
+		category = "fishing",
+		index = 16,
 		clientId = 28896,
 		amount = 1,
-		index = 16,
-		category = "fishing",
-		progress = 100,
 		itemId = 32328,
 		quality = 0,
-		slotName = "fishing rod",
 		name = "fishing stick",
 		experience = 1040,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 4,
+		profession = 4,
+		description = "",
+		progress = 100,
+		slotName = "fishing rod",
+		tier = 1,
 		level = {
 			mass = 8,
 			single = 3
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 1,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "coarse thread",
-				clientId = 28971,
+				itemId = 32403,
 				amount = 1,
-				itemId = 32403
+				clientId = 28971,
+				name = "coarse thread"
 			}
 		}
 	},
 	{
+		category = "fishing",
+		index = 17,
 		clientId = 28898,
 		amount = 1,
-		index = 17,
-		category = "fishing",
-		progress = 200,
 		itemId = 32330,
 		quality = 0,
-		slotName = "fishing rod",
 		name = "fishing rod",
 		experience = 2080,
-		profession = 4,
-		tier = 2,
-		description = "",
 		durability = 5,
+		profession = 4,
+		description = "",
+		progress = 200,
+		slotName = "fishing rod",
+		tier = 2,
 		level = {
 			mass = 23,
 			single = 18
 		},
 		materials = {
 			{
-				name = "rough plank",
+				itemId = 32176,
+				amount = 2,
 				clientId = 28744,
-				amount = 2,
-				itemId = 32176
+				name = "rough plank"
 			},
 			{
-				name = "coarse thread",
+				itemId = 32403,
+				amount = 2,
 				clientId = 28971,
-				amount = 2,
-				itemId = 32403
+				name = "coarse thread"
 			},
 			{
-				name = "fishing stick",
-				clientId = 28896,
+				itemId = 32328,
 				amount = 1,
-				itemId = 32328
+				clientId = 28896,
+				name = "fishing stick"
 			}
 		}
 	},
 	{
+		category = "fishing",
+		index = 18,
 		clientId = 28895,
 		amount = 1,
-		index = 18,
-		category = "fishing",
-		progress = 250,
 		itemId = 32327,
 		quality = 0,
-		slotName = "fishing rod",
 		name = "craftman's fishing rod",
 		experience = 6240,
-		profession = 4,
-		tier = 3,
-		description = "",
 		durability = 6,
+		profession = 4,
+		description = "",
+		progress = 250,
+		slotName = "fishing rod",
+		tier = 3,
 		level = {
 			mass = 33,
 			single = 28
 		},
 		materials = {
 			{
-				name = "refined plank",
+				itemId = 32175,
+				amount = 3,
 				clientId = 28743,
-				amount = 3,
-				itemId = 32175
+				name = "refined plank"
 			},
 			{
-				name = "craftman's thread",
+				itemId = 32404,
+				amount = 3,
 				clientId = 28972,
-				amount = 3,
-				itemId = 32404
+				name = "craftman's thread"
 			},
 			{
-				name = "fishing rod",
-				clientId = 28898,
+				itemId = 32330,
 				amount = 1,
-				itemId = 32330
+				clientId = 28898,
+				name = "fishing rod"
 			}
 		}
 	},
 	{
+		category = "fishing",
+		index = 19,
 		clientId = 28899,
 		amount = 1,
-		index = 19,
-		category = "fishing",
-		progress = 350,
 		itemId = 32331,
 		quality = 0,
-		slotName = "fishing rod",
 		name = "sailor's fishing rod",
 		experience = 13600,
-		profession = 4,
-		tier = 4,
-		description = "",
 		durability = 7,
+		profession = 4,
+		description = "",
+		progress = 350,
+		slotName = "fishing rod",
+		tier = 4,
 		level = {
 			mass = 48,
 			single = 43
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 3,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "fine thread",
-				clientId = 28973,
+				itemId = 32405,
 				amount = 5,
-				itemId = 32405
+				clientId = 28973,
+				name = "fine thread"
 			},
 			{
-				name = "craftman's fishing rod",
-				clientId = 28895,
+				itemId = 32327,
 				amount = 1,
-				itemId = 32327
+				clientId = 28895,
+				name = "craftman's fishing rod"
 			}
 		}
 	},
 	{
+		category = "fishing",
+		index = 20,
 		clientId = 28900,
 		amount = 1,
-		index = 20,
-		category = "fishing",
-		progress = 525,
 		itemId = 32332,
 		quality = 0,
-		slotName = "fishing rod",
 		name = "artisan fishing rod",
 		experience = 44800,
-		profession = 4,
-		tier = 5,
-		description = "",
 		durability = 9,
+		profession = 4,
+		description = "",
+		progress = 525,
+		slotName = "fishing rod",
+		tier = 5,
 		level = {
 			mass = 63,
 			single = 58
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 10,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "merchant's thread",
-				clientId = 28969,
+				itemId = 32401,
 				amount = 12,
-				itemId = 32401
+				clientId = 28969,
+				name = "merchant's thread"
 			},
 			{
-				name = "sailor's fishing rod",
-				clientId = 28899,
+				itemId = 32331,
 				amount = 1,
-				itemId = 32331
+				clientId = 28899,
+				name = "sailor's fishing rod"
 			}
 		}
 	},
 	{
+		index = 21,
+		amount = 1,
+		category = "fishing",
 		slotName = "fishing rod",
 		quality = 0,
-		tier = 6,
 		progress = 600,
+		specialization = "Angler Carpenter",
+		experience = 70400,
+		durability = 12,
+		description = "",
+		tier = 6,
 		clientId = 28897,
 		itemId = 32329,
-		specialization = "Angler Carpenter",
 		name = "lightwood angler",
-		experience = 70400,
 		profession = 4,
-		durability = 12,
-		amount = 1,
-		index = 21,
-		category = "fishing",
-		description = "",
 		level = {
 			mass = 77,
 			single = 72
 		},
 		materials = {
 			{
-				name = "Fine Plank",
-				clientId = 45503,
+				itemId = 48955,
 				amount = 10,
-				itemId = 48955
+				clientId = 45503,
+				name = "Fine Plank"
 			},
 			{
-				name = "artisan thread",
-				clientId = 28970,
+				itemId = 32402,
 				amount = 16,
-				itemId = 32402
+				clientId = 28970,
+				name = "artisan thread"
 			},
 			{
-				name = "artisan fishing rod",
-				clientId = 28900,
+				itemId = 32332,
 				amount = 1,
-				itemId = 32332
+				clientId = 28900,
+				name = "artisan fishing rod"
 			}
 		}
 	},
 	{
+		index = 22,
+		amount = 1,
+		category = "weapons",
 		slotName = "bow",
 		quality = 100,
-		tier = 6,
 		progress = 700,
+		specialization = "Fletcher",
+		experience = 115200,
+		durability = 12,
+		description = "",
+		tier = 6,
 		clientId = 37155,
 		itemId = 40607,
-		specialization = "Fletcher",
 		name = "Marksman Bow",
-		experience = 115200,
 		profession = 4,
-		durability = 12,
-		amount = 1,
-		index = 22,
-		category = "weapons",
-		description = "",
 		level = {
 			mass = 80,
 			single = 75
 		},
 		materials = {
 			{
-				name = "Fine Plank",
-				clientId = 45503,
+				itemId = 48955,
 				amount = 36,
-				itemId = 48955
+				clientId = 45503,
+				name = "Fine Plank"
 			},
 			{
-				name = "artisan thread",
-				clientId = 28970,
+				itemId = 32402,
 				amount = 12,
-				itemId = 32402
+				clientId = 28970,
+				name = "artisan thread"
 			},
 			{
-				name = "Predator Bow",
-				clientId = 29002,
+				itemId = 32434,
 				amount = 1,
-				itemId = 32434
+				clientId = 29002,
+				name = "Predator Bow"
 			},
 			{
-				name = "Supernatural Thread",
-				clientId = 40279,
+				itemId = 43731,
 				amount = 32,
-				itemId = 43731
+				clientId = 40279,
+				name = "Supernatural Thread"
 			}
 		}
 	},
 	{
+		index = 23,
+		amount = 1,
+		category = "weapons",
 		slotName = "staff",
 		quality = 100,
-		tier = 6,
 		progress = 700,
+		specialization = "Fletcher",
+		experience = 115200,
+		durability = 12,
+		description = "",
+		tier = 6,
 		clientId = 37150,
 		itemId = 40602,
-		specialization = "Fletcher",
 		name = "Necromancer's Staff",
-		experience = 115200,
 		profession = 4,
-		durability = 12,
-		amount = 1,
-		index = 23,
-		category = "weapons",
-		description = "",
 		level = {
 			mass = 80,
 			single = 75
 		},
 		materials = {
 			{
-				name = "Fine Plank",
-				clientId = 45503,
+				itemId = 48955,
 				amount = 52,
-				itemId = 48955
+				clientId = 45503,
+				name = "Fine Plank"
 			},
 			{
-				name = "Lightshard Staff",
-				clientId = 29054,
+				itemId = 32486,
 				amount = 1,
-				itemId = 32486
+				clientId = 29054,
+				name = "Lightshard Staff"
 			},
 			{
-				name = "Mystical Crystal",
-				clientId = 40273,
+				itemId = 43725,
 				amount = 32,
-				itemId = 43725
+				clientId = 40273,
+				name = "Mystical Crystal"
 			}
 		}
 	},
 	{
+		index = 24,
+		amount = 1,
+		category = "weapons",
 		slotName = "sceptre",
 		quality = 100,
-		tier = 6,
 		progress = 700,
+		specialization = "Fletcher",
+		experience = 57600,
+		durability = 12,
+		description = "",
+		tier = 6,
 		clientId = 37157,
 		itemId = 40609,
-		specialization = "Fletcher",
 		name = "Crowbone Sceptre",
-		experience = 57600,
 		profession = 4,
-		durability = 12,
-		amount = 1,
-		index = 24,
-		category = "weapons",
-		description = "",
 		level = {
 			mass = 80,
 			single = 75
 		},
 		materials = {
 			{
-				name = "Fine Plank",
-				clientId = 45503,
+				itemId = 48955,
 				amount = 26,
-				itemId = 48955
+				clientId = 45503,
+				name = "Fine Plank"
 			},
 			{
-				name = "Celestial Sceptre",
-				clientId = 33994,
+				itemId = 37426,
 				amount = 1,
-				itemId = 37426
+				clientId = 33994,
+				name = "Celestial Sceptre"
 			},
 			{
-				name = "Mystical Crystal",
-				clientId = 40273,
+				itemId = 43725,
 				amount = 16,
-				itemId = 43725
+				clientId = 40273,
+				name = "Mystical Crystal"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 25,
 		clientId = 37219,
 		amount = 1,
-		index = 25,
-		category = "Housing Craft",
-		progress = 600,
 		itemId = 40671,
 		quality = 0,
-		slotName = "",
 		name = "Armoires",
 		experience = 15400,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 12,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 600,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 85,
 			single = 70
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 10,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 5,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 26,
 		clientId = 37279,
 		amount = 1,
-		index = 26,
-		category = "Housing Craft",
-		progress = 350,
 		itemId = 40731,
 		quality = 0,
-		slotName = "",
 		name = "Square Table",
 		experience = 27500,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 7,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 350,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 60,
 			single = 45
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 20,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 4,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 27,
 		clientId = 37283,
 		amount = 1,
-		index = 27,
-		category = "Housing Craft",
-		progress = 600,
 		itemId = 40735,
 		quality = 0,
-		slotName = "",
 		name = "Sturdy Square Table",
 		experience = 38000,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 12,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 600,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 85,
 			single = 70
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 25,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 5,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 28,
 		clientId = 37224,
 		amount = 1,
-		index = 28,
-		category = "Housing Craft",
-		progress = 350,
 		itemId = 40676,
 		quality = 0,
-		slotName = "",
 		name = "Cabinet",
 		experience = 3600,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 7,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 350,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 60,
 			single = 45
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 3,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 1,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 29,
 		clientId = 37244,
 		amount = 1,
-		index = 29,
-		category = "Housing Craft",
-		progress = 600,
 		itemId = 40696,
 		quality = 0,
-		slotName = "",
 		name = "Loom",
 		experience = 24000,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 12,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 600,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 85,
 			single = 70
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 8,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "merchant's thread",
-				clientId = 28969,
+				itemId = 32401,
 				amount = 5,
-				itemId = 32401
+				clientId = 28969,
+				name = "merchant's thread"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 30,
 		clientId = 37227,
 		amount = 1,
-		index = 30,
-		category = "Housing Craft",
-		progress = 200,
 		itemId = 40679,
 		quality = 0,
-		slotName = "",
 		name = "Chair",
 		experience = 7200,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 5,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 35,
 			single = 20
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 8,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 2,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 31,
 		clientId = 37267,
 		amount = 1,
-		index = 31,
-		category = "Housing Craft",
-		progress = 200,
 		itemId = 40719,
 		quality = 0,
-		slotName = "",
 		name = "Simple Bed",
 		experience = 24000,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 5,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 35,
 			single = 20
 		},
 		materials = {
 			{
-				name = "refined plank",
+				itemId = 32175,
+				amount = 10,
 				clientId = 28743,
-				amount = 10,
-				itemId = 32175
+				name = "refined plank"
 			},
 			{
-				name = "simple cloth",
-				clientId = 28966,
+				itemId = 32398,
 				amount = 15,
-				itemId = 32398
+				clientId = 28966,
+				name = "simple cloth"
 			},
 			{
-				name = "coarse thread",
-				clientId = 28971,
+				itemId = 32403,
 				amount = 10,
-				itemId = 32403
+				clientId = 28971,
+				name = "coarse thread"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 32,
 		clientId = 37228,
 		amount = 1,
-		index = 32,
-		category = "Housing Craft",
-		progress = 350,
 		itemId = 40680,
 		quality = 0,
-		slotName = "",
 		name = "Comfortable Bed",
 		experience = 64500,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 7,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 350,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 50,
 			single = 45
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 12,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 4,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "merchant's cloth",
+				itemId = 32396,
+				amount = 10,
 				clientId = 28964,
-				amount = 10,
-				itemId = 32396
+				name = "merchant's cloth"
 			},
 			{
-				name = "merchant's thread",
-				clientId = 28969,
+				itemId = 32401,
 				amount = 10,
-				itemId = 32401
+				clientId = 28969,
+				name = "merchant's thread"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 33,
 		clientId = 37280,
 		amount = 1,
-		index = 33,
-		category = "Housing Craft",
-		progress = 200,
 		itemId = 40732,
 		quality = 0,
-		slotName = "",
 		name = "Storage Container",
 		experience = 7360,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 5,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 25,
 			single = 20
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 8,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "nail",
+				itemId = 32166,
+				amount = 1,
 				clientId = 28734,
-				amount = 1,
-				itemId = 32166
+				name = "nail"
 			},
 			{
-				name = "iron bar",
-				clientId = 28737,
+				itemId = 32169,
 				amount = 1,
-				itemId = 32169
+				clientId = 28737,
+				name = "iron bar"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 34,
 		clientId = 37290,
 		amount = 1,
-		index = 34,
-		category = "Housing Craft",
-		progress = 200,
 		itemId = 40742,
 		quality = 0,
-		slotName = "",
 		name = "Work Bench",
 		experience = 26000,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 5,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 25,
 			single = 20
 		},
 		materials = {
 			{
-				name = "refined plank",
+				itemId = 32175,
+				amount = 20,
 				clientId = 28743,
-				amount = 20,
-				itemId = 32175
+				name = "refined plank"
 			},
 			{
-				name = "iron ingot",
+				itemId = 32155,
+				amount = 20,
 				clientId = 28723,
-				amount = 20,
-				itemId = 32155
+				name = "iron ingot"
 			},
 			{
-				name = "steel ingot",
-				clientId = 28724,
+				itemId = 32156,
 				amount = 10,
-				itemId = 32156
+				clientId = 28724,
+				name = "steel ingot"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 5,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 35,
 		clientId = 37287,
 		amount = 1,
-		index = 35,
-		category = "Housing Craft",
-		progress = 350,
 		itemId = 40739,
 		quality = 0,
-		slotName = "",
 		name = "Superior Work Bench",
 		experience = 50500,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 7,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 350,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 50,
 			single = 45
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 30,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "steel ingot",
-				clientId = 28724,
+				itemId = 32156,
 				amount = 15,
-				itemId = 32156
+				clientId = 28724,
+				name = "steel ingot"
 			},
 			{
-				name = "cobalt ingot",
-				clientId = 28725,
+				itemId = 32157,
 				amount = 10,
-				itemId = 32157
+				clientId = 28725,
+				name = "cobalt ingot"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 5,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 36,
 		clientId = 37222,
 		amount = 1,
-		index = 36,
-		category = "Housing Craft",
-		progress = 600,
 		itemId = 40674,
 		quality = 0,
-		slotName = "",
 		name = "Artisan Work Bench",
 		experience = 140000,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 12,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 600,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 75,
 			single = 70
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 65,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "cobalt ingot",
-				clientId = 28725,
+				itemId = 32157,
 				amount = 50,
-				itemId = 32157
+				clientId = 28725,
+				name = "cobalt ingot"
 			},
 			{
-				name = "titanium ingot",
-				clientId = 28727,
+				itemId = 32159,
 				amount = 30,
-				itemId = 32159
+				clientId = 28727,
+				name = "titanium ingot"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 5,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 37,
 		clientId = 37231,
 		amount = 1,
-		index = 37,
-		category = "Housing Craft",
-		progress = 600,
 		itemId = 40683,
 		quality = 0,
-		slotName = "",
 		name = "Fireplace",
 		experience = 27600,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 12,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 600,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 85,
 			single = 70
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 18,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "stone",
-				clientId = 28946,
+				itemId = 32378,
 				amount = 10,
-				itemId = 32378
+				clientId = 28946,
+				name = "stone"
 			},
 			{
-				name = "coal",
-				clientId = 28941,
+				itemId = 32373,
 				amount = 5,
-				itemId = 32373
+				clientId = 28941,
+				name = "coal"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 38,
 		clientId = 37245,
 		amount = 1,
-		index = 38,
-		category = "Housing Craft",
-		progress = 600,
 		itemId = 40697,
 		quality = 0,
-		slotName = "",
 		name = "Luxury Bed",
 		experience = 130000,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 12,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 600,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 75,
 			single = 70
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 25,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
+				itemId = 43734,
+				amount = 10,
 				clientId = 40282,
-				amount = 10,
-				itemId = 43734
+				name = "Bolt"
 			},
 			{
-				name = "artisan cloth",
-				clientId = 28962,
+				itemId = 32394,
 				amount = 20,
-				itemId = 32394
+				clientId = 28962,
+				name = "artisan cloth"
 			},
 			{
-				name = "artisan thread",
-				clientId = 28970,
+				itemId = 32402,
 				amount = 10,
-				itemId = 32402
+				clientId = 28970,
+				name = "artisan thread"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 39,
 		clientId = 37275,
 		amount = 1,
-		index = 39,
-		category = "Ship Craft",
-		progress = 100,
 		itemId = 40727,
 		quality = 0,
-		slotName = "",
 		name = "Small Hull Frame",
 		experience = 48800,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 4,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 50,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 40,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			},
 			{
-				name = "iron ingot",
-				clientId = 28723,
+				itemId = 32155,
 				amount = 10,
-				itemId = 32155
+				clientId = 28723,
+				name = "iron ingot"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 40,
 		clientId = 37270,
 		amount = 1,
-		index = 40,
-		category = "Ship Craft",
-		progress = 100,
 		itemId = 40722,
 		quality = 0,
-		slotName = "",
 		name = "Small Cargo Hold",
 		experience = 29600,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 4,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 30,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 20,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			},
 			{
-				name = "iron ingot",
-				clientId = 28723,
+				itemId = 32155,
 				amount = 8,
-				itemId = 32155
+				clientId = 28723,
+				name = "iron ingot"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 41,
 		clientId = 37274,
 		amount = 1,
-		index = 41,
-		category = "Ship Craft",
-		progress = 100,
 		itemId = 40726,
 		quality = 0,
-		slotName = "",
 		name = "Small Gun Deck",
 		experience = 29600,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 4,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 30,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 20,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			},
 			{
-				name = "iron ingot",
-				clientId = 28723,
+				itemId = 32155,
 				amount = 8,
-				itemId = 32155
+				clientId = 28723,
+				name = "iron ingot"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 42,
 		clientId = 37273,
 		amount = 1,
-		index = 42,
-		category = "Ship Craft",
-		progress = 100,
 		itemId = 40725,
 		quality = 0,
-		slotName = "",
 		name = "Small Fishing Storage",
 		experience = 29600,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 4,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 30,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 20,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			},
 			{
-				name = "iron ingot",
-				clientId = 28723,
+				itemId = 32155,
 				amount = 8,
-				itemId = 32155
+				clientId = 28723,
+				name = "iron ingot"
 			}
 		}
 	},
 	{
+		category = "Ship Module",
+		index = 43,
 		clientId = 37277,
 		amount = 1,
-		index = 43,
-		category = "Ship Module",
-		progress = 225,
 		itemId = 40729,
 		quality = 0,
-		slotName = "",
 		name = "Small Tradepack Container Kit",
 		experience = 82000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
+		progress = 225,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 40,
 			single = 35
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 50,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Bolt",
+				itemId = 43734,
+				amount = 10,
 				clientId = 40282,
-				amount = 10,
-				itemId = 43734
+				name = "Bolt"
 			},
 			{
-				name = "steel ingot",
+				itemId = 32156,
+				amount = 10,
 				clientId = 28724,
-				amount = 10,
-				itemId = 32156
+				name = "steel ingot"
 			},
 			{
-				name = "Wooden Arch",
-				clientId = 40286,
+				itemId = 43738,
 				amount = 2,
-				itemId = 43738
+				clientId = 40286,
+				name = "Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Module",
+		index = 44,
 		clientId = 37269,
 		amount = 1,
-		index = 44,
-		category = "Ship Module",
-		progress = 225,
 		itemId = 40721,
 		quality = 0,
-		slotName = "",
 		name = "Small Ammunition Cabin Kit",
 		experience = 82000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
+		progress = 225,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 40,
 			single = 35
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 50,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Bolt",
+				itemId = 43734,
+				amount = 10,
 				clientId = 40282,
-				amount = 10,
-				itemId = 43734
+				name = "Bolt"
 			},
 			{
-				name = "steel ingot",
+				itemId = 32156,
+				amount = 10,
 				clientId = 28724,
-				amount = 10,
-				itemId = 32156
+				name = "steel ingot"
 			},
 			{
-				name = "Wooden Arch",
-				clientId = 40286,
+				itemId = 43738,
 				amount = 2,
-				itemId = 43738
+				clientId = 40286,
+				name = "Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Module",
+		index = 45,
 		clientId = 37271,
 		amount = 1,
-		index = 45,
-		category = "Ship Module",
-		progress = 225,
 		itemId = 40723,
 		quality = 0,
-		slotName = "",
 		name = "Small Fishing Crane Kit",
 		experience = 82000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
+		progress = 225,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 40,
 			single = 35
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 50,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Bolt",
+				itemId = 43734,
+				amount = 10,
 				clientId = 40282,
-				amount = 10,
-				itemId = 43734
+				name = "Bolt"
 			},
 			{
-				name = "steel ingot",
+				itemId = 32156,
+				amount = 10,
 				clientId = 28724,
-				amount = 10,
-				itemId = 32156
+				name = "steel ingot"
 			},
 			{
-				name = "Wooden Arch",
-				clientId = 40286,
+				itemId = 43738,
 				amount = 2,
-				itemId = 43738
+				clientId = 40286,
+				name = "Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 46,
 		clientId = 37256,
 		amount = 1,
-		index = 46,
-		category = "Ship Craft",
-		progress = 200,
 		itemId = 40708,
 		quality = 0,
-		slotName = "",
 		name = "Medium Hull Frame",
 		experience = 212000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 120,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 80,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			},
 			{
-				name = "iron bar",
-				clientId = 28737,
+				itemId = 32169,
 				amount = 25,
-				itemId = 32169
+				clientId = 28737,
+				name = "iron bar"
 			},
 			{
-				name = "Wooden Arch",
-				clientId = 40286,
+				itemId = 43738,
 				amount = 8,
-				itemId = 43738
+				clientId = 40286,
+				name = "Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 47,
 		clientId = 37251,
 		amount = 1,
-		index = 47,
-		category = "Ship Craft",
-		progress = 200,
 		itemId = 40703,
 		quality = 0,
-		slotName = "",
 		name = "Medium Cargo Hold",
 		experience = 88000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 50,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 40,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			},
 			{
-				name = "iron bar",
-				clientId = 28737,
+				itemId = 32169,
 				amount = 10,
-				itemId = 32169
+				clientId = 28737,
+				name = "iron bar"
 			},
 			{
-				name = "Wooden Arch",
-				clientId = 40286,
+				itemId = 43738,
 				amount = 3,
-				itemId = 43738
+				clientId = 40286,
+				name = "Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 48,
 		clientId = 37254,
 		amount = 1,
-		index = 48,
-		category = "Ship Craft",
-		progress = 200,
 		itemId = 40706,
 		quality = 0,
-		slotName = "",
 		name = "Medium Fishing Storage",
 		experience = 88000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 50,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 40,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			},
 			{
-				name = "iron bar",
-				clientId = 28737,
+				itemId = 32169,
 				amount = 10,
-				itemId = 32169
+				clientId = 28737,
+				name = "iron bar"
 			},
 			{
-				name = "Wooden Arch",
-				clientId = 40286,
+				itemId = 43738,
 				amount = 3,
-				itemId = 43738
+				clientId = 40286,
+				name = "Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 49,
 		clientId = 37255,
 		amount = 1,
-		index = 49,
-		category = "Ship Craft",
-		progress = 200,
 		itemId = 40707,
 		quality = 0,
-		slotName = "",
 		name = "Medium Gun Deck",
 		experience = 88000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 50,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 40,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			},
 			{
-				name = "iron bar",
-				clientId = 28737,
+				itemId = 32169,
 				amount = 10,
-				itemId = 32169
+				clientId = 28737,
+				name = "iron bar"
 			},
 			{
-				name = "Wooden Arch",
-				clientId = 40286,
+				itemId = 43738,
 				amount = 3,
-				itemId = 43738
+				clientId = 40286,
+				name = "Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Module",
+		index = 50,
 		clientId = 37258,
 		amount = 1,
-		index = 50,
-		category = "Ship Module",
-		progress = 525,
 		itemId = 40710,
 		quality = 0,
-		slotName = "",
 		name = "Medium Tradepack Container Kit",
 		experience = 245000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
 		durability = 9,
+		profession = 4,
+		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 70,
 			single = 65
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 135,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 30,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "cobalt ingot",
-				clientId = 28725,
+				itemId = 32157,
 				amount = 20,
-				itemId = 32157
+				clientId = 28725,
+				name = "cobalt ingot"
 			},
 			{
-				name = "Supple Wooden Arch",
-				clientId = 40285,
+				itemId = 43737,
 				amount = 4,
-				itemId = 43737
+				clientId = 40285,
+				name = "Supple Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Module",
+		index = 51,
 		clientId = 37250,
 		amount = 1,
-		index = 51,
-		category = "Ship Module",
-		progress = 525,
 		itemId = 40702,
 		quality = 0,
-		slotName = "",
 		name = "Medium Ammunition Cabin Kit",
 		experience = 245000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
 		durability = 9,
+		profession = 4,
+		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 70,
 			single = 65
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 135,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 30,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "cobalt ingot",
-				clientId = 28725,
+				itemId = 32157,
 				amount = 20,
-				itemId = 32157
+				clientId = 28725,
+				name = "cobalt ingot"
 			},
 			{
-				name = "Supple Wooden Arch",
-				clientId = 40285,
+				itemId = 43737,
 				amount = 4,
-				itemId = 43737
+				clientId = 40285,
+				name = "Supple Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Module",
+		index = 52,
 		clientId = 37252,
 		amount = 1,
-		index = 52,
-		category = "Ship Module",
-		progress = 525,
 		itemId = 40704,
 		quality = 0,
-		slotName = "",
 		name = "Medium Fishing Crane Kit",
 		experience = 245000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
 		durability = 9,
+		profession = 4,
+		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 70,
 			single = 65
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 135,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 30,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "cobalt ingot",
-				clientId = 28725,
+				itemId = 32157,
 				amount = 20,
-				itemId = 32157
+				clientId = 28725,
+				name = "cobalt ingot"
 			},
 			{
-				name = "Supple Wooden Arch",
-				clientId = 40285,
+				itemId = 43737,
 				amount = 4,
-				itemId = 43737
+				clientId = 40285,
+				name = "Supple Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 53,
 		clientId = 37241,
 		amount = 1,
-		index = 53,
-		category = "Ship Craft",
-		progress = 525,
 		itemId = 40693,
 		quality = 0,
-		slotName = "",
 		name = "Large Hull Frame",
 		experience = 625000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 8,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 55,
 			single = 50
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 300,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 150,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "Steel Bar",
-				clientId = 40284,
+				itemId = 43736,
 				amount = 50,
-				itemId = 43736
+				clientId = 40284,
+				name = "Steel Bar"
 			},
 			{
-				name = "Supple Wooden Arch",
-				clientId = 40285,
+				itemId = 43737,
 				amount = 20,
-				itemId = 43737
+				clientId = 40285,
+				name = "Supple Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 54,
 		clientId = 37237,
 		amount = 1,
-		index = 54,
-		category = "Ship Craft",
-		progress = 525,
 		itemId = 40689,
 		quality = 0,
-		slotName = "",
 		name = "Large Cargo Hold",
 		experience = 312000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 8,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 55,
 			single = 50
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 160,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 80,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "Steel Bar",
-				clientId = 40284,
+				itemId = 43736,
 				amount = 20,
-				itemId = 43736
+				clientId = 40284,
+				name = "Steel Bar"
 			},
 			{
-				name = "Supple Wooden Arch",
-				clientId = 40285,
+				itemId = 43737,
 				amount = 8,
-				itemId = 43737
+				clientId = 40285,
+				name = "Supple Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 55,
 		clientId = 37240,
 		amount = 1,
-		index = 55,
-		category = "Ship Craft",
-		progress = 525,
 		itemId = 40692,
 		quality = 0,
-		slotName = "",
 		name = "Large Gun Deck",
 		experience = 312000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 8,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 55,
 			single = 50
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 160,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 80,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "Steel Bar",
-				clientId = 40284,
+				itemId = 43736,
 				amount = 20,
-				itemId = 43736
+				clientId = 40284,
+				name = "Steel Bar"
 			},
 			{
-				name = "Supple Wooden Arch",
-				clientId = 40285,
+				itemId = 43737,
 				amount = 8,
-				itemId = 43737
+				clientId = 40285,
+				name = "Supple Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 56,
 		clientId = 37239,
 		amount = 1,
-		index = 56,
-		category = "Ship Craft",
-		progress = 525,
 		itemId = 40691,
 		quality = 0,
-		slotName = "",
 		name = "Large Fishing Storage",
 		experience = 312000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
 		durability = 8,
+		profession = 4,
+		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 55,
 			single = 50
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 160,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 80,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "Steel Bar",
-				clientId = 40284,
+				itemId = 43736,
 				amount = 20,
-				itemId = 43736
+				clientId = 40284,
+				name = "Steel Bar"
 			},
 			{
-				name = "Supple Wooden Arch",
-				clientId = 40285,
+				itemId = 43737,
 				amount = 8,
-				itemId = 43737
+				clientId = 40285,
+				name = "Supple Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Craft",
+		index = 57,
 		clientId = 37249,
 		amount = 1,
-		index = 57,
-		category = "Ship Craft",
-		progress = 100,
 		itemId = 40701,
 		quality = 0,
-		slotName = "",
 		name = "Mast",
 		experience = 20000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Ships at the Ship Builder",
 		durability = 4,
+		profession = 4,
+		description = "Used for crafting Ships at the Ship Builder",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "refined plank",
+				itemId = 32175,
+				amount = 20,
 				clientId = 28743,
-				amount = 20,
-				itemId = 32175
+				name = "refined plank"
 			},
 			{
-				name = "nail",
+				itemId = 32166,
+				amount = 20,
 				clientId = 28734,
-				amount = 20,
-				itemId = 32166
+				name = "nail"
 			},
 			{
-				name = "iron ingot",
-				clientId = 28723,
+				itemId = 32155,
 				amount = 5,
-				itemId = 32155
+				clientId = 28723,
+				name = "iron ingot"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 58,
 		clientId = 37229,
 		amount = 1,
-		index = 58,
-		category = "Wagon Craft",
-		progress = 100,
 		itemId = 40681,
 		quality = 0,
-		slotName = "",
 		name = "Common Wheel",
 		experience = 1600,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Wagons at the Wagon Crafter.",
 		durability = 4,
+		profession = 4,
+		description = "Used for crafting Wagons at the Wagon Crafter.",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 14,
 			single = 9
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 10,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 5,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 59,
 		clientId = 37284,
 		amount = 1,
-		index = 59,
-		category = "Wagon Craft",
-		progress = 350,
 		itemId = 40736,
 		quality = 0,
-		slotName = "",
 		name = "Sturdy Wheel",
 		experience = 8800,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Wagons at the Wagon Crafter.",
 		durability = 7,
+		profession = 4,
+		description = "Used for crafting Wagons at the Wagon Crafter.",
+		progress = 350,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 46,
 			single = 41
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 16,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 5,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "Wooden Arch",
-				clientId = 40286,
+				itemId = 43738,
 				amount = 1,
-				itemId = 43738
+				clientId = 40286,
+				name = "Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 60,
 		clientId = 37264,
 		amount = 1,
-		index = 60,
-		category = "Wagon Craft",
-		progress = 525,
 		itemId = 40716,
 		quality = 0,
-		slotName = "",
 		name = "Reinforced Wheel",
 		experience = 28000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Wagons at the Wagon Crafter.",
 		durability = 9,
+		profession = 4,
+		description = "Used for crafting Wagons at the Wagon Crafter.",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 64,
 			single = 59
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 50,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 10,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "Supple Wooden Arch",
-				clientId = 40285,
+				itemId = 43737,
 				amount = 1,
-				itemId = 43737
+				clientId = 40285,
+				name = "Supple Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 61,
 		clientId = 37278,
 		amount = 1,
-		index = 61,
-		category = "Wagon Craft",
-		progress = 100,
 		itemId = 40730,
 		quality = 0,
-		slotName = "",
 		name = "Small Wagon Container",
 		experience = 11200,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Wagons at the Wagon Crafter.",
 		durability = 4,
+		profession = 4,
+		description = "Used for crafting Wagons at the Wagon Crafter.",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 20,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "Common Plate",
-				clientId = 40283,
+				itemId = 43735,
 				amount = 1,
-				itemId = 43735
+				clientId = 40283,
+				name = "Common Plate"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 62,
 		clientId = 37259,
 		amount = 1,
-		index = 62,
-		category = "Wagon Craft",
-		progress = 350,
 		itemId = 40711,
 		quality = 0,
-		slotName = "",
 		name = "Medium Wagon Container",
 		experience = 57600,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Wagons at the Wagon Crafter.",
 		durability = 7,
+		profession = 4,
+		description = "Used for crafting Wagons at the Wagon Crafter.",
+		progress = 350,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 47,
 			single = 42
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 20,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "reinforced plate",
+				itemId = 32172,
+				amount = 5,
 				clientId = 28740,
-				amount = 5,
-				itemId = 32172
+				name = "reinforced plate"
 			},
 			{
-				name = "iron bar",
-				clientId = 28737,
+				itemId = 32169,
 				amount = 5,
-				itemId = 32169
+				clientId = 28737,
+				name = "iron bar"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 63,
 		clientId = 37243,
 		amount = 1,
-		index = 63,
-		category = "Wagon Craft",
-		progress = 525,
 		itemId = 40695,
 		quality = 0,
-		slotName = "",
 		name = "Large Wagon Container",
 		experience = 146400,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Wagons at the Wagon Crafter.",
 		durability = 7,
+		profession = 4,
+		description = "Used for crafting Wagons at the Wagon Crafter.",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 65,
 			single = 60
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 35,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "reinforced plate",
-				clientId = 28740,
+				itemId = 32172,
 				amount = 15,
-				itemId = 32172
+				clientId = 28740,
+				name = "reinforced plate"
 			},
 			{
-				name = "Steel Bar",
-				clientId = 40284,
+				itemId = 43736,
 				amount = 10,
-				itemId = 43736
+				clientId = 40284,
+				name = "Steel Bar"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 64,
 		clientId = 28998,
 		amount = 1,
-		index = 64,
-		category = "weapons",
-		progress = 50,
 		itemId = 32430,
 		quality = 100,
-		slotName = "bow",
 		name = "Oakwood Bow",
 		experience = 1760,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 3,
+		profession = 4,
+		description = "",
+		progress = 50,
+		slotName = "bow",
+		tier = 1,
 		level = {
 			mass = 6,
 			single = 1
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 3,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "coarse thread",
-				clientId = 28971,
+				itemId = 32403,
 				amount = 1,
-				itemId = 32403
+				clientId = 28971,
+				name = "coarse thread"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 65,
 		clientId = 29050,
 		amount = 1,
-		index = 65,
-		category = "weapons",
-		progress = 50,
 		itemId = 32482,
 		quality = 100,
-		slotName = "staff",
 		name = "Mystic Staff",
 		experience = 1760,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 3,
+		profession = 4,
+		description = "",
+		progress = 50,
+		slotName = "staff",
+		tier = 1,
 		level = {
 			mass = 6,
 			single = 1
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 4,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 66,
 		clientId = 33990,
 		amount = 1,
-		index = 66,
-		category = "weapons",
-		progress = 50,
 		itemId = 37422,
 		quality = 100,
-		slotName = "sceptre",
 		name = "Knotted Sceptre",
 		experience = 880,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 3,
+		profession = 4,
+		description = "",
+		progress = 50,
+		slotName = "sceptre",
+		tier = 1,
 		level = {
 			mass = 6,
 			single = 1
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 2,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 67,
 		clientId = 40286,
 		amount = 1,
-		index = 67,
-		category = "Wagon Craft",
-		progress = 200,
 		itemId = 43738,
 		quality = 0,
-		slotName = "",
 		name = "Wooden Arch",
 		experience = 4800,
-		profession = 4,
-		tier = -1,
-		description = "Used in various recipes. A basic but sturdy wooden arch.",
 		durability = 5,
+		profession = 4,
+		description = "Used in various recipes. A basic but sturdy wooden arch.",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 25,
 			single = 20
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 15,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "Oil",
-				clientId = 34899,
+				itemId = 38331,
 				amount = 10,
-				itemId = 38331
+				clientId = 34899,
+				name = "Oil"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 68,
 		clientId = 40285,
 		amount = 1,
-		index = 68,
-		category = "Wagon Craft",
-		progress = 350,
 		itemId = 43737,
 		quality = 0,
-		slotName = "",
 		name = "Supple Wooden Arch",
 		experience = 7600,
-		profession = 4,
-		tier = -1,
-		description = "Used in various recipes. Crafted with precision, this arch combines flexibility with strength.",
 		durability = 7,
+		profession = 4,
+		description = "Used in various recipes. Crafted with precision, this arch combines flexibility with strength.",
+		progress = 350,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 50,
 			single = 45
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 15,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Oil",
-				clientId = 34899,
+				itemId = 38331,
 				amount = 20,
-				itemId = 38331
+				clientId = 34899,
+				name = "Oil"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 69,
 		clientId = 40492,
 		amount = 1,
-		index = 69,
-		category = "Wagon Craft",
-		progress = 225,
 		itemId = 43944,
 		quality = 0,
-		slotName = "",
 		name = "Swift Wheel",
 		experience = 3040,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Wagons at the Wagon Crafter.",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting Wagons at the Wagon Crafter.",
+		progress = 225,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 31,
 			single = 26
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 10,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 5,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			}
 		}
 	},
 	{
+		category = "Wagon Craft",
+		index = 70,
 		clientId = 40491,
 		amount = 1,
-		index = 70,
-		category = "Wagon Craft",
-		progress = 225,
 		itemId = 43943,
 		quality = 0,
-		slotName = "",
 		name = "Common Wagon Container",
 		experience = 29200,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting Wagons at the Wagon Crafter.",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting Wagons at the Wagon Crafter.",
+		progress = 225,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 32,
 			single = 27
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 25,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "Common Plate",
-				clientId = 40283,
+				itemId = 43735,
 				amount = 3,
-				itemId = 43735
+				clientId = 40283,
+				name = "Common Plate"
 			}
 		}
 	},
 	{
+		category = "planks",
+		index = 74,
 		clientId = 41847,
 		amount = 1,
-		index = 74,
-		category = "planks",
-		progress = 100,
 		itemId = 45299,
 		quality = 100,
-		slotName = "",
 		name = "Dense Plank",
 		experience = 2000,
-		profession = 4,
-		tier = -1,
-		description = "Used in various recipes. Sturdy crafting material crafted from dense logs.",
 		durability = 4,
+		profession = 4,
+		description = "Used in various recipes. Sturdy crafting material crafted from dense logs.",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "Dense Log",
-				clientId = 34371,
+				itemId = 37803,
 				amount = 4,
-				itemId = 37803
+				clientId = 34371,
+				name = "Dense Log"
 			}
 		}
 	},
 	{
+		category = "planks",
+		index = 75,
 		clientId = 41848,
 		amount = 1,
-		index = 75,
-		category = "planks",
-		progress = 250,
 		itemId = 45300,
 		quality = 250,
-		slotName = "",
 		name = "Heavy Plank",
 		experience = 4400,
-		profession = 4,
-		tier = -1,
-		description = "Used in various recipes. Exceptionally robust crafting material forged from dense logs.",
 		durability = 6,
+		profession = 4,
+		description = "Used in various recipes. Exceptionally robust crafting material forged from dense logs.",
+		progress = 250,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 35,
 			single = 30
 		},
 		materials = {
 			{
-				name = "Dense Log",
-				clientId = 34371,
+				itemId = 37803,
 				amount = 8,
-				itemId = 37803
+				clientId = 34371,
+				name = "Dense Log"
 			},
 			{
-				name = "Oil",
-				clientId = 34899,
+				itemId = 38331,
 				amount = 2,
-				itemId = 38331
+				clientId = 34899,
+				name = "Oil"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 76,
 		clientId = 42777,
 		amount = 1,
-		index = 76,
-		category = "Housing Craft",
-		progress = 100,
 		itemId = 46229,
 		quality = 0,
-		slotName = "",
 		name = "Weak Table",
 		experience = 3600,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 4,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 8,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "nail",
-				clientId = 28734,
+				itemId = 32166,
 				amount = 2,
-				itemId = 32166
+				clientId = 28734,
+				name = "nail"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 77,
 		clientId = 42782,
 		amount = 1,
-		index = 77,
-		category = "Housing Craft",
-		progress = 500,
 		itemId = 46234,
 		quality = 0,
-		slotName = "",
 		name = "Sturdy Container",
 		experience = 41600,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 8,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 500,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 55,
 			single = 50
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 18,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Common Plate",
-				clientId = 40283,
+				itemId = 43735,
 				amount = 6,
-				itemId = 43735
+				clientId = 40283,
+				name = "Common Plate"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 78,
 		clientId = 42781,
 		amount = 1,
-		index = 78,
-		category = "Housing Craft",
-		progress = 100,
 		itemId = 46233,
 		quality = 0,
-		slotName = "",
 		name = "Frail Loom",
 		experience = 8000,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 4,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 10,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "simple cloth",
-				clientId = 28966,
+				itemId = 32398,
 				amount = 6,
-				itemId = 32398
+				clientId = 28966,
+				name = "simple cloth"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 79,
 		clientId = 42783,
 		amount = 1,
-		index = 79,
-		category = "Housing Craft",
-		progress = 250,
 		itemId = 46235,
 		quality = 0,
-		slotName = "",
 		name = "Simple Loom",
 		experience = 23000,
-		profession = 4,
-		tier = -1,
-		description = "Used in housing upgrades.",
 		durability = 6,
+		profession = 4,
+		description = "Used in housing upgrades.",
+		progress = 250,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 35,
 			single = 30
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 10,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "fine thread",
-				clientId = 28973,
+				itemId = 32405,
 				amount = 5,
-				itemId = 32405
+				clientId = 28973,
+				name = "fine thread"
 			}
 		}
 	},
 	{
+		category = "Ship Module",
+		index = 80,
 		clientId = 43638,
 		amount = 1,
-		index = 80,
-		category = "Ship Module",
-		progress = 225,
 		itemId = 47090,
 		quality = 0,
-		slotName = "",
 		name = "Small Maintenance Unit Kit",
 		experience = 82000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
 		durability = 6,
+		profession = 4,
+		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
+		progress = 225,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 40,
 			single = 35
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 50,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Bolt",
+				itemId = 43734,
+				amount = 10,
 				clientId = 40282,
-				amount = 10,
-				itemId = 43734
+				name = "Bolt"
 			},
 			{
-				name = "steel ingot",
+				itemId = 32156,
+				amount = 10,
 				clientId = 28724,
-				amount = 10,
-				itemId = 32156
+				name = "steel ingot"
 			},
 			{
-				name = "Wooden Arch",
-				clientId = 40286,
+				itemId = 43738,
 				amount = 2,
-				itemId = 43738
+				clientId = 40286,
+				name = "Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "Ship Module",
+		index = 81,
 		clientId = 43635,
 		amount = 1,
-		index = 81,
-		category = "Ship Module",
-		progress = 525,
 		itemId = 47087,
 		quality = 0,
-		slotName = "",
 		name = "Medium Maintenance Unit Kit",
 		experience = 245000,
-		profession = 4,
-		tier = -1,
-		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
 		durability = 9,
+		profession = 4,
+		description = "Used for crafting ship cabins for your ship at the Ship Builder.",
+		progress = 525,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 70,
 			single = 65
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 135,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Bolt",
-				clientId = 40282,
+				itemId = 43734,
 				amount = 30,
-				itemId = 43734
+				clientId = 40282,
+				name = "Bolt"
 			},
 			{
-				name = "cobalt ingot",
-				clientId = 28725,
+				itemId = 32157,
 				amount = 20,
-				itemId = 32157
+				clientId = 28725,
+				name = "cobalt ingot"
 			},
 			{
-				name = "Supple Wooden Arch",
-				clientId = 40285,
+				itemId = 43737,
 				amount = 4,
-				itemId = 43737
+				clientId = 40285,
+				name = "Supple Wooden Arch"
 			}
 		}
 	},
 	{
+		category = "planks",
+		index = 82,
 		clientId = 45506,
 		amount = 1,
-		index = 82,
-		category = "planks",
-		progress = 450,
 		itemId = 48958,
 		quality = 450,
-		slotName = "",
 		name = "Sturdy Plank",
 		experience = 1500,
-		profession = 4,
-		tier = -1,
-		description = "Used in various recipes. A solid and dependable wooden plank.",
 		durability = 8,
+		profession = 4,
+		description = "Used in various recipes. A solid and dependable wooden plank.",
+		progress = 450,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 55,
 			single = 50
 		},
 		materials = {
 			{
-				name = "Sturdy Log",
-				clientId = 45505,
+				itemId = 48957,
 				amount = 10,
-				itemId = 48957
+				clientId = 45505,
+				name = "Sturdy Log"
 			},
 			{
-				name = "Oil",
-				clientId = 34899,
+				itemId = 38331,
 				amount = 4,
-				itemId = 38331
+				clientId = 34899,
+				name = "Oil"
 			}
 		}
 	},
 	{
+		category = "planks",
+		index = 83,
 		clientId = 45503,
 		amount = 1,
-		index = 83,
-		category = "planks",
-		progress = 550,
 		itemId = 48955,
 		quality = 550,
-		slotName = "",
 		name = "Fine Plank",
 		experience = 2200,
-		profession = 4,
-		tier = -1,
-		description = "Used in various recipes. A meticulously crafted wooden plank.",
 		durability = 9,
+		profession = 4,
+		description = "Used in various recipes. A meticulously crafted wooden plank.",
+		progress = 550,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 75,
 			single = 70
 		},
 		materials = {
 			{
-				name = "Fine Log",
-				clientId = 45502,
+				itemId = 48954,
 				amount = 10,
-				itemId = 48954
+				clientId = 45502,
+				name = "Fine Log"
 			},
 			{
-				name = "Oil",
-				clientId = 34899,
+				itemId = 38331,
 				amount = 6,
-				itemId = 38331
+				clientId = 34899,
+				name = "Oil"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 84,
 		clientId = 29028,
 		amount = 1,
-		index = 84,
-		category = "weapons",
-		progress = 50,
 		itemId = 32460,
 		quality = 100,
-		slotName = "buckler shield",
 		name = "Wooden Buckler",
 		experience = 880,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 3,
+		profession = 4,
+		description = "",
+		progress = 50,
+		slotName = "buckler shield",
+		tier = 1,
 		level = {
 			mass = 6,
 			single = 1
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 2,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 85,
 		clientId = 29029,
 		amount = 1,
-		index = 85,
-		category = "weapons",
-		progress = 100,
 		itemId = 32461,
 		quality = 100,
-		slotName = "buckler shield",
 		name = "Sturdy Buckler",
 		experience = 1840,
-		profession = 4,
-		tier = 2,
-		description = "",
 		durability = 4,
+		profession = 4,
+		description = "",
+		progress = 100,
+		slotName = "buckler shield",
+		tier = 2,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 3,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "Coarse Leather",
+				itemId = 38864,
+				amount = 1,
 				clientId = 35432,
-				amount = 1,
-				itemId = 38864
+				name = "Coarse Leather"
 			},
 			{
-				name = "Wooden Buckler",
-				clientId = 29028,
+				itemId = 32460,
 				amount = 1,
-				itemId = 32460
+				clientId = 29028,
+				name = "Wooden Buckler"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 86,
 		clientId = 29030,
 		amount = 1,
-		index = 86,
-		category = "weapons",
-		progress = 200,
 		itemId = 32462,
 		quality = 100,
-		slotName = "buckler shield",
 		name = "Marauder's Shield",
 		experience = 7000,
-		profession = 4,
-		tier = 3,
-		description = "",
 		durability = 6,
+		profession = 4,
+		description = "",
+		progress = 200,
+		slotName = "buckler shield",
+		tier = 3,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 5,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "Craftman's Leather",
-				clientId = 35433,
+				itemId = 38865,
 				amount = 2,
-				itemId = 38865
+				clientId = 35433,
+				name = "Craftman's Leather"
 			},
 			{
-				name = "Sturdy Buckler",
-				clientId = 29029,
+				itemId = 32461,
 				amount = 1,
-				itemId = 32461
+				clientId = 29029,
+				name = "Sturdy Buckler"
 			},
 			{
-				name = "Sea Cured Leather",
-				clientId = 43212,
+				itemId = 46664,
 				amount = 6,
-				itemId = 46664
+				clientId = 43212,
+				name = "Sea Cured Leather"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 87,
 		clientId = 29031,
 		amount = 1,
-		index = 87,
-		category = "weapons",
-		progress = 350,
 		itemId = 32463,
 		quality = 100,
-		slotName = "buckler shield",
 		name = "Rune Shield",
 		experience = 19000,
-		profession = 4,
-		tier = 4,
-		description = "",
 		durability = 7,
+		profession = 4,
+		description = "",
+		progress = 350,
+		slotName = "buckler shield",
+		tier = 4,
 		level = {
 			mass = 45,
 			single = 40
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 12,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "Tanned Leather",
-				clientId = 35434,
+				itemId = 38866,
 				amount = 3,
-				itemId = 38866
+				clientId = 35434,
+				name = "Tanned Leather"
 			},
 			{
-				name = "Marauder's Shield",
-				clientId = 29030,
+				itemId = 32462,
 				amount = 1,
-				itemId = 32462
+				clientId = 29030,
+				name = "Marauder's Shield"
 			},
 			{
-				name = "Rough Steel Plate",
-				clientId = 37483,
+				itemId = 40935,
 				amount = 10,
-				itemId = 40935
+				clientId = 37483,
+				name = "Rough Steel Plate"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 88,
 		clientId = 29032,
 		amount = 1,
-		index = 88,
-		category = "weapons",
-		progress = 525,
 		itemId = 32464,
 		quality = 100,
-		slotName = "buckler shield",
 		name = "Ravenguard's Shield",
 		experience = 39500,
-		profession = 4,
-		tier = 5,
-		description = "",
 		durability = 8,
+		profession = 4,
+		description = "",
+		progress = 525,
+		slotName = "buckler shield",
+		tier = 5,
 		level = {
 			mass = 60,
 			single = 55
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 20,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Merchant's Leather",
-				clientId = 35435,
+				itemId = 38867,
 				amount = 4,
-				itemId = 38867
+				clientId = 35435,
+				name = "Merchant's Leather"
 			},
 			{
-				name = "Rune Shield",
-				clientId = 29031,
+				itemId = 32463,
 				amount = 1,
-				itemId = 32463
+				clientId = 29031,
+				name = "Rune Shield"
 			},
 			{
-				name = "Heavy Metal Chunks",
-				clientId = 40274,
+				itemId = 43726,
 				amount = 12,
-				itemId = 43726
+				clientId = 40274,
+				name = "Heavy Metal Chunks"
 			}
 		}
 	},
 	{
+		index = 89,
+		amount = 1,
+		category = "weapons",
 		slotName = "buckler shield",
 		quality = 100,
-		tier = 6,
 		progress = 700,
+		specialization = "Fletcher",
+		experience = 57600,
+		durability = 12,
+		description = "",
+		tier = 6,
 		clientId = 37149,
 		itemId = 40601,
-		specialization = "Fletcher",
 		name = "Nocturnal Shield",
-		experience = 57600,
 		profession = 4,
-		durability = 12,
-		amount = 1,
-		index = 89,
-		category = "weapons",
-		description = "",
 		level = {
 			mass = 80,
 			single = 75
 		},
 		materials = {
 			{
-				name = "Fine Plank",
-				clientId = 45503,
+				itemId = 48955,
 				amount = 22,
-				itemId = 48955
+				clientId = 45503,
+				name = "Fine Plank"
 			},
 			{
-				name = "Artisan Leather",
-				clientId = 35436,
+				itemId = 38868,
 				amount = 4,
-				itemId = 38868
+				clientId = 35436,
+				name = "Artisan Leather"
 			},
 			{
-				name = "Ravenguard's Shield",
-				clientId = 29032,
+				itemId = 32464,
 				amount = 1,
-				itemId = 32464
+				clientId = 29032,
+				name = "Ravenguard's Shield"
 			},
 			{
-				name = "Polished Plate Scraps",
-				clientId = 40275,
+				itemId = 43727,
 				amount = 16,
-				itemId = 43727
+				clientId = 40275,
+				name = "Polished Plate Scraps"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 90,
 		clientId = 46241,
 		amount = 1,
-		index = 90,
-		category = "weapons",
-		progress = 50,
 		itemId = 49694,
 		quality = 100,
-		slotName = "tower shield",
 		name = "Wooden Bulwark",
 		experience = 880,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 3,
+		profession = 4,
+		description = "",
+		progress = 50,
+		slotName = "tower shield",
+		tier = 1,
 		level = {
 			mass = 6,
 			single = 1
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 2,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 91,
 		clientId = 46242,
 		amount = 1,
-		index = 91,
-		category = "weapons",
-		progress = 100,
 		itemId = 49695,
 		quality = 100,
-		slotName = "tower shield",
 		name = "Sentinel Shield",
 		experience = 1840,
-		profession = 4,
-		tier = 2,
-		description = "",
 		durability = 4,
+		profession = 4,
+		description = "",
+		progress = 100,
+		slotName = "tower shield",
+		tier = 2,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
+				itemId = 32176,
+				amount = 3,
 				clientId = 28744,
-				amount = 3,
-				itemId = 32176
+				name = "rough plank"
 			},
 			{
-				name = "copper ingot",
+				itemId = 32158,
+				amount = 3,
 				clientId = 28726,
-				amount = 3,
-				itemId = 32158
+				name = "copper ingot"
 			},
 			{
-				name = "Wooden Bulwark",
-				clientId = 46241,
+				itemId = 49694,
 				amount = 1,
-				itemId = 49694
+				clientId = 46241,
+				name = "Wooden Bulwark"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 92,
 		clientId = 46243,
 		amount = 1,
-		index = 92,
-		category = "weapons",
-		progress = 200,
 		itemId = 49696,
 		quality = 100,
-		slotName = "tower shield",
 		name = "Defender's Bulwark",
 		experience = 7000,
-		profession = 4,
-		tier = 3,
-		description = "",
 		durability = 6,
+		profession = 4,
+		description = "",
+		progress = 200,
+		slotName = "tower shield",
+		tier = 3,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "refined plank",
+				itemId = 32175,
+				amount = 6,
 				clientId = 28743,
-				amount = 6,
-				itemId = 32175
+				name = "refined plank"
 			},
 			{
-				name = "iron ingot",
-				clientId = 28723,
+				itemId = 32155,
 				amount = 8,
-				itemId = 32155
+				clientId = 28723,
+				name = "iron ingot"
 			},
 			{
-				name = "Sentinel Shield",
-				clientId = 46242,
+				itemId = 49695,
 				amount = 1,
-				itemId = 49695
+				clientId = 46242,
+				name = "Sentinel Shield"
 			},
 			{
-				name = "Sea Cured Leather",
-				clientId = 43212,
+				itemId = 46664,
 				amount = 6,
-				itemId = 46664
+				clientId = 43212,
+				name = "Sea Cured Leather"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 93,
 		clientId = 46244,
 		amount = 1,
-		index = 93,
-		category = "weapons",
-		progress = 350,
 		itemId = 49697,
 		quality = 100,
-		slotName = "tower shield",
 		name = "Steelclad Bulwark",
 		experience = 19000,
-		profession = 4,
-		tier = 4,
-		description = "",
 		durability = 7,
+		profession = 4,
+		description = "",
+		progress = 350,
+		slotName = "tower shield",
+		tier = 4,
 		level = {
 			mass = 45,
 			single = 40
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 12,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "steel ingot",
+				itemId = 32156,
+				amount = 10,
 				clientId = 28724,
-				amount = 10,
-				itemId = 32156
+				name = "steel ingot"
 			},
 			{
-				name = "Defender's Bulwark",
-				clientId = 46243,
+				itemId = 49696,
 				amount = 1,
-				itemId = 49696
+				clientId = 46243,
+				name = "Defender's Bulwark"
 			},
 			{
-				name = "Rough Steel Plate",
-				clientId = 37483,
+				itemId = 40935,
 				amount = 10,
-				itemId = 40935
+				clientId = 37483,
+				name = "Rough Steel Plate"
 			}
 		}
 	},
 	{
+		category = "weapons",
+		index = 94,
 		clientId = 46245,
 		amount = 1,
-		index = 94,
-		category = "weapons",
-		progress = 525,
 		itemId = 49698,
 		quality = 100,
-		slotName = "tower shield",
 		name = "King's Defender",
 		experience = 39500,
-		profession = 4,
-		tier = 5,
-		description = "",
 		durability = 8,
+		profession = 4,
+		description = "",
+		progress = 525,
+		slotName = "tower shield",
+		tier = 5,
 		level = {
 			mass = 60,
 			single = 55
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 20,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "cobalt ingot",
-				clientId = 28725,
+				itemId = 32157,
 				amount = 18,
-				itemId = 32157
+				clientId = 28725,
+				name = "cobalt ingot"
 			},
 			{
-				name = "Steelclad Bulwark",
-				clientId = 46244,
+				itemId = 49697,
 				amount = 1,
-				itemId = 49697
+				clientId = 46244,
+				name = "Steelclad Bulwark"
 			},
 			{
-				name = "Heavy Metal Chunks",
-				clientId = 40274,
+				itemId = 43726,
 				amount = 12,
-				itemId = 43726
+				clientId = 40274,
+				name = "Heavy Metal Chunks"
 			}
 		}
 	},
 	{
+		index = 95,
+		amount = 1,
+		category = "weapons",
 		slotName = "tower shield",
 		quality = 100,
-		tier = 6,
 		progress = 700,
+		specialization = "Fletcher",
+		experience = 57600,
+		durability = 12,
+		description = "",
+		tier = 6,
 		clientId = 46246,
 		itemId = 49699,
-		specialization = "Fletcher",
 		name = "Protector's Tower Shield",
-		experience = 57600,
 		profession = 4,
-		durability = 12,
-		amount = 1,
-		index = 95,
-		category = "weapons",
-		description = "",
 		level = {
 			mass = 80,
 			single = 75
 		},
 		materials = {
 			{
-				name = "Fine Plank",
-				clientId = 45503,
+				itemId = 48955,
 				amount = 22,
-				itemId = 48955
+				clientId = 45503,
+				name = "Fine Plank"
 			},
 			{
-				name = "titanium ingot",
-				clientId = 28727,
+				itemId = 32159,
 				amount = 14,
-				itemId = 32159
+				clientId = 28727,
+				name = "titanium ingot"
 			},
 			{
-				name = "King's Defender",
-				clientId = 46245,
+				itemId = 49698,
 				amount = 1,
-				itemId = 49698
+				clientId = 46245,
+				name = "King's Defender"
 			},
 			{
-				name = "Polished Plate Scraps",
-				clientId = 40275,
+				itemId = 43727,
 				amount = 16,
-				itemId = 43727
+				clientId = 40275,
+				name = "Polished Plate Scraps"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 96,
 		clientId = 47280,
 		amount = 1,
-		index = 96,
-		category = "Housing Craft",
-		progress = 100,
 		itemId = 50733,
 		quality = 0,
-		slotName = "",
 		name = "Protective Charm",
 		experience = 8000,
-		profession = 4,
-		tier = -1,
-		description = "",
 		durability = 4,
+		profession = 4,
+		description = "",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 10,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "simple cloth",
-				clientId = 28966,
+				itemId = 32398,
 				amount = 6,
-				itemId = 32398
+				clientId = 28966,
+				name = "simple cloth"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 97,
 		clientId = 47286,
 		amount = 1,
-		index = 97,
-		category = "Housing Craft",
-		progress = 250,
 		itemId = 50739,
 		quality = 0,
-		slotName = "",
 		name = "Warding Charm",
 		experience = 23000,
-		profession = 4,
-		tier = -1,
-		description = "Used for housing craft.",
 		durability = 6,
+		profession = 4,
+		description = "Used for housing craft.",
+		progress = 250,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 35,
 			single = 30
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 10,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "fine thread",
-				clientId = 28973,
+				itemId = 32405,
 				amount = 5,
-				itemId = 32405
+				clientId = 28973,
+				name = "fine thread"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 98,
 		clientId = 47282,
 		amount = 1,
-		index = 98,
-		category = "Housing Craft",
-		progress = 600,
 		itemId = 50735,
 		quality = 0,
-		slotName = "",
 		name = "Spellbound Charm",
 		experience = 35000,
-		profession = 4,
-		tier = -1,
-		description = "Used for housing craft.",
 		durability = 12,
+		profession = 4,
+		description = "Used for housing craft.",
+		progress = 600,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 65,
 			single = 50
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 15,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "merchant's thread",
-				clientId = 28969,
+				itemId = 32401,
 				amount = 5,
-				itemId = 32401
+				clientId = 28969,
+				name = "merchant's thread"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 99,
 		clientId = 47277,
 		amount = 1,
-		index = 99,
-		category = "Housing Craft",
-		progress = 100,
 		itemId = 50730,
 		quality = 0,
-		slotName = "",
 		name = "Basic Stabilizer",
 		experience = 8000,
-		profession = 4,
-		tier = -1,
-		description = "Used for housing craft.",
 		durability = 4,
+		profession = 4,
+		description = "Used for housing craft.",
+		progress = 100,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				name = "rough plank",
-				clientId = 28744,
+				itemId = 32176,
 				amount = 10,
-				itemId = 32176
+				clientId = 28744,
+				name = "rough plank"
 			},
 			{
-				name = "simple cloth",
-				clientId = 28966,
+				itemId = 32398,
 				amount = 6,
-				itemId = 32398
+				clientId = 28966,
+				name = "simple cloth"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 100,
 		clientId = 47278,
 		amount = 1,
-		index = 100,
-		category = "Housing Craft",
-		progress = 250,
 		itemId = 50731,
 		quality = 0,
-		slotName = "",
 		name = "Energy Stabilizer",
 		experience = 23000,
-		profession = 4,
-		tier = -1,
-		description = "Used for housing craft.",
 		durability = 6,
+		profession = 4,
+		description = "Used for housing craft.",
+		progress = 250,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 35,
 			single = 30
 		},
 		materials = {
 			{
-				name = "treated plank",
-				clientId = 28745,
+				itemId = 32177,
 				amount = 10,
-				itemId = 32177
+				clientId = 28745,
+				name = "treated plank"
 			},
 			{
-				name = "fine thread",
-				clientId = 28973,
+				itemId = 32405,
 				amount = 5,
-				itemId = 32405
+				clientId = 28973,
+				name = "fine thread"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 101,
 		clientId = 47275,
 		amount = 1,
-		index = 101,
-		category = "Housing Craft",
-		progress = 600,
 		itemId = 50728,
 		quality = 0,
-		slotName = "",
 		name = "Arcane Stabilizer",
 		experience = 35000,
-		profession = 4,
-		tier = -1,
-		description = "Used for housing craft.",
 		durability = 12,
+		profession = 4,
+		description = "Used for housing craft.",
+		progress = 600,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 65,
 			single = 50
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 15,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "merchant's thread",
-				clientId = 28969,
+				itemId = 32401,
 				amount = 5,
-				itemId = 32401
+				clientId = 28969,
+				name = "merchant's thread"
 			}
 		}
 	},
 	{
+		category = "Housing Craft",
+		index = 102,
 		clientId = 47285,
 		amount = 1,
-		index = 102,
-		category = "Housing Craft",
-		progress = 200,
 		itemId = 50738,
 		quality = 0,
-		slotName = "",
 		name = "Wall Reinforcement",
 		experience = 7360,
-		profession = 4,
-		tier = -1,
-		description = "Used for housing craft.",
 		durability = 5,
+		profession = 4,
+		description = "Used for housing craft.",
+		progress = 200,
+		slotName = "",
+		tier = -1,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				name = "refined plank",
-				clientId = 28743,
+				itemId = 32175,
 				amount = 8,
-				itemId = 32175
+				clientId = 28743,
+				name = "refined plank"
 			},
 			{
-				name = "nail",
+				itemId = 32166,
+				amount = 1,
 				clientId = 28734,
-				amount = 1,
-				itemId = 32166
+				name = "nail"
 			},
 			{
-				name = "iron bar",
-				clientId = 28737,
+				itemId = 32169,
 				amount = 1,
-				itemId = 32169
+				clientId = 28737,
+				name = "iron bar"
 			}
 		}
 	},
 	{
+		index = 103,
+		amount = 1,
+		category = "Housing Craft",
 		slotName = "",
 		quality = 0,
-		tier = -1,
 		progress = 500,
+		specialization = "Joiner",
+		experience = 41500,
+		durability = 8,
+		description = "Used for housing craft.",
+		tier = -1,
 		clientId = 47284,
 		itemId = 50737,
-		specialization = "Joiner",
 		name = "Wall Fortification",
-		experience = 41500,
 		profession = 4,
-		durability = 8,
-		amount = 1,
-		index = 103,
-		category = "Housing Craft",
-		description = "Used for housing craft.",
 		level = {
 			mass = 65,
 			single = 50
 		},
 		materials = {
 			{
-				name = "Sturdy Plank",
-				clientId = 45506,
+				itemId = 48958,
 				amount = 18,
-				itemId = 48958
+				clientId = 45506,
+				name = "Sturdy Plank"
 			},
 			{
-				name = "Common Plate",
-				clientId = 40283,
+				itemId = 43735,
 				amount = 6,
-				itemId = 43735
+				clientId = 40283,
+				name = "Common Plate"
 			}
 		}
 	}
@@ -3941,122 +3941,122 @@ recipes[ProfessionCarpentry] = {
 questRecipes = questRecipes or {}
 questRecipes[ProfessionCarpentry] = {
 	{
+		category = "quest",
+		index = 1,
 		clientId = 28998,
 		amount = 1,
-		index = 1,
-		category = "quest",
-		progress = 50,
 		itemId = 32430,
 		quality = 50,
-		slotName = "bow",
 		name = "Oakwood Bow",
 		experience = 0,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 3,
+		profession = 4,
+		description = "",
+		progress = 50,
+		slotName = "bow",
+		tier = 1,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
-				name = "Rough Plank",
-				clientId = 28744,
+				itemId = 38876,
 				amount = 5,
-				itemId = 38876
+				clientId = 28744,
+				name = "Rough Plank"
 			},
 			{
-				name = "Coarse Thread",
-				clientId = 28971,
+				itemId = 38877,
 				amount = 3,
-				itemId = 38877
+				clientId = 28971,
+				name = "Coarse Thread"
 			}
 		}
 	},
 	{
+		category = "quest",
+		index = 2,
 		clientId = 29050,
 		amount = 1,
-		index = 2,
-		category = "quest",
-		progress = 50,
 		itemId = 32482,
 		quality = 50,
-		slotName = "staff",
 		name = "Mystic Staff",
 		experience = 0,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 3,
+		profession = 4,
+		description = "",
+		progress = 50,
+		slotName = "staff",
+		tier = 1,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
-				name = "Rough Plank",
-				clientId = 28744,
+				itemId = 38876,
 				amount = 9,
-				itemId = 38876
+				clientId = 28744,
+				name = "Rough Plank"
 			}
 		}
 	},
 	{
+		category = "quest",
+		index = 3,
 		clientId = 33990,
 		amount = 1,
-		index = 3,
-		category = "quest",
-		progress = 50,
 		itemId = 37422,
 		quality = 50,
-		slotName = "sceptre",
 		name = "Knotted Sceptre",
 		experience = 0,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 3,
+		profession = 4,
+		description = "",
+		progress = 50,
+		slotName = "sceptre",
+		tier = 1,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
-				name = "Rough Plank",
-				clientId = 28744,
+				itemId = 38876,
 				amount = 5,
-				itemId = 38876
+				clientId = 28744,
+				name = "Rough Plank"
 			}
 		}
 	},
 	{
+		category = "quest",
+		index = 4,
 		clientId = 29028,
 		amount = 1,
-		index = 4,
-		category = "quest",
-		progress = 50,
 		itemId = 32460,
 		quality = 50,
-		slotName = "buckler shield",
 		name = "Wooden Buckler",
 		experience = 0,
-		profession = 4,
-		tier = 1,
-		description = "",
 		durability = 3,
+		profession = 4,
+		description = "",
+		progress = 50,
+		slotName = "buckler shield",
+		tier = 1,
 		level = {
 			single = 1
 		},
 		materials = {
 			{
-				name = "Copper Ingot",
-				clientId = 28726,
+				itemId = 38874,
 				amount = 2,
-				itemId = 38874
+				clientId = 28726,
+				name = "Copper Ingot"
 			},
 			{
-				name = "Coarse Leather",
-				clientId = 35432,
+				itemId = 38875,
 				amount = 2,
-				itemId = 38875
+				clientId = 35432,
+				name = "Coarse Leather"
 			}
 		}
 	}

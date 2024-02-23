@@ -48,9 +48,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("infusion")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press U or Left-Click to open your Infusion menu",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							"U",
 							MouseLeftButton
@@ -85,8 +85,8 @@ tasks = {
 
 				if infusionWindow:isVisible() then
 					GameInteractions:displayDescriptionBox({
-						preferSide = "right",
 						bandit = true,
+						preferSide = "right",
 						pages = {
 							{
 								text = "So, this is where the magic happens!"
@@ -140,9 +140,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "right",
-					text = "Whenever you want to enhance an item with Infusions, you should first select it with a double-click.",
 					bandit = true,
+					text = "Whenever you want to enhance an item with Infusions, you should first select it with a double-click.",
+					preferSide = "right",
 					keys = {
 						MouseLeftButton
 					},
@@ -173,8 +173,8 @@ tasks = {
 
 				if infusionWindow:isVisible() then
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "This list right here is where everything you want to use as Infusion will be displayed!"
@@ -244,9 +244,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "right",
-					text = "Double-click to select the item you wanna use to make your gear stronger.",
 					bandit = true,
+					text = "Double-click to select the item you wanna use to make your gear stronger.",
+					preferSide = "right",
 					keys = {
 						MouseLeftButton
 					},
@@ -336,9 +336,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "top",
-					text = "Do the same to a gear or Infusion stone, and drag it into the slots list",
 					bandit = true,
+					text = "Do the same to a gear or Infusion stone, and drag it into the slots list",
+					preferSide = "top",
 					keys = {
 						MouseLeftButton
 					},
@@ -376,8 +376,8 @@ tasks = {
 
 				if infusionWindow:isVisible() then
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "Here's a preview of how much stronger the item will get after spending the silver to complete the Infusion..."

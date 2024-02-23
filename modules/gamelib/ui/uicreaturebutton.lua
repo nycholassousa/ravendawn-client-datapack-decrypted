@@ -4,57 +4,57 @@ UICreatureButton = extends(UIWidget, "UICreatureButton")
 
 local CreatureButtonColors = {
 	onIdle = {
-		hovered = "#FFFFFF",
-		notHovered = "#888888"
+		notHovered = "#888888",
+		hovered = "#FFFFFF"
 	},
 	onTargeted = {
-		hovered = "#FF8888",
-		notHovered = "#FF0000"
+		notHovered = "#FF0000",
+		hovered = "#FF8888"
 	},
 	onFollowed = {
-		hovered = "#93D6FF",
-		notHovered = "#4CBBFF"
+		notHovered = "#4CBBFF",
+		hovered = "#93D6FF"
 	}
 }
 local FightStanceColors = {
 	[FightOffensive] = {
-		hovered = "#FF8888",
-		notHovered = "#FF0000"
+		notHovered = "#FF0000",
+		hovered = "#FF8888"
 	},
 	[FightBalanced] = {
-		hovered = "#FFFF8B",
-		notHovered = "#FFFF00"
+		notHovered = "#FFFF00",
+		hovered = "#FFFF8B"
 	},
 	[FightDefensive] = {
-		hovered = "#88FF88",
-		notHovered = "#00FF00"
+		notHovered = "#00FF00",
+		hovered = "#88FF88"
 	}
 }
 local LifeBarColors = {}
 
 table.insert(LifeBarColors, {
-	percentAbove = 92,
-	color = "#00BC00"
+	color = "#00BC00",
+	percentAbove = 92
 })
 table.insert(LifeBarColors, {
-	percentAbove = 60,
-	color = "#50A150"
+	color = "#50A150",
+	percentAbove = 60
 })
 table.insert(LifeBarColors, {
-	percentAbove = 30,
-	color = "#A1A100"
+	color = "#A1A100",
+	percentAbove = 30
 })
 table.insert(LifeBarColors, {
-	percentAbove = 8,
-	color = "#BF0A0A"
+	color = "#BF0A0A",
+	percentAbove = 8
 })
 table.insert(LifeBarColors, {
-	percentAbove = 3,
-	color = "#910F0F"
+	color = "#910F0F",
+	percentAbove = 3
 })
 table.insert(LifeBarColors, {
-	percentAbove = -1,
-	color = "#850C0C"
+	color = "#850C0C",
+	percentAbove = -1
 })
 
 function UICreatureButton.create()

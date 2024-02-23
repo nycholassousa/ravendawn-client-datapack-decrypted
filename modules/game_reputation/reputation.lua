@@ -1,346 +1,32 @@
 ﻿-- chunkname: @/modules/game_reputation/reputation.lua
 
-GameReputation = GameReputation or {}
-GameReputation.experienceTable = {
-	500,
-	750,
-	1000,
-	1250,
-	1500,
-	2250,
-	3000
+GameReputation = GameReputation or {
+	availablePoints = 0,
+	totalPoints = 0
 }
-GameReputation.passives = {
-	{
-		{
-			description = "Increases the stats from Rings by 5%.",
-			id = 1,
-			name = "Ring Mastery I"
-		},
-		{
-			description = "Increases the stats from your Amulet by 10%.",
-			id = 2,
-			name = "Amulet Mastery I"
-		},
-		{
-			description = "Increases the Speed of your Moa by 5%.",
-			id = 3,
-			name = "Swift Rider I"
-		},
-		{
-			description = "Increases experience received from Creatures by 2%.",
-			id = 4,
-			name = "Monster Slayer I"
-		},
-		{
-			description = "Increases experience received from Gathering by 3%.",
-			id = 5,
-			name = "Gathering Proficiency I"
-		},
-		{
-			description = "Increases experience received from Crafting by 3%.",
-			id = 6,
-			name = "Crafting Proficiency I"
-		},
-		{
-			description = "Increases the drop rate of Items from Creatures by 3%.",
-			id = 7,
-			name = "Scavenger I"
-		},
-		{
-			description = "Increases Silver dropped from Creatures by 3%.",
-			id = 8,
-			name = "Prosperity I"
-		},
-		{
-			description = "Increases the chance at finding Rare Materials when Gathering by 3%.",
-			id = 9,
-			name = "Good Fortune I"
-		}
-	},
-	{
-		{
-			description = "Increases the damage of your Ship Cannons by 5%.",
-			id = 10,
-			name = "Improved Gunpowder I"
-		},
-		{
-			description = "Reduces the cooldown of your Trinket by 10%.",
-			id = 11,
-			name = "Gadgeteer I"
-		},
-		{
-			description = "Increases the Speed of your Ship by 5%.",
-			id = 12,
-			name = "Seadog I"
-		},
-		{
-			description = "Increases Speed while pulling a Wagon by 5%.",
-			id = 13,
-			name = "Caravaneer I"
-		},
-		{
-			description = "Increases the Bond Experience received by your Moa by 5%.",
-			id = 14,
-			name = "Rider's Bond I"
-		},
-		{
-			description = "Increases the Duration of Food Consumables by 7%.",
-			id = 15,
-			name = "Nourished I"
-		},
-		{
-			description = "Increases the Effectiveness of Potions by 5%",
-			id = 16,
-			name = "Proficient Alchemy I"
-		},
-		{
-			description = "Increases the number of Prestige Points received from Rangers Company tasks by 7%",
-			id = 17,
-			name = "Ranger's Valor I"
-		},
-		{
-			description = "Your first Touch action has a 10% chance to double the Quality given during crafting.",
-			id = 18,
-			name = "Artisan's Touch I"
-		}
-	},
-	{
-		{
-			description = "Increases the Reload Speed of your Ship Cannons by 5%.",
-			id = 19,
-			name = "Swift Artillery I"
-		},
-		{
-			description = "Increases the Health of your Ship by 5%.",
-			id = 20,
-			name = "Reinforced Hull I"
-		},
-		{
-			description = "Increases the Speed of your ship by 5% when carrying tradepacks",
-			id = 21,
-			name = "Seatrader I"
-		},
-		{
-			description = "Increases the Strength of your Moa by 7%.",
-			id = 22,
-			name = "Moa's Vigor I"
-		},
-		{
-			description = "Reduces the Cooldown of your Moa's abilities by 10%.",
-			id = 23,
-			name = "Moa Proficiency I"
-		},
-		{
-			description = "Increases the value of Tradepacks by 5%.",
-			id = 24,
-			name = "Bartering I"
-		},
-		{
-			description = "Increases the value of Fish by 5%.",
-			id = 25,
-			name = "Fisherman's Luck I"
-		},
-		{
-			description = "Increases the value of Creature Products by 5%.",
-			id = 26,
-			name = "Skilled Salesman I"
-		},
-		{
-			description = "Increases the number of Bounty Marks earned from Rangers Company Tasks by 10%.",
-			id = 27,
-			name = "Sellsword I"
-		}
-	},
-	{
-		{
-			description = "Increases damage dealt to Murderers by 5%, and recovers 30% of your maximum health when you kill a Murderer. Not available to those with active Murderer status.",
-			id = 28,
-			name = "Retributioner"
-		},
-		{
-			description = "Increases damage dealt to Innocent players by 2%, and recovers 15% of your maximum health when you kill an innocent player. ",
-			id = 29,
-			name = "Insidious"
-		},
-		{
-			description = "Increases the stats from your Main & Off Hand equipment by 5%.",
-			id = 30,
-			name = "Weapon Mastery"
-		},
-		{
-			description = "Increases movement speed by 15% when carrying a tradepack stolen from a killed player.",
-			id = 31,
-			name = "Looter's Haste"
-		},
-		{
-			description = "Increases movement speed by 10% when carrying a tradepack on foot.",
-			id = 32,
-			name = "Trader's Agility"
-		},
-		{
-			description = "Decreases the chance of being dismounted when first struck by another player by 50%.",
-			id = 33,
-			name = "Skilled Rider"
-		},
-		{
-			description = "Creatures from the Dwarven, Elven and Goblin Families will not attack you unless you attack them first or gather resources near them.",
-			id = 34,
-			name = "Diplomatic Exaltation"
-		},
-		{
-			description = "When first attacked by a player while riding a Wagon, receives a shield equal to 25% of your max health for 10 seconds. 2 Minute Cooldown.",
-			id = 35,
-			name = "Fortified Convoy"
-		},
-		{
-			description = "When first attacked by a player while carrying a Tradepack on your Ship, receives a shield equal to 25% of your max health for 10 seconds. 2 Minute Cooldown.",
-			id = 36,
-			name = "Trader's Safeguard"
-		}
-	},
-	{
-		{
-			description = "Increases the stats from Rings by 10%.",
-			id = 37,
-			name = "Ring Mastery II"
-		},
-		{
-			description = "Increase the stats from your Amulet by 20%.",
-			id = 38,
-			name = "Amulet Mastery II"
-		},
-		{
-			description = "Increases the Speed of your Moa by 10%.",
-			id = 39,
-			name = "Swift Rider II"
-		},
-		{
-			description = "Increases experience received from creatures by 4%.",
-			id = 40,
-			name = "Monster Slayer II"
-		},
-		{
-			description = "Increases experience received from Gathering by 7%.",
-			id = 41,
-			name = "Gathering Proficiency II"
-		},
-		{
-			description = "Increases experience received from Crafting by 7%.",
-			id = 42,
-			name = "Crafting Proficiency II"
-		},
-		{
-			description = "Increases the drop rate of Items from Creatures by 7%.",
-			id = 43,
-			name = "Scavenger II"
-		},
-		{
-			description = "Increases Silver dropped from Creatures by 7%.",
-			id = 44,
-			name = "Prosperity II"
-		},
-		{
-			description = "Increases the chance at finding Rare Materials when Gathering by 7%.",
-			id = 45,
-			name = "Good Fortune II"
-		}
-	},
-	{
-		{
-			description = "Increases the damage of your Ship Cannons by 10%.",
-			id = 46,
-			name = "Improved Gunpowder II"
-		},
-		{
-			description = "Reduces the cooldown of your Trinket by 20%.",
-			id = 47,
-			name = "Gadgeteer II"
-		},
-		{
-			description = "Increases the Speed of your ship by 10%.",
-			id = 48,
-			name = "Seadog II"
-		},
-		{
-			description = "Increases Speed while pulling a Wagon by 10%.",
-			id = 49,
-			name = "Caravaneer II"
-		},
-		{
-			description = "Increases the Bond Experience received by your Moa by 10%.",
-			id = 50,
-			name = "Rider's Bond II"
-		},
-		{
-			description = "Increases the Duration of Food Consumables by 15%.",
-			id = 51,
-			name = "Nourished II"
-		},
-		{
-			description = "Increases the Effectiveness of Potions by 10%.",
-			id = 52,
-			name = "Proficient Alchemy II"
-		},
-		{
-			description = "Increases the number of Prestige Points received from Rangers Company tasks by 15%.",
-			id = 53,
-			name = "Ranger's Valor II"
-		},
-		{
-			description = "Your first Touch action has a 20% chance to double the Quality given during crafting.",
-			id = 54,
-			name = "Artisan's Touch II"
-		}
-	},
-	{
-		{
-			description = "Increases the Reload Speed of your Ship Cannons by 10%.",
-			id = 55,
-			name = "Swift Artillery II"
-		},
-		{
-			description = "Increases the health of your Ship by 10%.",
-			id = 56,
-			name = "Reinforced Hull II"
-		},
-		{
-			description = "Increases the Speed of your ship by 10% when carrying tradepacks",
-			id = 57,
-			name = "Seatrader II"
-		},
-		{
-			description = "Increases the Strength of your Moa by 15%.",
-			id = 58,
-			name = "Moa's Vigor II"
-		},
-		{
-			description = "Reduces the cooldown of your Moa's abilities by 20%.",
-			id = 59,
-			name = "Moa Proficiency II"
-		},
-		{
-			description = "Increases the value of Tradepacks by 10%.",
-			id = 60,
-			name = "Bartering II"
-		},
-		{
-			description = "Increases the value of Fish by 10%.",
-			id = 61,
-			name = "Fisherman's Luck II"
-		},
-		{
-			description = "Increases the value of Creature Products by 10%.",
-			id = 62,
-			name = "Skilled Salesman II"
-		},
-		{
-			description = "Increases the number of Bounty Marks earned from Rangers Company Tasks by 20%.",
-			id = 63,
-			name = "Sellsword II"
-		}
-	}
-}
+
+function GameReputation:loadConfig()
+	local func, error = loadfile("config.lua")
+
+	if not func then
+		g_logger.fatal(error)
+
+		return false
+	end
+
+	func()
+
+	local env = getfenv(0)
+
+	env.cfg = {}
+
+	setmetatable(env.cfg, {
+		__index = env
+	})
+	setfenv(func, env.cfg)
+
+	return true
+end
 
 function GameReputation:show()
 	GameReputation:sendExtendedOpcode({
@@ -372,24 +58,25 @@ function GameReputation.toggle(mouseClick)
 end
 
 function GameReputation.init()
+	local self = GameReputation
+
+	self:loadConfig()
 	dofile("opcode.lua")
 	connect(g_game, {
-		onGameStart = GameReputation.onGameStart,
 		onGameEnd = GameReputation.onGameEnd
 	})
 	g_ui.importStyle("main.otui")
 
-	GameReputation.window = g_ui.createWidget("ReputationWindow", modules.game_interface.getHUDPanel())
-	GameReputation.passivesRows = GameReputation.window:recursiveGetChildById("passivesRows")
+	self.window = g_ui.createWidget("ReputationWindow", modules.game_interface.getHUDPanel())
+	self.passivesRows = self.window:recursiveGetChildById("passivesRows")
 
-	GameReputation:fillPassivesRows()
-	ProtocolGame.registerExtendedOpcode(ExtendedIds.Reputation, GameReputation.onExtendedOpcode)
-	g_keyboard.bindKeyDown("H", GameReputation.toggle)
+	self:fillPassivesRows()
+	ProtocolGame.registerExtendedOpcode(ExtendedIds.Reputation, self.onExtendedOpcode)
+	g_keyboard.bindKeyDown("H", self.toggle)
 end
 
 function GameReputation.terminate()
 	disconnect(g_game, {
-		onGameStart = GameReputation.onGameStart,
 		onGameEnd = GameReputation.onGameEnd
 	})
 	ProtocolGame.unregisterExtendedOpcode(ExtendedIds.Reputation)
@@ -397,16 +84,25 @@ function GameReputation.terminate()
 	GameReputation.window:destroy()
 end
 
-function GameReputation.onGameStart()
-	return
-end
-
 function GameReputation.onGameEnd()
-	GameReputation:hide()
+	local self = GameReputation
+
+	self.totalPoints = 0
+	self.availablePoints = 0
+	self.playerPassives = nil
+	self.playerPoints = nil
+
+	if self.confirmationBox then
+		self.confirmationBox:destroy()
+
+		self.confirmationBox = nil
+	end
+
+	self:hide()
 end
 
 function GameReputation:fillPassivesRows()
-	for rowId, row in ipairs(self.passives) do
+	for rowId, row in ipairs(cfg.passives) do
 		local rowWidget = g_ui.createWidget("ReputationPassiveRow", self.passivesRows)
 
 		rowWidget:setId("row_" .. rowId)
@@ -415,10 +111,10 @@ function GameReputation:fillPassivesRows()
 			rowWidget:setImageSource("/images/ui/windows/reputation/row_even")
 		end
 
-		rowWidget.rowPoints.points:setText(self.experienceTable[rowId])
+		rowWidget.rowPoints.points:setText(cfg.experienceTable[rowId])
 
 		rowWidget.rowId = rowId
-		rowWidget.requiredPoints = self.experienceTable[rowId]
+		rowWidget.requiredPoints = cfg.experienceTable[rowId]
 
 		for _, passive in ipairs(row) do
 			local id = passive.id
@@ -435,7 +131,7 @@ function GameReputation:fillPassivesRows()
 					title = passive.name,
 					image = imagePath
 				},
-				cost = self.experienceTable[rowId],
+				cost = cfg.experienceTable[rowId],
 				description = passive.description
 			}
 			widget.passive = passive
@@ -458,7 +154,7 @@ function GameReputation:canUnlockRowPassive(rowId)
 end
 
 function GameReputation:hasEnoughtPointsForRow(rowId)
-	return self.experienceTable[rowId] <= self.playerPoints.total
+	return cfg.experienceTable[rowId] <= self.playerPoints.total
 end
 
 function GameReputation:updateRows()
@@ -466,7 +162,7 @@ function GameReputation:updateRows()
 		return
 	end
 
-	for rowId, row in ipairs(self.passives) do
+	for rowId, row in ipairs(cfg.passives) do
 		local rowWidget = self.passivesRows:getChildById("row_" .. rowId)
 		local unlocked, hasEnoughtPoints = self:canUnlockRowPassive(rowId)
 		local canPurchaseFromRow = unlocked and hasEnoughtPoints
@@ -480,10 +176,6 @@ function GameReputation:updateRows()
 			passiveIcon:setOn(self.playerPassives[rowId] and self.playerPassives[rowId][passiveIcon.passive.id])
 		end
 	end
-end
-
-function GameReputation:onCanLearnPassive(reputationId, rowId, pathId)
-	return
 end
 
 function GameReputation:onPassiveNodeClicked(widget)
@@ -537,4 +229,53 @@ function GameReputation:onPassiveNodeClicked(widget)
 		},
 		anchor = AnchorHorizontalCenter
 	}, yesCallback, noCallback, nil, self.window:getParent())
+end
+
+function GameReputation:onResetPointsClicked()
+	if self.confirmationBox then
+		self.confirmationBox:destroy()
+
+		self.confirmationBox = nil
+	end
+
+	local resetButton = self.window.contentPanel.resetPointsButton
+	local ravenCoinsCost = cfg.resetCost.ravencoins * math.ceil((self.totalPoints - self.availablePoints) / cfg.resetCost.points)
+
+	local function yesCallback()
+		self:sendExtendedOpcode({
+			action = "reset_points"
+		})
+		self.confirmationBox:destroy()
+
+		self.confirmationBox = nil
+	end
+
+	local function noCallback()
+		self.confirmationBox:destroy()
+
+		self.confirmationBox = nil
+	end
+
+	self.confirmationBox = displayGeneralBox(tr("Confirm reset"), string.format("You are about to reset your reputation passives. This will cost you %s RavenCoins.\nDo you want to continue?", ravenCoinsCost), {
+		{
+			text = tr("Yes"),
+			callback = yesCallback
+		},
+		{
+			text = tr("No"),
+			callback = noCallback
+		},
+		anchor = AnchorHorizontalCenter
+	}, yesCallback, noCallback, nil, self.window:getParent())
+end
+
+function GameReputation:updateResetPointsButtonAmount()
+	local totalPoints = self.totalPoints
+	local availablePoints = self.availablePoints
+	local resetButton = self.window.contentPanel.resetPointsButton
+	local spentPoints = totalPoints - availablePoints
+	local ravenCoinsCost = cfg.resetCost.ravencoins * math.ceil(spentPoints / cfg.resetCost.points)
+
+	resetButton:setText(ravenCoinsCost)
+	resetButton:setEnabled(ravenCoinsCost > 0)
 end

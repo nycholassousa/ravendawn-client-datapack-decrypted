@@ -2137,7 +2137,7 @@ effects
     offset-y: 32
 
   // Smoke Bombs
-  1605;1606;1607;1780;1781;1782
+  1605;1606;1607
     offset-x: 64
     offset-y: 64
 
@@ -2317,7 +2317,7 @@ effects
     offset-x: 32
     offset-y: 32
 
-  1685;1686
+  1685;1686;2041;2042;2043
     offset-x: 64
     offset-y: 64
 
@@ -2379,6 +2379,10 @@ effects
   1780;1781;1782
     offset-x: 64
     offset-y: 64
+  1780
+    alternate-effect: 1782
+  1782
+    alternate-end-effect: 1781
 
   1783;1784;1785;1786
     offset-x: 32
@@ -2642,9 +2646,19 @@ effects
   1962;1964;1966
     offset-x: 128
     offset-y: 128
+  1962
+    alternate-effect: 1966
+  1966
+    alternate-end-effect: 1964
+
   1963;1965;1967
     offset-x: 128
     offset-y: 128
+  1963
+    alternate-effect: 1967
+  1967
+    alternate-end-effect: 1965
+  
   1969
     offset-x: 32
     offset-y: 32
@@ -2800,3 +2814,12 @@ effects
       1: 60
       2: 140
       3: 60
+
+  //Lava Ground
+  2037;2038;2039;2040
+    offset-x: 32
+    offset-y: 32
+  2037
+    alternate-effect: 2038
+  2038
+    fadeout-duration: 500

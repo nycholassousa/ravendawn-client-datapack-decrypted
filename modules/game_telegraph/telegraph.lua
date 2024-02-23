@@ -100,8 +100,8 @@ function GameTelegraph:defaultBehaviour(telegraphData, telegraphInfo, targetInfo
 	local heightScale = scale
 	local direction
 	local offset = {
-		y = 0,
-		x = 0
+		x = 0,
+		y = 0
 	}
 
 	if targetInfo then
@@ -162,8 +162,8 @@ function GameTelegraph:rotateBehaviour(telegraphData, telegraphInfo, targetInfo,
 	local heightScale = scale
 	local direction
 	local offset = {
-		y = 0,
-		x = 0
+		x = 0,
+		y = 0
 	}
 
 	if targetInfo then
@@ -256,8 +256,8 @@ function GameTelegraph:directionalExtension(telegraphData, telegraphInfo, target
 	local elapsedPercent = math.min(1, elapsed / (telegraphData.duration - cfg.completeDelay))
 	local direction
 	local offset = {
-		y = 0,
-		x = 0
+		x = 0,
+		y = 0
 	}
 
 	if targetInfo then
@@ -291,8 +291,8 @@ function GameTelegraph:directionalExtension(telegraphData, telegraphInfo, target
 
 		if not widgetOffset then
 			widgetOffset = {
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			}
 
 			if not telegraphData.centered then
@@ -395,8 +395,8 @@ function GameTelegraph:centerExtension(telegraphData, telegraphInfo, targetInfo,
 	local elapsedPercent = math.min(1, elapsed / (telegraphData.duration - cfg.completeDelay))
 	local direction
 	local offset = {
-		y = 0,
-		x = 0
+		x = 0,
+		y = 0
 	}
 
 	if targetInfo then

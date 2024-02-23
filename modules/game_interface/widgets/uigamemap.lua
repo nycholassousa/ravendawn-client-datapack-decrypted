@@ -7,8 +7,8 @@ function UIGameMap.create()
 
 	gameMap:setKeepAspectRatio(true)
 	gameMap:setVisibleDimension({
-		height = 11,
-		width = 15
+		width = 15,
+		height = 11
 	})
 	gameMap:setDrawLights(true)
 

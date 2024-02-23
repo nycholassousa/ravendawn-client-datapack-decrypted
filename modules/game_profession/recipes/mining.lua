@@ -3,11 +3,11 @@
 recipes = recipes or {}
 recipes[ProfessionMining] = {
 	{
-		id = 30072,
-		name = "Copper Ore",
 		experience = 240,
-		growingTime = 0,
 		skillRequired = 1,
+		id = 30072,
+		growingTime = 0,
+		name = "Copper Ore",
 		items = {
 			{
 				id = 28944,
@@ -20,11 +20,11 @@ recipes[ProfessionMining] = {
 		}
 	},
 	{
-		id = 33847,
-		name = "Rock Ore",
 		experience = 120,
-		growingTime = 0,
 		skillRequired = 1,
+		id = 33847,
+		growingTime = 0,
+		name = "Rock Ore",
 		items = {
 			{
 				id = 28946,
@@ -45,11 +45,11 @@ recipes[ProfessionMining] = {
 		}
 	},
 	{
-		id = 30071,
-		name = "Iron Ore",
 		experience = 290,
-		growingTime = 0,
 		skillRequired = 10,
+		id = 30071,
+		growingTime = 0,
+		name = "Iron Ore",
 		items = {
 			{
 				id = 28943,
@@ -77,11 +77,11 @@ recipes[ProfessionMining] = {
 		}
 	},
 	{
-		id = 30069,
-		name = "Cobalt Ore",
 		experience = 400,
-		growingTime = 0,
 		skillRequired = 30,
+		id = 30069,
+		growingTime = 0,
+		name = "Cobalt Ore",
 		items = {
 			{
 				id = 28942,
@@ -109,11 +109,11 @@ recipes[ProfessionMining] = {
 		}
 	},
 	{
-		id = 30070,
-		name = "Titanium Ore",
 		experience = 580,
-		growingTime = 0,
 		skillRequired = 50,
+		id = 30070,
+		growingTime = 0,
+		name = "Titanium Ore",
 		items = {
 			{
 				id = 28947,

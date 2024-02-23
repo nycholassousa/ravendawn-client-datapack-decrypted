@@ -56,7 +56,8 @@ local craftingIds = {
 	34057,
 	39342,
 	38726,
-	33996
+	33996,
+	39397
 }
 
 for _, id in ipairs(craftingIds) do
@@ -93,6 +94,9 @@ function g_actionKey.init()
 		onPositionChange = onWalk,
 		onTurn = onTurn,
 		onHouseModeChange = onHouseModeChange
+	})
+	connect(Creature, {
+		onTalkableChange = onTalkableChange
 	})
 	addEvent(function()
 		actionKeyPanel = g_ui.createWidget("ActionKey")
@@ -154,446 +158,446 @@ end
 local checkDirectionPriotity = {
 	[North] = {
 		{
-			y = 0,
 			x = 0,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = -1,
 			x = 0,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = -1,
 			x = 1,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = -1,
 			x = -1,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = 0,
 			x = -1,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = 0,
 			x = 1,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = 1,
 			x = 0,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = 1,
 			x = -1,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = 1,
 			x = 1,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = -2,
-			x = 0
+			x = 0,
+			y = -2
 		},
 		{
-			y = -2,
-			x = -1
+			x = -1,
+			y = -2
 		},
 		{
-			y = -2,
-			x = 1
+			x = 1,
+			y = -2
 		},
 		{
-			y = -2,
-			x = -2
+			x = -2,
+			y = -2
 		},
 		{
-			y = -2,
-			x = 2
+			x = 2,
+			y = -2
 		},
 		{
-			y = -1,
-			x = -2
+			x = -2,
+			y = -1
 		},
 		{
-			y = -1,
-			x = 2
+			x = 2,
+			y = -1
 		},
 		{
-			y = 0,
-			x = -2
+			x = -2,
+			y = 0
 		},
 		{
-			y = 0,
-			x = 2
+			x = 2,
+			y = 0
 		},
 		{
-			y = 1,
-			x = -2
+			x = -2,
+			y = 1
 		},
 		{
-			y = 1,
-			x = 2
+			x = 2,
+			y = 1
 		},
 		{
-			y = 2,
-			x = 0
+			x = 0,
+			y = 2
 		},
 		{
-			y = 2,
-			x = -1
+			x = -1,
+			y = 2
 		},
 		{
-			y = 2,
-			x = 1
+			x = 1,
+			y = 2
 		},
 		{
-			y = 2,
-			x = -2
+			x = -2,
+			y = 2
 		},
 		{
-			y = 2,
-			x = 2
+			x = 2,
+			y = 2
 		}
 	},
 	[South] = {
 		{
-			y = 0,
 			x = 0,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = 1,
 			x = 0,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = 1,
 			x = -1,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = 1,
 			x = 1,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = 0,
 			x = -1,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = 0,
 			x = 1,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = -1,
 			x = 0,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = -1,
 			x = -1,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = -1,
 			x = 1,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = 2,
-			x = 0
+			x = 0,
+			y = 2
 		},
 		{
-			y = 2,
-			x = -1
+			x = -1,
+			y = 2
 		},
 		{
-			y = 2,
-			x = 1
+			x = 1,
+			y = 2
 		},
 		{
-			y = 2,
-			x = -2
+			x = -2,
+			y = 2
 		},
 		{
-			y = 2,
-			x = 2
+			x = 2,
+			y = 2
 		},
 		{
-			y = 1,
-			x = -2
+			x = -2,
+			y = 1
 		},
 		{
-			y = 1,
-			x = 2
+			x = 2,
+			y = 1
 		},
 		{
-			y = 0,
-			x = -2
+			x = -2,
+			y = 0
 		},
 		{
-			y = 0,
-			x = 2
+			x = 2,
+			y = 0
 		},
 		{
-			y = -1,
-			x = -2
+			x = -2,
+			y = -1
 		},
 		{
-			y = -1,
-			x = 2
+			x = 2,
+			y = -1
 		},
 		{
-			y = -2,
-			x = 0
+			x = 0,
+			y = -2
 		},
 		{
-			y = -2,
-			x = -1
+			x = -1,
+			y = -2
 		},
 		{
-			y = -2,
-			x = 1
+			x = 1,
+			y = -2
 		},
 		{
-			y = -2,
-			x = -2
+			x = -2,
+			y = -2
 		},
 		{
-			y = -2,
-			x = 2
+			x = 2,
+			y = -2
 		}
 	},
 	[West] = {
 		{
-			y = 0,
 			x = 0,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = 0,
 			x = -1,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = -1,
 			x = -1,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = 1,
 			x = -1,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = -1,
 			x = 0,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = 1,
 			x = 0,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = 0,
 			x = 1,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = -1,
 			x = 1,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = 1,
 			x = 1,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = 0,
-			x = -2
+			x = -2,
+			y = 0
 		},
 		{
-			y = -1,
-			x = -2
+			x = -2,
+			y = -1
 		},
 		{
-			y = 1,
-			x = -2
+			x = -2,
+			y = 1
 		},
 		{
-			y = -2,
-			x = -2
+			x = -2,
+			y = -2
 		},
 		{
-			y = 2,
-			x = -2
+			x = -2,
+			y = 2
 		},
 		{
-			y = -2,
-			x = -1
+			x = -1,
+			y = -2
 		},
 		{
-			y = 2,
-			x = -1
+			x = -1,
+			y = 2
 		},
 		{
-			y = -2,
-			x = 0
+			x = 0,
+			y = -2
 		},
 		{
-			y = 2,
-			x = 0
+			x = 0,
+			y = 2
 		},
 		{
-			y = -2,
-			x = 1
+			x = 1,
+			y = -2
 		},
 		{
-			y = 2,
-			x = 1
+			x = 1,
+			y = 2
 		},
 		{
-			y = 0,
-			x = 2
+			x = 2,
+			y = 0
 		},
 		{
-			y = -1,
-			x = 2
+			x = 2,
+			y = -1
 		},
 		{
-			y = 1,
-			x = 2
+			x = 2,
+			y = 1
 		},
 		{
-			y = -2,
-			x = 2
+			x = 2,
+			y = -2
 		},
 		{
-			y = 2,
-			x = 2
+			x = 2,
+			y = 2
 		}
 	},
 	[East] = {
 		{
-			y = 0,
 			x = 0,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = 0,
 			x = 1,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = -1,
 			x = 1,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = 1,
 			x = 1,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = -1,
 			x = 0,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = 1,
 			x = 0,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = 0,
 			x = -1,
-			near = true
+			near = true,
+			y = 0
 		},
 		{
-			y = -1,
 			x = -1,
-			near = true
+			near = true,
+			y = -1
 		},
 		{
-			y = 1,
 			x = -1,
-			near = true
+			near = true,
+			y = 1
 		},
 		{
-			y = 0,
-			x = 2
+			x = 2,
+			y = 0
 		},
 		{
-			y = -1,
-			x = 2
+			x = 2,
+			y = -1
 		},
 		{
-			y = 1,
-			x = 2
+			x = 2,
+			y = 1
 		},
 		{
-			y = -2,
-			x = 2
+			x = 2,
+			y = -2
 		},
 		{
-			y = 2,
-			x = 2
+			x = 2,
+			y = 2
 		},
 		{
-			y = -2,
-			x = 1
+			x = 1,
+			y = -2
 		},
 		{
-			y = 2,
-			x = 1
+			x = 1,
+			y = 2
 		},
 		{
-			y = -2,
-			x = 0
+			x = 0,
+			y = -2
 		},
 		{
-			y = 2,
-			x = 0
+			x = 0,
+			y = 2
 		},
 		{
-			y = -2,
-			x = -1
+			x = -1,
+			y = -2
 		},
 		{
-			y = 2,
-			x = -1
+			x = -1,
+			y = 2
 		},
 		{
-			y = 0,
-			x = -2
+			x = -2,
+			y = 0
 		},
 		{
-			y = -1,
-			x = -2
+			x = -2,
+			y = -1
 		},
 		{
-			y = 1,
-			x = -2
+			x = -2,
+			y = 1
 		},
 		{
-			y = -2,
-			x = -2
+			x = -2,
+			y = -2
 		},
 		{
-			y = 2,
-			x = -2
+			x = -2,
+			y = 2
 		}
 	}
 }
@@ -1146,6 +1150,10 @@ function onHouseModeChange()
 	needActionKeyUpdate = true
 end
 
+function onTalkableChange()
+	needActionKeyUpdate = true
+end
+
 function sortDistance(a, b)
 	local player = g_game.getLocalPlayer()
 	local position = player:getPosition()
@@ -1282,8 +1290,8 @@ function onUpdateActionKey(force)
 	end
 
 	local position = {
-		y = 0,
 		x = 0,
+		y = 0,
 		z = playerPosition.z
 	}
 	local offsetList = checkDirectionPriotity[player:getDirection()] or {}
@@ -1358,8 +1366,8 @@ function onUpdateActionKey(force)
 
 			if interactable then
 				action = {
-					type = "interact",
 					force = true,
+					type = "interact",
 					thing = interactable,
 					icon = getInteractableIcon(interactable:getId(), interactable:getActionId())
 				}
@@ -1371,8 +1379,8 @@ function onUpdateActionKey(force)
 
 	if not action and craftStation then
 		local checkPosition = {
-			y = 0,
 			x = 0,
+			y = 0,
 			z = playerPosition.z
 		}
 		local craftTables = {}
@@ -1425,8 +1433,8 @@ function onUpdateActionKey(force)
 		g_actionKey.setAction(thing, "Interact", function()
 			modules.game_waypoints.GameWaypoints:show()
 		end, true, {
-			y = 118,
-			x = 54
+			x = 54,
+			y = 118
 		})
 	elseif action.type == "npc" then
 		g_actionKey.setAction(thing, "Talk", function()

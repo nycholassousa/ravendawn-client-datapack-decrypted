@@ -694,9 +694,11 @@ end
 
 function GameProfessions:parseOpcode(data)
 	if data.action == "passives" then
-		self:populatePassiveTree(data.professionId, data[data.professionId], data.professionLevel, data.points)
+		local totalPointsSpent = self:populatePassiveTree(data.professionId, data[data.professionId], data.professionLevel, data.points)
 
 		self.buttons[ProfessionNames[data.professionId]:lower()].passivesInitialized = true
+
+		self:updateResetPointsButtonAmount(data.professionId, totalPointsSpent)
 	elseif data.action == "caught_fish" then
 		self.caughtFishes = data
 
@@ -747,6 +749,32 @@ function GameProfessions:populatePassiveTree(professionId, data, professionLevel
 
 	self.buttons[professionName].specialization = {}
 
+	for _, column in ipairs(tree:getChildren()) do
+		for i, node in ipairs(column:getChildren()) do
+			if node:getStyleName() == "ProfessionPassive" then
+				if node.image then
+					node.image:setOn(false)
+					node.image:setText("")
+				end
+
+				if node.link then
+					node.link:setOn(false)
+				end
+
+				local columnId = column:getId()
+
+				if node.text then
+					node.text:setText(string.format("0 / %i", table.find({
+						5,
+						6
+					}, columnId) and 1 or i % 2 == 0 and 1 or 2))
+				end
+			end
+		end
+	end
+
+	local totalPointsSpent = 0
+
 	for columnId, columnInfo in ipairs(data) do
 		local passiveTypeName = passiveTypeName[columnId]
 		local column = tree:getChildById(passiveTypeName)
@@ -761,6 +789,8 @@ function GameProfessions:populatePassiveTree(professionId, data, professionLevel
 			local node = column:recursiveGetChildById(id)
 
 			if node then
+				totalPointsSpent = totalPointsSpent + points
+
 				node.image:setOn(true)
 				node.text:setText(string.format("%i / %i", points, table.find({
 					5,
@@ -782,6 +812,8 @@ function GameProfessions:populatePassiveTree(professionId, data, professionLevel
 			end
 		end
 	end
+
+	return totalPointsSpent
 end
 
 function GameProfessions:getCountAndQualityCount(widget, material)
@@ -1311,4 +1343,53 @@ function GameProfessions:onSearchEditChange(text)
 			category.category:update()
 		end
 	end
+end
+
+function GameProfessions:onResetPointsClicked(professionId)
+	if self.confirmationBox then
+		self.confirmationBox:destroy()
+
+		self.confirmationBox = nil
+	end
+
+	local resetButton = self.attached_panels[ProfessionNames[professionId]:lower()].reset_points_panel.reset_points_button
+
+	local function yesCallback()
+		self:sendOpcode({
+			action = "reset_passives",
+			professionId = professionId
+		})
+		self.confirmationBox:destroy()
+
+		self.confirmationBox = nil
+	end
+
+	local function noCallback()
+		self.confirmationBox:destroy()
+
+		self.confirmationBox = nil
+	end
+
+	self.confirmationBox = displayGeneralBox(tr("Confirm reset"), string.format("You are about to reset your %s profession passives. This will cost you %s RavenCoins.\nDo you want to continue?", ProfessionNames[professionId], resetButton.cost), {
+		{
+			text = tr("Yes"),
+			callback = yesCallback
+		},
+		{
+			text = tr("No"),
+			callback = noCallback
+		},
+		anchor = AnchorHorizontalCenter
+	}, yesCallback, noCallback, nil, self.window:getParent())
+end
+
+function GameProfessions:updateResetPointsButtonAmount(professionId, totalPointsSpent)
+	local cost = totalPointsSpent * cfg.resetCost.ravencoinsPerPoint
+	local passivesPanel = self.attached_panels[ProfessionNames[professionId]:lower()]
+	local resetButton = passivesPanel.reset_points_panel.reset_points_button
+
+	resetButton:setEnabled(cost > 0)
+	resetButton:setText(cost)
+
+	resetButton.cost = cost
 end

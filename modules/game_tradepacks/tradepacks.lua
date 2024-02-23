@@ -1,8 +1,8 @@
 ﻿-- chunkname: @/modules/game_tradepacks/tradepacks.lua
 
 GameTradepacks = {
-	sortDirection = "desc",
 	sortOption = "demand",
+	sortDirection = "desc",
 	sort_buttons = {},
 	sortedRecipes = {},
 	indexedRecipes = {}

@@ -39,12 +39,12 @@ function GameGuild:displayJoinGuildPage(guilds, totalResults)
 			height = 46
 		})
 		logoWidget:setImageOffset({
-			x = 15,
-			y = 10
+			y = 10,
+			x = 15
 		})
 		logoWidget:setIconOffset({
-			x = 17,
-			y = 12
+			y = 12,
+			x = 17
 		})
 		nameWidget.text:setText(guild.name)
 		languageWidget.icon:setOn(false)

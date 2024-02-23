@@ -1,14 +1,12 @@
 GamePremiumStoreServicesItemWidget < UIWidget
-  width: 380
-  height: 483
-  $!first:
-    margin-left: -20
+  width: 370
+  height: 330
 
   UIWidget
     id: box
     anchors.centerIn: parent
     image-source: /images/ui/windows/premium_store/ravencoins_item_box_off
-    size: 380 330
+    size: 370 330
 
     UIWidget
       id: title
@@ -32,6 +30,6 @@ GamePremiumStoreServicesItemWidget < UIWidget
   UIWidget
     id: icon
     anchors.horizontalCenter: parent.horizontalCenter
-    anchors.top: parent.top
-    margin-top: 30
+    anchors.bottom: box.top
+    margin-bottom: -120
     phantom: true

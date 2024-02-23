@@ -400,8 +400,8 @@ tasks = {
 				if houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
 						preferSide = "right",
-						text = "Oh! I guess the munk ain't charging us a thing this time. Let's not waste the opportunity!",
 						bandit = true,
+						text = "Oh! I guess the munk ain't charging us a thing this time. Let's not waste the opportunity!",
 						keys = {
 							MouseLeftButton
 						},

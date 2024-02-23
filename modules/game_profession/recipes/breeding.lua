@@ -3,9 +3,9 @@
 recipes = recipes or {}
 recipes[ProfessionBreeding] = {
 	{
-		tier = 1,
 		name = "Moa Tier 1",
 		skillRequired = 1,
+		tier = 1,
 		attributes = {
 			{
 				strength = {
@@ -93,9 +93,9 @@ recipes[ProfessionBreeding] = {
 		}
 	},
 	{
-		tier = 2,
 		name = "Moa Tier 2",
 		skillRequired = 1,
+		tier = 2,
 		attributes = {
 			{
 				strength = {
@@ -183,9 +183,9 @@ recipes[ProfessionBreeding] = {
 		}
 	},
 	{
-		tier = 3,
 		name = "Moa Tier 3",
 		skillRequired = 1,
+		tier = 3,
 		attributes = {
 			{
 				strength = {
@@ -273,9 +273,9 @@ recipes[ProfessionBreeding] = {
 		}
 	},
 	{
-		tier = 4,
 		name = "Moa Tier 4",
 		skillRequired = 1,
+		tier = 4,
 		attributes = {
 			{
 				strength = {
@@ -363,9 +363,9 @@ recipes[ProfessionBreeding] = {
 		}
 	},
 	{
-		tier = 5,
 		name = "Moa Tier 5",
 		skillRequired = 1,
+		tier = 5,
 		attributes = {
 			{
 				strength = {
@@ -453,9 +453,9 @@ recipes[ProfessionBreeding] = {
 		}
 	},
 	{
-		tier = 6,
 		name = "Moa Tier 6",
 		skillRequired = 1,
+		tier = 6,
 		attributes = {
 			{
 				strength = {
@@ -543,9 +543,9 @@ recipes[ProfessionBreeding] = {
 		}
 	},
 	{
-		tier = 7,
 		name = "Moa Tier 7",
 		skillRequired = 1,
+		tier = 7,
 		attributes = {
 			{
 				strength = {

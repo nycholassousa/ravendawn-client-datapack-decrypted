@@ -106,7 +106,44 @@ ReputationWindow < MainWindow
       margin-left: -12
 
     UIWidget
-      id: avaliablePoints
+      id: resetPointsLabel
+      text: Reset Points
+      anchors.verticalCenter: allPoints.verticalCenter
+      anchors.right: resetPointsButton.left
+      anchors.bottom: allPoints.bottom
+      margin-right: 15
+      text-auto-resize: true
+      font: poppins-14
+
+    YellowButton
+      id: resetPointsButton
+      anchors.verticalCenter: allPoints.verticalCenter
+      anchors.right: availablePointsLabel.left
+      margin-right: 40
+      text: 600
+      @onSetup: |
+        self.icon:setChecked(true)
+        self:onStyleApply(self:getStyleName(), {
+            ['&iconPath'] = '/images/ui/windows/premium_store/icon_purchase_ravencoins',
+            ['&iconAlign'] = 'left',
+            ['&iconOffset'] = '20 0',
+            ['&textMarginLeft'] = '45',
+            ['&textAlign'] = 'left',
+        })
+      @onClick: |
+        modules.game_reputation.GameReputation:onResetPointsClicked()
+
+    UIWidget
+      id: verticalSeparator
+      anchors.top: resetPointsButton.top
+      anchors.bottom: resetPointsButton.bottom
+      anchors.right: availablePointsLabel.left
+      background-color: #3A3D43
+      width: 1
+      margin-right: 20
+
+    UIWidget
+      id: availablePoints
       padding: 2
       padding-left: 12
       padding-right: 12
@@ -119,11 +156,11 @@ ReputationWindow < MainWindow
       text: 0
 
     UIWidget
-      id: avaliablePointsLabel
+      id: availablePointsLabel
       text: Available Points
-      anchors.verticalCenter: avaliablePoints.verticalCenter
-      anchors.right: avaliablePoints.left
-      anchors.bottom: avaliablePoints.bottom
+      anchors.verticalCenter: availablePoints.verticalCenter
+      anchors.right: availablePoints.left
+      anchors.bottom: availablePoints.bottom
       margin-right: 10
       text-auto-resize: true
       font: poppins-14

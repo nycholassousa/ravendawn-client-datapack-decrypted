@@ -3,7 +3,7 @@ Button < UIButton
   text-hidden: true
   image-border: 5
   image-offset: 6 6
-  &minWidth: 50
+  &minWidth: 85
   enabled: true
   background-color: #181A1D
   image-source: /images/ui/buttons/background_normal
@@ -12,6 +12,7 @@ Button < UIButton
 
   UIWidget
     id: text
+    height: 50
     phantom: true
     opacity: 1.0
     anchors.fill: parent
@@ -19,13 +20,28 @@ Button < UIButton
     image-border-left: 10
     image-border-right: 10
     text-align: center
-    text-auto-resize: true
+    text-horizontal-auto-resize: true
     text-offset: 0 3
     font: poppins-semibold-16
     $on:
       text-color: #131416
     $disabled:
       opacity: 0.5
+    @onTextChange: |
+      function(self)
+        local parent = self:getParent()
+        local textSize = self:getTextSize()
+
+        local newWidth = math.max(textSize.width + 32, parent.minWidth or 100)
+        self:setWidth(newWidth)
+        parent:setWidth(newWidth)
+      end
+    @onSetup:
+      function(self)
+        addEvent(function()
+          self:onTextChange()
+        end)
+      end
 
   UIWidget
     id: icon

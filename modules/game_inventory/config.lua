@@ -77,19 +77,19 @@ itemTypes = {
 		boots = 1
 	},
 	weapon = {
-		club = 1,
+		axe = 1,
+		sceptre = 1,
+		["buckler shield"] = 1,
 		staff = 1,
 		["light blade"] = 1,
 		hammer = 1,
 		greatsword = 1,
 		greataxe = 1,
 		bow = 1,
-		["tower shield"] = 1,
-		["buckler shield"] = 1,
-		sceptre = 1,
-		axe = 1,
 		sword = 1,
-		dagger = 1
+		dagger = 1,
+		["tower shield"] = 1,
+		club = 1
 	}
 }
 filter = {
@@ -150,8 +150,8 @@ filter = {
 	end
 }
 inventory = {
-	baseRavencoinCost = 400,
 	rowsPerUnlock = 1,
+	baseRavencoinCost = 400,
 	baseSilverUnlockCost = {
 		2500,
 		5000,

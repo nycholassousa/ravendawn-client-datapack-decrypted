@@ -75,10 +75,10 @@ CONST_SE_DYNAMIC_EVENT_STARTING = 768002248
 CONST_SE_ZONE_PEACE_TO_PVP = 3624410068
 CONST_SE_ZONE_PVP_TO_PEACE = 3266013748
 FOOTSTEP_TYPES = {
-	BIG_CREATURE = 4,
-	MEDIUM_CREATURE = 3,
 	SMALL_CREATURE = 2,
-	PLAYER = 1
+	PLAYER = 1,
+	BIG_CREATURE = 4,
+	MEDIUM_CREATURE = 3
 }
 
 local minimized = false
@@ -88,12 +88,12 @@ local lastVisibilityChangeEvent = 0
 
 CONST_ALL_GAME_OBJECTS = g_wwise and g_wwise.getAllObjectsConst() or -1
 g_sound = {
-	ravencardsAnimationEmitterId = 300,
-	channelId = 0,
 	channelName = "",
-	localEmitterId = 200,
 	listenerId = 100,
 	initialized = false,
+	localEmitterId = 200,
+	ravencardsAnimationEmitterId = 300,
+	channelId = 0,
 	playingIDs = {},
 	regionSounds = {},
 	loadedSoundbanks = {},
@@ -103,169 +103,169 @@ g_sound = {
 		{
 			soundId = 983855968,
 			position = {
-				x = 3274,
 				z = 8,
-				y = 5607
+				y = 5607,
+				x = 3274
 			}
 		},
 		{
 			soundId = 983855968,
 			position = {
-				x = 3280,
 				z = 8,
-				y = 5598
+				y = 5598,
+				x = 3280
 			}
 		},
 		{
 			soundId = 983855968,
 			position = {
-				x = 3289,
 				z = 8,
-				y = 5591
+				y = 5591,
+				x = 3289
 			}
 		},
 		{
 			soundId = 983855968,
 			position = {
-				x = 3284,
 				z = 8,
-				y = 5584
+				y = 5584,
+				x = 3284
 			}
 		},
 		{
 			soundId = 983855968,
 			position = {
-				x = 3280,
 				z = 8,
-				y = 5572
+				y = 5572,
+				x = 3280
 			}
 		},
 		{
 			soundId = 983855968,
 			position = {
-				x = 3271,
 				z = 8,
-				y = 5572
+				y = 5572,
+				x = 3271
 			}
 		},
 		{
 			soundId = 983855968,
 			position = {
-				x = 3264,
 				z = 8,
-				y = 5576
+				y = 5576,
+				x = 3264
 			}
 		},
 		{
 			soundId = 983855968,
 			position = {
-				x = 3255,
 				z = 8,
-				y = 5576
+				y = 5576,
+				x = 3255
 			}
 		},
 		{
 			soundId = 983855968,
 			position = {
-				x = 3250,
 				z = 8,
-				y = 5571
+				y = 5571,
+				x = 3250
 			}
 		},
 		{
 			soundId = 983855968,
 			position = {
-				x = 3264,
 				z = 8,
-				y = 5562
+				y = 5562,
+				x = 3264
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3260,
 				z = 8,
-				y = 5545
+				y = 5545,
+				x = 3260
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3266,
 				z = 8,
-				y = 5551
+				y = 5551,
+				x = 3266
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3265,
 				z = 8,
-				y = 5539
+				y = 5539,
+				x = 3265
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3279,
 				z = 8,
-				y = 5541
+				y = 5541,
+				x = 3279
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3283,
 				z = 8,
-				y = 5530
+				y = 5530,
+				x = 3283
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3268,
 				z = 8,
-				y = 5520
+				y = 5520,
+				x = 3268
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3270,
 				z = 8,
-				y = 5504
+				y = 5504,
+				x = 3270
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3282,
 				z = 8,
-				y = 5498
+				y = 5498,
+				x = 3282
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3262,
 				z = 8,
-				y = 5496
+				y = 5496,
+				x = 3262
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3269,
 				z = 8,
-				y = 5488
+				y = 5488,
+				x = 3269
 			}
 		},
 		{
 			soundId = 2977901581,
 			position = {
-				x = 3278,
 				z = 8,
-				y = 5491
+				y = 5491,
+				x = 3278
 			}
 		}
 	},
@@ -329,53 +329,53 @@ g_sound = {
 	regions = {
 		town = {
 			from = {
-				x = 5106,
 				z = 1,
-				y = 5100
+				y = 5100,
+				x = 5106
 			},
 			to = {
-				x = 5172,
 				z = 6,
-				y = 5140
+				y = 5140,
+				x = 5172
 			},
 			soundId = EVENT_AMBIANCE_TOWN_RAVENCREST
 		},
 		meadow = {
 			from = {
-				x = 5175,
 				z = 1,
-				y = 5055
+				y = 5055,
+				x = 5175
 			},
 			to = {
-				x = 5226,
 				z = 7,
-				y = 5124
+				y = 5124,
+				x = 5226
 			},
 			soundId = EVENT_AMBIANCE_NATURE_BIRDS
 		},
 		dock = {
 			from = {
-				x = 5085,
 				z = 4,
-				y = 5100
+				y = 5100,
+				x = 5085
 			},
 			to = {
-				x = 5105,
 				z = 7,
-				y = 5115
+				y = 5115,
+				x = 5105
 			},
 			soundId = EVENT_AMBIANCE_DOCK
 		},
 		tavern = {
 			from = {
-				x = 5140,
 				z = 5,
-				y = 5086
+				y = 5086,
+				x = 5140
 			},
 			to = {
-				x = 5161,
 				z = 7,
-				y = 5100
+				y = 5100,
+				x = 5161
 			},
 			sounds = {
 				EVENT_AMBIANCE_TOWN_TAVERN,
@@ -384,54 +384,54 @@ g_sound = {
 		},
 		forest = {
 			from = {
-				x = 5174,
 				z = 7,
-				y = 5085
+				y = 5085,
+				x = 5174
 			},
 			to = {
-				x = 5250,
 				z = 9,
-				y = 5140
+				y = 5140,
+				x = 5250
 			},
 			soundId = EVENT_AMBIANCE_FOREST
 		},
 		desert = {
 			from = {
-				x = 4950,
 				z = 7,
-				y = 5331
+				y = 5331,
+				x = 4950
 			},
 			to = {
-				x = 5150,
 				z = 7,
-				y = 5531
+				y = 5531,
+				x = 5150
 			},
 			soundId = EVENT_AMBIANCE_DESERT
 		},
 		["astor demon lava"] = {
 			from = {
-				x = 3256,
 				z = 8,
-				y = 5484
+				y = 5484,
+				x = 3256
 			},
 			to = {
-				x = 3291,
 				z = 8,
-				y = 5555
+				y = 5555,
+				x = 3291
 			},
 			soundId = EVENT_AMBIANCE_DESERT
 		},
 		["astor demon dungeon"] = {
 			soundId = 452043504,
 			from = {
-				x = 3238,
 				z = 8,
-				y = 5554
+				y = 5554,
+				x = 3238
 			},
 			to = {
-				x = 3291,
 				z = 8,
-				y = 5623
+				y = 5623,
+				x = 3291
 			}
 		}
 	}

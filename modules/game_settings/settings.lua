@@ -1,5 +1,7 @@
 ﻿-- chunkname: @/modules/game_settings/settings.lua
 
+local localeSetConfirmBox
+
 GameSettings = GameSettings or {}
 LanguageAppearOrder = {
 	"en-GB",
@@ -15,110 +17,6 @@ GameSettings.settingsWidgets = {
 	comboBox = {}
 }
 GameSettings.defaultOptions = {
-	showLevelBrackets = true,
-	vsync = true,
-	showFps = false,
-	showPing = false,
-	fullscreen = true,
-	classicControl = false,
-	smartWalk = true,
-	slowWalk = false,
-	fasterWalkAnimation = false,
-	dash = true,
-	autoChaseOverride = true,
-	enableLights = true,
-	screenshotMode = false,
-	backgroundFrameRate = 200,
-	optimizationLevel = 1,
-	ambientLight = 0,
-	floorFading = 500,
-	antiAliasing = false,
-	UIScale = 50,
-	quickTarget = true,
-	quickTargetKey = "Tab",
-	quickTargetRange = 5,
-	quickLooting = false,
-	hideCurrentChannel = false,
-	hotkeyDelay = 30,
-	keyboardDelay = 80,
-	walkQEZC = false,
-	ignoreServerDirection = true,
-	wasdWalking = false,
-	walkFirstStepDelay = 0,
-	walkTurnDelay = 0,
-	walkStairsDelay = 100,
-	walkTeleportDelay = 100,
-	walkCtrlTurnDelay = 0,
-	volumeMaster = 50,
-	volumeAmbiance = 50,
-	volumeMusic = 50,
-	volumeSFX = 50,
-	volumeUI = 50,
-	volumeVoice = 50,
-	showEventMessagesInConsole = true,
-	showInfoMessagesInConsole = true,
-	showTimestampsInConsole = true,
-	showLevelsInConsole = true,
-	showPrivateMessagesInConsole = true,
-	showCraftingStation = true,
-	showTradepost = true,
-	showHouse = true,
-	showSeaport = true,
-	displayWeatherEffects = true,
-	showSmallEstate = true,
-	showMediumEstate = true,
-	enableMapClick = false,
-	spellBatchingInterval = 500,
-	lifeManaBarType = 1,
-	lifeManaBarSize = 1,
-	showMessage = true,
-	hideInterface = false,
-	showFort = true,
-	showStronghold = true,
-	showLargeEstate = true,
-	showLogout = true,
-	showActionMessagesOfOthersInConsole = true,
-	showActionMessagesInConsole = true,
-	showActionsOfOthersOnScreen = false,
-	showActionsOnScreen = false,
-	showSpellsOfOthersOnScreen = true,
-	showSpellsOnScreen = true,
-	showPrivateMessagesOnScreen = true,
-	showZoneNames = true,
-	showMissionAvailable = true,
-	showMissionComplete = true,
-	actionKeyOpacity = 80,
-	showActionKey = true,
-	showStatusMessagesInConsole = true,
-	chatBubbleFadeTime = "Normal",
-	chatBubbleOpacity = 80,
-	showLFGChatInGeneralChat = false,
-	showGlobalChatInGeneralChat = false,
-	showChatBubble = true,
-	showQuestTracker = true,
-	screenShake = true,
-	drawManaBars = true,
-	drawHealthBars = true,
-	drawTitles = true,
-	drawNames = true,
-	layoutEditMode = false,
-	numBarsCrafting = 0,
-	numBarsSpell = 2,
-	displayBarHeaders = true,
-	hideOthersDamage = false,
-	damageView = 2,
-	lookMessageWindow = false,
-	smallUI = false,
-	showCopyWarning = true,
-	dragStackControl = true,
-	effectsSpeed = 75,
-	arcsTransparency = 100,
-	otherWindowTransparancy = 100,
-	mapWindowTransparancy = 100,
-	inventoryWindowTransparancy = 100,
-	healthWindowTransparancy = 100,
-	chatWindowTransparancy = 100,
-	displayOtherCastBar = true,
 	displayOwnCastBar = 4,
 	displayOtherAuras = true,
 	displayOtherIcons = true,
@@ -158,11 +56,115 @@ GameSettings.defaultOptions = {
 	showFeedback = true,
 	showLeaderboard = true,
 	showAutoLoot = true,
-	showHotkeys = true
+	showHotkeys = true,
+	showLogout = true,
+	showActionMessagesOfOthersInConsole = true,
+	showActionMessagesInConsole = true,
+	showActionsOfOthersOnScreen = false,
+	showActionsOnScreen = false,
+	showSpellsOfOthersOnScreen = true,
+	showSpellsOnScreen = true,
+	showPrivateMessagesOnScreen = true,
+	showPrivateMessagesInConsole = true,
+	showLevelsInConsole = true,
+	showTimestampsInConsole = true,
+	showInfoMessagesInConsole = true,
+	showEventMessagesInConsole = true,
+	showStatusMessagesInConsole = true,
+	volumeVoice = 50,
+	volumeUI = 50,
+	volumeSFX = 50,
+	volumeMusic = 50,
+	volumeAmbiance = 50,
+	volumeMaster = 50,
+	walkCtrlTurnDelay = 0,
+	walkTeleportDelay = 100,
+	walkStairsDelay = 100,
+	walkTurnDelay = 0,
+	walkFirstStepDelay = 0,
+	wasdWalking = false,
+	ignoreServerDirection = true,
+	walkQEZC = false,
+	keyboardDelay = 80,
+	hotkeyDelay = 30,
+	hideCurrentChannel = false,
+	quickLooting = false,
+	quickTargetRange = 5,
+	quickTargetKey = "Tab",
+	quickTarget = true,
+	UIScale = 50,
+	antiAliasing = false,
+	floorFading = 500,
+	ambientLight = 0,
+	optimizationLevel = 1,
+	backgroundFrameRate = 200,
+	screenshotMode = false,
+	enableLights = true,
+	autoChaseOverride = true,
+	dash = true,
+	fasterWalkAnimation = false,
+	slowWalk = false,
+	smartWalk = true,
+	classicControl = false,
+	fullscreen = true,
+	showPing = false,
+	showFps = false,
+	vsync = true,
+	enableMapClick = false,
+	spellBatchingInterval = 500,
+	lifeManaBarType = 1,
+	lifeManaBarSize = 1,
+	showMessage = true,
+	hideInterface = false,
+	showFort = true,
+	showStronghold = true,
+	showLargeEstate = true,
+	showMediumEstate = true,
+	showSmallEstate = true,
+	displayWeatherEffects = true,
+	showSeaport = true,
+	showHouse = true,
+	showTradepost = true,
+	showCraftingStation = true,
+	showLevelBrackets = true,
+	showZoneNames = true,
+	showMissionAvailable = true,
+	showMissionComplete = true,
+	actionKeyOpacity = 80,
+	showActionKey = true,
+	chatBubbleFadeTime = "Normal",
+	chatBubbleOpacity = 80,
+	showLFGChatInGeneralChat = false,
+	showGlobalChatInGeneralChat = false,
+	showChatBubble = true,
+	showQuestTracker = true,
+	screenShake = true,
+	drawManaBars = true,
+	drawHealthBars = true,
+	drawTitles = true,
+	drawNames = true,
+	layoutEditMode = false,
+	numBarsCrafting = 0,
+	numBarsSpell = 2,
+	displayBarHeaders = true,
+	hideOthersDamage = false,
+	damageView = 2,
+	lookMessageWindow = false,
+	smallUI = false,
+	showCopyWarning = true,
+	dragStackControl = true,
+	effectsSpeed = 75,
+	arcsTransparency = 100,
+	otherWindowTransparancy = 100,
+	mapWindowTransparancy = 100,
+	inventoryWindowTransparancy = 100,
+	healthWindowTransparancy = 100,
+	chatWindowTransparancy = 100,
+	displayOtherCastBar = true
 }
 GameSettings.loadOnOnline = {
-	hideInterface = false,
-	layoutEditMode = false
+	layoutEditMode = false,
+	hideInterface = false
 }
 GameSettings.options = {}
 GameSettings.extraOptions = {}
@@ -175,141 +177,142 @@ GameSettings.order = {
 GameSettings.settings = {
 	["Audio & Language"] = {
 		{
-			id = "volumeMaster",
+			suffix = "%",
 			text = "Master volume",
-			suffix = "%",
+			type = "SettingsSliderOption",
+			id = "volumeMaster",
 			max = 100,
-			min = 0,
-			type = "SettingsSliderOption"
+			min = 0
 		},
 		{
-			id = "volumeAmbiance",
+			suffix = "%",
 			text = "Ambience volume",
-			suffix = "%",
+			type = "SettingsSliderOption",
+			id = "volumeAmbiance",
 			max = 100,
-			min = 0,
-			type = "SettingsSliderOption"
+			min = 0
 		},
 		{
-			id = "volumeMusic",
+			suffix = "%",
 			text = "Music volume",
-			suffix = "%",
+			type = "SettingsSliderOption",
+			id = "volumeMusic",
 			max = 100,
-			min = 0,
-			type = "SettingsSliderOption"
+			min = 0
 		},
 		{
-			id = "volumeSFX",
+			suffix = "%",
 			text = "SFX volume",
-			suffix = "%",
+			type = "SettingsSliderOption",
+			id = "volumeSFX",
 			max = 100,
-			min = 0,
-			type = "SettingsSliderOption"
+			min = 0
 		},
 		{
-			id = "volumeUI",
+			suffix = "%",
 			text = "UI volume",
-			suffix = "%",
+			type = "SettingsSliderOption",
+			id = "volumeUI",
 			max = 100,
-			min = 0,
-			type = "SettingsSliderOption"
+			min = 0
 		},
 		{
-			id = "volumeVoice",
+			suffix = "%",
 			text = "Voice volume",
-			suffix = "%",
+			type = "SettingsSliderOption",
+			id = "volumeVoice",
 			max = 100,
-			min = 0,
-			type = "SettingsSliderOption"
+			min = 0
 		},
 		{
-			id = "locale",
-			type = "GameSettingsComboBoxOption",
 			text = "Select your language",
+			type = "GameSettingsComboBoxOption",
+			id = "locale",
+			requireRestart = true,
 			values = LanguageSelectOrder
 		}
 	},
 	Graphics = {
 		{
 			id = "fullscreen",
-			type = "GameSettingsTrueFalseOption",
-			text = "Fullscreen"
+			text = "Fullscreen",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "antiAliasing",
-			type = "GameSettingsTrueFalseOption",
-			text = "Anti-aliasing"
+			text = "Anti-aliasing",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "vsync",
-			type = "GameSettingsTrueFalseOption",
-			text = "Vertical-sync"
+			text = "Vertical-sync",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "displayWeatherEffects",
-			type = "GameSettingsTrueFalseOption",
-			text = "Display weather effects"
+			text = "Display weather effects",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
-			id = "floorFading",
-			text = "Floor fading",
 			suffix = " ms",
+			text = "Floor fading",
+			type = "SettingsSliderOption",
+			id = "floorFading",
 			max = 1000,
-			min = 0,
-			type = "SettingsSliderOption"
+			min = 0
 		},
 		{
-			id = "backgroundFrameRate",
-			text = "Framerate limit",
 			suffix = " fps",
+			text = "Framerate limit",
+			type = "SettingsSliderOption",
+			id = "backgroundFrameRate",
 			max = 200,
-			min = 10,
-			type = "SettingsSliderOption"
+			min = 10
 		},
 		{
 			suffix = " %",
-			id = "UIScale",
+			applyValueChange = true,
+			text = "UI Scale",
+			type = "SettingsSliderOption",
 			max = 100,
 			min = 0,
-			type = "SettingsSliderOption",
-			text = "UI Scale",
-			applyValueChange = true,
 			width = 100,
+			id = "UIScale",
 			displayFormat = function(value)
 				return (0.75 + value / 100 * 0.5) * 100
 			end
 		},
 		{
 			id = "drawNames",
-			type = "GameSettingsTrueFalseOption",
-			text = "Draw names"
+			text = "Draw names",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "drawTitles",
-			type = "GameSettingsTrueFalseOption",
-			text = "Draw titles"
+			text = "Draw titles",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "drawHealthBars",
-			type = "GameSettingsTrueFalseOption",
-			text = "Draw health bars"
+			text = "Draw health bars",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "drawManaBars",
-			type = "GameSettingsTrueFalseOption",
-			text = "Draw mana bars"
+			text = "Draw mana bars",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "screenShake",
-			type = "GameSettingsTrueFalseOption",
-			text = "Screen shake"
+			text = "Screen shake",
+			type = "GameSettingsTrueFalseOption"
 		}
 	},
 	Windows = {
 		{
 			id = "numBarsSpell",
-			type = "GameSettingsComboBoxOption",
 			text = "Ability bars",
+			type = "GameSettingsComboBoxOption",
 			values = {
 				0,
 				1,
@@ -322,38 +325,38 @@ GameSettings.settings = {
 		},
 		{
 			id = "layoutEditMode",
-			type = "GameSettingsTrueFalseOption",
-			text = "Edit UI"
+			text = "Edit UI",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "showQuestTracker",
-			type = "GameSettingsTrueFalseOption",
-			text = "Show quest tracker"
+			text = "Show quest tracker",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "showActionKey",
-			type = "GameSettingsTrueFalseOption",
-			text = "Show action key"
+			text = "Show action key",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "showChatBubble",
-			type = "GameSettingsTrueFalseOption",
-			text = "Show chat bubbles"
+			text = "Show chat bubbles",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "showGlobalChatInGeneralChat",
-			type = "GameSettingsTrueFalseOption",
-			text = "Show global chat messages in general chat"
+			text = "Show global chat messages in general chat",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "showLFGChatInGeneralChat",
-			type = "GameSettingsTrueFalseOption",
-			text = "Show LFG chat messages"
+			text = "Show LFG chat messages",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "lifeManaBarSize",
-			type = "GameSettingsComboBoxOption",
 			text = "Life/mana bar size",
+			type = "GameSettingsComboBoxOption",
 			values = {
 				"Large",
 				"Small"
@@ -361,33 +364,33 @@ GameSettings.settings = {
 		},
 		{
 			id = "lifeManaBarType",
-			type = "GameSettingsComboBoxOption",
 			text = "Life/mana bar type",
+			type = "GameSettingsComboBoxOption",
 			values = {
 				"Horizontal",
 				"Vertical"
 			}
 		},
 		{
-			id = "actionKeyOpacity",
-			text = "Action key opacity",
 			suffix = " %",
+			text = "Action key opacity",
+			type = "SettingsSliderOption",
+			id = "actionKeyOpacity",
 			max = 100,
-			min = 0,
-			type = "SettingsSliderOption"
+			min = 0
 		},
 		{
-			id = "chatBubbleOpacity",
-			text = "Chat bubble opacity",
 			suffix = " %",
+			text = "Chat bubble opacity",
+			type = "SettingsSliderOption",
+			id = "chatBubbleOpacity",
 			max = 100,
-			min = 0,
-			type = "SettingsSliderOption"
+			min = 0
 		},
 		{
 			id = "chatBubbleFadeTime",
-			type = "GameSettingsComboBoxOption",
 			text = "Chat bubble fading",
+			type = "GameSettingsComboBoxOption",
 			values = {
 				"Slow",
 				"Normal",
@@ -396,26 +399,26 @@ GameSettings.settings = {
 		},
 		{
 			id = "hideInterface",
-			type = "GameSettingsTrueFalseOption",
-			text = "Hide interface elements"
+			text = "Hide interface elements",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "screenshotMode",
-			type = "GameSettingsTrueFalseOption",
-			text = "Screenshot mode"
+			text = "Screenshot mode",
+			type = "GameSettingsTrueFalseOption"
 		}
 	},
 	Misc = {
 		{
 			id = "quickTarget",
-			type = "GameSettingsTrueFalseOption",
-			text = "Quick targeting"
+			text = "Quick targeting",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
-			text = "Targeting detect range",
 			suffix = "  tiles",
-			id = "quickTargetRange",
+			text = "Targeting detect range",
 			type = "GameSettingsComboBoxOption",
+			id = "quickTargetRange",
 			values = {
 				1,
 				2,
@@ -431,33 +434,33 @@ GameSettings.settings = {
 		},
 		{
 			id = "enableMapClick",
-			type = "GameSettingsTrueFalseOption",
-			text = "Click to move"
+			text = "Click to move",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "smartWalk",
-			type = "GameSettingsTrueFalseOption",
-			text = "Smart walking"
+			text = "Smart walking",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "walkQEZC",
-			type = "GameSettingsTrueFalseOption",
-			text = "QEZC diagonal walk"
+			text = "QEZC diagonal walk",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "dragStackControl",
-			type = "GameSettingsTrueFalseOption",
-			text = "CTRL to drag full stacks"
+			text = "CTRL to drag full stacks",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "displayOtherCastBar",
-			type = "GameSettingsTrueFalseOption",
-			text = "Show others cast bar"
+			text = "Show others cast bar",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
 			id = "displayOwnCastBar",
-			type = "GameSettingsComboBoxOption",
 			text = "Show own cast bar",
+			type = "GameSettingsComboBoxOption",
 			values = {
 				"None",
 				"Small",
@@ -467,16 +470,16 @@ GameSettings.settings = {
 		},
 		{
 			id = "hideCurrentChannel",
-			type = "GameSettingsTrueFalseOption",
-			text = "Hide current channel"
+			text = "Hide current channel",
+			type = "GameSettingsTrueFalseOption"
 		},
 		{
-			id = "spellBatchingInterval",
-			text = "Spell batching interval",
 			suffix = " ms",
+			text = "Spell batching interval",
+			type = "SettingsSliderOption",
+			id = "spellBatchingInterval",
 			max = 1500,
-			min = 100,
-			type = "SettingsSliderOption"
+			min = 100
 		}
 	}
 }
@@ -690,6 +693,7 @@ function GameSettings:setOption(key, value, force)
 
 	local gameMapPanel = modules.game_interface.getMapPanel()
 	local rootPanel = modules.game_interface.getRootPanel()
+	local oldValue = self.options[key]
 
 	self.options[key] = value
 
@@ -729,10 +733,10 @@ function GameSettings:setOption(key, value, force)
 		local locale = LanguageAppearOrder[tonumber(value)]
 
 		if locale == "pt-BR" then
-			return EnterGame.confirmPTBRLocale(locale, true)
+			return EnterGame.confirmPTBRLocale(locale, oldValue)
 		end
 
-		EnterGame.setLocale(locale, true)
+		EnterGame.setLocale(locale)
 
 		return
 	elseif key == "backgroundFrameRate" then
@@ -1166,8 +1170,82 @@ function GameSettings:populateSettings()
 
 				self:setScreenOption(setting.id, self:getOption(setting.id))
 
+				local settingsOption = widget
+
 				function comboBox.onOptionChange(widget, value)
 					GameSettings:setOption(setting.id, widget:getOption(value))
+
+					if settingsOption.restartBtn then
+						settingsOption.restartBtn:setVisible(true)
+					end
+				end
+
+				if setting.requireRestart then
+					local restartBtn = g_ui.createWidget("DangerButton", widget)
+
+					restartBtn:setFont("poppins-12")
+					restartBtn:setText("Restart")
+					restartBtn:setWidth(86)
+					restartBtn:setHeight(40)
+					restartBtn:addAnchor(AnchorLeft, "prev", AnchorRight)
+					restartBtn:addAnchor(AnchorVerticalCenter, "parent", AnchorVerticalCenter)
+					restartBtn:setMarginLeft(5)
+
+					function restartBtn.onClick()
+						local function yesCallback()
+							if g_game.isOnline() then
+								local isInPz = g_game.getLocalPlayer():hasStatusIcon(StatusIcons.SafeZone)
+
+								if not isInPz then
+									displayErrorBox(tr("Error"), tr("You must be on a safe zone in order to restart the client."), nil, nil, true)
+									localeSetConfirmBox:destroy()
+
+									localeSetConfirmBox = nil
+
+									return
+								end
+
+								g_game.logout()
+							end
+
+							scheduleEvent(function()
+								g_app.restart()
+							end, 300)
+							localeSetConfirmBox:destroy()
+
+							localeSetConfirmBox = nil
+						end
+
+						local function noCallback()
+							localeSetConfirmBox:destroy()
+
+							localeSetConfirmBox = nil
+						end
+
+						localeSetConfirmBox = displayGeneralBox(tr("Game Restart Pending"), tr("In order for the locale change to be applied in full, it is required to restart the game client.\nDo you want to restart it now?"), {
+							{
+								text = tr("Yes"),
+								callback = yesCallback
+							},
+							{
+								text = tr("No"),
+								callback = noCallback
+							},
+							anchor = AnchorHorizontalCenter
+						}, yesCallback, noCallback, nil, rootWidget)
+
+						rootWidget:blockInputPanel(true)
+
+						function localeSetConfirmBox.onDestroy()
+							rootWidget:blockInputPanel(false)
+						end
+
+						localeSetConfirmBox:raise()
+					end
+
+					restartBtn:setVisible(false)
+
+					widget.restartBtn = restartBtn
 				end
 			elseif styleName == "GameSettingsButtonOption" then
 				widget:setId(setting.id)

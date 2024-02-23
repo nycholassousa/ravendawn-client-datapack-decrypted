@@ -644,8 +644,8 @@ function GameProfessions:updateCraftingWindowOversupply(data)
 	percent:setText(string.format("+ %.1f%%", data.taxIncrease))
 
 	local clip = {
-		y = 0,
 		x = 0,
+		y = 0,
 		width = math.min(bar:getWidth() - bar:getMarginLeft(), data.percent * bar:getWidth() / 100),
 		height = bar:getHeight()
 	}

@@ -23,7 +23,7 @@ RewardWidget < UIWidget
     anchors.left: parent.left
     anchors.verticalCenter: parent.verticalCenter
     virtual: true
-    phantom: true
+    phantom: false
 
   UIWidget
     id: itemCount
@@ -34,6 +34,7 @@ RewardWidget < UIWidget
     font: poppins-11
     text-offset: 0 2
     !text: 1
+    phantom: true
 
   UILabel
     id: itemName
@@ -45,6 +46,7 @@ RewardWidget < UIWidget
     text-offset: 50 3
     phantom: false
     @onTextChange: self:setTooltip(self:getText())
+    phantom: true
 
 TaskListWidget < UIWidget
   anchors.top: parent.top

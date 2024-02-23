@@ -12,6 +12,7 @@ local characterPanel, currentLoginService
 
 CharacterList.reconnectOnGameEnd = false
 
+local connectEvent
 local archetypes = {
 	[ArchetypeFlags.Warfare] = "warfare",
 	[ArchetypeFlags.Archery] = "archery",
@@ -95,6 +96,12 @@ local function tryLogin(charName, channelId, authKey, isReconnect, tries)
 
 		connect(loadBox, {
 			onCancel = function()
+				if connectEvent then
+					removeEvent(connectEvent)
+
+					connectEvent = nil
+				end
+
 				loadBox = nil
 
 				g_game.cancelLogin()
@@ -460,6 +467,12 @@ function CharacterList.terminate()
 	end
 
 	if loadBox then
+		if connectEvent then
+			removeEvent(connectEvent)
+
+			connectEvent = nil
+		end
+
 		g_game.cancelLogin()
 		loadBox:destroy()
 
@@ -713,6 +726,12 @@ function CharacterList.doLogin(isDeath)
 
 			connect(loadBox, {
 				onCancel = function()
+					if connectEvent then
+						removeEvent(connectEvent)
+
+						connectEvent = nil
+					end
+
 					loadBox = nil
 
 					g_game.cancelLogin()
@@ -732,8 +751,7 @@ function _onRecvPlayerAuth(protocol, worldId, channelId, authKey)
 		G.currentChannel = channelInfo.name
 		G.currentChannelId = channelId
 		G.authKey = authKey
-
-		scheduleEvent(function()
+		connectEvent = scheduleEvent(function()
 			channelInfo:setLowestPingConnectionInfo()
 			g_game.loginGameServer(G.account, G.password, G.worlds[getWorldIndex(channelInfo.worldId)].name, channelInfo.name, channelInfo.host, channelInfo.port, G.characterName, G.authenticatorToken, G.sessionKey, authKey, EnterGame.getLocale(true))
 		end, 1000)

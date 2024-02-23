@@ -54,9 +54,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("skill_tree")
 
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Press K or Left-Click to open your Skill Tree menu",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							"K",
 							MouseLeftButton
@@ -116,9 +116,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "top",
-					text = "Click here to select your third and final archetype!",
 					bandit = true,
+					text = "Click here to select your third and final archetype!",
+					preferSide = "top",
 					parent = skillTreeWindow:recursiveGetChildById("tree3"):recursiveGetChildById("option"),
 					keys = {
 						MouseLeftButton
@@ -169,9 +169,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "left",
-					text = "Now select the archetype you'd like to learn and confirm it!",
 					bandit = true,
+					text = "Now select the archetype you'd like to learn and confirm it!",
+					preferSide = "left",
 					parent = popupBox,
 					keys = {
 						MouseLeftButton
@@ -212,9 +212,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					preferSide = "left",
-					text = "Remember you can always preview the archetype's skills by selecting the one you want to see.",
 					bandit = true,
+					text = "Remember you can always preview the archetype's skills by selecting the one you want to see.",
+					preferSide = "left",
 					parent = archetypeInfoWindow,
 					keys = {
 						MouseLeftButton

@@ -94,9 +94,9 @@ function GameCards:init()
 	})
 
 	self.upgrade_animation:fadeIn({
-		finish = 12,
 		opacity = 1,
-		start = 1
+		start = 1,
+		finish = 12
 	})
 	g_keyboard.bindKeyDown("G", self.toggleCollectionWindow)
 	ProtocolGame.registerExtendedOpcode(ExtendedIds.Cards, GameCards.onExtendedOpcode)
@@ -755,8 +755,8 @@ function GameCards:openPack(packId, amount)
 	end
 
 	self:sendExtendedOpcode({
-		action = "open_pack",
 		packId = 1,
+		action = "open_pack",
 		amount = amount
 	})
 end

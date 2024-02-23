@@ -4,19 +4,19 @@ PlayerDeath = {
 	spawnsOptions = {},
 	deathTexts = {
 		regular = {
+			width = 0,
 			height = 10,
-			text = "As your soul departs, you feel the warmth of the Dawn, calling you back into the world.",
-			width = 0
+			text = "As your soul departs, you feel the warmth of the Dawn, calling you back into the world."
 		},
 		unfair = {
+			width = 0,
 			height = 10,
-			text = "As your soul departs, you feel the warmth of the Dawn, calling you back into the world.",
-			width = 0
+			text = "As your soul departs, you feel the warmth of the Dawn, calling you back into the world."
 		},
 		blessed = {
+			width = 0,
 			height = 10,
-			text = "As your soul departs, you feel the warmth of the Dawn, calling you back into the world.",
-			width = 0
+			text = "As your soul departs, you feel the warmth of the Dawn, calling you back into the world."
 		}
 	}
 }
