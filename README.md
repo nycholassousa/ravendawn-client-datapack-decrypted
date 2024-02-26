@@ -27,14 +27,15 @@ Além disso, o init.lua verifica o checksum dos arquivos, então após essa alte
 
 ## O que é possível fazer com o client dessa forma?
 Pra ser sincero, olhei pouco ainda sobre isso, mas pelo que olhei, é possível:
-- Abrir o market em qualquer local do mapa (adicionando ele ao menu embaixo, inclusive)
+- Abrir o market em qualquer local do mapa (adicionando ele ao menu embaixo, inclusive) **EXISTEM RELATOS DE PLAYERS BANIDOS USANDO ESTE AQUI**
 - Burlar o minigame de colheita (minério, madeira, fazenda) para dar sucesso, independente da posição do marcador (aperte F em qualquer momento que é sucesso)
 - Adicionar o cavebot do otcv8 (esse aqui requer muito trabalho)
 - Adicionar um terminal ao client para "debug" no lua (usando o print do lua)
 - Verificar status do client (uso de ram, cpu, rede, etc)
+- Zoom
+- Alterar luz
 
 Existem outras coisas que ainda não olhei/tentei, mas creio eu que seja possível:
-- Zoom
 - Abrir rangers company em qualquer local, assim selecionando o que quer caçar
 
 O que vi que era impossível, pois os dados usados são server side (ou podem até ser possíveis e eu que não olhei com calma):
