@@ -16,32 +16,32 @@ FishFight.bigNumbers = false
 
 local fishBehaviour = {
 	[FISHFIGHT_STATE_AGGRESSIVE] = {
-		description = "Increases the damage done to your rod by 200%.",
-		icon = "/images/ui/windows/fishfight/fish_state_aggressive"
+		icon = "/images/ui/windows/fishfight/fish_state_aggressive",
+		description = "Increases the damage done to your rod by 200%."
 	},
 	[FISHFIGHT_STATE_TIRED] = {
-		description = "Increases the damage done to the fish by 50%.",
-		icon = "/images/ui/windows/fishfight/fish_state_tired"
+		icon = "/images/ui/windows/fishfight/fish_state_tired",
+		description = "Increases the damage done to the fish by 50%."
 	},
 	[FISHFIGHT_STATE_TIRED_2] = {
-		text = "2",
+		description = "Increases the damage done to the fish by 100%.",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		description = "Increases the damage done to the fish by 100%."
+		text = "2"
 	},
 	[FISHFIGHT_STATE_TIRED_3] = {
-		text = "3",
+		description = "Increases the damage done to the fish by 150%.",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		description = "Increases the damage done to the fish by 150%."
+		text = "3"
 	},
 	[FISHFIGHT_STATE_TIRED_4] = {
-		text = "4",
+		description = "Increases the damage done to the fish by 200%.",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		description = "Increases the damage done to the fish by 200%."
+		text = "4"
 	},
 	[FISHFIGHT_STATE_TIRED_5] = {
-		text = "5",
+		description = "Increases the damage done to the fish by 250%.",
 		icon = "/images/ui/windows/fishfight/fish_state_tired",
-		description = "Increases the damage done to the fish by 250%."
+		text = "5"
 	}
 }
 
@@ -61,10 +61,10 @@ local function updateAbilityTimer()
 end
 
 local weightColors = {
+	medium = "white",
 	large = "#87c72c",
 	small = "#b3b3b3",
-	gargantuan = "#fc8c08",
-	medium = "white"
+	gargantuan = "#fc8c08"
 }
 
 function FishFight.sendAbility(id)

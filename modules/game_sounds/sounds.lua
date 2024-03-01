@@ -88,12 +88,12 @@ local lastVisibilityChangeEvent = 0
 
 CONST_ALL_GAME_OBJECTS = g_wwise and g_wwise.getAllObjectsConst() or -1
 g_sound = {
+	channelId = 0,
 	channelName = "",
+	ravencardsAnimationEmitterId = 300,
 	listenerId = 100,
 	initialized = false,
 	localEmitterId = 200,
-	ravencardsAnimationEmitterId = 300,
-	channelId = 0,
 	playingIDs = {},
 	regionSounds = {},
 	loadedSoundbanks = {},

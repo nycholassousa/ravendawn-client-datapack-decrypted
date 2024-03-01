@@ -56,8 +56,8 @@ tasks = {
 
 				if not houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						bandit = true,
 						text = "To start managing your Farmland, click on that house button next to the minimap",
+						bandit = true,
 						keys = {
 							MouseLeftButton
 						},
@@ -108,8 +108,8 @@ tasks = {
 					GameInteractions:advanceInteraction(__env, __env.current_task, 1)
 				else
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "Placing crops and animal pens is really easy!"
@@ -184,8 +184,8 @@ tasks = {
 					GameInteractions:advanceInteraction(__env, __env.current_task, 1)
 				else
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "This icon on top of the frame is the amount of Effort required to place such item in the Community Land",
@@ -261,8 +261,8 @@ tasks = {
 
 				if not houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						bandit = true,
 						text = "To start managing your Farmland, click on that house button next to the minimap",
+						bandit = true,
 						keys = {
 							MouseLeftButton
 						},
@@ -328,9 +328,9 @@ tasks = {
 				if houseWindow:isVisible() then
 					if parentWidget then
 						GameInteractions:displayActionBox({
+							bandit = true,
 							preferSide = "top",
 							text = "Now, since the farmer asked for potatoes, you should start by selecting them in the list",
-							bandit = true,
 							keys = {
 								MouseLeftButton
 							},
@@ -399,8 +399,8 @@ tasks = {
 
 				if houseWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "right",
 						bandit = true,
+						preferSide = "right",
 						text = "Oh! I guess the munk ain't charging us a thing this time. Let's not waste the opportunity!",
 						keys = {
 							MouseLeftButton
@@ -451,16 +451,16 @@ tasks = {
 			},
 			onStartInteraction = function(self)
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "top",
 					text = "Now place the potatoes on the garden bed, but be sure to leave room for the Pig Pen as well!",
-					bandit = true,
 					keys = {
 						MouseLeftButton
 					},
 					tilePos = {
+						x = 5171,
 						z = 7,
-						y = 5129,
-						x = 5171
+						y = 5129
 					}
 				})
 				table.insert(self.disconnects, connect(g_game, {
@@ -479,8 +479,8 @@ tasks = {
 			callbacks = {},
 			onStartInteraction = function(self, args)
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "All that's left to do now is wait for them to grow and be ready for harvesting!"

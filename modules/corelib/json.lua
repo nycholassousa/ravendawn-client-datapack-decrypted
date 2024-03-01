@@ -8,10 +8,10 @@ local encode
 local escape_char_map = {
 	["\f"] = "\\f",
 	["\b"] = "\\b",
-	["\\"] = "\\\\",
-	["\t"] = "\\t",
 	["\""] = "\\\"",
 	["\n"] = "\\n",
+	["\\"] = "\\\\",
+	["\t"] = "\\t",
 	["\r"] = "\\r"
 }
 local escape_char_map_inv = {

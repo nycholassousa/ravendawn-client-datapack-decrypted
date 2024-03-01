@@ -282,8 +282,8 @@ function GameNpc:onReply(data)
 		icon = answer.icon:getImageSource()
 	})
 	self:logText({
-		icon = "",
 		color = "#7B7062",
+		icon = "",
 		text = string.format("{%s, #ffa85180} - \"%s\"", self.npcName:upper(), self.npcQuestion.say)
 	})
 

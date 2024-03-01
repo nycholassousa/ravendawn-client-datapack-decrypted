@@ -5,10 +5,10 @@ GameCharacter = {
 	pointsAvailable = -1,
 	currentTab = {},
 	attributes = {
-		wisdom = 0,
 		dexterity = 0,
 		intelligence = 0,
-		might = 0
+		might = 0,
+		wisdom = 0
 	}
 }
 

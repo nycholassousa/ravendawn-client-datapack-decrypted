@@ -1,3 +1,30 @@
+TunnelingServicePanel < UIWidget
+  id: tunneling_service_panel
+  CheckBoxSmall
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    checked: true
+    id: checkbox
+    @onCheckChange: |
+      addEvent(function()
+        EnterGame.setTunnelingServiceEnabled(self:isChecked())
+      end)
+
+  UIWidget
+    id: description
+    anchors.left: parent.left
+    anchors.verticalCenter: parent.verticalCenter
+    text-align: center
+    text-auto-resize: true
+    font: poppins-14
+    text-offset: 26 1
+    text-color: #CED2D9
+    opacity: 1.0
+    text: Latency Tunneling Service
+    @onClick: |
+      local cb = self:getParent().checkbox
+      cb.onClick(cb)
+
 LoginLabel < Label
   color: #a6aab2
   text-align: center
@@ -201,8 +228,8 @@ LoginButton < Button
   id: loggin_button
   text: Login
   width: 170
-  height: 60
-  margin-top: 25
+  height: 50
+  margin-top: 15
   &color: '#36F991'
   background-color: #151515
   anchors.top: parent.top
@@ -216,7 +243,7 @@ RegisterAccountPanel < Panel
   anchors.horizontalCenter: parent.horizontalCenter
   anchors.top: prev.bottom
   height: 30
-  margin-top: 15
+  margin-top: 5
 
   Panel
     height: 30
@@ -339,7 +366,7 @@ RegionPanel < Panel
   anchors.left: parent.left
   anchors.right: parent.right
   margin-top: 15
-  height: 110
+  height: 140
   image-source: /images/ui/windows/entergame/login/server_location_background
 
   LoginLabelBold16
@@ -355,6 +382,11 @@ RegionPanel < Panel
     anchors.horizontalCenter: parent.horizontalCenter
     anchors.top: prev.top
     text: Loading...
+
+  TunnelingServicePanel
+    size: 200 26
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: prev.bottom
 
 LoginButtonPanel < Panel
   anchors.top: prev.bottom

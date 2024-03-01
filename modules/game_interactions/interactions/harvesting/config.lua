@@ -75,9 +75,9 @@ tasks = {
 
 				if potatoTile then
 					GameInteractions:displayActionBox({
-						preferSide = "top",
-						text = "In order to do that, right-click the potato bed",
 						bandit = true,
+						text = "In order to do that, right-click the potato bed",
+						preferSide = "top",
 						tilePos = potatoTile:getPosition(),
 						keys = {
 							MouseRightButton
@@ -120,9 +120,9 @@ tasks = {
 
 				if widget and not widget:isDestroyed() then
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "Each of these actions will have a different effect on your plantation, but you were asked to harvest them, so better stick to the first option for now!",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							MouseLeftButton
 						},
@@ -165,9 +165,9 @@ tasks = {
 
 				if minigameWindow:isVisible() then
 					GameInteractions:displayActionBox({
-						preferSide = "top",
 						text = "If you want to speed up the process, press F whenever the moving bar gets inside the green area",
 						bandit = true,
+						preferSide = "top",
 						keys = {
 							"F"
 						},

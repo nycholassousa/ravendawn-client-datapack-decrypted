@@ -57,15 +57,15 @@ callbacks = {
 	end
 }
 windowTypes = {
-	dialogue = "GameDialoguePanel",
-	tradepost_craft = "GameTradepostCraftPanel",
-	bank = "GameBankPanel",
-	warehouse = "GameWarehousePanel",
+	fishpost = "GameFishpostPanel",
 	itemshop = "GameItemShopPanel",
 	gear_breakdown_shop = "GameGearBreakdownShopPanel",
 	rangers_company_shop = "GameRangersCompanyShopPanel",
-	fishpost = "GameFishpostPanel",
-	tradepost_sell = "GameTradepostSellPanel"
+	dialogue = "GameDialoguePanel",
+	bank = "GameBankPanel",
+	tradepost_sell = "GameTradepostSellPanel",
+	tradepost_craft = "GameTradepostCraftPanel",
+	warehouse = "GameWarehousePanel"
 }
 bank = {
 	rowsPerUnlock = 1,

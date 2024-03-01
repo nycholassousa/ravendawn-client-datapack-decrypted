@@ -4,15 +4,15 @@ GameGuild = {
 	unlockTime = 0,
 	panels = {},
 	createOptions = {
+		tag = "",
 		name = "",
-		listed = true,
 		focus = 0,
 		language = "",
 		description = "",
-		tag = "",
+		listed = true,
 		icon = {
-			background = 0,
-			foreground = 0
+			foreground = 0,
+			background = 0
 		}
 	},
 	joinGuildWindow = {
@@ -25,15 +25,15 @@ GameGuild = {
 		logo = {}
 	},
 	overviewPanel = {
-		orderType = "rank",
-		orderDirection = "desc"
+		orderDirection = "desc",
+		orderType = "rank"
 	},
 	membersPanel = {
-		orderType = "rank",
 		orderDirection = "desc",
+		orderType = "rank",
 		applications = {
-			orderType = "name",
-			orderDirection = "asc"
+			orderDirection = "asc",
+			orderType = "name"
 		}
 	}
 }
@@ -163,10 +163,10 @@ function GameGuild:init()
 	end
 
 	self.loadingAnimation = Animation.create({
-		loop = -1,
 		duration = 1000,
 		pauseWhenHidden = true,
 		imageSource = "/images/ui/loading/frame-%d",
+		loop = -1,
 		canvas = self.window.loading_icon,
 		frames = frames,
 		onStart = function(self, canvas)
@@ -866,6 +866,7 @@ function GameGuild:updateMembersPanel()
 		end
 
 		child.playerGUID = member.playerGUID
+		child.playerRank = member.rank
 
 		local columns = child:getChildren()
 		local nameColumn = columns[1]
@@ -1124,6 +1125,7 @@ function GameGuild:setupRankWindow(widget, currentRankName)
 	widget:setImageColor(cfg.guildRankToColor[currentRank])
 
 	local widgetGUID = widget:getParent():getParent().playerGUID
+	local widgetRank = widget:getParent():getParent().playerRank
 
 	widget.disableScroll = true
 
@@ -1137,6 +1139,8 @@ function GameGuild:setupRankWindow(widget, currentRankName)
 		widget:setImageColor(cfg.guildRankToColor[cfg.GUILD_RANK_LEADER])
 	end
 
+	local guildRank = self.guildInfo.rank
+
 	for rank, rankName in ipairs(cfg.guildRankToName) do
 		if rank == cfg.GUILD_RANK_INITIATE or rank == cfg.GUILD_RANK_LEADER then
 			widget:addPlaceholderOption(rankName, {
@@ -1144,22 +1148,18 @@ function GameGuild:setupRankWindow(widget, currentRankName)
 			})
 			widget:setIcon("/images/ui/windows/guild/icon_rank_" .. rank)
 			widget:setImageColor(cfg.guildRankToColor[rank])
-		elseif rank == currentRank or self.guildInfo.playerGUID == widgetGUID then
+		elseif rank == currentRank or self.guildInfo.playerGUID == widgetGUID or currentRank <= guildRank then
 			widget:addPlaceholderOption(rankName, {
 				icon = "/images/ui/windows/guild/icon_rank_" .. rank
 			})
 			widget:setIcon("/images/ui/windows/guild/icon_rank_" .. rank)
 			widget:setImageColor(cfg.guildRankToColor[rank])
-		elseif self.guildInfo.playerGUID ~= widgetGUID then
-			local guildRank = self.guildInfo.rank
-
-			if guildRank < rank then
-				widget:addOption(rankName, {
-					icon = "/images/ui/windows/guild/icon_rank_" .. rank
-				}, true)
-				widget:setIcon("/images/ui/windows/guild/icon_rank_" .. rank)
-				widget:setImageColor(cfg.guildRankToColor[rank])
-			end
+		elseif self.guildInfo.playerGUID ~= widgetGUID and guildRank < rank then
+			widget:addOption(rankName, {
+				icon = "/images/ui/windows/guild/icon_rank_" .. rank
+			}, true)
+			widget:setIcon("/images/ui/windows/guild/icon_rank_" .. rank)
+			widget:setImageColor(cfg.guildRankToColor[rank])
 		end
 	end
 

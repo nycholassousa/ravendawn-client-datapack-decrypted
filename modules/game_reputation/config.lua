@@ -2,7 +2,7 @@
 
 resetCost = {
 	points = 50,
-	ravencoins = 10
+	dawnEssence = 10
 }
 experienceTable = {
 	500,

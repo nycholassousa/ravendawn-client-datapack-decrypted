@@ -5,6 +5,10 @@ quest_name = "Crafting"
 current_task = 0
 current_interaction = 0
 itemsToInteractionType = {
+	["Wooden Buckler"] = "carpentry",
+	["Skirmisher's Blade"] = "blacksmithing",
+	["Shipbuilding Mallet"] = "blacksmithing",
+	["Burnished Greatsword"] = "blacksmithing",
 	["Wicked Axe"] = "blacksmithing",
 	["Solid Mace"] = "blacksmithing",
 	["Serrated Dagger"] = "blacksmithing",
@@ -12,11 +16,7 @@ itemsToInteractionType = {
 	["Rough Sword"] = "blacksmithing",
 	["Knotted Sceptre"] = "carpentry",
 	["Mystic Staff"] = "carpentry",
-	["Oakwood Bow"] = "carpentry",
-	["Wooden Buckler"] = "carpentry",
-	["Skirmisher's Blade"] = "blacksmithing",
-	["Shipbuilding Mallet"] = "blacksmithing",
-	["Burnished Greatsword"] = "blacksmithing"
+	["Oakwood Bow"] = "carpentry"
 }
 
 local function carpentryOrBlacksmithing()
@@ -76,8 +76,8 @@ tasks = {
 						local self = tasks[__env.current_task][__env.current_interaction]
 
 						if Position.isInRange(pos, {
-							z = 9,
 							x = 5290,
+							z = 9,
 							y = 5061
 						}, 6, 6) then
 							GameInteractions:closeActionBox()
@@ -130,12 +130,12 @@ tasks = {
 						}
 					},
 					tilePos = type == "carpentry" and {
-						z = 9,
 						x = 5289,
+						z = 9,
 						y = 5061
 					} or {
-						z = 9,
 						x = 5292,
+						z = 9,
 						y = 5060
 					},
 					callbackOnClose = function(self)
@@ -153,12 +153,12 @@ tasks = {
 				end
 
 				local craftingStationPos = type == "carpentry" and {
-					z = 9,
 					x = 5289,
+					z = 9,
 					y = 5061
 				} or {
-					z = 9,
 					x = 5292,
+					z = 9,
 					y = 5060
 				}
 				local player = g_game.getLocalPlayer()
@@ -197,12 +197,12 @@ tasks = {
 				LocalPlayer = {
 					onPositionChange = function(player, pos)
 						local craftingStationPos = type == "carpentry" and {
-							z = 9,
 							x = 5289,
+							z = 9,
 							y = 5061
 						} or {
-							z = 9,
 							x = 5292,
+							z = 9,
 							y = 5060
 						}
 
@@ -236,12 +236,12 @@ tasks = {
 
 				if not craftingWindow:isVisible() then
 					local craftingStationPos = type == "carpentry" and {
-						z = 9,
 						x = 5289,
+						z = 9,
 						y = 5061
 					} or {
-						z = 9,
 						x = 5292,
+						z = 9,
 						y = 5060
 					}
 					local isInRange = Position.isInRange(player:getPosition(), craftingStationPos, 2, 2)
@@ -291,12 +291,12 @@ tasks = {
 				end
 
 				local craftingStationPos = type == "carpentry" and {
-					z = 9,
 					x = 5289,
+					z = 9,
 					y = 5061
 				} or {
-					z = 9,
 					x = 5292,
+					z = 9,
 					y = 5060
 				}
 				local player = g_game.getLocalPlayer()
@@ -328,8 +328,8 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
-					bandit = true,
 					text = "Now select the weapon you wish to craft from the list",
+					bandit = true,
 					keys = {
 						MouseLeftButton
 					},
@@ -369,8 +369,8 @@ tasks = {
 				if craftingWindow:isVisible() then
 					GameInteractions:displayActionBox({
 						bandit = true,
-						text = "Since you have all the required materials, you can start crafting by simply clicking the button",
 						preferSide = "top",
+						text = "Since you have all the required materials, you can start crafting by simply clicking the button",
 						parent = craftingWindow.button_panel.craft_button,
 						keys = {
 							MouseLeftButton

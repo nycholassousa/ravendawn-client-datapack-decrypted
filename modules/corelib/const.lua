@@ -293,14 +293,14 @@ KeyCodeDescs = {
 	[KeyNumpad9] = "Numpad9"
 }
 NetworkMessageTypes = {
+	U64 = 5,
 	U32 = 4,
 	U16 = 3,
 	U8 = 2,
 	Boolean = 1,
 	Table = 8,
 	String = 7,
-	NumberString = 6,
-	U64 = 5
+	NumberString = 6
 }
 SoundChannels = {
 	Effect = 3,
@@ -336,10 +336,10 @@ NOTIFICATION_REGION = 5
 NOTIFICATION_STAFF = 6
 BGS_DEMO = false
 LanguageLocaleToString = {
-	["en-GB"] = "English",
-	["pt-BR"] = "Portugu\xEAs (Brasil)"
+	["pt-BR"] = "Portugu\xEAs (Brasil)",
+	["en-GB"] = "English"
 }
 LanguageStringToLocale = {
-	["Portugu\xEAs (Brasil)"] = "pt-BR",
-	English = "en-GB"
+	English = "en-GB",
+	["Portugu\xEAs (Brasil)"] = "pt-BR"
 }

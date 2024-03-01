@@ -2,16 +2,16 @@
 
 translation = {
 	Reset = "Redistribuir",
-	Dexterity = "Destreza",
-	None = "Nenhum",
-	Intelligence = "Intelig\xEAncia",
-	Attributes = "Atributos",
-	Might = "For\xE7a",
-	Save = "Salvar",
-	Vitality = "Vitalidade",
-	["You have %i point%s available"] = "Voc\xEA tem %i pontos dispon\xEDveis.",
 	Customization = "Customiza\xE7\xE3o",
+	None = "Nenhum",
 	Stats = "Status",
+	Attributes = "Atributos",
 	Equipment = "Equipamento",
-	Wisdom = "Sabedoria"
+	Save = "Salvar",
+	Wisdom = "Sabedoria",
+	["You have %i point%s available"] = "Voc\xEA tem %i pontos dispon\xEDveis.",
+	Dexterity = "Destreza",
+	Intelligence = "Intelig\xEAncia",
+	Might = "For\xE7a",
+	Vitality = "Vitalidade"
 }

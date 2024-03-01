@@ -16,17 +16,17 @@ g_icons = {
 		[LEVEL_UP_ICON_ID] = "baby-32"
 	},
 	textOffset = {
-		y = 0,
-		x = 0
+		x = 0,
+		y = 0
 	},
 	offset = {
-		y = -30,
-		x = 0
+		x = 0,
+		y = -30
 	},
 	textAlign = AlignRight,
 	speed = {
-		y = -100,
-		x = -100
+		x = -100,
+		y = -100
 	},
 	colors = {
 		[INFAMY_ICON_ID] = "#c93a3a",
@@ -74,8 +74,8 @@ function g_icons.onEffect(effect)
 
 	if hasOffset then
 		effect:setOffset({
-			y = -16,
-			x = -16
+			x = -16,
+			y = -16
 		})
 	end
 end
@@ -108,8 +108,8 @@ function g_icons.onWoodcuttingEffect(pos)
 
 	if hasOffset then
 		fallingLeafEffect:setOffset({
-			y = -16,
-			x = -16
+			x = -16,
+			y = -16
 		})
 	end
 
@@ -169,8 +169,8 @@ function g_icons.onSetupItemIcon(widget)
 		if iconSource then
 			imageWidget:setImageSource(iconSource)
 			imageWidget:setTextOffset({
-				y = -3,
-				x = -2
+				x = -2,
+				y = -3
 			})
 
 			if not hasCount then
@@ -188,8 +188,8 @@ function g_icons.onSetupItemIcon(widget)
 				width = 48
 			})
 			imageWidget:setImageOffset({
-				y = 8,
-				x = 8
+				x = 8,
+				y = 8
 			})
 		end
 
@@ -205,8 +205,8 @@ function g_icons.onSetupItemIcon(widget)
 	widget:setSize(iconsSize[iconId] or widget:getSize() * 3)
 	widget:setFont(g_icons.fonts[iconId] or g_icons.font)
 	widget:setTextOffset({
-		y = 16,
-		x = 16
+		x = 16,
+		y = 16
 	})
 	widget:setColorEx(g_icons.colors[iconId] or g_icons.textColor)
 	widget:setOffset(iconId == LEVEL_UP_ICON_ID and {

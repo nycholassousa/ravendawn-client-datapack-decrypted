@@ -318,57 +318,57 @@ houseData = {
 			window_id = "land",
 			window_data = {
 				{
-					floors = 1,
-					size = 10,
-					description = "Some description here",
-					depot = 60,
-					clientId = 37014,
-					tier = 1,
 					name = "Small Shack",
-					price = 10000,
 					itemId = 40466,
 					house_upgrade = 2,
 					house_rooms = 1,
-					house_model = 1
-				},
-				{
-					size = 12,
+					house_model = 1,
+					floors = 1,
 					description = "Some description here",
 					depot = 60,
-					clientId = 37015,
+					clientId = 37014,
 					tier = 1,
+					size = 10,
+					price = 10000
+				},
+				{
 					name = "Medium Shack",
-					price = 500000,
 					itemId = 40467,
 					house_upgrade = 5,
 					house_rooms = 1,
-					house_model = 4
+					house_model = 4,
+					description = "Some description here",
+					depot = 60,
+					clientId = 37015,
+					tier = 1,
+					size = 12,
+					price = 500000
 				},
 				{
-					size = 15,
+					name = "Large Shack",
+					itemId = 40468,
+					house_upgrade = 9,
+					house_rooms = 1,
+					house_model = 8,
 					description = "Some description here",
 					depot = 60,
 					clientId = 37016,
 					tier = 1,
-					name = "Large Shack",
-					price = 5000000,
-					itemId = 40468,
-					house_upgrade = 9,
-					house_rooms = 1,
-					house_model = 8
+					size = 15,
+					price = 5000000
 				},
 				{
-					floors = 1,
-					description = "Some description here",
-					depot = 61,
-					clientId = 37014,
-					size = 10,
-					tier = 2,
 					name = "Small Wooden Cabin",
-					price = 0,
+					clientId = 37014,
 					house_upgrade = 3,
 					house_rooms = 1,
 					house_model = 2,
+					floors = 1,
+					description = "Some description here",
+					depot = 61,
+					tier = 2,
+					size = 10,
+					price = 0,
 					bonuses = {
 						{
 							text = "Chance of plenty harvest: 20%",
@@ -377,42 +377,42 @@ houseData = {
 					},
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 50,
 							itemId = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 20,
 							itemId = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28743,
+							name = "refined plank",
 							amount = 10,
 							itemId = 32175,
-							name = "refined plank"
+							clientId = 28743
 						},
 						{
-							clientId = 28734,
+							name = "nail",
 							amount = 10,
 							itemId = 32166,
-							name = "nail"
+							clientId = 28734
 						}
 					}
 				},
 				{
-					size = 12,
-					description = "Some description here",
-					depot = 61,
-					clientId = 37015,
-					tier = 2,
 					name = "Medium Wooden Cabin",
-					price = 0,
+					clientId = 37015,
 					house_upgrade = 6,
 					house_rooms = 1,
 					house_model = 5,
+					description = "Some description here",
+					depot = 61,
+					tier = 2,
+					size = 12,
+					price = 0,
 					bonuses = {
 						{
 							text = "Chance of plenty harvest: 20%",
@@ -421,42 +421,42 @@ houseData = {
 					},
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 100,
 							itemId = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28743,
+							name = "refined plank",
 							amount = 20,
 							itemId = 32175,
-							name = "refined plank"
+							clientId = 28743
 						},
 						{
-							clientId = 41847,
+							name = "Dense Plank",
 							amount = 5,
 							itemId = 45299,
-							name = "Dense Plank"
+							clientId = 41847
 						},
 						{
-							clientId = 28734,
+							name = "nail",
 							amount = 10,
 							itemId = 32166,
-							name = "nail"
+							clientId = 28734
 						}
 					}
 				},
 				{
-					size = 15,
-					description = "Some description here",
-					depot = 61,
-					clientId = 37016,
-					tier = 2,
 					name = "Large Wooden Cabin",
-					price = 0,
+					clientId = 37016,
 					house_upgrade = 10,
 					house_rooms = 1,
 					house_model = 9,
+					description = "Some description here",
+					depot = 61,
+					tier = 2,
+					size = 15,
+					price = 0,
 					bonuses = {
 						{
 							text = "Chance of plenty harvest: 20%",
@@ -465,42 +465,42 @@ houseData = {
 					},
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 150,
 							itemId = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28745,
+							name = "treated plank",
 							amount = 30,
 							itemId = 32177,
-							name = "treated plank"
+							clientId = 28745
 						},
 						{
-							clientId = 41848,
+							name = "Heavy Plank",
 							amount = 10,
 							itemId = 45300,
-							name = "Heavy Plank"
+							clientId = 41848
 						},
 						{
-							clientId = 28734,
+							name = "nail",
 							amount = 50,
 							itemId = 32166,
-							name = "nail"
+							clientId = 28734
 						}
 					}
 				},
 				{
+					name = "Small Wooden House",
+					clientId = 37014,
+					house_rooms = 2,
+					house_model = 3,
 					floors = 2,
 					description = "Some description here",
 					depot = 62,
-					clientId = 37014,
-					size = 10,
 					tier = 3,
-					name = "Small Wooden House",
+					size = 10,
 					price = 0,
-					house_rooms = 2,
-					house_model = 3,
 					bonuses = {
 						{
 							text = "Increase Room Amount"
@@ -508,48 +508,48 @@ houseData = {
 					},
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 100,
 							itemId = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28745,
+							name = "treated plank",
 							amount = 20,
 							itemId = 32177,
-							name = "treated plank"
+							clientId = 28745
 						},
 						{
-							clientId = 41850,
+							name = "Stone Block",
 							amount = 20,
 							itemId = 45302,
-							name = "Stone Block"
+							clientId = 41850
 						},
 						{
-							clientId = 28734,
+							name = "nail",
 							amount = 30,
 							itemId = 32166,
-							name = "nail"
+							clientId = 28734
 						},
 						{
-							clientId = 41847,
+							name = "Dense Plank",
 							amount = 10,
 							itemId = 45299,
-							name = "Dense Plank"
+							clientId = 41847
 						}
 					}
 				},
 				{
-					size = 12,
-					description = "Some description here",
-					depot = 62,
-					clientId = 37015,
-					tier = 3,
 					name = "Medium Wooden House",
-					price = 0,
+					clientId = 37015,
 					house_upgrade = 7,
 					house_rooms = 2,
 					house_model = 6,
+					description = "Some description here",
+					depot = 62,
+					tier = 3,
+					size = 12,
+					price = 0,
 					bonuses = {
 						{
 							text = "Increase Room Amount"
@@ -557,48 +557,48 @@ houseData = {
 					},
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 200,
 							itemId = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28745,
+							name = "treated plank",
 							amount = 50,
 							itemId = 32177,
-							name = "treated plank"
+							clientId = 28745
 						},
 						{
-							clientId = 41850,
+							name = "Stone Block",
 							amount = 30,
 							itemId = 45302,
-							name = "Stone Block"
+							clientId = 41850
 						},
 						{
-							clientId = 40282,
+							name = "Bolt",
 							amount = 20,
 							itemId = 43734,
-							name = "Bolt"
+							clientId = 40282
 						},
 						{
-							clientId = 41847,
+							name = "Dense Plank",
 							amount = 10,
 							itemId = 45299,
-							name = "Dense Plank"
+							clientId = 41847
 						}
 					}
 				},
 				{
-					size = 15,
-					description = "Some description here",
-					depot = 62,
-					clientId = 37016,
-					tier = 3,
 					name = "Large Wooden House",
-					price = 0,
+					clientId = 37016,
 					house_upgrade = 11,
 					house_rooms = 2,
 					house_model = 10,
+					description = "Some description here",
+					depot = 62,
+					tier = 3,
+					size = 15,
+					price = 0,
 					bonuses = {
 						{
 							text = "Increase Room Amount"
@@ -606,47 +606,47 @@ houseData = {
 					},
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 300,
 							itemId = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 45506,
+							name = "Sturdy Plank",
 							amount = 50,
 							itemId = 48958,
-							name = "Sturdy Plank"
+							clientId = 45506
 						},
 						{
-							clientId = 41846,
+							name = "Dense Block",
 							amount = 50,
 							itemId = 45298,
-							name = "Dense Block"
+							clientId = 41846
 						},
 						{
-							clientId = 40282,
+							name = "Bolt",
 							amount = 100,
 							itemId = 43734,
-							name = "Bolt"
+							clientId = 40282
 						},
 						{
-							clientId = 41848,
+							name = "Heavy Plank",
 							amount = 10,
 							itemId = 45300,
-							name = "Heavy Plank"
+							clientId = 41848
 						}
 					}
 				},
 				{
-					size = 12,
-					description = "Some description here",
-					depot = 63,
-					clientId = 37015,
-					tier = 4,
 					name = "Medium Stone House",
-					price = 0,
+					clientId = 37015,
 					house_rooms = 2,
 					house_model = 7,
+					description = "Some description here",
+					depot = 63,
+					tier = 4,
+					size = 12,
+					price = 0,
 					bonuses = {
 						{
 							text = "Chance of plenty harvest: 40%",
@@ -655,48 +655,48 @@ houseData = {
 					},
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 350,
 							itemId = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 41850,
+							name = "Stone Block",
 							amount = 300,
 							itemId = 45302,
-							name = "Stone Block"
+							clientId = 41850
 						},
 						{
-							clientId = 45506,
+							name = "Sturdy Plank",
 							amount = 50,
 							itemId = 48958,
-							name = "Sturdy Plank"
+							clientId = 45506
 						},
 						{
-							clientId = 40282,
+							name = "Bolt",
 							amount = 50,
 							itemId = 43734,
-							name = "Bolt"
+							clientId = 40282
 						},
 						{
-							clientId = 41848,
+							name = "Heavy Plank",
 							amount = 10,
 							itemId = 45300,
-							name = "Heavy Plank"
+							clientId = 41848
 						}
 					}
 				},
 				{
-					size = 15,
-					description = "Some description here",
-					depot = 63,
-					clientId = 37016,
-					tier = 4,
 					name = "Large Stone House",
-					price = 0,
+					clientId = 37016,
 					house_upgrade = 12,
 					house_rooms = 2,
 					house_model = 11,
+					description = "Some description here",
+					depot = 63,
+					tier = 4,
+					size = 15,
+					price = 0,
 					bonuses = {
 						{
 							text = "Chance of plenty harvest: 40%",
@@ -705,47 +705,47 @@ houseData = {
 					},
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 500,
 							itemId = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 41847,
+							name = "Dense Plank",
 							amount = 100,
 							itemId = 45299,
-							name = "Dense Plank"
+							clientId = 41847
 						},
 						{
-							clientId = 41846,
+							name = "Dense Block",
 							amount = 250,
 							itemId = 45298,
-							name = "Dense Block"
+							clientId = 41846
 						},
 						{
-							clientId = 40282,
+							name = "Bolt",
 							amount = 250,
 							itemId = 43734,
-							name = "Bolt"
+							clientId = 40282
 						},
 						{
-							clientId = 41848,
+							name = "Heavy Plank",
 							amount = 25,
 							itemId = 45300,
-							name = "Heavy Plank"
+							clientId = 41848
 						}
 					}
 				},
 				{
-					size = 15,
-					description = "Some description here",
-					depot = 64,
-					clientId = 37016,
-					tier = 5,
 					name = "Large Stone Mansion",
-					price = 0,
+					clientId = 37016,
 					house_rooms = 3,
 					house_model = 12,
+					description = "Some description here",
+					depot = 64,
+					tier = 5,
+					size = 15,
+					price = 0,
 					bonuses = {
 						{
 							text = "Increase Room Amount"
@@ -753,121 +753,121 @@ houseData = {
 					},
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 750,
 							itemId = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 41846,
+							name = "Dense Block",
 							amount = 250,
 							itemId = 45298,
-							name = "Dense Block"
+							clientId = 41846
 						},
 						{
-							clientId = 41850,
+							name = "Stone Block",
 							amount = 500,
 							itemId = 45302,
-							name = "Stone Block"
+							clientId = 41850
 						},
 						{
-							clientId = 41848,
+							name = "Heavy Plank",
 							amount = 100,
 							itemId = 45300,
-							name = "Heavy Plank"
+							clientId = 41848
 						},
 						{
-							clientId = 41849,
+							name = "Royal Ornaments",
 							amount = 10,
 							itemId = 45301,
-							name = "Royal Ornaments"
+							clientId = 41849
 						}
 					}
 				},
 				{
-					description = "Shack Stronghold",
-					size = 22,
-					clientId = 38522,
-					tier = 1,
 					name = "Shack Stronghold",
-					price = 200000,
 					itemId = 41974,
 					house_upgrade = 14,
 					house_rooms = 3,
 					house_model = 13,
+					description = "Shack Stronghold",
+					clientId = 38522,
+					tier = 1,
+					size = 22,
+					price = 200000,
 					materials = {}
 				},
 				{
-					description = "Wood Stronghold",
-					size = 22,
-					clientId = 38522,
-					tier = 2,
 					name = "Wood Stronghold",
-					price = 200000,
 					itemId = 41974,
 					house_upgrade = 15,
 					house_rooms = 4,
 					house_model = 14,
+					description = "Wood Stronghold",
+					clientId = 38522,
+					tier = 2,
+					size = 22,
+					price = 200000,
 					materials = {}
 				},
 				{
-					description = "Stone Stronghold",
-					size = 22,
-					clientId = 38522,
-					tier = 3,
 					name = "Stone Stronghold",
-					price = 200000,
 					itemId = 41974,
 					house_rooms = 4,
 					house_model = 15,
+					description = "Stone Stronghold",
+					clientId = 38522,
+					tier = 3,
+					size = 22,
+					price = 200000,
 					materials = {}
 				},
 				{
-					description = "Stone Fort",
-					size = 30,
-					clientId = 38521,
-					tier = 1,
 					name = "Stone Fort",
-					price = 200000,
 					itemId = 41973,
 					house_rooms = 4,
 					house_model = 16,
+					description = "Stone Fort",
+					clientId = 38521,
+					tier = 1,
+					size = 30,
+					price = 200000,
 					materials = {}
 				},
 				{
-					description = "Wooden Fort",
-					size = 30,
-					clientId = 38521,
-					tier = 1,
 					name = "Wooden Fort",
-					price = 200000,
 					itemId = 41973,
 					house_rooms = 4,
 					house_model = 17,
+					description = "Wooden Fort",
+					clientId = 38521,
+					tier = 1,
+					size = 30,
+					price = 200000,
 					materials = {}
 				},
 				{
-					description = "Sandstone Fort",
-					size = 30,
-					clientId = 38521,
-					tier = 1,
 					name = "Sandstone Fort",
-					price = 200000,
 					itemId = 41973,
 					house_rooms = 4,
 					house_model = 18,
+					description = "Sandstone Fort",
+					clientId = 38521,
+					tier = 1,
+					size = 30,
+					price = 200000,
 					materials = {}
 				},
 				{
-					description = "Darkwood Fort",
-					size = 30,
-					clientId = 38521,
-					tier = 1,
 					name = "Darkwood Fort",
-					price = 200000,
 					itemId = 41973,
 					house_rooms = 4,
 					house_model = 19,
+					description = "Darkwood Fort",
+					clientId = 38521,
+					tier = 1,
+					size = 30,
+					price = 200000,
 					materials = {}
 				}
 			}
@@ -876,13 +876,13 @@ houseData = {
 			window_id = "farming",
 			window_data = {
 				{
-					model = 25,
 					name = "Potato",
-					clientId = 25131,
-					stackingType = 2,
-					price = 60,
 					itemId = 31847,
+					stackingType = 2,
 					effort = 2,
+					model = 25,
+					clientId = 25131,
+					price = 60,
 					gathering = {
 						timeToMature = "1 hour",
 						rewards = {
@@ -891,16 +891,16 @@ houseData = {
 								amount = 200
 							},
 							{
-								clientId = 28874,
 								name = "potato",
+								clientId = 28874,
 								amount = {
 									[1] = 2,
 									[2] = 4
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -909,8 +909,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -918,13 +918,13 @@ houseData = {
 					}
 				},
 				{
-					model = 26,
 					name = "Carrot",
-					clientId = 25133,
-					stackingType = 2,
-					price = 140,
 					itemId = 31837,
+					stackingType = 2,
 					effort = 5,
+					model = 26,
+					clientId = 25133,
+					price = 140,
 					gathering = {
 						timeToMature = "2 hours",
 						rewards = {
@@ -933,16 +933,16 @@ houseData = {
 								amount = 400
 							},
 							{
-								clientId = 28865,
 								name = "carrot",
+								clientId = 28865,
 								amount = {
 									[1] = 2,
 									[2] = 4
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -951,8 +951,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -960,13 +960,13 @@ houseData = {
 					}
 				},
 				{
-					model = 27,
 					name = "Wheat",
-					clientId = 30284,
-					stackingType = 2,
-					price = 360,
 					itemId = 31851,
+					stackingType = 2,
 					effort = 15,
+					model = 27,
+					clientId = 30284,
+					price = 360,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -975,16 +975,16 @@ houseData = {
 								amount = 1200
 							},
 							{
-								clientId = 28881,
 								name = "wheat",
+								clientId = 28881,
 								amount = {
 									[1] = 3,
 									[2] = 9
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -993,8 +993,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1002,13 +1002,13 @@ houseData = {
 					}
 				},
 				{
-					model = 28,
 					name = "Corn",
-					clientId = 25130,
-					stackingType = 2,
-					price = 940,
 					itemId = 31839,
+					stackingType = 2,
 					effort = 37,
+					model = 28,
+					clientId = 25130,
+					price = 940,
 					gathering = {
 						timeToMature = "15 hours",
 						rewards = {
@@ -1017,16 +1017,16 @@ houseData = {
 								amount = 3000
 							},
 							{
-								clientId = 28866,
 								name = "corn",
+								clientId = 28866,
 								amount = {
 									[1] = 6,
 									[2] = 9
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1035,8 +1035,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1044,13 +1044,13 @@ houseData = {
 					}
 				},
 				{
-					model = 29,
 					name = "Cabbage",
-					clientId = 30225,
-					stackingType = 2,
-					price = 360,
 					itemId = 31864,
+					stackingType = 2,
 					effort = 15,
+					model = 29,
+					clientId = 30225,
+					price = 360,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -1059,16 +1059,16 @@ houseData = {
 								amount = 1200
 							},
 							{
-								clientId = 28864,
 								name = "cabbage",
+								clientId = 28864,
 								amount = {
 									[1] = 2,
 									[2] = 4
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1077,8 +1077,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1086,13 +1086,13 @@ houseData = {
 					}
 				},
 				{
-					model = 30,
 					name = "Onion",
-					clientId = 25128,
-					stackingType = 2,
-					price = 560,
 					itemId = 31862,
+					stackingType = 2,
 					effort = 22,
+					model = 30,
+					clientId = 25128,
+					price = 560,
 					gathering = {
 						timeToMature = "9 hours",
 						rewards = {
@@ -1101,16 +1101,16 @@ houseData = {
 								amount = 1800
 							},
 							{
-								clientId = 28870,
 								name = "onion",
+								clientId = 28870,
 								amount = {
 									[1] = 3,
 									[2] = 6
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1119,8 +1119,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1128,13 +1128,13 @@ houseData = {
 					}
 				},
 				{
-					model = 31,
 					name = "Beans",
-					clientId = 30219,
-					stackingType = 2,
-					price = 940,
 					itemId = 31863,
+					stackingType = 2,
 					effort = 37,
+					model = 31,
+					clientId = 30219,
+					price = 940,
 					gathering = {
 						timeToMature = "15 hours",
 						rewards = {
@@ -1143,16 +1143,16 @@ houseData = {
 								amount = 3000
 							},
 							{
-								clientId = 28878,
 								name = "bean",
+								clientId = 28878,
 								amount = {
 									[1] = 9,
 									[2] = 15
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1161,8 +1161,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1170,13 +1170,13 @@ houseData = {
 					}
 				},
 				{
-					model = 32,
 					name = "Pumpkin",
-					clientId = 30234,
-					stackingType = 2,
-					price = 1500,
 					itemId = 31848,
+					stackingType = 2,
 					effort = 60,
+					model = 32,
+					clientId = 30234,
+					price = 1500,
 					gathering = {
 						timeToMature = "24 hours",
 						rewards = {
@@ -1185,16 +1185,16 @@ houseData = {
 								amount = 4800
 							},
 							{
-								clientId = 28875,
 								name = "pumpkin",
+								clientId = 28875,
 								amount = {
 									[1] = 2,
 									[2] = 4
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1203,8 +1203,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1212,13 +1212,13 @@ houseData = {
 					}
 				},
 				{
-					model = 33,
 					name = "Pea",
-					clientId = 30231,
-					stackingType = 2,
-					price = 1200,
 					itemId = 31845,
+					stackingType = 2,
 					effort = 48,
+					model = 33,
+					clientId = 30231,
+					price = 1200,
 					gathering = {
 						timeToMature = "19.5 hours",
 						rewards = {
@@ -1227,16 +1227,16 @@ houseData = {
 								amount = 3900
 							},
 							{
-								clientId = 28871,
 								name = "pea",
+								clientId = 28871,
 								amount = {
 									[1] = 9,
 									[2] = 15
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1245,8 +1245,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1254,13 +1254,13 @@ houseData = {
 					}
 				},
 				{
-					model = 34,
 					name = "Garlic",
-					clientId = 30228,
-					stackingType = 2,
-					price = 1000,
 					itemId = 31841,
+					stackingType = 2,
 					effort = 41,
+					model = 34,
+					clientId = 30228,
+					price = 1000,
 					gathering = {
 						timeToMature = "16.5 hours",
 						rewards = {
@@ -1269,16 +1269,16 @@ houseData = {
 								amount = 3300
 							},
 							{
-								clientId = 28869,
 								name = "garlic",
+								clientId = 28869,
 								amount = {
 									[1] = 6,
 									[2] = 12
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1287,8 +1287,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1296,13 +1296,13 @@ houseData = {
 					}
 				},
 				{
-					model = 35,
 					name = "Brocolli",
-					clientId = 30222,
-					stackingType = 2,
-					price = 940,
 					itemId = 31836,
+					stackingType = 2,
 					effort = 37,
+					model = 35,
+					clientId = 30222,
+					price = 940,
 					gathering = {
 						timeToMature = "15 hours",
 						rewards = {
@@ -1311,16 +1311,16 @@ houseData = {
 								amount = 3000
 							},
 							{
-								clientId = 28863,
 								name = "brocolli",
+								clientId = 28863,
 								amount = {
 									[1] = 3,
 									[2] = 6
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1329,8 +1329,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1338,13 +1338,13 @@ houseData = {
 					}
 				},
 				{
+					name = "Pepper",
+					itemId = 31846,
+					stackingType = 2,
+					effort = 71,
 					model = 36,
 					clientId = 25129,
-					stackingType = 2,
-					name = "Pepper",
 					price = 1800,
-					itemId = 31846,
-					effort = 71,
 					gathering = {
 						timeToMature = "28.5 hours",
 						rewards = {
@@ -1353,16 +1353,16 @@ houseData = {
 								amount = 5700
 							},
 							{
-								clientId = 28872,
 								name = "pepper",
+								clientId = 28872,
 								amount = {
 									[1] = 9,
 									[2] = 15
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1376,8 +1376,8 @@ houseData = {
 						type = 5
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1385,13 +1385,13 @@ houseData = {
 					}
 				},
 				{
-					model = 37,
 					name = "Grape",
-					clientId = 30255,
-					stackingType = 2,
-					price = 360,
 					itemId = 31842,
+					stackingType = 2,
 					effort = 15,
+					model = 37,
+					clientId = 30255,
+					price = 360,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -1400,16 +1400,16 @@ houseData = {
 								amount = 1200
 							},
 							{
-								clientId = 28831,
 								name = "grape",
+								clientId = 28831,
 								amount = {
 									[1] = 2,
 									[2] = 4
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1418,8 +1418,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1427,13 +1427,13 @@ houseData = {
 					}
 				},
 				{
-					model = 38,
 					name = "Apple",
-					clientId = 34246,
-					stackingType = 3,
-					price = 3700,
 					itemId = 31833,
+					stackingType = 3,
 					effort = 150,
+					model = 38,
+					clientId = 34246,
+					price = 3700,
 					gathering = {
 						timeToMature = "7.5 hours",
 						rewards = {
@@ -1442,16 +1442,16 @@ houseData = {
 								amount = 6000
 							},
 							{
-								clientId = 28822,
 								name = "apple",
+								clientId = 28822,
 								amount = {
 									[1] = 3,
 									[2] = 6
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1460,8 +1460,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1469,13 +1469,13 @@ houseData = {
 					}
 				},
 				{
-					model = 39,
 					name = "Cotton",
-					clientId = 34249,
-					stackingType = 3,
-					price = 2200,
 					itemId = 31840,
+					stackingType = 3,
 					effort = 90,
+					model = 39,
+					clientId = 34249,
+					price = 2200,
 					gathering = {
 						timeToMature = "4.5 hours",
 						rewards = {
@@ -1484,16 +1484,16 @@ houseData = {
 								amount = 3600
 							},
 							{
-								clientId = 28879,
 								name = "cotton",
+								clientId = 28879,
 								amount = {
 									[1] = 4,
 									[2] = 8
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1502,8 +1502,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1511,13 +1511,13 @@ houseData = {
 					}
 				},
 				{
-					model = 40,
 					name = "Blueberry",
-					clientId = 30246,
-					stackingType = 2,
-					price = 360,
 					itemId = 31835,
+					stackingType = 2,
 					effort = 15,
+					model = 40,
+					clientId = 30246,
+					price = 360,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -1526,16 +1526,16 @@ houseData = {
 								amount = 1200
 							},
 							{
-								clientId = 28825,
 								name = "blueberry",
+								clientId = 28825,
 								amount = {
 									[1] = 9,
 									[2] = 15
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1544,8 +1544,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1553,13 +1553,13 @@ houseData = {
 					}
 				},
 				{
-					model = 41,
 					name = "Orange",
-					clientId = 34250,
-					stackingType = 3,
-					price = 7500,
 					itemId = 31844,
+					stackingType = 3,
 					effort = 300,
+					model = 41,
+					clientId = 34250,
+					price = 7500,
 					gathering = {
 						timeToMature = "15 hours",
 						rewards = {
@@ -1568,16 +1568,16 @@ houseData = {
 								amount = 12000
 							},
 							{
-								clientId = 28832,
 								name = "orange",
+								clientId = 28832,
 								amount = {
 									[1] = 3,
 									[2] = 6
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1586,8 +1586,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1595,13 +1595,13 @@ houseData = {
 					}
 				},
 				{
-					model = 42,
 					name = "Strawberry",
-					clientId = 30261,
-					stackingType = 2,
-					price = 480,
 					itemId = 31849,
+					stackingType = 2,
 					effort = 18,
+					model = 42,
+					clientId = 30261,
+					price = 480,
 					gathering = {
 						timeToMature = "7.5 hours",
 						rewards = {
@@ -1610,16 +1610,16 @@ houseData = {
 								amount = 1500
 							},
 							{
-								clientId = 28827,
 								name = "strawberry",
+								clientId = 28827,
 								amount = {
 									[1] = 6,
 									[2] = 12
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1628,8 +1628,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1637,13 +1637,13 @@ houseData = {
 					}
 				},
 				{
-					model = 43,
 					name = "Banana",
-					clientId = 34247,
-					stackingType = 3,
-					price = 12000,
 					itemId = 31834,
+					stackingType = 3,
 					effort = 480,
+					model = 43,
+					clientId = 34247,
+					price = 12000,
 					gathering = {
 						timeToMature = "24 hours",
 						rewards = {
@@ -1652,16 +1652,16 @@ houseData = {
 								amount = 19200
 							},
 							{
-								clientId = 28823,
 								name = "banana",
+								clientId = 28823,
 								amount = {
 									[1] = 6,
 									[2] = 12
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1670,8 +1670,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1679,13 +1679,13 @@ houseData = {
 					}
 				},
 				{
-					model = 44,
 					name = "Watermelon",
-					clientId = 30267,
-					stackingType = 2,
-					price = 1800,
 					itemId = 31850,
+					stackingType = 2,
 					effort = 75,
+					model = 44,
+					clientId = 30267,
+					price = 1800,
 					gathering = {
 						timeToMature = "30 hours",
 						rewards = {
@@ -1694,16 +1694,16 @@ houseData = {
 								amount = 6000
 							},
 							{
-								clientId = 28828,
 								name = "watermelon",
+								clientId = 28828,
 								amount = {
 									[1] = 2,
 									[2] = 4
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1712,8 +1712,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1721,13 +1721,13 @@ houseData = {
 					}
 				},
 				{
-					model = 45,
 					name = "Moonberry",
-					clientId = 30281,
-					stackingType = 2,
-					price = 1320,
 					itemId = 31843,
+					stackingType = 2,
 					effort = 52,
+					model = 45,
+					clientId = 30281,
+					price = 1320,
 					gathering = {
 						timeToMature = "21 hours",
 						rewards = {
@@ -1736,16 +1736,16 @@ houseData = {
 								amount = 4200
 							},
 							{
-								clientId = 28826,
 								name = "moonberry",
+								clientId = 28826,
 								amount = {
 									[1] = 3,
 									[2] = 9
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1754,8 +1754,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1763,13 +1763,13 @@ houseData = {
 					}
 				},
 				{
-					model = 46,
 					name = "Acorn",
-					clientId = 34245,
-					stackingType = 3,
-					price = 24000,
 					itemId = 31832,
+					stackingType = 3,
 					effort = 960,
+					model = 46,
+					clientId = 34245,
+					price = 24000,
 					gathering = {
 						timeToMature = "48 hours",
 						rewards = {
@@ -1778,16 +1778,16 @@ houseData = {
 								amount = 38400
 							},
 							{
-								clientId = 28829,
 								name = "acorn",
+								clientId = 28829,
 								amount = {
 									[1] = 6,
 									[2] = 12
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1796,8 +1796,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1805,13 +1805,13 @@ houseData = {
 					}
 				},
 				{
-					model = 47,
 					name = "Sunberry",
-					clientId = 30264,
-					stackingType = 2,
-					price = 1800,
 					itemId = 31865,
+					stackingType = 2,
 					effort = 75,
+					model = 47,
+					clientId = 30264,
+					price = 1800,
 					gathering = {
 						timeToMature = "30 hours",
 						rewards = {
@@ -1820,16 +1820,16 @@ houseData = {
 								amount = 6000
 							},
 							{
-								clientId = 28824,
 								name = "sunberry",
+								clientId = 28824,
 								amount = {
 									[1] = 3,
 									[2] = 9
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1838,8 +1838,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1847,13 +1847,13 @@ houseData = {
 					}
 				},
 				{
+					name = "Cherry",
+					itemId = 31838,
+					stackingType = 3,
+					effort = 420,
 					model = 48,
 					clientId = 34248,
-					stackingType = 3,
-					name = "Cherry",
 					price = 10500,
-					itemId = 31838,
-					effort = 420,
 					gathering = {
 						timeToMature = "21 hours",
 						rewards = {
@@ -1862,16 +1862,16 @@ houseData = {
 								amount = 16800
 							},
 							{
-								clientId = 28830,
 								name = "cherry",
+								clientId = 28830,
 								amount = {
 									[1] = 6,
 									[2] = 12
 								}
 							},
 							{
-								clientId = 34370,
 								name = "Three-Leaf Clover",
+								clientId = 34370,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1885,8 +1885,8 @@ houseData = {
 						type = 5
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "farming",
@@ -1899,12 +1899,12 @@ houseData = {
 			window_id = "husbandry",
 			window_data = {
 				{
+					name = "Small Chicken Pen",
+					stackingType = 1,
+					effort = 100,
 					model = 1,
 					clientId = 34361,
-					stackingType = 1,
-					name = "Small Chicken Pen",
 					price = 1000,
-					effort = 100,
 					butchering = {
 						timeToMature = "5 hours",
 						rewards = {
@@ -1913,16 +1913,16 @@ houseData = {
 								amount = 4000
 							},
 							{
-								clientId = 28750,
 								name = "chicken",
+								clientId = 28750,
 								amount = {
 									[1] = 3,
 									[2] = 5
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1938,16 +1938,16 @@ houseData = {
 								amount = 1600
 							},
 							{
-								clientId = 28928,
 								name = "egg",
+								clientId = 28928,
 								amount = {
 									[1] = 4,
 									[2] = 6
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -1957,8 +1957,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -1966,12 +1966,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Small Hare Pen",
+					stackingType = 1,
+					effort = 100,
 					model = 9,
 					clientId = 34461,
-					stackingType = 1,
-					name = "Small Hare Pen",
 					price = 1000,
-					effort = 100,
 					butchering = {
 						timeToMature = "5 hours",
 						rewards = {
@@ -1980,16 +1980,16 @@ houseData = {
 								amount = 4000
 							},
 							{
-								clientId = 28750,
 								name = "chicken",
+								clientId = 28750,
 								amount = {
 									[1] = 3,
 									[2] = 5
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2005,16 +2005,16 @@ houseData = {
 								amount = 1600
 							},
 							{
-								clientId = 34475,
 								name = "spool of hair",
+								clientId = 34475,
 								amount = {
 									[1] = 4,
 									[2] = 6
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2024,8 +2024,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2034,11 +2034,11 @@ houseData = {
 				},
 				{
 					name = "Small Pig Pen",
+					stackingType = 1,
+					effort = 160,
 					model = 3,
 					clientId = 34365,
-					stackingType = 1,
 					price = 1000,
-					effort = 160,
 					butchering = {
 						timeToMature = "8 hours",
 						rewards = {
@@ -2047,24 +2047,24 @@ houseData = {
 								amount = 6400
 							},
 							{
-								clientId = 28932,
 								name = "shank",
+								clientId = 28932,
 								amount = {
 									[1] = 3,
 									[2] = 4
 								}
 							},
 							{
-								clientId = 35353,
 								name = "Hide",
+								clientId = 35353,
 								amount = {
 									[1] = 2,
 									[2] = 4
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2074,8 +2074,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2083,12 +2083,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Small Goat Pen",
+					stackingType = 1,
+					effort = 130,
 					model = 11,
 					clientId = 35083,
-					stackingType = 1,
-					name = "Small Goat Pen",
 					price = 1800,
-					effort = 130,
 					butchering = {
 						timeToMature = "6.5 hours",
 						rewards = {
@@ -2097,16 +2097,16 @@ houseData = {
 								amount = 5200
 							},
 							{
-								clientId = 28932,
 								name = "shank",
+								clientId = 28932,
 								amount = {
 									[1] = 4,
 									[2] = 7
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2122,24 +2122,24 @@ houseData = {
 								amount = 2000
 							},
 							{
-								clientId = 28929,
 								name = "milk",
+								clientId = 28929,
 								amount = {
 									[1] = 2,
 									[2] = 3
 								}
 							},
 							{
-								clientId = 28425,
 								name = "wool",
+								clientId = 28425,
 								amount = {
 									[1] = 1,
 									[2] = 1
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2149,8 +2149,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2159,11 +2159,11 @@ houseData = {
 				},
 				{
 					name = "Small Turkey Pen",
+					stackingType = 1,
+					effort = 190,
 					model = 13,
 					clientId = 35085,
-					stackingType = 1,
 					price = 1300,
-					effort = 190,
 					butchering = {
 						timeToMature = "9.5 hours",
 						rewards = {
@@ -2172,24 +2172,24 @@ houseData = {
 								amount = 7600
 							},
 							{
-								clientId = 28750,
 								name = "chicken",
+								clientId = 28750,
 								amount = {
 									[1] = 3,
 									[2] = 5
 								}
 							},
 							{
-								clientId = 35354,
 								name = "Feather",
+								clientId = 35354,
 								amount = {
 									[1] = 2,
 									[2] = 5
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2199,8 +2199,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2208,12 +2208,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Small Sheep Pen",
+					stackingType = 1,
+					effort = 240,
 					model = 5,
 					clientId = 34363,
-					stackingType = 1,
-					name = "Small Sheep Pen",
 					price = 2600,
-					effort = 240,
 					butchering = {
 						timeToMature = "12 hours",
 						rewards = {
@@ -2222,16 +2222,16 @@ houseData = {
 								amount = 9600
 							},
 							{
-								clientId = 28932,
 								name = "shank",
+								clientId = 28932,
 								amount = {
 									[1] = 8,
 									[2] = 12
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2247,16 +2247,16 @@ houseData = {
 								amount = 4000
 							},
 							{
-								clientId = 28425,
 								name = "wool",
+								clientId = 28425,
 								amount = {
 									[1] = 3,
 									[2] = 5
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2266,8 +2266,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2275,12 +2275,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Small Cow Pen",
+					stackingType = 1,
+					effort = 400,
 					model = 7,
 					clientId = 34367,
-					stackingType = 1,
-					name = "Small Cow Pen",
 					price = 2600,
-					effort = 400,
 					butchering = {
 						timeToMature = "20 hours",
 						rewards = {
@@ -2289,24 +2289,24 @@ houseData = {
 								amount = 16000
 							},
 							{
-								clientId = 28931,
 								name = "beef",
+								clientId = 28931,
 								amount = {
 									[1] = 6,
 									[2] = 11
 								}
 							},
 							{
-								clientId = 35353,
 								name = "Hide",
+								clientId = 35353,
 								amount = {
 									[1] = 6,
 									[2] = 9
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2322,16 +2322,16 @@ houseData = {
 								amount = 2400
 							},
 							{
-								clientId = 28929,
 								name = "milk",
+								clientId = 28929,
 								amount = {
 									[1] = 3,
 									[2] = 5
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2341,8 +2341,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2350,12 +2350,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Medium Chicken Pen",
+					stackingType = 1,
+					effort = 224,
 					model = 2,
 					clientId = 34362,
-					stackingType = 1,
-					name = "Medium Chicken Pen",
 					price = 2600,
-					effort = 224,
 					butchering = {
 						timeToMature = "5 hours",
 						rewards = {
@@ -2364,16 +2364,16 @@ houseData = {
 								amount = 9000
 							},
 							{
-								clientId = 28750,
 								name = "chicken",
+								clientId = 28750,
 								amount = {
 									[1] = 7,
 									[2] = 12
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2389,16 +2389,16 @@ houseData = {
 								amount = 3600
 							},
 							{
-								clientId = 28928,
 								name = "egg",
+								clientId = 28928,
 								amount = {
 									[1] = 9,
 									[2] = 14
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2408,8 +2408,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2417,12 +2417,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Medium Hare Pen",
+					stackingType = 1,
+					effort = 224,
 					model = 10,
 					clientId = 34465,
-					stackingType = 1,
-					name = "Medium Hare Pen",
 					price = 2600,
-					effort = 224,
 					butchering = {
 						timeToMature = "5 hours",
 						rewards = {
@@ -2431,16 +2431,16 @@ houseData = {
 								amount = 9000
 							},
 							{
-								clientId = 28750,
 								name = "chicken",
+								clientId = 28750,
 								amount = {
 									[1] = 7,
 									[2] = 12
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2456,16 +2456,16 @@ houseData = {
 								amount = 3600
 							},
 							{
-								clientId = 34475,
 								name = "spool of hair",
+								clientId = 34475,
 								amount = {
 									[1] = 9,
 									[2] = 14
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2475,8 +2475,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2485,11 +2485,11 @@ houseData = {
 				},
 				{
 					name = "Medium Pig Pen",
+					stackingType = 1,
+					effort = 360,
 					model = 4,
 					clientId = 34366,
-					stackingType = 1,
 					price = 3000,
-					effort = 360,
 					butchering = {
 						timeToMature = "8 hours",
 						rewards = {
@@ -2498,24 +2498,24 @@ houseData = {
 								amount = 14400
 							},
 							{
-								clientId = 28932,
 								name = "shank",
+								clientId = 28932,
 								amount = {
 									[1] = 6,
 									[2] = 9
 								}
 							},
 							{
-								clientId = 35353,
 								name = "Hide",
+								clientId = 35353,
 								amount = {
 									[1] = 6,
 									[2] = 9
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2525,8 +2525,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2534,12 +2534,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Medium Goat Pen",
+					stackingType = 1,
+					effort = 292,
 					model = 12,
 					clientId = 35082,
-					stackingType = 1,
-					name = "Medium Goat Pen",
 					price = 3800,
-					effort = 292,
 					butchering = {
 						timeToMature = "6.5 hours",
 						rewards = {
@@ -2548,16 +2548,16 @@ houseData = {
 								amount = 11700
 							},
 							{
-								clientId = 28932,
 								name = "shank",
+								clientId = 28932,
 								amount = {
 									[1] = 9,
 									[2] = 14
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2573,24 +2573,24 @@ houseData = {
 								amount = 4500
 							},
 							{
-								clientId = 28929,
 								name = "milk",
+								clientId = 28929,
 								amount = {
 									[1] = 4,
 									[2] = 6
 								}
 							},
 							{
-								clientId = 28425,
 								name = "wool",
+								clientId = 28425,
 								amount = {
 									[1] = 2,
 									[2] = 4
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2600,8 +2600,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2610,11 +2610,11 @@ houseData = {
 				},
 				{
 					name = "Medium Turkey Pen",
+					stackingType = 1,
+					effort = 428,
 					model = 14,
 					clientId = 35084,
-					stackingType = 1,
 					price = 3500,
-					effort = 428,
 					butchering = {
 						timeToMature = "9.5 hours",
 						rewards = {
@@ -2623,24 +2623,24 @@ houseData = {
 								amount = 17100
 							},
 							{
-								clientId = 28750,
 								name = "chicken",
+								clientId = 28750,
 								amount = {
 									[1] = 9,
 									[2] = 13
 								}
 							},
 							{
-								clientId = 35354,
 								name = "Feather",
+								clientId = 35354,
 								amount = {
 									[1] = 5,
 									[2] = 8
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2650,8 +2650,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2659,12 +2659,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Medium Sheep Pen",
+					stackingType = 1,
+					effort = 540,
 					model = 6,
 					clientId = 34364,
-					stackingType = 1,
-					name = "Medium Sheep Pen",
 					price = 5800,
-					effort = 540,
 					butchering = {
 						timeToMature = "12 hours",
 						rewards = {
@@ -2673,16 +2673,16 @@ houseData = {
 								amount = 21600
 							},
 							{
-								clientId = 28932,
 								name = "shank",
+								clientId = 28932,
 								amount = {
 									[1] = 18,
 									[2] = 27
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2698,16 +2698,16 @@ houseData = {
 								amount = 9000
 							},
 							{
-								clientId = 28425,
 								name = "wool",
+								clientId = 28425,
 								amount = {
 									[1] = 8,
 									[2] = 11
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2717,8 +2717,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2726,12 +2726,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Medium Cow Pen",
+					stackingType = 1,
+					effort = 900,
 					model = 8,
 					clientId = 34368,
-					stackingType = 1,
-					name = "Medium Cow Pen",
 					price = 5800,
-					effort = 900,
 					butchering = {
 						timeToMature = "20 hours",
 						rewards = {
@@ -2740,24 +2740,24 @@ houseData = {
 								amount = 36000
 							},
 							{
-								clientId = 28931,
 								name = "beef",
+								clientId = 28931,
 								amount = {
 									[1] = 15,
 									[2] = 22
 								}
 							},
 							{
-								clientId = 35353,
 								name = "Hide",
+								clientId = 35353,
 								amount = {
 									[1] = 14,
 									[2] = 21
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2773,16 +2773,16 @@ houseData = {
 								amount = 5400
 							},
 							{
-								clientId = 28929,
 								name = "milk",
+								clientId = 28929,
 								amount = {
 									[1] = 8,
 									[2] = 11
 								}
 							},
 							{
-								clientId = 34369,
 								name = "Fertilizer",
+								clientId = 34369,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2792,8 +2792,8 @@ houseData = {
 					},
 					materials = {},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2801,12 +2801,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Cheese Barrel",
+					stackingType = 6,
+					effort = 150,
 					model = 15,
 					clientId = 37440,
-					stackingType = 6,
-					name = "Cheese Barrel",
 					price = 2300,
-					effort = 150,
 					gathering = {
 						timeToMature = "30 hours",
 						rewards = {
@@ -2815,8 +2815,8 @@ houseData = {
 								amount = 6000
 							},
 							{
-								clientId = 28927,
 								name = "cheese",
+								clientId = 28927,
 								amount = {
 									[1] = 1,
 									[2] = 2
@@ -2826,10 +2826,10 @@ houseData = {
 					},
 					itemsRequired = {
 						{
-							clientId = 28929,
+							name = "milk",
 							amount = 1,
 							id = 32361,
-							name = "milk"
+							clientId = 28929
 						}
 					},
 					materials = {},
@@ -2839,8 +2839,8 @@ houseData = {
 						type = 5
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2848,12 +2848,12 @@ houseData = {
 					}
 				},
 				{
+					name = "Bee Hive",
+					stackingType = 7,
+					effort = 224,
 					model = 16,
 					clientId = 44230,
-					stackingType = 7,
-					name = "Bee Hive",
 					price = 3500,
-					effort = 224,
 					gathering = {
 						timeToMature = "45 hours",
 						rewards = {
@@ -2862,8 +2862,8 @@ houseData = {
 								amount = 9000
 							},
 							{
-								clientId = 44381,
 								name = "Honey",
+								clientId = 44381,
 								amount = {
 									[1] = 12,
 									[2] = 24
@@ -2878,8 +2878,8 @@ houseData = {
 						type = 5
 					},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "husbandry",
@@ -2892,13 +2892,13 @@ houseData = {
 			window_id = "woodcutting",
 			window_data = {
 				{
-					model = 49,
 					name = "Juniper",
-					clientId = 34228,
-					stackingType = 3,
-					price = 500,
 					itemId = 37658,
+					stackingType = 3,
 					effort = 20,
+					model = 49,
+					clientId = 34228,
+					price = 500,
 					gathering = {
 						timeToMature = "2 hours",
 						rewards = {
@@ -2907,16 +2907,16 @@ houseData = {
 								amount = 1600
 							},
 							{
-								clientId = 28977,
 								name = "Small Log",
+								clientId = 28977,
 								amount = {
 									[1] = 4,
 									[2] = 8
 								}
 							},
 							{
-								clientId = 34371,
 								name = "Dense Log",
+								clientId = 34371,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2925,8 +2925,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "woodcutting",
@@ -2934,13 +2934,13 @@ houseData = {
 					}
 				},
 				{
-					model = 50,
 					name = "Fir",
-					clientId = 34237,
-					stackingType = 3,
-					price = 2000,
 					itemId = 37667,
+					stackingType = 3,
 					effort = 80,
+					model = 50,
+					clientId = 34237,
+					price = 2000,
 					gathering = {
 						timeToMature = "8 hours",
 						rewards = {
@@ -2949,16 +2949,16 @@ houseData = {
 								amount = 6400
 							},
 							{
-								clientId = 28977,
 								name = "Small Log",
+								clientId = 28977,
 								amount = {
 									[1] = 20,
 									[2] = 26
 								}
 							},
 							{
-								clientId = 34371,
 								name = "Dense Log",
+								clientId = 34371,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -2967,8 +2967,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "woodcutting",
@@ -2976,13 +2976,13 @@ houseData = {
 					}
 				},
 				{
-					model = 51,
 					name = "Palm",
-					clientId = 34234,
-					stackingType = 3,
-					price = 1500,
 					itemId = 37664,
+					stackingType = 3,
 					effort = 60,
+					model = 51,
+					clientId = 34234,
+					price = 1500,
 					gathering = {
 						timeToMature = "6 hours",
 						rewards = {
@@ -2991,16 +2991,16 @@ houseData = {
 								amount = 4800
 							},
 							{
-								clientId = 45504,
 								name = "Heavy Log",
+								clientId = 45504,
 								amount = {
 									[1] = 14,
 									[2] = 19
 								}
 							},
 							{
-								clientId = 34371,
 								name = "Dense Log",
+								clientId = 34371,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -3009,8 +3009,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "woodcutting",
@@ -3018,13 +3018,13 @@ houseData = {
 					}
 				},
 				{
-					model = 52,
 					name = "Oak",
-					clientId = 34231,
-					stackingType = 3,
-					price = 6000,
 					itemId = 37661,
+					stackingType = 3,
 					effort = 240,
+					model = 52,
+					clientId = 34231,
+					price = 6000,
 					gathering = {
 						timeToMature = "24 hours",
 						rewards = {
@@ -3033,16 +3033,16 @@ houseData = {
 								amount = 19000
 							},
 							{
-								clientId = 45504,
 								name = "Heavy Log",
+								clientId = 45504,
 								amount = {
 									[1] = 50,
 									[2] = 80
 								}
 							},
 							{
-								clientId = 34371,
 								name = "Dense Log",
+								clientId = 34371,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -3051,8 +3051,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "woodcutting",
@@ -3060,13 +3060,13 @@ houseData = {
 					}
 				},
 				{
-					model = 53,
 					name = "Wildleaf",
-					clientId = 34225,
-					stackingType = 3,
-					price = 4000,
 					itemId = 37655,
+					stackingType = 3,
 					effort = 160,
+					model = 53,
+					clientId = 34225,
+					price = 4000,
 					gathering = {
 						timeToMature = "16 hours",
 						rewards = {
@@ -3075,16 +3075,16 @@ houseData = {
 								amount = 13000
 							},
 							{
-								clientId = 45505,
 								name = "Sturdy Log",
+								clientId = 45505,
 								amount = {
 									[1] = 28,
 									[2] = 37
 								}
 							},
 							{
-								clientId = 34371,
 								name = "Dense Log",
+								clientId = 34371,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -3093,8 +3093,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "woodcutting",
@@ -3102,13 +3102,13 @@ houseData = {
 					}
 				},
 				{
-					model = 54,
 					name = "Willow",
-					clientId = 34244,
-					stackingType = 3,
-					price = 3000,
 					itemId = 37674,
+					stackingType = 3,
 					effort = 120,
+					model = 54,
+					clientId = 34244,
+					price = 3000,
 					gathering = {
 						timeToMature = "12 hours",
 						rewards = {
@@ -3117,16 +3117,16 @@ houseData = {
 								amount = 9600
 							},
 							{
-								clientId = 45502,
 								name = "Fine Log",
+								clientId = 45502,
 								amount = {
 									[1] = 14,
 									[2] = 19
 								}
 							},
 							{
-								clientId = 34371,
 								name = "Dense Log",
+								clientId = 34371,
 								amount = {
 									[1] = 0,
 									[2] = 1
@@ -3135,8 +3135,8 @@ houseData = {
 						}
 					},
 					size = {
-						y = 2,
-						x = 2
+						x = 2,
+						y = 2
 					},
 					skillRequired = {
 						[1] = "woodcutting",
@@ -3150,15 +3150,15 @@ houseData = {
 			window_data = {
 				{
 					name = "Moa Stable",
-					model = 55,
 					stackingHorizontalyOnly = true,
-					clientId = 38159,
-					stackingType = 4,
-					price = 300,
 					itemId = 0,
+					stackingType = 4,
+					model = 55,
+					clientId = 38159,
+					price = 300,
 					size = {
-						y = 1,
-						x = 2
+						x = 2,
+						y = 1
 					},
 					skillRequired = {
 						[1] = "breeding",
@@ -3174,2575 +3174,2575 @@ houseData = {
 					name = "Small Bedroom",
 					category = "bedroom",
 					model = 1,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
+					upgrade = 6,
 					tier = 1,
 					price = 5000,
-					upgrade = 6,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 3,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 35432,
+							name = "Coarse Leather",
 							amount = 2,
 							itemid = 38864,
-							name = "Coarse Leather"
+							clientId = 35432
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Small Kitchen",
 					category = "cooking",
 					model = 2,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
+					upgrade = 7,
 					tier = 1,
 					price = 5000,
-					upgrade = 7,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28726,
+							name = "copper ingot",
 							amount = 8,
 							itemid = 32158,
-							name = "copper ingot"
+							clientId = 28726
 						},
 						{
-							clientId = 28946,
+							name = "stone",
 							amount = 15,
 							itemid = 32378,
-							name = "stone"
+							clientId = 28946
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Small Armory",
 					category = "blacksmithing",
 					model = 3,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
+					upgrade = 8,
 					tier = 1,
 					price = 5000,
-					upgrade = 8,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 3,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28726,
+							name = "copper ingot",
 							amount = 6,
 							itemid = 32158,
-							name = "copper ingot"
+							clientId = 28726
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Small Workshop",
 					category = "carpentry",
 					model = 4,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
+					upgrade = 9,
 					tier = 1,
 					price = 5000,
-					upgrade = 9,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 5,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28726,
+							name = "copper ingot",
 							amount = 2,
 							itemid = 32158,
-							name = "copper ingot"
+							clientId = 28726
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Small Weaving",
 					category = "weaving",
 					model = 5,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
+					upgrade = 10,
 					tier = 1,
 					price = 5000,
-					upgrade = 10,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 3,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28971,
+							name = "coarse thread",
 							amount = 2,
 							itemid = 32403,
-							name = "coarse thread"
+							clientId = 28971
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Medium Bedroom",
 					category = "bedroom",
 					model = 6,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
 					tier = 2,
 					price = 10000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37267,
+							name = "Simple Bed",
 							amount = 1,
 							itemid = 40719,
-							name = "Simple Bed"
+							clientId = 37267
 						},
 						{
-							clientId = 42780,
+							name = "Cheap Rug",
 							amount = 1,
 							itemid = 46232,
-							name = "Cheap Rug"
+							clientId = 42780
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Medium Kitchen",
 					category = "cooking",
 					model = 7,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
 					tier = 2,
 					price = 10000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37281,
+							name = "Stove",
 							amount = 1,
 							itemid = 40733,
-							name = "Stove"
+							clientId = 37281
 						},
 						{
-							clientId = 42777,
+							name = "Weak Table",
 							amount = 1,
 							itemid = 46229,
-							name = "Weak Table"
+							clientId = 42777
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Medium Armory",
 					category = "blacksmithing",
 					model = 8,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
 					tier = 2,
 					price = 10000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 42784,
+							name = "Basic Tools",
 							amount = 1,
 							itemid = 46236,
-							name = "Basic Tools"
+							clientId = 42784
 						},
 						{
-							clientId = 42778,
+							name = "Copper Anvil",
 							amount = 2,
 							itemid = 46230,
-							name = "Copper Anvil"
+							clientId = 42778
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Medium Workshop",
 					category = "carpentry",
 					model = 9,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
 					tier = 2,
 					price = 10000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37290,
+							name = "Work Bench",
 							amount = 1,
 							itemid = 40742,
-							name = "Work Bench"
+							clientId = 37290
 						},
 						{
-							clientId = 42784,
+							name = "Basic Tools",
 							amount = 2,
 							itemid = 46236,
-							name = "Basic Tools"
+							clientId = 42784
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Medium Weaving",
 					category = "weaving",
 					model = 10,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
 					tier = 2,
 					price = 10000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37226,
+							name = "Cloth Roll",
 							amount = 1,
 							itemid = 40678,
-							name = "Cloth Roll"
+							clientId = 37226
 						},
 						{
-							clientId = 37288,
+							name = "Thread Spool",
 							amount = 1,
 							itemid = 40740,
-							name = "Thread Spool"
+							clientId = 37288
 						},
 						{
-							clientId = 42781,
+							name = "Frail Loom",
 							amount = 1,
 							itemid = 46233,
-							name = "Frail Loom"
+							clientId = 42781
 						}
 					},
 					size = {
-						y = 3,
-						x = 3
+						x = 3,
+						y = 3
 					}
 				},
 				{
 					name = "Small Bedroom",
 					category = "bedroom",
 					model = 11,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
+					upgrade = 16,
 					tier = 1,
 					price = 5000,
-					upgrade = 16,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 3,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 35432,
+							name = "Coarse Leather",
 							amount = 2,
 							itemid = 38864,
-							name = "Coarse Leather"
+							clientId = 35432
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Small Kitchen",
 					category = "cooking",
 					model = 12,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
+					upgrade = 17,
 					tier = 1,
 					price = 5000,
-					upgrade = 17,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28726,
+							name = "copper ingot",
 							amount = 8,
 							itemid = 32158,
-							name = "copper ingot"
+							clientId = 28726
 						},
 						{
-							clientId = 28946,
+							name = "stone",
 							amount = 15,
 							itemid = 32378,
-							name = "stone"
+							clientId = 28946
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Small Armory",
 					category = "blacksmithing",
 					model = 13,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
+					upgrade = 18,
 					tier = 1,
 					price = 5000,
-					upgrade = 18,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 3,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28726,
+							name = "copper ingot",
 							amount = 6,
 							itemid = 32158,
-							name = "copper ingot"
+							clientId = 28726
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Small Workshop",
 					category = "carpentry",
 					model = 14,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
+					upgrade = 19,
 					tier = 1,
 					price = 5000,
-					upgrade = 19,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 5,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28726,
+							name = "copper ingot",
 							amount = 2,
 							itemid = 32158,
-							name = "copper ingot"
+							clientId = 28726
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Small Weaving",
 					category = "weaving",
 					model = 15,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
+					upgrade = 20,
 					tier = 1,
 					price = 5000,
-					upgrade = 20,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 3,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28971,
+							name = "coarse thread",
 							amount = 2,
 							itemid = 32403,
-							name = "coarse thread"
+							clientId = 28971
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Medium Bedroom",
 					category = "bedroom",
 					model = 16,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
+					upgrade = 21,
 					tier = 2,
 					price = 10000,
-					upgrade = 21,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37267,
+							name = "Simple Bed",
 							amount = 1,
 							itemid = 40719,
-							name = "Simple Bed"
+							clientId = 37267
 						},
 						{
-							clientId = 42780,
+							name = "Cheap Rug",
 							amount = 1,
 							itemid = 46232,
-							name = "Cheap Rug"
+							clientId = 42780
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Medium Kitchen",
 					category = "cooking",
 					model = 17,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
+					upgrade = 22,
 					tier = 2,
 					price = 10000,
-					upgrade = 22,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37281,
+							name = "Stove",
 							amount = 1,
 							itemid = 40733,
-							name = "Stove"
+							clientId = 37281
 						},
 						{
-							clientId = 42777,
+							name = "Weak Table",
 							amount = 1,
 							itemid = 46229,
-							name = "Weak Table"
+							clientId = 42777
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Medium Armory",
 					category = "blacksmithing",
 					model = 18,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
+					upgrade = 23,
 					tier = 2,
 					price = 10000,
-					upgrade = 23,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 42784,
+							name = "Basic Tools",
 							amount = 1,
 							itemid = 46236,
-							name = "Basic Tools"
+							clientId = 42784
 						},
 						{
-							clientId = 42778,
+							name = "Copper Anvil",
 							amount = 2,
 							itemid = 46230,
-							name = "Copper Anvil"
+							clientId = 42778
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Medium Workshop",
 					category = "carpentry",
 					model = 19,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
+					upgrade = 24,
 					tier = 2,
 					price = 10000,
-					upgrade = 24,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37290,
+							name = "Work Bench",
 							amount = 1,
 							itemid = 40742,
-							name = "Work Bench"
+							clientId = 37290
 						},
 						{
-							clientId = 42784,
+							name = "Basic Tools",
 							amount = 2,
 							itemid = 46236,
-							name = "Basic Tools"
+							clientId = 42784
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Medium Weaving",
 					category = "weaving",
 					model = 20,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
+					upgrade = 25,
 					tier = 2,
 					price = 10000,
-					upgrade = 25,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37226,
+							name = "Cloth Roll",
 							amount = 1,
 							itemid = 40678,
-							name = "Cloth Roll"
+							clientId = 37226
 						},
 						{
-							clientId = 37288,
+							name = "Thread Spool",
 							amount = 1,
 							itemid = 40740,
-							name = "Thread Spool"
+							clientId = 37288
 						},
 						{
-							clientId = 42781,
+							name = "Frail Loom",
 							amount = 1,
 							itemid = 46233,
-							name = "Frail Loom"
+							clientId = 42781
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Large Bedroom",
 					category = "bedroom",
 					model = 21,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
+					upgrade = 26,
 					tier = 3,
 					price = 50000,
-					upgrade = 26,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37228,
+							name = "Comfortable Bed",
 							amount = 1,
 							itemid = 40680,
-							name = "Comfortable Bed"
+							clientId = 37228
 						},
 						{
-							clientId = 37225,
+							name = "Carpet",
 							amount = 1,
 							itemid = 40677,
-							name = "Carpet"
+							clientId = 37225
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						},
 						{
-							clientId = 37224,
+							name = "Cabinet",
 							amount = 1,
 							itemid = 40676,
-							name = "Cabinet"
+							clientId = 37224
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Large Kitchen",
 					category = "cooking",
 					model = 22,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
+					upgrade = 27,
 					tier = 3,
 					price = 50000,
-					upgrade = 27,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37281,
+							name = "Stove",
 							amount = 1,
 							itemid = 40733,
-							name = "Stove"
+							clientId = 37281
 						},
 						{
-							clientId = 37279,
+							name = "Square Table",
 							amount = 1,
 							itemid = 40731,
-							name = "Square Table"
+							clientId = 37279
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 2,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Large Armory",
 					category = "blacksmithing",
 					model = 23,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
+					upgrade = 28,
 					tier = 3,
 					price = 50000,
-					upgrade = 28,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37234,
+							name = "Forging Tools",
 							amount = 1,
 							itemid = 40686,
-							name = "Forging Tools"
+							clientId = 37234
 						},
 						{
-							clientId = 37217,
+							name = "Anvil",
 							amount = 1,
 							itemid = 40669,
-							name = "Anvil"
+							clientId = 37217
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						},
 						{
-							clientId = 37235,
+							name = "Furnace",
 							amount = 1,
 							itemid = 40687,
-							name = "Furnace"
+							clientId = 37235
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Large Workshop",
 					category = "carpentry",
 					model = 24,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
+					upgrade = 29,
 					tier = 3,
 					price = 50000,
-					upgrade = 29,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37287,
+							name = "Superior Work Bench",
 							amount = 1,
 							itemid = 40739,
-							name = "Superior Work Bench"
+							clientId = 37287
 						},
 						{
-							clientId = 37289,
+							name = "Woodwork Tools",
 							amount = 1,
 							itemid = 40741,
-							name = "Woodwork Tools"
+							clientId = 37289
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 1,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Large Weaving",
 					category = "weaving",
 					model = 25,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
+					upgrade = 30,
 					tier = 3,
 					price = 50000,
-					upgrade = 30,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37262,
+							name = "Refined Cloth Roll",
 							amount = 1,
 							itemid = 40714,
-							name = "Refined Cloth Roll"
+							clientId = 37262
 						},
 						{
-							clientId = 37288,
+							name = "Thread Spool",
 							amount = 1,
 							itemid = 40740,
-							name = "Thread Spool"
+							clientId = 37288
 						},
 						{
-							clientId = 42783,
+							name = "Simple Loom",
 							amount = 1,
 							itemid = 46235,
-							name = "Simple Loom"
+							clientId = 42783
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Grand Bedroom",
 					category = "bedroom",
 					model = 26,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
 					tier = 4,
 					price = 100000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37245,
+							name = "Luxury Bed",
 							amount = 1,
 							itemid = 40697,
-							name = "Luxury Bed"
+							clientId = 37245
 						},
 						{
-							clientId = 37246,
+							name = "Luxury Carpet",
 							amount = 1,
 							itemid = 40698,
-							name = "Luxury Carpet"
+							clientId = 37246
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 1,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37224,
+							name = "Cabinet",
 							amount = 1,
 							itemid = 40676,
-							name = "Cabinet"
+							clientId = 37224
 						},
 						{
-							clientId = 37231,
+							name = "Fireplace",
 							amount = 1,
 							itemid = 40683,
-							name = "Fireplace"
+							clientId = 37231
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Grand Kitchen",
 					category = "cooking",
 					model = 27,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
 					tier = 4,
 					price = 100000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37221,
+							name = "Artisan Stove",
 							amount = 1,
 							itemid = 40673,
-							name = "Artisan Stove"
+							clientId = 37221
 						},
 						{
-							clientId = 37283,
+							name = "Sturdy Square Table",
 							amount = 1,
 							itemid = 40735,
-							name = "Sturdy Square Table"
+							clientId = 37283
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 1,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 2,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						},
 						{
-							clientId = 37219,
+							name = "Armoires",
 							amount = 1,
 							itemid = 40671,
-							name = "Armoires"
+							clientId = 37219
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Grand Armory",
 					category = "blacksmithing",
 					model = 28,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
 					tier = 4,
 					price = 100000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37285,
+							name = "Superior Forging Tools",
 							amount = 1,
 							itemid = 40737,
-							name = "Superior Forging Tools"
+							clientId = 37285
 						},
 						{
-							clientId = 37217,
+							name = "Anvil",
 							amount = 2,
 							itemid = 40669,
-							name = "Anvil"
+							clientId = 37217
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 2,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37235,
+							name = "Furnace",
 							amount = 2,
 							itemid = 40687,
-							name = "Furnace"
+							clientId = 37235
 						},
 						{
-							clientId = 37232,
+							name = "Forge",
 							amount = 1,
 							itemid = 40684,
-							name = "Forge"
+							clientId = 37232
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Grand Workshop",
 					category = "carpentry",
 					model = 29,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
 					tier = 4,
 					price = 100000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37222,
+							name = "Artisan Work Bench",
 							amount = 1,
 							itemid = 40674,
-							name = "Artisan Work Bench"
+							clientId = 37222
 						},
 						{
-							clientId = 37289,
+							name = "Woodwork Tools",
 							amount = 2,
 							itemid = 40741,
-							name = "Woodwork Tools"
+							clientId = 37289
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 1,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 1,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						},
 						{
-							clientId = 37219,
+							name = "Armoires",
 							amount = 1,
 							itemid = 40671,
-							name = "Armoires"
+							clientId = 37219
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Grand Weaving",
 					category = "weaving",
 					model = 30,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
 					tier = 4,
 					price = 100000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37247,
+							name = "Luxury Cloth Roll",
 							amount = 1,
 							itemid = 40699,
-							name = "Luxury Cloth Roll"
+							clientId = 37247
 						},
 						{
-							clientId = 37248,
+							name = "Luxury Thread Spool",
 							amount = 1,
 							itemid = 40700,
-							name = "Luxury Thread Spool"
+							clientId = 37248
 						},
 						{
-							clientId = 42783,
+							name = "Simple Loom",
 							amount = 2,
 							itemid = 46235,
-							name = "Simple Loom"
+							clientId = 42783
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 1,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37224,
+							name = "Cabinet",
 							amount = 1,
 							itemid = 40676,
-							name = "Cabinet"
+							clientId = 37224
 						}
 					},
 					size = {
-						y = 4,
-						x = 3
+						x = 3,
+						y = 4
 					}
 				},
 				{
 					name = "Small Bedroom",
 					category = "bedroom",
 					model = 31,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
+					upgrade = 36,
 					tier = 1,
 					price = 5000,
-					upgrade = 36,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 3,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 35432,
+							name = "Coarse Leather",
 							amount = 2,
 							itemid = 38864,
-							name = "Coarse Leather"
+							clientId = 35432
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Small Kitchen",
 					category = "cooking",
 					model = 32,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
+					upgrade = 37,
 					tier = 1,
 					price = 5000,
-					upgrade = 37,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28726,
+							name = "copper ingot",
 							amount = 8,
 							itemid = 32158,
-							name = "copper ingot"
+							clientId = 28726
 						},
 						{
-							clientId = 28946,
+							name = "stone",
 							amount = 15,
 							itemid = 32378,
-							name = "stone"
+							clientId = 28946
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Small Armory",
 					category = "blacksmithing",
 					model = 33,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
+					upgrade = 38,
 					tier = 1,
 					price = 5000,
-					upgrade = 38,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 3,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28726,
+							name = "copper ingot",
 							amount = 6,
 							itemid = 32158,
-							name = "copper ingot"
+							clientId = 28726
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Small Workshop",
 					category = "carpentry",
 					model = 34,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
+					upgrade = 39,
 					tier = 1,
 					price = 5000,
-					upgrade = 39,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 5,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28726,
+							name = "copper ingot",
 							amount = 2,
 							itemid = 32158,
-							name = "copper ingot"
+							clientId = 28726
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Small Weaving",
 					category = "weaving",
 					model = 35,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
+					upgrade = 40,
 					tier = 1,
 					price = 5000,
-					upgrade = 40,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 5,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 28744,
+							name = "rough plank",
 							amount = 3,
 							itemid = 32176,
-							name = "rough plank"
+							clientId = 28744
 						},
 						{
-							clientId = 28971,
+							name = "coarse thread",
 							amount = 2,
 							itemid = 32403,
-							name = "coarse thread"
+							clientId = 28971
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Medium Bedroom",
 					category = "bedroom",
 					model = 36,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
+					upgrade = 41,
 					tier = 2,
 					price = 10000,
-					upgrade = 41,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37267,
+							name = "Simple Bed",
 							amount = 1,
 							itemid = 40719,
-							name = "Simple Bed"
+							clientId = 37267
 						},
 						{
-							clientId = 42780,
+							name = "Cheap Rug",
 							amount = 1,
 							itemid = 46232,
-							name = "Cheap Rug"
+							clientId = 42780
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Medium Kitchen",
 					category = "cooking",
 					model = 37,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
+					upgrade = 42,
 					tier = 2,
 					price = 10000,
-					upgrade = 42,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37281,
+							name = "Stove",
 							amount = 1,
 							itemid = 40733,
-							name = "Stove"
+							clientId = 37281
 						},
 						{
-							clientId = 42777,
+							name = "Weak Table",
 							amount = 1,
 							itemid = 46229,
-							name = "Weak Table"
+							clientId = 42777
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Medium Armory",
 					category = "blacksmithing",
 					model = 38,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
+					upgrade = 43,
 					tier = 2,
 					price = 10000,
-					upgrade = 43,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 42784,
+							name = "Basic Tools",
 							amount = 1,
 							itemid = 46236,
-							name = "Basic Tools"
+							clientId = 42784
 						},
 						{
-							clientId = 42778,
+							name = "Copper Anvil",
 							amount = 2,
 							itemid = 46230,
-							name = "Copper Anvil"
+							clientId = 42778
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Medium Workshop",
 					category = "carpentry",
 					model = 39,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
+					upgrade = 44,
 					tier = 2,
 					price = 10000,
-					upgrade = 44,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37290,
+							name = "Work Bench",
 							amount = 1,
 							itemid = 40742,
-							name = "Work Bench"
+							clientId = 37290
 						},
 						{
-							clientId = 42784,
+							name = "Basic Tools",
 							amount = 2,
 							itemid = 46236,
-							name = "Basic Tools"
+							clientId = 42784
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Medium Weaving",
 					category = "weaving",
 					model = 40,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
+					upgrade = 45,
 					tier = 2,
 					price = 10000,
-					upgrade = 45,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 10,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37226,
+							name = "Cloth Roll",
 							amount = 1,
 							itemid = 40678,
-							name = "Cloth Roll"
+							clientId = 37226
 						},
 						{
-							clientId = 37288,
+							name = "Thread Spool",
 							amount = 1,
 							itemid = 40740,
-							name = "Thread Spool"
+							clientId = 37288
 						},
 						{
-							clientId = 42781,
+							name = "Frail Loom",
 							amount = 1,
 							itemid = 46233,
-							name = "Frail Loom"
+							clientId = 42781
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Large Bedroom",
 					category = "bedroom",
 					model = 41,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
+					upgrade = 46,
 					tier = 3,
 					price = 50000,
-					upgrade = 46,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37228,
+							name = "Comfortable Bed",
 							amount = 1,
 							itemid = 40680,
-							name = "Comfortable Bed"
+							clientId = 37228
 						},
 						{
-							clientId = 37225,
+							name = "Carpet",
 							amount = 1,
 							itemid = 40677,
-							name = "Carpet"
+							clientId = 37225
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						},
 						{
-							clientId = 37224,
+							name = "Cabinet",
 							amount = 1,
 							itemid = 40676,
-							name = "Cabinet"
+							clientId = 37224
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Large Kitchen",
 					category = "cooking",
 					model = 42,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
+					upgrade = 47,
 					tier = 3,
 					price = 50000,
-					upgrade = 47,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37281,
+							name = "Stove",
 							amount = 1,
 							itemid = 40733,
-							name = "Stove"
+							clientId = 37281
 						},
 						{
-							clientId = 37279,
+							name = "Square Table",
 							amount = 1,
 							itemid = 40731,
-							name = "Square Table"
+							clientId = 37279
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 2,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Large Armory",
 					category = "blacksmithing",
 					model = 43,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
+					upgrade = 48,
 					tier = 3,
 					price = 50000,
-					upgrade = 48,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37234,
+							name = "Forging Tools",
 							amount = 1,
 							itemid = 40686,
-							name = "Forging Tools"
+							clientId = 37234
 						},
 						{
-							clientId = 37217,
+							name = "Anvil",
 							amount = 1,
 							itemid = 40669,
-							name = "Anvil"
+							clientId = 37217
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						},
 						{
-							clientId = 37235,
+							name = "Furnace",
 							amount = 1,
 							itemid = 40687,
-							name = "Furnace"
+							clientId = 37235
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Large Workshop",
 					category = "carpentry",
 					model = 44,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
+					upgrade = 49,
 					tier = 3,
 					price = 50000,
-					upgrade = 49,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37287,
+							name = "Superior Work Bench",
 							amount = 1,
 							itemid = 40739,
-							name = "Superior Work Bench"
+							clientId = 37287
 						},
 						{
-							clientId = 37289,
+							name = "Woodwork Tools",
 							amount = 1,
 							itemid = 40741,
-							name = "Woodwork Tools"
+							clientId = 37289
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 2,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 1,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Large Weaving",
 					category = "weaving",
 					model = 45,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
+					upgrade = 50,
 					tier = 3,
 					price = 50000,
-					upgrade = 50,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 15,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37262,
+							name = "Refined Cloth Roll",
 							amount = 1,
 							itemid = 40714,
-							name = "Refined Cloth Roll"
+							clientId = 37262
 						},
 						{
-							clientId = 37288,
+							name = "Thread Spool",
 							amount = 1,
 							itemid = 40740,
-							name = "Thread Spool"
+							clientId = 37288
 						},
 						{
-							clientId = 42783,
+							name = "Simple Loom",
 							amount = 1,
 							itemid = 46235,
-							name = "Simple Loom"
+							clientId = 42783
 						},
 						{
-							clientId = 37280,
+							name = "Storage Container",
 							amount = 1,
 							itemid = 40732,
-							name = "Storage Container"
+							clientId = 37280
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Grand Bedroom",
 					category = "bedroom",
 					model = 46,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
+					upgrade = 51,
 					tier = 4,
 					price = 100000,
-					upgrade = 51,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37245,
+							name = "Luxury Bed",
 							amount = 1,
 							itemid = 40697,
-							name = "Luxury Bed"
+							clientId = 37245
 						},
 						{
-							clientId = 37246,
+							name = "Luxury Carpet",
 							amount = 1,
 							itemid = 40698,
-							name = "Luxury Carpet"
+							clientId = 37246
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 1,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37224,
+							name = "Cabinet",
 							amount = 1,
 							itemid = 40676,
-							name = "Cabinet"
+							clientId = 37224
 						},
 						{
-							clientId = 37231,
+							name = "Fireplace",
 							amount = 1,
 							itemid = 40683,
-							name = "Fireplace"
+							clientId = 37231
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Grand Kitchen",
 					category = "cooking",
 					model = 47,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
+					upgrade = 52,
 					tier = 4,
 					price = 100000,
-					upgrade = 52,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37221,
+							name = "Artisan Stove",
 							amount = 1,
 							itemid = 40673,
-							name = "Artisan Stove"
+							clientId = 37221
 						},
 						{
-							clientId = 37283,
+							name = "Sturdy Square Table",
 							amount = 1,
 							itemid = 40735,
-							name = "Sturdy Square Table"
+							clientId = 37283
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 1,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 2,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						},
 						{
-							clientId = 37219,
+							name = "Armoires",
 							amount = 1,
 							itemid = 40671,
-							name = "Armoires"
+							clientId = 37219
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Grand Armory",
 					category = "blacksmithing",
 					model = 48,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
+					upgrade = 53,
 					tier = 4,
 					price = 100000,
-					upgrade = 53,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37285,
+							name = "Superior Forging Tools",
 							amount = 1,
 							itemid = 40737,
-							name = "Superior Forging Tools"
+							clientId = 37285
 						},
 						{
-							clientId = 37217,
+							name = "Anvil",
 							amount = 2,
 							itemid = 40669,
-							name = "Anvil"
+							clientId = 37217
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 2,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37235,
+							name = "Furnace",
 							amount = 2,
 							itemid = 40687,
-							name = "Furnace"
+							clientId = 37235
 						},
 						{
-							clientId = 37232,
+							name = "Forge",
 							amount = 1,
 							itemid = 40684,
-							name = "Forge"
+							clientId = 37232
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Grand Workshop",
 					category = "carpentry",
 					model = 49,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
+					upgrade = 54,
 					tier = 4,
 					price = 100000,
-					upgrade = 54,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37222,
+							name = "Artisan Work Bench",
 							amount = 1,
 							itemid = 40674,
-							name = "Artisan Work Bench"
+							clientId = 37222
 						},
 						{
-							clientId = 37289,
+							name = "Woodwork Tools",
 							amount = 2,
 							itemid = 40741,
-							name = "Woodwork Tools"
+							clientId = 37289
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 1,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 1,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						},
 						{
-							clientId = 37219,
+							name = "Armoires",
 							amount = 1,
 							itemid = 40671,
-							name = "Armoires"
+							clientId = 37219
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Grand Weaving",
 					category = "weaving",
 					model = 50,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
+					upgrade = 55,
 					tier = 4,
 					price = 100000,
-					upgrade = 55,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 20,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37247,
+							name = "Luxury Cloth Roll",
 							amount = 1,
 							itemid = 40699,
-							name = "Luxury Cloth Roll"
+							clientId = 37247
 						},
 						{
-							clientId = 37248,
+							name = "Luxury Thread Spool",
 							amount = 1,
 							itemid = 40700,
-							name = "Luxury Thread Spool"
+							clientId = 37248
 						},
 						{
-							clientId = 42783,
+							name = "Simple Loom",
 							amount = 2,
 							itemid = 46235,
-							name = "Simple Loom"
+							clientId = 42783
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 1,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37224,
+							name = "Cabinet",
 							amount = 1,
 							itemid = 40676,
-							name = "Cabinet"
+							clientId = 37224
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Royal Bedroom",
 					category = "bedroom",
 					model = 51,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
 					tier = 5,
 					price = 250000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 25,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37245,
+							name = "Luxury Bed",
 							amount = 1,
 							itemid = 40697,
-							name = "Luxury Bed"
+							clientId = 37245
 						},
 						{
-							clientId = 37246,
+							name = "Luxury Carpet",
 							amount = 1,
 							itemid = 40698,
-							name = "Luxury Carpet"
+							clientId = 37246
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 2,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37224,
+							name = "Cabinet",
 							amount = 2,
 							itemid = 40676,
-							name = "Cabinet"
+							clientId = 37224
 						},
 						{
-							clientId = 37231,
+							name = "Fireplace",
 							amount = 1,
 							itemid = 40683,
-							name = "Fireplace"
+							clientId = 37231
 						},
 						{
-							clientId = 41849,
+							name = "Royal Ornaments",
 							amount = 5,
 							itemid = 45301,
-							name = "Royal Ornaments"
+							clientId = 41849
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Royal Kitchen",
 					category = "cooking",
 					model = 52,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
 					tier = 5,
 					price = 250000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 25,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37221,
+							name = "Artisan Stove",
 							amount = 1,
 							itemid = 40673,
-							name = "Artisan Stove"
+							clientId = 37221
 						},
 						{
-							clientId = 37283,
+							name = "Sturdy Square Table",
 							amount = 1,
 							itemid = 40735,
-							name = "Sturdy Square Table"
+							clientId = 37283
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 2,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 2,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						},
 						{
-							clientId = 37219,
+							name = "Armoires",
 							amount = 1,
 							itemid = 40671,
-							name = "Armoires"
+							clientId = 37219
 						},
 						{
-							clientId = 41849,
+							name = "Royal Ornaments",
 							amount = 5,
 							itemid = 45301,
-							name = "Royal Ornaments"
+							clientId = 41849
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Royal Armory",
 					category = "blacksmithing",
 					model = 53,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
 					tier = 5,
 					price = 250000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 25,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37220,
+							name = "Artisan Forging Tools",
 							amount = 1,
 							itemid = 40672,
-							name = "Artisan Forging Tools"
+							clientId = 37220
 						},
 						{
-							clientId = 37233,
+							name = "Forgemaster Anvil",
 							amount = 1,
 							itemid = 40685,
-							name = "Forgemaster Anvil"
+							clientId = 37233
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 2,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37235,
+							name = "Furnace",
 							amount = 4,
 							itemid = 40687,
-							name = "Furnace"
+							clientId = 37235
 						},
 						{
-							clientId = 37232,
+							name = "Forge",
 							amount = 1,
 							itemid = 40684,
-							name = "Forge"
+							clientId = 37232
 						},
 						{
-							clientId = 41849,
+							name = "Royal Ornaments",
 							amount = 5,
 							itemid = 45301,
-							name = "Royal Ornaments"
+							clientId = 41849
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Royal Workshop",
 					category = "carpentry",
 					model = 54,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
 					tier = 5,
 					price = 250000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 25,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37222,
+							name = "Artisan Work Bench",
 							amount = 1,
 							itemid = 40674,
-							name = "Artisan Work Bench"
+							clientId = 37222
 						},
 						{
-							clientId = 37236,
+							name = "Improved Woodwork Tools",
 							amount = 1,
 							itemid = 40688,
-							name = "Improved Woodwork Tools"
+							clientId = 37236
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 2,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37227,
+							name = "Chair",
 							amount = 2,
 							itemid = 40679,
-							name = "Chair"
+							clientId = 37227
 						},
 						{
-							clientId = 37219,
+							name = "Armoires",
 							amount = 1,
 							itemid = 40671,
-							name = "Armoires"
+							clientId = 37219
 						},
 						{
-							clientId = 41849,
+							name = "Royal Ornaments",
 							amount = 5,
 							itemid = 45301,
-							name = "Royal Ornaments"
+							clientId = 41849
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				{
 					name = "Royal Weaving",
 					category = "weaving",
 					model = 55,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
 					tier = 5,
 					price = 250000,
 					materials = {
 						{
-							clientId = 45501,
+							name = "Ravencrest Emblem",
 							amount = 25,
 							itemid = 48953,
-							name = "Ravencrest Emblem"
+							clientId = 45501
 						},
 						{
-							clientId = 37247,
+							name = "Luxury Cloth Roll",
 							amount = 1,
 							itemid = 40699,
-							name = "Luxury Cloth Roll"
+							clientId = 37247
 						},
 						{
-							clientId = 37248,
+							name = "Luxury Thread Spool",
 							amount = 2,
 							itemid = 40700,
-							name = "Luxury Thread Spool"
+							clientId = 37248
 						},
 						{
-							clientId = 37244,
+							name = "Loom",
 							amount = 1,
 							itemid = 40696,
-							name = "Loom"
+							clientId = 37244
 						},
 						{
-							clientId = 42782,
+							name = "Sturdy Container",
 							amount = 2,
 							itemid = 46234,
-							name = "Sturdy Container"
+							clientId = 42782
 						},
 						{
-							clientId = 37224,
+							name = "Cabinet",
 							amount = 2,
 							itemid = 40676,
-							name = "Cabinet"
+							clientId = 37224
 						},
 						{
-							clientId = 41849,
+							name = "Royal Ornaments",
 							amount = 5,
 							itemid = 45301,
-							name = "Royal Ornaments"
+							clientId = 41849
 						}
 					},
 					size = {
-						y = 5,
-						x = 4
+						x = 4,
+						y = 5
 					}
 				},
 				[60] = {
 					name = "Small Chest",
 					category = "storage",
 					model = 60,
-					clientId = 38571,
 					description = "Allows you to store up to 21 objects inside it.",
+					clientId = 38571,
 					tier = 1,
 					price = 0,
 					materials = {},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					}
 				},
 				[61] = {
 					name = "Medium Chest",
 					category = "storage",
 					model = 61,
-					clientId = 38572,
 					description = "Allows you to store up to 35 objects inside it.",
+					clientId = 38572,
 					tier = 1,
 					price = 0,
 					materials = {},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					}
 				},
 				[62] = {
 					name = "Large Chest",
 					category = "storage",
 					model = 62,
-					clientId = 38573,
 					description = "Allows you to store up to 70 objects inside it.",
+					clientId = 38573,
 					tier = 1,
 					price = 0,
 					materials = {},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					}
 				},
 				[63] = {
 					name = "Grand Chest",
 					category = "storage",
 					model = 63,
-					clientId = 38574,
 					description = "Allows you to store up to 105 objects inside it.",
+					clientId = 38574,
 					tier = 1,
 					price = 0,
 					materials = {},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					}
 				},
 				[64] = {
 					name = "Royal Chest",
 					category = "storage",
 					model = 64,
-					clientId = 38575,
 					description = "Allows you to store up to 210 objects inside it.",
+					clientId = 38575,
 					tier = 1,
 					price = 0,
 					materials = {},
 					size = {
-						y = 1,
-						x = 1
+						x = 1,
+						y = 1
 					}
 				},
 				[65] = {
 					name = "Small Bedroom",
 					category = "bedroom",
 					model = 65,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				},
 				[66] = {
 					name = "Small Kitchen",
 					category = "cooking",
 					model = 66,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				},
 				[67] = {
 					name = "Small Armory",
 					category = "blacksmithing",
 					model = 67,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				},
 				[68] = {
 					name = "Small Workshop",
 					category = "carpentry",
 					model = 68,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				},
 				[69] = {
 					name = "Small Weaving",
 					category = "weaving",
 					model = 69,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				},
 				[70] = {
 					name = "Small Bedroom",
 					category = "bedroom",
 					model = 70,
-					clientId = "chest",
 					description = "Gain +%d%% additional experience from all sources.",
+					clientId = "chest",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				},
 				[71] = {
 					name = "Small Kitchen",
 					category = "cooking",
 					model = 71,
-					clientId = "cooking",
 					description = "Additional +%d labor when cooking.",
+					clientId = "cooking",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				},
 				[72] = {
 					name = "Small Armory",
 					category = "blacksmithing",
 					model = 72,
-					clientId = "blacksmithing",
 					description = "Additional +%d labor when blacksmithing.",
+					clientId = "blacksmithing",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				},
 				[73] = {
 					name = "Small Workshop",
 					category = "carpentry",
 					model = 73,
-					clientId = "carpentry",
 					description = "Additional +%d labor when carpenting.",
+					clientId = "carpentry",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				},
 				[74] = {
 					name = "Small Weaving",
 					category = "weaving",
 					model = 74,
-					clientId = "weaving",
 					description = "Additional +%d labor when weaving.",
+					clientId = "weaving",
 					tier = 1,
 					price = 5000,
 					materials = {},
 					size = {
-						y = 6,
-						x = 5
+						x = 5,
+						y = 6
 					}
 				}
 			}

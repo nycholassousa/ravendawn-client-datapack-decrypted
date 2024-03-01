@@ -74,8 +74,8 @@ tasks = {
 				local categoryList = rangersCompanyWindow:recursiveGetChildById("middle_panel")
 
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "See this expertise bar up there?",

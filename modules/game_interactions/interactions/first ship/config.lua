@@ -60,9 +60,9 @@ tasks = {
 				local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("transports")
 
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "top",
 					text = "Press Y or Left-Click to open your Transport menu",
-					bandit = true,
 					keys = {
 						"Y",
 						MouseLeftButton
@@ -127,9 +127,9 @@ tasks = {
 
 				parentPanel:ensureChildVisible(parentWidget)
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "top",
 					text = "Click on the Hull slot",
-					bandit = true,
 					keys = {
 						MouseLeftButton
 					},
@@ -195,9 +195,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "top",
 					text = "Select which hull you want for your ship",
-					bandit = true,
 					keys = {
 						MouseLeftButton
 					},
@@ -260,9 +260,9 @@ tasks = {
 
 				parentPanel:ensureChildVisible(parentWidget)
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "top",
 					text = "Now do the same with the sail. Just click here...",
-					bandit = true,
 					keys = {
 						MouseLeftButton
 					},
@@ -328,9 +328,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "top",
 					text = "And select which sail you want.",
-					bandit = true,
 					keys = {
 						MouseLeftButton
 					},
@@ -377,9 +377,9 @@ tasks = {
 				local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("transports")
 
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "top",
 					text = "Press Y or Left-Click to open your Transport menu",
-					bandit = true,
 					keys = {
 						"Y",
 						MouseLeftButton
@@ -415,8 +415,8 @@ tasks = {
 				end
 
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "Although a hull and a sail is everything you need to leave the dock, you can also upgrade your ship with cabins and cargo compartments"

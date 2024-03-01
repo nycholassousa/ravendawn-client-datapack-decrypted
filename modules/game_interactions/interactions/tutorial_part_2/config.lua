@@ -301,17 +301,17 @@ tasks = {
 			callbacks = {},
 			onStartInteraction = function(self)
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "I knew you would find something useful in there! Always trust a dog's nose."
 						}
 					},
 					tilePos = {
-						x = 3216,
 						z = 7,
-						y = 4846
+						y = 4846,
+						x = 3216
 					},
 					callbackOnClose = function()
 						GameInteractions:advanceInteraction(__env, potionToActionBar, 1)
@@ -467,8 +467,8 @@ tasks = {
 			},
 			displayInteraction = function()
 				GameInteractions:displayActionBox({
-					bandit = true,
 					text = "Press I or Esc to close your Inventory",
+					bandit = true,
 					keys = {
 						"I",
 						"Esc"
@@ -620,8 +620,8 @@ tasks = {
 
 					if learnedSpell and nextSpell then
 						GameInteractions:displayDescriptionBox({
-							preferSide = "right",
 							bandit = true,
+							preferSide = "right",
 							pages = {
 								{
 									text = "The skill you already have generates aether. A source of energy that powers up other skills!",
@@ -848,8 +848,8 @@ tasks = {
 
 				if target then
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "I can hardly believe we're on our way to Ravendawn together!"

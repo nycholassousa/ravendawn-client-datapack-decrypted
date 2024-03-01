@@ -37,8 +37,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
-						text = "This quest requires a special item! Press I or left-click to open your inventory",
 						bandit = true,
+						text = "This quest requires a special item! Press I or left-click to open your inventory",
 						preferSide = "top",
 						keys = {
 							"I",
@@ -78,8 +78,8 @@ tasks = {
 
 				if not questPanel:isVisible() then
 					GameInteractions:displayActionBox({
-						text = "Left-Click to check your Quest Items!",
 						bandit = true,
+						text = "Left-Click to check your Quest Items!",
 						preferSide = "right",
 						keys = {
 							MouseLeftButton
@@ -142,8 +142,8 @@ tasks = {
 						parentWidget.preventDragItem = true
 
 						GameInteractions:displayActionBox({
-							text = "This is the item I was talking about. Right click and add it to the action bar",
 							bandit = true,
+							text = "This is the item I was talking about. Right click and add it to the action bar",
 							preferSide = "top",
 							keys = {
 								MouseRightButton

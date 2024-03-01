@@ -6,8 +6,8 @@ local keypad
 local touchStart = 0
 local updateCursorEvent, zoomInButton, zoomOutButton, keypadButton, keypadEvent
 local keypadMousePos = {
-	y = 0.5,
-	x = 0.5
+	x = 0.5,
+	y = 0.5
 }
 local keypadTicks = 0
 

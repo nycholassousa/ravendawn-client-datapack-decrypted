@@ -40,26 +40,26 @@ local fadeEvent
 
 cachedShader = 0
 spellCursor = {
+	size = 1,
 	isDirectional = false,
 	currentType = "circle",
-	size = 1,
 	direction = Directions.Invalid,
 	circle = {
 		originalOffset = {
-			x = 175,
-			y = 175
+			y = 175,
+			x = 175
 		},
 		originalSize = {
 			width = 320,
 			height = 320,
 			border = {
-				x = 40,
-				y = 40
+				y = 40,
+				x = 40
 			}
 		},
 		offset = {
-			x = 175,
-			y = 175
+			y = 175,
+			x = 175
 		},
 		size = {
 			width = 320,
@@ -68,20 +68,20 @@ spellCursor = {
 	},
 	rect = {
 		originalOffset = {
-			x = 0,
-			y = 0
+			y = 0,
+			x = 0
 		},
 		originalSize = {
 			width = 96,
 			height = 96,
 			border = {
-				x = 0,
-				y = 0
+				y = 0,
+				x = 0
 			}
 		},
 		offset = {
-			x = 0,
-			y = 0
+			y = 0,
+			x = 0
 		},
 		size = {
 			width = 96,
@@ -641,8 +641,8 @@ function init()
 
 	houseModeWidget:setImageSource("/images/crosshair/circle/1")
 	houseModeWidget:setImageOffset({
-		x = 16,
-		y = 16
+		y = 16,
+		x = 16
 	})
 	houseModeWidget:setWidth(32)
 	houseModeWidget:setHeight(32)
@@ -1047,9 +1047,9 @@ function onGameStart()
 	getMapPanel():setShader(currentShader)
 
 	currentRegion = {
-		timer = 0,
 		aboutToPvp = false,
 		pvp = false,
+		timer = 0,
 		name = ""
 	}
 
@@ -1809,8 +1809,8 @@ function addWagonMenu(menu, creatureThing)
 
 			menu:addOption(tr("Inspect Packs"), function()
 				sendOpcode(ExtendedIds.Trading, {
-					action = "inspect",
 					type = "wagon",
+					action = "inspect",
 					id = creatureThing:getId()
 				})
 			end)
@@ -1947,40 +1947,40 @@ function getMouseAttackCandidate()
 	local mousePosition = g_window.getMousePosition()
 	local offsets = {
 		{
-			x = 0,
-			y = 0
+			y = 0,
+			x = 0
 		},
 		{
-			x = -1,
-			y = -1
+			y = -1,
+			x = -1
 		},
 		{
-			x = 0,
-			y = -1
+			y = -1,
+			x = 0
 		},
 		{
-			x = 1,
-			y = -1
+			y = -1,
+			x = 1
 		},
 		{
-			x = -1,
-			y = 0
+			y = 0,
+			x = -1
 		},
 		{
-			x = 1,
-			y = 0
+			y = 0,
+			x = 1
 		},
 		{
-			x = -1,
-			y = 1
+			y = 1,
+			x = -1
 		},
 		{
-			x = 0,
-			y = 1
+			y = 1,
+			x = 0
 		},
 		{
-			x = 1,
-			y = 1
+			y = 1,
+			x = 1
 		}
 	}
 	local pos = gameMapPanel:getPosition(mousePosition)
@@ -2385,7 +2385,12 @@ function removeConfirm(item)
 		return
 	end
 
-	if player:getLevel() < 5 or item:getQualityName() == "Quest Item" then
+	local deleteDisallowedQualityNames = {
+		["Quest Item"] = true,
+		Tradepack = true
+	}
+
+	if player:getLevel() < 5 or deleteDisallowedQualityNames[item:getQualityName()] then
 		return
 	end
 

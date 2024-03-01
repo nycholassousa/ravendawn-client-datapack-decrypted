@@ -508,35 +508,37 @@ function ProtocolLogin:parseCharacterList(msg)
 		channels[i] = channel
 	end
 
-	for host, port in pairs(uniqueHosts) do
-		local protocol = ProtocolLoginPing.create()
+	if EnterGame.tunnelingServiceEnabled then
+		for host, port in pairs(uniqueHosts) do
+			local protocol = ProtocolLoginPing.create()
 
-		function protocol:onConnect()
-			local ping = g_clock.millis() - self._connectionIntialTime
+			function protocol:onConnect()
+				local ping = g_clock.millis() - self._connectionIntialTime
 
-			for _, ch in ipairs(channels) do
-				if ch.ip == host then
-					ch.ping = ping
-				else
-					for i = 1, #ch.proxies do
-						if ch.proxies[i].ip == host then
-							ch.proxies[i].ping = ping
+				for _, ch in ipairs(channels) do
+					if ch.ip == host then
+						ch.ping = ping
+					else
+						for i = 1, #ch.proxies do
+							if ch.proxies[i].ip == host then
+								ch.proxies[i].ping = ping
+							end
 						end
 					end
 				end
+
+				self:disconnect()
+				HTTP.postJSON("https://ravendawn.online/server/ping", {
+					account = G.account,
+					ping = ping,
+					host = host
+				}, function()
+					return
+				end)
 			end
 
-			self:disconnect()
-			HTTP.postJSON("https://ravendawn.online/server/ping", {
-				account = G.account,
-				ping = ping,
-				host = host
-			}, function()
-				return
-			end)
+			protocol:tryConnect(host, port)
 		end
-
-		protocol:tryConnect(host, port)
 	end
 
 	local charactersCount = msg:getU8()

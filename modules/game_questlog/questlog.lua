@@ -1,8 +1,8 @@
 ﻿-- chunkname: @/modules/game_questlog/questlog.lua
 
 GameQuestLog = {
-	ascSorting = true,
 	eventSearchFilterDelay = 250,
+	ascSorting = true,
 	currentTab = {},
 	protocolItems = {}
 }
@@ -741,8 +741,8 @@ function GameQuestLog:onRangersCompanyQuestDetails()
 
 	content.npcOutfit:setImageSource(string.format("/images/ui/windows/rangers_company/icon_%s", category))
 	content.npcOutfit:setImageSize({
-		height = 45,
-		width = 45
+		width = 45,
+		height = 45
 	})
 
 	local x = (content.npcOutfit:getWidth() - content.npcOutfit:getImageSize().width) / 2
@@ -769,8 +769,8 @@ function GameQuestLog:onRangersCompanyQuestDetails()
 		widget.itemName:setText(name:titleCase())
 		widget.itemCount:setText(idx == 1 and data.rewards.prestige or data.rewards.marks)
 		widget.item:setSize({
-			height = 35,
-			width = 35
+			width = 35,
+			height = 35
 		})
 		widget.item:setMarginLeft(5)
 	end
@@ -817,8 +817,8 @@ function GameQuestLog:onNorthStarQuestDetails()
 	content.rangers_company_progress_panel:hide()
 	content.npcOutfit:setImageSource("/images/ui/windows/questlog/icon_north_star")
 	content.npcOutfit:setImageSize({
-		height = 45,
-		width = 45
+		width = 45,
+		height = 45
 	})
 
 	local x = (content.npcOutfit:getWidth() - content.npcOutfit:getImageSize().width) / 2
@@ -852,8 +852,8 @@ function GameQuestLog:onNorthStarQuestDetails()
 			widget.itemName:setText("RavenPacks")
 			widget.itemCount:setText(reward.ravencard_pack)
 			widget.item:setSize({
-				height = 35,
-				width = 24
+				width = 24,
+				height = 35
 			})
 			widget.item:setMarginLeft(10)
 		elseif reward.dawn_essence then
@@ -889,8 +889,8 @@ function GameQuestLog:onNorthStarQuestDetails()
 				widget.itemName:setText("RavenPacks")
 				widget.itemCount:setText(reward.ravencard_pack)
 				widget.item:setSize({
-					height = 35,
-					width = 24
+					width = 24,
+					height = 35
 				})
 				widget.item:setMarginLeft(10)
 			elseif reward.dawn_essence then

@@ -53,43 +53,43 @@ local foodClientIds = {
 
 itemTypes = {
 	helmet = {
-		["cloth helmet"] = 1,
-		["leather helmet"] = 1,
 		["plate helmet"] = 1,
-		helmet = 1
+		helmet = 1,
+		["cloth helmet"] = 1,
+		["leather helmet"] = 1
 	},
 	armor = {
-		["cloth armor"] = 1,
-		["leather armor"] = 1,
 		["plate armor"] = 1,
-		armor = 1
+		armor = 1,
+		["cloth armor"] = 1,
+		["leather armor"] = 1
 	},
 	legs = {
-		["cloth legs"] = 1,
-		["leather legs"] = 1,
 		["plate legs"] = 1,
-		legs = 1
+		legs = 1,
+		["cloth legs"] = 1,
+		["leather legs"] = 1
 	},
 	boots = {
-		["cloth boots"] = 1,
-		["leather boots"] = 1,
 		["plate boots"] = 1,
-		boots = 1
+		boots = 1,
+		["cloth boots"] = 1,
+		["leather boots"] = 1
 	},
 	weapon = {
-		axe = 1,
-		sceptre = 1,
-		["buckler shield"] = 1,
-		staff = 1,
-		["light blade"] = 1,
 		hammer = 1,
 		greatsword = 1,
 		greataxe = 1,
 		bow = 1,
+		club = 1,
+		["tower shield"] = 1,
+		["buckler shield"] = 1,
+		sceptre = 1,
+		axe = 1,
 		sword = 1,
 		dagger = 1,
-		["tower shield"] = 1,
-		club = 1
+		staff = 1,
+		["light blade"] = 1
 	}
 }
 filter = {

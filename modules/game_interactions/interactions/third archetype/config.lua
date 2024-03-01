@@ -54,8 +54,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("skill_tree")
 
 					GameInteractions:displayActionBox({
-						text = "Press K or Left-Click to open your Skill Tree menu",
 						bandit = true,
+						text = "Press K or Left-Click to open your Skill Tree menu",
 						preferSide = "top",
 						keys = {
 							"K",
@@ -249,8 +249,8 @@ tasks = {
 				end
 
 				GameInteractions:displayDescriptionBox({
-					preferSide = "left",
 					bandit = true,
+					preferSide = "left",
 					pages = {
 						{
 							text = tr("Knowing three archetypes, %s, you finally have a class!", g_game.getCharacterName()),

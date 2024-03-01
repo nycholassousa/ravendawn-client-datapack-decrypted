@@ -1779,7 +1779,7 @@ g_ravencards.descriptions = {
 		}
 	},
 	["toadstool warrior"] = {
-		text = "While {Venomous Weapons, #FBFB79} is active, basic attacks apply a stack of Poison that deals {%.1f%% (Weapon Power) Weapon Damage, #FF5151} every {2 seconds, white} for a total of {8 seconds, white}. New stacks reset the duration of the poison.",
+		text = "While {Venomous Weapons, #FBFB79} is active, basic attacks apply a stack of Poison that deals {%.1f%% Adaptive Damage, white} every {2 seconds, white} for a total of {8 seconds, white}. New stacks reset the duration of the poison.",
 		values = {
 			1,
 			1.2,
@@ -1903,14 +1903,15 @@ g_ravencards.descriptions = {
 		}
 	},
 	["rat burglar"] = {
-		text = "If {Sinister Plot, #FBFB79} is active, {Shadowstrike, #FBFB79} cooldown is reduced by {%.1f seconds, white}.",
+		text = "If you are engaged in combat, increase your {movement speed, #C2DBFB} by {%.1f%%, white} per {25 Aether, white} generated for the duration of {Sinister Plot, #FBFB79}.",
 		values = {
-			5,
-			6,
-			7,
-			8,
-			9,
-			10
+			2,
+			2.5,
+			3,
+			3.5,
+			4,
+			4.5,
+			5
 		}
 	},
 	["pirate swashbuckler"] = {
@@ -2038,12 +2039,13 @@ g_ravencards.descriptions = {
 	["hog warlord"] = {
 		text = "{Feasting strike, #FBFB79} doesn't deal damage, but its {healing effectiveness, #77D463} is increased by {%.1f%%, white} per {25 Aether, white} consumed. ",
 		values = {
-			5,
-			7,
-			9,
-			11,
-			13,
-			15
+			10,
+			12.5,
+			15,
+			17.5,
+			20,
+			22.5,
+			25
 		}
 	},
 	["polar bear"] = {
@@ -2180,18 +2182,19 @@ g_ravencards.descriptions = {
 		}
 	},
 	["dire bear"] = {
-		text = "{Berserk's, #FBFB79} duration is {doubled, white}, and your {(Attack Power), #FF5151} is increased by {%.1f%%, white} for {8 seconds, white}. You can't receive any {healing, #77D463} for {Berserk's, #FBFB79} duration.",
+		text = "{Berserk's, #FBFB79} duration is {doubled, white}, and your {(Attack Power), #FF5151} is increased by {10%%, white} for {10 seconds, white}. Your {healing, #77D463} received is reduced by {%.1f%%, white} for {Berserk's, #FBFB79} duration.",
 		values = {
-			10,
-			12,
-			14,
-			16,
-			18,
-			20
+			60,
+			55,
+			50,
+			45,
+			40,
+			35,
+			30
 		}
 	},
 	["goblin berserker"] = {
-		text = "{Berserk's, #FBFB79} duration is {doubled, white}, you now gain no Aether, but your {critical damage, #FC7474} and {haste, #C2DBFB} are increased by {%.1f%%, white} for {10 seconds, white}. ",
+		text = "{Berserk's, #FBFB79} duration is {doubled, white}.\n\nYou now gain half Aether from {Berserk, #FBFB79} but your {critical damage, #FC7474} and {haste, #C2DBFB} are increased by {%.1f%%, white} for {10 seconds, white}. ",
 		values = {
 			15,
 			20,
@@ -2886,12 +2889,13 @@ g_ravencards.descriptions = {
 	["pearlshell giant"] = {
 		text = "Increases the strength of {Barrier, #FBFB79} by {%.1f%% (Spell Power), #BA7DFF}. ",
 		values = {
+			75,
+			87.5,
 			100,
-			120,
-			140,
-			160,
-			180,
-			200
+			112.5,
+			125,
+			137.5,
+			150
 		}
 	},
 	["many-eyes trunk"] = {
@@ -3151,12 +3155,13 @@ g_ravencards.descriptions = {
 	["vampire necromancer"] = {
 		text = "When {below 60%% health, #77D463}, {Leech, #FBFB79} now heals you for {%.1f%%, white} more.",
 		values = {
+			15,
+			17.5,
+			20,
+			22.5,
 			25,
-			30,
-			35,
-			40,
-			45,
-			50
+			27.5,
+			30
 		}
 	},
 	["rubycap mushroom"] = {
@@ -3304,12 +3309,13 @@ g_ravencards.descriptions = {
 	["harvester hag"] = {
 		text = "When targets affected by your {Shackles of Pain, #FBFB79} are {healed, #77D463}, you are also {healed, #77D463} by {%.1f%%, white} of that amount.",
 		values = {
+			30,
+			35,
+			40,
+			45,
 			50,
-			60,
-			70,
-			80,
-			90,
-			100
+			55,
+			60
 		}
 	},
 	["bone gazer"] = {
@@ -3379,7 +3385,7 @@ g_ravencards.descriptions = {
 		}
 	},
 	["hog saboteur"] = {
-		text = "Whenever you deal damage on targets affected by {Erupt, #FBFB79} has a {5%% chance, white} per {Erupt, #FBFB79} stack to set the target aflame every {2.5 seconds, white}, causing {%.1f%% (Spell Power) spell damage, #BA7DFF} to the target and targets around it.",
+		text = "Casting damaging skills on targets affected by {Erupt, #FBFB79} has a {2,5%% chance, white} per {Erupt, #FBFB79} stack to set the target aflame, causing {%.1f%% (Spell Power) spell damage, #BA7DFF} to the target and targets around it.",
 		values = {
 			75,
 			90,
@@ -3445,7 +3451,7 @@ g_ravencards.descriptions = {
 		}
 	},
 	["flamelord djinn"] = {
-		text = "{Flame Tornado, #FBFB79} damage now has a {50%%, white} chance to apply a Scorch stack to the target for {8 seconds, white}, dealing {3%% (Spell Power) spell damage, #BA7DFF} every second per stack, up to {%.1f stacks, white} can be applied to the same target.",
+		text = "Channels a Flame Tornado at target location dealing {%d [0.8] (Spell Power) spell damage, #BA7DFF} per second to all targets in a small area.\n\nDamage is applied {0.1 seconds, white} faster per {10 Aether, white} consumed.",
 		values = {
 			3,
 			4,
@@ -3478,7 +3484,7 @@ g_ravencards.descriptions = {
 		}
 	},
 	["astor demon"] = {
-		text = "{Meteor Strike, #FBFB79} now creates a fire hazard around the area it falls onto, dealing {%.1f%% (Spell Power) spell damage, #BA7DFF} for {6 seconds, white} to targets inside the hazard area. ",
+		text = "{Meteor Strike, #FBFB79} now creates a fire hazard around the area it falls onto, {slowing, #FFA851} targets inside the area by {30%%, white} and dealing {%.1f%% (Spell Power) spell damage, #BA7DFF} for {6 seconds, white} to targets inside the hazard area. ",
 		values = {
 			25,
 			30,
@@ -3500,14 +3506,15 @@ g_ravencards.descriptions = {
 		}
 	},
 	["icicle gazer"] = {
-		text = "From now on, your {Frostbolts, #FBFB79} apply {1 Frost Stacks, white}. Upon reaching {3 Frost Stacks, white} on a target, it will be affected by Deep Freeze for {%.1f seconds, white}. {Frost Lances, #FBFB79} always deal {critical damage, #FC7474} on Deep Frozen targets. Targets already affected by Deep Freeze can't be affected again for {10 seconds, white}. ",
+		text = "Your {Frostbolts, #FBFB79} apply {1, white} Frost Stacks. Upon reaching {3, white} Frost Stacks on a target, it will be affected by Deep Freeze for {8 seconds, white}.\n\nFor every Deep Freeze stack on the target, {Frost Lance, #FBFB79} gains {%.1f%% critical chance, #FC7474}.\n\nIf Deep Freeze stack up to {3 times, white}, target will be affected by Frostbite for {8 seconds, white}.\n\nA target affected by Frostbite can't be affected by Froststack.\n\nFrostbite makes all of your Frost Lances deal {critical damage, #FC7474} and ignore {25%%, white} of the target's {(Spell Defense), #BA7DFF}.",
 		values = {
-			3.5,
-			4,
-			4.5,
-			5,
-			5.5,
-			6
+			10,
+			12.5,
+			15,
+			17.5,
+			20,
+			22.5,
+			25
 		}
 	},
 	["coldstone cub"] = {
@@ -3576,7 +3583,7 @@ g_ravencards.descriptions = {
 		}
 	},
 	["lurking shadow"] = {
-		text = "After teleporting, you gain Surge of Magic, increasing your {(Spell Power), #BA7DFF} by {%.1f%%, white} for {8 seconds, white}. ",
+		text = "After teleporting, you gain Surge of Magic, increasing your {(Spell Power), #BA7DFF} by {%.1f%%, white} for {6 seconds, white}. ",
 		values = {
 			5,
 			7,
@@ -3587,18 +3594,19 @@ g_ravencards.descriptions = {
 		}
 	},
 	["iceshell giant"] = {
-		text = "Targets hit by {Coldblast, #FBFB79} are now Deep Frozen for {%.1f seconds, white}. {Frost Lances, #FBFB79} always deal {critical damage, #FC7474} on Deep Frozen targets.",
+		text = "Applies Arctic Burn to the target for {6 seconds, white}, dealing {%.1f%% (Spell Power) spell damage, #BA7DFF} every {2 seconds, white}.",
 		values = {
-			3,
-			3.6,
-			4.2,
-			4.8,
-			5.4,
-			6
+			45,
+			52.5,
+			60,
+			67.5,
+			75,
+			82.5,
+			90
 		}
 	},
 	["frostbound drake"] = {
-		text = "You gain a stack of Arctic Piercing for each target hit by {Coldblast, #FBFB79}. Arctic Piercing increases the {(Spell Power), #BA7DFF} of your next {Frost Shards, #FBFB79} or {Ice Storm, #FBFB79} by {%.1f%%, white} up to {3 stacks, white}.",
+		text = "You gain a stack of Arctic Piercing for each target hit by {Coldblast, #FBFB79}. Arctic Piercing increases the {(Spell Power), #BA7DFF} of your next {Frost Shards, #FBFB79} by {%.1f%%, white} up to {3 stacks, white}.",
 		values = {
 			5,
 			6,
@@ -3622,12 +3630,13 @@ g_ravencards.descriptions = {
 	["blizzard beast"] = {
 		text = "Ice shards fall twice as fast. {Icestorm, #FBFB79} deals {%.1f%%, white} more damage.",
 		values = {
-			25,
-			30,
-			35,
-			40,
-			45,
-			50
+			10,
+			12.5,
+			15,
+			17.5,
+			20,
+			22.5,
+			25
 		}
 	}
 }
@@ -4058,7 +4067,7 @@ g_ravencards.descriptions["pt-BR"] = {
 		}
 	},
 	["toadstool warrior"] = {
-		text = "Enquanto {Venomous Weapons, #FBFB79} estiver ativa, ataques b\xE1sicos aplicam um ac\xFAmulo de Envenenamento que causa {%.1f%% (Weapon Power) de dano de arma, #FF5151} a cada {2 segundos, white} por {8 segundos, white}. Ac\xFAmulos subsequentes reiniciar\xE3o a dura\xE7\xE3o.",
+		text = "Enquanto {Venomous Weapons, #FBFB79} estiver ativa, ataques b\xE1sicos aplicam um ac\xFAmulo de Envenenamento que causa {%.1f%% de dano adaptativo, white} a cada {2 segundos, white} por {8 segundos, white}. Ac\xFAmulos subsequentes reiniciar\xE3o a dura\xE7\xE3o.",
 		values = {
 			1,
 			1.2,
@@ -4182,14 +4191,15 @@ g_ravencards.descriptions["pt-BR"] = {
 		}
 	},
 	["rat burglar"] = {
-		text = "Se {Sinister Plot, #FBFB79} estiver ativa, reduz o Tempo de Recarga de {Shadowstrike, #FBFB79} em {%.1f segundos, white}.",
+		text = "Se estiver em combate, aumenta sua {Velocidade de Movimento, #C2DBFB} em {%.1f%%, white} a cada {25 Aether, white} gerados durante a dura\xE7\xE3o de {Sinister Plot, #FBFB79}.",
 		values = {
-			5,
-			6,
-			7,
-			8,
-			9,
-			10
+			2,
+			2.5,
+			3,
+			3.5,
+			4,
+			4.5,
+			5
 		}
 	},
 	["pirate swashbuckler"] = {
@@ -4317,12 +4327,13 @@ g_ravencards.descriptions["pt-BR"] = {
 	["hog warlord"] = {
 		text = "{Feasting Strike, #FBFB79} n\xE3o causa dano, mas sua {cura, #77D463} aumenta em {%.1f%%, white} para cada {25 Aether, white} consumidos. ",
 		values = {
-			5,
-			7,
-			9,
-			11,
-			13,
-			15
+			10,
+			12.5,
+			15,
+			17.5,
+			20,
+			22.5,
+			25
 		}
 	},
 	["polar bear"] = {
@@ -4459,18 +4470,19 @@ g_ravencards.descriptions["pt-BR"] = {
 		}
 	},
 	["dire bear"] = {
-		text = "{Dobra, white} a dura\xE7\xE3o de {Berserk, #FBFB79} e aumenta seu {(Attack Power), #FF5151} em {%.1f%%, white} por {8 segundos, white}. Enquanto {Berserk, #FBFB79} estiver ativa, impossibilita receber qualquer {cura, #77D463}.",
+		text = "{Dobra, white} a dura\xE7\xE3o de {Berserk, #FBFB79} e aumenta seu {(Attack Power), #FF5151} em {10%%, white} por {10 segundos, white}. Enquanto {Berserk, #FBFB79} estiver ativa, a {cura, #77D463} recebida \xE9 reduzida em {%.1f%%, white}.",
 		values = {
-			10,
-			12,
-			14,
-			16,
-			18,
-			20
+			60,
+			55,
+			50,
+			45,
+			40,
+			35,
+			30
 		}
 	},
 	["goblin berserker"] = {
-		text = "{Dobra, white} a dura\xE7\xE3o de {Berserk, #FBFB79}, aumenta seu {dano cr\xEDtico, #FC7474} e sua {Celeridade, #C2DBFB} em {%.1f%%, white} por {10 segundos, white}, mas deixa de gerar Aether. ",
+		text = "{Dobra, white} a dura\xE7\xE3o de {Berserk, #FBFB79}.\n\nGera metade do Aether de {Berserk, #FBFB79}, mas aumenta seu {dano cr\xEDtico, #FC7474} e sua {Celeridade, #C2DBFB} em {%.1f%%, white} por {10 segundos, white}. ",
 		values = {
 			15,
 			20,
@@ -5165,12 +5177,13 @@ g_ravencards.descriptions["pt-BR"] = {
 	["pearlshell giant"] = {
 		text = "Aumenta os efeitos de {Barrier, #FBFB79} em {%.1f%% (Spell Power), #BA7DFF}. ",
 		values = {
+			75,
+			87.5,
 			100,
-			120,
-			140,
-			160,
-			180,
-			200
+			112.5,
+			125,
+			137.5,
+			150
 		}
 	},
 	["many-eyes trunk"] = {
@@ -5430,12 +5443,13 @@ g_ravencards.descriptions["pt-BR"] = {
 	["vampire necromancer"] = {
 		text = "Ao atingir {60%% de vida ou menos, #77D463}, receba {%.1f%% de cura, #77D463} a mais de {Leech, #FBFB79}.",
 		values = {
+			15,
+			17.5,
+			20,
+			22.5,
 			25,
-			30,
-			35,
-			40,
-			45,
-			50
+			27.5,
+			30
 		}
 	},
 	["rubycap mushroom"] = {
@@ -5583,12 +5597,13 @@ g_ravencards.descriptions["pt-BR"] = {
 	["harvester hag"] = {
 		text = "Quando alvos afetados por sua {Shackles of Pain, #FBFB79} s\xE3o {curados, #77D463}, receba {%.1f%% da cura, #77D463}.",
 		values = {
+			30,
+			35,
+			40,
+			45,
 			50,
-			60,
-			70,
-			80,
-			90,
-			100
+			55,
+			60
 		}
 	},
 	["bone gazer"] = {
@@ -5658,7 +5673,7 @@ g_ravencards.descriptions["pt-BR"] = {
 		}
 	},
 	["hog saboteur"] = {
-		text = "Conjurar habilidades de dano em alvos afetados por {Erupt, #FBFB79} tem {5%%, white} de chance por cada ac\xFAmulo de {Erupt, #FBFB79} de deixar o alvo em chamas a cada {2,5 segundos, white}, causando {%.1f%% (Spell Power) de dano m\xE1gico, #BA7DFF} ao alvo e aos alvos ao redor dele.",
+		text = "Conjurar habilidades de dano em alvos afetados por {Erupt, #FBFB79} tem {2,5%%, white} de chance por cada ac\xFAmulo de {Erupt, #FBFB79} de deixar o alvo em chamas, causando {%.1f%% (Spell Power) de dano m\xE1gico, #BA7DFF} ao alvo e aos alvos ao redor dele.",
 		values = {
 			75,
 			90,
@@ -5724,7 +5739,7 @@ g_ravencards.descriptions["pt-BR"] = {
 		}
 	},
 	["flamelord djinn"] = {
-		text = "{Flame Tornado, #FBFB79} possui {50%%, white} de chance de aplicar um ac\xFAmulo de Chamusco ao alvo por {8 segundos, white}. Chamusco causa {3%% (Spell Power) de dano m\xE1gico, #BA7DFF} a cada segundo por ac\xFAmulo (M\xE1x. {%.1f ac\xFAmulos, white}).",
+		text = "Conjura um tornado de chamas no local do alvo que causa {%d [0.8] (Spell Power) de dano m\xE1gico, #BA7DFF} por segundo a todos os alvos dentro de uma \xE1rea pequena.\n\nAumenta a velocidade de aplica\xE7\xE3o do dano em {0,1 segundo, white} para cada {10 Aether, white} consumidos.",
 		values = {
 			3,
 			4,
@@ -5757,7 +5772,7 @@ g_ravencards.descriptions["pt-BR"] = {
 		}
 	},
 	["astor demon"] = {
-		text = "{Meteor Strike, #FBFB79} cria uma zona de fogo ao redor da \xE1rea atingida que causa {%.1f%% (Spell Power) de dano m\xE1gico, #BA7DFF} por {6 segundos, white} aos alvos dentro da zona. ",
+		text = "{Meteor Strike, #FBFB79} cria uma zona de fogo ao redor da \xE1rea atingida, que causa {30%% de Lentid\xE3o, #FFA851} e {%.1f%% (Spell Power) de dano m\xE1gico, #BA7DFF} por {6 segundos, white} aos alvos dentro da zona. ",
 		values = {
 			25,
 			30,
@@ -5779,14 +5794,15 @@ g_ravencards.descriptions["pt-BR"] = {
 		}
 	},
 	["icicle gazer"] = {
-		text = "{Frostbolt, #FBFB79} agora aplica {1 ac\xFAmulos, white} de Congelamento no alvo. Ao atingir {3 Congelamentos, white} aplica Congelamento Intenso por {%.1f segundos, white}. {Frost Lance, #FBFB79} sempre causa {dano cr\xEDtico, #FC7474} em alvos com Congelamento Intenso. Alvos que j\xE1 est\xE3o com Congelamento Intenso n\xE3o podem ser afetados novamente por {10 segundos, white}.",
+		text = "{Frostbolt, #FBFB79} aplica {1 ac\xFAmulo, white} de Congelamento no alvo. Ao atingir {3 Congelamentos, white} aplica Congelamento Intenso por {8 segundos, white}.\n\nPara cada Congelamento Intenso no alvo, {Frost Lance, #FBFB79} gera {%.1f%% de chance de acerto cr\xEDtico, #FC7474}\n\nSe Congelamento Intenso acumular at\xE9 {3 vezes, white}, o alvo ser\xE1 afetado por Frio Cortante por {8 segundos, white}.\n\nUm alvo afetado por Frio Cortante n\xE3o pode receber Congelamento Intenso.\n\nFrio Cortante faz com que todas as suas {Frost Lances, #FBFB79} ignorem {25%%, white} da {(Spell Defense), #BA7DFF} do alvo.",
 		values = {
-			3.5,
-			4,
-			4.5,
-			5,
-			5.5,
-			6
+			10,
+			12.5,
+			15,
+			17.5,
+			20,
+			22.5,
+			25
 		}
 	},
 	["coldstone cub"] = {
@@ -5855,7 +5871,7 @@ g_ravencards.descriptions["pt-BR"] = {
 		}
 	},
 	["lurking shadow"] = {
-		text = "Ap\xF3s se teletransportar, gera Surto de Magia que aumenta seu {(Spell Power), #BA7DFF} em {%.1f%%, white} por {8 segundos, white}. ",
+		text = "Ap\xF3s se teletransportar, gera Surto de Magia que aumenta seu {(Spell Power), #BA7DFF} em {%.1f%%, white} por {6 segundos, white}. ",
 		values = {
 			5,
 			7,
@@ -5866,18 +5882,19 @@ g_ravencards.descriptions["pt-BR"] = {
 		}
 	},
 	["iceshell giant"] = {
-		text = "{Coldblast, #FBFB79} aplica Congelamento Intenso por {%.1f segundos, white} nos alvos atingidos. {Frost Lances, #FBFB79} sempre causa {dano cr\xEDtico, #FC7474} em alvos com Congelamento Intenso.",
+		text = "Aplica Congelamento Intenso por {6 segundos, white} nos alvos atingidos, que causa {%.1f%% (Spell Power) de dano m\xE1gico, #BA7DFF} a cada {2 segundos, white}.",
 		values = {
-			3,
-			3.6,
-			4.2,
-			4.8,
-			5.4,
-			6
+			45,
+			52.5,
+			60,
+			67.5,
+			75,
+			82.5,
+			90
 		}
 	},
 	["frostbound drake"] = {
-		text = "Gera um ac\xFAmulo de Perfura\xE7\xE3o \xC1rtica para cada alvo atingido por {Coldblast, #FBFB79}. Perfura\xE7\xE3o \xC1rtica aumenta o {(Spell Power), #BA7DFF} da pr\xF3xima {Frost Shards, #FBFB79} ou {Ice Storm, #FBFB79} em {%.1f%%, white} (M\xE1x. {3 ac\xFAmulos, white}.",
+		text = "Gera um ac\xFAmulo de Perfura\xE7\xE3o \xC1rtica para cada alvo atingido por {Coldblast, #FBFB79}. Perfura\xE7\xE3o \xC1rtica aumenta o {(Spell Power), #BA7DFF} da pr\xF3xima {Frost Shards, #FBFB79} em {%.1f%%, white} (M\xE1x. {3 ac\xFAmulos, white}.",
 		values = {
 			5,
 			6,
@@ -5901,154 +5918,211 @@ g_ravencards.descriptions["pt-BR"] = {
 	["blizzard beast"] = {
 		text = "Estilha\xE7os de gelo caem duas vezes mais r\xE1pidos. {Icestorm, #FBFB79} causa {%.1f%%, white} de dano adicional.",
 		values = {
-			25,
-			30,
-			35,
-			40,
-			45,
-			50
+			10,
+			12.5,
+			15,
+			17.5,
+			20,
+			22.5,
+			25
 		}
 	}
 }
 g_ravencards.lores = {
-	["flamelord djinn"] = "It is said that the older a Djinn gets, the stronger it becomes. If true, then the flamelords have been around for millennia. Burning with deep, almost infernal-like, flames, they have total control over any fire source. When their blistering gaze meets their prey, only one thing is certain: ashes will be their only remains.",
+	["vile wurm"] = "Like Marsh Wurms, the brightly colored Vile Wurm can also spit out digested food, slowing both prey or predators. Unlike Marsh Wurms, however, the Vile Wurms isn't considered edible thanks to its unbearably bitter taste. Large and territorial, these reddish-orange Wurms sport a nasty set of pincers that can inject a powerful toxin.",
+	["elf assassin"] = "Although the Elves prefer to use diplomacy in defense of their woodland home, it does not mean they will not go on the offensive. Graceful, yet deadly, the Elf Assassins are the tools that are employed when talks fail and war is undesirable...",
+	["crow matriarch"] = "Insidious creatures corrupted to their very core, Matriarchs are the oldest and most powerful Hags of the Crowhollow Bog's covens. Delving deep into the dark arts for centuries has made them ruthlessly effective at both commanding other Hags and ensuring the designs of their ancient patron come to fruition.",
+	["vampire vixen"] = "Vixens are female Vampires entirely devoted to their dark deities, the Twin Fangs. Coloring their hair red from a mixture of dye and innocent's blood. They carry a steel-tipped whip, designed to bite easily into the flesh, causing streams of blood to pour from the deep gashes or lashing around her enemies to pull them in biting range.",
+	["skorn deathblade"] = "Wielding ominous swords and imbued with demonic potency, these warriors are the strong arm of the cult - escorting warlocks and acting as the Grandmaster's personal bodyguards. Counted amongst the most fervent followers of Skorn's teachings, they charge into battle in a fiery rush, feasting on mayhem and swiftly executing the unfaithful.",
+	["queen snow spider"] = "A Snow Queen Spider's poison is considered to be one of the coldest known substances, instantly freezing anything it comes into contact with. They set up webs made from a thick crystalline material that hardens as it cools, refracting light and making their lairs look like they are lined in beautiful, icy gemstones.",
+	["cave spider"] = "The deep caves of Ravendawn are home to Cavern Arachnids, who weave their webs into endless, maze-like tunnels. These spiders are nearly blind, relying on sound and heat to track down their prey. Cave Spiders have no venom, instead using their oversized fangs to pierce and bleed their prey to death. ",
+	["skeleton haunt"] = "True to their namesake, Haunts can often be found lingering near the places they died, seemingly driven there by vague memories of their previous lives. Haunts wander aimlessly, attacking anything that crosses their path in a fit of mindless rage. Just a heads-up: When fighting undead, make sure they stay dead for good.",
+	["spellslayer drake"] = "Spellslayer Drakes may be the most enchanting and graceful of their kin to behold, but they are also the most shrouded in mystery. Possessing a keen intelligence otherwise lacking among their relatives, they dwell in ancient ruins seeped in old magic. They've even been observed to consume all matter of spells directed at them with relish.",
+	hobgoblin = "These lightly armed Goblinoids are driven by their base desires of greed and survival. With a knack for trickery and thieving, you can always count on the Hobgoblin to betray others to save themselves, and rob them too, if they get the chance.",
+	["brotherhood swordsman"] = "Although lightly armed, they're exceptionally maneuverable, quickly identifying their opponents' weak spots to throw them off balance, all the while dodging any incoming attacks. They say that death by a thousand cuts means a slow, painful demise. Well, the Swordsman may not need so many strikes, but they will deliver a slow death regardless.",
+	["high elf champion"] = "The High Elf Champions earn their title once they've slain a hundred servants of Vemurat or the Dragon himself. Although none have succeeded so far, their long lives allow them the gift of patience. Waiting for the perfect moment to end their war once and for all. Until then, they'll continue to champion their people.",
+	["hoghound raider"] = "Bands of roving Hoghound Raiders terrorize Ravendawn's countryside, relying on lightning fast attacks to demoralize and plunder from their enemies. Armed with curved scimitars, a Hoghound Raider usually isn't trying to kill you, they just want your silver.",
+	["skeleton pikeman"] = "Highly disciplined soldiers in life, Skeleton Pikemen are among the more intelligent of undead creatures. They are particularly effective at blocking attacks with their shields, and know how to use the long reach of their pikes to their advantage. Every pierced enemy soon becomes another companion to march along with.",
 	["emberscale drake"] = "The wildly temperamental Emberscale Drakes make their nests in inhospitable places like volcanic fields or the lava-teeming caves within the depths of the earth. Able to breath flames reaching impossible temperatures, they can quickly incinerate and melt everything standing before them, be it rock, steel or flesh.",
-	["ghaz sandrider"] = "The vanguard of any Ghaz raid are the Sandriders. Mounted on their reptilian companions adapted to the desert environment, they travel over the dunes like fish on ocean waves. Using specialized formations they penetrate the enemy and scatter them to the desert winds before making off with their spoils.",
+	["iceforge hallkeeper"] = "Hallkeeper is a title earned by the Dwarves that are the last ones standing after multiple nights of drinking ale and brawling with one another. Few units are as reliable as the Hallkeepers who diligently guard the cold and eye-catching corridors of Deadbane Hall.",
+	["morningfox cub"] = "Cubs are the smallest of their species and also the weakest, relying on their older kin to provide food and safety. They are quick and playful little critters, poorly equipped for fighting with their underdeveloped claws and teeth. A popular folk tale tells the story of a Morningfox with a coat of solid gold leaves that grew back when plucked.",
+	["dwarf thunderrer"] = "Also known as Thundergunners, these Dwarves carry large firearms instead of the axe or hammer usually favored by their people. The best of them are selected to serve in the Royal Guard. Many enemies seeking to dethrone the King have failed, bodies riddled with bullets from a Thunderrer's gun.",
+	["toad sentinel"] = "Toad Sentinels are the eyes and ears of the Kingdom. Scouting throughout the jungles, Sentinels make use of the leaflike appendage protruding from their head. Able to sense slight vibrations, they can pinpoint their enemies' location with startling accuracy. Passing by a Sentinel's post is a good way to receive a spear to the chest.",
+	["shark goldfin"] = "In times long past, the Shark species ruled the oceans from a vast underwater kingdom. These ancient Sharks boasted golden fins and beards. Since that time Sharks have lost these traits, but every so often a young Pup is born with a golden fin, destined to become a ferocious leader, channeling the kind of power that only existed long ago.",
+	["orc spellcaster"] = "Orcish Spellcasters bear markings infused with powerful magic which glows with an eerie aura, granting them fiendish abilities. While in combat they constantly chant in a harsh and guttural tongue, sounds evoking thoughts of terror and hatred. The dark flame engulfing their hands can be used for self-healing or burning their opponents to a crisp.",
+	["direhorn drake"] = "Favoring dry and desolate deserts for their homes, Direhorn Drake thick scales protect them from the worst of the elements. They possess the largest and sharpest horns among all their kin, which they use to charge through and pierce anything that stands in their way.",
+	["orc chieftain"] = "Having defeated so many enemies, an Orc Chieftain carries himself with such confidence and ferocity that even the most seasoned veterans will think twice before facing him. Even if they rarely take part in small raiding parties, they are still the deadliest warriors amongst their kin and will fiercely answer any challenge to their rule.",
+	["saltdusk bloodmage"] = "While blood magic is shunned by most people, it is a preferred medium for these raiders to fuel their violent endeavors. Powered by the blood forcefully taken from prisoners in the deepest cells of the keep, Saltdusk Bloodmages wield spells that leech their victims and reinvigorate themselves to keep fighting till the last drop.",
+	["shadowfox ninetail"] = "Shadowfoxes are mysterious, nocturnal creatures that generally shy away from contact. Often mistaken for wraiths because of their skull-like faces and glowing eyes, Shadowfoxes are more active at night, using their excellent vision to hunt prey. All Shadowfoxes gain power from the moon, growing stronger as the sun goes down.",
+	["minotaur champion"] = "These steel-clad warriors make up the last line of defense guarding the incredible treasures that lie unplundered at the Labyrinth's center. Boasting relentless vigor and strength, a Minotaur Champion uses its armored body like a battering ram. A mighty charge that can throw enemies backwards, crushing bones and armor alike.",
+	warhog = "Tusks are a sign of power in Warhog society and they take great pride in sharpening and keeping good care of these oversized incisors. Common Warhogs hunt with their tusks, surrounding their enemies and using these natural weapons to pierce and gore. Even if their prey escapes, a deep wound from a Warhog's tusk can fatally bleed for days on end.",
+	["skeleton raider"] = "One of the more dangerous skeleton types. While they were alive, some of these warriors were regarded as monsters. In death they have managed to become something far more terrible. a Skeleton Raider wields the same blood-streaked axes they used to butcher innocent victims during their terrible lives.",
+	["orc nightstar"] = "Respected amongst their kin for the sheer amount of enemies they've killed, Orc Nightstars serve as war-party leaders and honor guards to Witchdoctors and Chieftains. Extremely skilled and ruthless, a Nightstar's unusual weapon choice and fighting style makes them one of the toughest opponents to face when dealing with Orcs.",
+	["lavacap mushroom"] = "The extraordinary Lavacap Mushroom have learned to thrive in the most scorching environments. These fiery creatures coexist with the molten fury of the earth itself. Their striking appearance resembles that of cooled molten rock, crowned by a blazing cap with veins of orange and deep red. Their life begins as dormant spores nestling near lava flows and volcanic vents, developing resilience to extreme heat as they mature, enabling them to withstand temperatures that would incinerate most creatures.",
+	["goblin wizard"] = "Goblin Wizards are among the most intelligent of all Goblinoids. These Goblins use magical means to achieve their goals of havoc and thievery. Their spells include hurling fireballs, self-healing, and perhaps most devious of all - transporting money from your pockets into their own.",
+	["morningstar judge"] = "Judges are the answer to lightly armed, fast moving bandit raiders. Chosen from those with the most resilient will by the Seers, they are trained into unbreakable martial discipline. Their duty is to hold back enemy forces at all costs. It is said that no enemy has seen the back of a Judge, for they don't know fear and would never turn to flee.",
+	["jackal moonblade"] = "Although Jackals do not lack for ferocious melee warriors, the Jackal Moonblade is a cut above the rest. Highly intelligent, exceptionally agile and powerful, these fighters are more than a match for any knight on the field of battle. Their curved blades ensure a slow, painful death for any Djinn on the other end.",
 	["goblin bomber"] = "The Goblin Bomber undergoes a truly euphoric experience in the moment they witness the explosions they're responsible for. Their mad giggling carries even over the loudest of battlefields and the only thing that amuses them more is when they inflict \"accidental\" friendly fire. ",
 	["coal contraption"] = "While Goblin engineering often falls behind that of the Dwarves in regards to sophistication and ingenuity, the machines built by the green-skinned inventors are second to none when it comes to sheer destructive power and volatility. The Coal Contraption is a noisy, six-legged, fire spewing automaton designed for mayhem.",
-	["goblin berserker"] = "The magic hat worn by a Berserker is enchanted by Goblin Wizards, bestowing increased speed and strength upon its wearer. However, these powers come with a price - in battle, they are overcome with bloodlust, sacrificing their minds and lives in service to Goblin Wizards.",
+	["mindslave taskmaster"] = "Mindslaved dwarves are incapable of comprehending the thought of exhaustion, but even if the mind has no use for that word, the body must be kindly reminded of the work that needs to be done. Taskmasters are the strong, watchful drones that work hard to ensure that other mindless thralls are slaving away until their bodies inevitably fail.",
 	["draconic pyromancer"] = "Having sworn loyalty to their master, Vemurat, in ages past, these once proud Ellesset Elves traded away their traditions and freedom for the promise of draconic power. Having become imbued with the fires of their volcanic home, they're both expert Pyromancers and utterly resistant to the heat.",
-	["vermurat, the emberscale dragon"] = "Vemurat was the Dragon that fell. Crashing into the Elder Coast, he was drawn in by the boundless wealth of the Dwarven Kingdom, transforming their tunnels and hills into his lair, Crowfell. Once settled, the draconic corruption seeping out of his lair began to work its way across the land, seducing and subjugating those that surrendered to it.",
-	["jackal moonblade"] = "Although Jackals do not lack for ferocious melee warriors, the Jackal Moonblade is a cut above the rest. Highly intelligent, exceptionally agile and powerful, these fighters are more than a match for any knight on the field of battle. Their curved blades ensure a slow, painful death for any Djinn on the other end.",
+	["emberglow trunk"] = "Haunted trunks are possessed by the distressed woodland spirits seeking retribution wherever nature has been wronged. The Emberglow Trunk is the fiery embodiment of their scorching rage, often causing wildfires that wipe out greedy lumberjacks and encroaching farmers. A tragedy for both sides, but nature can always rise stronger from the ashes.",
+	["saurian scaleshield"] = "Though raw strength is highly valued in saurian society, Saurian Scaleblades are known just as much for their brains as their brawn, frequently resorting to advanced combat tactics to win a fight. Armed with weapons and armor crafted from their own shed skin, Scaleblades carry shields that are light, sturdy, and flexible.",
 	["hog saboteur"] = "With little regard for life or limb, a Hog Saboteur charges into battle with lit explosives strapped to its body. Throwing dynamite at friend and foe alike, these crazed beasts care more about causing destruction than much of anything else. Even other Warhogs know to keep their distance from the maniacs.",
-	["goblin wizard"] = "Goblin Wizards are among the most intelligent of all Goblinoids. These Goblins use magical means to achieve their goals of havoc and thievery. Their spells include hurling fireballs, self-healing, and perhaps most devious of all - transporting money from your pockets into their own.",
-	["manaflow djinn"] = "Born from the same magical source which fuels the power of any spellweaver, the Manaflow Djinns are usually seen avoiding direct combat. Despite being quite frail, they seem to rejoice at the sight of their enemies perishing to their brethren while suffering from the ailments caused by their spellcraft.",
+	["minotaur warden"] = "Minotaur Wardens dedicate their lives to guarding all entrances and exits to their hallowed labyrinths, ensuring that nothing enters or leaves without their knowledge. These strong warriors carry a jagged sword, while a thick wooden buckler gives them a strong defense against weapons and all kinds of physical damage.",
+	["winterborn guardian"] = "These Guardians are tasked with watching the access points into Winterborn territory and encampments. Highly distrustful of any outsider, they will attack first and ask questions later. Like all Winterborn, they are well trained and armed to deal with any human intrusion, apart from their refined hunting and survival skills.",
 	["chainwraith haunt"] = "The catalyst of addiction and obsession birthed these restless spirits. It is said that the intensity of the heat that their lanterns emit correlates directly with how strongly their passions controlled them in life. They eternally chase the highs that once made them feel alive.",
-	["troll warlock"] = "Troll Warlocks are a perfect example of how even the dull-minded can tap into the arcane. Their magic prowess comes innately, it's well known that Trolls can't read books, or don't care to. These brutish spellcasters can cast blazing mana bolts or focus protective shields to repel incoming damage, even command the ground below to collapse.",
-	["halor demon"] = "Although similar in appearance and hailing from Pandemonium just like their Astor kin, Halor Demons hold themselves to a higher standard. Their destructive tendencies are not expressed for the sole purpose of destruction, but to assert their dominance over others. To subjugate and force any who oppose them into submission.",
+	["troll champion"] = "A Champion has earned its title time and time again. They are the finest warriors of their species, true masters of the dual hammers. They have no use for a shield, preferring to take the offensive, using their massive size and might to overwhelm their foes.",
+	hoglet = "Hoglets are born mean and angry, compensating their small size with aggression eagerly encouraged by their parents. Though their tusks are still developing, Hoglets are built of sinew and solid muscle. They fight constantly with their kin for status and dominance. Warthog society is ruthless and only the toughest will survive into adulthood.",
 	["contagious sporewalker"] = "Once, they were a man that got lost in the swamp, or taken from their home by the Crowmaidens. Whoever they once were has now been replaced by a fungal network that controls their body like a puppet. Despite appearing fragile physically, the fungus uses this apparent weakness as a means to spread its spores when damaged. ",
-	["crow matriarch"] = "Insidious creatures corrupted to their very core, Matriarchs are the oldest and most powerful Hags of the Crowhollow Bog's covens. Delving deep into the dark arts for centuries has made them ruthlessly effective at both commanding other Hags and ensuring the designs of their ancient patron come to fruition.",
-	["morningfox ninetail"] = "Ninetails are the heart and soul of every pack and will defend their kin with their lives. As alphas, their speed and power is unmatched and can rally nearby Kits to battle using their legendary howl. While many believe the sighting of a Morningfox Ninetails to be a sign of good fortune, overstepping into their territory quickly spells misfortune.",
+	["dwarf commoner"] = "Common Dwarfs can usually be found deep in the mines, drilling into the bedrock and excavating precious minerals. This may sound like grunt work to the average human, but working the mines is a labor of love for most Dwarves. A Common Dwarf carries no weapons aside from their meaty fists, which they put to use regularly in taverns across Ravendawn.",
+	["zorian shoreguard"] = "Zorian Shoreguards defend the coasts from where these slimy sea-dwellers emerge to raid and plunder nearby lands in search for food, mostly raw flesh of beasts and humans alike. They pose a tough fight due to their surprising level of martial expertise with their armor and weapons crudely crafted from the remains of varied sea-creatures.",
 	["bone gazer"] = "The dark eye of a Bone Gazer is enough to paralyze even the fiercest adventurers in fear, and that's not even considering the creature's row of jagged teeth. These Gazers are known to gather minerals from the environment to grow and strengthen their bonelike faceplates.",
 	["harvester hag"] = "Harvester Hags are the corrupted remains of sorceresses that lost their children. They have odd bells hanging from their cloaks for luring children away from safety. When they get close, the hag uses its phylactery to siphon away their souls, feeding upon their innocence instead of craving for flesh like her sisters.",
-	["goblin pyro"] = "A Goblin Pyro is obsessed with destruction by fire. As a result of this singular fixation, most of these Goblins are missing fingers, hands, or entire limbs. Always holding bombs and other explosives, it's simply not recommended to be within throwing distance of these green-skinned pyromaniacs.",
-	["saltdusk bloodmage"] = "While blood magic is shunned by most people, it is a preferred medium for these raiders to fuel their violent endeavors. Powered by the blood forcefully taken from prisoners in the deepest cells of the keep, Saltdusk Bloodmages wield spells that leech their victims and reinvigorate themselves to keep fighting till the last drop.",
+	["skeleton soldier"] = "Battlefields make ideal grounds for necromancers, as they prowl for acceptable bodies to raise. Skeleton Soldiers were former warriors in armies, sent to early graves during times of war. These tormented, restless spirits are always quite competent with the weapons they wield.",
+	["sharpweed trunk"] = "A Sharpweed plant grows inside the hollow space of this Trunk, whose crest is made of razorlike leaves. This symbiotic relationship empowers them both. A shake of their heads sends sharp leaves spinning in a wide arc, slicing up anything in its path.",
+	["iceforge hunter"] = "Iceforge Hunters are trained from a very tender age, they are brought by their parents out into the cold wilderness of Glaceforde. They are forced to earn their own food by hunting dangerous beasts, a task only possible if one is capable of correctly aiming a shot in the middle of a blizzard with deadly precision.",
+	["froll gladiator"] = "Frolls are infamous for their love of the arena. Known as \"righteous trials\", prisoners are often thrown into the pit to fight a gladiator to the death. Those who survive three times are set free, while those who perish become food, while their skeletons are pillaged for a bonemancer's spells.",
+	["mire wurm"] = "While these might not be the most appealing creatures to look at, small and bloated, the Marsh Wurm is surprisingly considered a delicacy in some parts of Ravendawn. They spend their lives chewing up vegetation and growing fat. If threatened, they can deliver a poisonous bite or spit out their stomach's contents, slowing down predators.",
+	["blizzard beast"] = "The Blizzard Beast is a ruthless carnivore stalking the frozen wastes of Glaceforde. They have perfectly adapted to their harsh environment, possessing a thick fur coat and a keen predatory intellect. Local Glacefordians sometimes even refer to them as Devil-Hounds for their red eyes and large horns.",
+	["draconic crusader"] = "The influence of the Dragon, Vemurat, corrupts in different ways and these Elves became imbued with the strength of their master, rather than his fire. Heavily armored and expertly trained, the fusion of draconic strength and elven agility makes for a powerful combination",
+	["iceforge frostcaller"] = "The prolonged exposure to Igneous Ice changed not only the Frostcallers' bodies, making their eyes glow like stars of frigid blue, but also empowering them with the ability to control ice and snow. Folk swear that they're not only capable of wielding the elements, but that the beasts of Glaceforde answer their songs.",
+	["frostbound drake"] = "Frostbound Drakes are, perhaps, the largest of the Drake family, and the most aggressive. They live in harsh, extremely cold climates and do not tolerate competition, even from others of their kind. Their breath is capable of freezing the target into a solid ice statue.",
+	["dire wolf"] = "Dire Wolves are basically giant Grey Wolves, with huge muzzles filled with teeth and powerful enough to snap bone in half. A Dire Wolf can often be found leading a pack of Grey Wolves. Its howl can be heard for miles, summoning lesser wolves to join in a fight.",
+	["iceshell giant"] = "Only the strong thrive in the cold habitats of Glaceforde. Not all Hatchlings will survive to become Giants, but those that do are powerful enough to hold their own against Snow Spiders and Blizzard Beasts. Iceshell Giants have the ability to shoot a wickedly sharp icicle from their backs.",
+	["lurking shadow"] = "Inhabiting the Fields of Despair, these lithe and agile creatures live in the shadows, watching unsuspecting travelers from a distance. When their quarry appears most vulnerable, they'll utilize their teleportation abilities to manifest out of the darkness and strike!",
 	["warlock ezanor"] = "Rumored to be the bastard son of Roland Godberd, Ezanor was born sickly and unfit to wield a weapon. This prompted him to delve into tomes of dark and arcane knowledge, becoming adept at reinforcing his vitality by sapping his enemies of theirs. He went down such a dark path to prove himself to his father and the Brotherhood. Was it all worth it?",
-	["hookmask slinger"] = "The Slingers aren't as experienced at mixing complex recipes and handling dangerous gasses, however they are very adept at creating basic explosives and corrosive mixtures, hurling them with the sling. They modernized and brought back this ancient weapon to the battlefield through the use of alchemy.",
+	["shadowfox ninetails"] = "Shadowfoxes are mysterious, nocturnal creatures that generally shy away from contact. Often mistaken for wraiths because of their skull-like faces and glowing eyes, Shadowfoxes are more active at night, using their excellent vision to hunt prey. All Shadowfoxes gain power from the moon, growing stronger as the sun goes down.",
 	["hell gazer"] = "Hell Gazers prefer to live in the most devastated areas, where poor settlers barely scrape by in ramshackle shelters and meager rations of food. In these places, the feeling of sorrow and hopelessness lies heavy in the air, providing ample nourishment for these malicious creatures.",
 	["manastorm djinn"] = "Deep within the puzzling temples of Hadarak Desert, the Manastorm Djinn lie in wait. Holding ancient knowledge beyond the understanding of mortals, these powerful creatures have tapped into the secrets of sorcery, wielding an array of destructive spells to obliterate any curious intruders.",
-	["frostrisen shardshooter"] = "These undead craft their arrows from rock-solid ice, enabling them to pierce even the strongest armor. They still patrol the halls and battlements of ancient Thergardian ruins, repelling any intruder with mindless purpose, as if time itself had frozen for them.",
-	["skorn grandmaster"] = "Skorn Grandmaster title is reserved for those in the Warlock ranks who hold the twisted honor of being the most corrupted by demonic influence. In battle they are a force to be reckoned with, casting powerful magic infused with demonic energy, weakening their opponents and raining chaos upon all who oppose the Lord and the coming of Pandemonium.",
+	["frostrisen magus"] = "Enduring years of corruption and decay from the White Blight has erased any trace of humanity from the minds of those who once were wise and skilled spellcasters. What's left is something unnaturally dangerous, made even more powerful by exposure to Igneous Ice.",
+	["froll cryomancer"] = "Only the most magically talented Frolls can become Cryomancers, shamans with the ability to bend cold and ice to their will, which they use to craft devastating weapons for their brethren. They mate for life and when one dies, the other will carry their severed head so that the pair is never separated.",
 	["orc witchdoctor"] = "Orcs are naturally drawn to the forbidden art of Necromancy. Witchdoctors take this one step further by empowering themselves with the enslaved souls contained within the charms carved from the skulls of their victims. Witchdoctors can reanimate and control the bones of fallen warriors and drain the life-force of their enemies to heal themselves.",
-	["blackarmor widow"] = "With a lifespan far exceeding that of lesser spiders, these terrifying giants rarely ever reproduce. Instead of spawning young of her own, a Widow Queen will force other spiders into servitude, often rallying a mix of different species who will defend her at all costs. If bitten and left untreated, the Widow's venom can certainly be fatal.",
-	["spellslayer drake"] = "Spellslayer Drakes may be the most enchanting and graceful of their kin to behold, but they are also the most shrouded in mystery. Possessing a keen intelligence otherwise lacking among their relatives, they dwell in ancient ruins seeped in old magic. They've even been observed to consume all matter of spells directed at them with relish.",
+	["coldstone cub"] = "Unlike their kin elsewhere, Coldstone Foxes do not have the luxury of play or room for error. Even while Cubs, they demonstrate an unwavering instinct to fight and to survive. While they may have a cute appearance, their bite can turn fingers to ice. ",
+	["icicle gazer"] = "Icicle Gazers have an innate understanding of the manipulation of pure ice and, therefore, can shape it to their will, even manipulating the environment around them is a feat any wizard can only dream of!",
 	["glutton hag"] = "Repulsive hulks that wander the bogs like ravenous animals, Glutton Hags have grown way too fond of human flesh, their cravings so immense that they're willing to attack weaker Hags for food. The countless corpses decomposing inside their stomachs cause eruptions to emerge across their bodies from which deadly gasses spit forth.",
-	["queen snow spider"] = "A Snow Queen Spider's poison is considered to be one of the coldest known substances, instantly freezing anything it comes into contact with. They set up webs made from a thick crystalline material that hardens as it cools, refracting light and making their lairs look like they are lined in beautiful, icy gemstones.",
-	["saltdusk ritualist"] = "Wielding disruptive dark magic makes them dangerous on their own and they become deadly when protected and out of reach. They often serve as dubious spiritual guidance to the Saltdusk. The fact that they decorate their clothing and shrines with the flesh and bones freshly ripped from prisoners tells a lot about what kind of morals they preach.",
+	["zorian hailbringer"] = "Like Stormcallers, Zorian Hailbringers have a tight control over the water element. But they have learned to focus on the particularly chilling aspect of the substance. They are capable of launching sharp frostbolts or conjuring up deadly freezing hailstorms. When walking over land, a thin layer of ice forms wherever a Hailbringer steps.",
+	["astor demon"] = "Born out of the madness infused realms of Pandemonium, Astor Demons and all others of their ilk possess an unquenchable thirst for inflicting terror and destruction upon all life they encounter. This desire is so strong that even the most violent of orcs and trolls despise the demons sensing their nature.",
 	["yornish frostbearer"] = "These gelid spellcasters have honed the art of commanding the frost element to blood-chilling degrees. They once were integral for Yorn people to fight back the snow devils and still continue to perform essential tasks for their communities, like freezing in place any potential food source that puts up too much of a fight or tries to escape.",
-	["dwarf prospector"] = "The Dwarves are always looking to find and establish new profitable quarries. This job falls to their respected Prospectors, hardy adventurers eager to discover the next rich vein of gems and precious metals. They use their giant hammers to pulverize rock, stone... and skulls, if necessary.",
-	["orc spellcaster"] = "Orcish Spellcasters bear markings infused with powerful magic which glows with an eerie aura, granting them fiendish abilities. While in combat they constantly chant in a harsh and guttural tongue, sounds evoking thoughts of terror and hatred. The dark flame engulfing their hands can be used for self-healing or burning their opponents to a crisp.",
+	["wildfire jackal"] = "The Wildfire Jackal is the result of attempts to imbue the ancient power of Firelord Djinn onto the Runegust Jackals. Although the experiment proved successful it, perhaps, yielded more than intended. This new breed appears more powerful and more aware of said power, unwilling to merely be tools for lesser beings.",
+	["goblin pyro"] = "A Goblin Pyro is obsessed with destruction by fire. As a result of this singular fixation, most of these Goblins are missing fingers, hands, or entire limbs. Always holding bombs and other explosives, it's simply not recommended to be within throwing distance of these green-skinned pyromaniacs.",
 	["rubycap mushroom"] = "Rubycaps are unique amongst fungi, only capable of fully developing by consuming specific organic matter - blood. An injured animal often never even realizes they've been infected by Rubycap spores, their fate sealed as soon as they lay down to rest. The animal never wakes up again, while a fully grown Rubycap rises from its corpse.",
-	["dwarf warrior"] = "To protect their mines, workers and supply lines, Dwarven Warriors train from an early age in the martial art of their people - their skill with a broadsword is legendary. With one powerful swing, these fearsome fighters are known to cut clean through almost anything in their path.",
+	["flamelord djinn"] = "It is said that the older a Djinn gets, the stronger it becomes. If true, then the flamelords have been around for millennia. Burning with deep, almost infernal-like, flames, they have total control over any fire source. When their blistering gaze meets their prey, only one thing is certain: ashes will be their only remains.",
 	["vampire necromancer"] = "Few of the dark creatures that dwell in the Forsaken Mountains are as insidious and narcissistic as Vampires. These Necromantic bloodsuckers harbor a deep hatred for all things living and won't hesitate to twist the rules of nature, raising their fallen enemies as slaves after draining them of the last drop of blood.",
 	["skorn warlock"] = "Arcane and shadow magic are potent on their own, but pairing those with demonic energy makes the Warlocks of Skorn some of the most dangerous spellcasters around. They are able to release pulses of dark energy and cast twisted curses that sap the life of their opponents.",
-	["draconic crusader"] = "The influence of the Dragon, Vemurat, corrupts in different ways and these Elves became imbued with the strength of their master, rather than his fire. Heavily armored and expertly trained, the fusion of draconic strength and elven agility makes for a powerful combination",
+	["toad ambusher"] = "Despite their humongous size, Toads are often the best camouflaged creatures of the jungle, Toad Ambushers can be nearly invisible when they want to be. Armed with a nasty whip and a curved blade dripping with venom, these lethal assailants are the definition of a swift death. They protect their territory with ruthless efficiency.",
 	["doom gazer"] = "Gazers are inherently sadistic, but like something straight out of a nightmare, Doom Gazers go a step further. Their victims are implanted with a deep, inescapable psychosis - these poor souls are enveloped in a personal hell that feels neverending. A Doom Gazer only grows stronger with this suffering, laughing maniacally while they feed.",
 	["hog cultist"] = "Hog Cultists devote themselves to the study of Blood Magic. They use this power to heal themselves and alter the blood flow of their enemies, causing them to bleed from every orifice. With a wave of their staff, a Hog Cultist can heat the blood of nearby Warhogs, throwing them into a battle frenzy.",
-	["saurian monitor"] = "Adopting amphibious behavior, some saurians prefer the water, which is the case for the Saurian Monitor. They possess superior eyesight and can hold their breath longer than other lizards, making them ideal lookouts and guards along the borders of saurian territory.",
+	["troll warlock"] = "Troll Warlocks are a perfect example of how even the dull-minded can tap into the arcane. Their magic prowess comes innately, it's well known that Trolls can't read books, or don't care to. These brutish spellcasters can cast blazing mana bolts or focus protective shields to repel incoming damage, even command the ground below to collapse.",
 	skeleton = "Skeletons are the reanimated bones of the departed, often found skulking around old ruins and dungeons. Though they appear mindless and fragile, the foul magic behind their creation can make them formidable foes. For this reason, Skeletons are usually the favored minions of necromancers and other sinister warlocks.",
 	["hoghound shaman"] = "While all roving Hoghound bands are dangerous, one led by a Hoghound Shaman is by far the most difficult to deal with. The mounted Shaman has learned to wield Dark Magic. They cast arcing bolts of electricity from their glowing staves and can heal the vitality of nearby Goblins.",
-	["saurian sungazer"] = "Entirely devoted to praising and bathing in the sun's incandescence. Saurian culture has often been grossly overlooked by more advanced civilizations. Sungazers are the only saurians able to fully comprehend the intertwined relationship between their species and the sun, deriving mystical power from the glowing orb.",
+	["saltdusk ritualist"] = "Wielding disruptive dark magic makes them dangerous on their own and they become deadly when protected and out of reach. They often serve as dubious spiritual guidance to the Saltdusk. The fact that they decorate their clothing and shrines with the flesh and bones freshly ripped from prisoners tells a lot about what kind of morals they preach.",
 	["ghostlamp hag"] = "Being lost in the wilderness can be a terrifying experience, in Crowhollow Bog, however, they should control their emotions, or else a Ghostlamp Hag is bound to smell their fear. Eyeless aberrations, holding lanterns in the shape of crow skulls, these beings are always seeking fresh meat for the Crowmaidens.",
 	["goblin tinker"] = "Where a Dwarf Mechanic relies on precision and quality craftsmanship, Goblin Tinkerers are masters of out of the box innovations. Their blueprints are a chaotic mess and all knowledge is bartered for with silver, but any creature capable of building a functional mechanical limb on themselves is doing something right.",
-	["morningstar flagellant"] = "Flagellants hold the strong but conflicting belief that causing any harm to others, even in self defense, is a sin. To reconcile with their faith, they inflict pain on their own bodies to balance the scales. The most fanatical of them even indulge in alchemical mixtures that keep them strong while in battle, but cause immense suffering afterwards.",
+	["pirate freebooter"] = "Pirates live in a semi-anarchic society where the norm is pillaging and stealing everything you want. Freebooters follow this rule to the letter, taking advantage of their enemies' weaknesses and resorting to any means necessary to reach their goals. Some say the only thing Freebooters like stealing more than coins are lives.",
 	["grey wolf"] = "Grey Wolves are the most common predator, smaller and less aggressive than a Dire Wolf. Their pelts are traded across Ravendawn, used and valued as clothing and rugs. A pack of Grey Wolves will attack people if hungry, but if injured too badly they will run away to lick their wounds.",
 	["winterborn shaman"] = "Shamans are the eldest members of the Winterborn. Keepers of the ancestral traditions that define these people as unruly hunters of the tundra wilderness. Highly attuned to the elemental forces permeating Glaceforde, they are known to channel this power to reinvigorate themselves and their kin, or to wipe out enemies with chilling frostbolts.",
-	["boro'gorom"] = "Although many believe them to be just legends and children's stories, the Boro'gorom are rumored to be Farseer Toads that have transcended into elderdom. Old and wise beyond comprehension, they hold the knowledge of countless toad generations. Their mystic abilities are said to be only surpassed by the potency of their poison.",
+	["skorn grandmaster"] = "Skorn Grandmaster title is reserved for those in the Warlock ranks who hold the twisted honor of being the most corrupted by demonic influence. In battle they are a force to be reckoned with, casting powerful magic infused with demonic energy, weakening their opponents and raining chaos upon all who oppose the Lord and the coming of Pandemonium.",
 	["naturalist praiser"] = "Naturalist Praisers are druid-like humans that have grown highly resentful of industriousness and the development of society, which they perceive as the destruction of natural order. They will not stop until roots and vines cover up and strangle any instance where humans have offended nature.",
 	["shark hydromancer"] = "The Hydromancers' natural affinity to sense the ebb and flow of the sea has given them powerful abilities. They can focus on the restorative properties of water to heal themselves and other sharks, shoot spheres of condensed water or tap into the ocean's rage by spinning whirlpools that trap everything inside.",
-	["troll brawler"] = "With a brain the size of an acorn, it doesn't take much to entertain a Troll. Violence is the favorite pastime of the dumb brutes, who love watching fights to the death in crude fighting pits. The best gladiators are known as Brawlers, wickedly fast and skilled with their hands, a single punch from these monsters can shatter bones and squash organs.",
+	["snow broodmother"] = "A Snow Broodmother's poison is considered to be one of the coldest known substances, instantly freezing almost anything it comes into contact with. They set up webs made from a thick crystalline material that hardens as it cools, refracting light and making their lairs look like they are lined in beautiful, icy gemstones.",
 	["zorian stormcaller"] = "No one knows the true nature of the fathomless deities worshiped by the Zorians, but it seems they listen to the calls of the fishlike creatures. A Zorian Stormcaller is able to command the elements and set frightening thunderstorms upon its enemies, control the flow of the tides or launch lightning bolts from its webbed hands.",
-	["sharpweed trunk"] = "A Sharpweed plant grows inside the hollow space of this Trunk, whose crest is made of razorlike leaves. This symbiotic relationship empowers them both. A shake of their heads sends sharp leaves spinning in a wide arc, slicing up anything in its path.",
-	["troll titan"] = "Shaking ground and rhythmic earthquakes are the signs of a marching Troll Titan. These gargantuan creatures are often described as walking mountains. With skin as hard as stone and boasting unparalleled strength and stupidity, they have no regard for anything under their behemoth feet, rocks, animals, trees and even smaller Trolls all get squashed.",
+	["blackarmor widow"] = "With a lifespan far exceeding that of lesser spiders, these terrifying giants rarely ever reproduce. Instead of spawning young of her own, a Widow Queen will force other spiders into servitude, often rallying a mix of different species who will defend her at all costs. If bitten and left untreated, the Widow's venom can certainly be fatal.",
+	elderwood = "Long before the dwarves, elves, or humans called Ravendawn home, Elderwood goliaths roamed the land. These ancient creatures move extremely slow and talk even slower, it can take them hours to finish a sentence. Not many Elderwoods are left, but those that remain are said to be extremely wise... if you have the patience to listen to them.",
 	["hookmask doctor"] = "These are the most experienced alchemists among the Hookmask rabble and are responsible for maintaining and creating the Unleashed. You can never be sure if the flask of strangely colored liquid the Doctor is pulling out will somehow heal their allies or turn them into flesh eating monsters.",
 	["blademaster djinn"] = "Blademaster Djinns are seasoned fighters: agile and skillful, many great swordplayers lost their lives after underestimating these proficient beasts. When you delve deep in a Djinn temple, you're sure to be caught in a storm of steel.",
-	["froll gladiator"] = "Frolls are infamous for their love of the arena. Known as \"righteous trials\", prisoners are often thrown into the pit to fight a gladiator to the death. Those who survive three times are set free, while those who perish become food, while their skeletons are pillaged for a bonemancer's spells.",
 	["brotherhood sorcerer"] = "These spell casters will mark territory belonging to the Brotherhood by burning their family's insignia into the bark of trees. Few understand the reasons behind skilled Sorcerers joining the Brotherhood. Whether it's exile for a crime or misguided loyalty, the one thing that's certain is their mastery over destructive elemental magic.",
 	crowman = "Although Crowmaidens capture men to turn them into Sporewalkers, the creation of the Crowman is little understood. Certain individuals undergo a grizzly mutation, during the ritual, becoming a hulking abomination with crow-like features and bulbous fungi growing all over them. ",
-	["emberglow trunk"] = "Haunted trunks are possessed by the distressed woodland spirits seeking retribution wherever nature has been wronged. The Emberglow Trunk is the fiery embodiment of their scorching rage, often causing wildfires that wipe out greedy lumberjacks and encroaching farmers. A tragedy for both sides, but nature can always rise stronger from the ashes.",
 	["saurian skullmage"] = "Even though skullmages are able to tap into the realm of magic, they are still fearsome fighters with great physical capabilities . Able to deal considerable amounts of damage from closeby and afar, a single skullmage and their variable skills can pose a serious threat to even the most experienced adventurers.",
 	["toad farseer"] = "With glowing purple skin and giant humps pulsating with energy, nature's will courses through a Toad Farseer body. These ancient creatures spend their entire lives devoted to the jungle, surrendering their very souls. This relationship gives them the power to manipulate plants and bend water to their will, wielding both as deadly weapons.",
-	["brotherhood mender"] = "Without the exceptional abilities of the Menders in treating both disease and injuries, many of the Brotherhood's best would have been lost to battle wounds, snake bites and sickness. Do not mistake their protective abilities for passivity or softness, for they will smite any who intrude upon their home and family without mercy.",
 	["runegust jackal"] = "Earlier attempts to imbue Djinn properties onto Jackals resulted in these imposing masters of air magic. They are, however, built to be weapons and do not possess the intellect of the Jackals that created them. Nonetheless, they are proving capable at dispatching Djinn and inspiring terror. ",
 	toad = "After 21 days, a tadpole matures into a full-grown Toad. Large creatures built of pure muscle and whiplike tongues. Their thick skin is tougher than leather, and powerful legs give them the ability to jump great distances. Although Common Toads carry no weapons, their infamous tongues are coated with sticky poison and have an impossibly long reach.",
-	["orc nightstar"] = "Respected amongst their kin for the sheer amount of enemies they've killed, Orc Nightstars serve as war-party leaders and honor guards to Witchdoctors and Chieftains. Extremely skilled and ruthless, a Nightstar's unusual weapon choice and fighting style makes them one of the toughest opponents to face when dealing with Orcs.",
 	["elf druid"] = "With flowing robes and tattoos like grasping vines, Elven Druids are among the most important members of Elf society. They can commune with the trees, coaxing their roots and branches into specific shapes, crafting pathways and buildings high in the forest canopy. They're even able to bind their foes with tree roots, and shoot deadly earthen projectiles.",
 	["many-eyes trunk"] = "The Many-Eyes is truly a horror of the deep forest. Their heavy stump is studded with many red eyes, constantly swiveling around. Each of its eyes cast a specific spell. Simply glimpsing this creature can drive someone mad, as they become afflicted with drunkenness, blindness, or worse. ",
-	hoglet = "Hoglets are born mean and angry, compensating their small size with aggression eagerly encouraged by their parents. Though their tusks are still developing, Hoglets are built of sinew and solid muscle. They fight constantly with their kin for status and dominance. Warthog society is ruthless and only the toughest will survive into adulthood.",
 	["pearlshell giant"] = "Tortoises can have long lives that count well into the hundreds of years old. Pearlshell Giants are the eldest of their kind, developing for such a long time that multiple of their characteristic pearl-like ornaments have grown on their shells. These slow-moving giants can still pack a punch, shooting powerful water spheres from both heads.",
 	["ghaz sandbender"] = "Whenever their foes are able to pin down a Ghaz raiding party, the Sandbenders are utilized as a last line of defense to avoid defeat. Using their arcane powers over the desert winds, working in tandem, they're capable of creating great sand storms to cover their comrades' escape.",
-	warhog = "Tusks are a sign of power in Warhog society and they take great pride in sharpening and keeping good care of these oversized incisors. Common Warhogs hunt with their tusks, surrounding their enemies and using these natural weapons to pierce and gore. Even if their prey escapes, a deep wound from a Warhog's tusk can fatally bleed for days on end.",
 	bat = "Caves and caverns are often home to vast colonies of Giant Bats, whose guano is used as fertilizer throughout the farmlands of Ravendawn. All Giant Bats can use their sonar abilities to confuse both prey and enemies. ",
 	["pummeldillo boxer"] = "Ravendawn is home to many odd creatures, but few are as strange as the feisty Pummeldillos. When facing them, don't be deceived by their small frame or short legs, for Pummeldillo culture revolves around boxing. Each year, all Pummeldillo clans hold a fierce pugilism tournament to determine their leaders, called the Pummelglove Games.",
-	["brotherhood marksman"] = "Most marksmen like to boast that their deadly aim is comparable to that of elven bowmen. Their confidence in their skill with the bow is such that they accept the brand of the Brotherhood on their palms, convinced that no enemy will lay eyes upon them and live to tell another soul. ",
 	["mysticap mushroom"] = "When a Mysticap reaches maturity, beautiful and bulbous fungi begin to sprout from its head. On nights when the sky is clear, these pale blue mushrooms absorb the moonlight, charging themselves with healing magical energies the Mysticap can later release to mend itself of any harm.",
 	["goblin glider"] = "Goblin Gliders are thrill-seekers, often found near cliff sides and mountain peaks. These creatures love to fly, and this fearlessness makes them useful as scouts. As a result of their obsession with the open sky, only one of every five Goblin Gliders survives to adulthood.",
-	["hog warlord"] = "Every Warhog tribe is headed by a Warlord, fearsome warriors who gain their position through brute strength. A Warlord's club is its symbol of power, a heavy bone taken from only the mightiest of opponents. Hog Warlords are in charge for a reason. The greatest of Hog champions are capable of dispatching their foes and feasting at the same time.",
 	["naturalist mage"] = "While promoting a deep care for nature and its protection is a noble cause, these Naturalists have taken it to the extreme. Rejecting anything man-made they deem harmful to nature . Naturalist Mages are the destructive arm of this radical group, calling on elemental powers to wipe out everything that offends or opposes their view.",
 	["high elf priestess"] = "The Elves of Ravendawn do not have kings or queens, instead following Priestesses of the Wellspring. High Elven Priestesses worship the Wellspring and in turn, the spring blesses them with powerful magics. A Priestess' chants are both captivating and deadly. She can heal all Elves in her vicinity and cause the ground itself to explode.",
-	["winterborn hunter"] = "Hardy and fiercely protective of the way of their ancestors, Winterborn Hunters are well used to living in the harsh conditions of Glacefordian wilderness. They can spot small prey over miles and shoot straight amidst blizzards that would even make a Froll think twice of leaving its cave.",
 	phoenix = "The Phoenix is Ravendawn's bird of legend. Fire runs through its veins, granting it a supernatural control over the element. Solitary and extremely territorial, it attacks anything perceived as a threat. In ages past, many such elemental birds ruled the skies, but only the Phoenix survived the passing of time.",
 	["kaiman illusionist"] = "Though their grasp of spellcraft is primitive, Illusionists use their tricks to both conceal themselves and distract prey. Hatched during a blood ritual, their single greatest ambition is to rise to the rank of Seer and lead their tribe.",
-	["toad enforcer"] = "Enforcers are the foot-soldiers of the Toad Kingdom. Red skin, heavy armored and wielding a big hammer as nasty as their attitude - they are true battle-toads. Most would avoid a confrontation with even a single Toad Enforcer, let alone a whole army. When the jungle's laws are broken, Enforcers are always ready to restore natural order.",
 	["toadstool shaman"] = "With time, a Mysticap morphs into a Toadstool Shaman, spiritual leaders of the Fungi family. Losing their healing abilities, a Toadstool Shaman instead gains potent offensive attacks including a ranged nature bolt, and vine whip. These shrewd creatures are often defended by Toadstool Warriors, and can summon lesser Fungi if seriously threatened.",
 	["iceforge winterlord"] = "Being the only ones other than the Frostcallers to be directly exposed to the powers of the Igneous Ice, Winterlords are the heads of the Iceforge dwarven houses, being equally capable of calling upon its power to their aid. When someone is foolish enough to do battle with a Winterlord, only shattered statues of ice remain to tell the story.",
-	["saurian scaleshield"] = "Though raw strength is highly valued in saurian society, Saurian Scaleblades are known just as much for their brains as their brawn, frequently resorting to advanced combat tactics to win a fight. Armed with weapons and armor crafted from their own shed skin, Scaleblades carry shields that are light, sturdy, and flexible.",
-	["pirate cannoneer"] = "Pirate ships are infamously known for their firepower, with cannons able to easily tear holes in most other ships. The Cannoneers decided to take this ballistic power in hand and into land by abusing their abnormal strength to carry, hold and fire cannons the size of goblins.",
+	["elderwood goliath"] = "Long before the dwarves, elves, or humans called Ravendawn home, Elderwood goliaths roamed the land. These ancient creatures move extremely slow and talk even slower, it can take them hours to finish a sentence. Not many Elderwoods are left, but those that remain are said to be extremely wise... if you have the patience to listen to them.",
 	["golden guardian"] = "Gold is highly prized by Saurian tribes, but not for its trade value. The precious metal is used as a heat conductor to gather sunlight and provide warmth to their dwellings during the night. The bravest and sturdiest members of the tribes rise to assume the title of Golden Guardian, whose duty is to protect this resource with their lives.",
-	["dire wolf"] = "Dire Wolves are basically giant Grey Wolves, with huge muzzles filled with teeth and powerful enough to snap bone in half. A Dire Wolf can often be found leading a pack of Grey Wolves. Its howl can be heard for miles, summoning lesser wolves to join in a fight.",
-	["poisonpetal lotus"] = "The Poisonpetal Lotus is a cunning predator that likes to ambush its prey within Sajecho's thick vegetation and overgrown ruins. Its attacks inflict a strong toxin and it can launch deadly petals over long distances. Fortunately, these plants only hunt when hungry and are otherwise content with standing still and soaking up the sunlight.",
-	["iceforge stormgunner"] = "Anyone doubting the mobility of Dwarven soldiers will be quickly silenced by a bullet from a passing armored Stormgunner. Using the snowstorm as cover, they sneak up and quickly swarm unaware enemies, seizing the opportunity given by the chaos that follows to leave nothing but corpses on Glaceforde's frozen wastes.",
-	["twinhead yeti"] = "The cold and inhospitable northern reaches make a perfect environment for creatures as hardy as the lands they inhabit, the mighty Yeti being a prime example. As if running into a normal Yeti wasn't enough of a problem already, facing this rarer twin-headed variant turns a difficult fight into an impossible ordeal.",
+	["morningfox ninetails"] = "Ninetails are the heart and soul of every pack and will defend their kin with their lives. As alphas, their speed and power is unmatched and can rally nearby Kits to battle using their legendary howl. While many believe the sighting of a Morningfox Ninetails to be a sign of good fortune, overstepping into their territory quickly spells misfortune.",
+	["saurian sungazer"] = "Entirely devoted to praising and bathing in the sun's incandescence. Saurian culture has often been grossly overlooked by more advanced civilizations. Sungazers are the only saurians able to fully comprehend the intertwined relationship between their species and the sun, deriving mystical power from the glowing orb.",
 	["bloodthirsty kaiman"] = "The Bloodthirsty Kaiman have more than earned their name. Their blood-red scales are the result of participating in over a hundred sacrificial rituals and consuming the blood of many more victims. The blood magic that is used to empower them also inflicts an unquenchable thirst for more blood. Never to be sated.",
 	["kaiman seer"] = "Every Kaiman Seer is believed to only hatch from eggs that have been bathed in the blood of those deemed too weak to survive. A tribe of Kaiman is nothing without a shaman to lead them. You will always find a Seer in the midst of the gruesome ritual as they're responsible for picking the sacrificial offering of younglings.",
-	["troll knight"] = "Troll Knights are knights by name only. They know nothing of chivalric codes or morals. Fully armored with a massive axe in hand, they will fearlessly take on any foe, any time,  they're simply too stupid to know when to retreat. Blocking a Knight's attack is hardly an option, for their swings can break any guard and knock back opponents.",
 	["hierophant sigrid"] = "Morningstar's chosen representative, Sigrid has trained from an early age in theology, diplomacy and the art of war. Forged into a paragon of what the Morningstars strive for: incorruptible power in service and protection of her community. Kown in Firslight for her mercy and diplomacy, outside the walls she has earned a nickname: The Warmaiden.",
 	["dwarf mechanic"] = "The wonders that Dwarven Mechanics could achieve in the past made their realms the envy of the world and while they've lost much of their knowledge in the chaos of time, they toil tirelessly to restore it. None doubt the craftsmanship nor speed at which they can repair and maintain their contraptions.",
-	["morningstar bishop"] = "The Seers serve the daily rituals in the Morningstar community and advise the Hierophant on the will of the light and the elements. They act as the pillars of virtue supporting the peace and harmony around Firslight. Despite their peaceful disposition, they are trained to support the front line troops and know the qualities needed in Judges.",
-	["dire bear"] = "Dire Bears are faster, stronger, and significantly angrier than their cousins. When they begin to chase their prey, they'll continue to attack until death - either its own, or its target. Dire Bears generally inhabit the high mountains, making their bone-strewn lairs in the caves found there.",
-	["minotaur duelist"] = "Most Minotaurs are straightforward combatants, but Duelists have a special appreciation for their martial art. Exalting their species' love for sport into hand-to-hand combat, they even challenge other Minotaurs in battles to the death. Trusting their speed and skill rather than brute force, they fight unarmored and wield short curved daggers.",
-	["giant bee"] = "The sweet produce of these diligent insects has been used in many recipes, both cooking and alchemical. It is said that when sealed and kept dry, honey can last for thousands of years, one only needs to be brave enough to retrieve it!",
-	["shark harpooner"] = "A Harpooner is one of the more effective Sharks when it comes to land combat. The natural strength of their species allows Harpooner Sharks to throw their lance great distances through the air, making up for their slow footspeed. Bands of Harpooners are often found scavenging the shores of Gilead, looking for easy prey and plunder.",
+	["boro'gorom"] = "Although many believe them to be just legends and children's stories, the Boro'gorom are rumored to be Farseer Toads that have transcended into elderdom. Old and wise beyond comprehension, they hold the knowledge of countless toad generations. Their mystic abilities are said to be only surpassed by the potency of their poison.",
+	["morningstar flagellant"] = "Flagellants hold the strong but conflicting belief that causing any harm to others, even in self defense, is a sin. To reconcile with their faith, they inflict pain on their own bodies to balance the scales. The most fanatical of them even indulge in alchemical mixtures that keep them strong while in battle, but cause immense suffering afterwards.",
+	["dwarf warpriest"] = "Embodiments of the Eternal Forge, Dwarven Warpriests wield mighty hammers, symbols of dwarven endurance and determination. As spiritual leaders, they inspire their kin and teach the ways of the forge. In battle, they channel the fiery essence of a thousand furnaces, unleashing devastating blows upon their foes, and standing as stalwart guardians of their people.",
 	["vampire reaver"] = "By Vampire standards, Reavers are fairly young, like inexperienced newborns, still getting used to their life as an undead bloodsucker. Consumed by their newfound power and bloodlust, Vampire Reavers are rash, always eager to kill. Even when they're not hungry, Reavers will gladly put their axes to use.",
-	["blizzard beast"] = "The Blizzard Beast is a ruthless carnivore stalking the frozen wastes of Glaceforde. They have perfectly adapted to their harsh environment, possessing a thick fur coat and a keen predatory intellect. Local Glacefordians sometimes even refer to them as Devil-Hounds for their red eyes and large horns.",
-	["dwarf elementalist"] = "An oddity among their kin, Dwarven Elementalists have forsaken traditional weapons and hand-to-hand combat in favor of the Mystic Arts. These intellectuals seek ancient scrolls and manuscripts for long-lost magics and forgotten Dwarven technologies. Magic courses through their very bodies - a bright blue aura often seeps from their eyes.",
+	["morningstar bishop"] = "The Seers serve the daily rituals in the Morningstar community and advise the Hierophant on the will of the light and the elements. They act as the pillars of virtue supporting the peace and harmony around Firslight. Despite their peaceful disposition, they are trained to support the front line troops and know the qualities needed in Judges.",
 	["animated bones"] = "Talented necromancers are capable of manipulating the remains of the dead to take whatever shape they desire. Utterly obedient and restless, even when one form is destroyed, another can quickly take its place.",
-	elderwood = "Long before the dwarves, elves, or humans called Ravendawn home, Elderwood goliaths roamed the land. These ancient creatures move extremely slow and talk even slower, it can take them hours to finish a sentence. Not many Elderwoods are left, but those that remain are said to be extremely wise... if you have the patience to listen to them.",
-	["chainwraith prowler"] = "The fallen souls of robbers and murderers are wrapped in chains that leave them forever in torment. Feeling rejected and ashamed for their actions, they lash out at the living, envious of the lives they'll never have.",
-	["boar runt"] = "Do not be fooled by their smaller size, these animals are stocky and muscular. The adolescent Boar Runt can turn aggressive in a moment's notice and will not hesitate to rush  at anything that threatens or surprises them. ",
-	["lavacap mushroom"] = "The extraordinary Lavacap Mushroom have learned to thrive in the most scorching environments. These fiery creatures coexist with the molten fury of the earth itself. Their striking appearance resembles that of cooled molten rock, crowned by a blazing cap with veins of orange and deep red. Their life begins as dormant spores nestling near lava flows and volcanic vents, developing resilience to extreme heat as they mature, enabling them to withstand temperatures that would incinerate most creatures.",
-	["high elf champion"] = "The High Elf Champions earn their title once they've slain a hundred servants of Vemurat or the Dragon himself. Although none have succeeded so far, their long lives allow them the gift of patience. Waiting for the perfect moment to end their war once and for all. Until then, they'll continue to champion their people.",
+	["minotaur archer"] = "Unlike their more upfront brethren, Minotaur Arbalists prefer to stay back, biding their time to pick the perfect shot. While an enclosed and dark labyrinth might seem like an unfit place to wield slow and clunky crossbows, these sharpshooters have learned how to use the long and narrow hallways to their advantage.",
+	["brotherhood mender"] = "Without the exceptional abilities of the Menders in treating both disease and injuries, many of the Brotherhood's best would have been lost to battle wounds, snake bites and sickness. Do not mistake their protective abilities for passivity or softness, for they will smite any who intrude upon their home and family without mercy.",
+	["sunchaser jackal"] = "Sunchaser Jackals have sought to master some of the Djinn magic that created them in the first place. Their staff acts like a lightning rod, concentrating the rays of light and heat from the sun to unleash devastating attacks. Keenly intelligent and loyal, they command the lesser Jackals in battle.",
+	["morningfox ninetail"] = "Ninetails are the heart and soul of every pack and will defend their kin with their lives. As alphas, their speed and power is unmatched and can rally nearby Kits to battle using their legendary howl. While many believe the sighting of a Morningfox Ninetails to be a sign of good fortune, overstepping into their territory quickly spells misfortune.",
 	["morningstar paladin"] = "The Paladins are a derivative of the original Ravenguards that were stationed in the plains to protect the settlers and their lands from any monsters and bandits. They kept their arms and armor mostly the same as their Ravenguard forebears, relying on skill and heavy equipment to protect them.",
-	["mire wurm"] = "While these might not be the most appealing creatures to look at, small and bloated, the Marsh Wurm is surprisingly considered a delicacy in some parts of Ravendawn. They spend their lives chewing up vegetation and growing fat. If threatened, they can deliver a poisonous bite or spit out their stomach's contents, slowing down predators.",
+	["yornish mamut"] = "These large mounted units can be seen patrolling the borders of Yornish territory and functioning as extremely effective cavalry to the wildlings when war times arise. A single Yornish Mamut can break an entire group of enemies, charging and trampling everything in its path. The grand beasts are rumored to partake in the same diet as their riders.",
 	["yornish druid"] = "The Yornish are blood-bound to their people's dark past. Generations of vampiric influence have made them wild and feral, with a ravenous hunger for blood and flesh that hasn't vanished even in the ages past science their masters abandoned them. Yornish Druids are highly attuned to blood magic, as well as to the spirits of the cold and frost.",
-	["polar bear"] = "Majestic white giants of the Polar regions, these Bears are apex predators adapted to the harsh, icy wilderness they call home. Highly resistant to the cold, they can compete with most other creatures over food and shelter, which they will fiercely fight for without ever backing off until the threat is dealt with.",
-	["dwarf thunderer"] = "Also known as Thundergunners, these Dwarves carry large firearms instead of the axe or hammer usually favored by their people. The best of them are selected to serve in the Royal Guard. Many enemies seeking to dethrone the King have failed, bodies riddled with bullets from a Thunderrer's gun.",
+	["hookmask slinger"] = "The Slingers aren't as experienced at mixing complex recipes and handling dangerous gasses, however they are very adept at creating basic explosives and corrosive mixtures, hurling them with the sling. They modernized and brought back this ancient weapon to the battlefield through the use of alchemy.",
 	["poisonpetal goliath"] = "Poisonpetals are vividly colored, carnivorous plants that prefer to hunt living creatures in the lush jungles of Sajecho. The Goliath is the king of Poisonpetals. A big, scary plant with gnashing teeth across its petal covered mouth and a bulb atop its body that sprays a sweet, noxious mist that dulls the senses and renders its prey defenseless.",
 	["skeleton archer"] = "Hunters or bowmen in previous lives, Skeleton Archers are as proficient in death as they were in life. Make no mistake - just because a Skeleton Archer's eyes rotted out long ago, they are still able to easily hit their targets from a distance.",
+	["winterborn hunter"] = "Hardy and fiercely protective of the way of their ancestors, Winterborn Hunters are well used to living in the harsh conditions of Glacefordian wilderness. They can spot small prey over miles and shoot straight amidst blizzards that would even make a Froll think twice of leaving its cave.",
 	["minotaur arbalist"] = "Unlike their more upfront brethren, Minotaur Arbalists prefer to stay back, biding their time to pick the perfect shot. While an enclosed and dark labyrinth might seem like an unfit place to wield slow and clunky crossbows, these sharpshooters have learned how to use the long and narrow hallways to their advantage.",
+	["skorn grandmaster (dynamic boss)"] = "Skorn Grandmaster title is reserved for those in the Warlock ranks who hold the twisted honor of being the most corrupted by demonic influence. In battle they are a force to be reckoned with - casting powerful magic infused with demonic energy, weakening their opponents and raining chaos upon all who oppose the Lord and the coming of Pandemonium.",
+	["captain boone"] = "Captain Boone was one of the Hookmask Captains dispatched closer to the capital, in Glademire, as a forward base of operations. Boone launches relentless raids with impunity, knowing the Ravenguard do not have the resources to oppose him, yet he remains cautious himself. Careful not to abandon his well fortified stronghold. ",
+	["elf bowman"] = "Elves are the most talented archers in Ravendawn, bar none. With their super-sensitive hearing and eyesight, an Elf Bowman can track a moving target through the woods and put an arrow through its eye. With their sentry posts high up in the tree canopy, Elven Bowmen are excellent at staying hidden until they want to be seen.",
+	["sandwatcher jackal"] = "Acting as a scout for the Jackals of Hadarak Desert, the Sandwatchers use their arrows of light to signal for any threats as well as their mortal enemies, the Djinn. Being of middling intelligence, they're not trusted with more complex tasks. ",
+	["morningstar hermit"] = "Originating from the frontier scouts that once served with the Ravenguards. They spend long days in the wilds watching over the roads and valleys for anything that may threaten the security of their home. Though the bow is their weapon of choice, they are known to brew potions out of native reagents in order to help them in their task.",
+	["yornish hunter"] = "The wild and feral Yornish have developed excellent survival skills. Yornish Hunters can roam the steppes for days on end without having a meal other than whatever little sustain can be foraged or the odd carrion found along the way. It's not that the region is lacking in game to hunt, but humans are rarer to find.",
+	["ghaz archer"] = "The Ghaz depend on quick raids that inflict as few casualties as possible on their numbers. To ensure success, archers rain down volleys of arrows to soften up any organized resistance that their enemies attempt to mount. Sometimes quantity is better than quality. ",
+	spearhog = "The huge muscles and meaty fingers of a Warhog makes them terrible archers, but very effective spearmen. Spearhogs use their physical prowess to throw their weapon of choice great distances with accuracy. But make no mistake, a Spearhog will gladly fight face-to-face if necessary.",
+	["frostrisen shardshooter"] = "These undead craft their arrows from rock-solid ice, enabling them to pierce even the strongest armor. They still patrol the halls and battlements of ancient Thergardian ruins, repelling any intruder with mindless purpose, as if time itself had frozen for them.",
+	["hoghound archer"] = "Surprisingly, Hoghound Archers are some of the best marksmen in the land. If your coin purse is exposed, these archers are able to spill its contents from a distance with a single shot. Their hit and run tactics make them frustrating opponents.",
+	["brotherhood captain"] = "Chosen from the best among the Brotherhood's ranks, the Captain is a master of forest fighting and is perfectly at home engaging opponents in melee combat. Their true skill shines when using the bow, however, as their long hours practicing their craft allows them to unleash a series of arrows without pause and without missing. ",
+	["vermurat, the emberscale dragon"] = "Vemurat was the Dragon that fell. Crashing into the Elder Coast, he was drawn in by the boundless wealth of the Dwarven Kingdom, transforming their tunnels and hills into his lair, Crowfell. Once settled, the draconic corruption seeping out of his lair began to work its way across the land, seducing and subjugating those that surrendered to it.",
+	["brotherhood marksman"] = "Most marksmen like to boast that their deadly aim is comparable to that of elven bowmen. Their confidence in their skill with the bow is such that they accept the brand of the Brotherhood on their palms, convinced that no enemy will lay eyes upon them and live to tell another soul. ",
+	["dwarf thunderer"] = "Also known as Thundergunners, these Dwarves carry large firearms instead of the axe or hammer usually favored by their people. The best of them are selected to serve in the Royal Guard. Many enemies seeking to dethrone the King have failed, bodies riddled with bullets from a Thunderrer's gun.",
+	["manaflow djinn"] = "Born from the same magical source which fuels the power of any spellweaver, the Manaflow Djinns are usually seen avoiding direct combat. Despite being quite frail, they seem to rejoice at the sight of their enemies perishing to their brethren while suffering from the ailments caused by their spellcraft.",
+	["pirate cannoneer"] = "Pirate ships are infamously known for their firepower, with cannons able to easily tear holes in most other ships. The Cannoneers decided to take this ballistic power in hand and into land by abusing their abnormal strength to carry, hold and fire cannons the size of goblins.",
+	["giant bee"] = "The sweet produce of these diligent insects has been used in many recipes, both cooking and alchemical. It is said that when sealed and kept dry, honey can last for thousands of years, one only needs to be brave enough to retrieve it!",
+	["halor demon"] = "Although similar in appearance and hailing from Pandemonium just like their Astor kin, Halor Demons hold themselves to a higher standard. Their destructive tendencies are not expressed for the sole purpose of destruction, but to assert their dominance over others. To subjugate and force any who oppose them into submission.",
+	["poisonpetal lotus"] = "The Poisonpetal Lotus is a cunning predator that likes to ambush its prey within Sajecho's thick vegetation and overgrown ruins. Its attacks inflict a strong toxin and it can launch deadly petals over long distances. Fortunately, these plants only hunt when hungry and are otherwise content with standing still and soaking up the sunlight.",
+	["iceforge stormgunner"] = "Anyone doubting the mobility of Dwarven soldiers will be quickly silenced by a bullet from a passing armored Stormgunner. Using the snowstorm as cover, they sneak up and quickly swarm unaware enemies, seizing the opportunity given by the chaos that follows to leave nothing but corpses on Glaceforde's frozen wastes.",
+	["saurian monitor"] = "Adopting amphibious behavior, some saurians prefer the water, which is the case for the Saurian Monitor. They possess superior eyesight and can hold their breath longer than other lizards, making them ideal lookouts and guards along the borders of saurian territory.",
+	["troll titan"] = "Shaking ground and rhythmic earthquakes are the signs of a marching Troll Titan. These gargantuan creatures are often described as walking mountains. With skin as hard as stone and boasting unparalleled strength and stupidity, they have no regard for anything under their behemoth feet, rocks, animals, trees and even smaller Trolls all get squashed.",
+	["dwarf prospector"] = "The Dwarves are always looking to find and establish new profitable quarries. This job falls to their respected Prospectors, hardy adventurers eager to discover the next rich vein of gems and precious metals. They use their giant hammers to pulverize rock, stone... and skulls, if necessary.",
+	["goblin berserker"] = "The magic hat worn by a Berserker is enchanted by Goblin Wizards, bestowing increased speed and strength upon its wearer. However, these powers come with a price - in battle, they are overcome with bloodlust, sacrificing their minds and lives in service to Goblin Wizards.",
+	["dire bear"] = "Dire Bears are faster, stronger, and significantly angrier than their cousins. When they begin to chase their prey, they'll continue to attack until death - either its own, or its target. Dire Bears generally inhabit the high mountains, making their bone-strewn lairs in the caves found there.",
+	["minotaur duelist"] = "Most Minotaurs are straightforward combatants, but Duelists have a special appreciation for their martial art. Exalting their species' love for sport into hand-to-hand combat, they even challenge other Minotaurs in battles to the death. Trusting their speed and skill rather than brute force, they fight unarmored and wield short curved daggers.",
+	["shark harpooner"] = "A Harpooner is one of the more effective Sharks when it comes to land combat. The natural strength of their species allows Harpooner Sharks to throw their lance great distances through the air, making up for their slow footspeed. Bands of Harpooners are often found scavenging the shores of Gilead, looking for easy prey and plunder.",
+	["twinhead yeti"] = "The cold and inhospitable northern reaches make a perfect environment for creatures as hardy as the lands they inhabit, the mighty Yeti being a prime example. As if running into a normal Yeti wasn't enough of a problem already, facing this rarer twin-headed variant turns a difficult fight into an impossible ordeal.",
+	["dwarf elementalist"] = "An oddity among their kin, Dwarven Elementalists have forsaken traditional weapons and hand-to-hand combat in favor of the Mystic Arts. These intellectuals seek ancient scrolls and manuscripts for long-lost magics and forgotten Dwarven technologies. Magic courses through their very bodies - a bright blue aura often seeps from their eyes.",
+	["ghaz sandrider"] = "The vanguard of any Ghaz raid are the Sandriders. Mounted on their reptilian companions adapted to the desert environment, they travel over the dunes like fish on ocean waves. Using specialized formations they penetrate the enemy and scatter them to the desert winds before making off with their spoils.",
+	["chainwraith prowler"] = "The fallen souls of robbers and murderers are wrapped in chains that leave them forever in torment. Feeling rejected and ashamed for their actions, they lash out at the living, envious of the lives they'll never have.",
+	["boar runt"] = "Do not be fooled by their smaller size, these animals are stocky and muscular. The adolescent Boar Runt can turn aggressive in a moment's notice and will not hesitate to rush  at anything that threatens or surprises them. ",
+	["toad enforcer"] = "Enforcers are the foot-soldiers of the Toad Kingdom. Red skin, heavy armored and wielding a big hammer as nasty as their attitude - they are true battle-toads. Most would avoid a confrontation with even a single Toad Enforcer, let alone a whole army. When the jungle's laws are broken, Enforcers are always ready to restore natural order.",
+	["dwarf warrior"] = "To protect their mines, workers and supply lines, Dwarven Warriors train from an early age in the martial art of their people - their skill with a broadsword is legendary. With one powerful swing, these fearsome fighters are known to cut clean through almost anything in their path.",
+	["troll knight"] = "Troll Knights are knights by name only. They know nothing of chivalric codes or morals. Fully armored with a massive axe in hand, they will fearlessly take on any foe, any time,  they're simply too stupid to know when to retreat. Blocking a Knight's attack is hardly an option, for their swings can break any guard and knock back opponents.",
+	["polar bear"] = "Majestic white giants of the Polar regions, these Bears are apex predators adapted to the harsh, icy wilderness they call home. Highly resistant to the cold, they can compete with most other creatures over food and shelter, which they will fiercely fight for without ever backing off until the threat is dealt with.",
+	["hog warlord"] = "Every Warhog tribe is headed by a Warlord, fearsome warriors who gain their position through brute strength. A Warlord's club is its symbol of power, a heavy bone taken from only the mightiest of opponents. Hog Warlords are in charge for a reason. The greatest of Hog champions are capable of dispatching their foes and feasting at the same time.",
+	["troll brawler"] = "With a brain the size of an acorn, it doesn't take much to entertain a Troll. Violence is the favorite pastime of the dumb brutes, who love watching fights to the death in crude fighting pits. The best gladiators are known as Brawlers, wickedly fast and skilled with their hands, a single punch from these monsters can shatter bones and squash organs.",
 	["rargum the dread"] = "He was once a feared warmonger that spilled the blood of uncountable opponents and treated those under his command with the same contempt he had for his enemies. He claimed to be immortal, until his own men betrayed and killed him. Legend tells he died laughing and screaming there'd be no release from his ranks, neither in life nor in death.",
 	["skeleton rotclub"] = "Skeleton Rotclubs are usually found near swamps and other putrid environments. Their weapons in life having long sunk to the bottom of the bog, Rotclubs have no problem in finding other means to bludgeon their victims to death - usually a heavy log or large animal bone.",
-	["morningfox ninetails"] = "Ninetails are the heart and soul of every pack and will defend their kin with their lives. As alphas, their speed and power is unmatched and can rally nearby Kits to battle using their legendary howl. While many believe the sighting of a Morningfox Ninetails to be a sign of good fortune, overstepping into their territory quickly spells misfortune.",
 	["kaiman ambusher"] = "In the Kaiman's ruthless society, you keep what you kill. Kaiman Ambushers use the fur and feathers of their former prey to better camouflage themselves in the jungle. They first learn to practice their skills of stealth and murder on each other in adolescence. Only the most cunning and ruthless will reach adulthood.",
 	["dwarf legionnaire"] = "The first human colonizers of Ravendawn came into frequent conflict with the Dwarven peoples. Although a time of peace is upon them now, the Legionnaires remember and stand ready. With the strength of an Ogre and a love for brawling, the Dwarves are renowned as some of the fiercest fighters in the world",
-	["elderwood goliath"] = "Long before the dwarves, elves, or humans called Ravendawn home, Elderwood goliaths roamed the land. These ancient creatures move extremely slow and talk even slower, it can take them hours to finish a sentence. Not many Elderwoods are left, but those that remain are said to be extremely wise... if you have the patience to listen to them.",
 	["saltdusk executioner"] = "Saltdusk Executioners make the frontline of raiding parties. Although most are former pirates, some were once brawlers, trappers, lumberjacks and even soldiers. They all harbored a deep contempt for honest living and a knack for violence and bloodlust to a level only the Saltdusk seem to exert.",
 	troll = "Nightmares of the mountains. Terrors of the Spine. Old wives' tales told to unruly children often involve a Troll and its terrible hunger. They are among the largest beasts in Ravendawn. Nearly always hungry, continuously stuffing their mouths to sate their ravenous appetites. Their diet consists of rock and meat, and they much prefer the latter.",
-	["sunchaser jackal"] = "Sunchaser Jackals have sought to master some of the Djinn magic that created them in the first place. Their staff acts like a lightning rod, concentrating the rays of light and heat from the sun to unleash devastating attacks. Keenly intelligent and loyal, they command the lesser Jackals in battle.",
 	["rat spiketail"] = "Rat Spiketails are known for weaving bits of sharp metal into their tails, using it as a dangerous whip in addition to the nasty daggers they carry. More intelligent than some of their kin, Spiketails are often the ringleaders of the small rat gangs infesting Ravendawn's larger cities.",
 	["chainwraith creep"] = "Some people forget their ambitions, living their lives routinely, without purpose or goals. Rather than face the crushing regret that accompanies a meaningless existence, they live in denial, refusing to accept all the wasted years. Their ghosts slowly lose all identity, becoming mindless wraiths who just want to forget their sadness.",
-	["dwarf warpriest"] = "Embodiments of the Eternal Forge, Dwarven Warpriests wield mighty hammers, symbols of dwarven endurance and determination. As spiritual leaders, they inspire their kin and teach the ways of the forge. In battle, they channel the fiery essence of a thousand furnaces, unleashing devastating blows upon their foes, and standing as stalwart guardians of their people.",
 	["pirate swashbuckler"] = "Wielding their short blades with finesse, Swashbucklers are the most dextrous members of any pirate crew. These experts in close quarters combat move swiftly from enemy to enemy across the chaotic battlefield. Any Swashbuckler worth his salt will tell you they love the thrill and rush that's only felt when life's on the line.",
 	["rat burglar"] = "Like Scavengers, Rat Burglars are often found invading homes and businesses in search of things to steal and take back to their nest. Instead of food, however, they are more interested in shiny things of value. Burglars are vicious thieves, gladly willing to fight for whatever they've set their beady red eyes on.",
 	["skorn acolyte"] = "Sometimes, scared villagers and even rugged veterans whisper about the \"Shadow Demons\" guarding the Chapel grounds. Armed with sharp daggers and a wide range of subtle tricks, they prefer to strike from the shadows, able to perform quick dashes to surprise their victims and disappear in the blink of an eye.",
@@ -6062,63 +6136,7 @@ g_ravencards.lores = {
 	["forest spider"] = "The tall woodlands of Ravendawn are home to Forest Arachnids. Less aggressive than their kin, these spiders prefer to keep to their webs, high in the tree canopies. However, when food is scarce, they can be found wandering the forest floor and this is when they are the most dangerous, a bite from any Forest Arachnid can be poisonous.",
 	["venomous contraption"] = "The latest iteration in the ever-expanding field of Goblin-engineered killer automatons. The Venomous Contraption boasts all the perks of its predecessor, the tried-and-tested Coal Contraption, but with an all-new set of deviously toxic enhancements that will show those arrogant Dwarven Mechanics who's boss!",
 	["toadstool warrior"] = "Before reaching maturity, these creatures retreat into the depths of the forest. There, they undergo a transformation, growing a tough buckler-like appendage. Toadstool Warriors must then seek a rare Irontree to fashion a sword from its branches. This weapon is then coated with deadly toxins that turn even the smallest cut into a fatal wound.",
-	["bog spider"] = "Built to prowl in the foggy and putrid lowlands, bog arachnids are considerably thinner and lighter than most other spiders. Even if they usually prey on small animals and birds, they won't hesitate against bigger game if given the chance.",
-	["vile wurm"] = "Like Marsh Wurms, the brightly colored Vile Wurm can also spit out digested food, slowing both prey or predators. Unlike Marsh Wurms, however, the Vile Wurms isn't considered edible thanks to its unbearably bitter taste. Large and territorial, these reddish-orange Wurms sport a nasty set of pincers that can inject a powerful toxin.",
-	["elf assassin"] = "Although the Elves prefer to use diplomacy in defense of their woodland home, it does not mean they will not go on the offensive. Graceful, yet deadly, the Elf Assassins are the tools that are employed when talks fail and war is undesirable...",
-	["vampire vixen"] = "Vixens are female Vampires entirely devoted to their dark deities, the Twin Fangs. Coloring their hair red from a mixture of dye and innocent's blood. They carry a steel-tipped whip, designed to bite easily into the flesh, causing streams of blood to pour from the deep gashes or lashing around her enemies to pull them in biting range.",
-	["skorn deathblade"] = "Wielding ominous swords and imbued with demonic potency, these warriors are the strong arm of the cult - escorting warlocks and acting as the Grandmaster's personal bodyguards. Counted amongst the most fervent followers of Skorn's teachings, they charge into battle in a fiery rush, feasting on mayhem and swiftly executing the unfaithful.",
-	["cave spider"] = "The deep caves of Ravendawn are home to Cavern Arachnids, who weave their webs into endless, maze-like tunnels. These spiders are nearly blind, relying on sound and heat to track down their prey. Cave Spiders have no venom, instead using their oversized fangs to pierce and bleed their prey to death. ",
-	["skeleton haunt"] = "True to their namesake, Haunts can often be found lingering near the places they died, seemingly driven there by vague memories of their previous lives. Haunts wander aimlessly, attacking anything that crosses their path in a fit of mindless rage. Just a heads-up: When fighting undead, make sure they stay dead for good.",
-	hobgoblin = "These lightly armed Goblinoids are driven by their base desires of greed and survival. With a knack for trickery and thieving, you can always count on the Hobgoblin to betray others to save themselves, and rob them too, if they get the chance.",
-	["brotherhood swordsman"] = "Although lightly armed, they're exceptionally maneuverable, quickly identifying their opponents' weak spots to throw them off balance, all the while dodging any incoming attacks. They say that death by a thousand cuts means a slow, painful demise. Well, the Swordsman may not need so many strikes, but they will deliver a slow death regardless.",
-	["hoghound raider"] = "Bands of roving Hoghound Raiders terrorize Ravendawn's countryside, relying on lightning fast attacks to demoralize and plunder from their enemies. Armed with curved scimitars, a Hoghound Raider usually isn't trying to kill you, they just want your silver.",
-	["skeleton pikeman"] = "Highly disciplined soldiers in life, Skeleton Pikemen are among the more intelligent of undead creatures. They are particularly effective at blocking attacks with their shields, and know how to use the long reach of their pikes to their advantage. Every pierced enemy soon becomes another companion to march along with.",
-	["toad ambusher"] = "Despite their humongous size, Toads are often the best camouflaged creatures of the jungle, Toad Ambushers can be nearly invisible when they want to be. Armed with a nasty whip and a curved blade dripping with venom, these lethal assailants are the definition of a swift death. They protect their territory with ruthless efficiency.",
-	["iceforge hallkeeper"] = "Hallkeeper is a title earned by the Dwarves that are the last ones standing after multiple nights of drinking ale and brawling with one another. Few units are as reliable as the Hallkeepers who diligently guard the cold and eye-catching corridors of Deadbane Hall.",
-	["morningfox cub"] = "Cubs are the smallest of their species and also the weakest, relying on their older kin to provide food and safety. They are quick and playful little critters, poorly equipped for fighting with their underdeveloped claws and teeth. A popular folk tale tells the story of a Morningfox with a coat of solid gold leaves that grew back when plucked.",
-	["toad sentinel"] = "Toad Sentinels are the eyes and ears of the Kingdom. Scouting throughout the jungles, Sentinels make use of the leaflike appendage protruding from their head. Able to sense slight vibrations, they can pinpoint their enemies' location with startling accuracy. Passing by a Sentinel's post is a good way to receive a spear to the chest.",
-	["shark goldfin"] = "In times long past, the Shark species ruled the oceans from a vast underwater kingdom. These ancient Sharks boasted golden fins and beards. Since that time Sharks have lost these traits, but every so often a young Pup is born with a golden fin, destined to become a ferocious leader, channeling the kind of power that only existed long ago.",
-	["skeleton raider"] = "One of the more dangerous skeleton types. While they were alive, some of these warriors were regarded as monsters. In death they have managed to become something far more terrible. a Skeleton Raider wields the same blood-streaked axes they used to butcher innocent victims during their terrible lives.",
-	["direhorn drake"] = "Favoring dry and desolate deserts for their homes, Direhorn Drake thick scales protect them from the worst of the elements. They possess the largest and sharpest horns among all their kin, which they use to charge through and pierce anything that stands in their way.",
-	["orc chieftain"] = "Having defeated so many enemies, an Orc Chieftain carries himself with such confidence and ferocity that even the most seasoned veterans will think twice before facing him. Even if they rarely take part in small raiding parties, they are still the deadliest warriors amongst their kin and will fiercely answer any challenge to their rule.",
-	["captain boone"] = "Captain Boone was one of the Hookmask Captains dispatched closer to the capital, in Glademire, as a forward base of operations. Boone launches relentless raids with impunity, knowing the Ravenguard do not have the resources to oppose him, yet he remains cautious himself. Careful not to abandon his well fortified stronghold. ",
-	["minotaur champion"] = "These steel-clad warriors make up the last line of defense guarding the incredible treasures that lie unplundered at the Labyrinth's center. Boasting relentless vigor and strength, a Minotaur Champion uses its armored body like a battering ram. A mighty charge that can throw enemies backwards, crushing bones and armor alike.",
-	["elf bowman"] = "Elves are the most talented archers in Ravendawn, bar none. With their super-sensitive hearing and eyesight, an Elf Bowman can track a moving target through the woods and put an arrow through its eye. With their sentry posts high up in the tree canopy, Elven Bowmen are excellent at staying hidden until they want to be seen.",
-	["sandwatcher jackal"] = "Acting as a scout for the Jackals of Hadarak Desert, the Sandwatchers use their arrows of light to signal for any threats as well as their mortal enemies, the Djinn. Being of middling intelligence, they're not trusted with more complex tasks. ",
-	["minotaur archer"] = "Unlike their more upfront brethren, Minotaur Arbalists prefer to stay back, biding their time to pick the perfect shot. While an enclosed and dark labyrinth might seem like an unfit place to wield slow and clunky crossbows, these sharpshooters have learned how to use the long and narrow hallways to their advantage.",
-	["morningstar hermit"] = "Originating from the frontier scouts that once served with the Ravenguards. They spend long days in the wilds watching over the roads and valleys for anything that may threaten the security of their home. Though the bow is their weapon of choice, they are known to brew potions out of native reagents in order to help them in their task.",
-	["yornish hunter"] = "The wild and feral Yornish have developed excellent survival skills. Yornish Hunters can roam the steppes for days on end without having a meal other than whatever little sustain can be foraged or the odd carrion found along the way. It's not that the region is lacking in game to hunt, but humans are rarer to find.",
-	["morningstar judge"] = "Judges are the answer to lightly armed, fast moving bandit raiders. Chosen from those with the most resilient will by the Seers, they are trained into unbreakable martial discipline. Their duty is to hold back enemy forces at all costs. It is said that no enemy has seen the back of a Judge, for they don't know fear and would never turn to flee.",
-	["ghaz archer"] = "The Ghaz depend on quick raids that inflict as few casualties as possible on their numbers. To ensure success, archers rain down volleys of arrows to soften up any organized resistance that their enemies attempt to mount. Sometimes quantity is better than quality. ",
-	spearhog = "The huge muscles and meaty fingers of a Warhog makes them terrible archers, but very effective spearmen. Spearhogs use their physical prowess to throw their weapon of choice great distances with accuracy. But make no mistake, a Spearhog will gladly fight face-to-face if necessary.",
-	["yornish mamut"] = "These large mounted units can be seen patrolling the borders of Yornish territory and functioning as extremely effective cavalry to the wildlings when war times arise. A single Yornish Mamut can break an entire group of enemies, charging and trampling everything in its path. The grand beasts are rumored to partake in the same diet as their riders.",
-	["mindslave taskmaster"] = "Mindslaved dwarves are incapable of comprehending the thought of exhaustion, but even if the mind has no use for that word, the body must be kindly reminded of the work that needs to be done. Taskmasters are the strong, watchful drones that work hard to ensure that other mindless thralls are slaving away until their bodies inevitably fail.",
-	["hoghound archer"] = "Surprisingly, Hoghound Archers are some of the best marksmen in the land. If your coin purse is exposed, these archers are able to spill its contents from a distance with a single shot. Their hit and run tactics make them frustrating opponents.",
-	["pirate freebooter"] = "Pirates live in a semi-anarchic society where the norm is pillaging and stealing everything you want. Freebooters follow this rule to the letter, taking advantage of their enemies' weaknesses and resorting to any means necessary to reach their goals. Some say the only thing Freebooters like stealing more than coins are lives.",
-	["brotherhood captain"] = "Chosen from the best among the Brotherhood's ranks, the Captain is a master of forest fighting and is perfectly at home engaging opponents in melee combat. Their true skill shines when using the bow, however, as their long hours practicing their craft allows them to unleash a series of arrows without pause and without missing. ",
-	["iceforge hunter"] = "Iceforge Hunters are trained from a very tender age, they are brought by their parents out into the cold wilderness of Glaceforde. They are forced to earn their own food by hunting dangerous beasts, a task only possible if one is capable of correctly aiming a shot in the middle of a blizzard with deadly precision.",
-	["minotaur warden"] = "Minotaur Wardens dedicate their lives to guarding all entrances and exits to their hallowed labyrinths, ensuring that nothing enters or leaves without their knowledge. These strong warriors carry a jagged sword, while a thick wooden buckler gives them a strong defense against weapons and all kinds of physical damage.",
-	["winterborn guardian"] = "These Guardians are tasked with watching the access points into Winterborn territory and encampments. Highly distrustful of any outsider, they will attack first and ask questions later. Like all Winterborn, they are well trained and armed to deal with any human intrusion, apart from their refined hunting and survival skills.",
-	["troll champion"] = "A Champion has earned its title time and time again. They are the finest warriors of their species, true masters of the dual hammers. They have no use for a shield, preferring to take the offensive, using their massive size and might to overwhelm their foes.",
-	["skorn grandmaster (dynamic boss)"] = "Skorn Grandmaster title is reserved for those in the Warlock ranks who hold the twisted honor of being the most corrupted by demonic influence. In battle they are a force to be reckoned with - casting powerful magic infused with demonic energy, weakening their opponents and raining chaos upon all who oppose the Lord and the coming of Pandemonium.",
-	["dwarf commoner"] = "Common Dwarfs can usually be found deep in the mines, drilling into the bedrock and excavating precious minerals. This may sound like grunt work to the average human, but working the mines is a labor of love for most Dwarves. A Common Dwarf carries no weapons aside from their meaty fists, which they put to use regularly in taverns across Ravendawn.",
-	["zorian shoreguard"] = "Zorian Shoreguards defend the coasts from where these slimy sea-dwellers emerge to raid and plunder nearby lands in search for food, mostly raw flesh of beasts and humans alike. They pose a tough fight due to their surprising level of martial expertise with their armor and weapons crudely crafted from the remains of varied sea-creatures.",
-	["skeleton soldier"] = "Battlefields make ideal grounds for necromancers, as they prowl for acceptable bodies to raise. Skeleton Soldiers were former warriors in armies, sent to early graves during times of war. These tormented, restless spirits are always quite competent with the weapons they wield.",
-	["shadowfox ninetail"] = "Shadowfoxes are mysterious, nocturnal creatures that generally shy away from contact. Often mistaken for wraiths because of their skull-like faces and glowing eyes, Shadowfoxes are more active at night, using their excellent vision to hunt prey. All Shadowfoxes gain power from the moon, growing stronger as the sun goes down.",
-	["iceforge frostcaller"] = "The prolonged exposure to Igneous Ice changed not only the Frostcallers' bodies, making their eyes glow like stars of frigid blue, but also empowering them with the ability to control ice and snow. Folk swear that they're not only capable of wielding the elements, but that the beasts of Glaceforde answer their songs.",
-	["frostbound drake"] = "Frostbound Drakes are, perhaps, the largest of the Drake family, and the most aggressive. They live in harsh, extremely cold climates and do not tolerate competition, even from others of their kind. Their breath is capable of freezing the target into a solid ice statue.",
-	["iceshell giant"] = "Only the strong thrive in the cold habitats of Glaceforde. Not all Hatchlings will survive to become Giants, but those that do are powerful enough to hold their own against Snow Spiders and Blizzard Beasts. Iceshell Giants have the ability to shoot a wickedly sharp icicle from their backs.",
-	["lurking shadow"] = "Inhabiting the Fields of Despair, these lithe and agile creatures live in the shadows, watching unsuspecting travelers from a distance. When their quarry appears most vulnerable, they'll utilize their teleportation abilities to manifest out of the darkness and strike!",
-	["shadowfox ninetails"] = "Shadowfoxes are mysterious, nocturnal creatures that generally shy away from contact. Often mistaken for wraiths because of their skull-like faces and glowing eyes, Shadowfoxes are more active at night, using their excellent vision to hunt prey. All Shadowfoxes gain power from the moon, growing stronger as the sun goes down.",
-	["snow broodmother"] = "A Snow Broodmother's poison is considered to be one of the coldest known substances, instantly freezing almost anything it comes into contact with. They set up webs made from a thick crystalline material that hardens as it cools, refracting light and making their lairs look like they are lined in beautiful, icy gemstones.",
-	["frostrisen magus"] = "Enduring years of corruption and decay from the White Blight has erased any trace of humanity from the minds of those who once were wise and skilled spellcasters. What's left is something unnaturally dangerous, made even more powerful by exposure to Igneous Ice.",
-	["froll cryomancer"] = "Only the most magically talented Frolls can become Cryomancers, shamans with the ability to bend cold and ice to their will, which they use to craft devastating weapons for their brethren. They mate for life and when one dies, the other will carry their severed head so that the pair is never separated.",
-	["coldstone cub"] = "Unlike their kin elsewhere, Coldstone Foxes do not have the luxury of play or room for error. Even while Cubs, they demonstrate an unwavering instinct to fight and to survive. While they may have a cute appearance, their bite can turn fingers to ice. ",
-	["icicle gazer"] = "Icicle Gazers have an innate understanding of the manipulation of pure ice and, therefore, can shape it to their will, even manipulating the environment around them is a feat any wizard can only dream of!",
-	["zorian hailbringer"] = "Like Stormcallers, Zorian Hailbringers have a tight control over the water element. But they have learned to focus on the particularly chilling aspect of the substance. They are capable of launching sharp frostbolts or conjuring up deadly freezing hailstorms. When walking over land, a thin layer of ice forms wherever a Hailbringer steps.",
-	["astor demon"] = "Born out of the madness infused realms of Pandemonium, Astor Demons and all others of their ilk possess an unquenchable thirst for inflicting terror and destruction upon all life they encounter. This desire is so strong that even the most violent of orcs and trolls despise the demons sensing their nature.",
-	["wildfire jackal"] = "The Wildfire Jackal is the result of attempts to imbue the ancient power of Firelord Djinn onto the Runegust Jackals. Although the experiment proved successful it, perhaps, yielded more than intended. This new breed appears more powerful and more aware of said power, unwilling to merely be tools for lesser beings.",
-	["dwarf thunderrer"] = "Also known as Thundergunners, these Dwarves carry large firearms instead of the axe or hammer usually favored by their people. The best of them are selected to serve in the Royal Guard. Many enemies seeking to dethrone the King have failed, bodies riddled with bullets from a Thunderrer's gun."
+	["bog spider"] = "Built to prowl in the foggy and putrid lowlands, bog arachnids are considerably thinner and lighter than most other spiders. Even if they usually prey on small animals and birds, they won't hesitate against bigger game if given the chance."
 }
 
 for _, card in ipairs(g_ravencards.cards) do

@@ -3,36 +3,36 @@
 Position = {}
 Position.directionOffset = {
 	[North] = {
-		x = 0,
-		y = -1
+		y = -1,
+		x = 0
 	},
 	[East] = {
-		x = 1,
-		y = 0
+		y = 0,
+		x = 1
 	},
 	[South] = {
-		x = 0,
-		y = 1
+		y = 1,
+		x = 0
 	},
 	[West] = {
-		x = -1,
-		y = 0
+		y = 0,
+		x = -1
 	},
 	[SouthWest] = {
-		x = -1,
-		y = 1
+		y = 1,
+		x = -1
 	},
 	[SouthEast] = {
-		x = 1,
-		y = 1
+		y = 1,
+		x = 1
 	},
 	[NorthWest] = {
-		x = -1,
-		y = -1
+		y = -1,
+		x = -1
 	},
 	[NorthEast] = {
-		x = 1,
-		y = -1
+		y = -1,
+		x = 1
 	}
 }
 

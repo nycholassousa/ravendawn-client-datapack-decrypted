@@ -1,8 +1,8 @@
 ﻿-- chunkname: @/modules/game_market/market.lua
 
 GameMarket = {
-	unlockTime = 0,
 	customSetOrder = false,
+	unlockTime = 0,
 	premiumOnly = false,
 	offerListWindow = {
 		page = 1,
@@ -92,8 +92,8 @@ function GameMarket:init()
 	for _ = 1, 30 do
 		table.insert(frames, {
 			size = {
-				width = 200,
-				height = 200
+				height = 200,
+				width = 200
 			},
 			offset = {
 				x = self.window.loading_icon:getWidth() / 2 - 115,
@@ -103,10 +103,10 @@ function GameMarket:init()
 	end
 
 	self.loadingAnimation = Animation.create({
-		loop = -1,
-		pauseWhenHidden = true,
 		duration = 1000,
+		loop = -1,
 		imageSource = "/images/ui/loading/frame-%d",
+		pauseWhenHidden = true,
 		canvas = self.window.loading_icon,
 		frames = frames,
 		onStart = function(self, canvas)
@@ -218,6 +218,16 @@ end
 
 function GameMarket:hide()
 	self.window:hide()
+
+	local windows = {
+		self.activeOffersWindow.createOfferWindow,
+		self.offerListWindow.interactOfferWindow,
+		self.activeOffersWindow.selectionWindow
+	}
+
+	for _, window in pairs(windows) do
+		window:hide()
+	end
 end
 
 function GameMarket:close()

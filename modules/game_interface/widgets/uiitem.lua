@@ -34,8 +34,8 @@ local function moveItemToEquipped(item)
 	end
 
 	g_game.move(item, {
-		x = 65535,
 		z = 0,
+		x = 65535,
 		y = slot
 	}, item:getCount())
 end

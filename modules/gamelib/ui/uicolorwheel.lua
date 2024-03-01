@@ -40,8 +40,8 @@ function UIColorWheel:getColorByMousePos()
 		y = self:getHeight() / 2
 	}
 	local right = {
-		x = 1,
-		y = 0
+		y = 0,
+		x = 1
 	}
 	local localMousePos = {
 		x = mousePos.x - self:getPosition().x - center.x,

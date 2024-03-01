@@ -78,8 +78,8 @@ function RangersCompanyShop:onTradeItem(widget)
 
 		function buy_button.onClick()
 			GameNpc:sendOpcode({
-				option = "npc_rangerscompany_shop_buy",
 				action = "dialogue",
+				option = "npc_rangerscompany_shop_buy",
 				dialogueId = GameNpc.dialogueId,
 				npcName = GameNpc.npcName,
 				name = widget.name:getText(),

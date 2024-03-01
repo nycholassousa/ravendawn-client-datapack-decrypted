@@ -14,8 +14,8 @@ focusNameToIndex = {
 	["PvE/PvP"] = GUILD_FOCUS_PVPVE
 }
 miscNameToIndex = {
-	["Applied Only"] = 2,
-	["Hide Full Guilds"] = 1
+	["Hide Full Guilds"] = 1,
+	["Applied Only"] = 2
 }
 focusToIcon = {
 	[GUILD_FOCUS_PVE] = "focus_pve",
@@ -42,16 +42,16 @@ membersOrderType = {
 	"last_login"
 }
 possibleLanguages = {
+	Português = true,
 	Polski = true,
 	English = true,
-	Español = true,
-	Português = true
+	Español = true
 }
 languageToIndex = {
+	Português = 3,
 	Polski = 2,
 	English = 1,
-	Español = 4,
-	Português = 3
+	Español = 4
 }
 indexToLanguage = {
 	"English",
@@ -60,10 +60,10 @@ indexToLanguage = {
 	"Espa\xF1ol"
 }
 languageToFlag = {
+	Português = "br",
 	Polski = "pl",
 	English = "us",
-	Español = "es",
-	Português = "br"
+	Español = "es"
 }
 indexToFocus = {
 	"PvE",
@@ -84,8 +84,8 @@ filters = {
 	}
 }
 createRequirements = {
-	premium = true,
 	level = 20,
+	premium = true,
 	silver = 100000
 }
 minGuildNameLength = 3

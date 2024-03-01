@@ -1,12 +1,12 @@
 ﻿-- chunkname: @/modules/game_rangerscompany/rangers_company.lua
 
 GameRangersCompany = {
+	cacheExpirationTime = 0,
+	rangers_window_view = "middle_panel",
 	leaderboard_total_entries = 0,
 	leaderboard_total_pages = 1,
 	leaderboard_page_size = 11,
 	leaderboard_page = 1,
-	cacheExpirationTime = 0,
-	rangers_window_view = "middle_panel",
 	leaderboard_pages = {}
 }
 
@@ -253,8 +253,8 @@ function GameRangersCompany:configureBountyWindow(data)
 				refresh_button:setHovered(refresh_button:containsPoint(g_window.getMousePosition()))
 			end, 100)
 			refresh_button:onStyleApply("NeutralButton", {
-				["&textMarginLeft"] = "0",
-				["&iconPath"] = ""
+				["&iconPath"] = "",
+				["&textMarginLeft"] = "0"
 			})
 			refresh_button:setStyle("NeutralButton")
 			refresh_button:setWidth(220)
@@ -291,9 +291,9 @@ function GameRangersCompany:configureBountyWindow(data)
 			local function timerWork()
 				if data.refreshTimeleft <= 0 then
 					refresh_button:onStyleApply("PrimaryButton", {
-						["&textMarginLeft"] = "30",
 						["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll",
 						["&iconOffset"] = "20 0",
+						["&textMarginLeft"] = "30",
 						["&iconAlign"] = "left"
 					})
 					refresh_button:setStyle("PrimaryButton")
@@ -322,9 +322,9 @@ function GameRangersCompany:configureBountyWindow(data)
 			timerWork()
 		else
 			refresh_button:onStyleApply("PrimaryButton", {
-				["&textMarginLeft"] = "30",
 				["&iconPath"] = "/images/ui/windows/rangers_company/icon_reroll",
 				["&iconOffset"] = "20 0",
+				["&textMarginLeft"] = "30",
 				["&iconAlign"] = "left"
 			})
 			refresh_button:setStyle("PrimaryButton")

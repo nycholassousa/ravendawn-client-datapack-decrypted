@@ -94,8 +94,8 @@ tasks = {
 					GameInteractions:advanceInteraction(__env, __env.current_task, 1)
 				else
 					GameInteractions:displayDescriptionBox({
-						preferSide = "top",
 						bandit = true,
+						preferSide = "top",
 						pages = {
 							{
 								text = "Here in Ravendawn, many things you do will be reflected on one of these paths"

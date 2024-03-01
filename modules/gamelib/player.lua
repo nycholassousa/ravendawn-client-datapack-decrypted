@@ -358,13 +358,13 @@ function Player:isInCommunityFarm()
 	local pos = self:getPosition()
 
 	return Position.isInArea(pos, {
+		y = 5123,
 		x = 5163,
-		z = 7,
-		y = 5123
+		z = 7
 	}, {
+		y = 5139,
 		x = 5184,
-		z = 7,
-		y = 5139
+		z = 7
 	})
 end
 

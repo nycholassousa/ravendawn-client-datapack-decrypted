@@ -534,8 +534,8 @@ function Tradepost:requestCraftTradepack(useCertificate)
 
 	local function yesCallback()
 		GameNpc:sendOpcode({
-			option = "tradepost_craft_pack",
 			action = "dialogue",
+			option = "tradepost_craft_pack",
 			dialogueId = GameNpc.dialogueId,
 			npcName = GameNpc.npcName,
 			pack = Tradepost:getCurrentPack(),

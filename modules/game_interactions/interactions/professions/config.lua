@@ -106,8 +106,8 @@ tasks = {
 					end
 
 					GameInteractions:displayActionBox({
-						text = "Now access the Farming tab",
 						bandit = true,
+						text = "Now access the Farming tab",
 						preferSide = "top",
 						keys = {
 							MouseLeftButton

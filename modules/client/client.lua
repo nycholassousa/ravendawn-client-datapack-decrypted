@@ -64,13 +64,13 @@ function init()
 
 	if not Updater then
 		g_window.setMinimumSize({
-			height = 720,
-			width = 1280
+			width = 1280,
+			height = 720
 		})
 
 		local size = {
-			height = 720,
-			width = 1280
+			width = 1280,
+			height = 720
 		}
 
 		size = g_settings.getSize("window-size", size)

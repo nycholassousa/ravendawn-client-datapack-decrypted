@@ -31,8 +31,8 @@ tasks = {
 						local self = tasks[__env.current_task][__env.current_interaction]
 
 						if Position.isInRange(pos, {
-							z = 6,
 							x = 5070,
+							z = 6,
 							y = 5108
 						}, 6, 6) then
 							if not self.displayingNPCInteraction then
@@ -77,16 +77,16 @@ tasks = {
 				self.displayingCompassInteraction = false
 
 				GameInteractions:displayActionBox({
-					text = "So talk with the Munk Merchant near the docks again!",
 					bandit = true,
 					preferSide = "top",
+					text = "So talk with the Munk Merchant near the docks again!",
 					keys = {
 						"F",
 						MouseRightButton
 					},
 					tilePos = {
-						z = 6,
 						x = 5070,
+						z = 6,
 						y = 5108
 					}
 				})
@@ -150,8 +150,8 @@ tasks = {
 
 					if widget then
 						GameInteractions:displayActionBox({
-							bandit = true,
 							text = "A Tradepost works both for crafting and selling a tradepack. But keep in mind a tradepack can't be sold in the same place that it was crafted",
+							bandit = true,
 							keys = {
 								MouseLeftButton
 							},
@@ -227,8 +227,8 @@ tasks = {
 				if sell_button and sell_button:isVisible() then
 					GameInteractions:displayActionBox({
 						bandit = true,
-						text = "Now let's craft a Farmer's Basics so we dont leave Father Richard waiting!",
 						preferSide = "top",
+						text = "Now let's craft a Farmer's Basics so we dont leave Father Richard waiting!",
 						keys = {
 							MouseLeftButton
 						},

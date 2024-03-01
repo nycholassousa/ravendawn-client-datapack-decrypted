@@ -466,8 +466,8 @@ function onPartyAddMember(name, isOnline, healthPercent, manaPercent, position, 
 
 	if isOnline then
 		local flag = g_worldMap.addFlag(position, MAPMARK_PARTY_MEMBER, name, true, nil, nil, nil, nil, nil, "WorldMapPartyIcon", {
-			top = -24,
-			left = 3
+			left = 3,
+			top = -24
 		})
 
 		if not flag then

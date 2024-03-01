@@ -158,446 +158,446 @@ end
 local checkDirectionPriotity = {
 	[North] = {
 		{
-			x = 0,
 			near = true,
-			y = 0
+			y = 0,
+			x = 0
 		},
 		{
-			x = 0,
 			near = true,
-			y = -1
+			y = -1,
+			x = 0
 		},
 		{
-			x = 1,
 			near = true,
-			y = -1
+			y = -1,
+			x = 1
 		},
 		{
-			x = -1,
 			near = true,
-			y = -1
+			y = -1,
+			x = -1
 		},
 		{
-			x = -1,
 			near = true,
-			y = 0
+			y = 0,
+			x = -1
 		},
 		{
-			x = 1,
 			near = true,
-			y = 0
+			y = 0,
+			x = 1
 		},
 		{
-			x = 0,
 			near = true,
-			y = 1
+			y = 1,
+			x = 0
 		},
 		{
-			x = -1,
 			near = true,
-			y = 1
+			y = 1,
+			x = -1
 		},
 		{
-			x = 1,
 			near = true,
-			y = 1
+			y = 1,
+			x = 1
 		},
 		{
-			x = 0,
-			y = -2
+			y = -2,
+			x = 0
 		},
 		{
-			x = -1,
-			y = -2
+			y = -2,
+			x = -1
 		},
 		{
-			x = 1,
-			y = -2
+			y = -2,
+			x = 1
 		},
 		{
-			x = -2,
-			y = -2
+			y = -2,
+			x = -2
 		},
 		{
-			x = 2,
-			y = -2
+			y = -2,
+			x = 2
 		},
 		{
-			x = -2,
-			y = -1
+			y = -1,
+			x = -2
 		},
 		{
-			x = 2,
-			y = -1
+			y = -1,
+			x = 2
 		},
 		{
-			x = -2,
-			y = 0
+			y = 0,
+			x = -2
 		},
 		{
-			x = 2,
-			y = 0
+			y = 0,
+			x = 2
 		},
 		{
-			x = -2,
-			y = 1
+			y = 1,
+			x = -2
 		},
 		{
-			x = 2,
-			y = 1
+			y = 1,
+			x = 2
 		},
 		{
-			x = 0,
-			y = 2
+			y = 2,
+			x = 0
 		},
 		{
-			x = -1,
-			y = 2
+			y = 2,
+			x = -1
 		},
 		{
-			x = 1,
-			y = 2
+			y = 2,
+			x = 1
 		},
 		{
-			x = -2,
-			y = 2
+			y = 2,
+			x = -2
 		},
 		{
-			x = 2,
-			y = 2
+			y = 2,
+			x = 2
 		}
 	},
 	[South] = {
 		{
-			x = 0,
 			near = true,
-			y = 0
+			y = 0,
+			x = 0
 		},
 		{
-			x = 0,
 			near = true,
-			y = 1
+			y = 1,
+			x = 0
 		},
 		{
-			x = -1,
 			near = true,
-			y = 1
+			y = 1,
+			x = -1
 		},
 		{
-			x = 1,
 			near = true,
-			y = 1
+			y = 1,
+			x = 1
 		},
 		{
-			x = -1,
 			near = true,
-			y = 0
+			y = 0,
+			x = -1
 		},
 		{
-			x = 1,
 			near = true,
-			y = 0
+			y = 0,
+			x = 1
 		},
 		{
-			x = 0,
 			near = true,
-			y = -1
+			y = -1,
+			x = 0
 		},
 		{
-			x = -1,
 			near = true,
-			y = -1
+			y = -1,
+			x = -1
 		},
 		{
-			x = 1,
 			near = true,
-			y = -1
+			y = -1,
+			x = 1
 		},
 		{
-			x = 0,
-			y = 2
+			y = 2,
+			x = 0
 		},
 		{
-			x = -1,
-			y = 2
+			y = 2,
+			x = -1
 		},
 		{
-			x = 1,
-			y = 2
+			y = 2,
+			x = 1
 		},
 		{
-			x = -2,
-			y = 2
+			y = 2,
+			x = -2
 		},
 		{
-			x = 2,
-			y = 2
+			y = 2,
+			x = 2
 		},
 		{
-			x = -2,
-			y = 1
+			y = 1,
+			x = -2
 		},
 		{
-			x = 2,
-			y = 1
+			y = 1,
+			x = 2
 		},
 		{
-			x = -2,
-			y = 0
+			y = 0,
+			x = -2
 		},
 		{
-			x = 2,
-			y = 0
+			y = 0,
+			x = 2
 		},
 		{
-			x = -2,
-			y = -1
+			y = -1,
+			x = -2
 		},
 		{
-			x = 2,
-			y = -1
+			y = -1,
+			x = 2
 		},
 		{
-			x = 0,
-			y = -2
+			y = -2,
+			x = 0
 		},
 		{
-			x = -1,
-			y = -2
+			y = -2,
+			x = -1
 		},
 		{
-			x = 1,
-			y = -2
+			y = -2,
+			x = 1
 		},
 		{
-			x = -2,
-			y = -2
+			y = -2,
+			x = -2
 		},
 		{
-			x = 2,
-			y = -2
+			y = -2,
+			x = 2
 		}
 	},
 	[West] = {
 		{
-			x = 0,
 			near = true,
-			y = 0
+			y = 0,
+			x = 0
 		},
 		{
-			x = -1,
 			near = true,
-			y = 0
+			y = 0,
+			x = -1
 		},
 		{
-			x = -1,
 			near = true,
-			y = -1
+			y = -1,
+			x = -1
 		},
 		{
-			x = -1,
 			near = true,
-			y = 1
+			y = 1,
+			x = -1
 		},
 		{
-			x = 0,
 			near = true,
-			y = -1
+			y = -1,
+			x = 0
 		},
 		{
-			x = 0,
 			near = true,
-			y = 1
+			y = 1,
+			x = 0
 		},
 		{
-			x = 1,
 			near = true,
-			y = 0
+			y = 0,
+			x = 1
 		},
 		{
-			x = 1,
 			near = true,
-			y = -1
+			y = -1,
+			x = 1
 		},
 		{
-			x = 1,
 			near = true,
-			y = 1
+			y = 1,
+			x = 1
 		},
 		{
-			x = -2,
-			y = 0
+			y = 0,
+			x = -2
 		},
 		{
-			x = -2,
-			y = -1
+			y = -1,
+			x = -2
 		},
 		{
-			x = -2,
-			y = 1
+			y = 1,
+			x = -2
 		},
 		{
-			x = -2,
-			y = -2
+			y = -2,
+			x = -2
 		},
 		{
-			x = -2,
-			y = 2
+			y = 2,
+			x = -2
 		},
 		{
-			x = -1,
-			y = -2
+			y = -2,
+			x = -1
 		},
 		{
-			x = -1,
-			y = 2
+			y = 2,
+			x = -1
 		},
 		{
-			x = 0,
-			y = -2
+			y = -2,
+			x = 0
 		},
 		{
-			x = 0,
-			y = 2
+			y = 2,
+			x = 0
 		},
 		{
-			x = 1,
-			y = -2
+			y = -2,
+			x = 1
 		},
 		{
-			x = 1,
-			y = 2
+			y = 2,
+			x = 1
 		},
 		{
-			x = 2,
-			y = 0
+			y = 0,
+			x = 2
 		},
 		{
-			x = 2,
-			y = -1
+			y = -1,
+			x = 2
 		},
 		{
-			x = 2,
-			y = 1
+			y = 1,
+			x = 2
 		},
 		{
-			x = 2,
-			y = -2
+			y = -2,
+			x = 2
 		},
 		{
-			x = 2,
-			y = 2
+			y = 2,
+			x = 2
 		}
 	},
 	[East] = {
 		{
-			x = 0,
 			near = true,
-			y = 0
+			y = 0,
+			x = 0
 		},
 		{
-			x = 1,
 			near = true,
-			y = 0
+			y = 0,
+			x = 1
 		},
 		{
-			x = 1,
 			near = true,
-			y = -1
+			y = -1,
+			x = 1
 		},
 		{
-			x = 1,
 			near = true,
-			y = 1
+			y = 1,
+			x = 1
 		},
 		{
-			x = 0,
 			near = true,
-			y = -1
+			y = -1,
+			x = 0
 		},
 		{
-			x = 0,
 			near = true,
-			y = 1
+			y = 1,
+			x = 0
 		},
 		{
-			x = -1,
 			near = true,
-			y = 0
+			y = 0,
+			x = -1
 		},
 		{
-			x = -1,
 			near = true,
-			y = -1
+			y = -1,
+			x = -1
 		},
 		{
-			x = -1,
 			near = true,
-			y = 1
+			y = 1,
+			x = -1
 		},
 		{
-			x = 2,
-			y = 0
+			y = 0,
+			x = 2
 		},
 		{
-			x = 2,
-			y = -1
+			y = -1,
+			x = 2
 		},
 		{
-			x = 2,
-			y = 1
+			y = 1,
+			x = 2
 		},
 		{
-			x = 2,
-			y = -2
+			y = -2,
+			x = 2
 		},
 		{
-			x = 2,
-			y = 2
+			y = 2,
+			x = 2
 		},
 		{
-			x = 1,
-			y = -2
+			y = -2,
+			x = 1
 		},
 		{
-			x = 1,
-			y = 2
+			y = 2,
+			x = 1
 		},
 		{
-			x = 0,
-			y = -2
+			y = -2,
+			x = 0
 		},
 		{
-			x = 0,
-			y = 2
+			y = 2,
+			x = 0
 		},
 		{
-			x = -1,
-			y = -2
+			y = -2,
+			x = -1
 		},
 		{
-			x = -1,
-			y = 2
+			y = 2,
+			x = -1
 		},
 		{
-			x = -2,
-			y = 0
+			y = 0,
+			x = -2
 		},
 		{
-			x = -2,
-			y = -1
+			y = -1,
+			x = -2
 		},
 		{
-			x = -2,
-			y = 1
+			y = 1,
+			x = -2
 		},
 		{
-			x = -2,
-			y = -2
+			y = -2,
+			x = -2
 		},
 		{
-			x = -2,
-			y = 2
+			y = 2,
+			x = -2
 		}
 	}
 }
@@ -1290,8 +1290,8 @@ function onUpdateActionKey(force)
 	end
 
 	local position = {
-		x = 0,
 		y = 0,
+		x = 0,
 		z = playerPosition.z
 	}
 	local offsetList = checkDirectionPriotity[player:getDirection()] or {}
@@ -1379,8 +1379,8 @@ function onUpdateActionKey(force)
 
 	if not action and craftStation then
 		local checkPosition = {
-			x = 0,
 			y = 0,
+			x = 0,
 			z = playerPosition.z
 		}
 		local craftTables = {}
@@ -1433,8 +1433,8 @@ function onUpdateActionKey(force)
 		g_actionKey.setAction(thing, "Interact", function()
 			modules.game_waypoints.GameWaypoints:show()
 		end, true, {
-			x = 54,
-			y = 118
+			y = 118,
+			x = 54
 		})
 	elseif action.type == "npc" then
 		g_actionKey.setAction(thing, "Talk", function()

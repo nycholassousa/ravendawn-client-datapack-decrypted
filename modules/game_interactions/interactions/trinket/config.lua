@@ -54,8 +54,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("inventory")
 
 					GameInteractions:displayActionBox({
-						text = "Press I or Left-Click to open your Inventory menu",
 						bandit = true,
+						text = "Press I or Left-Click to open your Inventory menu",
 						preferSide = "top",
 						keys = {
 							"I",
@@ -102,8 +102,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("character")
 
 					GameInteractions:displayActionBox({
-						text = "Press X or Left-Click to open your Character menu",
 						bandit = true,
+						text = "Press X or Left-Click to open your Character menu",
 						preferSide = "top",
 						keys = {
 							"X",

@@ -11,12 +11,12 @@ g_damageNumbers = {
 			"critical"
 		},
 		offset = {
-			y = 25,
-			x = 25
+			x = 25,
+			y = 25
 		},
 		speed = {
-			y = 36,
-			x = 25
+			x = 25,
+			y = 36
 		}
 	},
 	screenshot = {
@@ -28,12 +28,12 @@ g_damageNumbers = {
 			"critical"
 		},
 		offset = {
-			y = 12,
-			x = 12
+			x = 12,
+			y = 12
 		},
 		speed = {
-			y = 18,
-			x = 12
+			x = 12,
+			y = 18
 		}
 	}
 }
@@ -59,8 +59,8 @@ end
 function g_damageNumbers.onAnimatedText(widget, text)
 	if g_damageNumbers.screenshotMode and not widget:isDamageText() then
 		widget:setOffset({
-			y = 1000,
-			x = 1000
+			x = 1000,
+			y = 1000
 		})
 	end
 end

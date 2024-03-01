@@ -67,10 +67,10 @@ function GameCards:init()
 	local upgrade_button = self.upgrade_panel.upgrade_bottom.upgrade_button
 
 	self.upgrade_animation = Animation.create({
-		restoreInitialStateOnEnd = true,
-		pauseWhenHidden = true,
 		duration = 2500,
 		imageSource = "/images/ui/windows/ravencards/animation/upgrade/upgrade_%02d",
+		restoreInitialStateOnEnd = true,
+		pauseWhenHidden = true,
 		canvas = self.upgrade_panel.upgrade_card.card.canvas,
 		frames = FramesDataset.upgrade,
 		onFrame = function(self, canvas, currentFrame)
@@ -95,8 +95,8 @@ function GameCards:init()
 
 	self.upgrade_animation:fadeIn({
 		opacity = 1,
-		start = 1,
-		finish = 12
+		finish = 12,
+		start = 1
 	})
 	g_keyboard.bindKeyDown("G", self.toggleCollectionWindow)
 	ProtocolGame.registerExtendedOpcode(ExtendedIds.Cards, GameCards.onExtendedOpcode)

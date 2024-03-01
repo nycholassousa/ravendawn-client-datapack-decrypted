@@ -162,7 +162,7 @@ function GameLootNotification:addLootEntry(data, fromQueue)
 		widget.item:setItemId(data.clientId)
 		widget.item:show()
 		widget.border:show()
-		widget.border:setImageColor(data.rarity and (ItemNameOverlayColors[data.rarity] or cfg.ItemQualityColors[data.rarity]) or "white")
+		widget.border:setImageColor(data.rarity and cfg.ItemQualityColors[data.rarity] or "white")
 		widget.item:raise()
 		widget.progress_panel:hide()
 		widget.label:setText(data.itemName)
@@ -258,7 +258,7 @@ function GameLootNotification:addLootEntry(data, fromQueue)
 
 		if data.rarity then
 			widget.border:show()
-			widget.border:setImageColor(ItemNameOverlayColors[data.rarity] or cfg.ItemQualityColors[data.rarity])
+			widget.border:setImageColor(cfg.ItemQualityColors[data.rarity])
 		end
 	end
 
@@ -295,7 +295,7 @@ function GameLootNotification:addLootEntry(data, fromQueue)
 
 	widget.type = data.type
 
-	widget:setImageSource(string.format("/images/ui/windows/loot_notification/%s", data.rarity and (ItemNameOverlayColors[data.rarity] or cfg.ItemQualityColors[data.rarity]) or "#000000"))
+	widget:setImageSource(string.format("/images/ui/windows/loot_notification/%s", data.rarity and cfg.ItemQualityColors[data.rarity] or "#000000"))
 
 	widget.rarity = data.rarity
 

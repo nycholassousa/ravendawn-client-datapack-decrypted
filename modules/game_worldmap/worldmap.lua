@@ -146,6 +146,8 @@ local regionConflictTimerEvent, houseTimerEvent, playerCurrentFloor
 local regionConflictDuration = 3600
 local regionConflictDescription = {
 	peace_warzone = "This region is in a state of peace, but soon transitioning into a warzone. Players cannot commit murder until the timer reaches zero. Once the region becomes a warzone, players will be able to engage in combat. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
+	peace = "This region is currently in peace. No murder can be committed by players during this time.",
+	warzone_peace = "This region is a warzone, but transitioning into a state of peace. Players can engage in combat and commit murder until the timer reaches 0. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
 	warzone = "This region is a warzone. Players can freely engage in combat and commit murder without consequences. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed.",
 	conflict_peace_warmode = "This region is currently in conflict, but going into peace soon. Murder can be committed by players until the timer goes to 0.",
 	conflict_peace = "This region is currently in conflict, but going into peace soon. Murder can be committed by players until the timer goes to 0.",
@@ -153,17 +155,15 @@ local regionConflictDescription = {
 	peace_conflict = "This region is currently in peace, but going into conflict soon. No murder can be committed by players until the timer goes to 0.",
 	conflict_warmode = "This region is currently in conflict. Murder can be committed by players during this time.",
 	conflict = "This region is currently in conflict. Murder can be committed by players during this time.",
-	peace_warmode = "This region is currently in peace. No murder can be committed by players during this time.",
-	peace = "This region is currently in peace. No murder can be committed by players during this time.",
-	warzone_peace = "This region is a warzone, but transitioning into a state of peace. Players can engage in combat and commit murder until the timer reaches 0. Infamy is not gained for killing players, and players who are already \"murderers\" do not lose infamy when killed."
+	peace_warmode = "This region is currently in peace. No murder can be committed by players during this time."
 }
 local regionConflictBottomText = {
-	warzone_peace = "Monsters will cease to provide the additional 5% experience and silver.",
-	warzone = "Monsters provide 5% increased experience and silver during the conflict in this region.",
-	conflict = "Monsters provide 5% increased experience and silver during the conflict in this region.",
 	conflict_peace = "Monsters will cease to provide the additional 5% experience and silver.",
 	peace_warzone = "Monsters will provide 5% increased experience and silver when the conflict starts.",
-	peace_conflict = "Monsters will provide 5% increased experience and silver when the conflict starts."
+	warzone_peace = "Monsters will cease to provide the additional 5% experience and silver.",
+	peace_conflict = "Monsters will provide 5% increased experience and silver when the conflict starts.",
+	warzone = "Monsters provide 5% increased experience and silver during the conflict in this region.",
+	conflict = "Monsters provide 5% increased experience and silver during the conflict in this region."
 }
 local landSizeToIcon = {
 	[10] = MAPMARK_SMALL_LAND,
@@ -233,8 +233,8 @@ local mapImageSource = {
 		},
 		minimapZoom = {
 			default = 400,
-			max = 800,
-			min = 300
+			min = 300,
+			max = 800
 		},
 		callback = function(lastSource)
 			g_textures.unload(lastSource)
@@ -264,17 +264,17 @@ local mapImageSource = {
 		},
 		minimapZoom = {
 			default = 400,
-			max = 800,
-			min = 300
+			min = 300,
+			max = 800
 		},
 		callback = function(lastSource)
 			g_textures.unload(lastSource)
 		end
 	},
 	{
-		displayFlags = true,
-		displayCurrentFloorFlags = true,
 		name = "floor%i_%s.jpg",
+		displayCurrentFloorFlags = true,
+		displayFlags = true,
 		area = {
 			toX = 7174,
 			fromY = 3800,
@@ -283,8 +283,8 @@ local mapImageSource = {
 		},
 		minimapZoom = {
 			default = 200,
-			max = 400,
-			min = 100
+			min = 100,
+			max = 400
 		},
 		displayCurrentFloorFlagsExceptions = {
 			[MAPMARK_COMPASS] = true
@@ -299,8 +299,8 @@ local mapImageSource = {
 	},
 	{
 		name = "minimap_%s.jpg",
-		displayFlags = true,
 		main = true,
+		displayFlags = true,
 		area = {
 			toX = 7174,
 			fromY = 3800,
@@ -309,8 +309,8 @@ local mapImageSource = {
 		},
 		minimapZoom = {
 			default = 200,
-			max = 400,
-			min = 100
+			min = 100,
+			max = 400
 		},
 		callback = function(lastSource, quality)
 			for i = 8, 15 do
@@ -323,9 +323,9 @@ local mapImageSource = {
 }
 
 g_worldMap = {
-	maxZoom = 10,
 	minZoom = 1,
 	globalFont = "myriad-pro-semibold-",
+	maxZoom = 10,
 	zoom = 1,
 	fullmapView = false,
 	startPos = {
@@ -346,21 +346,29 @@ g_worldMap = {
 	area = {},
 	compassHighlights = {},
 	zoneCfg = {
-		minZoom = 5,
-		fullmapViewExtraFontSize = 6,
 		fontMaxSize = 24,
 		fontMinSize = 12,
-		font = "vollkorn-sc-bold-bordered-"
+		minZoom = 5,
+		font = "vollkorn-sc-bold-bordered-",
+		fullmapViewExtraFontSize = 6
 	},
 	regionCfg = {
-		maxZoom = 5,
-		fullmapViewExtraFontSize = 4,
 		fontMaxSize = 22,
 		fontMinSize = 10,
-		font = "vollkorn-sc-bold-bordered-"
+		maxZoom = 5,
+		font = "vollkorn-sc-bold-bordered-",
+		fullmapViewExtraFontSize = 4
 	},
 	iconSettings = {
+		showBank = true,
+		showAutomaticHighlights = true,
+		showRangersCompanyOutpost = true,
 		showPvPArena = true,
+		showRespawnShrine = true,
+		showMarket = true,
+		showMoaMerchant = true,
+		showVendors = true,
+		showCollectors = true,
 		showSeaport = true,
 		showHouse = true,
 		showTradepost = true,
@@ -369,24 +377,16 @@ g_worldMap = {
 		showZoneNames = true,
 		showMissionAvailable = true,
 		showMissionComplete = true,
-		showCollectors = true,
-		showVendors = true,
-		showMoaMerchant = true,
-		showMarket = true,
-		showRespawnShrine = true,
 		showWarehouse = true,
 		showBuilders = true,
-		showFishpost = true,
-		showBank = true,
-		showAutomaticHighlights = true,
-		showRangersCompanyOutpost = true
+		showFishpost = true
 	},
 	landViewerSettings = {
+		showFort = true,
 		showStronghold = true,
 		showLargeEstate = true,
 		showMediumEstate = true,
-		showSmallEstate = true,
-		showFort = true
+		showSmallEstate = true
 	},
 	iconAssets = {
 		[MAPMARK_MISSION_COMPLETE] = "mission_complete",
@@ -608,7 +608,15 @@ function g_worldMap.updateVisibleMarks(updatePosition)
 end
 
 local checkBoxIdToName = {
+	showBank = "Banks",
+	showAutomaticHighlights = "Compass Highlights",
+	showRangersCompanyOutpost = "Rangers Company Outpost",
 	showPvPArena = "PvP arena",
+	showRespawnShrine = "Respawn Shrine",
+	showMarket = "Market",
+	showMoaMerchant = "Moa Merchant",
+	showVendors = "Vendor",
+	showCollectors = "Collector",
 	showSeaport = "Seaport",
 	showHouse = "House",
 	showTradepost = "Tradepost",
@@ -617,17 +625,9 @@ local checkBoxIdToName = {
 	showZoneNames = "Zone Name",
 	showMissionAvailable = "Mission available",
 	showMissionComplete = "Mission complete",
-	showCollectors = "Collector",
-	showVendors = "Vendor",
-	showMoaMerchant = "Moa Merchant",
-	showMarket = "Market",
-	showRespawnShrine = "Respawn Shrine",
 	showWarehouse = "Warehouses",
 	showBuilders = "Builders",
-	showFishpost = "Fishposts",
-	showBank = "Banks",
-	showAutomaticHighlights = "Compass Highlights",
-	showRangersCompanyOutpost = "Rangers Company Outpost"
+	showFishpost = "Fishposts"
 }
 
 function getCheckBoxName(key)

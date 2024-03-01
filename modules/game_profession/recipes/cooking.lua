@@ -3,3384 +3,3384 @@
 recipes = recipes or {}
 recipes[ProfessionCooking] = {
 	{
-		formatDescription = "foodquality",
+		progress = 75,
+		profession = 8,
 		index = 1,
+		durability = 4,
+		clientId = 28760,
+		tier = -1,
+		itemId = 32192,
+		name = "Beer",
+		category = "drinks",
+		experience = 400,
+		formatDescription = "foodquality",
+		description = "Channel and restore {50} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
 		amount = 5,
 		slotName = "",
 		quality = 75,
-		progress = 75,
-		category = "drinks",
-		experience = 400,
-		durability = 4,
-		description = "Channel and restore {50} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
-		tier = -1,
-		clientId = 28760,
-		itemId = 32192,
-		name = "Beer",
-		profession = 8,
 		level = {
 			mass = 10,
 			single = 5
 		},
 		materials = {
 			{
-				itemId = 32313,
-				amount = 2,
 				clientId = 28881,
-				name = "wheat"
+				amount = 2,
+				name = "wheat",
+				itemId = 32313
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 2,
+		durability = 7,
+		clientId = 28882,
+		tier = -1,
+		itemId = 32314,
+		name = "Wine",
+		category = "drinks",
+		experience = 2080,
+		formatDescription = "foodquality",
+		description = "Channel and restore {175} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
 		amount = 5,
 		slotName = "",
 		quality = 150,
-		progress = 200,
-		category = "drinks",
-		experience = 2080,
-		durability = 7,
-		description = "Channel and restore {175} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
-		tier = -1,
-		clientId = 28882,
-		itemId = 32314,
-		name = "Wine",
-		profession = 8,
 		level = {
 			mass = 25,
 			single = 20
 		},
 		materials = {
 			{
-				itemId = 32263,
-				amount = 4,
 				clientId = 28831,
-				name = "grape"
+				amount = 4,
+				name = "grape",
+				itemId = 32263
 			},
 			{
-				itemId = 45559,
-				amount = 1,
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 1,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 3,
+		durability = 7,
+		clientId = 28761,
+		tier = -1,
+		itemId = 32193,
+		name = "Whiskey",
+		category = "drinks",
+		experience = 2080,
+		formatDescription = "foodquality",
+		description = "Increase Mana Regeneration and Health Regeneration by {15} for 20 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 175,
-		progress = 200,
-		category = "drinks",
-		experience = 2080,
-		durability = 7,
-		description = "Increase Mana Regeneration and Health Regeneration by {15} for 20 minutes.",
-		tier = -1,
-		clientId = 28761,
-		itemId = 32193,
-		name = "Whiskey",
-		profession = 8,
 		level = {
 			mass = 27,
 			single = 22
 		},
 		materials = {
 			{
-				itemId = 32298,
-				amount = 4,
 				clientId = 28866,
-				name = "corn"
+				amount = 4,
+				name = "corn",
+				itemId = 32298
 			},
 			{
-				itemId = 45559,
-				amount = 1,
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 1,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 75,
+		profession = 8,
 		index = 4,
+		durability = 4,
+		clientId = 28767,
+		tier = -1,
+		itemId = 32199,
+		name = "Vodka",
+		category = "drinks",
+		experience = 330,
+		formatDescription = "foodquality",
+		description = "Increase Mana Regeneration and Health Regeneration by {5} for 20 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 75,
-		progress = 75,
-		category = "drinks",
-		experience = 330,
-		durability = 4,
-		description = "Increase Mana Regeneration and Health Regeneration by {5} for 20 minutes.",
-		tier = -1,
-		clientId = 28767,
-		itemId = 32199,
-		name = "Vodka",
-		profession = 8,
 		level = {
 			mass = 6,
 			single = 1
 		},
 		materials = {
 			{
-				itemId = 32306,
-				amount = 5,
 				clientId = 28874,
-				name = "potato"
+				amount = 5,
+				name = "potato",
+				itemId = 32306
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 250,
+		profession = 8,
 		index = 5,
+		durability = 7,
+		clientId = 28883,
+		tier = -1,
+		itemId = 32315,
+		name = "Rum",
+		category = "drinks",
+		experience = 3200,
+		formatDescription = "foodquality",
+		description = "Increase Mana Regeneration and Health Regeneration by {25} for 20 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 225,
-		progress = 250,
-		category = "drinks",
-		experience = 3200,
-		durability = 7,
-		description = "Increase Mana Regeneration and Health Regeneration by {25} for 20 minutes.",
-		tier = -1,
-		clientId = 28883,
-		itemId = 32315,
-		name = "Rum",
-		profession = 8,
 		level = {
 			mass = 37,
 			single = 32
 		},
 		materials = {
 			{
-				itemId = 32254,
-				amount = 2,
 				clientId = 28822,
-				name = "apple"
+				amount = 2,
+				name = "apple",
+				itemId = 32254
 			},
 			{
-				itemId = 45559,
-				amount = 1,
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 1,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 6,
+		durability = 7,
+		clientId = 28754,
+		tier = -1,
+		itemId = 32186,
+		name = "Bun",
+		category = "baked goods",
+		experience = 690,
+		formatDescription = "foodquality",
+		description = "Increase Defense Power by {6} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 150,
-		progress = 200,
-		category = "baked goods",
-		experience = 690,
-		durability = 7,
-		description = "Increase Defense Power by {6} for 30 minutes.",
-		tier = -1,
-		clientId = 28754,
-		itemId = 32186,
-		name = "Bun",
-		profession = 8,
 		level = {
 			mass = 25,
 			single = 20
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 5,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 5,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 45558,
-				amount = 1,
 				clientId = 42106,
-				name = "Basic Seasoning"
+				amount = 1,
+				name = "Basic Seasoning",
+				itemId = 45558
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 7,
+		durability = 7,
+		clientId = 28759,
+		tier = -1,
+		itemId = 32191,
+		name = "Scone",
+		category = "baked goods",
+		experience = 1260,
+		formatDescription = "foodquality",
+		description = "Increase Defense Power by {8} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 200,
-		progress = 200,
-		category = "baked goods",
-		experience = 1260,
-		durability = 7,
-		description = "Increase Defense Power by {8} for 30 minutes.",
-		tier = -1,
-		clientId = 28759,
-		itemId = 32191,
-		name = "Scone",
-		profession = 8,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 5,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 5,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 32361,
-				amount = 1,
 				clientId = 28929,
-				name = "milk"
+				amount = 1,
+				name = "milk",
+				itemId = 32361
 			},
 			{
-				itemId = 45558,
-				amount = 1,
 				clientId = 42106,
-				name = "Basic Seasoning"
+				amount = 1,
+				name = "Basic Seasoning",
+				itemId = 45558
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 250,
+		profession = 8,
 		index = 8,
+		durability = 7,
+		clientId = 28765,
+		tier = -1,
+		itemId = 32197,
+		name = "Muffin",
+		category = "baked goods",
+		experience = 1840,
+		formatDescription = "foodquality",
+		description = "Increase Defense Power by {12} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 225,
-		progress = 250,
-		category = "baked goods",
-		experience = 1840,
-		durability = 7,
-		description = "Increase Defense Power by {12} for 30 minutes.",
-		tier = -1,
-		clientId = 28765,
-		itemId = 32197,
-		name = "Muffin",
-		profession = 8,
 		level = {
 			mass = 40,
 			single = 35
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 4,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 4,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 32361,
-				amount = 1,
 				clientId = 28929,
-				name = "milk"
+				amount = 1,
+				name = "milk",
+				itemId = 32361
 			},
 			{
-				itemId = 47833,
-				amount = 2,
 				clientId = 44381,
-				name = "Honey"
+				amount = 2,
+				name = "Honey",
+				itemId = 47833
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 375,
+		profession = 8,
 		index = 9,
+		durability = 7,
+		clientId = 28756,
+		tier = -1,
+		itemId = 32188,
+		name = "Croissant",
+		category = "baked goods",
+		experience = 4400,
+		formatDescription = "foodquality",
+		description = "Increase Defense Power by {16} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 350,
-		progress = 375,
-		category = "baked goods",
-		experience = 4400,
-		durability = 7,
-		description = "Increase Defense Power by {16} for 30 minutes.",
-		tier = -1,
-		clientId = 28756,
-		itemId = 32188,
-		name = "Croissant",
-		profession = 8,
 		level = {
 			mass = 55,
 			single = 50
 		},
 		materials = {
 			{
-				itemId = 45570,
-				amount = 5,
 				clientId = 42118,
-				name = "Rich Flour"
+				amount = 5,
+				name = "Rich Flour",
+				itemId = 45570
 			},
 			{
-				itemId = 46201,
-				amount = 2,
 				clientId = 42749,
-				name = "Butter"
+				amount = 2,
+				name = "Butter",
+				itemId = 46201
 			},
 			{
-				itemId = 47833,
-				amount = 2,
 				clientId = 44381,
-				name = "Honey"
+				amount = 2,
+				name = "Honey",
+				itemId = 47833
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 10,
+		durability = 9,
+		clientId = 28757,
+		tier = -1,
+		itemId = 32189,
+		name = "Danish",
+		category = "baked goods",
+		experience = 4000,
+		specialization = "Pastry Expert",
+		formatDescription = "foodquality",
+		description = "Increase Defense Power by {25} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		specialization = "Pastry Expert",
-		experience = 4000,
-		durability = 9,
-		category = "baked goods",
-		description = "Increase Defense Power by {25} for 30 minutes.",
-		tier = -1,
-		clientId = 28757,
-		itemId = 32189,
-		name = "Danish",
-		profession = 8,
 		level = {
 			mass = 75,
 			single = 70
 		},
 		materials = {
 			{
-				itemId = 45570,
-				amount = 4,
 				clientId = 42118,
-				name = "Rich Flour"
+				amount = 4,
+				name = "Rich Flour",
+				itemId = 45570
 			},
 			{
-				itemId = 46201,
-				amount = 2,
 				clientId = 42749,
-				name = "Butter"
-			},
-			{
-				itemId = 47833,
 				amount = 2,
-				clientId = 44381,
-				name = "Honey"
+				name = "Butter",
+				itemId = 46201
 			},
 			{
-				itemId = 32259,
-				amount = 3,
+				clientId = 44381,
+				amount = 2,
+				name = "Honey",
+				itemId = 47833
+			},
+			{
 				clientId = 28827,
-				name = "strawberry"
+				amount = 3,
+				name = "strawberry",
+				itemId = 32259
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 11,
+		durability = 7,
+		clientId = 28766,
+		tier = -1,
+		itemId = 32198,
+		name = "Cookies",
+		category = "baked goods",
+		experience = 930,
+		formatDescription = "foodquality",
+		description = "Increase Attack Power by {6} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 175,
-		progress = 200,
-		category = "baked goods",
-		experience = 930,
-		durability = 7,
-		description = "Increase Attack Power by {6} for 30 minutes.",
-		tier = -1,
-		clientId = 28766,
-		itemId = 32198,
-		name = "Cookies",
-		profession = 8,
 		level = {
 			mass = 27,
 			single = 22
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 8,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 8,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 45558,
-				amount = 1,
 				clientId = 42106,
-				name = "Basic Seasoning"
+				amount = 1,
+				name = "Basic Seasoning",
+				itemId = 45558
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 225,
+		profession = 8,
 		index = 12,
+		durability = 7,
+		clientId = 28764,
+		tier = -1,
+		itemId = 32196,
+		name = "Deluxe Cookies",
+		category = "baked goods",
+		experience = 1380,
+		formatDescription = "foodquality",
+		description = "Increase Attack Power by {8} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 200,
-		progress = 225,
-		category = "baked goods",
-		experience = 1380,
-		durability = 7,
-		description = "Increase Attack Power by {8} for 30 minutes.",
-		tier = -1,
-		clientId = 28764,
-		itemId = 32196,
-		name = "Deluxe Cookies",
-		profession = 8,
 		level = {
 			mass = 32,
 			single = 27
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 9,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 9,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 46201,
-				amount = 1,
 				clientId = 42749,
-				name = "Butter"
+				amount = 1,
+				name = "Butter",
+				itemId = 46201
 			},
 			{
-				itemId = 45558,
-				amount = 1,
 				clientId = 42106,
-				name = "Basic Seasoning"
+				amount = 1,
+				name = "Basic Seasoning",
+				itemId = 45558
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 300,
+		profession = 8,
 		index = 13,
+		durability = 7,
+		clientId = 28755,
+		tier = -1,
+		itemId = 32187,
+		name = "Cake",
+		category = "baked goods",
+		experience = 1600,
+		formatDescription = "foodquality",
+		description = "Increase Attack Power by {12} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 275,
-		progress = 300,
-		category = "baked goods",
-		experience = 1600,
-		durability = 7,
-		description = "Increase Attack Power by {12} for 30 minutes.",
-		tier = -1,
-		clientId = 28755,
-		itemId = 32187,
-		name = "Cake",
-		profession = 8,
 		level = {
 			mass = 42,
 			single = 37
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 6,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 6,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 32361,
-				amount = 1,
 				clientId = 28929,
-				name = "milk"
+				amount = 1,
+				name = "milk",
+				itemId = 32361
 			},
 			{
-				itemId = 32360,
-				amount = 2,
 				clientId = 28928,
-				name = "egg"
+				amount = 2,
+				name = "egg",
+				itemId = 32360
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 450,
+		profession = 8,
 		index = 14,
+		durability = 8,
+		clientId = 28758,
+		tier = -1,
+		itemId = 32190,
+		name = "Deluxe Cake",
+		category = "baked goods",
+		experience = 5450,
+		formatDescription = "foodquality",
+		description = "Increase Attack Power by {16} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 425,
-		progress = 450,
-		category = "baked goods",
-		experience = 5450,
-		durability = 8,
-		description = "Increase Attack Power by {16} for 30 minutes.",
-		tier = -1,
-		clientId = 28758,
-		itemId = 32190,
-		name = "Deluxe Cake",
-		profession = 8,
 		level = {
 			mass = 57,
 			single = 52
 		},
 		materials = {
 			{
-				itemId = 45570,
-				amount = 8,
 				clientId = 42118,
-				name = "Rich Flour"
+				amount = 8,
+				name = "Rich Flour",
+				itemId = 45570
 			},
 			{
-				itemId = 32361,
-				amount = 1,
 				clientId = 28929,
-				name = "milk"
+				amount = 1,
+				name = "milk",
+				itemId = 32361
 			},
 			{
-				itemId = 32360,
-				amount = 2,
 				clientId = 28928,
-				name = "egg"
+				amount = 2,
+				name = "egg",
+				itemId = 32360
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 600,
+		profession = 8,
 		index = 15,
+		durability = 10,
+		clientId = 28753,
+		tier = -1,
+		itemId = 32185,
+		name = "Pie",
+		category = "baked goods",
+		experience = 5520,
+		specialization = "Pastry Expert",
+		formatDescription = "foodquality",
+		description = "Increase Attack Power by {25} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 600,
-		progress = 600,
-		specialization = "Pastry Expert",
-		experience = 5520,
-		durability = 10,
-		category = "baked goods",
-		description = "Increase Attack Power by {25} for 30 minutes.",
-		tier = -1,
-		clientId = 28753,
-		itemId = 32185,
-		name = "Pie",
-		profession = 8,
 		level = {
 			mass = 77,
 			single = 72
 		},
 		materials = {
 			{
-				itemId = 45570,
-				amount = 5,
 				clientId = 42118,
-				name = "Rich Flour"
+				amount = 5,
+				name = "Rich Flour",
+				itemId = 45570
 			},
 			{
-				itemId = 46201,
-				amount = 2,
 				clientId = 42749,
-				name = "Butter"
+				amount = 2,
+				name = "Butter",
+				itemId = 46201
 			},
 			{
-				itemId = 32360,
-				amount = 2,
 				clientId = 28928,
-				name = "egg"
+				amount = 2,
+				name = "egg",
+				itemId = 32360
 			},
 			{
-				itemId = 32256,
-				amount = 2,
 				clientId = 28824,
-				name = "sunberry"
+				amount = 2,
+				name = "sunberry",
+				itemId = 32256
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 300,
+		profession = 8,
 		index = 16,
+		durability = 7,
+		clientId = 34866,
+		tier = -1,
+		itemId = 38298,
+		name = "Settler's Stew",
+		category = "meals",
+		experience = 7680,
+		formatDescription = "foodquality",
+		description = "Increase Intelligence by {20} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 275,
-		progress = 300,
-		category = "meals",
-		experience = 7680,
-		durability = 7,
-		description = "Increase Intelligence by {20} for 30 minutes.",
-		tier = -1,
-		clientId = 34866,
-		itemId = 38298,
-		name = "Settler's Stew",
-		profession = 8,
 		level = {
 			mass = 42,
 			single = 37
 		},
 		materials = {
 			{
-				itemId = 32306,
-				amount = 20,
 				clientId = 28874,
-				name = "potato"
-			},
-			{
-				itemId = 32310,
 				amount = 20,
-				clientId = 28878,
-				name = "bean"
+				name = "potato",
+				itemId = 32306
 			},
 			{
-				itemId = 45558,
-				amount = 4,
+				clientId = 28878,
+				amount = 20,
+				name = "bean",
+				itemId = 32310
+			},
+			{
 				clientId = 42106,
-				name = "Basic Seasoning"
+				amount = 4,
+				name = "Basic Seasoning",
+				itemId = 45558
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 17,
+		durability = 9,
+		clientId = 34865,
+		tier = -1,
+		itemId = 38297,
+		name = "Sailor's Seastew",
+		category = "meals",
+		experience = 8300,
+		formatDescription = "foodquality",
+		description = "Increase Wisdom by {40} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		category = "meals",
-		experience = 8300,
-		durability = 9,
-		description = "Increase Wisdom by {40} for 30 minutes.",
-		tier = -1,
-		clientId = 34865,
-		itemId = 38297,
-		name = "Sailor's Seastew",
-		profession = 8,
 		level = {
 			mass = 74,
 			single = 69
 		},
 		materials = {
 			{
-				itemId = 44277,
-				amount = 5,
 				clientId = 40825,
-				name = "Black Fish Roe"
+				amount = 5,
+				name = "Black Fish Roe",
+				itemId = 44277
 			},
 			{
-				itemId = 32295,
-				amount = 6,
 				clientId = 28863,
-				name = "brocolli"
+				amount = 6,
+				name = "brocolli",
+				itemId = 32295
 			},
 			{
-				itemId = 32303,
-				amount = 10,
 				clientId = 28871,
-				name = "pea"
+				amount = 10,
+				name = "pea",
+				itemId = 32303
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 18,
+		durability = 7,
+		clientId = 34861,
+		tier = -1,
+		itemId = 38293,
+		name = "Roasted Chicken and Veggies",
+		category = "meals",
+		experience = 4000,
+		formatDescription = "foodquality",
+		description = "Increase Dexterity by {10} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 175,
-		progress = 200,
-		category = "meals",
-		experience = 4000,
-		durability = 7,
-		description = "Increase Dexterity by {10} for 30 minutes.",
-		tier = -1,
-		clientId = 34861,
-		itemId = 38293,
-		name = "Roasted Chicken and Veggies",
-		profession = 8,
 		level = {
 			mass = 28,
 			single = 23
 		},
 		materials = {
 			{
-				itemId = 32182,
-				amount = 1,
 				clientId = 28750,
-				name = "chicken"
+				amount = 1,
+				name = "chicken",
+				itemId = 32182
 			},
 			{
-				itemId = 32297,
-				amount = 1,
 				clientId = 28865,
-				name = "carrot"
+				amount = 1,
+				name = "carrot",
+				itemId = 32297
 			},
 			{
-				itemId = 32359,
-				amount = 1,
 				clientId = 28927,
-				name = "cheese"
+				amount = 1,
+				name = "cheese",
+				itemId = 32359
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 19,
+		durability = 9,
+		clientId = 34857,
+		tier = -1,
+		itemId = 38289,
+		name = "Firered Chicken Kebab",
+		category = "meals",
+		experience = 8200,
+		formatDescription = "foodquality",
+		description = "Increase Might by {40} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		category = "meals",
-		experience = 8200,
-		durability = 9,
-		description = "Increase Might by {40} for 30 minutes.",
-		tier = -1,
-		clientId = 34857,
-		itemId = 38289,
-		name = "Firered Chicken Kebab",
-		profession = 8,
 		level = {
 			mass = 71,
 			single = 66
 		},
 		materials = {
 			{
-				itemId = 32182,
-				amount = 3,
 				clientId = 28750,
-				name = "chicken"
+				amount = 3,
+				name = "chicken",
+				itemId = 32182
 			},
 			{
-				itemId = 32301,
-				amount = 2,
 				clientId = 28869,
-				name = "garlic"
+				amount = 2,
+				name = "garlic",
+				itemId = 32301
 			},
 			{
-				itemId = 32264,
-				amount = 1,
 				clientId = 28832,
-				name = "orange"
+				amount = 1,
+				name = "orange",
+				itemId = 32264
 			},
 			{
-				itemId = 45578,
-				amount = 1,
 				clientId = 42126,
-				name = "Spicy Seasoning"
+				amount = 1,
+				name = "Spicy Seasoning",
+				itemId = 45578
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 20,
+		durability = 7,
+		clientId = 34849,
+		tier = -1,
+		itemId = 38281,
+		name = "Charred Meat Kebab",
+		category = "meals",
+		experience = 2960,
+		formatDescription = "foodquality",
+		description = "Increase Intelligence by {10} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 175,
-		progress = 200,
-		category = "meals",
-		experience = 2960,
-		durability = 7,
-		description = "Increase Intelligence by {10} for 30 minutes.",
-		tier = -1,
-		clientId = 34849,
-		itemId = 38281,
-		name = "Charred Meat Kebab",
-		profession = 8,
 		level = {
 			mass = 27,
 			single = 22
 		},
 		materials = {
 			{
-				itemId = 32363,
-				amount = 2,
 				clientId = 28931,
-				name = "beef"
+				amount = 2,
+				name = "beef",
+				itemId = 32363
 			},
 			{
-				itemId = 32297,
-				amount = 2,
 				clientId = 28865,
-				name = "carrot"
+				amount = 2,
+				name = "carrot",
+				itemId = 32297
 			},
 			{
-				itemId = 32296,
-				amount = 2,
 				clientId = 28864,
-				name = "cabbage"
+				amount = 2,
+				name = "cabbage",
+				itemId = 32296
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 21,
+		durability = 9,
+		clientId = 34859,
+		tier = -1,
+		itemId = 38291,
+		name = "Lyderian Chopped Tenderloin",
+		category = "meals",
+		experience = 10000,
+		formatDescription = "foodquality",
+		description = "Increase Intelligence by {40} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		category = "meals",
-		experience = 10000,
-		durability = 9,
-		description = "Increase Intelligence by {40} for 30 minutes.",
-		tier = -1,
-		clientId = 34859,
-		itemId = 38291,
-		name = "Lyderian Chopped Tenderloin",
-		profession = 8,
 		level = {
 			mass = 72,
 			single = 67
 		},
 		materials = {
 			{
-				itemId = 32363,
-				amount = 4,
 				clientId = 28931,
-				name = "beef"
+				amount = 4,
+				name = "beef",
+				itemId = 32363
 			},
 			{
-				itemId = 32301,
-				amount = 6,
 				clientId = 28869,
-				name = "garlic"
+				amount = 6,
+				name = "garlic",
+				itemId = 32301
 			},
 			{
-				itemId = 45578,
-				amount = 2,
 				clientId = 42126,
-				name = "Spicy Seasoning"
+				amount = 2,
+				name = "Spicy Seasoning",
+				itemId = 45578
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 22,
+		durability = 7,
+		clientId = 34869,
+		tier = -1,
+		itemId = 38301,
+		name = "Smoked Sausage",
+		category = "meals",
+		experience = 3400,
+		formatDescription = "foodquality",
+		description = "Increase Might by {10} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 150,
-		progress = 200,
-		category = "meals",
-		experience = 3400,
-		durability = 7,
-		description = "Increase Might by {10} for 30 minutes.",
-		tier = -1,
-		clientId = 34869,
-		itemId = 38301,
-		name = "Smoked Sausage",
-		profession = 8,
 		level = {
 			mass = 26,
 			single = 21
 		},
 		materials = {
 			{
-				itemId = 32364,
-				amount = 2,
 				clientId = 28932,
-				name = "shank"
-			},
-			{
-				itemId = 45558,
-				amount = 1,
-				clientId = 42106,
-				name = "Basic Seasoning"
-			},
-			{
-				itemId = 32306,
-				amount = 4,
-				clientId = 28874,
-				name = "potato"
-			},
-			{
-				itemId = 32304,
 				amount = 2,
+				name = "shank",
+				itemId = 32364
+			},
+			{
+				clientId = 42106,
+				amount = 1,
+				name = "Basic Seasoning",
+				itemId = 45558
+			},
+			{
+				clientId = 28874,
+				amount = 4,
+				name = "potato",
+				itemId = 32306
+			},
+			{
 				clientId = 28872,
-				name = "pepper"
+				amount = 2,
+				name = "pepper",
+				itemId = 32304
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 500,
+		profession = 8,
 		index = 23,
+		durability = 9,
+		clientId = 34847,
+		tier = -1,
+		itemId = 38279,
+		name = "Acornchar Sausage",
+		category = "meals",
+		experience = 13280,
+		formatDescription = "foodquality",
+		description = "Increase Dexterity by {30} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 450,
-		progress = 500,
-		category = "meals",
-		experience = 13280,
-		durability = 9,
-		description = "Increase Dexterity by {30} for 30 minutes.",
-		tier = -1,
-		clientId = 34847,
-		itemId = 38279,
-		name = "Acornchar Sausage",
-		profession = 8,
 		level = {
 			mass = 58,
 			single = 53
 		},
 		materials = {
 			{
-				itemId = 32364,
-				amount = 3,
 				clientId = 28932,
-				name = "shank"
+				amount = 3,
+				name = "shank",
+				itemId = 32364
 			},
 			{
-				itemId = 45564,
-				amount = 2,
 				clientId = 42112,
-				name = "Gourmet Seasoning"
+				amount = 2,
+				name = "Gourmet Seasoning",
+				itemId = 45564
 			},
 			{
-				itemId = 32261,
-				amount = 2,
 				clientId = 28829,
-				name = "acorn"
+				amount = 2,
+				name = "acorn",
+				itemId = 32261
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 250,
+		profession = 8,
 		index = 24,
+		durability = 7,
+		clientId = 34864,
+		tier = -1,
+		itemId = 38296,
+		name = "Rum Downslider",
+		category = "meals",
+		experience = 2160,
+		formatDescription = "foodquality",
+		description = "Increase Vitality by {20} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 225,
-		progress = 250,
-		category = "meals",
-		experience = 2160,
-		durability = 7,
-		description = "Increase Vitality by {20} for 30 minutes.",
-		tier = -1,
-		clientId = 34864,
-		itemId = 38296,
-		name = "Rum Downslider",
-		profession = 8,
 		level = {
 			mass = 40,
 			single = 35
 		},
 		materials = {
 			{
-				itemId = 44281,
-				amount = 5,
 				clientId = 40829,
-				name = "Fish Roe"
+				amount = 5,
+				name = "Fish Roe",
+				itemId = 44281
 			},
 			{
-				itemId = 32296,
-				amount = 2,
 				clientId = 28864,
-				name = "cabbage"
+				amount = 2,
+				name = "cabbage",
+				itemId = 32296
 			},
 			{
-				itemId = 45575,
-				amount = 1,
 				clientId = 42123,
-				name = "Seafood Seasoning"
+				amount = 1,
+				name = "Seafood Seasoning",
+				itemId = 45575
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 25,
+		durability = 9,
+		clientId = 34853,
+		tier = -1,
+		itemId = 38285,
+		name = "Freshfish Roll",
+		category = "meals",
+		experience = 5900,
+		formatDescription = "foodquality",
+		description = "Increase Wisdom by {30} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 500,
-		progress = 550,
-		category = "meals",
-		experience = 5900,
-		durability = 9,
-		description = "Increase Wisdom by {30} for 30 minutes.",
-		tier = -1,
-		clientId = 34853,
-		itemId = 38285,
-		name = "Freshfish Roll",
-		profession = 8,
 		level = {
 			mass = 59,
 			single = 54
 		},
 		materials = {
 			{
-				itemId = 44285,
-				amount = 5,
 				clientId = 40833,
-				name = "Red Fish Roe"
+				amount = 5,
+				name = "Red Fish Roe",
+				itemId = 44285
 			},
 			{
-				itemId = 32359,
-				amount = 1,
 				clientId = 28927,
-				name = "cheese"
+				amount = 1,
+				name = "cheese",
+				itemId = 32359
 			},
 			{
-				itemId = 45564,
-				amount = 2,
 				clientId = 42112,
-				name = "Gourmet Seasoning"
+				amount = 2,
+				name = "Gourmet Seasoning",
+				itemId = 45564
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 350,
+		profession = 8,
 		index = 26,
+		durability = 7,
+		clientId = 34852,
+		tier = -1,
+		itemId = 38284,
+		name = "Fillet Lucien",
+		category = "meals",
+		experience = 3500,
+		formatDescription = "foodquality",
+		description = "Increase Wisdom by {20} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 300,
-		progress = 350,
-		category = "meals",
-		experience = 3500,
-		durability = 7,
-		description = "Increase Wisdom by {20} for 30 minutes.",
-		tier = -1,
-		clientId = 34852,
-		itemId = 38284,
-		name = "Fillet Lucien",
-		profession = 8,
 		level = {
 			mass = 44,
 			single = 39
 		},
 		materials = {
 			{
-				itemId = 32363,
-				amount = 1,
 				clientId = 28931,
-				name = "beef"
-			},
-			{
-				itemId = 36985,
-				amount = 5,
-				clientId = 33553,
-				name = "Ground Flour"
-			},
-			{
-				itemId = 32360,
-				amount = 2,
-				clientId = 28928,
-				name = "egg"
-			},
-			{
-				itemId = 32307,
 				amount = 1,
+				name = "beef",
+				itemId = 32363
+			},
+			{
+				clientId = 33553,
+				amount = 5,
+				name = "Ground Flour",
+				itemId = 36985
+			},
+			{
+				clientId = 28928,
+				amount = 2,
+				name = "egg",
+				itemId = 32360
+			},
+			{
 				clientId = 28875,
-				name = "pumpkin"
+				amount = 1,
+				name = "pumpkin",
+				itemId = 32307
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 27,
+		durability = 9,
+		clientId = 34862,
+		tier = -1,
+		itemId = 38294,
+		name = "Rohna Roasted Ham",
+		category = "meals",
+		experience = 9840,
+		formatDescription = "foodquality",
+		description = "Increase Dexterity by {40} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		category = "meals",
-		experience = 9840,
-		durability = 9,
-		description = "Increase Dexterity by {40} for 30 minutes.",
-		tier = -1,
-		clientId = 34862,
-		itemId = 38294,
-		name = "Rohna Roasted Ham",
-		profession = 8,
 		level = {
 			mass = 73,
 			single = 68
 		},
 		materials = {
 			{
-				itemId = 32364,
-				amount = 4,
 				clientId = 28932,
-				name = "shank"
+				amount = 4,
+				name = "shank",
+				itemId = 32364
 			},
 			{
-				itemId = 45578,
-				amount = 2,
 				clientId = 42126,
-				name = "Spicy Seasoning"
+				amount = 2,
+				name = "Spicy Seasoning",
+				itemId = 45578
 			},
 			{
-				itemId = 32302,
-				amount = 5,
 				clientId = 28870,
-				name = "onion"
+				amount = 5,
+				name = "onion",
+				itemId = 32302
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 28,
+		durability = 7,
+		clientId = 34860,
+		tier = -1,
+		itemId = 38292,
+		name = "Ravendawnian Porridge",
+		category = "meals",
+		experience = 6680,
+		formatDescription = "foodquality",
+		description = "Increase Wisdom by {10} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 175,
-		progress = 200,
-		category = "meals",
-		experience = 6680,
-		durability = 7,
-		description = "Increase Wisdom by {10} for 30 minutes.",
-		tier = -1,
-		clientId = 34860,
-		itemId = 38292,
-		name = "Ravendawnian Porridge",
-		profession = 8,
 		level = {
 			mass = 29,
 			single = 24
 		},
 		materials = {
 			{
-				itemId = 32313,
-				amount = 5,
 				clientId = 28881,
-				name = "wheat"
+				amount = 5,
+				name = "wheat",
+				itemId = 32313
 			},
 			{
-				itemId = 32254,
-				amount = 3,
 				clientId = 28822,
-				name = "apple"
+				amount = 3,
+				name = "apple",
+				itemId = 32254
 			},
 			{
-				itemId = 32361,
-				amount = 3,
 				clientId = 28929,
-				name = "milk"
+				amount = 3,
+				name = "milk",
+				itemId = 32361
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 29,
+		durability = 9,
+		clientId = 34870,
+		tier = -1,
+		itemId = 38302,
+		name = "Sweetened Beans",
+		category = "meals",
+		experience = 13280,
+		formatDescription = "foodquality",
+		description = "Increase Vitality by {40} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		category = "meals",
-		experience = 13280,
-		durability = 9,
-		description = "Increase Vitality by {40} for 30 minutes.",
-		tier = -1,
-		clientId = 34870,
-		itemId = 38302,
-		name = "Sweetened Beans",
-		profession = 8,
 		level = {
 			mass = 70,
 			single = 65
 		},
 		materials = {
 			{
-				itemId = 32310,
-				amount = 15,
 				clientId = 28878,
-				name = "bean"
+				amount = 15,
+				name = "bean",
+				itemId = 32310
 			},
 			{
-				itemId = 32254,
-				amount = 4,
 				clientId = 28822,
-				name = "apple"
+				amount = 4,
+				name = "apple",
+				itemId = 32254
 			},
 			{
-				itemId = 32255,
-				amount = 2,
 				clientId = 28823,
-				name = "banana"
+				amount = 2,
+				name = "banana",
+				itemId = 32255
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 30,
+		durability = 7,
+		clientId = 34855,
+		tier = -1,
+		itemId = 38287,
+		name = "Fruit Pancakes",
+		category = "meals",
+		experience = 4720,
+		formatDescription = "foodquality",
+		description = "Increase Vitality by {10} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 150,
-		progress = 200,
-		category = "meals",
-		experience = 4720,
-		durability = 7,
-		description = "Increase Vitality by {10} for 30 minutes.",
-		tier = -1,
-		clientId = 34855,
-		itemId = 38287,
-		name = "Fruit Pancakes",
-		profession = 8,
 		level = {
 			mass = 25,
 			single = 20
 		},
 		materials = {
 			{
-				itemId = 32361,
-				amount = 2,
 				clientId = 28929,
-				name = "milk"
+				amount = 2,
+				name = "milk",
+				itemId = 32361
 			},
 			{
-				itemId = 32360,
-				amount = 4,
 				clientId = 28928,
-				name = "egg"
+				amount = 4,
+				name = "egg",
+				itemId = 32360
 			},
 			{
-				itemId = 36985,
-				amount = 6,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 6,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 32263,
-				amount = 5,
 				clientId = 28831,
-				name = "grape"
+				amount = 5,
+				name = "grape",
+				itemId = 32263
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 450,
+		profession = 8,
 		index = 31,
+		durability = 8,
+		clientId = 34858,
+		tier = -1,
+		itemId = 38290,
+		name = "Lucien's Waffles",
+		category = "meals",
+		experience = 7200,
+		formatDescription = "foodquality",
+		description = "Increase Intelligence by {30} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 425,
-		progress = 450,
-		category = "meals",
-		experience = 7200,
-		durability = 8,
-		description = "Increase Intelligence by {30} for 30 minutes.",
-		tier = -1,
-		clientId = 34858,
-		itemId = 38290,
-		name = "Lucien's Waffles",
-		profession = 8,
 		level = {
 			mass = 57,
 			single = 52
 		},
 		materials = {
 			{
-				itemId = 32298,
-				amount = 3,
 				clientId = 28866,
-				name = "corn"
+				amount = 3,
+				name = "corn",
+				itemId = 32298
 			},
 			{
-				itemId = 32360,
-				amount = 6,
 				clientId = 28928,
-				name = "egg"
+				amount = 6,
+				name = "egg",
+				itemId = 32360
 			},
 			{
-				itemId = 45570,
-				amount = 5,
 				clientId = 42118,
-				name = "Rich Flour"
+				amount = 5,
+				name = "Rich Flour",
+				itemId = 45570
 			},
 			{
-				itemId = 32259,
-				amount = 8,
 				clientId = 28827,
-				name = "strawberry"
+				amount = 8,
+				name = "strawberry",
+				itemId = 32259
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 300,
+		profession = 8,
 		index = 32,
+		durability = 7,
+		clientId = 34851,
+		tier = -1,
+		itemId = 38283,
+		name = "Dwarven Purple Shank",
+		category = "meals",
+		experience = 8700,
+		formatDescription = "foodquality",
+		description = "Increase Dexterity by {20} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 275,
-		progress = 300,
-		category = "meals",
-		experience = 8700,
-		durability = 7,
-		description = "Increase Dexterity by {20} for 30 minutes.",
-		tier = -1,
-		clientId = 34851,
-		itemId = 38283,
-		name = "Dwarven Purple Shank",
-		profession = 8,
 		level = {
 			mass = 43,
 			single = 38
 		},
 		materials = {
 			{
-				itemId = 32364,
-				amount = 2,
 				clientId = 28932,
-				name = "shank"
-			},
-			{
-				itemId = 32263,
-				amount = 7,
-				clientId = 28831,
-				name = "grape"
-			},
-			{
-				itemId = 32260,
 				amount = 2,
+				name = "shank",
+				itemId = 32364
+			},
+			{
+				clientId = 28831,
+				amount = 7,
+				name = "grape",
+				itemId = 32263
+			},
+			{
 				clientId = 28828,
-				name = "watermelon"
+				amount = 2,
+				name = "watermelon",
+				itemId = 32260
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 33,
+		durability = 9,
+		clientId = 34848,
+		tier = -1,
+		itemId = 38280,
+		name = "Bittersweet Roast",
+		category = "meals",
+		experience = 18240,
+		specialization = "Gourmet Chef",
+		formatDescription = "foodquality",
+		description = "Increase Vitality, Might, Intelligence, Dexterity and Wisdom by {10} for 30 minutes",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		specialization = "Gourmet Chef",
-		experience = 18240,
-		durability = 9,
-		category = "meals",
-		description = "Increase Vitality, Might, Intelligence, Dexterity and Wisdom by {10} for 30 minutes",
-		tier = -1,
-		clientId = 34848,
-		itemId = 38280,
-		name = "Bittersweet Roast",
-		profession = 8,
 		level = {
 			mass = 75,
 			single = 70
 		},
 		materials = {
 			{
-				itemId = 32363,
-				amount = 6,
 				clientId = 28931,
-				name = "beef"
+				amount = 6,
+				name = "beef",
+				itemId = 32363
 			},
 			{
-				itemId = 32295,
-				amount = 5,
 				clientId = 28863,
-				name = "brocolli"
+				amount = 5,
+				name = "brocolli",
+				itemId = 32295
 			},
 			{
-				itemId = 32262,
-				amount = 5,
 				clientId = 28830,
-				name = "cherry"
+				amount = 5,
+				name = "cherry",
+				itemId = 32262
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 250,
+		profession = 8,
 		index = 34,
+		durability = 7,
+		clientId = 34868,
+		tier = -1,
+		itemId = 38300,
+		name = "Shaked Fruitmilk",
+		category = "meals",
+		experience = 2400,
+		formatDescription = "foodquality",
+		description = "Increase Might by {20} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 225,
-		progress = 250,
-		category = "meals",
-		experience = 2400,
-		durability = 7,
-		description = "Increase Might by {20} for 30 minutes.",
-		tier = -1,
-		clientId = 34868,
-		itemId = 38300,
-		name = "Shaked Fruitmilk",
-		profession = 8,
 		level = {
 			mass = 41,
 			single = 36
 		},
 		materials = {
 			{
-				itemId = 32361,
-				amount = 2,
 				clientId = 28929,
-				name = "milk"
-			},
-			{
-				itemId = 32259,
 				amount = 2,
-				clientId = 28827,
-				name = "strawberry"
+				name = "milk",
+				itemId = 32361
 			},
 			{
-				itemId = 32257,
-				amount = 10,
+				clientId = 28827,
+				amount = 2,
+				name = "strawberry",
+				itemId = 32259
+			},
+			{
 				clientId = 28825,
-				name = "blueberry"
+				amount = 10,
+				name = "blueberry",
+				itemId = 32257
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 375,
+		profession = 8,
 		index = 35,
+		durability = 7,
+		clientId = 34854,
+		tier = -1,
+		itemId = 38286,
+		name = "Frozen Sweet Berries",
+		category = "meals",
+		experience = 4300,
+		formatDescription = "foodquality",
+		description = "Increase Might by {30} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 350,
-		progress = 375,
-		category = "meals",
-		experience = 4300,
-		durability = 7,
-		description = "Increase Might by {30} for 30 minutes.",
-		tier = -1,
-		clientId = 34854,
-		itemId = 38286,
-		name = "Frozen Sweet Berries",
-		profession = 8,
 		level = {
 			mass = 56,
 			single = 51
 		},
 		materials = {
 			{
-				itemId = 32257,
-				amount = 10,
 				clientId = 28825,
-				name = "blueberry"
+				amount = 10,
+				name = "blueberry",
+				itemId = 32257
 			},
 			{
-				itemId = 32262,
-				amount = 1,
 				clientId = 28830,
-				name = "cherry"
+				amount = 1,
+				name = "cherry",
+				itemId = 32262
 			},
 			{
-				itemId = 32258,
-				amount = 2,
 				clientId = 28826,
-				name = "moonberry"
+				amount = 2,
+				name = "moonberry",
+				itemId = 32258
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 650,
+		profession = 8,
 		index = 36,
+		durability = 12,
+		clientId = 34856,
+		tier = -1,
+		itemId = 38288,
+		name = "Iced Fruitmilk",
+		category = "meals",
+		experience = 13200,
+		specialization = "Gourmet Chef",
+		formatDescription = "foodquality",
+		description = "Increase Movement Speed by {15%} for 30 minutes",
 		amount = 5,
 		slotName = "",
 		quality = 650,
-		progress = 650,
-		specialization = "Gourmet Chef",
-		experience = 13200,
-		durability = 12,
-		category = "meals",
-		description = "Increase Movement Speed by {15%} for 30 minutes",
-		tier = -1,
-		clientId = 34856,
-		itemId = 38288,
-		name = "Iced Fruitmilk",
-		profession = 8,
 		level = {
 			mass = 80,
 			single = 75
 		},
 		materials = {
 			{
-				itemId = 32361,
-				amount = 5,
 				clientId = 28929,
-				name = "milk"
+				amount = 5,
+				name = "milk",
+				itemId = 32361
 			},
 			{
-				itemId = 32264,
-				amount = 2,
 				clientId = 28832,
-				name = "orange"
+				amount = 2,
+				name = "orange",
+				itemId = 32264
 			},
 			{
-				itemId = 32256,
-				amount = 3,
 				clientId = 28824,
-				name = "sunberry"
+				amount = 3,
+				name = "sunberry",
+				itemId = 32256
 			},
 			{
-				itemId = 32258,
-				amount = 3,
 				clientId = 28826,
-				name = "moonberry"
+				amount = 3,
+				name = "moonberry",
+				itemId = 32258
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 100,
+		profession = 8,
 		index = 37,
+		durability = 4,
+		clientId = 33553,
+		tier = -1,
+		itemId = 36985,
+		name = "Ground Flour",
+		category = "ingredient",
+		experience = 1300,
+		formatDescription = "",
+		description = "Required for cooking certain recipes.",
 		amount = 20,
 		slotName = "",
 		quality = 100,
-		progress = 100,
-		category = "ingredient",
-		experience = 1300,
-		durability = 4,
-		description = "Required for cooking certain recipes.",
-		tier = -1,
-		clientId = 33553,
-		itemId = 36985,
-		name = "Ground Flour",
-		profession = 8,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				itemId = 32298,
-				amount = 10,
 				clientId = 28866,
-				name = "corn"
+				amount = 10,
+				name = "corn",
+				itemId = 32298
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 100,
+		profession = 8,
 		index = 38,
+		durability = 4,
+		clientId = 33553,
+		tier = -1,
+		itemId = 36985,
+		name = "Ground Flour",
+		category = "ingredient",
+		experience = 650,
+		formatDescription = "",
+		description = "Required for cooking certain recipes.",
 		amount = 10,
 		slotName = "",
 		quality = 100,
-		progress = 100,
-		category = "ingredient",
-		experience = 650,
-		durability = 4,
-		description = "Required for cooking certain recipes.",
-		tier = -1,
-		clientId = 33553,
-		itemId = 36985,
-		name = "Ground Flour",
-		profession = 8,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				itemId = 32313,
-				amount = 10,
 				clientId = 28881,
-				name = "wheat"
+				amount = 10,
+				name = "wheat",
+				itemId = 32313
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 50,
+		profession = 8,
 		index = 39,
+		durability = 3,
+		clientId = 34899,
+		tier = -1,
+		itemId = 38331,
+		name = "Oil",
+		category = "ingredient",
+		experience = 130,
+		formatDescription = "",
+		description = "Required for cooking certain recipes.",
 		amount = 1,
 		slotName = "",
 		quality = 50,
-		progress = 50,
-		category = "ingredient",
-		experience = 130,
-		durability = 3,
-		description = "Required for cooking certain recipes.",
-		tier = -1,
-		clientId = 34899,
-		itemId = 38331,
-		name = "Oil",
-		profession = 8,
 		level = {
 			mass = 6,
 			single = 1
 		},
 		materials = {
 			{
-				itemId = 32298,
-				amount = 1,
 				clientId = 28866,
-				name = "corn"
+				amount = 1,
+				name = "corn",
+				itemId = 32298
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 150,
+		profession = 8,
 		index = 40,
+		durability = 6,
+		clientId = 34896,
+		tier = -1,
+		itemId = 38328,
+		name = "Basic Animal Feed",
+		category = "misc",
+		experience = 1720,
+		formatDescription = "",
+		description = "Used in husbandry.",
 		amount = 10,
 		slotName = "",
 		quality = 100,
-		progress = 150,
-		category = "misc",
-		experience = 1720,
-		durability = 6,
-		description = "Used in husbandry.",
-		tier = -1,
-		clientId = 34896,
-		itemId = 38328,
-		name = "Basic Animal Feed",
-		profession = 8,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				itemId = 32313,
-				amount = 3,
 				clientId = 28881,
-				name = "wheat"
+				amount = 3,
+				name = "wheat",
+				itemId = 32313
 			},
 			{
-				itemId = 32297,
-				amount = 2,
 				clientId = 28865,
-				name = "carrot"
+				amount = 2,
+				name = "carrot",
+				itemId = 32297
 			},
 			{
-				itemId = 32298,
-				amount = 2,
 				clientId = 28866,
-				name = "corn"
+				amount = 2,
+				name = "corn",
+				itemId = 32298
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 375,
+		profession = 8,
 		index = 41,
+		durability = 7,
+		clientId = 34897,
+		tier = -1,
+		itemId = 38329,
+		name = "Complex Animal Feed",
+		category = "misc",
+		experience = 10000,
+		formatDescription = "",
+		description = "Used in husbandry.",
 		amount = 10,
 		slotName = "",
 		quality = 350,
-		progress = 375,
-		category = "misc",
-		experience = 10000,
-		durability = 7,
-		description = "Used in husbandry.",
-		tier = -1,
-		clientId = 34897,
-		itemId = 38329,
-		name = "Complex Animal Feed",
-		profession = 8,
 		level = {
 			mass = 50,
 			single = 45
 		},
 		materials = {
 			{
-				itemId = 32261,
-				amount = 1,
 				clientId = 28829,
-				name = "acorn"
-			},
-			{
-				itemId = 32254,
-				amount = 2,
-				clientId = 28822,
-				name = "apple"
-			},
-			{
-				itemId = 32307,
 				amount = 1,
-				clientId = 28875,
-				name = "pumpkin"
+				name = "acorn",
+				itemId = 32261
 			},
 			{
-				itemId = 32303,
-				amount = 5,
+				clientId = 28822,
+				amount = 2,
+				name = "apple",
+				itemId = 32254
+			},
+			{
+				clientId = 28875,
+				amount = 1,
+				name = "pumpkin",
+				itemId = 32307
+			},
+			{
 				clientId = 28871,
-				name = "pea"
+				amount = 5,
+				name = "pea",
+				itemId = 32303
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 500,
+		profession = 8,
 		index = 42,
+		durability = 9,
+		clientId = 34900,
+		tier = -1,
+		itemId = 38332,
+		name = "Spiced Oil",
+		category = "ingredient",
+		experience = 360,
+		formatDescription = "",
+		description = "Required for cooking certain recipes.",
 		amount = 1,
 		slotName = "",
 		quality = 500,
-		progress = 500,
-		category = "ingredient",
-		experience = 360,
-		durability = 9,
-		description = "Required for cooking certain recipes.",
-		tier = -1,
-		clientId = 34900,
-		itemId = 38332,
-		name = "Spiced Oil",
-		profession = 8,
 		level = {
 			mass = 67,
 			single = 62
 		},
 		materials = {
 			{
-				itemId = 38331,
-				amount = 1,
 				clientId = 34899,
-				name = "Oil"
+				amount = 1,
+				name = "Oil",
+				itemId = 38331
 			},
 			{
-				itemId = 32304,
-				amount = 2,
 				clientId = 28872,
-				name = "pepper"
+				amount = 2,
+				name = "pepper",
+				itemId = 32304
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 75,
+		profession = 8,
 		index = 43,
+		durability = 4,
+		clientId = 35397,
+		tier = -1,
+		itemId = 38829,
+		name = "Apple Cider",
+		category = "drinks",
+		experience = 1280,
+		formatDescription = "foodquality",
+		description = "Channel and restore {100} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
 		amount = 5,
 		slotName = "",
 		quality = 75,
-		progress = 75,
-		category = "drinks",
-		experience = 1280,
-		durability = 4,
-		description = "Channel and restore {100} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
-		tier = -1,
-		clientId = 35397,
-		itemId = 38829,
-		name = "Apple Cider",
-		profession = 8,
 		level = {
 			mass = 22,
 			single = 17
 		},
 		materials = {
 			{
-				itemId = 32254,
-				amount = 1,
 				clientId = 28822,
-				name = "apple"
+				amount = 1,
+				name = "apple",
+				itemId = 32254
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 350,
+		profession = 8,
 		index = 44,
+		durability = 7,
+		clientId = 35400,
+		tier = -1,
+		itemId = 38832,
+		name = "Blueberry Wine",
+		category = "drinks",
+		experience = 4640,
+		formatDescription = "foodquality",
+		description = "Channel and restore {325} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
 		amount = 5,
 		slotName = "",
 		quality = 300,
-		progress = 350,
-		category = "drinks",
-		experience = 4640,
-		durability = 7,
-		description = "Channel and restore {325} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
-		tier = -1,
-		clientId = 35400,
-		itemId = 38832,
-		name = "Blueberry Wine",
-		profession = 8,
 		level = {
 			mass = 45,
 			single = 40
 		},
 		materials = {
 			{
-				itemId = 32263,
-				amount = 7,
 				clientId = 28831,
-				name = "grape"
+				amount = 7,
+				name = "grape",
+				itemId = 32263
 			},
 			{
-				itemId = 32257,
-				amount = 10,
 				clientId = 28825,
-				name = "blueberry"
+				amount = 10,
+				name = "blueberry",
+				itemId = 32257
 			},
 			{
-				itemId = 45559,
-				amount = 2,
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 2,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 600,
+		profession = 8,
 		index = 45,
+		durability = 10,
+		clientId = 35399,
+		tier = -1,
+		itemId = 38831,
+		name = "Strawberry Whiskey",
+		category = "drinks",
+		experience = 8800,
+		specialization = "Sommelier",
+		formatDescription = "foodquality",
+		description = "Increase Mana Regeneration and Health Regeneration by {60} for 20 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 600,
-		progress = 600,
-		specialization = "Sommelier",
-		experience = 8800,
-		durability = 10,
-		category = "drinks",
-		description = "Increase Mana Regeneration and Health Regeneration by {60} for 20 minutes.",
-		tier = -1,
-		clientId = 35399,
-		itemId = 38831,
-		name = "Strawberry Whiskey",
-		profession = 8,
 		level = {
 			mass = 77,
 			single = 72
 		},
 		materials = {
 			{
-				itemId = 32298,
-				amount = 14,
 				clientId = 28866,
-				name = "corn"
+				amount = 14,
+				name = "corn",
+				itemId = 32298
 			},
 			{
-				itemId = 32259,
-				amount = 10,
 				clientId = 28827,
-				name = "strawberry"
+				amount = 10,
+				name = "strawberry",
+				itemId = 32259
 			},
 			{
-				itemId = 45559,
-				amount = 3,
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 3,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 46,
+		durability = 9,
+		clientId = 35398,
+		tier = -1,
+		itemId = 38830,
+		name = "Banana Vodka",
+		category = "drinks",
+		experience = 6560,
+		formatDescription = "foodquality",
+		description = "Increase Mana Regeneration and Health Regeneration by {45} for 20 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		category = "drinks",
-		experience = 6560,
-		durability = 9,
-		description = "Increase Mana Regeneration and Health Regeneration by {45} for 20 minutes.",
-		tier = -1,
-		clientId = 35398,
-		itemId = 38830,
-		name = "Banana Vodka",
-		profession = 8,
 		level = {
 			mass = 62,
 			single = 57
 		},
 		materials = {
 			{
-				itemId = 32306,
-				amount = 20,
 				clientId = 28874,
-				name = "potato"
+				amount = 20,
+				name = "potato",
+				itemId = 32306
 			},
 			{
-				itemId = 32255,
-				amount = 2,
 				clientId = 28823,
-				name = "banana"
+				amount = 2,
+				name = "banana",
+				itemId = 32255
 			},
 			{
-				itemId = 45559,
-				amount = 2,
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 2,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 47,
+		durability = 9,
+		clientId = 35401,
+		tier = -1,
+		itemId = 38833,
+		name = "Spiced Rum",
+		category = "drinks",
+		experience = 6560,
+		formatDescription = "foodquality",
+		description = "Channel and restore {400} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		category = "drinks",
-		experience = 6560,
-		durability = 9,
-		description = "Channel and restore {400} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
-		tier = -1,
-		clientId = 35401,
-		itemId = 38833,
-		name = "Spiced Rum",
-		profession = 8,
 		level = {
 			mass = 60,
 			single = 55
 		},
 		materials = {
 			{
-				itemId = 32254,
-				amount = 4,
 				clientId = 28822,
-				name = "apple"
+				amount = 4,
+				name = "apple",
+				itemId = 32254
 			},
 			{
-				itemId = 38332,
-				amount = 1,
 				clientId = 34900,
-				name = "Spiced Oil"
+				amount = 1,
+				name = "Spiced Oil",
+				itemId = 38332
 			},
 			{
-				itemId = 45559,
-				amount = 2,
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 2,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 650,
+		profession = 8,
 		index = 48,
+		durability = 12,
+		clientId = 35402,
+		tier = -1,
+		itemId = 38834,
+		name = "Shanks n' Mash",
+		category = "meals",
+		experience = 13600,
+		specialization = "Gourmet Chef",
+		formatDescription = "foodquality",
+		description = "Increase Vitality, Might, Intelligence, Dexterity and Wisdom by {15} for 30 minutes",
 		amount = 5,
 		slotName = "",
 		quality = 650,
-		progress = 650,
-		specialization = "Gourmet Chef",
-		experience = 13600,
-		durability = 12,
-		category = "meals",
-		description = "Increase Vitality, Might, Intelligence, Dexterity and Wisdom by {15} for 30 minutes",
-		tier = -1,
-		clientId = 35402,
-		itemId = 38834,
-		name = "Shanks n' Mash",
-		profession = 8,
 		level = {
 			mass = 80,
 			single = 75
 		},
 		materials = {
 			{
-				itemId = 32364,
-				amount = 4,
 				clientId = 28932,
-				name = "shank"
+				amount = 4,
+				name = "shank",
+				itemId = 32364
 			},
 			{
-				itemId = 32301,
-				amount = 15,
 				clientId = 28869,
-				name = "garlic"
+				amount = 15,
+				name = "garlic",
+				itemId = 32301
 			},
 			{
-				itemId = 32361,
-				amount = 8,
 				clientId = 28929,
-				name = "milk"
+				amount = 8,
+				name = "milk",
+				itemId = 32361
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 150,
+		profession = 8,
 		index = 49,
+		durability = 6,
+		clientId = 38161,
+		tier = -1,
+		itemId = 41613,
+		name = "Moa Ration",
+		category = "misc",
+		experience = 640,
+		formatDescription = "",
+		description = "Standard Moa feed. Sold by Jebediah at the Ravencrest Farms or crafted at a cooking station.",
 		amount = 5,
 		slotName = "",
 		quality = 100,
-		progress = 150,
-		category = "misc",
-		experience = 640,
-		durability = 6,
-		description = "Standard Moa feed. Sold by Jebediah at the Ravencrest Farms or crafted at a cooking station.",
-		tier = -1,
-		clientId = 38161,
-		itemId = 41613,
-		name = "Moa Ration",
-		profession = 8,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				itemId = 32298,
-				amount = 1,
 				clientId = 28866,
-				name = "corn"
+				amount = 1,
+				name = "corn",
+				itemId = 32298
 			},
 			{
-				itemId = 32313,
-				amount = 1,
 				clientId = 28881,
-				name = "wheat"
+				amount = 1,
+				name = "wheat",
+				itemId = 32313
 			},
 			{
-				itemId = 32306,
-				amount = 1,
 				clientId = 28874,
-				name = "potato"
+				amount = 1,
+				name = "potato",
+				itemId = 32306
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 125,
+		profession = 8,
 		index = 50,
+		durability = 5,
+		clientId = 42109,
+		tier = -1,
+		itemId = 45561,
+		name = "Corn Chowder",
+		category = "meals",
+		experience = 1200,
+		formatDescription = "foodquality",
+		description = "Increase Wisdom by {4} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 100,
-		progress = 125,
-		category = "meals",
-		experience = 1200,
-		durability = 5,
-		description = "Increase Wisdom by {4} for 30 minutes.",
-		tier = -1,
-		clientId = 42109,
-		itemId = 45561,
-		name = "Corn Chowder",
-		profession = 8,
 		level = {
 			mass = 13,
 			single = 8
 		},
 		materials = {
 			{
-				itemId = 32298,
-				amount = 3,
 				clientId = 28866,
-				name = "corn"
+				amount = 3,
+				name = "corn",
+				itemId = 32298
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 51,
+		durability = 6,
+		clientId = 42749,
+		tier = -1,
+		itemId = 46201,
+		name = "Butter",
+		category = "ingredient",
+		experience = 368,
+		formatDescription = "foodquality",
+		description = "Used in various recipes. A creamy and rich delight churned from milk.",
 		amount = 2,
 		slotName = "",
 		quality = 125,
-		progress = 175,
-		category = "ingredient",
-		experience = 368,
-		durability = 6,
-		description = "Used in various recipes. A creamy and rich delight churned from milk.",
-		tier = -1,
-		clientId = 42749,
-		itemId = 46201,
-		name = "Butter",
-		profession = 8,
 		level = {
 			mass = 20,
 			single = 15
 		},
 		materials = {
 			{
-				itemId = 32361,
-				amount = 2,
 				clientId = 28929,
-				name = "milk"
+				amount = 2,
+				name = "milk",
+				itemId = 32361
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 75,
+		profession = 8,
 		index = 52,
+		durability = 4,
+		clientId = 42110,
+		tier = -1,
+		itemId = 45562,
+		name = "Corn on a Cob",
+		category = "baked goods",
+		experience = 800,
+		formatDescription = "foodquality",
+		description = "Increase Defense Power by {1} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 75,
-		progress = 75,
-		category = "baked goods",
-		experience = 800,
-		durability = 4,
-		description = "Increase Defense Power by {1} for 30 minutes.",
-		tier = -1,
-		clientId = 42110,
-		itemId = 45562,
-		name = "Corn on a Cob",
-		profession = 8,
 		level = {
 			mass = 8,
 			single = 3
 		},
 		materials = {
 			{
-				itemId = 32298,
-				amount = 2,
 				clientId = 28866,
-				name = "corn"
+				amount = 2,
+				name = "corn",
+				itemId = 32298
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 53,
+		durability = 6,
+		clientId = 42748,
+		tier = -1,
+		itemId = 46200,
+		name = "Glademire Crackers",
+		category = "baked goods",
+		experience = 480,
+		formatDescription = "foodquality",
+		description = "Increase Healing Power by {4} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 125,
-		progress = 175,
-		category = "baked goods",
-		experience = 480,
-		durability = 6,
-		description = "Increase Healing Power by {4} for 30 minutes.",
-		tier = -1,
-		clientId = 42748,
-		itemId = 46200,
-		name = "Glademire Crackers",
-		profession = 8,
 		level = {
 			mass = 20,
 			single = 15
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 6,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 6,
+				name = "Ground Flour",
+				itemId = 36985
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 125,
+		profession = 8,
 		index = 54,
+		durability = 5,
+		clientId = 42128,
+		tier = -1,
+		itemId = 45580,
+		name = "Corn Salad",
+		category = "meals",
+		experience = 1200,
+		formatDescription = "foodquality",
+		description = "Increase Vitality by {4} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 100,
-		progress = 125,
-		category = "meals",
-		experience = 1200,
-		durability = 5,
-		description = "Increase Vitality by {4} for 30 minutes.",
-		tier = -1,
-		clientId = 42128,
-		itemId = 45580,
-		name = "Corn Salad",
-		profession = 8,
 		level = {
 			mass = 13,
 			single = 8
 		},
 		materials = {
 			{
-				itemId = 32298,
-				amount = 3,
 				clientId = 28866,
-				name = "corn"
+				amount = 3,
+				name = "corn",
+				itemId = 32298
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 350,
+		profession = 8,
 		index = 55,
+		durability = 7,
+		clientId = 42118,
+		tier = -1,
+		itemId = 45570,
+		name = "Rich Flour",
+		category = "ingredient",
+		experience = 530,
+		formatDescription = "foodquality",
+		description = "Used in various recipes. A finely milled flour, imbued with fine ingredients.",
 		amount = 20,
 		slotName = "",
 		quality = 325,
-		progress = 350,
-		category = "ingredient",
-		experience = 530,
-		durability = 7,
-		description = "Used in various recipes. A finely milled flour, imbued with fine ingredients.",
-		tier = -1,
-		clientId = 42118,
-		itemId = 45570,
-		name = "Rich Flour",
-		profession = 8,
 		level = {
 			mass = 50,
 			single = 45
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 20,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 20,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 37802,
-				amount = 1,
 				clientId = 34370,
-				name = "Three-Leaf Clover"
+				amount = 1,
+				name = "Three-Leaf Clover",
+				itemId = 37802
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 225,
+		profession = 8,
 		index = 56,
+		durability = 7,
+		clientId = 42111,
+		tier = -1,
+		itemId = 45563,
+		name = "Cornbread",
+		category = "baked goods",
+		experience = 2400,
+		formatDescription = "foodquality",
+		description = "Increase Healing Power by {8} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 200,
-		progress = 225,
-		category = "baked goods",
-		experience = 2400,
-		durability = 7,
-		description = "Increase Healing Power by {8} for 30 minutes.",
-		tier = -1,
-		clientId = 42111,
-		itemId = 45563,
-		name = "Cornbread",
-		profession = 8,
 		level = {
 			mass = 31,
 			single = 26
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 8,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 8,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 32298,
-				amount = 4,
 				clientId = 28866,
-				name = "corn"
+				amount = 4,
+				name = "corn",
+				itemId = 32298
 			},
 			{
-				itemId = 45558,
-				amount = 1,
 				clientId = 42106,
-				name = "Basic Seasoning"
+				amount = 1,
+				name = "Basic Seasoning",
+				itemId = 45558
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 57,
+		durability = 9,
+		clientId = 42723,
+		tier = -1,
+		itemId = 46175,
+		name = "Eclipse",
+		category = "drinks",
+		experience = 8800,
+		specialization = "Sommelier",
+		formatDescription = "foodquality",
+		description = "Channel and restore {600} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		specialization = "Sommelier",
-		experience = 8800,
-		durability = 9,
-		category = "drinks",
-		description = "Channel and restore {600} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
-		tier = -1,
-		clientId = 42723,
-		itemId = 46175,
-		name = "Eclipse",
-		profession = 8,
 		level = {
 			mass = 75,
 			single = 70
 		},
 		materials = {
 			{
-				itemId = 32258,
-				amount = 5,
 				clientId = 28826,
-				name = "moonberry"
+				amount = 5,
+				name = "moonberry",
+				itemId = 32258
 			},
 			{
-				itemId = 32256,
-				amount = 4,
 				clientId = 28824,
-				name = "sunberry"
+				amount = 4,
+				name = "sunberry",
+				itemId = 32256
 			},
 			{
-				itemId = 45559,
-				amount = 3,
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 3,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 58,
+		durability = 7,
+		clientId = 42112,
+		tier = -1,
+		itemId = 45564,
+		name = "Gourmet Seasoning",
+		category = "ingredient",
+		experience = 1000,
+		formatDescription = "foodquality",
+		description = "Used in various recipes. A highly sophisticated blend of flavorful herbs and spices.",
 		amount = 5,
 		slotName = "",
 		quality = 150,
-		progress = 175,
-		category = "ingredient",
-		experience = 1000,
-		durability = 7,
-		description = "Used in various recipes. A highly sophisticated blend of flavorful herbs and spices.",
-		tier = -1,
-		clientId = 42112,
-		itemId = 45564,
-		name = "Gourmet Seasoning",
-		profession = 8,
 		level = {
 			mass = 30,
 			single = 25
 		},
 		materials = {
 			{
-				itemId = 36983,
-				amount = 3,
 				clientId = 33551,
-				name = "salt"
+				amount = 3,
+				name = "salt",
+				itemId = 36983
 			},
 			{
-				itemId = 32302,
-				amount = 1,
 				clientId = 28870,
-				name = "onion"
+				amount = 1,
+				name = "onion",
+				itemId = 32302
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 150,
+		profession = 8,
 		index = 59,
+		durability = 6,
+		clientId = 42724,
+		tier = -1,
+		itemId = 46176,
+		name = "Landing Brandy",
+		category = "drinks",
+		experience = 1280,
+		formatDescription = "foodquality",
+		description = "Increase Mana Regeneration and Health Regeneration by {10} for 20 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 100,
-		progress = 150,
-		category = "drinks",
-		experience = 1280,
-		durability = 6,
-		description = "Increase Mana Regeneration and Health Regeneration by {10} for 20 minutes.",
-		tier = -1,
-		clientId = 42724,
-		itemId = 46176,
-		name = "Landing Brandy",
-		profession = 8,
 		level = {
 			mass = 15,
 			single = 10
 		},
 		materials = {
 			{
-				itemId = 32254,
-				amount = 1,
 				clientId = 28822,
-				name = "apple"
+				amount = 1,
+				name = "apple",
+				itemId = 32254
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 60,
+		durability = 7,
+		clientId = 42113,
+		tier = -1,
+		itemId = 45565,
+		name = "Loaf Bread",
+		category = "baked goods",
+		experience = 930,
+		formatDescription = "foodquality",
+		description = "Increase Healing Power by {6} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 150,
-		progress = 200,
-		category = "baked goods",
-		experience = 930,
-		durability = 7,
-		description = "Increase Healing Power by {6} for 30 minutes.",
-		tier = -1,
-		clientId = 42113,
-		itemId = 45565,
-		name = "Loaf Bread",
-		profession = 8,
 		level = {
 			mass = 26,
 			single = 21
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 8,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 8,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 45558,
-				amount = 1,
 				clientId = 42106,
-				name = "Basic Seasoning"
+				amount = 1,
+				name = "Basic Seasoning",
+				itemId = 45558
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 61,
+		durability = 6,
+		clientId = 42114,
+		tier = -1,
+		itemId = 45566,
+		name = "Lyderian Fries",
+		category = "meals",
+		experience = 910,
+		formatDescription = "foodquality",
+		description = "Increase Might by {6} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 125,
-		progress = 175,
-		category = "meals",
-		experience = 910,
-		durability = 6,
-		description = "Increase Might by {6} for 30 minutes.",
-		tier = -1,
-		clientId = 42114,
-		itemId = 45566,
-		name = "Lyderian Fries",
-		profession = 8,
 		level = {
 			mass = 23,
 			single = 18
 		},
 		materials = {
 			{
-				itemId = 32306,
-				amount = 12,
 				clientId = 28874,
-				name = "potato"
+				amount = 12,
+				name = "potato",
+				itemId = 32306
 			},
 			{
-				itemId = 38331,
-				amount = 1,
 				clientId = 34899,
-				name = "Oil"
+				amount = 1,
+				name = "Oil",
+				itemId = 38331
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 125,
+		profession = 8,
 		index = 62,
+		durability = 5,
+		clientId = 42115,
+		tier = -1,
+		itemId = 45567,
+		name = "Mashed Potatoes",
+		category = "meals",
+		experience = 520,
+		formatDescription = "foodquality",
+		description = "Increase Might by {4} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 100,
-		progress = 125,
-		category = "meals",
-		experience = 520,
-		durability = 5,
-		description = "Increase Might by {4} for 30 minutes.",
-		tier = -1,
-		clientId = 42115,
-		itemId = 45567,
-		name = "Mashed Potatoes",
-		profession = 8,
 		level = {
 			mass = 13,
 			single = 8
 		},
 		materials = {
 			{
-				itemId = 32306,
-				amount = 8,
 				clientId = 28874,
-				name = "potato"
+				amount = 8,
+				name = "potato",
+				itemId = 32306
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 63,
+		durability = 6,
+		clientId = 42116,
+		tier = -1,
+		itemId = 45568,
+		name = "Omelet",
+		category = "meals",
+		experience = 1760,
+		formatDescription = "foodquality",
+		description = "Increase Dexterity by {6} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 125,
-		progress = 175,
-		category = "meals",
-		experience = 1760,
-		durability = 6,
-		description = "Increase Dexterity by {6} for 30 minutes.",
-		tier = -1,
-		clientId = 42116,
-		itemId = 45568,
-		name = "Omelet",
-		profession = 8,
 		level = {
 			mass = 23,
 			single = 18
 		},
 		materials = {
 			{
-				itemId = 32360,
-				amount = 2,
 				clientId = 28928,
-				name = "egg"
+				amount = 2,
+				name = "egg",
+				itemId = 32360
 			},
 			{
-				itemId = 32361,
-				amount = 2,
 				clientId = 28929,
-				name = "milk"
+				amount = 2,
+				name = "milk",
+				itemId = 32361
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 225,
+		profession = 8,
 		index = 64,
+		durability = 7,
+		clientId = 42721,
+		tier = -1,
+		itemId = 46173,
+		name = "Orange Liqueur",
+		category = "drinks",
+		experience = 3200,
+		formatDescription = "",
+		description = "Channel and restore {250} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
 		amount = 5,
 		slotName = "",
 		quality = 200,
-		progress = 225,
-		category = "drinks",
-		experience = 3200,
-		durability = 7,
-		description = "Channel and restore {250} Health and Mana per second for 15 seconds. Being damaged cancels the effect. 15 seconds cooldown.",
-		tier = -1,
-		clientId = 42721,
-		itemId = 46173,
-		name = "Orange Liqueur",
-		profession = 8,
 		level = {
 			mass = 35,
 			single = 30
 		},
 		materials = {
 			{
-				itemId = 32264,
-				amount = 1,
 				clientId = 28832,
-				name = "orange"
+				amount = 1,
+				name = "orange",
+				itemId = 32264
 			},
 			{
-				itemId = 45559,
-				amount = 1,
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 1,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 75,
+		profession = 8,
 		index = 65,
+		durability = 4,
+		clientId = 42117,
+		tier = -1,
+		itemId = 45569,
+		name = "Potato Bread",
+		category = "baked goods",
+		experience = 620,
+		formatDescription = "foodquality",
+		description = "Increase Healing Power by {1} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 75,
-		progress = 75,
-		category = "baked goods",
-		experience = 620,
-		durability = 4,
-		description = "Increase Healing Power by {1} for 30 minutes.",
-		tier = -1,
-		clientId = 42117,
-		itemId = 45569,
-		name = "Potato Bread",
-		profession = 8,
 		level = {
 			mass = 9,
 			single = 4
 		},
 		materials = {
 			{
-				itemId = 32306,
-				amount = 3,
 				clientId = 28874,
-				name = "potato"
+				amount = 3,
+				name = "potato",
+				itemId = 32306
 			},
 			{
-				itemId = 32298,
-				amount = 1,
 				clientId = 28866,
-				name = "corn"
+				amount = 1,
+				name = "corn",
+				itemId = 32298
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 67,
+		durability = 6,
+		clientId = 42119,
+		tier = -1,
+		itemId = 45571,
+		name = "Rohna Crackers",
+		category = "baked goods",
+		experience = 480,
+		formatDescription = "foodquality",
+		description = "Increase Defense Power by {4} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 125,
-		progress = 175,
-		category = "baked goods",
-		experience = 480,
-		durability = 6,
-		description = "Increase Defense Power by {4} for 30 minutes.",
-		tier = -1,
-		clientId = 42119,
-		itemId = 45571,
-		name = "Rohna Crackers",
-		profession = 8,
 		level = {
 			mass = 19,
 			single = 14
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 6,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 6,
+				name = "Ground Flour",
+				itemId = 36985
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 68,
+		durability = 9,
+		clientId = 42120,
+		tier = -1,
+		itemId = 45572,
+		name = "Rye Bread",
+		category = "baked goods",
+		experience = 5740,
+		specialization = "Pastry Expert",
+		formatDescription = "foodquality",
+		description = "Increase Healing Power by {25} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		specialization = "Pastry Expert",
-		experience = 5740,
-		durability = 9,
-		category = "baked goods",
-		description = "Increase Healing Power by {25} for 30 minutes.",
-		tier = -1,
-		clientId = 42120,
-		itemId = 45572,
-		name = "Rye Bread",
-		profession = 8,
 		level = {
 			mass = 76,
 			single = 71
 		},
 		materials = {
 			{
-				itemId = 45570,
-				amount = 7,
 				clientId = 42118,
-				name = "Rich Flour"
+				amount = 7,
+				name = "Rich Flour",
+				itemId = 45570
 			},
 			{
-				itemId = 46201,
-				amount = 2,
 				clientId = 42749,
-				name = "Butter"
+				amount = 2,
+				name = "Butter",
+				itemId = 46201
 			},
 			{
-				itemId = 32360,
-				amount = 2,
 				clientId = 28928,
-				name = "egg"
+				amount = 2,
+				name = "egg",
+				itemId = 32360
 			},
 			{
-				itemId = 32303,
-				amount = 2,
 				clientId = 28871,
-				name = "pea"
+				amount = 2,
+				name = "pea",
+				itemId = 32303
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 69,
+		durability = 6,
+		clientId = 42121,
+		tier = -1,
+		itemId = 45573,
+		name = "Sajecho Hardtack",
+		category = "baked goods",
+		experience = 450,
+		formatDescription = "foodquality",
+		description = "Increase Attack Power by {4} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 125,
-		progress = 175,
-		category = "baked goods",
-		experience = 450,
-		durability = 6,
-		description = "Increase Attack Power by {4} for 30 minutes.",
-		tier = -1,
-		clientId = 42121,
-		itemId = 45573,
-		name = "Sajecho Hardtack",
-		profession = 8,
 		level = {
 			mass = 18,
 			single = 13
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 2,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 2,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 44284,
-				amount = 2,
 				clientId = 40832,
-				name = "Orange Scales"
+				amount = 2,
+				name = "Orange Scales",
+				itemId = 44284
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 125,
+		profession = 8,
 		index = 70,
+		durability = 5,
+		clientId = 42122,
+		tier = -1,
+		itemId = 45574,
+		name = "Scrambled Eggs",
+		category = "meals",
+		experience = 640,
+		formatDescription = "foodquality",
+		description = "Increase Dexterity by {4} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 100,
-		progress = 125,
-		category = "meals",
-		experience = 640,
-		durability = 5,
-		description = "Increase Dexterity by {4} for 30 minutes.",
-		tier = -1,
-		clientId = 42122,
-		itemId = 45574,
-		name = "Scrambled Eggs",
-		profession = 8,
 		level = {
 			mass = 13,
 			single = 8
 		},
 		materials = {
 			{
-				itemId = 32360,
-				amount = 2,
 				clientId = 28928,
-				name = "egg"
+				amount = 2,
+				name = "egg",
+				itemId = 32360
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 50,
+		profession = 8,
 		index = 71,
+		durability = 3,
+		clientId = 42123,
+		tier = -1,
+		itemId = 45575,
+		name = "Seafood Seasoning",
+		category = "ingredient",
+		experience = 560,
+		formatDescription = "foodquality",
+		description = "Used in various recipes. This flavorful blend captures the essence of the sea.",
 		amount = 5,
 		slotName = "",
 		quality = 50,
-		progress = 50,
-		category = "ingredient",
-		experience = 560,
-		durability = 3,
-		description = "Used in various recipes. This flavorful blend captures the essence of the sea.",
-		tier = -1,
-		clientId = 42123,
-		itemId = 45575,
-		name = "Seafood Seasoning",
-		profession = 8,
 		level = {
 			mass = 10,
 			single = 5
 		},
 		materials = {
 			{
-				itemId = 36983,
-				amount = 1,
 				clientId = 33551,
-				name = "salt"
+				amount = 1,
+				name = "salt",
+				itemId = 36983
 			},
 			{
-				itemId = 44284,
-				amount = 5,
 				clientId = 40832,
-				name = "Orange Scales"
+				amount = 5,
+				name = "Orange Scales",
+				itemId = 44284
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 72,
+		durability = 6,
+		clientId = 42124,
+		tier = -1,
+		itemId = 45576,
+		name = "Silky Scrambled Eggs",
+		category = "meals",
+		experience = 1000,
+		formatDescription = "foodquality",
+		description = "Increase Wisdom by {6} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 125,
-		progress = 175,
-		category = "meals",
-		experience = 1000,
-		durability = 6,
-		description = "Increase Wisdom by {6} for 30 minutes.",
-		tier = -1,
-		clientId = 42124,
-		itemId = 45576,
-		name = "Silky Scrambled Eggs",
-		profession = 8,
 		level = {
 			mass = 23,
 			single = 18
 		},
 		materials = {
 			{
-				itemId = 32360,
-				amount = 2,
 				clientId = 28928,
-				name = "egg"
+				amount = 2,
+				name = "egg",
+				itemId = 32360
 			},
 			{
-				itemId = 46201,
-				amount = 1,
 				clientId = 42749,
-				name = "Butter"
+				amount = 1,
+				name = "Butter",
+				itemId = 46201
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 375,
+		profession = 8,
 		index = 73,
+		durability = 7,
+		clientId = 42125,
+		tier = -1,
+		itemId = 45577,
+		name = "Sourdought Bagel",
+		category = "baked goods",
+		experience = 4230,
+		formatDescription = "foodquality",
+		description = "Increase Healing Power by {16} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 350,
-		progress = 375,
-		category = "baked goods",
-		experience = 4230,
-		durability = 7,
-		description = "Increase Healing Power by {16} for 30 minutes.",
-		tier = -1,
-		clientId = 42125,
-		itemId = 45577,
-		name = "Sourdought Bagel",
-		profession = 8,
 		level = {
 			mass = 56,
 			single = 51
 		},
 		materials = {
 			{
-				itemId = 45570,
-				amount = 5,
 				clientId = 42118,
-				name = "Rich Flour"
+				amount = 5,
+				name = "Rich Flour",
+				itemId = 45570
 			},
 			{
-				itemId = 32361,
-				amount = 1,
 				clientId = 28929,
-				name = "milk"
+				amount = 1,
+				name = "milk",
+				itemId = 32361
 			},
 			{
-				itemId = 45564,
-				amount = 1,
 				clientId = 42112,
-				name = "Gourmet Seasoning"
+				amount = 1,
+				name = "Gourmet Seasoning",
+				itemId = 45564
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 550,
+		profession = 8,
 		index = 74,
+		durability = 9,
+		clientId = 42126,
+		tier = -1,
+		itemId = 45578,
+		name = "Spicy Seasoning",
+		category = "ingredient",
+		experience = 2048,
+		formatDescription = "foodquality",
+		description = "Used in various recipes. Ignite your taste buds with this fiery fusion of spices.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		category = "ingredient",
-		experience = 2048,
-		durability = 9,
-		description = "Used in various recipes. Ignite your taste buds with this fiery fusion of spices.",
-		tier = -1,
-		clientId = 42126,
-		itemId = 45578,
-		name = "Spicy Seasoning",
-		profession = 8,
 		level = {
 			mass = 70,
 			single = 65
 		},
 		materials = {
 			{
-				itemId = 36983,
-				amount = 5,
 				clientId = 33551,
-				name = "salt"
+				amount = 5,
+				name = "salt",
+				itemId = 36983
 			},
 			{
-				itemId = 32304,
-				amount = 2,
 				clientId = 28872,
-				name = "pepper"
+				amount = 2,
+				name = "pepper",
+				itemId = 32304
 			},
 			{
-				itemId = 37802,
-				amount = 1,
 				clientId = 34370,
-				name = "Three-Leaf Clover"
+				amount = 1,
+				name = "Three-Leaf Clover",
+				itemId = 37802
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 75,
+		durability = 6,
+		clientId = 42127,
+		tier = -1,
+		itemId = 45579,
+		name = "Steamed Carrots",
+		category = "meals",
+		experience = 920,
+		formatDescription = "foodquality",
+		description = "Increase Vitality by {6} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 125,
-		progress = 175,
-		category = "meals",
-		experience = 920,
-		durability = 6,
-		description = "Increase Vitality by {6} for 30 minutes.",
-		tier = -1,
-		clientId = 42127,
-		itemId = 45579,
-		name = "Steamed Carrots",
-		profession = 8,
 		level = {
 			mass = 23,
 			single = 18
 		},
 		materials = {
 			{
-				itemId = 32297,
-				amount = 4,
 				clientId = 28865,
-				name = "carrot"
+				amount = 4,
+				name = "carrot",
+				itemId = 32297
 			},
 			{
-				itemId = 45558,
-				amount = 1,
 				clientId = 42106,
-				name = "Basic Seasoning"
+				amount = 1,
+				name = "Basic Seasoning",
+				itemId = 45558
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 375,
+		profession = 8,
 		index = 76,
+		durability = 7,
+		clientId = 42725,
+		tier = -1,
+		itemId = 46177,
+		name = "Blueberry Pie",
+		category = "meals",
+		experience = 2800,
+		formatDescription = "foodquality",
+		description = "Increase Vitality by {30} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 350,
-		progress = 375,
-		category = "meals",
-		experience = 2800,
-		durability = 7,
-		description = "Increase Vitality by {30} for 30 minutes.",
-		tier = -1,
-		clientId = 42725,
-		itemId = 46177,
-		name = "Blueberry Pie",
-		profession = 8,
 		level = {
 			mass = 55,
 			single = 50
 		},
 		materials = {
 			{
-				itemId = 46201,
-				amount = 2,
 				clientId = 42749,
-				name = "Butter"
-			},
-			{
-				itemId = 45570,
 				amount = 2,
-				clientId = 42118,
-				name = "Rich Flour"
+				name = "Butter",
+				itemId = 46201
 			},
 			{
-				itemId = 32257,
-				amount = 10,
+				clientId = 42118,
+				amount = 2,
+				name = "Rich Flour",
+				itemId = 45570
+			},
+			{
 				clientId = 28825,
-				name = "blueberry"
+				amount = 10,
+				name = "blueberry",
+				itemId = 32257
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 375,
+		profession = 8,
 		index = 77,
+		durability = 7,
+		clientId = 42722,
+		tier = -1,
+		itemId = 46174,
+		name = "Boozemelon",
+		category = "drinks",
+		experience = 4640,
+		formatDescription = "foodquality",
+		description = "Increase Mana Regeneration and Health Regeneration by {35} for 20 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 350,
-		progress = 375,
-		category = "drinks",
-		experience = 4640,
-		durability = 7,
-		description = "Increase Mana Regeneration and Health Regeneration by {35} for 20 minutes.",
-		tier = -1,
-		clientId = 42722,
-		itemId = 46174,
-		name = "Boozemelon",
-		profession = 8,
 		level = {
 			mass = 47,
 			single = 42
 		},
 		materials = {
 			{
-				itemId = 32260,
-				amount = 1,
 				clientId = 28828,
-				name = "watermelon"
-			},
-			{
-				itemId = 32307,
 				amount = 1,
-				clientId = 28875,
-				name = "pumpkin"
+				name = "watermelon",
+				itemId = 32260
 			},
 			{
-				itemId = 45559,
-				amount = 2,
+				clientId = 28875,
+				amount = 1,
+				name = "pumpkin",
+				itemId = 32307
+			},
+			{
 				clientId = 42107,
-				name = "Brewer Yeast"
+				amount = 2,
+				name = "Brewer Yeast",
+				itemId = 45559
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 200,
+		profession = 8,
 		index = 78,
+		durability = 7,
+		clientId = 42107,
+		tier = -1,
+		itemId = 45559,
+		name = "Brewer Yeast",
+		category = "ingredient",
+		experience = 470,
+		formatDescription = "foodquality",
+		description = "Used in various recipes. A vital ingredient in the art of brewing.",
 		amount = 5,
 		slotName = "",
 		quality = 150,
-		progress = 200,
-		category = "ingredient",
-		experience = 470,
-		durability = 7,
-		description = "Used in various recipes. A vital ingredient in the art of brewing.",
-		tier = -1,
-		clientId = 42107,
-		itemId = 45559,
-		name = "Brewer Yeast",
-		profession = 8,
 		level = {
 			mass = 25,
 			single = 20
 		},
 		materials = {
 			{
-				itemId = 44284,
-				amount = 5,
 				clientId = 40832,
-				name = "Orange Scales"
+				amount = 5,
+				name = "Orange Scales",
+				itemId = 44284
 			},
 			{
-				itemId = 32313,
-				amount = 3,
 				clientId = 28881,
-				name = "wheat"
+				amount = 3,
+				name = "wheat",
+				itemId = 32313
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 175,
+		profession = 8,
 		index = 79,
+		durability = 6,
+		clientId = 42108,
+		tier = -1,
+		itemId = 45560,
+		name = "Carrot Soup",
+		category = "meals",
+		experience = 1000,
+		formatDescription = "foodquality",
+		description = "Increase Intelligence by {6} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 125,
-		progress = 175,
-		category = "meals",
-		experience = 1000,
-		durability = 6,
-		description = "Increase Intelligence by {6} for 30 minutes.",
-		tier = -1,
-		clientId = 42108,
-		itemId = 45560,
-		name = "Carrot Soup",
-		profession = 8,
 		level = {
 			mass = 23,
 			single = 18
 		},
 		materials = {
 			{
-				itemId = 32297,
-				amount = 5,
 				clientId = 28865,
-				name = "carrot"
+				amount = 5,
+				name = "carrot",
+				itemId = 32297
 			},
 			{
-				itemId = 32306,
-				amount = 3,
 				clientId = 28874,
-				name = "potato"
+				amount = 3,
+				name = "potato",
+				itemId = 32306
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 125,
+		profession = 8,
 		index = 80,
+		durability = 5,
+		clientId = 42103,
+		tier = -1,
+		itemId = 45555,
+		name = "Apple Puree",
+		category = "meals",
+		experience = 2640,
+		formatDescription = "foodquality",
+		description = "Increase Intelligence by {4} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 100,
-		progress = 125,
-		category = "meals",
-		experience = 2640,
-		durability = 5,
-		description = "Increase Intelligence by {4} for 30 minutes.",
-		tier = -1,
-		clientId = 42103,
-		itemId = 45555,
-		name = "Apple Puree",
-		profession = 8,
 		level = {
 			mass = 13,
 			single = 8
 		},
 		materials = {
 			{
-				itemId = 32254,
-				amount = 2,
 				clientId = 28822,
-				name = "apple"
+				amount = 2,
+				name = "apple",
+				itemId = 32254
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 275,
+		profession = 8,
 		index = 81,
+		durability = 7,
+		clientId = 42104,
+		tier = -1,
+		itemId = 45556,
+		name = "Bagel",
+		category = "baked goods",
+		experience = 1920,
+		formatDescription = "foodquality",
+		description = "Increase Healing Power by {12} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 250,
-		progress = 275,
-		category = "baked goods",
-		experience = 1920,
-		durability = 7,
-		description = "Increase Healing Power by {12} for 30 minutes.",
-		tier = -1,
-		clientId = 42104,
-		itemId = 45556,
-		name = "Bagel",
-		profession = 8,
 		level = {
 			mass = 41,
 			single = 36
 		},
 		materials = {
 			{
-				itemId = 36985,
-				amount = 4,
 				clientId = 33553,
-				name = "Ground Flour"
+				amount = 4,
+				name = "Ground Flour",
+				itemId = 36985
 			},
 			{
-				itemId = 32360,
-				amount = 2,
 				clientId = 28928,
-				name = "egg"
+				amount = 2,
+				name = "egg",
+				itemId = 32360
 			},
 			{
-				itemId = 45564,
-				amount = 1,
 				clientId = 42112,
-				name = "Gourmet Seasoning"
+				amount = 1,
+				name = "Gourmet Seasoning",
+				itemId = 45564
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 75,
+		profession = 8,
 		index = 82,
+		durability = 4,
+		clientId = 42105,
+		tier = -1,
+		itemId = 45557,
+		name = "Baked Potatoes",
+		category = "baked goods",
+		experience = 260,
+		formatDescription = "foodquality",
+		description = "Increase Attack Power by {1} for 30 minutes.",
 		amount = 5,
 		slotName = "",
 		quality = 75,
-		progress = 75,
-		category = "baked goods",
-		experience = 260,
-		durability = 4,
-		description = "Increase Attack Power by {1} for 30 minutes.",
-		tier = -1,
-		clientId = 42105,
-		itemId = 45557,
-		name = "Baked Potatoes",
-		profession = 8,
 		level = {
 			mass = 7,
 			single = 2
 		},
 		materials = {
 			{
-				itemId = 32306,
-				amount = 4,
 				clientId = 28874,
-				name = "potato"
+				amount = 4,
+				name = "potato",
+				itemId = 32306
 			}
 		}
 	},
 	{
-		formatDescription = "foodquality",
+		progress = 50,
+		profession = 8,
 		index = 83,
+		durability = 3,
+		clientId = 42106,
+		tier = -1,
+		itemId = 45558,
+		name = "Basic Seasoning",
+		category = "ingredient",
+		experience = 290,
+		formatDescription = "foodquality",
+		description = "Used in various recipes. Essential flavor enhancer for a wide range of dishes.",
 		amount = 5,
 		slotName = "",
 		quality = 50,
-		progress = 50,
-		category = "ingredient",
-		experience = 290,
-		durability = 3,
-		description = "Used in various recipes. Essential flavor enhancer for a wide range of dishes.",
-		tier = -1,
-		clientId = 42106,
-		itemId = 45558,
-		name = "Basic Seasoning",
-		profession = 8,
 		level = {
 			mass = 10,
 			single = 5
 		},
 		materials = {
 			{
-				itemId = 36983,
-				amount = 1,
 				clientId = 33551,
-				name = "salt"
+				amount = 1,
+				name = "salt",
+				itemId = 36983
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 200,
+		profession = 8,
 		index = 84,
+		durability = 7,
+		clientId = 43649,
+		tier = -1,
+		itemId = 47101,
+		name = "Superior Ration",
+		category = "misc",
+		experience = 1280,
+		formatDescription = "",
+		description = "Ration of superior quality frequently used by dedicated moa owners. Increases experience received by the moa by 20%, Speed by 20 and Strength by 8 for the next 5000 steps.",
 		amount = 5,
 		slotName = "",
 		quality = 150,
-		progress = 200,
-		category = "misc",
-		experience = 1280,
-		durability = 7,
-		description = "Ration of superior quality frequently used by dedicated moa owners. Increases experience received by the moa by 20%, Speed by 20 and Strength by 8 for the next 5000 steps.",
-		tier = -1,
-		clientId = 43649,
-		itemId = 47101,
-		name = "Superior Ration",
-		profession = 8,
 		level = {
 			mass = 25,
 			single = 20
 		},
 		materials = {
 			{
-				itemId = 32306,
-				amount = 1,
 				clientId = 28874,
-				name = "potato"
+				amount = 1,
+				name = "potato",
+				itemId = 32306
 			},
 			{
-				itemId = 32364,
-				amount = 1,
 				clientId = 28932,
-				name = "shank"
-			},
-			{
-				itemId = 32297,
-				amount = 2,
-				clientId = 28865,
-				name = "carrot"
-			},
-			{
-				itemId = 41613,
 				amount = 1,
+				name = "shank",
+				itemId = 32364
+			},
+			{
+				clientId = 28865,
+				amount = 2,
+				name = "carrot",
+				itemId = 32297
+			},
+			{
 				clientId = 38161,
-				name = "Moa Ration"
+				amount = 1,
+				name = "Moa Ration",
+				itemId = 41613
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 250,
+		profession = 8,
 		index = 85,
+		durability = 7,
+		clientId = 43645,
+		tier = -1,
+		itemId = 47097,
+		name = "Rustic Ration",
+		category = "misc",
+		experience = 1760,
+		formatDescription = "",
+		description = "Ration of superior quality prepared with fresh farm ingredients. Increases experience received by the moa by 30%, Speed by 30 and Strength by 12 for the next 6000 steps.",
 		amount = 5,
 		slotName = "",
 		quality = 225,
-		progress = 250,
-		category = "misc",
-		experience = 1760,
-		durability = 7,
-		description = "Ration of superior quality prepared with fresh farm ingredients. Increases experience received by the moa by 30%, Speed by 30 and Strength by 12 for the next 6000 steps.",
-		tier = -1,
-		clientId = 43645,
-		itemId = 47097,
-		name = "Rustic Ration",
-		profession = 8,
 		level = {
 			mass = 40,
 			single = 35
 		},
 		materials = {
 			{
-				itemId = 32297,
-				amount = 3,
 				clientId = 28865,
-				name = "carrot"
+				amount = 3,
+				name = "carrot",
+				itemId = 32297
 			},
 			{
-				itemId = 32364,
-				amount = 1,
 				clientId = 28932,
-				name = "shank"
+				amount = 1,
+				name = "shank",
+				itemId = 32364
 			},
 			{
-				itemId = 32296,
-				amount = 1,
 				clientId = 28864,
-				name = "cabbage"
+				amount = 1,
+				name = "cabbage",
+				itemId = 32296
 			},
 			{
-				itemId = 47101,
-				amount = 1,
 				clientId = 43649,
-				name = "Superior Ration"
+				amount = 1,
+				name = "Superior Ration",
+				itemId = 47101
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 375,
+		profession = 8,
 		index = 86,
+		durability = 7,
+		clientId = 43640,
+		tier = -1,
+		itemId = 47092,
+		name = "Gourmet Ration",
+		category = "misc",
+		experience = 2640,
+		formatDescription = "",
+		description = "Masterfully prepared moa ration, heavy in nutrients and vitamins.  Increases experience received by the moa by 40%, Speed by 40 and Strength by 16 for the next 7500 steps.",
 		amount = 5,
 		slotName = "",
 		quality = 350,
-		progress = 375,
-		category = "misc",
-		experience = 2640,
-		durability = 7,
-		description = "Masterfully prepared moa ration, heavy in nutrients and vitamins.  Increases experience received by the moa by 40%, Speed by 40 and Strength by 16 for the next 7500 steps.",
-		tier = -1,
-		clientId = 43640,
-		itemId = 47092,
-		name = "Gourmet Ration",
-		profession = 8,
 		level = {
 			mass = 55,
 			single = 50
 		},
 		materials = {
 			{
-				itemId = 32297,
-				amount = 1,
 				clientId = 28865,
-				name = "carrot"
+				amount = 1,
+				name = "carrot",
+				itemId = 32297
 			},
 			{
-				itemId = 32364,
-				amount = 1,
 				clientId = 28932,
-				name = "shank"
+				amount = 1,
+				name = "shank",
+				itemId = 32364
 			},
 			{
-				itemId = 32307,
-				amount = 1,
 				clientId = 28875,
-				name = "pumpkin"
+				amount = 1,
+				name = "pumpkin",
+				itemId = 32307
 			},
 			{
-				itemId = 47097,
-				amount = 1,
 				clientId = 43645,
-				name = "Rustic Ration"
+				amount = 1,
+				name = "Rustic Ration",
+				itemId = 47097
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 500,
+		profession = 8,
 		index = 87,
+		durability = 8,
+		clientId = 43646,
+		tier = -1,
+		itemId = 47098,
+		name = "Seafood Extravaganza",
+		category = "misc",
+		experience = 3500,
+		formatDescription = "",
+		description = "Masterfully prepared moa ration with carefully selected seafood treats.  Increases experience received by the moa by 50%, Speed by 50 and Strength by 20 for the next 10000 steps.",
 		amount = 5,
 		slotName = "",
 		quality = 500,
-		progress = 500,
-		category = "misc",
-		experience = 3500,
-		durability = 8,
-		description = "Masterfully prepared moa ration with carefully selected seafood treats.  Increases experience received by the moa by 50%, Speed by 50 and Strength by 20 for the next 10000 steps.",
-		tier = -1,
-		clientId = 43646,
-		itemId = 47098,
-		name = "Seafood Extravaganza",
-		profession = 8,
 		level = {
 			mass = 65,
 			single = 60
 		},
 		materials = {
 			{
-				itemId = 32296,
-				amount = 2,
 				clientId = 28864,
-				name = "cabbage"
+				amount = 2,
+				name = "cabbage",
+				itemId = 32296
 			},
 			{
-				itemId = 44280,
-				amount = 5,
 				clientId = 40828,
-				name = "Fish Oil"
-			},
-			{
-				itemId = 32303,
 				amount = 5,
-				clientId = 28871,
-				name = "pea"
+				name = "Fish Oil",
+				itemId = 44280
 			},
 			{
-				itemId = 47092,
-				amount = 1,
+				clientId = 28871,
+				amount = 5,
+				name = "pea",
+				itemId = 32303
+			},
+			{
 				clientId = 43640,
-				name = "Gourmet Ration"
+				amount = 1,
+				name = "Gourmet Ration",
+				itemId = 47092
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 550,
+		profession = 8,
 		index = 88,
+		durability = 9,
+		clientId = 43642,
+		tier = -1,
+		itemId = 47094,
+		name = "Uncanny Ration",
+		category = "misc",
+		experience = 4540,
+		formatDescription = "",
+		description = "A questionable recipe capable of putting moas in a strange frenzied state. Increases experience received by the moa by 60%, Speed by 60 and Strength by 24 for the next 15000 steps.",
 		amount = 5,
 		slotName = "",
 		quality = 550,
-		progress = 550,
-		category = "misc",
-		experience = 4540,
-		durability = 9,
-		description = "A questionable recipe capable of putting moas in a strange frenzied state. Increases experience received by the moa by 60%, Speed by 60 and Strength by 24 for the next 15000 steps.",
-		tier = -1,
-		clientId = 43642,
-		itemId = 47094,
-		name = "Uncanny Ration",
-		profession = 8,
 		level = {
 			mass = 75,
 			single = 70
 		},
 		materials = {
 			{
-				itemId = 32296,
-				amount = 2,
 				clientId = 28864,
-				name = "cabbage"
+				amount = 2,
+				name = "cabbage",
+				itemId = 32296
 			},
 			{
-				itemId = 44280,
-				amount = 5,
 				clientId = 40828,
-				name = "Fish Oil"
+				amount = 5,
+				name = "Fish Oil",
+				itemId = 44280
 			},
 			{
-				itemId = 32295,
-				amount = 4,
 				clientId = 28863,
-				name = "brocolli"
+				amount = 4,
+				name = "brocolli",
+				itemId = 32295
 			},
 			{
-				itemId = 47098,
-				amount = 1,
 				clientId = 43646,
-				name = "Seafood Extravaganza"
+				amount = 1,
+				name = "Seafood Extravaganza",
+				itemId = 47098
 			}
 		}
 	},
 	{
-		formatDescription = "",
+		progress = 650,
+		profession = 8,
 		index = 89,
+		durability = 10,
+		clientId = 43643,
+		tier = -1,
+		itemId = 47095,
+		name = "Moa's Delight",
+		category = "misc",
+		experience = 5700,
+		formatDescription = "",
+		description = "A true delicacy made with exotic seasoning loved by all moas.  Increases experience received by the moa by 75%, Speed by 75 and Strength by 30 for the next 25000 steps.",
 		amount = 5,
 		slotName = "",
 		quality = 650,
-		progress = 650,
-		category = "misc",
-		experience = 5700,
-		durability = 10,
-		description = "A true delicacy made with exotic seasoning loved by all moas.  Increases experience received by the moa by 75%, Speed by 75 and Strength by 30 for the next 25000 steps.",
-		tier = -1,
-		clientId = 43643,
-		itemId = 47095,
-		name = "Moa's Delight",
-		profession = 8,
 		level = {
 			mass = 80,
 			single = 75
 		},
 		materials = {
 			{
-				itemId = 32307,
-				amount = 2,
 				clientId = 28875,
-				name = "pumpkin"
+				amount = 2,
+				name = "pumpkin",
+				itemId = 32307
 			},
 			{
-				itemId = 44280,
-				amount = 5,
 				clientId = 40828,
-				name = "Fish Oil"
+				amount = 5,
+				name = "Fish Oil",
+				itemId = 44280
 			},
 			{
-				itemId = 32304,
-				amount = 3,
 				clientId = 28872,
-				name = "pepper"
+				amount = 3,
+				name = "pepper",
+				itemId = 32304
 			},
 			{
-				itemId = 47094,
-				amount = 1,
 				clientId = 43642,
-				name = "Uncanny Ration"
+				amount = 1,
+				name = "Uncanny Ration",
+				itemId = 47094
 			}
 		}
 	}

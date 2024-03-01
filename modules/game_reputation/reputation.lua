@@ -1,8 +1,9 @@
 ﻿-- chunkname: @/modules/game_reputation/reputation.lua
 
 GameReputation = GameReputation or {
+	totalPoints = 0,
 	availablePoints = 0,
-	totalPoints = 0
+	lastResetPointRequest = 0
 }
 
 function GameReputation:loadConfig()
@@ -232,41 +233,15 @@ function GameReputation:onPassiveNodeClicked(widget)
 end
 
 function GameReputation:onResetPointsClicked()
-	if self.confirmationBox then
-		self.confirmationBox:destroy()
-
-		self.confirmationBox = nil
+	if g_clock.millis() - self.lastResetPointRequest < 1000 then
+		return
 	end
 
-	local resetButton = self.window.contentPanel.resetPointsButton
-	local ravenCoinsCost = cfg.resetCost.ravencoins * math.ceil((self.totalPoints - self.availablePoints) / cfg.resetCost.points)
+	self.lastResetPointRequest = g_clock.millis()
 
-	local function yesCallback()
-		self:sendExtendedOpcode({
-			action = "reset_points"
-		})
-		self.confirmationBox:destroy()
-
-		self.confirmationBox = nil
-	end
-
-	local function noCallback()
-		self.confirmationBox:destroy()
-
-		self.confirmationBox = nil
-	end
-
-	self.confirmationBox = displayGeneralBox(tr("Confirm reset"), string.format("You are about to reset your reputation passives. This will cost you %s RavenCoins.\nDo you want to continue?", ravenCoinsCost), {
-		{
-			text = tr("Yes"),
-			callback = yesCallback
-		},
-		{
-			text = tr("No"),
-			callback = noCallback
-		},
-		anchor = AnchorHorizontalCenter
-	}, yesCallback, noCallback, nil, self.window:getParent())
+	self:sendExtendedOpcode({
+		action = "reset_points"
+	})
 end
 
 function GameReputation:updateResetPointsButtonAmount()
@@ -274,7 +249,7 @@ function GameReputation:updateResetPointsButtonAmount()
 	local availablePoints = self.availablePoints
 	local resetButton = self.window.contentPanel.resetPointsButton
 	local spentPoints = totalPoints - availablePoints
-	local ravenCoinsCost = cfg.resetCost.ravencoins * math.ceil(spentPoints / cfg.resetCost.points)
+	local ravenCoinsCost = cfg.resetCost.dawnEssence * math.ceil(spentPoints / cfg.resetCost.points)
 
 	resetButton:setText(ravenCoinsCost)
 	resetButton:setEnabled(ravenCoinsCost > 0)

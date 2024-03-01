@@ -1,10 +1,12 @@
 ﻿-- chunkname: @/modules/client_entergame/entergame.lua
 
-EnterGame = {}
+EnterGame = {
+	tunnelingServiceEnabled = true
+}
 
 local window, logo, loginButton, regionsPanel, loadingRegionsPanel, loadBox, motdWindow, protocolLogin
 local motdEnabled = true
-local infoMessage, accountNameTextEdit, accountPasswordTextEdit, authTokenTextEdit, currentLoginService, rememberPasswordBox, _onRefreshWorldsList, localePanel, localeSelectConfirmBox
+local infoMessage, accountNameTextEdit, accountPasswordTextEdit, authTokenTextEdit, currentLoginService, rememberPasswordBox, _onRefreshWorldsList, localePanel, tunnelingServicePanel, localeSelectConfirmBox
 local WorldsShortName = {
 	["South America"] = "SA",
 	Europe = "EU",
@@ -227,6 +229,10 @@ function EnterGame.init()
 			end
 		end
 	})
+
+	tunnelingServicePanel = window:recursiveGetChildById("tunneling_service_panel")
+
+	tunnelingServicePanel.checkbox:setChecked(g_settings.getBoolean("tunnelingServiceEnabled", true))
 	window:show()
 	EnterGame.setDefault()
 end
@@ -556,10 +562,10 @@ end
 
 function EnterGame.setLoginRegion(widget, region)
 	local ips = {
-		europe = "3.250.128.128",
 		usa = "44.234.32.107",
-		brazil = "18.230.198.212",
-		sea = "18.141.143.79"
+		europe = "3.250.128.128",
+		sea = "18.141.143.79",
+		brazil = "18.230.198.212"
 	}
 
 	APP_LOGIN_IP_ADDRESS = ips[region] or APP_LOGIN_IP_ADDRESS
@@ -714,4 +720,10 @@ function EnterGame.toggleLanguageSelect()
 			end
 		end
 	end
+end
+
+function EnterGame.setTunnelingServiceEnabled(enabled)
+	EnterGame.tunnelingServiceEnabled = enabled
+
+	g_settings.set("tunnelingServiceEnabled", enabled)
 end

@@ -2246,8 +2246,8 @@ function GameHouse:checkLandPlotTileDescriptionClick(tile, mousePosition)
 
 	if isCommunityHouse then
 		GameHouse:sendOpcode({
-			isCommunityHouse = true,
 			action = "house_claim_land",
+			isCommunityHouse = true,
 			landPos = {
 				x = centerTile:getPosition().x,
 				y = centerTile:getPosition().y,

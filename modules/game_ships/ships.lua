@@ -202,8 +202,8 @@ function g_ships.createWindIcon(windDirection)
 	})
 	widget:setImageRect({
 		y = -32,
-		width = 32,
 		x = 0,
+		width = 32,
 		height = 32
 	})
 

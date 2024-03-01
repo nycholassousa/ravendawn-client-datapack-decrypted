@@ -54,8 +54,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 
 		local config = {
 			{
-				title = "Gathering",
 				text = "You can gather to collect material.",
+				title = "Gathering",
 				info = {
 					{
 						text = "Material to collect: ",
@@ -67,8 +67,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.gathering
 			},
 			{
-				title = "Butchering",
 				text = "You can butcher to collect material.",
+				title = "Butchering",
 				info = {
 					{
 						text = "Material to collect: ",
@@ -80,8 +80,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.butchering
 			},
 			{
-				title = "Affection",
 				text = "You can interact to increase the fertilizer drop rate.",
+				title = "Affection",
 				info = {
 					{
 						text = "Current affection bonus: ",
@@ -107,8 +107,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.feeding
 			},
 			{
-				title = "Fertilizer",
 				text = "You can fertilize to increase the collected material.",
+				title = "Fertilizer",
 				info = {
 					{
 						text = "Current fertilize bonus: ",
@@ -120,8 +120,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.fertilizer
 			},
 			{
-				title = "Watering",
 				text = "You can water to increase the four leaf clover drop rate.",
+				title = "Watering",
 				info = {
 					{
 						text = "Current water bonus: ",
@@ -133,8 +133,8 @@ function onExtendedOpcode(protocol, opcode, buffer)
 				data = data.options.watering
 			},
 			{
-				title = "Pruning",
 				text = "You can prune to increase the dense log drop rate.",
+				title = "Pruning",
 				info = {
 					{
 						text = "Current pruning bonus: ",
@@ -389,8 +389,8 @@ end
 
 function sendCancelCraft()
 	sendCraftingOpcode({
-		subaction = "cancel",
-		action = "craft"
+		action = "craft",
+		subaction = "cancel"
 	})
 end
 

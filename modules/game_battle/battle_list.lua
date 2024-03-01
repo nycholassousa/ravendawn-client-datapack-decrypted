@@ -1,8 +1,8 @@
 ﻿-- chunkname: @/modules/game_battle/battle_list.lua
 
 BattleList = {
-	playerFilter = 0,
 	monsterFilter = 0,
+	playerFilter = 0,
 	sortingOrder = 1,
 	sortingType = 1,
 	updateInterval = 500,
@@ -13,8 +13,8 @@ BattleList = {
 	activeFilters = {},
 	states = {
 		attacking = 1,
-		healing = 2,
-		none = 0
+		none = 0,
+		healing = 2
 	},
 	filtersCategories = {
 		"Players",
@@ -22,65 +22,65 @@ BattleList = {
 	},
 	sortingCategories = {
 		{
-			sortType = 1,
-			name = "Health"
+			name = "Health",
+			sortType = 1
 		},
 		{
-			sortType = 2,
-			name = "Level"
+			name = "Level",
+			sortType = 2
 		},
 		{
-			sortType = 3,
-			name = "Name"
+			name = "Name",
+			sortType = 3
 		},
 		{
-			sortType = 4,
-			name = "Distance"
+			name = "Distance",
+			sortType = 4
 		}
 	},
 	filtersForCategory = {
 		players = {
 			{
-				filterId = 2,
-				name = "Party Members"
+				name = "Party Members",
+				filterId = 2
 			},
 			{
-				filterId = 4,
-				name = "Player with Tradepack"
+				name = "Player with Tradepack",
+				filterId = 4
 			},
 			{
-				filterId = 8,
-				name = "Player with Wagon"
+				name = "Player with Wagon",
+				filterId = 8
 			},
 			{
-				filterId = 16,
-				name = "Player with PK"
+				name = "Player with PK",
+				filterId = 16
 			},
 			{
-				filterId = 32,
-				name = "Other Players"
+				name = "Other Players",
+				filterId = 32
 			}
 		},
 		monsters = {
 			{
-				filterId = 2,
-				name = "Bosses"
+				name = "Bosses",
+				filterId = 2
 			},
 			{
-				filterId = 4,
-				name = "Non-Bosses"
+				name = "Non-Bosses",
+				filterId = 4
 			}
 		}
 	},
 	SORTING_TYPE = {
+		DISTANCE = 4,
 		NAME = 3,
 		LEVEL = 2,
-		HEALTH = 1,
-		DISTANCE = 4
+		HEALTH = 1
 	},
 	SORTING_ORDER = {
-		DESCENDING = 2,
-		ASCENDING = 1
+		ASCENDING = 1,
+		DESCENDING = 2
 	},
 	FILTERS = {
 		PLAYERS = {
@@ -92,8 +92,8 @@ BattleList = {
 			GUILD_MEMBERS = 1
 		},
 		MONSTERS = {
-			BOSSES = 2,
-			NON_BOSSES = 4
+			NON_BOSSES = 4,
+			BOSSES = 2
 		}
 	}
 }
@@ -129,7 +129,9 @@ function BattleList:init()
 		onGameEnd = self.onGameEnd,
 		onGameStart = self.onGameStart,
 		onAttackingCreatureChange = self.onAttackingCreatureChange,
-		onHealingCreatureChange = self.onHealingCreatureChange
+		onHealingCreatureChange = self.onHealingCreatureChange,
+		onPartyAddMember = self.onPartyAddMember,
+		onPartyRemoveMember = self.onPartyRemoveMember
 	})
 
 	local playersAllFlags = 0
@@ -164,7 +166,11 @@ function BattleList:terminate()
 	})
 	disconnect(g_game, {
 		onGameEnd = self.onGameEnd,
-		onGameStart = self.onGameStart
+		onGameStart = self.onGameStart,
+		onAttackingCreatureChange = self.onAttackingCreatureChange,
+		onHealingCreatureChange = self.onHealingCreatureChange,
+		onPartyAddMember = self.onPartyAddMember,
+		onPartyRemoveMember = self.onPartyRemoveMember
 	})
 	disconnect(Creature, {
 		onAppear = self.onAppear,
@@ -183,6 +189,36 @@ function BattleList:terminate()
 	end
 
 	self.window:destroy()
+end
+
+function BattleList.onPartyAddMember(name, isOnline, healthPercent, manaPercent, position, channelId, outfit, temporaryOutfit)
+	if name == g_game.getLocalPlayer():getName() or not isOnline then
+		return
+	end
+
+	for _, widget in pairs(BattleList.widgetsByCreatureId) do
+		if widget.name == name then
+			widget.healthBar.mana:show()
+			widget.healthBar.health:setOn(false)
+
+			widget.healthBar.party = true
+
+			BattleList:updateHealthBarBackground(widget)
+		end
+	end
+end
+
+function BattleList.onPartyRemoveMember(name)
+	for _, widget in pairs(BattleList.widgetsByCreatureId) do
+		if widget.name == name then
+			widget.healthBar.mana:hide()
+			widget.healthBar.health:setOn(true)
+
+			widget.healthBar.party = false
+
+			BattleList:updateHealthBarBackground(widget)
+		end
+	end
 end
 
 function BattleList.onCreatureHealthPercentChange(creature)
@@ -328,6 +364,11 @@ end
 
 function BattleList.updateCreatureAvailability(creature)
 	local widget = BattleList.widgetsByCreatureId[creature:getId()]
+
+	if not widget then
+		return false
+	end
+
 	local available = BattleList.isCreatureAvailableForBeingDisplayed(creature)
 
 	if available and widget.hidden then
@@ -1058,7 +1099,7 @@ function BattleList:doTargetAction(widget, attack)
 	if attack then
 		local currentAttacking = g_game.getAttackingCreature()
 
-		if currentAttacking and currentAttacking:getId() == craetureId then
+		if currentAttacking and currentAttacking:getId() == creatureId then
 			g_game.cancelAttack()
 
 			return
@@ -1143,11 +1184,7 @@ function BattleList:updateHealthBarBackground(widget)
 		else
 			widget.healthBar:setImageSource("/images/ui/windows/battle/creature_background_hp_mp")
 		end
-
-		return
-	end
-
-	if widget.healthBar.attacking then
+	elseif widget.healthBar.attacking then
 		widget.healthBar:setImageSource("/images/ui/windows/battle/creature_background_hp_attack")
 	elseif widget.healthBar.healing then
 		widget.healthBar:setImageSource("/images/ui/windows/battle/creature_background_hp_heal")

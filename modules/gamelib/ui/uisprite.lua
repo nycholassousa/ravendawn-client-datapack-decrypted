@@ -6,12 +6,12 @@ function UISprite.create()
 	local widget = UISprite.internalCreate()
 
 	widget.anim = {
-		count = 0,
 		speed = 0,
 		prefix = "",
+		currentIndex = 0,
 		defaultIndex = 1,
 		startIndex = 1,
-		currentIndex = 0,
+		count = 0,
 		path = ""
 	}
 	widget.event = nil

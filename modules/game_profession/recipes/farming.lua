@@ -3,11 +3,11 @@
 recipes = recipes or {}
 recipes[ProfessionFarming] = {
 	{
-		experience = 200,
 		skillRequired = 1,
 		id = 25131,
-		growingTime = 3600,
 		name = "Potatoes",
+		growingTime = 3600,
+		experience = 200,
 		items = {
 			{
 				id = 28874,
@@ -28,11 +28,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 3600,
 		skillRequired = 1,
 		id = 34249,
-		growingTime = 16200,
 		name = "Cotton Tree",
+		growingTime = 16200,
+		experience = 3600,
 		items = {
 			{
 				id = 28879,
@@ -53,11 +53,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 3000,
 		skillRequired = 3,
 		id = 25130,
-		growingTime = 54000,
 		name = "Corn",
+		growingTime = 54000,
+		experience = 3000,
 		items = {
 			{
 				id = 28866,
@@ -78,11 +78,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 1200,
 		skillRequired = 5,
 		id = 30284,
-		growingTime = 21600,
 		name = "Wheat",
+		growingTime = 21600,
+		experience = 1200,
 		items = {
 			{
 				id = 28881,
@@ -103,11 +103,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 6000,
 		skillRequired = 7,
 		id = 34246,
-		growingTime = 27000,
 		name = "Apple Tree",
+		growingTime = 27000,
+		experience = 6000,
 		items = {
 			{
 				id = 28822,
@@ -128,11 +128,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 400,
 		skillRequired = 10,
 		id = 25133,
-		growingTime = 7200,
 		name = "Carrots",
+		growingTime = 7200,
+		experience = 400,
 		items = {
 			{
 				id = 28865,
@@ -153,11 +153,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 1200,
 		skillRequired = 15,
 		id = 30255,
-		growingTime = 21600,
 		name = "Grapes",
+		growingTime = 21600,
+		experience = 1200,
 		items = {
 			{
 				id = 28831,
@@ -178,11 +178,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 1200,
 		skillRequired = 17,
 		id = 30246,
-		growingTime = 21600,
 		name = "Blueberries",
+		growingTime = 21600,
+		experience = 1200,
 		items = {
 			{
 				id = 28825,
@@ -203,11 +203,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 1200,
 		skillRequired = 20,
 		id = 30225,
-		growingTime = 21600,
 		name = "Cabbages",
+		growingTime = 21600,
+		experience = 1200,
 		items = {
 			{
 				id = 28864,
@@ -228,11 +228,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 5700,
 		skillRequired = 21,
 		id = 25129,
-		growingTime = 102600,
 		name = "Peppers",
+		growingTime = 102600,
+		experience = 5700,
 		items = {
 			{
 				id = 28872,
@@ -253,11 +253,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 16800,
 		skillRequired = 21,
 		id = 34248,
-		growingTime = 75600,
 		name = "Cherries",
+		growingTime = 75600,
+		experience = 16800,
 		items = {
 			{
 				id = 28830,
@@ -278,11 +278,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 12000,
 		skillRequired = 22,
 		id = 34250,
-		growingTime = 54000,
 		name = "Orange Tree",
+		growingTime = 54000,
+		experience = 12000,
 		items = {
 			{
 				id = 28832,
@@ -303,11 +303,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 1800,
 		skillRequired = 25,
 		id = 25128,
-		growingTime = 32400,
 		name = "Onions",
+		growingTime = 32400,
+		experience = 1800,
 		items = {
 			{
 				id = 28870,
@@ -328,11 +328,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 1500,
 		skillRequired = 27,
 		id = 30261,
-		growingTime = 27000,
 		name = "Strawberries",
+		growingTime = 27000,
+		experience = 1500,
 		items = {
 			{
 				id = 28827,
@@ -353,11 +353,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 3000,
 		skillRequired = 30,
 		id = 30219,
-		growingTime = 54000,
 		name = "Beans",
+		growingTime = 54000,
+		experience = 3000,
 		items = {
 			{
 				id = 28878,
@@ -378,11 +378,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 19200,
 		skillRequired = 32,
 		id = 34247,
-		growingTime = 86400,
 		name = "Banana Tree",
+		growingTime = 86400,
+		experience = 19200,
 		items = {
 			{
 				id = 28823,
@@ -403,11 +403,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 4800,
 		skillRequired = 35,
 		id = 30234,
-		growingTime = 86400,
 		name = "Pumpkin",
+		growingTime = 86400,
+		experience = 4800,
 		items = {
 			{
 				id = 28875,
@@ -428,11 +428,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 6000,
 		skillRequired = 37,
 		id = 30267,
-		growingTime = 108000,
 		name = "Watermelon",
+		growingTime = 108000,
+		experience = 6000,
 		items = {
 			{
 				id = 28828,
@@ -453,11 +453,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 3900,
 		skillRequired = 40,
 		id = 30231,
-		growingTime = 70200,
 		name = "Peas",
+		growingTime = 70200,
+		experience = 3900,
 		items = {
 			{
 				id = 28871,
@@ -478,11 +478,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 4200,
 		skillRequired = 42,
 		id = 30281,
-		growingTime = 75600,
 		name = "Moonberry",
+		growingTime = 75600,
+		experience = 4200,
 		items = {
 			{
 				id = 28826,
@@ -503,11 +503,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 3300,
 		skillRequired = 45,
 		id = 30228,
-		growingTime = 59400,
 		name = "Garlic",
+		growingTime = 59400,
+		experience = 3300,
 		items = {
 			{
 				id = 28869,
@@ -528,11 +528,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 38400,
 		skillRequired = 47,
 		id = 34245,
-		growingTime = 172800,
 		name = "Acorn Tree",
+		growingTime = 172800,
+		experience = 38400,
 		items = {
 			{
 				id = 28829,
@@ -553,11 +553,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 3000,
 		skillRequired = 50,
 		id = 30222,
-		growingTime = 54000,
 		name = "Brocolli",
+		growingTime = 54000,
+		experience = 3000,
 		items = {
 			{
 				id = 28863,
@@ -578,11 +578,11 @@ recipes[ProfessionFarming] = {
 		}
 	},
 	{
-		experience = 6000,
 		skillRequired = 52,
 		id = 30264,
-		growingTime = 108000,
 		name = "Sunberries",
+		growingTime = 108000,
+		experience = 6000,
 		items = {
 			{
 				id = 28824,

@@ -77,8 +77,8 @@ function PortWarehouse:onOpen(data)
 
 			if item and droppedWidget then
 				GameNpc:sendOpcode({
-					option = "warehouse_switch_index",
 					action = "dialogue",
+					option = "warehouse_switch_index",
 					dialogueId = GameNpc.dialogueId,
 					npcName = GameNpc.npcName,
 					pack = {
@@ -95,8 +95,8 @@ function PortWarehouse:onOpen(data)
 
 		function widget.onClick()
 			GameNpc:sendOpcode({
-				option = "warehouse_deposit",
 				action = "dialogue",
+				option = "warehouse_deposit",
 				dialogueId = GameNpc.dialogueId,
 				npcName = GameNpc.npcName,
 				pack = {
@@ -117,8 +117,8 @@ function PortWarehouse:onOpen(data)
 
 			if item and droppedWidget then
 				GameNpc:sendOpcode({
-					option = "warehouse_switch_index",
 					action = "dialogue",
+					option = "warehouse_switch_index",
 					dialogueId = GameNpc.dialogueId,
 					npcName = GameNpc.npcName,
 					pack = {
@@ -135,8 +135,8 @@ function PortWarehouse:onOpen(data)
 
 		function widget.onClick()
 			GameNpc:sendOpcode({
-				option = "warehouse_withdraw",
 				action = "dialogue",
+				option = "warehouse_withdraw",
 				dialogueId = GameNpc.dialogueId,
 				npcName = GameNpc.npcName,
 				pack = {

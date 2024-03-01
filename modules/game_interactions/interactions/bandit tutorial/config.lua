@@ -45,9 +45,9 @@ tasks = {
 
 				if not tutorialWindow:isVisible() then
 					GameInteractions:displayActionBox({
+						bandit = true,
 						preferSide = "top",
 						text = "Just click right here...",
-						bandit = true,
 						keys = {
 							MouseLeftButton
 						},
@@ -82,8 +82,8 @@ tasks = {
 				end
 
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "And you will see a list of all subjects we haven't talked about yet!"
@@ -125,9 +125,9 @@ tasks = {
 				local parentWidget = tutorialWindow.content:getFirstChild().start_button
 
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "top",
 					text = "Now click right here to select the unstarted topic",
-					bandit = true,
 					parent = parentWidget,
 					keys = {
 						MouseLeftButton

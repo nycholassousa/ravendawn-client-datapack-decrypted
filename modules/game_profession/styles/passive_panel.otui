@@ -340,7 +340,7 @@ GameProfessionTree < Panel
       @onSetup: |
         self.icon:setChecked(true)
         self:onStyleApply(self:getStyleName(), {
-            ['&iconPath'] = '/images/ui/windows/premium_store/icon_purchase_ravencoins',
+            ['&iconPath'] = '/images/ui/windows/premium_store/icon_purchase_dawn_essence',
             ['&iconAlign'] = 'left',
             ['&iconOffset'] = '20 0',
             ['&textMarginLeft'] = '45',

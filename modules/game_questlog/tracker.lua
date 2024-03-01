@@ -180,9 +180,9 @@ function parseQuestTrackerData(data)
 		quest.tasks = quest.tasks or {
 			{
 				state = 1,
-				compassUnlocked = false,
 				taskId = 1,
 				north_star = true,
+				compassUnlocked = false,
 				name = quest.name,
 				finished = quest.finished
 			}

@@ -1,6 +1,7 @@
 ﻿-- chunkname: @/modules/game_profession/professions.lua
 
 GameProfessions = {
+	lastResetPointRequest = 0,
 	quest = false,
 	crafting_window = {
 		amountToCraft = 1,
@@ -765,10 +766,13 @@ function GameProfessions:populatePassiveTree(professionId, data, professionLevel
 
 				if node.text then
 					node.text:setText(string.format("0 / %i", table.find({
-						5,
-						6
+						"specialization",
+						"unique"
 					}, columnId) and 1 or i % 2 == 0 and 1 or 2))
 				end
+
+				self.buttons[professionName].specializationPicked = nil
+				self.buttons[professionName].specialization[i] = nil
 			end
 		end
 	end
@@ -1346,45 +1350,20 @@ function GameProfessions:onSearchEditChange(text)
 end
 
 function GameProfessions:onResetPointsClicked(professionId)
-	if self.confirmationBox then
-		self.confirmationBox:destroy()
-
-		self.confirmationBox = nil
+	if g_clock.millis() - self.lastResetPointRequest < 1000 then
+		return
 	end
 
-	local resetButton = self.attached_panels[ProfessionNames[professionId]:lower()].reset_points_panel.reset_points_button
+	self.lastResetPointRequest = g_clock.millis()
 
-	local function yesCallback()
-		self:sendOpcode({
-			action = "reset_passives",
-			professionId = professionId
-		})
-		self.confirmationBox:destroy()
-
-		self.confirmationBox = nil
-	end
-
-	local function noCallback()
-		self.confirmationBox:destroy()
-
-		self.confirmationBox = nil
-	end
-
-	self.confirmationBox = displayGeneralBox(tr("Confirm reset"), string.format("You are about to reset your %s profession passives. This will cost you %s RavenCoins.\nDo you want to continue?", ProfessionNames[professionId], resetButton.cost), {
-		{
-			text = tr("Yes"),
-			callback = yesCallback
-		},
-		{
-			text = tr("No"),
-			callback = noCallback
-		},
-		anchor = AnchorHorizontalCenter
-	}, yesCallback, noCallback, nil, self.window:getParent())
+	self:sendOpcode({
+		action = "reset_passives",
+		professionId = professionId
+	})
 end
 
 function GameProfessions:updateResetPointsButtonAmount(professionId, totalPointsSpent)
-	local cost = totalPointsSpent * cfg.resetCost.ravencoinsPerPoint
+	local cost = totalPointsSpent * cfg.resetCost.dawnEssencePerPoint
 	local passivesPanel = self.attached_panels[ProfessionNames[professionId]:lower()]
 	local resetButton = passivesPanel.reset_points_panel.reset_points_button
 

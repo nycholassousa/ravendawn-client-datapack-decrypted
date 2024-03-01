@@ -4,9 +4,7 @@ local protocol = runinsandbox("abilitybarprotocol")
 local assetPrefix = "/images/ui/icons/abilitybar/"
 local lastHotkeyPress = 0
 local editingSlot, spellBatchEvent
-local holdKeyAbilities = {
-	106
-}
+local holdKeyAbilities = {}
 local holdKeyEvents = {}
 local excludeGlobalCooldownAbilities = {
 	[56] = true,
@@ -22,6 +20,7 @@ local excludeGlobalCooldownAbilities = {
 	[85] = true,
 	[35] = true,
 	[60] = true,
+	[106] = true,
 	[91] = true,
 	[114] = true,
 	[105] = true,
@@ -29,6 +28,7 @@ local excludeGlobalCooldownAbilities = {
 }
 local freeRecastAbilities = {
 	[59] = true,
+	[106] = true,
 	[66] = true,
 	[76] = true,
 	[50] = true,
@@ -36,12 +36,12 @@ local freeRecastAbilities = {
 }
 
 AbilityBar = {
-	mountKeysIndex = 7,
-	spellBatchTime = 500,
 	numSlots = 36,
 	numSlotsPerBar = 6,
 	mountSkillKey = "Ctrl+R",
 	weaponSkillKey = "R",
+	mountKeysIndex = 7,
+	spellBatchTime = 500,
 	spellCharges = {},
 	customGlobalCooldownAbilities = {},
 	bars = {},
@@ -335,149 +335,149 @@ AbilityBar = {
 			[50000] = "Basic Reel"
 		},
 		[1822] = {
-			description = "",
 			name = "Basic Water Pumps",
-			id = 93
+			id = 93,
+			description = ""
 		},
 		[1823] = {
-			description = "",
 			name = "Efficient Water Pumps",
-			id = 94
+			id = 94,
+			description = ""
 		},
 		[1824] = {
-			description = "",
 			name = "Advanced Water Pumps",
-			id = 95
+			id = 95,
+			description = ""
 		},
 		[5805] = {
-			description = "",
 			name = "Superior Water Pumps",
-			id = 117
+			id = 117,
+			description = ""
 		},
 		[5806] = {
-			description = "",
 			name = "Royal Water Pumps",
-			id = 118
+			id = 118,
+			description = ""
 		},
 		[2848] = {
-			description = "",
 			name = "Small Siege Cannon",
-			id = 92
+			id = 92,
+			description = ""
 		},
 		[5781] = {
-			description = "",
 			name = "Small Shrapnel Cannon",
-			id = 139
+			id = 139,
+			description = ""
 		},
 		[5780] = {
-			description = "",
 			name = "Small Hullbreaker Cannon",
-			id = 115
+			id = 115,
+			description = ""
 		},
 		[5477] = {
-			description = "",
 			name = "Small Drake Head",
-			id = 116
+			id = 116,
+			description = ""
 		},
 		[5782] = {
-			description = "",
 			name = "Small Mortar Cannon",
-			id = 138
+			id = 138,
+			description = ""
 		},
 		[5483] = {
-			description = "",
 			name = "Small Broadside Artillery",
-			id = 129
+			id = 129,
+			description = ""
 		},
 		[5815] = {
-			description = "",
 			name = "Medium Siege Cannon",
-			id = 119
+			id = 119,
+			description = ""
 		},
 		[5797] = {
-			description = "",
 			name = "Medium Shrapnel Cannon",
-			id = 120
+			id = 120,
+			description = ""
 		},
 		[5795] = {
-			description = "",
 			name = "Medium Hullbreaker Cannon",
-			id = 121
+			id = 121,
+			description = ""
 		},
 		[5817] = {
-			description = "",
 			name = "Medium Drake Head",
-			id = 122
+			id = 122,
+			description = ""
 		},
 		[5799] = {
-			description = "",
 			name = "Medium Mortar Cannon",
-			id = 123
+			id = 123,
+			description = ""
 		},
 		[5819] = {
-			description = "",
 			name = "Medium Broadside Artillery",
-			id = 130
+			id = 130,
+			description = ""
 		},
 		[5816] = {
-			description = "",
 			name = "Large Siege Cannon",
-			id = 124
+			id = 124,
+			description = ""
 		},
 		[5798] = {
-			description = "",
 			name = "Large Shrapnel Cannon",
-			id = 125
+			id = 125,
+			description = ""
 		},
 		[5796] = {
-			description = "",
 			name = "Large Hullbreaker Cannon",
-			id = 126
+			id = 126,
+			description = ""
 		},
 		[5818] = {
-			description = "",
 			name = "Large Drake Head",
-			id = 127
+			id = 127,
+			description = ""
 		},
 		[5800] = {
-			description = "",
 			name = "Large Mortar Cannon",
-			id = 128
+			id = 128,
+			description = ""
 		},
 		[5820] = {
-			description = "",
 			name = "Large Broadside Artillery",
-			id = 131
+			id = 131,
+			description = ""
 		},
 		[5480] = {
-			description = "",
 			name = "Small Floating Mines",
-			id = 135
+			id = 135,
+			description = ""
 		},
 		[5481] = {
-			description = "",
 			name = "Small Grappling Hooks",
-			id = 132
+			id = 132,
+			description = ""
 		},
 		[5801] = {
-			description = "",
 			name = "Medium Floating Mines",
-			id = 136
+			id = 136,
+			description = ""
 		},
 		[5803] = {
-			description = "",
 			name = "Medium Grappling Hooks",
-			id = 133
+			id = 133,
+			description = ""
 		},
 		[5802] = {
-			description = "",
 			name = "Large Floating Mines",
-			id = 137
+			id = 137,
+			description = ""
 		},
 		[5804] = {
-			description = "",
 			name = "Large Grappling Hooks",
-			id = 134
+			id = 134,
+			description = ""
 		},
 		[AbilityBarCategoryShip] = {
 			[96] = "Repair",
@@ -1725,9 +1725,10 @@ function AbilityBar.onKeyPressed(widget, key, autoRepeatTicks, keyCombo)
 		return
 	end
 
+	local isBladestorm = slot and slot.abilityId and slot.abilityId == 106
 	local isIgnoreChannelingItem = slot and slot.clientId and table.contains(AbilityBarIgnoreChannelingItemIds, slot.clientId)
 
-	if not isIgnoreChannelingItem and player:isChanneling() then
+	if not isIgnoreChannelingItem and player:isChanneling() and not isBladestorm then
 		return false
 	end
 

@@ -51,8 +51,8 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("skill_tree")
 
 					GameInteractions:displayActionBox({
-						text = "Press K or Left-Click to open your Skill Tree menu",
 						bandit = true,
+						text = "Press K or Left-Click to open your Skill Tree menu",
 						preferSide = "top",
 						keys = {
 							"K",
@@ -257,8 +257,8 @@ tasks = {
 				end
 
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "Remember, remaining skill points can be used on any skill tree. Don't forget to spend them!",

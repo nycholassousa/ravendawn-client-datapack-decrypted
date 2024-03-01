@@ -23,9 +23,9 @@ artifacts = {
 	},
 	regions = {
 		["Sajecho Island"] = {
-			artifact_name = "Lost Shipments",
-			total_artifacts = 140,
 			artifact_icon = "lost_shipments",
+			total_artifacts = 140,
+			artifact_name = "Lost Shipments",
 			type = PROGRESSION_TYPE_CUMULATIVE,
 			acquire = {
 				{
@@ -41,16 +41,16 @@ artifacts = {
 					}
 				},
 				{
-					description = "Slaying creatures in Sajecho Island will occasionally result in finding Lost Shipments.",
-					limit = 95
+					limit = 95,
+					description = "Slaying creatures in Sajecho Island will occasionally result in finding Lost Shipments."
 				},
 				{
-					description = "Obtain Lost Shipments by participating in dynamic and environmental events from Sajecho.",
-					limit = 5
+					limit = 5,
+					description = "Obtain Lost Shipments by participating in dynamic and environmental events from Sajecho."
 				},
 				{
-					description = "Obtain 10 Lost Shipments by helping Fisher in Orca Bay.",
-					limit = 10
+					limit = 10,
+					description = "Obtain 10 Lost Shipments by helping Fisher in Orca Bay."
 				}
 			},
 			rewards = {
@@ -119,10 +119,10 @@ artifacts = {
 							x = 4738
 						},
 						{
-							z = 12,
-							x = 4794,
 							size = 7,
 							y = 5107,
+							z = 12,
+							x = 4794,
 							floorInfo = {
 								at = 12
 							}
@@ -164,9 +164,9 @@ artifacts = {
 			},
 			rewards = {
 				{
-					artifact_name = "Adamastor's Earrings",
 					artifact_icon = "adamastor's_earrings",
 					description = "Unlocks access to all crafting stations in Seabreeze. Increases labor in all professions by 10.",
+					artifact_name = "Adamastor's Earrings",
 					positions = {
 						{
 							z = 6,
@@ -177,9 +177,9 @@ artifacts = {
 					}
 				},
 				{
-					artifact_name = "Lost Earrings",
 					artifact_icon = "lost_earrings",
 					description = "The private lounge of the Freelooters Syndicate in Seabreeze is now open to you, offering opportunities for trade and cosmetic obtainment.",
+					artifact_name = "Lost Earrings",
 					positions = {
 						{
 							z = 7,
@@ -190,9 +190,9 @@ artifacts = {
 					}
 				},
 				{
-					artifact_name = "Galien's Earrings",
 					artifact_icon = "galien's_earrings",
 					description = "Krz'k, a strange zorian, will grant you passage into the Maw Caverns, below Galien's Island.",
+					artifact_name = "Galien's Earrings",
 					positions = {
 						{
 							z = 8,
@@ -203,9 +203,9 @@ artifacts = {
 					}
 				},
 				{
-					artifact_name = "Phantom Earrings",
 					artifact_icon = "phantom_earrings",
 					description = "A Spirit of Redemption will open the path to the secret dungeon below Harbor Island's Lighthouse.",
+					artifact_name = "Phantom Earrings",
 					positions = {
 						{
 							z = 8,
@@ -216,10 +216,10 @@ artifacts = {
 					}
 				},
 				{
-					artifact_name = "All Earrings",
-					total_artifacts = 4,
-					description = "Chase Eagle, the legendary pirate captain, will offer a reward if you manage to find him in Harbor Island.",
 					artifact_icon = "all_earrings",
+					total_artifacts = 4,
+					artifact_name = "All Earrings",
+					description = "Chase Eagle, the legendary pirate captain, will offer a reward if you manage to find him in Harbor Island.",
 					positions = {
 						{
 							z = 7,
@@ -232,26 +232,26 @@ artifacts = {
 			}
 		},
 		["Gilead Island"] = {
-			artifact_name = "Ancient Runes",
-			total_artifacts = 50,
 			artifact_icon = "ancient_rune",
+			total_artifacts = 50,
+			artifact_name = "Ancient Runes",
 			type = PROGRESSION_TYPE_CUMULATIVE,
 			acquire = {
 				{
-					description = "Fishing in the waters of Gilead Island will occasionally result in finding Ancient Runes.",
-					limit = 10
+					limit = 10,
+					description = "Fishing in the waters of Gilead Island will occasionally result in finding Ancient Runes."
 				},
 				{
-					description = "Slaying Kaimans in Gilead Island will occasionally result in finding Ancient Runes.",
-					limit = 15
+					limit = 15,
+					description = "Slaying Kaimans in Gilead Island will occasionally result in finding Ancient Runes."
 				},
 				{
-					description = "Slaying Saurians in Gilead Island will occasionally result in finding Ancient Runes.",
-					limit = 15
+					limit = 15,
+					description = "Slaying Saurians in Gilead Island will occasionally result in finding Ancient Runes."
 				},
 				{
-					description = "Obtain Ancient Runes by participating in dynamic and environmental events from Gilead.",
-					limit = 10
+					limit = 10,
+					description = "Obtain Ancient Runes by participating in dynamic and environmental events from Gilead."
 				}
 			},
 			rewards = {
@@ -332,9 +332,9 @@ artifacts = {
 			},
 			rewards = {
 				{
-					artifact_name = "Patchwork Jolly Roger",
 					artifact_icon = "sajecho_jolly_roger",
 					description = "Unlocks access to hidden pirate docks on remote beach islands scattered at sea.",
+					artifact_name = "Patchwork Jolly Roger",
 					positions = {
 						{
 							z = 7,
@@ -345,9 +345,9 @@ artifacts = {
 					}
 				},
 				{
-					artifact_name = "Gilead Jolly Roger",
 					artifact_icon = "gilead_jolly_roger",
 					description = "Unlocks access to hidden pirate docks on remote jungle islands scattered at sea.",
+					artifact_name = "Gilead Jolly Roger",
 					positions = {
 						{
 							z = 7,
@@ -358,9 +358,9 @@ artifacts = {
 					}
 				},
 				{
-					artifact_name = "Charred Jolly Roger",
 					artifact_icon = "harbor_jolly_roger",
 					description = "Unlocks access to hidden pirate docks on remote rocky islands scattered at sea.",
+					artifact_name = "Charred Jolly Roger",
 					positions = {
 						{
 							z = 7,
@@ -373,9 +373,9 @@ artifacts = {
 			}
 		},
 		["Hadarak Desert"] = {
-			artifact_name = "Ankh",
-			total_artifacts = 10,
 			artifact_icon = "ankh",
+			total_artifacts = 10,
+			artifact_name = "Ankh",
 			type = PROGRESSION_TYPE_CUMULATIVE,
 			acquire = {
 				{
@@ -403,12 +403,12 @@ artifacts = {
 					}
 				},
 				{
-					description = "Slaying the Ghaz in Hadarak Desert might result in discovering an Ankh.",
-					limit = 1
+					limit = 1,
+					description = "Slaying the Ghaz in Hadarak Desert might result in discovering an Ankh."
 				},
 				{
-					description = "Search the treasures at the Temple of Alq'walen to obtain an Ankh.",
-					limit = 1
+					limit = 1,
+					description = "Search the treasures at the Temple of Alq'walen to obtain an Ankh."
 				},
 				{
 					limit = 1,
@@ -423,8 +423,8 @@ artifacts = {
 					}
 				},
 				{
-					description = "Complete the dynamic quest \"A Sludging Mess\" to obtain an Ankh as a potential reward.",
-					limit = 1
+					limit = 1,
+					description = "Complete the dynamic quest \"A Sludging Mess\" to obtain an Ankh as a potential reward."
 				},
 				{
 					limit = 1,
@@ -451,12 +451,12 @@ artifacts = {
 					}
 				},
 				{
-					description = "Slaying either Jackals or Djinns in the Riftsand might result in discovering an Ankh.",
-					limit = 1
+					limit = 1,
+					description = "Slaying either Jackals or Djinns in the Riftsand might result in discovering an Ankh."
 				},
 				{
-					description = "Exchange Aether Dust with Dido, at Sandscar Sanctuary, or Beastly Distillate with Belshazzar, in the Temple of Quorras, to obtain an Ankh.",
-					limit = 1
+					limit = 1,
+					description = "Exchange Aether Dust with Dido, at Sandscar Sanctuary, or Beastly Distillate with Belshazzar, in the Temple of Quorras, to obtain an Ankh."
 				}
 			},
 			rewards = {
@@ -555,10 +555,10 @@ artifacts = {
 					description = "Unlocks either an ancient door located in the Temple of Quorras or one in Sandscar Sanctuary.",
 					positions = {
 						{
-							z = 8,
-							x = 5965,
 							size = 7,
 							y = 5555,
+							z = 8,
+							x = 5965,
 							callback = function()
 								local questLog = modules.game_questlog.GameQuestLog
 
@@ -566,10 +566,10 @@ artifacts = {
 							end
 						},
 						{
-							z = 7,
-							x = 6025,
 							size = 7,
 							y = 5342,
+							z = 7,
+							x = 6025,
 							callback = function()
 								local questLog = modules.game_questlog.GameQuestLog
 
@@ -605,9 +605,9 @@ artifacts = {
 			}
 		},
 		["Zephyr Vale"] = {
-			artifact_name = "Ethereal Veil",
-			total_artifacts = 6,
 			artifact_icon = "ethereal_veil",
+			total_artifacts = 6,
+			artifact_name = "Ethereal Veil",
 			type = PROGRESSION_TYPE_CUMULATIVE,
 			acquire = {
 				{
@@ -623,8 +623,8 @@ artifacts = {
 					}
 				},
 				{
-					description = "Complete either of the dynamic quests \"An Escort to Truce\", \"An Escort to Bastion\" or \"An Escort to Defiance\" to obtain 1 Ethereal Veil.",
-					limit = 1
+					limit = 1,
+					description = "Complete either of the dynamic quests \"An Escort to Truce\", \"An Escort to Bastion\" or \"An Escort to Defiance\" to obtain 1 Ethereal Veil."
 				},
 				{
 					limit = 1,
@@ -639,16 +639,16 @@ artifacts = {
 					}
 				},
 				{
-					description = "Slay Hookmasks in Zephyr Vale to obtain 1 Ethereal Veil, with a low drop rate.",
-					limit = 1
+					limit = 1,
+					description = "Slay Hookmasks in Zephyr Vale to obtain 1 Ethereal Veil, with a low drop rate."
 				},
 				{
-					description = "Slay Morningstars in Zephyr Vale to obtain 1 Ethereal Veil, with a low drop rate.",
-					limit = 1
+					limit = 1,
+					description = "Slay Morningstars in Zephyr Vale to obtain 1 Ethereal Veil, with a low drop rate."
 				},
 				{
-					description = "Complete the dynamic quest \"When the Eastern Wind Blows\" to obtain 1 Ethereal Veil.",
-					limit = 1
+					limit = 1,
+					description = "Complete the dynamic quest \"When the Eastern Wind Blows\" to obtain 1 Ethereal Veil."
 				}
 			},
 			rewards = {
@@ -701,8 +701,8 @@ artifacts = {
 					}
 				},
 				{
-					description = "Creatures from the Morningstar Family will not attack you unless you attack them first or gather resources near them.",
-					requirement = 5
+					requirement = 5,
+					description = "Creatures from the Morningstar Family will not attack you unless you attack them first or gather resources near them."
 				},
 				{
 					requirement = 6,
@@ -719,18 +719,18 @@ artifacts = {
 			}
 		},
 		Glaceforde = {
-			artifact_name = "Frozen Sigil",
-			total_artifacts = 5,
 			artifact_icon = "frozen_sigil",
+			total_artifacts = 5,
+			artifact_name = "Frozen Sigil",
 			type = PROGRESSION_TYPE_CUMULATIVE,
 			acquire = {
 				{
-					description = "Slaying magically proficient creatures in Glaceforde will occasionally result in finding a Frozen Sigil.",
-					limit = 1
+					limit = 1,
+					description = "Slaying magically proficient creatures in Glaceforde will occasionally result in finding a Frozen Sigil."
 				},
 				{
-					description = "Exchange Igneous Ice Shards with Kalas, in Saint Alsek, the furthest city to the west in Glaceforde, to obtain a Frozen Sigil.",
-					limit = 1
+					limit = 1,
+					description = "Exchange Igneous Ice Shards with Kalas, in Saint Alsek, the furthest city to the west in Glaceforde, to obtain a Frozen Sigil."
 				},
 				{
 					limit = 1,
@@ -745,8 +745,8 @@ artifacts = {
 					}
 				},
 				{
-					description = "Exchange Oceanic Tears with Ivar in Far Naddod, the furthest village to the north in Glaceforde, to obtain a Frozen Sigil.",
-					limit = 1
+					limit = 1,
+					description = "Exchange Oceanic Tears with Ivar in Far Naddod, the furthest village to the north in Glaceforde, to obtain a Frozen Sigil."
 				},
 				{
 					limit = 1,

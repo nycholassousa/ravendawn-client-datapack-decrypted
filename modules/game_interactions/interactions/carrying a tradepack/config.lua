@@ -31,9 +31,9 @@ tasks = {
 					local parentWidget = modules.game_menu.Menu.window:recursiveGetChildById("tradepack")
 
 					GameInteractions:displayActionBox({
+						bandit = true,
 						preferSide = "top",
 						text = "Press T or Left-Click to open your Tradepacks menu",
-						bandit = true,
 						keys = {
 							"T",
 							MouseLeftButton
@@ -64,8 +64,8 @@ tasks = {
 			},
 			onStartInteraction = function(self)
 				GameInteractions:displayDescriptionBox({
-					preferSide = "right",
 					bandit = true,
+					preferSide = "right",
 					pages = {
 						{
 							text = "Everything inside this list can be crafted if you have the correct ingredients"
@@ -107,9 +107,9 @@ tasks = {
 				end
 
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "right",
 					text = "Select any Tradepack from the list and have a look!",
-					bandit = true,
 					keys = {
 						MouseLeftButton
 					},
@@ -149,8 +149,8 @@ tasks = {
 				end
 
 				GameInteractions:displayDescriptionBox({
-					preferSide = "top",
 					bandit = true,
+					preferSide = "top",
 					pages = {
 						{
 							text = "A good thing to remember when you're deciding where to sell your supplies is the Tradeposts' demand!"
@@ -211,9 +211,9 @@ tasks = {
 				local tradepacksWindow = modules.game_tradepacks.GameTradepacks.window
 
 				GameInteractions:displayActionBox({
+					bandit = true,
 					preferSide = "top",
 					text = "Now open your Tradepack Bags",
-					bandit = true,
 					keys = {
 						MouseLeftButton
 					},
@@ -253,8 +253,8 @@ tasks = {
 				end
 
 				GameInteractions:displayDescriptionBox({
-					preferSide = "left",
 					bandit = true,
+					preferSide = "left",
 					pages = {
 						{
 							text = "Keep in mind you have only a single Tradepack slot in your character",

@@ -8,8 +8,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -18,8 +18,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -28,8 +28,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -38,8 +38,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -48,8 +48,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -58,8 +58,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -68,8 +68,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -78,8 +78,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -88,8 +88,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -98,8 +98,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -108,8 +108,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -118,8 +118,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -128,8 +128,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -138,8 +138,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -148,8 +148,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -158,8 +158,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -168,8 +168,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -178,8 +178,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -188,8 +188,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -198,8 +198,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -208,8 +208,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -218,8 +218,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -228,8 +228,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -238,8 +238,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -248,8 +248,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -258,8 +258,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -268,8 +268,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -278,8 +278,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -288,8 +288,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -298,8 +298,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -308,8 +308,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -318,8 +318,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -328,8 +328,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -338,8 +338,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -348,8 +348,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -358,8 +358,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -368,8 +368,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -378,8 +378,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -388,8 +388,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -398,8 +398,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -408,8 +408,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -418,8 +418,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -428,8 +428,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -438,8 +438,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -448,8 +448,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -458,8 +458,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -468,8 +468,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -478,8 +478,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		},
 		{
@@ -488,8 +488,8 @@ FramesDataset = {
 				width = 113
 			},
 			offset = {
-				y = -6,
-				x = -7
+				x = -7,
+				y = -6
 			}
 		}
 	}

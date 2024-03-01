@@ -384,8 +384,8 @@ function GameCards:animate(type, cycle, position, animation_widget, cardData, re
 		else
 			animation_widget:setImageSize(animation_widget:getSize())
 			animation_widget:setImageOffset({
-				y = 0,
-				x = 0
+				x = 0,
+				y = 0
 			})
 		end
 
@@ -584,8 +584,8 @@ function GameCards:animate(type, cycle, position, animation_widget, cardData, re
 				})
 
 				animation:fadeIn({
-					finish = 6,
 					start = 1,
+					finish = 6,
 					opacity = 1
 				})
 				animation:move({
@@ -596,8 +596,8 @@ function GameCards:animate(type, cycle, position, animation_widget, cardData, re
 					}
 				})
 				animation:fadeOut({
-					finish = 36,
 					start = 7,
+					finish = 36,
 					opacity = 0
 				})
 				animation:start()

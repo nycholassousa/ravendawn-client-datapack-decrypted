@@ -21,19 +21,19 @@ professionIdToSound = {
 	[ProfessionWeaving] = 122785042
 }
 resetCost = {
-	ravencoinsPerPoint = 50
+	dawnEssencePerPoint = 50
 }
 professionToOrder = {
+	blacksmithing = 6,
+	fishing = 5,
+	husbandry = 4,
+	farming = 3,
 	woodcutting = 2,
 	mining = 1,
 	breeding = 10,
 	cooking = 9,
 	weaving = 8,
-	carpentry = 7,
-	blacksmithing = 6,
-	fishing = 5,
-	husbandry = 4,
-	farming = 3
+	carpentry = 7
 }
 professionToTitle = {
 	blacksmithing = "Materials",
@@ -44,43 +44,43 @@ professionToTitle = {
 	carpentry = "Materials"
 }
 traitToFormat = {
-	abilityChancePercent = "%",
+	height = "cm",
 	traitChancePercent = "%",
 	weight = "kg",
-	height = "cm"
+	abilityChancePercent = "%"
 }
 breedingAttributes = {
 	strength = {
-		name = "Strength",
-		icon = "strength"
+		icon = "strength",
+		name = "Strength"
 	},
 	weight = {
-		name = "Weight",
-		icon = "weight"
+		icon = "weight",
+		name = "Weight"
 	},
 	traitChancePercent = {
-		name = "Trait Chance",
-		icon = "trait"
+		icon = "trait",
+		name = "Trait Chance"
 	},
 	abilityTierCap = {
-		name = "Ability Tier Cap",
-		icon = "ability"
+		icon = "ability",
+		name = "Ability Tier Cap"
 	},
 	maxAbilities = {
-		name = "Ability Number",
-		icon = "ability"
+		icon = "ability",
+		name = "Ability Number"
 	},
 	abilityChancePercent = {
-		name = "Ability Chance",
-		icon = "ability"
+		icon = "ability",
+		name = "Ability Chance"
 	},
 	height = {
-		name = "Height",
-		icon = "height"
+		icon = "height",
+		name = "Height"
 	},
 	speed = {
-		name = "Speed",
-		icon = "speed"
+		icon = "speed",
+		name = "Speed"
 	}
 }
 passiveDescription = {
@@ -88,29 +88,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases mining experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Increases mining speed by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		resources = {
 			text = "Grants %d%% chance to gain double amount of materials from mining.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases chance to yield gems from mining by %d%%.",
 			values = {
-				medium = 8,
-				small = 5
+				small = 5,
+				medium = 8
 			}
 		},
 		unique = {
@@ -122,29 +122,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases woodcutting experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Increases woodcutting speed by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		resources = {
 			text = "Grants %d%% chance to gain double amount of materials from woodcutting.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases chance to yield dense log from woodcutting by %d%%.",
 			values = {
-				medium = 8,
-				small = 5
+				small = 5,
+				medium = 8
 			}
 		},
 		unique = {
@@ -156,29 +156,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases farming experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Increases harvesting speed by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		resources = {
 			text = "Grants %d%% chance to gain double amount of materials from harvesting.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases chance to yield three-leaf clover from harvesting by %d%%.",
 			values = {
-				medium = 8,
-				small = 5
+				small = 5,
+				medium = 8
 			}
 		},
 		unique = {
@@ -190,29 +190,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases husbandry experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Increases gathering and butchering speed by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		resources = {
 			text = "Grants %d%% chance to gain double amount of materials from gathering and butchering.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases chance to yield fertilizer from gathering animals by %d%%.",
 			values = {
-				medium = 8,
-				small = 5
+				small = 5,
+				medium = 8
 			}
 		},
 		unique = {
@@ -224,29 +224,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases fishing experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Increases speed of getting fish on the line by %d%%.",
 			values = {
-				medium = 8,
-				small = 5
+				small = 5,
+				medium = 8
 			}
 		},
 		resources = {
 			text = "Fishing abilities deal %d%% more damage.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases fish weight by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		unique = {
@@ -258,29 +258,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases cooking experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Increases cooking labor by %d.",
 			values = {
-				medium = 8,
-				small = 5
+				small = 5,
+				medium = 8
 			}
 		},
 		resources = {
 			text = "Increases effectiveness of Synthesis abilities by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases effectiveness of Touch abilities by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		unique = {
@@ -297,29 +297,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases blacksmithing experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Increases blacksmithing labor by %d.",
 			values = {
-				medium = 8,
-				small = 5
+				small = 5,
+				medium = 8
 			}
 		},
 		resources = {
 			text = "Increases effectiveness of Synthesis abilities by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases effectiveness of Touch abilities by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		unique = {
@@ -336,29 +336,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases carpentry experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Increases carpentry labor by %d.",
 			values = {
-				medium = 8,
-				small = 5
+				small = 5,
+				medium = 8
 			}
 		},
 		resources = {
 			text = "Increases effectiveness of Synthesis abilities by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases effectiveness of Touch abilities by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		unique = {
@@ -375,29 +375,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases weaving experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Increases weaving labor by %d.",
 			values = {
-				medium = 8,
-				small = 5
+				small = 5,
+				medium = 8
 			}
 		},
 		resources = {
 			text = "Increases effectiveness of Synthesis abilities by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases effectiveness of Touch abilities by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		unique = {
@@ -414,29 +414,29 @@ passiveDescription = {
 		experience = {
 			text = "Increases breeding experience gain by %d%%.",
 			values = {
-				medium = 5,
-				small = 3
+				small = 3,
+				medium = 5
 			}
 		},
 		speed = {
 			text = "Decreases hatching time by %d hours.",
 			values = {
-				medium = 3,
-				small = 1
+				small = 1,
+				medium = 3
 			}
 		},
 		resources = {
 			text = "Increases the chance at breeding a Moa with a trait by %d%%.",
 			values = {
-				medium = 5,
-				small = 2
+				small = 2,
+				medium = 5
 			}
 		},
 		rarity = {
 			text = "Increases maximum tier swing by %d%%.",
 			values = {
-				medium = 4,
-				small = 2
+				small = 2,
+				medium = 4
 			}
 		},
 		unique = {
@@ -454,8 +454,8 @@ passiveTypeName = {
 	"specialization"
 }
 passiveNameType = {
-	rarity = 4,
 	experience = 1,
+	rarity = 4,
 	resources = 3,
 	speed = 2,
 	specialization = 6,
@@ -463,11 +463,11 @@ passiveNameType = {
 }
 categoryIndexes = {
 	cooking = {
+		moa = 5,
 		meals = 4,
 		drinks = 3,
 		["baked goods"] = 2,
-		ingredients = 1,
-		moa = 5
+		ingredients = 1
 	},
 	weaving = {
 		["ship attachments"] = 7,
@@ -479,23 +479,23 @@ categoryIndexes = {
 		cloth = 1
 	},
 	carpentry = {
-		["ship attachments"] = 7,
+		planks = 1,
 		fishing = 3,
-		["ship components"] = 6,
 		["wagon components"] = 5,
 		["housing components"] = 4,
 		weapons = 2,
-		planks = 1
+		["ship components"] = 6,
+		["ship attachments"] = 7
 	},
 	blacksmithing = {
-		whetstones = 4,
-		armors = 3,
 		ingots = 1,
 		fishing = 6,
 		["ship attachments"] = 8,
 		["housing components"] = 7,
 		weapons = 2,
-		materials = 5
+		materials = 5,
+		whetstones = 4,
+		armors = 3
 	}
 }
 chanceNameType = {

@@ -1,12 +1,12 @@
 ﻿-- chunkname: @/modules/game_npcs/bank.lua
 
 GameBank = {
+	defaultNpcName = "Munk Keeper",
+	currentFilterType = "all",
 	inboxDepotInitialSize = 100,
 	bankDepotInitialSize = 35,
 	maxSlots = 140,
 	slotsPerRow = 7,
-	defaultNpcName = "Munk Keeper",
-	currentFilterType = "all",
 	types = {
 		[CONTAINER_TYPE_DEPOT] = true,
 		[CONTAINER_TYPE_HOUSE_DEPOT] = true,

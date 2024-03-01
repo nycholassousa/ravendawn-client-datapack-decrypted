@@ -1,10 +1,10 @@
 ﻿-- chunkname: @/modules/game_inventory/inventory.lua
 
 GameInventory = {
+	currentFilterType = "all",
 	inventoryInitialSize = 48,
 	maxSlots = 120,
-	slotsPerRow = 6,
-	currentFilterType = "all"
+	slotsPerRow = 6
 }
 
 function GameInventory:loadConfig()

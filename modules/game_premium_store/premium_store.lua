@@ -1,8 +1,8 @@
 ﻿-- chunkname: @/modules/game_premium_store/premium_store.lua
 
 GamePremiumStore = {
-	max_items_per_row = 4,
 	lastRequestTime = 0,
+	max_items_per_row = 4,
 	panels = {},
 	gridCategories = {
 		Cosmetics = true,
@@ -216,9 +216,9 @@ function GamePremiumStore:setupRavenpacksPanel(items)
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
 					["&textAlign"] = "left",
-					["&iconAlign"] = "left",
 					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
+					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 				})
 				purchase_button:setText(item.price)
@@ -240,9 +240,9 @@ function GamePremiumStore:setupRavenpacksPanel(items)
 			purchase_button2.icon:setChecked(true)
 			purchase_button2:onStyleApply(purchase_button2:getStyleName(), {
 				["&textAlign"] = "left",
-				["&iconAlign"] = "left",
 				["&textMarginLeft"] = "45",
 				["&iconOffset"] = "20 0",
+				["&iconAlign"] = "left",
 				["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.additionalCurrency)
 			})
 			purchase_button2:setText(item.additionalPrice)
@@ -355,9 +355,9 @@ function GamePremiumStore:setupLimitedEditionBundles(items)
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
 					["&textAlign"] = "left",
-					["&iconAlign"] = "left",
 					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
+					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 				})
 				purchase_button:setText(item.price)
@@ -478,9 +478,9 @@ function GamePremiumStore:setupPremiumPanel(items)
 			purchase_button.icon:setChecked(true)
 			purchase_button:onStyleApply(purchase_button:getStyleName(), {
 				["&textAlign"] = "left",
-				["&iconAlign"] = "left",
 				["&textMarginLeft"] = "45",
 				["&iconOffset"] = "20 0",
+				["&iconAlign"] = "left",
 				["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 			})
 			purchase_button:setText(item.price)
@@ -621,9 +621,9 @@ function GamePremiumStore:setupServicesPanel(items)
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
 					["&textAlign"] = "left",
-					["&iconAlign"] = "left",
 					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
+					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 				})
 				purchase_button:setText(item.price)
@@ -671,9 +671,9 @@ function GamePremiumStore:setupCosmeticsPanel(items)
 				purchase_button.icon:setChecked(true)
 				purchase_button:onStyleApply(purchase_button:getStyleName(), {
 					["&textAlign"] = "left",
-					["&iconAlign"] = "left",
 					["&textMarginLeft"] = "45",
 					["&iconOffset"] = "20 0",
+					["&iconAlign"] = "left",
 					["&iconPath"] = string.format("/images/ui/windows/premium_store/icon_purchase_%s", item.currency)
 				})
 				purchase_button:setText(item.price)
