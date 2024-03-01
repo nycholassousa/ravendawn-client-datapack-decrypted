@@ -216,10 +216,6 @@ function onExtendedOpcode(protocol, opcode, buffer)
 		swapChannelBtn:setStyle("DisabledButton")
 
 		for _, info in pairs(data.channels) do
-			if bit.band(info.flags, CHANNEL_FLAG_WARMODE) == CHANNEL_FLAG_WARMODE then
-				info.name = info.name:gsub("#%d+", "")
-			end
-
 			if info.id == G.currentChannelId then
 				currentChannel.channelLbl:setText(tr("%s", info.name))
 			else

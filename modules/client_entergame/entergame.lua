@@ -8,10 +8,10 @@ local window, logo, loginButton, regionsPanel, loadingRegionsPanel, loadBox, mot
 local motdEnabled = true
 local infoMessage, accountNameTextEdit, accountPasswordTextEdit, authTokenTextEdit, currentLoginService, rememberPasswordBox, _onRefreshWorldsList, localePanel, tunnelingServicePanel, localeSelectConfirmBox
 local WorldsShortName = {
-	["South America"] = "SA",
 	Europe = "EU",
 	["North America"] = "NA",
-	Asia = "SEA"
+	Asia = "SEA",
+	["South America"] = "SA"
 }
 
 local function onError(protocol, message, errorCode)
@@ -232,7 +232,7 @@ function EnterGame.init()
 
 	tunnelingServicePanel = window:recursiveGetChildById("tunneling_service_panel")
 
-	tunnelingServicePanel.checkbox:setChecked(g_settings.getBoolean("tunnelingServiceEnabled", true))
+	tunnelingServicePanel.checkbox:setChecked(g_settings.getBoolean("tunnelingServiceEnabled2", false))
 	window:show()
 	EnterGame.setDefault()
 end
@@ -562,10 +562,10 @@ end
 
 function EnterGame.setLoginRegion(widget, region)
 	local ips = {
+		brazil = "18.230.198.212",
 		usa = "44.234.32.107",
 		europe = "3.250.128.128",
-		sea = "18.141.143.79",
-		brazil = "18.230.198.212"
+		sea = "18.141.143.79"
 	}
 
 	APP_LOGIN_IP_ADDRESS = ips[region] or APP_LOGIN_IP_ADDRESS
@@ -725,5 +725,5 @@ end
 function EnterGame.setTunnelingServiceEnabled(enabled)
 	EnterGame.tunnelingServiceEnabled = enabled
 
-	g_settings.set("tunnelingServiceEnabled", enabled)
+	g_settings.set("tunnelingServiceEnabled2", enabled)
 end

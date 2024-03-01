@@ -6,6 +6,11 @@ TunnelingServicePanel < UIWidget
     checked: true
     id: checkbox
     @onCheckChange: |
+      if self:isChecked() and g_app.isOnInputEvent() then
+        local errorBox = displayErrorBox(tr('Tunneling Service'), tr('By turning the Latency Tunneling Service on, the game will try to connect you through alternative routes to improve performance. If you experience any kind of problem with latency or connection, return and disable it to restore your route.'), nil, nil, true)
+        connect(errorBox, { onOk = EnterGame.show })
+      end
+
       addEvent(function()
         EnterGame.setTunnelingServiceEnabled(self:isChecked())
       end)
